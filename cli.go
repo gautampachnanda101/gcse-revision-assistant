@@ -1,10 +1,12 @@
 package main
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"io"
 	"net"
+	"net/http"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -180,6 +182,22 @@ func runDoctor(opts options) error {
 	addr := net.JoinHostPort("127.0.0.1", strconv.Itoa(opts.port))
 	healthy := alreadyRunning(addr)
 	fmt.Printf("%-20s %s (%s)\n", s.dim("App"), map[bool]string{true: s.green("healthy"), false: s.yellow("not running")}[healthy], browserURL(opts.port))
+	if healthy {
+		res, err := http.Get("http://" + addr + "/api/info")
+		if err == nil {
+			defer res.Body.Close()
+			var info struct {
+				Version string `json:"version"`
+			}
+			if json.NewDecoder(res.Body).Decode(&info) == nil && info.Version != "" {
+				if info.Version == version {
+					fmt.Printf("%-20s %s (%s)\n", s.dim("Running version"), s.green(info.Version), "matches this CLI")
+				} else {
+					fmt.Printf("%-20s %s (CLI is %s; run gcse-revision service restart)\n", s.dim("Running version"), s.yellow(info.Version), version)
+				}
+			}
+		}
+	}
 	fmt.Printf("%-20s %s\n", s.dim("Cache"), dataDir())
 	fmt.Printf("%-20s %s\n", s.dim("Private packs"), privatePacksDir())
 	autoUpgrade := envOr("GCSE_REVISION_AUTO_UPDATE", "1") == "1" && !opts.noAutoUp && !opts.offline

@@ -187,7 +187,16 @@ func startService() error {
 	switch runtime.GOOS {
 	case "darwin":
 		home, _ := os.UserHomeDir()
-		cmd = exec.Command("launchctl", "bootstrap", "gui/"+currentUserID(), filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist"))
+		plist := filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist")
+		out, err := exec.Command("launchctl", "bootstrap", "gui/"+currentUserID(), plist).CombinedOutput()
+		if err == nil {
+			return nil
+		}
+		out2, err2 := exec.Command("launchctl", "load", "-w", plist).CombinedOutput()
+		if err2 != nil {
+			return fmt.Errorf("start service: bootstrap: %s: %v; load: %s: %w", out, err, out2, err2)
+		}
+		return nil
 	case "linux":
 		cmd = exec.Command("systemctl", "--user", "start", serviceUnit())
 	case "windows":
@@ -213,11 +222,19 @@ func stopService() error {
 	default:
 		return fmt.Errorf("background service is not supported on %s", runtime.GOOS)
 	}
+
 	out, err := cmd.CombinedOutput()
 	if err != nil && !serviceNotFound(string(out)) {
 		return fmt.Errorf("stop service: %s: %w", out, err)
 	}
 	return nil
+}
+
+func restartService() error {
+	if err := stopService(); err != nil {
+		return err
+	}
+	return startService()
 }
 
 func uninstallService() error {

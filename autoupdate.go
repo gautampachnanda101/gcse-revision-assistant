@@ -68,6 +68,13 @@ func upgradeCommand(ctx context.Context) error {
 	}
 	if !updated {
 		logf("GCSE Revision %s is already current.", version)
+		return nil
+	}
+	if running, _, _ := serviceStatus(); running {
+		logf("Restarting the background service with the upgraded version…")
+		if err := restartService(); err != nil {
+			return err
+		}
 	}
 	return nil
 }

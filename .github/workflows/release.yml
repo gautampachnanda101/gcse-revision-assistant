@@ -137,6 +137,10 @@ jobs:
               bin.install "gcse-revision"
             end
 
+            def post_install
+              system "#{bin}/gcse-revision", "service", "restart" if quiet_system("#{bin}/gcse-revision", "service", "status")
+            end
+
             def caveats
               <<~EOS
                 Start the per-user background service with:
