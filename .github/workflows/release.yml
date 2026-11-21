@@ -138,11 +138,7 @@ jobs:
             end
 
             def post_install
-              if quiet_system("#{bin}/gcse-revision", "service", "status")
-                system "#{bin}/gcse-revision", "service", "restart"
-              else
-                system "#{bin}/gcse-revision", "service", "install"
-              end
+              system "#{bin}/gcse-revision", "service", "install"
             end
 
             def caveats
