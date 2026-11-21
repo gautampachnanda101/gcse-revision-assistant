@@ -8,8 +8,8 @@ window.REVISION_MANIFEST={
    "board": "Edexcel International GCSE",
    "category": "Religious Studies",
    "file": "data/christianity.js",
-   "sha256": "946efda54350f8f49186c34cd87ad29671c0635e4e648a53802dc98b9c3296e0",
-   "bytes": 229189
+   "sha256": "b9bc61d57a6dff9be3374a0b0fcdde6670d5d07eb30cd92577b4d6c0ee0deb1b",
+   "bytes": 230586
   },
   {
    "id": "aqa_french",
@@ -26,8 +26,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-sikhism.js",
-   "sha256": "50b1deeeac7ce8ff8cf81ad9f36511ae6af81bdd7d05c44c8b46232ace6b1634",
-   "bytes": 204896
+   "sha256": "06e31e2def15017abd2175b31fd351b7789dc3d6db87cdff69a3ce8509d6d20c",
+   "bytes": 206228
   },
   {
    "id": "aqa_rs_a_buddhism",
@@ -35,8 +35,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-buddhism.js",
-   "sha256": "65e7d7b16630c75f89d6865782b1e7bbc0ea1cebfec9448905974b21886add29",
-   "bytes": 244809
+   "sha256": "b87bb02a47e261f9d719ae70eacd9efa238187c7c6064dc1a29c3fe47c90a34b",
+   "bytes": 246141
   },
   {
    "id": "aqa_rs_a_catholic_christianity",
@@ -44,8 +44,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-catholic-christianity.js",
-   "sha256": "20a630984519e9e99d4397f5f7c3e2005e8c1b9d2e9934d9297eaf5e0a875737",
-   "bytes": 209015
+   "sha256": "ff7055938be195e9185078743efe94a30acdbb13fdfd3a7e434d41979f9ba37c",
+   "bytes": 210347
   },
   {
    "id": "aqa_rs_a_christianity",
@@ -53,8 +53,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-christianity.js",
-   "sha256": "cd0c2e85b1444ee77eaec0cc067d40de26861b975686985d20962d7112da83bb",
-   "bytes": 252732
+   "sha256": "e9cf5e93978272c514dc632bf2ccf8d3f188676a7b98210c9f9da7fef8044b4f",
+   "bytes": 254064
   },
   {
    "id": "aqa_rs_a_hinduism",
@@ -62,8 +62,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-hinduism.js",
-   "sha256": "a350c140c0de6e2d7f41c0070dfc07d9e6ee3c55aa9232ae3ec93d57f4ee490d",
-   "bytes": 213011
+   "sha256": "fdf82598d6be3cc0aec1b1ecefe4834c5a2ea1a82c17bc824af697f001006e0b",
+   "bytes": 214343
   },
   {
    "id": "aqa_rs_a_islam",
@@ -71,8 +71,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-islam.js",
-   "sha256": "2a03476e96ecba87a41674ff9f40b19cd81b130685f861954c31e905502becb2",
-   "bytes": 260939
+   "sha256": "fd1a0bf5d959d4cd1118e41b32b4f534ef25cf7cf140c8445d8ff3cd18cf3ba8",
+   "bytes": 262271
   },
   {
    "id": "aqa_rs_a_judaism",
@@ -80,8 +80,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-judaism.js",
-   "sha256": "633298c6888b71c164ee3afe82438cebf4a7d8abc1b75937db739cb046e525f4",
-   "bytes": 239892
+   "sha256": "9cdd5b75142f8a31c7eebe7fead5c75093d4a62855a813905a894d261ca85429",
+   "bytes": 241224
   },
   {
    "id": "aqa_rs_a_themes",
@@ -89,8 +89,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-themes.js",
-   "sha256": "afc892651983aae8f3d8be21043b350d23419bd68655b1a418655d6687c3ec30",
-   "bytes": 218039
+   "sha256": "9523ef1fbc65466c1b17db9379a973a584e38eeaae5319cf1b86593187d4b32d",
+   "bytes": 219371
   },
   {
    "id": "aqa_spanish",

@@ -333,6 +333,13 @@ func assemblePack(id string, base packFile, mods []moduleSource) (packFile, erro
 
 	prefix := strings.ReplaceAll(id, "_", "-")
 	out := base
+	if out.MarkingSchema == nil && cfgString(base.Config, "subjectArea") == "Religious Studies" {
+		out.MarkingSchema = defaultReligiousStudiesMarkingSchema(cfgString(base.Config, "examBoard"))
+		if out.MarkingSchema != nil {
+			out.Config = cloneAnyMap(base.Config)
+			out.Config["markingSchemaId"] = out.MarkingSchema["id"]
+		}
+	}
 	out.Questions = map[string][]packQuestion{}
 	out.ModuleCounts = map[string]int{}
 	out.Notes = nil
@@ -379,6 +386,78 @@ func assemblePack(id string, base packFile, mods []moduleSource) (packFile, erro
 		return packFile{}, fmt.Errorf("%s:\n  - %s", id, strings.Join(problems, "\n  - "))
 	}
 	return out, nil
+}
+
+func cloneAnyMap(in map[string]any) map[string]any {
+	out := make(map[string]any, len(in))
+	for k, v := range in {
+		out[k] = v
+	}
+	return out
+}
+
+func defaultReligiousStudiesMarkingSchema(board string) map[string]any {
+	lower := strings.ToLower(board)
+	switch {
+	case strings.Contains(lower, "aqa"):
+		return map[string]any{
+			"id": "aqa-rs-generic", "title": "AQA Religious Studies · check and adapt",
+			"status": "adaptable", "version": 1,
+			"sourceNotes": "AQA GCSE RS A uses 1/1/4/6/12 question structures and a separate SPaG overlay. Check the current official specification and mark scheme before relying on a mark estimate.",
+			"dsl": `SCHEME AQA Religious Studies adaptable guidance
+COMMAND ALL
+MARKS AUTO
+REQUIRE use accurate subject knowledge and answer the command word
+REQUIRE support religious or non-religious views where the question asks for them
+NEVER invent quotations, sources or official level descriptors
+FEEDBACK be specific, supportive and honest about missing content
+
+COMMAND Explain
+MARKS AUTO
+AWARD 1 one accurate relevant point
+AWARD 1 a clear linked explanation
+
+COMMAND Evaluate
+MARKS AUTO
+BAND 9-12 well-argued evaluation with a justified conclusion
+BAND 5-8 relevant discussion with some evaluation
+BAND 1-4 limited points with little evaluation`,
+			"references": []map[string]any{
+				{"title": "AQA Religious Studies 8062 specification", "url": "https://www.aqa.org.uk/subjects/religious-studies/gcse/religious-studies-8062/specification"},
+				{"title": "AQA scheme of assessment", "url": "https://www.aqa.org.uk/subjects/religious-studies/gcse/religious-studies-8062/specification/scheme-of-assessment"},
+			},
+		}
+	case strings.Contains(lower, "edexcel") || strings.Contains(lower, "pearson"):
+		return map[string]any{
+			"id": "edexcel-rs-generic", "title": "Edexcel Religious Studies · check and adapt",
+			"status": "adaptable", "version": 1,
+			"sourceNotes": "Built from verified public structure and kept generic. Check the official Pearson specification and current mark schemes before relying on a mark estimate.",
+			"dsl": `SCHEME Edexcel Religious Studies adaptable guidance
+COMMAND ALL
+MARKS AUTO
+REQUIRE answer the exact question and use relevant subject knowledge
+REQUIRE explain ideas in language suited to the marks available
+NEVER invent quotations, teachings or official mark allocations
+FEEDBACK identify what is accurate, what is missing, and one precise next step
+
+COMMAND Explain
+MARKS AUTO
+AWARD 1 one accurate and relevant point
+AWARD 1 a clear explanation or supporting development
+
+COMMAND Evaluate
+MARKS AUTO
+BAND 9-12 balanced evaluation with a supported judgement
+BAND 5-8 relevant arguments with some evaluation
+BAND 1-4 limited points or description`,
+			"references": []map[string]any{
+				{"title": "Edexcel International GCSE Religious Studies course materials", "url": "https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-religious-studies-2017.coursematerials.html"},
+				{"title": "Pearson past papers and mark schemes", "url": "https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html"},
+			},
+		}
+	default:
+		return nil
+	}
 }
 
 // privatePacksDir holds packs that are only ever used on this computer (never published or synced),
