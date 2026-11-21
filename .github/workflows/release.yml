@@ -137,14 +137,21 @@ jobs:
               bin.install "gcse-revision"
             end
 
-            def post_install
-              plist = "#{Dir.home}/Library/LaunchAgents/com.gautampachnanda101.gcse-revision.plist"
-              system "#{bin}/gcse-revision", "service", "install" if File.exist?(plist)
+            post_install_steps do
+              on_macos do
+                if_path_exists "Library/LaunchAgents/com.gautampachnanda101.gcse-revision.plist", base: :home do
+                  run "bin/gcse-revision",
+                      base: :prefix,
+                      args: ["service", "install"],
+                      writable_paths: ["Library/LaunchAgents"],
+                      writable_base: :home
+                end
+              end
             end
 
             def caveats
               <<~EOS
-                Start the per-user background service with:
+                If the background service was not already configured, start it with:
                   #{bin}/gcse-revision service install
 
                 The service opens at http://gcse-revision.localhost:8765/ and checks for upgrades automatically.

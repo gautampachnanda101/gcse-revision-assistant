@@ -103,6 +103,10 @@ func installService(opts options) error {
 	if err != nil {
 		return err
 	}
+	exe, err = filepath.EvalSymlinks(exe)
+	if err != nil {
+		return err
+	}
 	if err := os.MkdirAll(serviceDir(), 0o755); err != nil {
 		return err
 	}
