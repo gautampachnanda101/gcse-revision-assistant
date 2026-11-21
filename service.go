@@ -65,10 +65,20 @@ func serviceLabel() string { return "com.gautampachnanda101.gcse-revision" }
 
 func serviceCommand(args []string, opts options) error {
 	if len(args) == 0 {
-		return errors.New("usage: gcse-revision service <install|start|stop|restart|status|logs|uninstall>")
+		return errors.New("usage: gcse-revision service <install|ensure|start|stop|restart|status|logs|uninstall>")
 	}
 	switch args[0] {
 	case "install":
+		return installService(opts)
+	case "ensure":
+		configured, err := serviceConfigured()
+		if err != nil {
+			return err
+		}
+		if !configured {
+			fmt.Println("background service not configured; no action needed")
+			return nil
+		}
 		return installService(opts)
 	case "start":
 		return startService()
@@ -99,6 +109,7 @@ func installService(opts options) error {
 	if err != nil {
 		return err
 	}
+
 	exe, err = filepath.Abs(exe)
 	if err != nil {
 		return err
@@ -181,6 +192,37 @@ WantedBy=default.target
 	}
 	fmt.Printf("installed  %s\n", browserURL(opts.port))
 	return nil
+}
+
+func serviceConfigured() (bool, error) {
+	switch runtime.GOOS {
+	case "darwin":
+		home, err := os.UserHomeDir()
+		if err != nil {
+			return false, err
+		}
+		_, err = os.Stat(filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist"))
+		return err == nil, ignoreMissing(err)
+	case "linux":
+		home, err := os.UserHomeDir()
+		if err != nil {
+			return false, err
+		}
+		_, err = os.Stat(filepath.Join(home, ".config", "systemd", "user", serviceUnit()))
+		return err == nil, ignoreMissing(err)
+	case "windows":
+		err := exec.Command("schtasks", "/Query", "/TN", serviceName).Run()
+		return err == nil, nil
+	default:
+		return false, fmt.Errorf("background service is not supported on %s", runtime.GOOS)
+	}
+}
+
+func ignoreMissing(err error) error {
+	if errors.Is(err, os.ErrNotExist) || err == nil {
+		return nil
+	}
+	return err
 }
 
 func startService() error {

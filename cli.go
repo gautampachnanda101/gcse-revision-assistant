@@ -59,7 +59,7 @@ func writeUsage(w io.Writer) {
 	fmt.Fprintf(w, "  %-40s %s\n", s.green(appName+" version"), "print the installed version")
 
 	fmt.Fprintf(w, "\n%s\n", s.bold("Service commands"))
-	fmt.Fprintf(w, "  %s\n", s.cyan("install  start  stop  restart  status  logs  uninstall"))
+	fmt.Fprintf(w, "  %s\n", s.cyan("install  ensure  start  stop  restart  status  logs  uninstall"))
 	fmt.Fprintf(w, "  %-30s %s\n", s.dim(appName+" service status"), "check whether the background app is running")
 	fmt.Fprintf(w, "  The app runs in the background and opens at %s.\n", s.green(browserURL(8765)))
 
@@ -104,7 +104,7 @@ func helpTopic(w io.Writer, topic string) error {
 
 func writeCompletion(w io.Writer, shell string) error {
 	commands := "serve run service update upgrade setup-ai doctor completion version help import export build validate manifest sign verify"
-	service := "install start stop restart status logs uninstall"
+	service := "install ensure start stop restart status logs uninstall"
 	switch strings.ToLower(shell) {
 	case "bash":
 		_, _ = fmt.Fprintf(w, `_gcse_revision_complete() {
@@ -143,7 +143,7 @@ complete -c gcse-revision -l no-auto-update -d 'Disable application auto-update'
 		_, _ = fmt.Fprint(w, `Register-ArgumentCompleter -Native -CommandName gcse-revision -ScriptBlock {
   param($wordToComplete, $commandAst, $cursorPosition)
   $commands = @('serve','run','service','update','upgrade','setup-ai','doctor','completion','version','help','import','export','build','validate','manifest','sign','verify')
-  $services = @('install','start','stop','restart','status','logs','uninstall')
+  $services = @('install','ensure','start','stop','restart','status','logs','uninstall')
   $tokens = $commandAst.ToString().Trim().Split()
   $choices = if ($tokens.Count -gt 1 -and $tokens[1] -eq 'service') { $services } else { $commands + @('--help','--offline','--no-ai','--no-browser','--no-auto-update','--port','--repo','--branch') }
   $choices | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {

@@ -138,15 +138,11 @@ jobs:
             end
 
             post_install_steps do
-              on_macos do
-                if_path_exists "Library/LaunchAgents/com.gautampachnanda101.gcse-revision.plist", base: :home do
-                  run "bin/gcse-revision",
-                      base: :prefix,
-                      args: ["service", "install"],
-                      writable_paths: ["Library/LaunchAgents"],
-                      writable_base: :home
-                end
-              end
+              run "bin/gcse-revision",
+                  base: :prefix,
+                  args: ["service", "ensure"],
+                  writable_paths: ["Library/LaunchAgents", ".config/systemd/user"],
+                  writable_base: :home
             end
 
             def caveats
@@ -174,7 +170,7 @@ jobs:
               "arm64": { "url": "${base}/gcse-revision_Windows_arm64.zip", "hash": "${w_a}", "bin": "gcse-revision.exe" }
             },
             "post_install": [
-              "if (Get-ScheduledTask -TaskName 'GCSERevision' -ErrorAction SilentlyContinue) { & \"\$dir\\\\gcse-revision.exe\" service install }"
+              "& \"\$dir\\\\gcse-revision.exe\" service ensure"
             ]
           }
           EOF
