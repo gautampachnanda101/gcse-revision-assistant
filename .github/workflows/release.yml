@@ -137,12 +137,8 @@ jobs:
               bin.install "gcse-revision"
             end
 
-            post_install_steps do
-              run "bin/gcse-revision",
-                  base: :prefix,
-                  args: ["service", "ensure"],
-                  writable_paths: ["Library/LaunchAgents", ".config/systemd/user"],
-                  writable_base: :home
+            def post_install
+              system "#{bin}/gcse-revision", "service", "ensure"
             end
 
             def caveats
