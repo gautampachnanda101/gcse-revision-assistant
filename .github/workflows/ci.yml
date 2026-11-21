@@ -42,7 +42,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
         with:
-          go-version-file: go.mod
+          go-version: stable
       - name: Linux prerequisites (zstd for Ollama's .tar.zst release)
         if: runner.os == 'Linux'
         run: command -v zstd || sudo apt-get install -y zstd

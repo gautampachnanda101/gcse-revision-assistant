@@ -18,7 +18,7 @@ Write-Host "Downloading $Asset..."
 Invoke-WebRequest -UseBasicParsing "$Base/$Asset" -OutFile $Tmp
 $Sums = (Invoke-WebRequest -UseBasicParsing "$Base/checksums.txt").Content
 $Want = ($Sums -split "`n" | Where-Object { $_ -match "\s$([regex]::Escape($Asset))\s*$" } | ForEach-Object { ($_ -split '\s+')[0] }) | Select-Object -First 1
-$Got = (Get-FileHash -Algorithm SHA256 $Tmp).Hash.ToLower()
+$Got = ([BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash([IO.File]::ReadAllBytes($Tmp))) -replace '-', '').ToLower()
 if (-not $Want -or $Want.ToLower() -ne $Got) { Remove-Item $Tmp -Force; throw 'Checksum check failed - download corrupted? Try again.' }
 Move-Item -Force $Tmp $Exe
 Write-Host "Installed $Exe"
