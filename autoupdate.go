@@ -36,13 +36,22 @@ func automaticUpgradeLoop(ctx context.Context, opts options) {
 		return
 	}
 	go func() {
-		timer := time.NewTimer(30 * time.Second)
+		interval := 24 * time.Hour
+		if packageManaged() {
+			interval = 15 * time.Second
+		}
+		timer := time.NewTimer(15 * time.Second)
 		defer timer.Stop()
 		for {
 			select {
 			case <-ctx.Done():
 				return
 			case <-timer.C:
+				if repaired, repairErr := reconcileManagedService(); repairErr != nil {
+					logf("Packaged service reconciliation skipped (%v).", repairErr)
+				} else if repaired {
+					return
+				}
 				updated, err := selfUpgrade(ctx, true)
 				if errors.Is(err, errProcessExitForUpgrade) {
 					os.Exit(0)
@@ -52,10 +61,63 @@ func automaticUpgradeLoop(ctx context.Context, opts options) {
 				} else if updated {
 					return
 				}
-				timer.Reset(24 * time.Hour)
+				timer.Reset(interval)
 			}
+
 		}
 	}()
+}
+
+func reconcileManagedService() (bool, error) {
+	if !packageManaged() {
+		return false, nil
+	}
+	current, err := installedPackageExecutable()
+	if err != nil {
+		return false, err
+	}
+	out, err := exec.Command(current, "version").CombinedOutput()
+	if err != nil {
+		return false, fmt.Errorf("read installed package version: %s: %w", strings.TrimSpace(string(out)), err)
+	}
+	fields := strings.Fields(string(out))
+	installedVersion := ""
+	if len(fields) >= 2 {
+		installedVersion = fields[len(fields)-1]
+	}
+	if installedVersion == "" || installedVersion == version {
+		return false, nil
+	}
+	cmd := exec.Command(current, "service", "install")
+	if out, err = cmd.CombinedOutput(); err != nil {
+		return false, fmt.Errorf("replace background service: %s: %w", strings.TrimSpace(string(out)), err)
+	}
+	return true, nil
+}
+
+func installedPackageExecutable() (string, error) {
+	exe, err := os.Executable()
+	if err != nil {
+		return "", err
+	}
+	lower := strings.ToLower(strings.ReplaceAll(filepath.ToSlash(exe), `\`, "/"))
+	switch {
+	case strings.Contains(lower, "/cellar/") || strings.Contains(lower, "/homebrew/"):
+		for _, path := range []string{"/opt/homebrew/bin/gcse-revision", "/usr/local/bin/gcse-revision", "/home/linuxbrew/.linuxbrew/bin/gcse-revision"} {
+			if _, err := os.Stat(path); err == nil {
+				return path, nil
+			}
+		}
+		return "", errors.New("the active Homebrew executable is unavailable")
+	case strings.Contains(lower, "/scoop/apps/"):
+		out, err := exec.Command("scoop", "which", appName).CombinedOutput()
+		if err != nil {
+			return "", fmt.Errorf("locate Scoop executable: %s: %w", strings.TrimSpace(string(out)), err)
+		}
+		return strings.TrimSpace(string(out)), nil
+	default:
+		return "", errors.New("installation is not package-managed")
+	}
 }
 
 func upgradeCommand(ctx context.Context) error {

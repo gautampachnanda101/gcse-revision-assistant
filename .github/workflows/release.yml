@@ -168,10 +168,7 @@ jobs:
             "architecture": {
               "64bit": { "url": "${base}/gcse-revision_Windows_x86_64.zip", "hash": "${w_x}", "bin": "gcse-revision.exe" },
               "arm64": { "url": "${base}/gcse-revision_Windows_arm64.zip", "hash": "${w_a}", "bin": "gcse-revision.exe" }
-            },
-            "post_install": [
-              "& \"\$dir\\\\gcse-revision.exe\" service ensure"
-            ]
+            }
           }
           EOF
       - name: Checkout tap
