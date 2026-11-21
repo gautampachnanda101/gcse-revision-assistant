@@ -137,12 +137,21 @@ jobs:
               bin.install "gcse-revision"
             end
 
+            service do
+              run [opt_bin/"gcse-revision", "serve", "--service", "--no-browser", "--no-ai", "--port", "8765"]
+              keep_alive true
+              log_path var/"log/gcse-revision.log"
+              error_log_path var/"log/gcse-revision.log"
+              working_dir Dir.home
+            end
+
             def caveats
               <<~EOS
-                If the background service was not already configured, start it with:
-                  #{bin}/gcse-revision service install
+                Start the background service with:
+                  brew services start gautampachnanda101/tap/gcse-revision
 
-                The service opens at http://gcse-revision.localhost:8765/ and checks for upgrades automatically.
+                Homebrew owns the service lifecycle and restarts it after upgrades.
+                The service opens at http://gcse-revision.localhost:8765/.
               EOS
             end
 
