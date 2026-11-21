@@ -41,6 +41,14 @@ func serviceDir() string {
 	return filepath.Join(dataDir(), "service")
 }
 
+func realUserHomeDir() (string, error) {
+	u, err := user.Current()
+	if err == nil && strings.TrimSpace(u.HomeDir) != "" {
+		return u.HomeDir, nil
+	}
+	return os.UserHomeDir()
+}
+
 func serviceLogPath() string { return filepath.Join(serviceDir(), appName+".log") }
 
 func serviceStatus() (bool, string, error) {
@@ -127,7 +135,7 @@ func installService(opts options) error {
 		if err != nil {
 			return err
 		}
-		home, err := os.UserHomeDir()
+		home, err := realUserHomeDir()
 		if err != nil {
 			return err
 		}
@@ -149,7 +157,7 @@ func installService(opts options) error {
 			return fmt.Errorf("start installed launch agent: %w", err)
 		}
 	case "linux":
-		home, err := os.UserHomeDir()
+		home, err := realUserHomeDir()
 		if err != nil {
 			return err
 		}
@@ -197,14 +205,14 @@ WantedBy=default.target
 func serviceConfigured() (bool, error) {
 	switch runtime.GOOS {
 	case "darwin":
-		home, err := os.UserHomeDir()
+		home, err := realUserHomeDir()
 		if err != nil {
 			return false, err
 		}
 		_, err = os.Stat(filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist"))
 		return err == nil, ignoreMissing(err)
 	case "linux":
-		home, err := os.UserHomeDir()
+		home, err := realUserHomeDir()
 		if err != nil {
 			return false, err
 		}
@@ -229,7 +237,7 @@ func startService() error {
 	var cmd *exec.Cmd
 	switch runtime.GOOS {
 	case "darwin":
-		home, _ := os.UserHomeDir()
+		home, _ := realUserHomeDir()
 		plist := filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist")
 		out, err := exec.Command("launchctl", "bootstrap", "gui/"+currentUserID(), plist).CombinedOutput()
 		if err == nil {
@@ -315,7 +323,7 @@ func restartServiceAt(port int) error {
 func uninstallService() error {
 	switch runtime.GOOS {
 	case "darwin":
-		home, err := os.UserHomeDir()
+		home, err := realUserHomeDir()
 		if err != nil {
 			return err
 		}
@@ -325,7 +333,7 @@ func uninstallService() error {
 		if out, err := exec.Command("systemctl", "--user", "disable", serviceUnit()).CombinedOutput(); err != nil {
 			return fmt.Errorf("systemctl disable: %s: %w", out, err)
 		}
-		home, _ := os.UserHomeDir()
+		home, _ := realUserHomeDir()
 		_ = os.Remove(filepath.Join(home, ".config", "systemd", "user", serviceUnit()))
 		_, _ = exec.Command("systemctl", "--user", "daemon-reload").CombinedOutput()
 	case "windows":
