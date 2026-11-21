@@ -784,7 +784,7 @@ function applyConfig(){
  setText('footer-note',CONFIG.footerNote);
  const marking=DATA.markingSchema;
  const markingPill=document.getElementById('marking-scheme-pill');
- if(markingPill)markingPill.textContent=marking?'⚖ '+marking.title+' · '+(marking.status==='official'?'official':'check/adapt'):'⚖ No marking plan linked';
+ if(markingPill){const title=String(marking?.title||'No marking plan linked').replace(/\s*·\s*check and adapt$/i,'');const status=marking?.status==='official'?'official':marking?.status==='custom'?'custom plan':'adaptable plan';markingPill.textContent=marking?'⚖ Marking plan: '+title+' — '+status:'⚖ No marking plan linked';}
  const iconEl=document.querySelector('.brand-icon');if(iconEl)iconEl.textContent=defaultBrandIcon();
  setText('notes-hero-eyebrow',`${DATA.notes.length} modules · full course coverage`);
 }

@@ -10,6 +10,7 @@ import (
 	"runtime"
 	"strconv"
 	"strings"
+	"time"
 )
 
 const serviceName = "GCSERevision"
@@ -168,6 +169,8 @@ WantedBy=default.target
 			return fmt.Errorf("systemctl enable: %s: %w", out, err)
 		}
 	case "windows":
+		_ = exec.Command("schtasks", "/End", "/TN", serviceName).Run()
+		time.Sleep(500 * time.Millisecond)
 		tr := fmt.Sprintf(`"%s" serve --service --no-browser --no-ai --port %d`, exe, opts.port)
 		if out, err := exec.Command("schtasks", "/Create", "/TN", serviceName, "/SC", "ONLOGON", "/RL", "LIMITED", "/F", "/TR", tr).CombinedOutput(); err != nil {
 			return fmt.Errorf("schtasks create: %s: %w", out, err)
@@ -234,7 +237,28 @@ func restartService() error {
 	if err := stopService(); err != nil {
 		return err
 	}
-	return startService()
+	deadline := time.Now().Add(8 * time.Second)
+	for {
+		running, _, _ := serviceStatus()
+		if !running {
+			break
+		}
+		if time.Now().After(deadline) {
+			return errors.New("background service did not stop in time")
+		}
+		time.Sleep(150 * time.Millisecond)
+	}
+	var last error
+	for i := 0; i < 5; i++ {
+		if err := startService(); err == nil {
+			time.Sleep(750 * time.Millisecond)
+			return nil
+		} else {
+			last = err
+		}
+		time.Sleep(300 * time.Millisecond)
+	}
+	return fmt.Errorf("background service did not start after upgrade: %w", last)
 }
 
 func uninstallService() error {

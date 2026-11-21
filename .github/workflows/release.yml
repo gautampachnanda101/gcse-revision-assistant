@@ -138,7 +138,11 @@ jobs:
             end
 
             def post_install
-              system "#{bin}/gcse-revision", "service", "restart" if quiet_system("#{bin}/gcse-revision", "service", "status")
+              if quiet_system("#{bin}/gcse-revision", "service", "status")
+                system "#{bin}/gcse-revision", "service", "restart"
+              else
+                system "#{bin}/gcse-revision", "service", "install"
+              end
             end
 
             def caveats
@@ -164,7 +168,10 @@ jobs:
             "architecture": {
               "64bit": { "url": "${base}/gcse-revision_Windows_x86_64.zip", "hash": "${w_x}", "bin": "gcse-revision.exe" },
               "arm64": { "url": "${base}/gcse-revision_Windows_arm64.zip", "hash": "${w_a}", "bin": "gcse-revision.exe" }
-            }
+            },
+            "post_install": [
+              "& \"\$dir\\\\gcse-revision.exe\" service install"
+            ]
           }
           EOF
       - name: Checkout tap
