@@ -219,4 +219,4 @@ jobs:
           brew update
           formula="${TAP_REPO/homebrew-tap/tap}/gcse-revision"
           brew install --formula "$formula"
-          brew test --formula "$formula"
+          brew test "$formula"

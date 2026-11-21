@@ -18,12 +18,15 @@ Write-Host "Downloading $Asset..."
 Invoke-WebRequest -UseBasicParsing "$Base/$Asset" -OutFile $Tmp
 $Got = ([BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash([IO.File]::ReadAllBytes($Tmp))) -replace '-', '').ToLower()
 $Want = $null
+$SumsFile = "$Tmp.checksums"
 for ($attempt = 1; $attempt -le 5; $attempt++) {
-  $Sums = (Invoke-WebRequest -UseBasicParsing "$Base/checksums.txt").Content
+  Invoke-WebRequest -UseBasicParsing "$Base/checksums.txt" -OutFile $SumsFile
+  $Sums = Get-Content -Raw $SumsFile
   $Want = ($Sums -split "`n" | Where-Object { $_ -match "\s$([regex]::Escape($Asset))\s*$" } | ForEach-Object { ($_ -split '\s+')[0] }) | Select-Object -First 1
   if ($Want -and $Want.ToLower() -eq $Got) { break }
   if ($attempt -lt 5) { Start-Sleep -Seconds 2 }
 }
+Remove-Item $SumsFile -Force -ErrorAction SilentlyContinue
 if (-not $Want -or $Want.ToLower() -ne $Got) {
   Remove-Item $Tmp -Force
   throw "Checksum check failed for $Asset (expected $Want, got $Got). Try again."
