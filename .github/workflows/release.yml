@@ -137,9 +137,12 @@ jobs:
               bin.install "gcse-revision"
             end
 
-            def post_install
-              # One-time bridge for older running services; current versions also self-reconcile.
-              system "#{bin}/gcse-revision", "service", "ensure"
+            post_install_steps do
+              run "bin/gcse-revision",
+                  base: :prefix,
+                  args: ["service", "ensure"],
+                  writable_paths: ["Library/LaunchAgents", ".config/systemd/user"],
+                  writable_base: :home
             end
 
             def caveats
