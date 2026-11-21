@@ -326,6 +326,32 @@ func newHandler(host string, ai *aiManager) http.Handler {
 	mux.HandleFunc("/api/llm/status", func(w http.ResponseWriter, r *http.Request) {
 		writeJSON(w, ai.status())
 	})
+	mux.HandleFunc("/api/llm/builtin", func(w http.ResponseWriter, r *http.Request) {
+		available, detail := appleAIAvailable()
+		writeJSON(w, map[string]any{"available": available, "provider": detail, "kind": "apple-foundation-models"})
+	})
+	mux.HandleFunc("/llm/builtin/chat/completions", func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodPost {
+			http.Error(w, "POST only", http.StatusMethodNotAllowed)
+			return
+		}
+		var request struct {
+			Messages []chatMessage `json:"messages"`
+		}
+		if err := json.NewDecoder(http.MaxBytesReader(w, r.Body, 1<<20)).Decode(&request); err != nil {
+			http.Error(w, "invalid request", http.StatusBadRequest)
+			return
+		}
+		text, err := chatWithAppleAI(request.Messages)
+		if err != nil {
+			w.WriteHeader(http.StatusServiceUnavailable)
+			writeJSON(w, map[string]string{"error": err.Error()})
+			return
+		}
+		writeJSON(w, map[string]any{
+			"choices": []map[string]any{{"message": map[string]string{"role": "assistant", "content": text}}},
+		})
+	})
 	mux.HandleFunc("/api/llm/setup", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != http.MethodPost {
 			http.Error(w, "POST only", http.StatusMethodNotAllowed)

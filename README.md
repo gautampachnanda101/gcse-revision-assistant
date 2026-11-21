@@ -30,6 +30,8 @@ gcse-revision upgrade
 
 Set `GCSE_REVISION_AUTO_UPDATE=0` or pass `--no-auto-update` to disable automatic application upgrades. The app remains fully usable offline.
 
+**AI selection.** The app checks generic options in order: built-in device AI, a local OpenAI/Ollama-compatible server, then an explicitly configured cloud provider. On supported Apple Silicon Macs with Apple Intelligence enabled, the binary includes an Apple Foundation Models bridge and uses it without a setup step; run `gcse-revision doctor` to see whether it is available. On Windows, a built-in option is shown only when a supported local bridge is installed; the consumer Windows Copilot app itself does not expose a supported third-party chat API.
+
 **Homebrew / Scoop**
 
 ```sh

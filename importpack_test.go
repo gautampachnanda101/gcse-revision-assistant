@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"net/http"
 	"net/http/httptest"
 	"os"
@@ -124,4 +125,24 @@ func TestPrivateResourcesRejectCrossOriginGets(t *testing.T) {
 	if got := res.Header().Get("Cross-Origin-Resource-Policy"); got != "same-origin" {
 		t.Fatalf("Cross-Origin-Resource-Policy = %q", got)
 	}
+}
+
+func TestBuiltInAppleAIEndpointShape(t *testing.T) {
+	h := newHandler("127.0.0.1:8765", newAIManager("", false))
+	req := httptest.NewRequest(http.MethodGet, "http://127.0.0.1:8765/api/llm/builtin", nil)
+	res := httptest.NewRecorder()
+	h.ServeHTTP(res, req)
+	var body struct {
+		Available bool   `json:"available"`
+		Provider  string `json:"provider"`
+		Kind      string `json:"kind"`
+	}
+	if err := json.NewDecoder(res.Body).Decode(&body); err != nil {
+		t.Fatal(err)
+	}
+	if body.Kind != "apple-foundation-models" {
+		t.Fatalf("built-in AI kind = %q", body.Kind)
+	}
+	_ = body.Available
+	_ = body.Provider
 }

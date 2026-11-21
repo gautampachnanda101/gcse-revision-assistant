@@ -187,5 +187,13 @@ func runDoctor(opts options) error {
 		autoUpgrade = false
 	}
 	fmt.Printf("%-20s %s\n", s.dim("Auto-upgrade"), map[bool]string{true: s.green("enabled"), false: s.yellow("disabled")}[autoUpgrade])
+	available, provider := appleAIAvailable()
+	if available {
+		fmt.Printf("%-20s %s (%s)\n", s.dim("Built-in AI"), s.green("available"), provider)
+	} else if provider != "" {
+		fmt.Printf("%-20s %s (%s)\n", s.dim("Built-in AI"), s.yellow("unavailable"), provider)
+	} else {
+		fmt.Printf("%-20s %s\n", s.dim("Built-in AI"), s.dim("not supported on this platform"))
+	}
 	return nil
 }
