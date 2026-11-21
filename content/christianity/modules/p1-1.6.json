@@ -1,0 +1,100 @@
+{
+ "paper": "Paper 1",
+ "module": "1.6",
+ "moduleTitle": "Belief, uncertainty and unbelief",
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "Reasons for and against belief in God's existence, including key arguments and the challenge of unfalsifiability.",
+  "sourcePages": "Written to match the Edexcel specification; no supplied booklet for this subject.",
+  "summary": "1.6 Belief, Uncertainty and Unbelief\nThis module looks at why some people believe in God, why others doubt or reject belief, and how confident any of these positions can be.\nReasons for belief\n• The design (teleological) argument: William Paley compared the complexity of the natural world to a watch, arguing that just as a watch implies a watchmaker, the ordered complexity of the universe implies an intelligent designer.\n• The cosmological argument: everything that exists has a cause; an infinite regress of causes is considered impossible, so there must be a first, uncaused cause — God.\n• Religious experience: a personal sense of God's presence, answered prayer, or a transformative encounter, which believers interpret as direct evidence of God.\n• Upbringing and revelation: many people come to believe through family, church community, and trust in the Bible as God's revealed word.\nReasons for doubt or unbelief\n• The problem of evil and suffering: if God is all-powerful and all-loving, why does suffering exist? Some see this as strong evidence against God's existence.\n• Lack of empirical proof: scientific explanations for the origin of the universe (Big Bang) and life (evolution) do not require God as a cause.\n• Antony Flew's falsification challenge argues that if no evidence could ever count against belief in God, then claims about God may not be meaningful, testable claims at all.\n• Agnosticism holds that it is simply impossible to know for certain whether God exists, while atheism positively denies God's existence.\nExam link: \"Evaluate\" questions on this topic reward balancing specific arguments (design, cosmological, problem of evil, falsification) rather than vague assertions that \"some people believe and some don't\"."
+ },
+ "questions": [
+  {
+   "answerTopic": "belief",
+   "command": "Outline",
+   "evidence": [
+    "William Paley's watchmaker analogy",
+    "Design/teleological argument",
+    "Religious experience",
+    "Revelation through the Bible"
+   ],
+   "examTip": "Make two separate points and develop each one. Link the development directly to the question.",
+   "marks": 4,
+   "modelAnswer": "A strong response develops two separate points:\n\n1. The design argument, associated with William Paley's analogy of a watch implying a watchmaker, claims that the order, complexity and apparent purpose seen in nature suggest an intelligent designer rather than pure chance.\n\n2. Many people believe in God because of religious experience, such as a sense of God's presence in prayer or worship, which they interpret as personal evidence of God that cannot easily be explained away.",
+   "question": "Outline two reasons why some people believe in the existence of God."
+  },
+  {
+   "answerTopic": "belief",
+   "command": "Evaluate",
+   "evidence": [
+    "Antony Flew on falsification",
+    "Design/teleological argument",
+    "Cosmological argument",
+    "Religious experience"
+   ],
+   "examTip": "For a 12-mark evaluation, use accurate religious teaching, explain different religious or non-religious views, analyse the statement and reach a justified conclusion. The conclusion should follow from the arguments you have discussed.",
+   "marks": 12,
+   "modelAnswer": "A FIRST PERSPECTIVE\n\nOne line of reasoning is: Philosopher Antony Flew argued that religious believers' claims about God are unfalsifiable: no amount of evidence seems able to count against belief in God, which suggests such belief is not making a testable, evidence-based claim at all.\n\nA second consideration is: The continued existence of unexplained suffering in the world is used by some as evidence against an all-powerful, all-loving God, since such a God would be expected to prevent needless suffering if proof of God's goodness were available.\n\nAN ALTERNATIVE PERSPECTIVE\n\nA different perspective is: Supporters of the design and cosmological arguments claim that the order of the universe and the fact that anything exists at all point strongly, even if not with mathematical certainty, towards a creator; for them, this counts as good evidence rather than proof.\n\nA further consideration is: Many Christians would respond that faith does not require scientific-style proof; religious experience and a personal relationship with God provide a different, but still valid, kind of justification for belief.\n\nJUDGEMENT\n\nOverall, the conclusion should weigh the arguments above against this key consideration: whether \"proof\" has to mean scientific, repeatable evidence, or whether philosophical arguments and personal religious experience can also count as legitimate grounds for belief. It should then state which perspective is more convincing in relation to the exact wording of the question and explain why, rather than assuming that every Christian will reach the same view.",
+   "question": "“There is no proof that God exists.”\nEvaluate this statement."
+  },
+  {
+   "answerTopic": "belief-uncertainty-and-unbelief-extra-4",
+   "command": "Explain",
+   "evidence": [
+    "scripture",
+    "revelation",
+    "religious experience",
+    "reason and the demand for testable evidence"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 6,
+   "modelAnswer": "One view emphasises scripture. Another Christian tradition or reading may put more weight on a contrasting aspect of the same topic. Develop each view and explain the reason behind it.",
+   "question": "Explain two Christian views about belief, uncertainty and unbelief. Include a source, tradition or example where relevant."
+  },
+  {
+   "answerTopic": "belief-uncertainty-and-unbelief-extra-5",
+   "command": "Evaluate",
+   "evidence": [
+    "scripture",
+    "revelation",
+    "religious experience",
+    "reason and the demand for testable evidence"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 12,
+   "modelAnswer": "A FIRST PERSPECTIVE\nTeaching gives coherent meaning to the themes of scripture, revelation, religious experience, reason and the demand for testable evidence and helps Christians decide what is true.\n\nAN ALTERNATIVE PERSPECTIVE\nPractice makes belief visible in worship, compassion, family and service; without action faith may be empty. Christians within different traditions may also disagree about how the teaching should be lived.\n\nJUDGEMENT\nA reasoned conclusion should compare the authority and practical effect of belief and action, acknowledge diversity, and decide which is more persuasive for the exact claim.",
+   "question": "“Christian teaching about belief, uncertainty and unbelief is more important than Christian practice connected with it.”\nEvaluate this statement, referring to Christianity."
+  },
+  {
+   "answerTopic": "belief-uncertainty-and-unbelief-extra-2",
+   "command": "Outline",
+   "evidence": [
+    "scripture",
+    "revelation",
+    "religious experience",
+    "reason and the demand for testable evidence"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 4,
+   "modelAnswer": "A developed answer states two separate effects. One concerns belief or worship; the other concerns an ethical choice, practice or sense of community. Each is linked to scripture, revelation, religious experience, reason and the demand for testable evidence.",
+   "question": "Choose Christianity. Outline two ways in which belief, uncertainty and unbelief influences what a Christian believes or does."
+  },
+  {
+   "answerTopic": "belief-uncertainty-and-unbelief-extra-3",
+   "command": "Explain",
+   "evidence": [
+    "scripture",
+    "revelation",
+    "religious experience",
+    "reason and the demand for testable evidence"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 6,
+   "modelAnswer": "First, it expresses or clarifies the Christian ideas of scripture, revelation, religious experience, reason and the demand for testable evidence. Second, it shapes practical discipleship or worship. Explain why, rather than stopping after naming a belief or practice.",
+   "question": "Explain two reasons why belief, uncertainty and unbelief is important for Christians. Refer to Christian teaching in your answer."
+  }
+ ]
+}

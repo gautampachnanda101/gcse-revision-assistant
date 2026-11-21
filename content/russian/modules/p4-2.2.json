@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "2.2",
+ "moduleTitle": "Customs, festivals and celebrations",
+ "note": {
+  "title": "Customs, festivals and celebrations",
+  "specFocus": "Festivals, family traditions, birthdays, New Year, holidays and celebrations in Russia and elsewhere.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "2.2 Customs, festivals and celebrations\nKey vocabulary (Russian = transliteration = English)\n- праздник = prazdnik = holiday/festival; Новый год = Novyy god = New Year; Рождество = Rozhdestvo = Christmas\n- день рождения = den' rozhdeniya = birthday; подарок = podarok = present; открытка = otkrytka = card; гости = gosti = guests\n- ёлка = yolka = fir tree; Дед Мороз = Ded Moroz = Father Frost; Масленица = Maslenitsa = Pancake Week; блины = bliny = pancakes\n- праздновать = prazdnovat' = to celebrate; поздравлять с (+ instr.) = pozdravlyat' s = to congratulate on; дарить = darit' = to give (gift)\n- накрывать на стол = nakryvat' na stol = to lay the table; салют = salyut = fireworks; традиция = traditsiya = tradition\n- в этот день = v etot den' = on this day; обычно = obychno = usually; в прошлом году = v proshlom godu = last year\n\nKey grammar\n- Поздравлять с + instrumental: поздравляю тебя с днём рождения (с Новым годом).\n- Dates in the genitive: первого января (on 1 January); мой день рождения - пятого мая.\n- Дарить кому (dative) что (accusative): родители подарили мне телефон.\n- Past tense imperfective for custom (мы всегда ходили к бабушке) and perfective for specific events (мы пошли к бабушке).\n- Conditional/wish: я хотел бы встретить Новый год в Москве.\n\nExam tips\n- Use dative for the person receiving: мне, ему, ей, нам, им.\n- Remember capital letters only for the first word of a holiday name (Новый год, День Победы - the exception).\n- Compare customs using чем... and в отличие от..."
+ },
+ "questions": [
+  {
+   "answerTopic": "2.2-translate-ru-0",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 8,
+   "modelAnswer": "1. Мой день рождения в мае.\n2. Мы празднуем дома.\n3. Я получил подарок. / Я получила подарок.\n4. Гости пришли.",
+   "question": "Translate into Russian:\n\n1. My birthday is in May.\n2. We celebrate at home.\n3. I got a present.\n4. The guests arrived."
+  },
+  {
+   "answerTopic": "2.2-translate-ru-1",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 6,
+   "modelAnswer": "1. С Новым годом!\n2. У нас есть ёлка.\n3. Дети любят подарки.",
+   "question": "Translate into Russian:\n\n1. Happy New Year!\n2. We have a Christmas tree.\n3. Children like presents."
+  },
+  {
+   "answerTopic": "2.2-translate-ru-2",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. В прошлом году мы встречали Новый год у бабушки.\n2. Мама испекла большой торт.\n3. В полночь мы смотрели салют.",
+   "question": "Translate into Russian:\n\n1. Last year we celebrated New Year at my grandmother's.\n2. Mum baked a big cake.\n3. At midnight we watched fireworks."
+  },
+  {
+   "answerTopic": "2.2-translate-ru-3",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 6,
+   "modelAnswer": "1. Мне нравится Масленица.\n2. Люди едят блины с мёдом.\n3. Это очень старая традиция.",
+   "question": "Translate into Russian:\n\n1. I like Pancake Week.\n2. People eat pancakes with honey.\n3. It is a very old tradition."
+  },
+  {
+   "answerTopic": "2.2-translate-ru-4",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 9,
+   "modelAnswer": "1. На свой день рождения я пригласил пять друзей. / ...пригласила...\n2. Мы играли в игры и слушали музыку.\n3. В следующем году я устрою вечеринку в кафе.",
+   "question": "Translate into Russian:\n\n1. On my birthday I invited five friends.\n2. We played games and listened to music.\n3. Next year I will have a party at the café."
+  },
+  {
+   "answerTopic": "2.2-translate-ru-5",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Если бы я мог выбирать, я бы провёл Рождество в Лондоне. / ...могла... провела...\n2. В России Рождество отмечают седьмого января.\n3. Я думаю, что важно сохранять традиции.",
+   "question": "Translate into Russian:\n\n1. If I could choose, I would spend Christmas in London.\n2. In Russia Christmas is on the seventh of January.\n3. I think it is important to keep traditions."
+  },
+  {
+   "answerTopic": "2.2-writing-0",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 8,
+   "modelAnswer": "Мой любимый праздник — Новый год. Мы наряжаем ёлку, готовим салаты и ждём полночи. В прошлом году мы ходили на площадь смотреть салют. Он мне нравится, потому что вся семья вместе и все дарят друг другу подарки.\n\n(English translation: My favourite holiday is New Year. We decorate the tree, make salads and wait for midnight. Last year we went to the square to watch the fireworks. I like it because the whole family is together and everyone gives each other presents.)",
+   "question": "Напишите о вашем любимом празднике. Вы должны упомянуть:\n• какой праздник вы любите больше всего\n• как вы его празднуете\n• что вы делали в прошлом году\n• почему он вам нравится"
+  },
+  {
+   "answerTopic": "2.2-writing-1",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 8,
+   "modelAnswer": "Мой день рождения в апреле. Обычно мы с родителями идём в ресторан, а потом друзья приходят ко мне домой. В прошлом году мне подарили новый телефон. В будущем я хочу устроить вечеринку на даче с шашлыками.\n\n(English translation: My birthday is in April. Usually my parents and I go to a restaurant and then friends come to my house. Last year I was given a new phone. In future I want to have a party at the dacha with barbecue.)",
+   "question": "Напишите о дне рождения. Вы должны упомянуть:\n• когда ваш день рождения\n• как вы обычно его отмечаете\n• какой подарок вы получили в прошлом году\n• как вы хотите отметить в будущем"
+  },
+  {
+   "answerTopic": "2.2-writing-2",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 10,
+   "modelAnswer": "В нашей семье есть традиция: каждое воскресенье мы обедаем у бабушки. На Новый год мы собираемся все вместе, и я всегда помогаю накрывать на стол. Самым особенным был мой пятнадцатый день рождения, когда меня удивили родственники из другого города. Традиции важны, потому что они объединяют семью.\n\n(English translation: In our family there is a tradition: every Sunday we have lunch at grandmother's. At New Year we all get together and I always help lay the table. The most special was my fifteenth birthday when relatives from another city surprised me. Traditions are important because they bring the family together.)",
+   "question": "Напишите статью о традициях вашей семьи. Вы должны упомянуть:\n• какие у вас есть семейные традиции\n• как вы празднуете главный праздник\n• какой праздник был в вашей жизни особенным\n• почему традиции важны"
+  },
+  {
+   "answerTopic": "2.2-writing-3",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 10,
+   "modelAnswer": "Привет, Джек! У нас скоро будет Масленица. Мы печём блины со сметаной и мёдом. В прошлом году мы с друзьями ходили на площадь, катались на санках и смотрели выступление артистов. Приезжай к нам в следующем году! Я думаю, тебе очень понравится.\n\n(English translation: Hi Jack! We'll soon have Maslenitsa. We bake pancakes with sour cream and honey. Last year my friends and I went to the square, went sledging and watched performers. Come and visit us next year! I think you'll like it a lot.)",
+   "question": "Напишите письмо другу о празднике в России. Вы должны упомянуть:\n• какой праздник вы празднуете\n• какую еду вы готовите\n• что вы делали в этот день в прошлом году\n• приглашение приехать в Россию"
+  },
+  {
+   "answerTopic": "2.2-writing-4",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 12,
+   "modelAnswer": "В России главный праздник — Новый год, а не Рождество, как в Англии. Мой любимый подарок — книга, которую мне подарил дедушка. Лучше всего я помню день, когда мы вместе пекли пироги к Пасхе. Мне кажется, на праздники не нужно тратить много денег, потому что главное — это общение. Если бы все так думали, праздники были бы проще и теплее.\n\n(English translation: In Russia the main holiday is New Year, not Christmas as in England. My favourite present is a book my grandfather gave me. The day I remember best is when we baked pies together for Easter. I think you don't need to spend a lot of money on holidays because the main thing is being together. If everyone thought like that, holidays would be simpler and warmer.)",
+   "question": "Напишите о различиях в праздниках. Вы должны упомянуть:\n• какой праздник в России отличается от английского\n• ваш любимый подарок\n• какое событие вы помните лучше всего\n• ваше мнение: нужно ли тратить много денег на праздники"
+  },
+  {
+   "answerTopic": "2.2-writing-5",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 12,
+   "modelAnswer": "В прошлом июле я была на музыкальном фестивале в Москве. Мы слушали группы, танцевали и ели уличную еду. Мне понравилась атмосфера, но было слишком жарко и дорого. В следующем году я, наверное, снова поеду, потому что там можно услышать много интересной музыки и познакомиться с новыми людьми.\n\n(English translation: Last July I went to a music festival in Moscow. We listened to bands, danced and ate street food. I liked the atmosphere, but it was too hot and expensive. Next year I will probably go again because you can hear lots of interesting music and meet new people there.)",
+   "question": "Напишите о международном празднике или фестивале. Вы должны упомянуть:\n• на каком празднике вы были\n• что вы там делали\n• что вам понравилось и не понравилось\n• пойдёте ли вы туда в следующем году и почему"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 1",
+ "module": "3.3",
+ "moduleTitle": "The environment and where people live",
+ "note": {
+  "title": "The environment and where people live",
+  "specFocus": "Home and town, region, weather, environmental problems and what we can do about them.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "3.3 The environment and where people live\nKey vocabulary (Russian = transliteration = English)\n- город = gorod = town/city; деревня = derevnya = village; район = rayon = district; центр = tsentr = centre\n- квартира = kvartira = flat; дом = dom = house; этаж = etazh = floor; комната = komnata = room; сад = sad = garden\n- окружающая среда = okruzhayushchaya sreda = environment; загрязнение = zagryaznenie = pollution; мусор = musor = rubbish\n- сортировать мусор = sortirovat' musor = to sort rubbish; экономить воду = ekonomit' vodu = to save water; перерабатывать = pererabatyvat' = to recycle\n- глобальное потепление = global'noe potepleniye = global warming; наводнение = navodnenie = flood; лес = les = forest\n- пластик = plastik = plastic; велосипед = velosiped = bicycle; общественный транспорт = obshchestvennyy transport = public transport\n\nKey grammar\n- Location: в/на + prepositional (в центре города, на втором этаже); distances: далеко от + genitive.\n- Necessity and advice: надо/нужно/следует + infinitive; нельзя выбрасывать мусор.\n- Future for plans: мы будем сортировать мусор; я буду ездить на велосипеде.\n- Conditional with если бы: Если бы все ездили на автобусе, воздух был бы чище.\n- Comparatives: чище, грязнее, тише, шумнее; самый большой город.\n\nExam tips\n- Use чтобы + past/infinitive for purpose: чтобы защитить природу, надо...\n- Include a problem and a solution in writing tasks.\n- Remember на for floor/street/square (на втором этаже, на улице)."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.3-listening-0",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "By the river.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: В моём городе появился новый парк у реки. Каждый вторник мы с классом собираем там мусор после уроков.»\n\nAnswer in English:\nWhere is the new park?"
+  },
+  {
+   "answerTopic": "3.3-listening-1",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Collects litter after lessons.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: В моём городе появился новый парк у реки. Каждый вторник мы с классом собираем там мусор после уроков.»\n\nAnswer in English:\nWhat does the class do there on Tuesdays?"
+  },
+  {
+   "answerTopic": "3.3-listening-2",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Solar panels.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: У нас дома есть солнечные панели. Летом они дают почти всю электрическую энергию, но зимой мы используем больше газа.»\n\nAnswer in English:\nWhat does the family have at home?"
+  },
+  {
+   "answerTopic": "3.3-listening-3",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "The panels provide almost all electricity in summer, but the family uses more gas in winter.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: У нас дома есть солнечные панели. Летом они дают почти всю электрическую энергию, но зимой мы используем больше газа.»\n\nAnswer in English:\nWhat seasonal difference is described?"
+  },
+  {
+   "answerTopic": "3.3-listening-4",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "By car with Dad.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Раньше я ездил в школу на машине с отцом. Теперь я хожу пешком, потому что это полезно и не загрязняет воздух.»\n\nAnswer in English:\nHow did the speaker travel to school before?"
+  },
+  {
+   "answerTopic": "3.3-listening-5",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "It is healthy and does not pollute the air.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Раньше я ездил в школу на машине с отцом. Теперь я хожу пешком, потому что это полезно и не загрязняет воздух.»\n\nAnswer in English:\nWhy does the speaker now walk?"
+  },
+  {
+   "answerTopic": "3.3-listening-6",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Twenty near the station.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: В воскресенье волонтёры посадили двадцать деревьев около станции. Через пять лет этот район должен стать прохладнее и зелёнее.»\n\nAnswer in English:\nWhere and how many trees did volunteers plant?"
+  },
+  {
+   "answerTopic": "3.3-listening-7",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "The area should become cooler and greener.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: В воскресенье волонтёры посадили двадцать деревьев около станции. Через пять лет этот район должен стать прохладнее и зелёнее.»\n\nAnswer in English:\nWhat change is expected after five years?"
+  },
+  {
+   "answerTopic": "3.3-listening-8",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Returned plastic bottles.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: Магазины в центре теперь принимают возврат пластиковых бутылок. За каждую бутылку покупатель получает два рубля.»\n\nAnswer in English:\nWhat do town-centre shops accept now?"
+  },
+  {
+   "answerTopic": "3.3-listening-9",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Two roubles per bottle.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: Магазины в центре теперь принимают возврат пластиковых бутылок. За каждую бутылку покупатель получает два рубля.»\n\nAnswer in English:\nWhat does a customer receive?"
+  },
+  {
+   "answerTopic": "3.3-listening-10",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "There is little lighting.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: Мне нравится наш район, но вечером здесь мало освещения. Мэр обещал установить новые энергосберегающие лампы весной.»\n\nAnswer in English:\nWhat problem exists in the speaker’s area at night?"
+  },
+  {
+   "answerTopic": "3.3-listening-11",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "New energy-saving lights in spring.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: Мне нравится наш район, но вечером здесь мало освещения. Мэр обещал установить новые энергосберегающие лампы весной.»\n\nAnswer in English:\nWhat has the mayor promised?"
+  }
+ ]
+}

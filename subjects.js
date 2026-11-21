@@ -8,8 +8,8 @@ window.REVISION_MANIFEST={
    "board": "Edexcel International GCSE",
    "category": "Religious Studies",
    "file": "data/christianity.js",
-   "sha256": "fa8382aeb06e673c34e7f93eb0ba9445bba4af852091bd6d803f7f0803998992",
-   "bytes": 142731
+   "sha256": "946efda54350f8f49186c34cd87ad29671c0635e4e648a53802dc98b9c3296e0",
+   "bytes": 229189
   },
   {
    "id": "aqa_french",
@@ -17,8 +17,8 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Languages",
    "file": "data/french.js",
-   "sha256": "1e77d586e675f247e1b0f3e72abd89a41ec6a03b8020060b930a9896c6f2cc20",
-   "bytes": 118738
+   "sha256": "03744a0f0761dcff94ec80c61c82e2df5b4b856d2a6219f0be5590c79ed0a16a",
+   "bytes": 472595
   },
   {
    "id": "aqa_rs_a_sikhism",
@@ -26,8 +26,125 @@ window.REVISION_MANIFEST={
    "board": "AQA GCSE",
    "category": "Religious Studies",
    "file": "data/aqa-rs-a-sikhism.js",
-   "sha256": "fbe8b5ea5b6ec8c7042d32d0de2bfbd127292dfda6251f6a471d83652cc44234",
-   "bytes": 185758
+   "sha256": "50b1deeeac7ce8ff8cf81ad9f36511ae6af81bdd7d05c44c8b46232ace6b1634",
+   "bytes": 204896
+  },
+  {
+   "id": "aqa_rs_a_buddhism",
+   "title": "Buddhism (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-buddhism.js",
+   "sha256": "65e7d7b16630c75f89d6865782b1e7bbc0ea1cebfec9448905974b21886add29",
+   "bytes": 244809
+  },
+  {
+   "id": "aqa_rs_a_catholic_christianity",
+   "title": "Catholic Christianity (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-catholic-christianity.js",
+   "sha256": "20a630984519e9e99d4397f5f7c3e2005e8c1b9d2e9934d9297eaf5e0a875737",
+   "bytes": 209015
+  },
+  {
+   "id": "aqa_rs_a_christianity",
+   "title": "Christianity (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-christianity.js",
+   "sha256": "cd0c2e85b1444ee77eaec0cc067d40de26861b975686985d20962d7112da83bb",
+   "bytes": 252732
+  },
+  {
+   "id": "aqa_rs_a_hinduism",
+   "title": "Hinduism (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-hinduism.js",
+   "sha256": "a350c140c0de6e2d7f41c0070dfc07d9e6ee3c55aa9232ae3ec93d57f4ee490d",
+   "bytes": 213011
+  },
+  {
+   "id": "aqa_rs_a_islam",
+   "title": "Islam (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-islam.js",
+   "sha256": "2a03476e96ecba87a41674ff9f40b19cd81b130685f861954c31e905502becb2",
+   "bytes": 260939
+  },
+  {
+   "id": "aqa_rs_a_judaism",
+   "title": "Judaism (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-judaism.js",
+   "sha256": "633298c6888b71c164ee3afe82438cebf4a7d8abc1b75937db739cb046e525f4",
+   "bytes": 239892
+  },
+  {
+   "id": "aqa_rs_a_themes",
+   "title": "Themes A–F (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-themes.js",
+   "sha256": "afc892651983aae8f3d8be21043b350d23419bd68655b1a418655d6687c3ec30",
+   "bytes": 218039
+  },
+  {
+   "id": "aqa_spanish",
+   "title": "Spanish Revision",
+   "board": "AQA GCSE",
+   "category": "Languages",
+   "file": "data/spanish.js",
+   "sha256": "adf43c98a0dd587a1b43631b0cc9a8c2f3b881ea22f4441567fb25135c9b0b9a",
+   "bytes": 461380
+  },
+  {
+   "id": "aqa_german",
+   "title": "German Revision",
+   "board": "AQA GCSE",
+   "category": "Languages",
+   "file": "data/german.js",
+   "sha256": "f4c82c35db081fd8d3ba9f951f104555a9f532b8c8e0a008e4863c4a1ad2acd7",
+   "bytes": 422979
+  },
+  {
+   "id": "lang_chinese",
+   "title": "Mandarin Chinese Revision",
+   "board": "AQA-style GCSE",
+   "category": "Languages",
+   "file": "data/chinese.js",
+   "sha256": "adf53ee16ad8df8038f70d18f6c988b6e2f607c1cbc0810a773520a4cc0bd4e7",
+   "bytes": 428754
+  },
+  {
+   "id": "lang_russian",
+   "title": "Russian Revision",
+   "board": "AQA-style GCSE",
+   "category": "Languages",
+   "file": "data/russian.js",
+   "sha256": "910703a48c5f06ca6d370628952d570bba47d128483b05d1e30cbb46dac1943e",
+   "bytes": 548477
+  },
+  {
+   "id": "lang_italian",
+   "title": "Italian Revision",
+   "board": "AQA-style GCSE",
+   "category": "Languages",
+   "file": "data/italian.js",
+   "sha256": "64b637b56a56bc24f2e8d1a72e95eb7d44dacac9b34fef9b8b269ca381a042cb",
+   "bytes": 182543
+  },
+  {
+   "id": "lang_hindi",
+   "title": "Hindi Revision",
+   "board": "GCSE-style",
+   "category": "Languages",
+   "file": "data/hindi.js",
+   "sha256": "f4f0a8df72d547d573ee8ff2518841a26a0175b42da7e939f42953ab57116995",
+   "bytes": 216648
   }
  ]
 };

@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 3",
+ "module": "2.3",
+ "moduleTitle": "Celebrity culture",
+ "questions": [
+  {
+   "answerTopic": "2.3-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Answer using information from the passage only; quoting the relevant French phrase alongside your English answer can help you check you haven't missed detail.",
+   "marks": 10,
+   "modelAnswer": "1. 60% (\"60% des adolescents français suivent au moins un influenceur\").\n2. Useful advice (\"des conseils utiles\").\n3. Give an unrealistic image of life (\"ils donnent une image irréaliste de la vie\").\n4. That photos are often edited/retouched (\"les photos sont souvent retouchées\").",
+   "question": "Reading comprehension. Read the passage and answer in English:\n\n\"Selon un sondage, 60% des adolescents français suivent au moins un influenceur sur les réseaux sociaux. Si certains influenceurs partagent des conseils utiles, d'autres critiques estiment qu'ils donnent une image irréaliste de la vie. Les experts conseillent aux jeunes de garder un esprit critique face au contenu en ligne et de se rappeler que les photos sont souvent retouchées.\"\n\n1. What percentage of French teenagers follow at least one influencer?\n2. What do some influencers share, according to the text?\n3. What do critics say some influencers do?\n4. What do experts advise young people to remember?"
+  },
+  {
+   "answerTopic": "2.3-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning of each sentence into natural English rather than word-for-word; check tenses (perfect/present) carry across accurately.",
+   "marks": 10,
+   "modelAnswer": "1. I really admire this singer because she is generous.\n2. Some influencers earn a lot of money.\n3. Fame has advantages and disadvantages.\n4. It is important to keep a critical mind.",
+   "question": "Translate into English:\n\n1. J'admire beaucoup cette chanteuse parce qu'elle est généreuse.\n2. Certains influenceurs gagnent beaucoup d'argent.\n3. La célébrité a des avantages et des inconvénients.\n4. Il est important de garder un esprit critique."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-2",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Reading comprehension",
+   "question": "Read and answer in English: « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. »\n1. Give one present detail.\n2. What happened in the past?\n3. What will or should happen later?\n4. Give a reason or opinion.",
+   "modelAnswer": "My favourite celebrity is a sportswoman who encourages young people. Her success is impressive. However, the media should respect stars' private lives more.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-3",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Translate into English",
+   "question": "Translate into English:\n\nMa célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars.",
+   "modelAnswer": "My favourite celebrity is a sportswoman who encourages young people. Her success is impressive. However, the media should respect stars' private lives more.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-4",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Match the time frames",
+   "question": "Read: « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. »\nMatch each sentence to Present, Past or Future/Conditional and quote its strongest time or verb clue.",
+   "modelAnswer": "Sentence 1: Ma célébrité préférée est une sportive qui encourage les jeunes. — present.\nSentence 2: Sa réussite est impressionnante. — completed past.\nSentence 3: Cependant, les médias devraient mieux respecter la vie privée des stars. — future or conditional.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-5",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Vocabulary in context",
+   "question": "Read: « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. »\nGive the English meaning of: une célébrité, un modèle, la réputation, avoir de l'influence. Then quote the connective or expression that links an opinion to a reason.",
+   "modelAnswer": "Use the standard meanings of the module vocabulary. The reason is signposted by parce que, car or the explicit contrasting/future expression in the passage.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-6",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "True or false",
+   "question": "Read: « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. »\nDecide true, false or not stated for four suitable facts, quoting a French phrase as evidence for each true or false decision.",
+   "modelAnswer": "Any answer is justified by a short quotation. Never use outside knowledge and do not turn an unstated idea into a false one.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-7",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Reading: infer carefully",
+   "question": "Read: « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. »\nWhat can you infer about the speaker's priorities? Support one inference with exact French evidence and avoid claiming something not stated.",
+   "modelAnswer": "A supported inference should reflect: My favourite celebrity is a sportswoman who encourages young people. Her success is impressive. However, the media should respect stars' private lives more.. It must quote the relevant phrase rather than retell the whole paragraph.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-8",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Find the detail",
+   "question": "Read: « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. »\nIn French, identify (1) a person or place, (2) an activity, (3) a past-time marker, and (4) a future or conditional form.",
+   "modelAnswer": "Suitable evidence comes directly from the transcript. Full reference: Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-9",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Multiple choice reading",
+   "question": "Read: « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. »\n1. The speaker's current view is best summarised as (A) My favourite celebrity is a sportswoman who encourages young people. (B) a fact not mentioned (C) a refusal.\n2. The past event is (A) Her success is impressive. (B) tomorrow (C) a command.\n3. The final idea is (A) fixed (B) However, the media should respect stars' private lives more. (C) uncertain.",
+   "modelAnswer": "1. A\n2. A\n3. B",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-10",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Reading: correct the summary",
+   "question": "A student has summarised « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. » as: “The speaker only discusses the present and dislikes the whole topic.” Correct the summary in English.",
+   "modelAnswer": "Accurate summary: My favourite celebrity is a sportswoman who encourages young people. Her success is impressive. However, the media should respect stars' private lives more.. The text discusses several time frames and gives a more specific view, not a blanket dislike.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-3-11",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Translate the key sentences",
+   "question": "Choose the three core sentences in « Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. » and translate them into natural, not literal, English. Explain one grammar feature that helped you.",
+   "modelAnswer": "My favourite celebrity is a sportswoman who encourages young people. Her success is impressive. However, the media should respect stars' private lives more.\nThe tense, reflexive/partitive form or adjective agreement should be explained using the exact wording.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "celebrity culture, media influence and fame",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Celebrity culture\nKey vocabulary\n- une célébrité\n- un modèle\n- la réputation\n- avoir de l'influence\n- les réseaux sociaux\n\nRevision focus\nPractise present, past and future forms while discussing celebrity culture, media influence and fame. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

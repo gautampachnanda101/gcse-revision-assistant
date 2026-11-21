@@ -1,0 +1,145 @@
+{
+ "paper": "Paper 1",
+ "module": "3.1",
+ "moduleTitle": "Travel and tourism, including places of interest",
+ "note": {
+  "title": "Travel and tourism, including places of interest",
+  "specFocus": "Transport, trips, accommodation, attractions, holiday experiences and directions.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "3.1 Travel and tourism, including places of interest\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 旅行 lǚxíng — travel\n- 旅游 lǚyóu — tourism\n- 景点 jǐngdiǎn — attraction\n- 旅馆 lǚguǎn — hotel\n- 机票 jīpiào — plane ticket\n- 火车 huǒchē — train\n- 预订 yùdìng — to book\n- 参观 cānguān — to visit\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.1-listening-0",
+   "command": "Listen and answer",
+   "evidence": [
+    "去年暑假我坐火车去了上海。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Last summer holiday I went to Shanghai by train.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“去年暑假我坐火车去了上海。”\n\nAnswer in English: How did the speaker travel to Shanghai?"
+  },
+  {
+   "answerTopic": "3.1-listening-1",
+   "command": "Listen and answer",
+   "evidence": [
+    "我们住的旅馆离市中心很近。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The hotel where we stayed was close to the city centre.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我们住的旅馆离市中心很近。”\n\nAnswer in English: Where was the hotel?"
+  },
+  {
+   "answerTopic": "3.1-listening-2",
+   "command": "Listen and answer",
+   "evidence": [
+    "这个景点门票便宜，而且风景漂亮。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Tickets to this attraction are cheap and the scenery is beautiful.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“这个景点门票便宜，而且风景漂亮。”\n\nAnswer in English: Give two advantages of the attraction."
+  },
+  {
+   "answerTopic": "3.1-listening-3",
+   "command": "Listen and answer",
+   "evidence": [
+    "博物馆旁边就是地铁站。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The underground station is right next to the museum.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“博物馆旁边就是地铁站。”\n\nAnswer in English: Where is the underground station?"
+  },
+  {
+   "answerTopic": "3.1-listening-4",
+   "command": "Listen and answer",
+   "evidence": [
+    "如果天气好，我们明天去爬山。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "If the weather is good, we will go hiking tomorrow.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“如果天气好，我们明天去爬山。”\n\nAnswer in English: What will they do if the weather is good?"
+  },
+  {
+   "answerTopic": "3.1-listening-5",
+   "command": "Listen and answer",
+   "evidence": [
+    "旅途很长，所以我在火车上看书。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The journey was long, so I read on the train.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“旅途很长，所以我在火车上看书。”\n\nAnswer in English: Why did the speaker read on the train?"
+  },
+  {
+   "answerTopic": "3.1-listening-6",
+   "command": "Listen and answer",
+   "evidence": [
+    "我已经参观过长城两次。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I have visited the Great Wall twice.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我已经参观过长城两次。”\n\nAnswer in English: How many times has the speaker visited the Great Wall?"
+  },
+  {
+   "answerTopic": "3.1-listening-7",
+   "command": "Listen and answer",
+   "evidence": [
+    "这个小镇安静，特别适合家庭旅游。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "This small town is quiet and especially suitable for family holidays.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“这个小镇安静，特别适合家庭旅游。”\n\nAnswer in English: Why is the town suitable for family trips?"
+  },
+  {
+   "answerTopic": "3.1-listening-8",
+   "command": "Listen and answer",
+   "evidence": [
+    "他们昨晚预订了靠窗的房间。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Last night they booked a room by the window.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“他们昨晚预订了靠窗的房间。”\n\nAnswer in English: What kind of room was booked?"
+  },
+  {
+   "answerTopic": "3.1-listening-9",
+   "command": "Listen and answer",
+   "evidence": [
+    "在中国旅游时，我想多用公共交通。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "When travelling in China, I want to use public transport more.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“在中国旅游时，我想多用公共交通。”\n\nAnswer in English: What transport choice would the speaker make in China?"
+  },
+  {
+   "answerTopic": "3.1-listening-10",
+   "command": "Listen and answer",
+   "evidence": [
+    "虽然飞机快，机票却很贵。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Although the plane is fast, the ticket is very expensive.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“虽然飞机快，机票却很贵。”\n\nAnswer in English: What is the disadvantage of flying?"
+  },
+  {
+   "answerTopic": "3.1-listening-11",
+   "command": "Listen and answer",
+   "evidence": [
+    "下次旅行我打算去一个比较安静的地方。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "On my next trip I plan to go somewhere quieter.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“下次旅行我打算去一个比较安静的地方。”\n\nAnswer in English: What kind of place is planned for the next trip?"
+  }
+ ]
+}

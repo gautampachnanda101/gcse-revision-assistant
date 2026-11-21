@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 1",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "note": {
+  "title": "Education and work",
+  "specFocus": "School subjects, school life and rules, future plans, jobs, work experience and ambitions.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "1.3 Education and work\nKey vocabulary (Russian = transliteration = English)\n- школа = shkola = school; предмет = predmet = subject; урок = urok = lesson; учитель/учительница = uchitel'/uchitel'nitsa = teacher\n- математика, физика, химия, история, английский язык = school subjects; любимый предмет = lyubimyy predmet = favourite subject\n- форма = forma = uniform; правило = pravilo = rule; домашнее задание = domashnee zadanie = homework; экзамен = ekzamen = exam\n- поступить в университет = postupit' v universitet = to go to university; профессия = professiya = profession; зарабатывать = zarabatyvat' = to earn\n- врач = vrach = doctor; инженер = inzhener = engineer; повар = povar = cook; программист = programmist = programmer\n- практика = praktika = work experience; опыт = opyt = experience; мечтать (о + prep.) = mechtat' = to dream of\n\nKey grammar\n- Subjects with на/по: урок по математике; я занимаюсь математикой (instrumental).\n- Future with хочу/собираюсь + infinitive: я собираюсь поступить в университет; я хочу стать врачом (стать + instrumental).\n- Past imperfective for habits/description (я ходил в школу каждый день) vs perfective for a completed action (я сдал экзамен).\n- Conditional: если бы я мог, я бы выбрал... ; Я хотел бы быть... = I would like to be...\n- Genitive after numbers 2-4 and prepositions: пять уроков, до школы, после уроков.\n\nExam tips\n- Learn стать + instrumental (стать учителем) and работать + instrumental (работать врачом).\n- Give an opinion on a subject: потому что он интересный/полезный/трудный.\n- Distinguish идти (on foot, one direction) from ходить (habitually): я хожу в школу пешком."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.3-listening-0",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "The history teacher.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: Моя любимая учительница — преподавательница истории, потому что она ясно объясняет сложные темы. У нас с ней урок в среду после обеда.»\n\nAnswer in English:\nWho is the speaker’s favourite teacher?"
+  },
+  {
+   "answerTopic": "1.3-listening-1",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "She explains difficult topics clearly; the lesson is on Wednesday afternoon.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: Моя любимая учительница — преподавательница истории, потому что она ясно объясняет сложные темы. У нас с ней урок в среду после обеда.»\n\nAnswer in English:\nWhy does the speaker like her, and when is the lesson?"
+  },
+  {
+   "answerTopic": "1.3-listening-2",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "At half past eight.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: В нашей школе уроки начинаются в половине девятого. После второй большой перемены мы изучаем физику, но зимой лаборатория бывает холодной.»\n\nAnswer in English:\nWhat time do lessons start?"
+  },
+  {
+   "answerTopic": "1.3-listening-3",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "It is cold in winter.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: В нашей школе уроки начинаются в половине девятого. После второй большой перемены мы изучаем физику, но зимой лаборатория бывает холодной.»\n\nAnswer in English:\nWhat problem is mentioned about the laboratory?"
+  },
+  {
+   "answerTopic": "1.3-listening-4",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Six.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: В прошлом году я сдавал экзамены по шести предметам. Самым трудным была химия, поэтому теперь я занимаюсь с репетитором.»\n\nAnswer in English:\nHow many subjects did the speaker sit exams in?"
+  },
+  {
+   "answerTopic": "1.3-listening-5",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Chemistry was hardest, so they now work with a tutor.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: В прошлом году я сдавал экзамены по шести предметам. Самым трудным была химия, поэтому теперь я занимаюсь с репетитором.»\n\nAnswer in English:\nWhich subject was hardest and what action followed?"
+  },
+  {
+   "answerTopic": "1.3-listening-6",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "In a bookshop as a shop assistant.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: На каникулах я работала продавцом в книжном магазине. Зарплата была небольшой, зато я научилась помогать покупателям.»\n\nAnswer in English:\nWhere did the speaker work during the holidays?"
+  },
+  {
+   "answerTopic": "1.3-listening-7",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "She learned how to help customers, despite the small pay.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: На каникулах я работала продавцом в книжном магазине. Зарплата была небольшой, зато я научилась помогать покупателям.»\n\nAnswer in English:\nWhat did she gain from the job?"
+  },
+  {
+   "answerTopic": "1.3-listening-8",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Architecture at university.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: После школы я хочу поступить в университет и изучать архитектуру. Мои родители советуют сначала получить опыт работы.»\n\nAnswer in English:\nWhat does the speaker want to study?"
+  },
+  {
+   "answerTopic": "1.3-listening-9",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Gaining work experience first.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: После школы я хочу поступить в университет и изучать архитектуру. Мои родители советуют сначала получить опыт работы.»\n\nAnswer in English:\nWhat do the parents advise?"
+  },
+  {
+   "answerTopic": "1.3-listening-10",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Using a phone.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: Раньше на наших уроках было запрещено пользоваться телефоном. Теперь учитель разрешает искать слова в приложении только после его команды.»\n\nAnswer in English:\nWhat was formerly forbidden in lessons?"
+  },
+  {
+   "answerTopic": "1.3-listening-11",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Only after the teacher says they may look up a word.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: Раньше на наших уроках было запрещено пользоваться телефоном. Теперь учитель разрешает искать слова в приложении только после его команды.»\n\nAnswer in English:\nWhen can pupils use an app now?"
+  }
+ ]
+}

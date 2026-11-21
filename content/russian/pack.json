@@ -1,0 +1,66 @@
+{
+ "$schema": "../../schema/gcse-revision-pack.schema.json",
+ "config": {
+  "brandIcon": "🇷🇺",
+  "brandSubtitle": "AQA-style GCSE",
+  "brandTitle": "Russian Revision",
+  "breadcrumb": "Languages / Russian",
+  "examBoard": "AQA-style GCSE",
+  "footerNote": "Questions are original practice items written around the common GCSE-style language themes (People and lifestyle; Popular culture; Communication and the world around us). They are not official past-paper or mark-scheme material, and model answers are indicative exemplars only. This app has no audio, so Listening items are written transcripts.",
+  "heroEyebrow": "Listening · Speaking · Reading · Writing",
+  "pageTitle": "Russian GCSE Revision",
+  "papers": [
+   {
+    "id": "Paper 1",
+    "label": "Paper 1",
+    "subtitle": "comprehension (text-based practice)",
+    "title": "Listening"
+   },
+   {
+    "id": "Paper 2",
+    "label": "Paper 2",
+    "subtitle": "role-play & photo card",
+    "title": "Speaking"
+   },
+   {
+    "id": "Paper 3",
+    "label": "Paper 3",
+    "subtitle": "comprehension & translation",
+    "title": "Reading"
+   },
+   {
+    "id": "Paper 4",
+    "label": "Paper 4",
+    "subtitle": "production & translation",
+    "title": "Writing"
+   }
+  ],
+  "storageId": "lang_russian",
+  "subjectArea": "Languages",
+  "subjectName": "Russian",
+  "speechLang": "ru-RU"
+ },
+ "rubrics": {
+  "Paper 1": {
+   "Listen and answer": "AO1 (Listening): marks are awarded for accurate, relevant comprehension of the spoken/written Russian. Partial credit is given for identifying the correct detail even if the English expression is imperfect; answers must match what is stated, not inferred beyond the text."
+  },
+  "Paper 2": {
+   "Describe the photo": "AO2 (Speaking): assessed on communication of relevant content, range and accuracy of language, and pronunciation/intonation. Higher marks require description plus opinion plus justification, not description alone.",
+   "Role-play": "AO2 (Speaking): assessed on task completion (all bullet points covered), appropriateness of response, and ability to deal with an unpredictable question. Accuracy and spontaneity are credited over complexity."
+  },
+  "Paper 3": {
+   "Reading comprehension": "AO3 (Reading): marks for accurate extraction of explicit and implicit meaning from the Russian text; answers must be supported by the text and expressed clearly in English.",
+   "Translate into English": "AO3 (Reading)/translation: marked for accuracy of meaning first, then grammatical accuracy of the English produced; omissions and mistranslations of tense/negatives lose marks."
+  },
+  "Paper 4": {
+   "Translate into Russian": "AO4 (Writing)/translation: marked on accuracy of meaning and of Russian grammar (verb endings, agreement, word order); partial credit is given per correctly translated sense unit.",
+   "Write in Russian": "AO4 (Writing): assessed on content (covering all bullet points), range of vocabulary/structures, accuracy, and quality of opinions with justification. Using a range of tenses accurately accesses higher marks."
+  }
+ },
+ "meta": {
+  "provenance": "Original practice material written for this project around common GCSE-style language themes; not official exam-board material. Listening items are text-based.",
+  "qualification": "Russian (GCSE-style revision)",
+  "title": "Russian GCSE-style",
+  "idPrefix": "ru"
+ }
+}

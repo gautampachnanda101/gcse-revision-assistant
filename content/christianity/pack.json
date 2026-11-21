@@ -1,0 +1,49 @@
+{
+ "$schema": "../../schema/gcse-revision-pack.schema.json",
+ "config": {
+  "brandIcon": "✝️",
+  "brandSubtitle": "Edexcel International GCSE",
+  "brandTitle": "Christianity Revision",
+  "breadcrumb": "Religious Studies / Christianity",
+  "examBoard": "Edexcel International GCSE",
+  "footerNote": "Questions are written to match the official Edexcel International GCSE Religious Studies specification. Model answers are original indicative exemplars, not official Edexcel mark schemes or past paper material. Accepted answers may vary.",
+  "heroEyebrow": "Paper 1 · Paper 2 Christianity",
+  "pageTitle": "Christianity IGCSE Revision",
+  "papers": [
+   {
+    "id": "Paper 1",
+    "label": "Paper 1",
+    "subtitle": "modules 1.1–2.8",
+    "title": "Beliefs and Values"
+   },
+   {
+    "id": "Paper 2",
+    "label": "Paper 2",
+    "subtitle": "Christianity",
+    "title": "Religious Community"
+   }
+  ],
+  "storageId": "edexcel_christianity",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Christianity"
+ },
+ "rubrics": {
+  "Paper 1": {
+   "12": "Evaluate (12 marks): AO1 knowledge and understanding = 4 marks; AO2 analysis/evaluation = 8 marks. Level 1 (1–3): isolated knowledge, superficial analysis, asserted judgements. Level 2 (4–6): limited understanding, some developed arguments, simple judgements and limited justification. Level 3 (7–9): accurate understanding, logical chains of reasoning across different views, reasoned judgements and a partially justified conclusion. Level 4 (10–12): sustained, accurate and thorough knowledge; coherent logical analysis of different views; appraisal of arguments; justified conclusion consistent with the analysis.",
+   "3": "Identify (3 marks): award 1 mark for each valid factual point, up to 3. No development is required for the point to receive its identification mark. Accept other valid responses; do not credit repetition.",
+   "4": "Outline (4 marks): normally two distinct points, each with a relevant description (1) and development (1). Development must relate to the point and the question; do not award repeated development.",
+   "6": "Explain (6 marks): AO1 knowledge and understanding = 3 marks; AO2 explanation/analysis of significance and influence = 3 marks. Best-fit levels: 1–2 limited/superficial; 3–4 mostly accurate and developed; 5–6 accurate, comprehensive understanding with well-developed explanation and judgements."
+  },
+  "Paper 2": {
+   "10": "Discuss (10 marks): AO1 knowledge and understanding = 4 marks; AO2 analysis = 6 marks. Level 1 (1–3): isolated knowledge and superficial analysis with little consideration of how aspects interrelate. Level 2 (4–6): limited understanding and basic analysis with some developed arguments but limited interrelation. Level 3 (7–8): accurate understanding and logical reasoning considering different aspects and how they interrelate. Level 4 (9–10): sustained accurate and thorough knowledge; coherent logical reasoning considering different aspects and their interrelationships in a sustained way.",
+   "4": "Outline (4 marks): normally two relevant points, each with a description (1) and development (1). Development must relate to the point and question. Credit any other valid Christian response; do not reward repetition or unrelated development.",
+   "6": "Explain (6 marks): AO1 knowledge and understanding = 3 marks; AO2 analysis of significance/influence = 3 marks. Best-fit levels: 1–2 limited/superficial; 3–4 mostly accurate and developed; 5–6 accurate, comprehensive understanding with well-developed explanation and judgements."
+  }
+ },
+ "meta": {
+  "provenance": "Questions are original practice items written to match the official Edexcel International GCSE Religious Studies (4RS1) specification structure. They are NOT transcribed from an official question booklet or past paper — unlike the app's Hinduism pack, no official booklet was supplied for this subject. Model answers are indicative exemplars only, not official Edexcel mark schemes.",
+  "qualification": "International GCSE Religious Studies, specification for assessment from 2027",
+  "title": "Edexcel IGCSE Religious Studies — Christianity",
+  "idPrefix": "c"
+ }
+}

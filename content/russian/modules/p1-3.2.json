@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 1",
+ "module": "3.2",
+ "moduleTitle": "Media and technology",
+ "note": {
+  "title": "Media and technology",
+  "specFocus": "Phones, social media, internet, TV, advantages/disadvantages of technology, online safety.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "3.2 Media and technology\nKey vocabulary (Russian = transliteration = English)\n- телефон/смартфон = telefon/smartfon = phone; компьютер/ноутбук = komp'yuter/noutbuk = computer/laptop; интернет = internet = internet\n- соцсети = sotsseti = social media; сообщение = soobshchenie = message; видео = video = video; приложение = prilozhenie = app\n- пользоваться (+ instr.) = pol'zovat'sya = to use; скачивать = skachivat' = to download; искать = iskat' = to look for/search\n- общаться = obshchat'sya = to communicate; переписываться = perepisyvat'sya = to text/correspond; зависимость = zavisimost' = addiction\n- опасный = opasnyy = dangerous; безопасность = bezopasnost' = safety; пароль = parol' = password; реклама = reklama = advertising\n- новости = novosti = news; передача = peredacha = programme; сериал = serial = series; ТВ/телевизор = TV\n\nKey grammar\n- Пользоваться + instrumental: я пользуюсь телефоном, мы пользуемся интернетом.\n- Общаться/переписываться с + instrumental: я общаюсь с друзьями онлайн.\n- Advantages/disadvantages: с одной стороны... с другой стороны...; плюс/минус; преимущество/недостаток.\n- Past with time: вчера я два часа сидел в соцсетях; Future: в будущем люди будут использовать больше роботов.\n- Conditional: если бы у меня не было телефона, я бы больше читал.\n\nExam tips\n- Use пользоваться + instrumental (я пользуюсь телефоном); использовать takes an accusative object (я использую телефон).\n- Explain both sides of technology and give a personal opinion.\n- Mention online safety (не сообщать пароль, быть осторожным)."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.2-listening-0",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "After breakfast.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: Я включаю телефон только после завтрака, потому что иначе теряю время. Вечером я пользуюсь режимом «не беспокоить».»\n\nAnswer in English:\nWhen does the speaker switch on the phone?"
+  },
+  {
+   "answerTopic": "3.2-listening-1",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Do Not Disturb mode.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: Я включаю телефон только после завтрака, потому что иначе теряю время. Вечером я пользуюсь режимом «не беспокоить».»\n\nAnswer in English:\nWhat mode is used in the evening?"
+  },
+  {
+   "answerTopic": "3.2-listening-2",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Ordering school lunches.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: На уроке информатики мы создали приложение для заказа школьных обедов. Наша команда проверила его с двадцатью учениками.»\n\nAnswer in English:\nWhat was the app for?"
+  },
+  {
+   "answerTopic": "3.2-listening-3",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Twenty pupils.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: На уроке информатики мы создали приложение для заказа школьных обедов. Наша команда проверила его с двадцатью учениками.»\n\nAnswer in English:\nWho tested it?"
+  },
+  {
+   "answerTopic": "3.2-listening-4",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "It looked suspicious on social media.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Вчера в социальных сетях я увидел подозрительную новость о знаменитости. Я проверил два официальных сайта и понял, что это ложь.»\n\nAnswer in English:\nWhy did the speaker distrust the news?"
+  },
+  {
+   "answerTopic": "3.2-listening-5",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Against two official websites; it proved false.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Вчера в социальных сетях я увидел подозрительную новость о знаменитости. Я проверил два официальных сайта и понял, что это ложь.»\n\nAnswer in English:\nHow was it checked?"
+  },
+  {
+   "answerTopic": "3.2-listening-6",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "How to make video calls.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: Моя бабушка научилась звонить по видеосвязи. Теперь она разговаривает с кузиной в Казани два раза в месяц.»\n\nAnswer in English:\nWhat did Grandmother learn?"
+  },
+  {
+   "answerTopic": "3.2-listening-7",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Twice a month.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: Моя бабушка научилась звонить по видеосвязи. Теперь она разговаривает с кузиной в Казани два раза в месяц.»\n\nAnswer in English:\nHow often does she speak to her cousin?"
+  },
+  {
+   "answerTopic": "3.2-listening-8",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "It helps them remember information better.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: Хотя компьютер удобнее тетради, я пишу важные идеи от руки. Это помогает мне лучше запомнить информацию.»\n\nAnswer in English:\nWhy does the speaker handwrite important ideas?"
+  },
+  {
+   "answerTopic": "3.2-listening-9",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "A computer is more convenient than a notebook.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: Хотя компьютер удобнее тетради, я пишу важные идеи от руки. Это помогает мне лучше запомнить информацию.»\n\nAnswer in English:\nWhat comparison is made?"
+  },
+  {
+   "answerTopic": "3.2-listening-10",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "With pronunciation.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: В будущем искусственный интеллект сможет помогать ученикам с произношением. Однако учитель должен проверять ответы и ошибки.»\n\nAnswer in English:\nHow could AI help pupils?"
+  },
+  {
+   "answerTopic": "3.2-listening-11",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "A teacher should still check answers and errors.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: В будущем искусственный интеллект сможет помогать ученикам с произношением. Однако учитель должен проверять ответы и ошибки.»\n\nAnswer in English:\nWhat warning is given?"
+  }
+ ]
+}

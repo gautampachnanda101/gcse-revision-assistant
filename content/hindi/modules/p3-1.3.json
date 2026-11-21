@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 3",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "note": {
+  "title": "Education and work",
+  "specFocus": "school subjects, lessons, teachers, study routines and future careers",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "1.3 Education and work\nKey focus\n- school subjects, lessons, teachers, study routines and future careers.\n\nCore language\n- Useful structures: मेरे विचार में; मुझे ... पसंद है क्योंकि; पिछले साल; अगली बार; आम तौर पर; मुझे ... चाहिए।\n- Distinguish present habits from completed past actions and future intentions; make comparisons accurately.\n\nExam tips\n- For comprehension, locate the exact word or phrase that proves each answer.\n- In translation, preserve tense, negatives, quantities and relationships between people.\n- In writing, add opinions and reasons, vary time frames, and check verb and adjective agreement."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.3-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the Hindi carefully and answer with the stated detail; check नहीं, समय words, numbers and the subject of the verb.",
+   "marks": 2,
+   "modelAnswer": "I like science most because the experiments are interesting.",
+   "question": "Reading comprehension. Read the Hindi sentence and answer in English:\n\n“मुझे विज्ञान सबसे अच्छा लगता है क्योंकि प्रयोग रोचक होते हैं।”\n\nWhich subject is preferred, and why?"
+  },
+  {
+   "answerTopic": "1.3-reading-1",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the Hindi carefully and answer with the stated detail; check नहीं, समय words, numbers and the subject of the verb.",
+   "marks": 2,
+   "modelAnswer": "On Tuesday I handed in my history work late.",
+   "question": "Reading comprehension. Read the Hindi sentence and answer in English:\n\n“मंगलवार को मैंने इतिहास का कार्य देर से जमा किया।”\n\nWhich work was late, and when?"
+  },
+  {
+   "answerTopic": "1.3-reading-2",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the Hindi carefully and answer with the stated detail; check नहीं, समय words, numbers and the subject of the verb.",
+   "marks": 2,
+   "modelAnswer": "Before exams I study in the library for two hours every day.",
+   "question": "Reading comprehension. Read the Hindi sentence and answer in English:\n\n“परीक्षाओं से पहले मैं हर दिन दो घंटे पुस्तकालय में पढ़ता हूँ।”\n\nWhere and for how long does the speaker study before exams?"
+  },
+  {
+   "answerTopic": "1.3-reading-3",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the Hindi carefully and answer with the stated detail; check नहीं, समय words, numbers and the subject of the verb.",
+   "marks": 2,
+   "modelAnswer": "Our teacher explains slowly and always helps.",
+   "question": "Reading comprehension. Read the Hindi sentence and answer in English:\n\n“हमारी अध्यापिका धीरे-धीरे समझाती हैं और हमेशा मदद करती हैं।”\n\nGive two positive features of the teacher."
+  },
+  {
+   "answerTopic": "1.3-reading-4",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the Hindi carefully and answer with the stated detail; check नहीं, समय words, numbers and the subject of the verb.",
+   "marks": 2,
+   "modelAnswer": "Last year I worked in a shop for three weeks.",
+   "question": "Reading comprehension. Read the Hindi sentence and answer in English:\n\n“पिछले वर्ष मैंने तीन सप्ताह एक दुकान में काम किया।”\n\nWhere did the speaker work last year, and for how long?"
+  },
+  {
+   "answerTopic": "1.3-reading-5",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the Hindi carefully and answer with the stated detail; check नहीं, समय words, numbers and the subject of the verb.",
+   "marks": 2,
+   "modelAnswer": "After university I want to become an engineer and work abroad.",
+   "question": "Reading comprehension. Read the Hindi sentence and answer in English:\n\n“विश्वविद्यालय के बाद मैं इंजीनियर बनकर विदेश में काम करना चाहता हूँ।”\n\nWhat future career and work location are wanted?"
+  },
+  {
+   "answerTopic": "1.3-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English, keeping the tense, negative and all people, places or quantities.",
+   "marks": 2,
+   "modelAnswer": "I like science most because the experiments are interesting.",
+   "question": "Translate into English:\n\nमुझे विज्ञान सबसे अच्छा लगता है क्योंकि प्रयोग रोचक होते हैं।"
+  },
+  {
+   "answerTopic": "1.3-translate-en-1",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English, keeping the tense, negative and all people, places or quantities.",
+   "marks": 2,
+   "modelAnswer": "On Tuesday I handed in my history work late.",
+   "question": "Translate into English:\n\nमंगलवार को मैंने इतिहास का कार्य देर से जमा किया।"
+  },
+  {
+   "answerTopic": "1.3-translate-en-2",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English, keeping the tense, negative and all people, places or quantities.",
+   "marks": 2,
+   "modelAnswer": "Before exams I study in the library for two hours every day.",
+   "question": "Translate into English:\n\nपरीक्षाओं से पहले मैं हर दिन दो घंटे पुस्तकालय में पढ़ता हूँ।"
+  },
+  {
+   "answerTopic": "1.3-translate-en-3",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English, keeping the tense, negative and all people, places or quantities.",
+   "marks": 2,
+   "modelAnswer": "Our teacher explains slowly and always helps.",
+   "question": "Translate into English:\n\nहमारी अध्यापिका धीरे-धीरे समझाती हैं और हमेशा मदद करती हैं।"
+  },
+  {
+   "answerTopic": "1.3-translate-en-4",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English, keeping the tense, negative and all people, places or quantities.",
+   "marks": 2,
+   "modelAnswer": "Last year I worked in a shop for three weeks.",
+   "question": "Translate into English:\n\nपिछले वर्ष मैंने तीन सप्ताह एक दुकान में काम किया।"
+  },
+  {
+   "answerTopic": "1.3-translate-en-5",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English, keeping the tense, negative and all people, places or quantities.",
+   "marks": 2,
+   "modelAnswer": "After university I want to become an engineer and work abroad.",
+   "question": "Translate into English:\n\nविश्वविद्यालय के बाद मैं इंजीनियर बनकर विदेश में काम करना चाहता हूँ।"
+  }
+ ]
+}

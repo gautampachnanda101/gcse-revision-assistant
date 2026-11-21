@@ -1,0 +1,145 @@
+{
+ "paper": "Paper 1",
+ "module": "3.2",
+ "moduleTitle": "Media and technology",
+ "note": {
+  "title": "Media and technology",
+  "specFocus": "Online communication, social media, devices, advantages, risks and responsible use.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "3.2 Media and technology\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 科技 kējì — technology\n- 媒体 méitǐ — media\n- 手机 shǒujī — mobile phone\n- 网络 wǎngluò — internet\n- 社交媒体 shèjiāo méitǐ — social media\n- 消息 xiāoxi — message\n- 隐私 yǐnsī — privacy\n- 上瘾 shàngyǐn — to become addicted\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.2-listening-0",
+   "command": "Listen and answer",
+   "evidence": [
+    "我每天用手机跟朋友联系。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I use my phone to contact friends every day.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我每天用手机跟朋友联系。”\n\nAnswer in English: What is the phone used for every day?"
+  },
+  {
+   "answerTopic": "3.2-listening-1",
+   "command": "Listen and answer",
+   "evidence": [
+    "网络可以帮助学生找到学习资料。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The internet can help students find learning materials.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“网络可以帮助学生找到学习资料。”\n\nAnswer in English: What can the internet help students find?"
+  },
+  {
+   "answerTopic": "3.2-listening-2",
+   "command": "Listen and answer",
+   "evidence": [
+    "昨晚我的电脑坏了，所以我没有完成作业。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "My computer broke last night, so I did not finish my homework.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“昨晚我的电脑坏了，所以我没有完成作业。”\n\nAnswer in English: What consequence followed the computer breaking?"
+  },
+  {
+   "answerTopic": "3.2-listening-3",
+   "command": "Listen and answer",
+   "evidence": [
+    "姐姐在社交媒体上发照片，但不公布地址。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "My older sister posts photos on social media but does not publish her address.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“姐姐在社交媒体上发照片，但不公布地址。”\n\nAnswer in English: What does the sister post and what does she keep private?"
+  },
+  {
+   "answerTopic": "3.2-listening-4",
+   "command": "Listen and answer",
+   "evidence": [
+    "有时候我花太多时间看短视频。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Sometimes I spend too much time watching short videos.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“有时候我花太多时间看短视频。”\n\nAnswer in English: What habit worries the speaker?"
+  },
+  {
+   "answerTopic": "3.2-listening-5",
+   "command": "Listen and answer",
+   "evidence": [
+    "父母说，晚上九点以后不应该用手机。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "My parents say we should not use phones after nine in the evening.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“父母说，晚上九点以后不应该用手机。”\n\nAnswer in English: What phone rule do the parents mention?"
+  },
+  {
+   "answerTopic": "3.2-listening-6",
+   "command": "Listen and answer",
+   "evidence": [
+    "虽然视频聊天方便，见面交流更亲切。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Although video chat is convenient, meeting face to face is friendlier.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“虽然视频聊天方便，见面交流更亲切。”\n\nAnswer in English: Which way of communicating is preferred and why?"
+  },
+  {
+   "answerTopic": "3.2-listening-7",
+   "command": "Listen and answer",
+   "evidence": [
+    "我把密码改了，因为有人试图登录我的账号。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I changed my password because someone tried to log into my account.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我把密码改了，因为有人试图登录我的账号。”\n\nAnswer in English: Why was the password changed?"
+  },
+  {
+   "answerTopic": "3.2-listening-8",
+   "command": "Listen and answer",
+   "evidence": [
+    "新手机的电池能用一整天。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The new phone’s battery can last a whole day.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“新手机的电池能用一整天。”\n\nAnswer in English: How long does the battery last?"
+  },
+  {
+   "answerTopic": "3.2-listening-9",
+   "command": "Listen and answer",
+   "evidence": [
+    "下载应用以前，应该先检查评论。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Before downloading an app, you should check the reviews.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“下载应用以前，应该先检查评论。”\n\nAnswer in English: What should be done before downloading an app?"
+  },
+  {
+   "answerTopic": "3.2-listening-10",
+   "command": "Listen and answer",
+   "evidence": [
+    "老师用平板电脑放视频。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The teacher uses a tablet to play videos.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“老师用平板电脑放视频。”\n\nAnswer in English: What does the teacher do with a tablet?"
+  },
+  {
+   "answerTopic": "3.2-listening-11",
+   "command": "Listen and answer",
+   "evidence": [
+    "如果技术坏了，我们应该知道怎样不用它也能学习。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "If technology fails, we should know how to learn without it.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“如果技术坏了，我们应该知道怎样不用它也能学习。”\n\nAnswer in English: What should we be able to do when technology fails?"
+  }
+ ]
+}

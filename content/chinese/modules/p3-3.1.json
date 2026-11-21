@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 3",
+ "module": "3.1",
+ "moduleTitle": "Travel and tourism, including places of interest",
+ "note": {
+  "title": "Travel and tourism, including places of interest",
+  "specFocus": "Transport, trips, accommodation, attractions, holiday experiences and directions.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "3.1 Travel and tourism, including places of interest\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 旅行 lǚxíng — travel\n- 旅游 lǚyóu — tourism\n- 景点 jǐngdiǎn — attraction\n- 旅馆 lǚguǎn — hotel\n- 机票 jīpiào — plane ticket\n- 火车 huǒchē — train\n- 预订 yùdìng — to book\n- 参观 cānguān — to visit\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.1-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "Last summer holiday I went to Shanghai by train.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“去年暑假我坐火车去了上海。”\n\nHow did the speaker travel to Shanghai?"
+  },
+  {
+   "answerTopic": "3.1-reading-1",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "The hotel where we stayed was close to the city centre.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“我们住的旅馆离市中心很近。”\n\nWhere was the hotel?"
+  },
+  {
+   "answerTopic": "3.1-reading-2",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "Tickets to this attraction are cheap and the scenery is beautiful.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“这个景点门票便宜，而且风景漂亮。”\n\nGive two advantages of the attraction."
+  },
+  {
+   "answerTopic": "3.1-reading-3",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "The underground station is right next to the museum.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“博物馆旁边就是地铁站。”\n\nWhere is the underground station?"
+  },
+  {
+   "answerTopic": "3.1-reading-4",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "If the weather is good, we will go hiking tomorrow.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“如果天气好，我们明天去爬山。”\n\nWhat will they do if the weather is good?"
+  },
+  {
+   "answerTopic": "3.1-reading-5",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "The journey was long, so I read on the train.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“旅途很长，所以我在火车上看书。”\n\nWhy did the speaker read on the train?"
+  },
+  {
+   "answerTopic": "3.1-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "I have visited the Great Wall twice.",
+   "question": "Translate into English:\n\n我已经参观过长城两次。"
+  },
+  {
+   "answerTopic": "3.1-translate-en-1",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "This small town is quiet and especially suitable for family holidays.",
+   "question": "Translate into English:\n\n这个小镇安静，特别适合家庭旅游。"
+  },
+  {
+   "answerTopic": "3.1-translate-en-2",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "Last night they booked a room by the window.",
+   "question": "Translate into English:\n\n他们昨晚预订了靠窗的房间。"
+  },
+  {
+   "answerTopic": "3.1-translate-en-3",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "When travelling in China, I want to use public transport more.",
+   "question": "Translate into English:\n\n在中国旅游时，我想多用公共交通。"
+  },
+  {
+   "answerTopic": "3.1-translate-en-4",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "Although the plane is fast, the ticket is very expensive.",
+   "question": "Translate into English:\n\n虽然飞机快，机票却很贵。"
+  },
+  {
+   "answerTopic": "3.1-translate-en-5",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "On my next trip I plan to go somewhere quieter.",
+   "question": "Translate into English:\n\n下次旅行我打算去一个比较安静的地方。"
+  }
+ ]
+}

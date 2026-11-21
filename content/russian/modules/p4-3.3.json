@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "3.3",
+ "moduleTitle": "The environment and where people live",
+ "note": {
+  "title": "The environment and where people live",
+  "specFocus": "Home and town, region, weather, environmental problems and what we can do about them.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "3.3 The environment and where people live\nKey vocabulary (Russian = transliteration = English)\n- город = gorod = town/city; деревня = derevnya = village; район = rayon = district; центр = tsentr = centre\n- квартира = kvartira = flat; дом = dom = house; этаж = etazh = floor; комната = komnata = room; сад = sad = garden\n- окружающая среда = okruzhayushchaya sreda = environment; загрязнение = zagryaznenie = pollution; мусор = musor = rubbish\n- сортировать мусор = sortirovat' musor = to sort rubbish; экономить воду = ekonomit' vodu = to save water; перерабатывать = pererabatyvat' = to recycle\n- глобальное потепление = global'noe potepleniye = global warming; наводнение = navodnenie = flood; лес = les = forest\n- пластик = plastik = plastic; велосипед = velosiped = bicycle; общественный транспорт = obshchestvennyy transport = public transport\n\nKey grammar\n- Location: в/на + prepositional (в центре города, на втором этаже); distances: далеко от + genitive.\n- Necessity and advice: надо/нужно/следует + infinitive; нельзя выбрасывать мусор.\n- Future for plans: мы будем сортировать мусор; я буду ездить на велосипеде.\n- Conditional with если бы: Если бы все ездили на автобусе, воздух был бы чище.\n- Comparatives: чище, грязнее, тише, шумнее; самый большой город.\n\nExam tips\n- Use чтобы + past/infinitive for purpose: чтобы защитить природу, надо...\n- Include a problem and a solution in writing tasks.\n- Remember на for floor/street/square (на втором этаже, на улице)."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.3-translate-ru-0",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 8,
+   "modelAnswer": "1. Я живу в квартире.\n2. Наш город маленький.\n3. Около моего дома есть парк.\n4. Я люблю деревню. / Я люблю сельскую местность.",
+   "question": "Translate into Russian:\n\n1. I live in a flat.\n2. Our town is small.\n3. There is a park near my house.\n4. I like the countryside."
+  },
+  {
+   "answerTopic": "3.3-translate-ru-1",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 6,
+   "modelAnswer": "1. Моя комната большая и светлая.\n2. У нас есть сад.\n3. Магазины находятся далеко от дома.",
+   "question": "Translate into Russian:\n\n1. My room is big and bright.\n2. We have a garden.\n3. The shops are far from the house."
+  },
+  {
+   "answerTopic": "3.3-translate-ru-2",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. В прошлом году мы переехали в новый город.\n2. Мне здесь нравится больше, чем в старом городе.\n3. Здесь больше развлечений.",
+   "question": "Translate into Russian:\n\n1. Last year we moved to a new town.\n2. I like it here more than in the old town.\n3. There is more to do."
+  },
+  {
+   "answerTopic": "3.3-translate-ru-3",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 9,
+   "modelAnswer": "1. Мы должны защищать окружающую среду.\n2. Нельзя выбрасывать мусор на улице.\n3. Дома мы сортируем пластик и бумагу.",
+   "question": "Translate into Russian:\n\n1. We must protect the environment.\n2. You mustn't throw rubbish on the street.\n3. We sort plastic and paper at home."
+  },
+  {
+   "answerTopic": "3.3-translate-ru-4",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 9,
+   "modelAnswer": "1. В будущем я буду ездить на велосипеде.\n2. Он не загрязняет воздух.\n3. Это также полезно для здоровья.",
+   "question": "Translate into Russian:\n\n1. In the future I will travel by bike.\n2. It does not pollute the air.\n3. It is also good for health."
+  },
+  {
+   "answerTopic": "3.3-translate-ru-5",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Если бы все пользовались общественным транспортом, пробок было бы меньше.\n2. Загрязнение — самая большая проблема в нашем городе.\n3. Я хотел бы жить в деревне, потому что там тихо. / ...хотела бы...",
+   "question": "Translate into Russian:\n\n1. If everyone used public transport, there would be fewer traffic jams.\n2. Pollution is the biggest problem in our city.\n3. I would like to live in the countryside because it is quiet."
+  },
+  {
+   "answerTopic": "3.3-writing-0",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 8,
+   "modelAnswer": "Я живу в небольшом городе. У нас есть красивый парк, музей и несколько магазинов. Мне нравится, что здесь тихо, но не нравится, что нет бассейна. В будущем я хотел бы жить в большом городе, потому что там больше возможностей.\n\n(English translation: I live in a small town. We have a beautiful park, a museum and some shops. I like that it's quiet here but I don't like that there is no swimming pool. In future I would like to live in a big city because there are more opportunities.)",
+   "question": "Напишите о вашем городе или деревне. Вы должны упомянуть:\n• где вы живёте\n• что там есть интересного\n• что вам нравится и не нравится\n• где вы хотели бы жить в будущем"
+  },
+  {
+   "answerTopic": "3.3-writing-1",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 8,
+   "modelAnswer": "Мы живём в квартире на четвёртом этаже. Моя любимая комната — моя спальня, потому что там уютно и тихо. Вчера я делала уроки и помогала маме готовить ужин. Я хотела бы жить в большом доме с садом и собакой.\n\n(English translation: We live in a flat on the fourth floor. My favourite room is my bedroom because it's cosy and quiet there. Yesterday I did homework and helped mum cook dinner. I would like to live in a big house with a garden and a dog.)",
+   "question": "Напишите о вашем доме. Вы должны упомянуть:\n• какой у вас дом или квартира\n• какая ваша любимая комната и почему\n• что вы делали вчера дома\n• какой дом вы хотели бы иметь"
+  },
+  {
+   "answerTopic": "3.3-writing-2",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 10,
+   "modelAnswer": "В нашем районе много машин, поэтому воздух грязный. Дома мы сортируем мусор и экономим воду. На прошлой неделе мы с классом убирали парк. Я думаю, что все люди должны меньше ездить на машинах и больше ходить пешком.\n\n(English translation: In our district there are many cars, so the air is dirty. At home we sort rubbish and save water. Last week my class and I cleaned the park. I think everyone should drive less and walk more.)",
+   "question": "Напишите о проблемах окружающей среды. Вы должны упомянуть:\n• какие проблемы есть в вашем районе\n• что вы делаете, чтобы помочь природе\n• что вы сделали на прошлой неделе\n• что нужно делать всем людям"
+  },
+  {
+   "answerTopic": "3.3-writing-3",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 10,
+   "modelAnswer": "В нашем районе есть библиотека, стадион и несколько кафе. По выходным люди гуляют в парке и катаются на велосипедах. На прошлой неделе на площади был ярмарочный день, и я купила там свежие булочки. Если бы я мог что-то изменить, я бы построил больше велодорожек.\n\n(English translation: In our district there is a library, a stadium and a few cafés. At weekends people walk in the park and cycle. Last week there was a market day on the square and I bought fresh rolls there. If I could change something I would build more cycle paths.)",
+   "question": "Напишите о местном районе. Вы должны упомянуть:\n• что есть в вашем районе\n• как люди проводят время\n• какое событие недавно было\n• что бы вы изменили"
+  },
+  {
+   "answerTopic": "3.3-writing-4",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 12,
+   "modelAnswer": "Меня беспокоят глобальное потепление и пластик в океанах. Я не покупаю одноразовые пакеты, выключаю свет и езжу в школу на автобусе. В нашей школе в прошлом году поставили контейнеры для раздельного сбора мусора, и теперь ученики сортируют бумагу и пластик. Правительство должно строить больше ветряных электростанций и поддерживать общественный транспорт, чтобы воздух стал чище.\n\n(English translation: I'm worried about global warming and plastic in the oceans. I don't buy disposable bags, I switch off lights and I go to school by bus. In our school last year they put in containers for separate rubbish collection and now pupils sort paper and plastic. The government should build more wind farms and support public transport so that the air becomes cleaner.)",
+   "question": "Напишите о том, как можно защитить планету. Вы должны упомянуть:\n• какие экологические проблемы вас беспокоят\n• что вы лично делаете\n• какие успехи были в вашей школе\n• какие меры должно принять правительство"
+  },
+  {
+   "answerTopic": "3.3-writing-5",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 12,
+   "modelAnswer": "В городе много магазинов, кинотеатров и транспорта, а в деревне тихо и чистый воздух. Раньше мы жили в деревне, и я часто гуляла в лесу. Теперь мы живём в городе, и мне нравится, что рядом школа и друзья. Если бы я мог выбрать, я бы жил недалеко от города, чтобы иметь и покой, и развлечения.\n\n(English translation: In a city there are lots of shops, cinemas and transport, while in a village it is quiet with clean air. We used to live in a village and I often walked in the forest. Now we live in a city and I like that school and friends are nearby. If I could choose I would live near a city so as to have both peace and entertainment.)",
+   "question": "Напишите о преимуществах и недостатках жизни в городе и в деревне. Вы должны упомянуть:\n• плюсы жизни в городе\n• плюсы жизни в деревне\n• где вы жили раньше\n• где вы хотели бы жить и почему"
+  }
+ ]
+}

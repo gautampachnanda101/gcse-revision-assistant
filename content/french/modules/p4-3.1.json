@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "3.1",
+ "moduleTitle": "Travel and tourism, including places of interest",
+ "questions": [
+  {
+   "answerTopic": "3.1-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "L'année dernière, je suis allé(e) en vacances en Italie avec mes parents. Nous avons visité beaucoup de monuments historiques et nous avons goûté des plats délicieux. À mon avis, voyager est très enrichissant parce que ça permet de découvrir de nouvelles cultures et d'améliorer ses langues. À l'avenir, j'aimerais visiter le Japon parce que la culture m'intéresse énormément.\n\n(English translation: Last year, I went on holiday to Italy with my parents. We visited lots of historic monuments and tasted delicious food. In my opinion, travelling is very enriching because it allows you to discover new cultures and improve your languages. In the future, I would like to visit Japan because the culture interests me enormously.)",
+   "question": "Écrivez un article sur les vacances. Vous devez mentionner :\n• où vous êtes allé(e) en vacances l'année dernière\n• ce que vous avez fait pendant le séjour\n• votre opinion sur l'importance de voyager, avec une raison\n• où vous aimeriez voyager à l'avenir."
+  },
+  {
+   "answerTopic": "3.1-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. L'année dernière, nous sommes allé(e)s en vacances au Portugal.\n2. Nous sommes resté(e)s dans un hôtel près de la vieille ville.\n3. Il faisait beau tous les jours.\n4. À l'avenir, je voudrais voyager davantage à l'étranger.",
+   "question": "Translate into French:\n\n1. Last year, we went on holiday to Portugal.\n2. We stayed in a hotel near the old town.\n3. The weather was beautiful every day.\n4. In the future, I would like to travel abroad more."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-2",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about travel, tourism and places of interest. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: L'été dernier, je suis allé au bord de la mer en train. Nous avons visité un vieux château près de notre hôtel. L'année prochaine, je voudrais découvrir une grande ville française.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-3",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. Last summer, I went to the seaside by train.\n2. We visited an old castle near our hotel.\n3. Next year, I would like to discover a large French city.",
+   "modelAnswer": "1. L'été dernier, je suis allé au bord de la mer en train.\n2. Nous avons visité un vieux château près de notre hôtel.\n3. L'année prochaine, je voudrais découvrir une grande ville française.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-4",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about travel, tourism and places of interest. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-5",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic travel, tourism and places of interest:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime travel, tourism and places of interest parce que... L'été dernier, je suis allé au bord de la mer en train. Nous avons visité un vieux château près de notre hôtel. L'année prochaine, je voudrais découvrir une grande ville française. Cependant, ... À l'avenir, ... Use module terms including la réservation, une chambre, un aller-retour, un hébergement, se situer.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-6",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about travel, tourism and places of interest. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: la réservation, une chambre, un aller-retour, un hébergement, se situer.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-7",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to travel, tourism and places of interest.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-8",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about travel, tourism and places of interest. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-9",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about travel, tourism and places of interest: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: la réservation, une chambre, un aller-retour, un hébergement, se situer.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-10",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe travel, tourism and places of interest through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: L'été dernier, je suis allé au bord de la mer en train. Nous avons visité un vieux château près de notre hôtel. L'année prochaine, je voudrais découvrir une grande ville française.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-travel-tourism-and-places-of-interest-4-11",
+   "evidence": [
+    "la réservation",
+    "une chambre",
+    "un aller-retour"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on travel, tourism and places of interest. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: L'été dernier, je suis allé au bord de la mer en train. Nous avons visité un vieux château près de notre hôtel. L'année prochaine, je voudrais découvrir une grande ville française. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "travel, tourism and places of interest",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Travel and tourism, including places of interest\nKey vocabulary\n- la réservation\n- une chambre\n- un aller-retour\n- un hébergement\n- se situer\n\nRevision focus\nPractise present, past and future forms while discussing travel, tourism and places of interest. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

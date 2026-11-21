@@ -16,6 +16,7 @@ package main
 // The builder fills in ids, paper/module fields, notes, moduleCounts and the meta totals.
 
 import (
+	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -50,6 +51,7 @@ type packQuestion struct {
 	Evidence    []string `json:"evidence"`
 	ExamTip     string   `json:"examTip"`
 	AnswerTopic string   `json:"answerTopic"`
+	Audio       string   `json:"audio,omitempty"`
 }
 
 type packNote struct {
@@ -179,11 +181,48 @@ func packWarnings(p packFile) []string {
 }
 
 func validateFiles(paths []string) error {
-	if len(paths) == 0 {
+	full := len(paths) == 0
+	if full {
 		paths, _ = filepath.Glob(filepath.Join("data", "*.js"))
+		dirs, _ := filepath.Glob(filepath.Join("content", "*"))
+		paths = append(paths, dirs...)
 	}
 	bad := 0
+	if full { // full check: every shipped pack must be generated from an open-format source folder
+		built, _ := filepath.Glob(filepath.Join("data", "*.js"))
+		for _, f := range built {
+			id := strings.TrimSuffix(filepath.Base(f), ".js")
+			src := filepath.Join("content", id)
+			base, mods, err := readSourceFS(os.DirFS(src))
+			if err == nil {
+				var out packFile
+				if out, err = assemblePack(id, base, mods); err == nil {
+					have, _ := os.ReadFile(f)
+					if !bytes.Equal(have, renderPackJS(out)) {
+						err = fmt.Errorf("out of date: run `go run . build %s`", src)
+					}
+				}
+			}
+			if err != nil {
+				bad++
+				fmt.Printf("FAIL %s is not generated from %s\n     - %s\n", f, src, err)
+			}
+		}
+	}
 	for _, f := range paths {
+		if st, err := os.Stat(f); err == nil && st.IsDir() {
+			base, mods, err := readSourceFS(os.DirFS(f))
+			if err == nil {
+				_, err = assemblePack(filepath.Base(f), base, mods)
+			}
+			if err != nil {
+				bad++
+				fmt.Printf("FAIL %s\n     - %s\n", f, err)
+			} else {
+				fmt.Printf("ok   %s (schema + pack checks, %d modules)\n", f, len(mods))
+			}
+			continue
+		}
 		b, err := os.ReadFile(f)
 		if err != nil {
 			return err
@@ -247,37 +286,42 @@ func buildPack(srcDir, outDir string) error {
 	if !validPackFile.MatchString("data/" + id + ".js") {
 		return fmt.Errorf("content folder name %q: use letters, digits, - and _ only", id)
 	}
-	var base packFile
-	b, err := os.ReadFile(filepath.Join(srcDir, "pack.json"))
+	base, mods, err := readSourceFS(os.DirFS(srcDir))
 	if err != nil {
 		return err
 	}
-	if err := json.Unmarshal(b, &base); err != nil {
-		return fmt.Errorf("pack.json: %w", err)
+	out, err := assemblePack(id, base, mods)
+	if err != nil {
+		return err
 	}
+	if hasAudioRefs(out) {
+		return errors.New("audio recordings are only supported for imported (private) packs, not published ones; remove the audio fields")
+	}
+	dst := filepath.Join(outDir, "data", id+".js")
+	if err := writeFileAtomic(dst, renderPackJS(out)); err != nil {
+		return err
+	}
+	fmt.Printf("Built %s: %d questions across %d modules.\n", dst, out.Meta["questionTotal"], len(mods))
+	return nil
+}
+
+func renderPackJS(p packFile) []byte {
+	js, _ := json.Marshal(p)
+	return []byte("window.REVISION_SUBJECTS=window.REVISION_SUBJECTS||[];\n" + packPush + string(js) + ");\n")
+}
+
+// assemblePack turns pack-level settings plus module sources into the pack the app loads: it fills in ids,
+// paper/module fields, notes, moduleCounts and the meta totals, then validates the result.
+func assemblePack(id string, base packFile, mods []moduleSource) (packFile, error) {
 	papers := packPapers(base)
 	paperKey := map[string]string{}
 	for i, pp := range papers {
 		paperKey[pp.ID] = "paper" + strconv.Itoa(i+1)
 	}
-	files, _ := filepath.Glob(filepath.Join(srcDir, "modules", "*.json"))
-	var mods []moduleSource
-	for _, f := range files {
-		b, err := os.ReadFile(f)
-		if err != nil {
-			return err
-		}
-		var m moduleSource
-		if err := json.Unmarshal(b, &m); err != nil {
-			return fmt.Errorf("%s: %w", f, err)
-		}
+	for _, m := range mods {
 		if paperKey[m.Paper] == "" {
-			return fmt.Errorf("%s: paper %q isn't one of config.papers", f, m.Paper)
+			return packFile{}, fmt.Errorf("module %s: paper %q isn't one of config.papers", m.Module, m.Paper)
 		}
-		if m.Module == "" || m.ModuleTitle == "" {
-			return fmt.Errorf("%s: module and moduleTitle are required", f)
-		}
-		mods = append(mods, m)
 	}
 	sort.SliceStable(mods, func(i, j int) bool {
 		if mods[i].Paper != mods[j].Paper {
@@ -303,9 +347,14 @@ func buildPack(srcDir, outDir string) error {
 		if n.SourcePages == "" {
 			n.SourcePages = "Written to match the published " + cfgString(base.Config, "examBoard") + " specification."
 		}
-		out.Notes = append(out.Notes, n)
+		if strings.TrimSpace(n.Summary) != "" {
+			out.Notes = append(out.Notes, n)
+		}
 		for i, q := range m.Questions {
 			q.ID = fmt.Sprintf("%s-%s-%s-%d", prefix, key, slug, i)
+			if ip, _ := base.Meta["idPrefix"].(string); ip != "" { // keeps ids (and so saved progress) stable for packs that predate the folder layout
+				q.ID = fmt.Sprintf("%s-p%s-%s-%d", ip, strings.TrimPrefix(key, "paper"), slug, i)
+			}
 			q.Paper, q.Module, q.ModuleTitle = m.Paper, m.Module, m.ModuleTitle
 			if q.Evidence == nil {
 				q.Evidence = []string{}
@@ -313,8 +362,9 @@ func buildPack(srcDir, outDir string) error {
 			out.Questions[key] = append(out.Questions[key], q)
 		}
 	}
-	if out.Meta == nil {
-		out.Meta = map[string]any{}
+	out.Meta = map[string]any{}
+	for k, v := range base.Meta {
+		out.Meta[k] = v
 	}
 	total := 0
 	for i := range papers {
@@ -325,19 +375,9 @@ func buildPack(srcDir, outDir string) error {
 	out.Meta["questionTotal"], out.Meta["modulesTotal"] = total, len(mods)
 
 	if problems := validatePack(out); len(problems) > 0 {
-		return fmt.Errorf("%s:\n  - %s", id, strings.Join(problems, "\n  - "))
+		return packFile{}, fmt.Errorf("%s:\n  - %s", id, strings.Join(problems, "\n  - "))
 	}
-	js, err := json.Marshal(out)
-	if err != nil {
-		return err
-	}
-	dst := filepath.Join(outDir, "data", id+".js")
-	content := "window.REVISION_SUBJECTS=window.REVISION_SUBJECTS||[];\n" + packPush + string(js) + ");\n"
-	if err := writeFileAtomic(dst, []byte(content)); err != nil {
-		return err
-	}
-	fmt.Printf("Built %s: %d questions across %d modules.\n", dst, total, len(mods))
-	return nil
+	return out, nil
 }
 
 // privatePacksDir holds packs that are only ever used on this computer (never published or synced),

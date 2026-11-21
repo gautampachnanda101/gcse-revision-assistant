@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "1.1",
+ "moduleTitle": "Identity and relationships with others",
+ "questions": [
+  {
+   "answerTopic": "1.1-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "Dans ma famille, nous sommes cinq : mes parents, mes deux frères et moi. Je m'entends très bien avec ma mère parce qu'elle est toujours de bon conseil. Mon meilleur ami, Nathan, est loyal et drôle, et je lui fais totalement confiance. À mon avis, la famille est la chose la plus importante dans la vie parce qu'elle nous soutient dans les moments difficiles. Le week-end dernier, nous sommes allés chez mes grands-parents et nous avons préparé un grand repas ensemble. C'était un moment très agréable.\n\n(English translation: In my family there are five of us: my parents, my two brothers and me. I get on very well with my mother because she always gives good advice. My best friend, Nathan, is loyal and funny, and I trust him completely. In my opinion, family is the most important thing in life because it supports us in difficult times. Last weekend we went to my grandparents' house and we prepared a big meal together. It was a very enjoyable moment.)",
+   "question": "Écrivez un article sur vos relations avec votre famille et vos amis. Vous devez mentionner :\n• une description de votre famille\n• votre relation avec un ami ou un membre de la famille\n• votre opinion sur l'importance de la famille, avec une raison\n• quelque chose que vous avez fait récemment en famille."
+  },
+  {
+   "answerTopic": "1.1-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. Je m'entends bien avec mes parents.\n2. Mon meilleur ami/Ma meilleure amie est très fidèle.\n3. L'année dernière, nous avons déménagé.\n4. À mon avis, l'amitié est plus importante que l'argent.",
+   "question": "Translate into French:\n\n1. I get on well with my parents.\n2. My best friend is very loyal.\n3. Last year, we moved house.\n4. In my opinion, friendship is more important than money."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-2",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about identity, family, friendship and relationships. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-3",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. I get on well with my sister because she is generous.\n2. Last Saturday, my family and I visited my grandparents.\n3. Next weekend, I will go out to the cinema with my friends.",
+   "modelAnswer": "1. Je m'entends bien avec ma sœur parce qu'elle est généreuse.\n2. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents.\n3. Le week-end prochain, je sortirai avec mes amis au cinéma.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-4",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about identity, family, friendship and relationships. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-5",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic identity, family, friendship and relationships:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime identity, family, friendship and relationships parce que... Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. Cependant, ... À l'avenir, ... Use module terms including s'entendre bien avec, se disputer, la famille recomposée, faire confiance à, fidèle.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-6",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about identity, family, friendship and relationships. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: s'entendre bien avec, se disputer, la famille recomposée, faire confiance à, fidèle.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-7",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to identity, family, friendship and relationships.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-8",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about identity, family, friendship and relationships. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-9",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about identity, family, friendship and relationships: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: s'entendre bien avec, se disputer, la famille recomposée, faire confiance à, fidèle.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-10",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe identity, family, friendship and relationships through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-4-11",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on identity, family, friendship and relationships. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "identity, family, friendship and relationships",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Identity and relationships with others\nKey vocabulary\n- s'entendre bien avec\n- se disputer\n- la famille recomposée\n- faire confiance à\n- fidèle\n\nRevision focus\nPractise present, past and future forms while discussing identity, family, friendship and relationships. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

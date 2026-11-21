@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "questions": [
+  {
+   "answerTopic": "1.3-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "Ma matière préférée est l'espagnol parce que j'adore découvrir de nouvelles cultures. L'été dernier, j'ai fait un stage dans une école primaire où j'ai aidé les enfants avec la lecture. À mon avis, la pression des examens est parfois trop forte parce que beaucoup d'élèves deviennent stressés et fatigués. Après le lycée, je vais faire des études de langues à l'université, et plus tard, j'aimerais devenir professeur.\n\n(English translation: My favourite subject is Spanish because I love discovering new cultures. Last summer, I did a placement in a primary school where I helped children with reading. In my opinion, exam pressure is sometimes too strong because many students become stressed and tired. After lycée, I am going to study languages at university, and later I would like to become a teacher.)",
+   "question": "Écrivez un article sur l'école et vos projets d'avenir. Vous devez mentionner :\n• votre matière préférée et pourquoi\n• un stage ou un petit boulot que vous avez fait\n• votre opinion sur la pression des examens, avec une raison\n• ce que vous allez faire après le lycée."
+  },
+  {
+   "answerTopic": "1.3-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. Ma matière préférée est le français parce que le professeur est très gentil.\n2. L'année prochaine, je vais faire un stage en entreprise.\n3. Je gagne de l'argent avec un petit boulot le week-end.\n4. Plus tard, je voudrais faire des études de médecine.",
+   "question": "Translate into French:\n\n1. My favourite subject is French because the teacher is very kind.\n2. Next year, I am going to do a work placement.\n3. I earn money with a part-time job at the weekend.\n4. Later, I would like to study medicine."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-2",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about school, subjects, work and future plans. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-3",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. I prefer science because it is useful.\n2. Last year, I did work experience at a veterinary clinic.\n3. After sixth form, I would like to study at university.",
+   "modelAnswer": "1. Je préfère les sciences parce qu'elles sont utiles.\n2. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire.\n3. Après le lycée, j'aimerais étudier à l'université.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-4",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about school, subjects, work and future plans. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-5",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic school, subjects, work and future plans:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime school, subjects, work and future plans parce que... Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. Cependant, ... À l'avenir, ... Use module terms including une matière, les devoirs, une formation, un stage, avoir l'intention de.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-6",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about school, subjects, work and future plans. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: une matière, les devoirs, une formation, un stage, avoir l'intention de.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-7",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to school, subjects, work and future plans.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-8",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about school, subjects, work and future plans. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-9",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about school, subjects, work and future plans: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: une matière, les devoirs, une formation, un stage, avoir l'intention de.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-10",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe school, subjects, work and future plans through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-4-11",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on school, subjects, work and future plans. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "school, subjects, work and future plans",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Education and work\nKey vocabulary\n- une matière\n- les devoirs\n- une formation\n- un stage\n- avoir l'intention de\n\nRevision focus\nPractise present, past and future forms while discussing school, subjects, work and future plans. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

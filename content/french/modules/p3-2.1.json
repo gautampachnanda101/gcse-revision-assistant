@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 3",
+ "module": "2.1",
+ "moduleTitle": "Free-time activities",
+ "questions": [
+  {
+   "answerTopic": "2.1-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Answer using information from the passage only; quoting the relevant French phrase alongside your English answer can help you check you haven't missed detail.",
+   "marks": 10,
+   "modelAnswer": "1. Two hours a day on average (\"en moyenne deux heures par jour\").\n2. Video games and social media (\"les jeux vidéo et les réseaux sociaux\").\n3. 40% (\"la lecture reste populaire chez 40% des adolescents\").\n4. Free activities during school holidays (\"des activités gratuites pendant les vacances scolaires\").",
+   "question": "Reading comprehension. Read the passage and answer in English:\n\n\"Selon un sondage récent, les jeunes Français passent en moyenne deux heures par jour sur leurs loisirs numériques, comme les jeux vidéo et les réseaux sociaux. Cependant, beaucoup pratiquent aussi des activités traditionnelles : la lecture reste populaire chez 40% des adolescents, et le sport collectif, comme le foot ou le basket, attire de nombreux jeunes le week-end. Les associations locales proposent souvent des activités gratuites pendant les vacances scolaires.\"\n\n1. How much time do young French people spend on digital leisure activities per day, on average?\n2. What two digital activities are mentioned?\n3. What percentage of teenagers say reading remains popular?\n4. What do local associations often offer during school holidays?"
+  },
+  {
+   "answerTopic": "2.1-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning of each sentence into natural English rather than word-for-word; check tenses (perfect/present) carry across accurately.",
+   "marks": 10,
+   "modelAnswer": "1. I like playing video games with my friends.\n2. Last weekend, I went to the cinema.\n3. She goes shopping every Saturday.\n4. We prefer to watch a film at home.",
+   "question": "Translate into English:\n\n1. J'aime jouer aux jeux vidéo avec mes amis.\n2. Le week-end dernier, je suis allé(e) au cinéma.\n3. Elle fait du shopping tous les samedis.\n4. Nous préférons regarder un film à la maison."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-2",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Reading comprehension",
+   "question": "Read and answer in English: « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. »\n1. Give one present detail.\n2. What happened in the past?\n3. What will or should happen later?\n4. Give a reason or opinion.",
+   "modelAnswer": "In the evening, I listen to music to relax. Last weekend, we played badminton. Next Saturday, I am going to watch a new film with my friends.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-3",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Translate into English",
+   "question": "Translate into English:\n\nLe soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains.",
+   "modelAnswer": "In the evening, I listen to music to relax. Last weekend, we played badminton. Next Saturday, I am going to watch a new film with my friends.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-4",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Match the time frames",
+   "question": "Read: « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. »\nMatch each sentence to Present, Past or Future/Conditional and quote its strongest time or verb clue.",
+   "modelAnswer": "Sentence 1: Le soir, j'écoute de la musique pour me détendre. — present.\nSentence 2: Le week-end dernier, nous avons joué au badminton. — completed past.\nSentence 3: Samedi prochain, je vais regarder un nouveau film avec mes copains. — future or conditional.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-5",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Vocabulary in context",
+   "question": "Read: « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. »\nGive the English meaning of: se détendre, un loisir, passionnant, pratiquer. Then quote the connective or expression that links an opinion to a reason.",
+   "modelAnswer": "Use the standard meanings of the module vocabulary. The reason is signposted by parce que, car or the explicit contrasting/future expression in the passage.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-6",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "True or false",
+   "question": "Read: « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. »\nDecide true, false or not stated for four suitable facts, quoting a French phrase as evidence for each true or false decision.",
+   "modelAnswer": "Any answer is justified by a short quotation. Never use outside knowledge and do not turn an unstated idea into a false one.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-7",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Reading: infer carefully",
+   "question": "Read: « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. »\nWhat can you infer about the speaker's priorities? Support one inference with exact French evidence and avoid claiming something not stated.",
+   "modelAnswer": "A supported inference should reflect: In the evening, I listen to music to relax. Last weekend, we played badminton. Next Saturday, I am going to watch a new film with my friends.. It must quote the relevant phrase rather than retell the whole paragraph.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-8",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Find the detail",
+   "question": "Read: « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. »\nIn French, identify (1) a person or place, (2) an activity, (3) a past-time marker, and (4) a future or conditional form.",
+   "modelAnswer": "Suitable evidence comes directly from the transcript. Full reference: Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-9",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Multiple choice reading",
+   "question": "Read: « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. »\n1. The speaker's current view is best summarised as (A) In the evening, I listen to music to relax. (B) a fact not mentioned (C) a refusal.\n2. The past event is (A) Last weekend, we played badminton. (B) tomorrow (C) a command.\n3. The final idea is (A) fixed (B) Next Saturday, I am going to watch a new film with my friends. (C) uncertain.",
+   "modelAnswer": "1. A\n2. A\n3. B",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-10",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Reading: correct the summary",
+   "question": "A student has summarised « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. » as: “The speaker only discusses the present and dislikes the whole topic.” Correct the summary in English.",
+   "modelAnswer": "Accurate summary: In the evening, I listen to music to relax. Last weekend, we played badminton. Next Saturday, I am going to watch a new film with my friends.. The text discusses several time frames and gives a more specific view, not a blanket dislike.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-3-11",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Translate the key sentences",
+   "question": "Choose the three core sentences in « Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. » and translate them into natural, not literal, English. Explain one grammar feature that helped you.",
+   "modelAnswer": "In the evening, I listen to music to relax. Last weekend, we played badminton. Next Saturday, I am going to watch a new film with my friends.\nThe tense, reflexive/partitive form or adjective agreement should be explained using the exact wording.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "free-time activities, sport and entertainment",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Free-time activities\nKey vocabulary\n- se détendre\n- un loisir\n- passionnant\n- pratiquer\n- télécharger\n\nRevision focus\nPractise present, past and future forms while discussing free-time activities, sport and entertainment. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

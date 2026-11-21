@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 3",
+ "module": "3.3",
+ "moduleTitle": "The environment and where people live",
+ "questions": [
+  {
+   "answerTopic": "3.3-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Answer using information from the passage only; quoting the relevant French phrase alongside your English answer can help you check you haven't missed detail.",
+   "marks": 10,
+   "modelAnswer": "1. Pollution (\"réduire la pollution\").\n2. The tram, to encourage its use (\"le tramway est gratuit... afin d'encourager son utilisation\").\n3. Thousands of trees, to improve air quality (\"planté des milliers d'arbres pour améliorer la qualité de l'air\").\n4. Workshops on recycling and reducing waste (\"des ateliers sur le recyclage et la réduction des déchets\").",
+   "question": "Reading comprehension. Read the passage and answer in English:\n\n\"De nombreuses villes françaises essaient de réduire la pollution en développant les transports en commun et les pistes cyclables. À Strasbourg, par exemple, le tramway est gratuit pour les habitants certains jours de l'année afin d'encourager son utilisation. Par ailleurs, la ville a planté des milliers d'arbres pour améliorer la qualité de l'air. Les habitants sont aussi invités à participer à des ateliers sur le recyclage et la réduction des déchets.\"\n\n1. What are many French towns trying to reduce?\n2. What is free in Strasbourg on certain days, and why?\n3. What has the city planted, and for what purpose?\n4. What are residents invited to take part in?"
+  },
+  {
+   "answerTopic": "3.3-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning of each sentence into natural English rather than word-for-word; check tenses (perfect/present) carry across accurately.",
+   "marks": 10,
+   "modelAnswer": "1. We must protect the environment for future generations.\n2. We recycle glass and paper at home.\n3. Pollution is a serious problem in big cities.\n4. I live in a small, quiet village in the countryside.",
+   "question": "Translate into English:\n\n1. Il faut protéger l'environnement pour les générations futures.\n2. Nous recyclons le verre et le papier à la maison.\n3. La pollution est un problème grave dans les grandes villes.\n4. J'habite dans un petit village calme à la campagne."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-2",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Reading comprehension",
+   "question": "Read and answer in English: « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. »\n1. Give one present detail.\n2. What happened in the past?\n3. What will or should happen later?\n4. Give a reason or opinion.",
+   "modelAnswer": "My town is pleasant but there is too much traffic. My family recycles bottles and we use public transport. In the future, we will have to consume less plastic.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-3",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Translate into English",
+   "question": "Translate into English:\n\nMa ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique.",
+   "modelAnswer": "My town is pleasant but there is too much traffic. My family recycles bottles and we use public transport. In the future, we will have to consume less plastic.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-4",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Match the time frames",
+   "question": "Read: « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. »\nMatch each sentence to Present, Past or Future/Conditional and quote its strongest time or verb clue.",
+   "modelAnswer": "Sentence 1: Ma ville est agréable mais il y a trop de circulation. — present.\nSentence 2: Ma famille recycle les bouteilles et nous utilisons les transports en commun. — completed past.\nSentence 3: À l'avenir, il faudra consommer moins de plastique. — future or conditional.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-5",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Vocabulary in context",
+   "question": "Read: « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. »\nGive the English meaning of: le recyclage, une énergie renouvelable, pollué, réduire. Then quote the connective or expression that links an opinion to a reason.",
+   "modelAnswer": "Use the standard meanings of the module vocabulary. The reason is signposted by parce que, car or the explicit contrasting/future expression in the passage.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-6",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "True or false",
+   "question": "Read: « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. »\nDecide true, false or not stated for four suitable facts, quoting a French phrase as evidence for each true or false decision.",
+   "modelAnswer": "Any answer is justified by a short quotation. Never use outside knowledge and do not turn an unstated idea into a false one.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-7",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Reading: infer carefully",
+   "question": "Read: « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. »\nWhat can you infer about the speaker's priorities? Support one inference with exact French evidence and avoid claiming something not stated.",
+   "modelAnswer": "A supported inference should reflect: My town is pleasant but there is too much traffic. My family recycles bottles and we use public transport. In the future, we will have to consume less plastic.. It must quote the relevant phrase rather than retell the whole paragraph.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-8",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Find the detail",
+   "question": "Read: « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. »\nIn French, identify (1) a person or place, (2) an activity, (3) a past-time marker, and (4) a future or conditional form.",
+   "modelAnswer": "Suitable evidence comes directly from the transcript. Full reference: Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-9",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Multiple choice reading",
+   "question": "Read: « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. »\n1. The speaker's current view is best summarised as (A) My town is pleasant but there is too much traffic. (B) a fact not mentioned (C) a refusal.\n2. The past event is (A) My family recycles bottles and we use public transport. (B) tomorrow (C) a command.\n3. The final idea is (A) fixed (B) In the future, we will have to consume less plastic. (C) uncertain.",
+   "modelAnswer": "1. A\n2. A\n3. B",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-10",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Reading: correct the summary",
+   "question": "A student has summarised « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. » as: “The speaker only discusses the present and dislikes the whole topic.” Correct the summary in English.",
+   "modelAnswer": "Accurate summary: My town is pleasant but there is too much traffic. My family recycles bottles and we use public transport. In the future, we will have to consume less plastic.. The text discusses several time frames and gives a more specific view, not a blanket dislike.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-the-environment-and-where-people-live-3-11",
+   "evidence": [
+    "le recyclage",
+    "une énergie renouvelable",
+    "pollué"
+   ],
+   "command": "Translate the key sentences",
+   "question": "Choose the three core sentences in « Ma ville est agréable mais il y a trop de circulation. Ma famille recycle les bouteilles et nous utilisons les transports en commun. À l'avenir, il faudra consommer moins de plastique. » and translate them into natural, not literal, English. Explain one grammar feature that helped you.",
+   "modelAnswer": "My town is pleasant but there is too much traffic. My family recycles bottles and we use public transport. In the future, we will have to consume less plastic.\nThe tense, reflexive/partitive form or adjective agreement should be explained using the exact wording.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "the environment and where people live",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "The environment and where people live\nKey vocabulary\n- le recyclage\n- une énergie renouvelable\n- pollué\n- réduire\n- le réchauffement climatique\n\nRevision focus\nPractise present, past and future forms while discussing the environment and where people live. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

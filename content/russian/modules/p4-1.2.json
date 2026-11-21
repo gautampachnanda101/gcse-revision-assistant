@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "1.2",
+ "moduleTitle": "Healthy living and lifestyle",
+ "note": {
+  "title": "Healthy living and lifestyle",
+  "specFocus": "Food and drink, healthy and unhealthy habits, sport, health problems, and healthy-lifestyle advice.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "1.2 Healthy living and lifestyle\nKey vocabulary (Russian = transliteration = English)\n- здоровье = zdorov'e = health; здоровый образ жизни = zdorovyy obraz zhizni = healthy lifestyle\n- полезный/вредный = poleznyy/vrednyy = healthy (useful)/harmful; фрукты и овощи = frukty i ovoshchi = fruit and vegetables\n- завтракать/обедать/ужинать = zavtrakat'/obedat'/uzhinat' = to have breakfast/lunch/dinner; сладкое = sladkoe = sweets\n- заниматься спортом = zanimat'sya sportom = to do sport; бегать = begat' = to run; плавать = plavat' = to swim\n- курить = kurit' = to smoke; спать = spat' = to sleep; отдыхать = otdykhat' = to rest; устать = ustat' = to get tired\n- у меня болит голова/горло = u menya bolit golova/gorlo = I have a headache/sore throat; простуда = prostuda = a cold; врач = vrach = doctor\n\nKey grammar\n- Aches: у меня болит голова (singular), у меня болят ноги (plural); у меня болит... + nominative.\n- Giving advice: нужно/надо/можно/нельзя + infinitive: нужно больше спать; нельзя курить.\n- Future: буду + imperfective infinitive (буду бегать); simple future with perfective (куплю, приготовлю).\n- Conditional: если бы + past tense... бы: Если бы я не ел сладкое, я был бы здоровее.\n- Comparatives: полезнее, здоровее, чем...; чаще, реже; самый полезный = the healthiest.\n\nExam tips\n- Use мне надо/нужно + infinitive for obligations without conjugating.\n- Remember \"to do sport\" is заниматься спортом (instrumental).\n- In writing, give one reason and one result: потому что... поэтому..."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.2-translate-ru-0",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 8,
+   "modelAnswer": "1. Я завтракаю в семь часов.\n2. Я люблю фрукты.\n3. Я занимаюсь спортом два раза в неделю.\n4. Я не ем мясо.",
+   "question": "Translate into Russian:\n\n1. I eat breakfast at seven.\n2. I like fruit.\n3. I do sport twice a week.\n4. I don't eat meat."
+  },
+  {
+   "answerTopic": "1.2-translate-ru-1",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 6,
+   "modelAnswer": "1. У меня болит голова.\n2. Мне нужно пойти к врачу.\n3. Нельзя курить.",
+   "question": "Translate into Russian:\n\n1. My head hurts.\n2. I need to go to the doctor.\n3. You mustn't smoke."
+  },
+  {
+   "answerTopic": "1.2-translate-ru-2",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Вчера я ходил в бассейн. / Вчера я ходила в бассейн.\n2. Здоровая еда дорогая, но я думаю, что она того стоит.\n3. В будущем я буду есть больше овощей.",
+   "question": "Translate into Russian:\n\n1. Yesterday I went to the swimming pool.\n2. Healthy food is expensive, but I think it is worth it.\n3. In future I will eat more vegetables."
+  },
+  {
+   "answerTopic": "1.2-translate-ru-3",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 6,
+   "modelAnswer": "1. Мой брат пьёт слишком много лимонада.\n2. Это вредно для его зубов.\n3. Ему надо пить воду.",
+   "question": "Translate into Russian:\n\n1. My brother drinks too much lemonade.\n2. It is bad for his teeth.\n3. He should drink water."
+  },
+  {
+   "answerTopic": "1.2-translate-ru-4",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 9,
+   "modelAnswer": "1. На прошлой неделе я болел и оставался дома. / ...я болела...\n2. Я много спал и пил горячий чай.\n3. Теперь я чувствую себя лучше.",
+   "question": "Translate into Russian:\n\n1. Last week I was ill and stayed at home.\n2. I slept a lot and drank hot tea.\n3. Now I feel better."
+  },
+  {
+   "answerTopic": "1.2-translate-ru-5",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Если бы я ел меньше шоколада, я был бы здоровее.\n2. Она бегает каждое утро.\n3. Сон так же важен, как еда.",
+   "question": "Translate into Russian:\n\n1. If I ate less chocolate, I would be healthier.\n2. She goes running every morning.\n3. Sleep is as important as food."
+  },
+  {
+   "answerTopic": "1.2-writing-0",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 8,
+   "modelAnswer": "На завтрак я ем кашу и пью чай. Я занимаюсь плаванием два раза в неделю. Вчера я ходила в бассейн и проплыла километр. В будущем я буду есть меньше сладкого, потому что оно вредно для зубов.\n\n(English translation: For breakfast I eat porridge and drink tea. I swim twice a week. Yesterday I went to the pool and swam a kilometre. In future I will eat fewer sweet things because they are bad for your teeth.)",
+   "question": "Напишите о здоровом образе жизни. Вы должны упомянуть:\n• что вы едите и пьёте\n• каким спортом вы занимаетесь\n• что вы делали вчера для здоровья\n• что вы будете делать в будущем"
+  },
+  {
+   "answerTopic": "1.2-writing-1",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 8,
+   "modelAnswer": "Я встаю в семь часов и завтракаю дома. Ложусь спать около десяти. Спорт важен, потому что он помогает быть бодрым. Иногда у меня болит горло, особенно зимой. Совет: пейте много воды, гуляйте на свежем воздухе и не сидите весь день за компьютером.\n\n(English translation: I get up at seven and have breakfast at home. I go to bed around ten. Sport is important because it helps you feel lively. Sometimes I have a sore throat, especially in winter. Advice: drink lots of water, walk in the fresh air and don't sit at the computer all day.)",
+   "question": "Напишите в блог о своём здоровье. Вы должны упомянуть:\n• ваш обычный день: еда и сон\n• почему спорт важен\n• какая у вас бывает проблема со здоровьем\n• ваш совет читателям"
+  },
+  {
+   "answerTopic": "1.2-writing-2",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 10,
+   "modelAnswer": "Обычно на обед я ем суп и бутерброд, а на ужин мы едим мясо или рыбу с овощами. Дома готовит в основном мама, потому что она любит готовить. Вчера мы ели борщ и пирожки с капустой. Я хотел бы чаще есть фрукты, потому что они полезные и вкусные.\n\n(English translation: I usually eat soup and a sandwich for lunch, and for dinner we eat meat or fish with vegetables. At home mostly mum cooks because she likes cooking. Yesterday we ate borscht and cabbage pies. I would like to eat fruit more often because it is healthy and tasty.)",
+   "question": "Напишите статью о питании в вашей семье. Вы должны упомянуть:\n• что вы обычно едите на обед и ужин\n• кто готовит и почему\n• что вы ели вчера\n• какую еду вы хотели бы есть чаще и почему"
+  },
+  {
+   "answerTopic": "1.2-writing-3",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 10,
+   "modelAnswer": "Привет, Макс! Я занимаюсь теннисом три раза в неделю. Мне нравится этот спорт, потому что он весёлый, и я могу играть с друзьями. В прошлом году я сломал руку и два месяца не мог играть. Было очень скучно. В следующем месяце я буду участвовать в турнире, и я надеюсь, что выиграю.\n\n(English translation: Hi Max! I play tennis three times a week. I like this sport because it's fun and I can play with friends. Last year I broke my arm and couldn't play for two months. It was very boring. Next month I'll take part in a tournament and I hope I win.)",
+   "question": "Напишите письмо другу о вашем здоровье и спорте. Вы должны упомянуть:\n• каким спортом вы занимаетесь и как часто\n• почему он вам нравится\n• как вы болели в прошлом году\n• ваши планы на следующий месяц"
+  },
+  {
+   "answerTopic": "1.2-writing-4",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 12,
+   "modelAnswer": "Вредные привычки — это курение, много сладкого и мало сна. Мой дядя курит двадцать лет, и ему трудно дышать. Раньше я часто пил газировку и мало двигался, но потом начал бегать по утрам. Чтобы быть здоровым, надо хорошо питаться, больше спать и не курить. Если бы все так делали, людей в больницах было бы меньше.\n\n(English translation: Bad habits are smoking, lots of sweets and little sleep. My uncle has smoked for twenty years and finds it hard to breathe. I used to drink a lot of fizzy drinks and move little, but then I started running in the mornings. To be healthy you need to eat well, sleep more and not smoke. If everyone did that, there would be fewer people in hospital.)",
+   "question": "Напишите о вредных привычках и их последствиях. Вы должны упомянуть:\n• что такое вредные привычки\n• вашего знакомого, у которого есть такая привычка\n• что вы сами делали неправильно раньше\n• что нужно делать, чтобы быть здоровым"
+  },
+  {
+   "answerTopic": "1.2-writing-5",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 12,
+   "modelAnswer": "Утром я ем яичницу, днём — салат и суп, вечером — что-нибудь лёгкое. Школьная столовая мне нравится, потому что там есть овощи и фрукты, хотя пицца вкуснее. Месяц назад я заболел гриппом и три дня лежал дома с температурой. Если бы я мог, я бы чаще гулял и меньше сидел в телефоне, потому что это тоже вредно для здоровья.\n\n(English translation: In the morning I eat scrambled eggs, at lunchtime salad and soup, and in the evening something light. I like the school canteen because it has vegetables and fruit, although pizza is tastier. A month ago I caught the flu and spent three days at home with a temperature. If I could, I would go for walks more often and spend less time on my phone because that is also bad for your health.)",
+   "question": "Напишите о том, как вы заботитесь о здоровье. Вы должны упомянуть:\n• вашу еду в течение дня\n• ваше мнение о школьной столовой\n• какой-то случай, когда вы заболели\n• что вы изменили бы в вашем образе жизни"
+  }
+ ]
+}

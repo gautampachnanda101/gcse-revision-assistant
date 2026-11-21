@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/gautampachnanda101/gcse-revision-assistant/schema/gcse-revision-pack.schema.json",
+  "title": "GCSE Revision Pack (bundle)",
+  "description": "One revision subject as a single JSON document. The same shapes are used when a pack is authored as a folder: pack.json validates against #/$defs/packSource and each modules/*.json file against #/$defs/module. Import with `gcse-revision import <bundle.json | folder | .zip>`.",
+  "type": "object",
+  "required": [
+    "config",
+    "modules"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "config": {
+      "$ref": "#/$defs/config"
+    },
+    "rubrics": {
+      "$ref": "#/$defs/rubrics"
+    },
+    "meta": {
+      "type": "object"
+    },
+    "modules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/module"
+      }
+    }
+  },
+  "$defs": {
+    "packSource": {
+      "title": "pack.json: subject-level settings (folder layout)",
+      "type": "object",
+      "required": [
+        "config"
+      ],
+      "properties": {
+        "$schema": {
+          "type": "string"
+        },
+        "config": {
+          "$ref": "#/$defs/config"
+        },
+        "rubrics": {
+          "$ref": "#/$defs/rubrics"
+        },
+        "meta": {
+          "type": "object"
+        }
+      }
+    },
+    "config": {
+      "type": "object",
+      "required": [
+        "storageId",
+        "examBoard",
+        "subjectArea",
+        "subjectName",
+        "brandTitle",
+        "papers"
+      ],
+      "properties": {
+        "storageId": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Unique and permanent: saved progress is keyed by it."
+        },
+        "examBoard": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subjectArea": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subjectName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brandIcon": {
+          "type": "string"
+        },
+        "brandTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brandSubtitle": {
+          "type": "string"
+        },
+        "pageTitle": {
+          "type": "string"
+        },
+        "breadcrumb": {
+          "type": "string"
+        },
+        "heroEyebrow": {
+          "type": "string"
+        },
+        "footerNote": {
+          "type": "string"
+        },
+        "papers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/paper"
+          }
+        },
+        "speechLang": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$",
+          "description": "BCP-47 language tag (e.g. fr-FR) used for text-to-speech of transcripts and model answers."
+        }
+      }
+    },
+    "paper": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": "string"
+        }
+      }
+    },
+    "rubrics": {
+      "description": "Per paper, how answers are credited, keyed by mark tariff or command word.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string"
+        }
+      }
+    },
+    "module": {
+      "title": "One specification module: a revision note plus its questions",
+      "type": "object",
+      "required": [
+        "paper",
+        "module",
+        "moduleTitle",
+        "questions"
+      ],
+      "properties": {
+        "paper": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Must match a config.papers[].id."
+        },
+        "module": {
+          "type": "string",
+          "minLength": 1
+        },
+        "moduleTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "$ref": "#/$defs/note"
+        },
+        "questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/question"
+          }
+        }
+      }
+    },
+    "note": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "specFocus": {
+          "type": "string"
+        },
+        "sourcePages": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": [
+        "question",
+        "marks",
+        "command",
+        "modelAnswer"
+      ],
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "marks": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "command": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The command word, e.g. Explain, Evaluate."
+        },
+        "modelAnswer": {
+          "type": "string",
+          "minLength": 1,
+          "description": "An indicative exemplar, not an official mark scheme."
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "examTip": {
+          "type": "string"
+        },
+        "answerTopic": {
+          "type": "string"
+        },
+        "rubric": {
+          "type": "string"
+        },
+        "audio": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*\\.(mp3|ogg|oga|wav|m4a|webm)$",
+          "description": "File name of a recording inside the pack's audio/ folder (imported packs only). When absent the app falls back to text-to-speech if config.speechLang is set."
+        }
+      }
+    }
+  }
+}

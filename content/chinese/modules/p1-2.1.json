@@ -1,0 +1,145 @@
+{
+ "paper": "Paper 1",
+ "module": "2.1",
+ "moduleTitle": "Free-time activities",
+ "note": {
+  "title": "Free-time activities",
+  "specFocus": "Sport, hobbies, music, screen time, reading, shopping and spending time with friends.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "2.1 Free-time activities\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 爱好 àihào — hobby\n- 休闲 xiūxián — leisure\n- 运动 yùndòng — sport\n- 阅读 yuèdú — reading\n- 音乐会 yīnyuèhuì — concert\n- 电影票 diànyǐngpiào — cinema ticket\n- 购物 gòuwù — shopping\n- 游戏 yóuxì — game\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "2.1-listening-0",
+   "command": "Listen and answer",
+   "evidence": [
+    "我每个周六和朋友一起打羽毛球。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I play badminton with my friends every Saturday.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我每个周六和朋友一起打羽毛球。”\n\nAnswer in English: When and with whom does the speaker play badminton?"
+  },
+  {
+   "answerTopic": "2.1-listening-1",
+   "command": "Listen and answer",
+   "evidence": [
+    "上周末我们去看了一部非常有意思的电影。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Last weekend we watched a very interesting film.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“上周末我们去看了一部非常有意思的电影。”\n\nAnswer in English: What did they do last weekend?"
+  },
+  {
+   "answerTopic": "2.1-listening-2",
+   "command": "Listen and answer",
+   "evidence": [
+    "我喜欢听音乐，但是不太喜欢唱歌。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I like listening to music, but I do not much like singing.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我喜欢听音乐，但是不太喜欢唱歌。”\n\nAnswer in English: What does the speaker enjoy and not enjoy?"
+  },
+  {
+   "answerTopic": "2.1-listening-3",
+   "command": "Listen and answer",
+   "evidence": [
+    "虽然电子游戏很刺激，我每天只玩一个小时。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Although video games are exciting, I play for only one hour a day.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“虽然电子游戏很刺激，我每天只玩一个小时。”\n\nAnswer in English: How long is spent on video games each day?"
+  },
+  {
+   "answerTopic": "2.1-listening-4",
+   "command": "Listen and answer",
+   "evidence": [
+    "姐姐喜欢读小说，已经读完了三本。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "My older sister likes reading novels and has already finished three books.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“姐姐喜欢读小说，已经读完了三本。”\n\nAnswer in English: What has the sister finished?"
+  },
+  {
+   "answerTopic": "2.1-listening-5",
+   "command": "Listen and answer",
+   "evidence": [
+    "这张音乐会门票很贵，不过值得。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "This concert ticket is expensive, but it is worth it.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“这张音乐会门票很贵，不过值得。”\n\nAnswer in English: What view is given of the concert ticket?"
+  },
+  {
+   "answerTopic": "2.1-listening-6",
+   "command": "Listen and answer",
+   "evidence": [
+    "下个假期我想学会做面包。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Next holiday I want to learn how to make bread.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“下个假期我想学会做面包。”\n\nAnswer in English: What does the speaker want to learn next holiday?"
+  },
+  {
+   "answerTopic": "2.1-listening-7",
+   "command": "Listen and answer",
+   "evidence": [
+    "我们昨天在购物中心买衣服，花了很久。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Yesterday we spent a long time buying clothes in the shopping centre.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我们昨天在购物中心买衣服，花了很久。”\n\nAnswer in English: What did they spend a long time doing yesterday?"
+  },
+  {
+   "answerTopic": "2.1-listening-8",
+   "command": "Listen and answer",
+   "evidence": [
+    "如果下雨，我会待在家里看电视。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "If it rains, I will stay at home and watch television.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“如果下雨，我会待在家里看电视。”\n\nAnswer in English: What will happen if it rains?"
+  },
+  {
+   "answerTopic": "2.1-listening-9",
+   "command": "Listen and answer",
+   "evidence": [
+    "他比以前更喜欢户外活动。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "He likes outdoor activities more than before.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“他比以前更喜欢户外活动。”\n\nAnswer in English: How have his preferences changed?"
+  },
+  {
+   "answerTopic": "2.1-listening-10",
+   "command": "Listen and answer",
+   "evidence": [
+    "我觉得骑自行车比坐公交车轻松。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I think cycling is more relaxing than taking the bus.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我觉得骑自行车比坐公交车轻松。”\n\nAnswer in English: Which activity is considered more relaxing?"
+  },
+  {
+   "answerTopic": "2.1-listening-11",
+   "command": "Listen and answer",
+   "evidence": [
+    "周末我们常去公园里野餐。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "At weekends we often go for a picnic in the park.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“周末我们常去公园里野餐。”\n\nAnswer in English: What is the usual weekend activity?"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "paper": "Paper 1",
+ "module": "1.7",
+ "moduleTitle": "The problem of evil and suffering",
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "The problem of evil as a challenge to belief in God, and Christian theodicies that try to respond to it.",
+  "sourcePages": "Written to match the Edexcel specification; no supplied booklet for this subject.",
+  "summary": "1.7 The Problem of Evil and Suffering\nThe problem of evil is one of the most serious philosophical challenges to Christian belief: if God is omnipotent and omnibenevolent, why does evil and suffering exist?\nThe logical problem\n• Epicurus, and later J. L. Mackie, expressed this as an \"inconsistent triad\": an omnipotent, omnibenevolent God should be both able and willing to prevent evil; since evil exists, such a God, it is argued, cannot exist.\n• Moral evil (suffering caused by human choices, e.g. cruelty, war) is often distinguished from natural evil (suffering from natural causes, e.g. disease, earthquakes), since they require different kinds of explanation.\nChristian responses (theodicies)\n• Augustinian theodicy: evil entered a perfect creation through the Fall (Genesis 3); evil is not a \"thing\" God created but a privation — a corruption or absence of the good — resulting from humanity's misuse of free will.\n• Free will defence: moral evil results from God's gift of genuine human freedom; a world with real freedom (and therefore the possibility of its misuse) is considered more valuable than a world of forced, puppet-like obedience.\n• Irenaean/soul-making theodicy (developed by John Hick): the world is a deliberately imperfect \"vale of soul-making\" in which facing real challenges and suffering allows humans to develop moral virtues such as courage, compassion and perseverance.\n• The Book of Job presents a case where a righteous man suffers without clear explanation, suggesting that some suffering may serve a purpose beyond human understanding, rather than disproving God.\nExam link: \"Evaluate\" answers should set theodicies (Augustinian, Irenaean, free will) directly against the inconsistent triad, rather than simply describing each theory in isolation."
+ },
+ "questions": [
+  {
+   "answerTopic": "suffering",
+   "command": "Outline",
+   "evidence": [
+    "Genesis 3 (the Fall)",
+    "Augustinian theodicy",
+    "Free will defence",
+    "Moral evil vs natural evil"
+   ],
+   "examTip": "Make two separate points and develop each one. Link the development directly to the question.",
+   "marks": 4,
+   "modelAnswer": "A strong response develops two separate points:\n\n1. The Augustinian theodicy traces suffering to the Fall in Genesis 3: when Adam and Eve disobeyed God, sin entered the world and corrupted a previously perfect creation, so suffering is a consequence of human wrongdoing rather than something God directly causes.\n\n2. The free will defence explains moral evil (suffering caused by human actions, such as cruelty or war) as the result of God giving humans genuine freedom; suffering happens because people sometimes misuse that freedom rather than because God wills it.",
+   "question": "Choose one religion. Outline two beliefs about the causes of suffering."
+  },
+  {
+   "answerTopic": "suffering",
+   "command": "Evaluate",
+   "evidence": [
+    "Epicurus / J.L. Mackie's inconsistent triad",
+    "Irenaean/soul-making theodicy (John Hick)",
+    "Free will defence",
+    "Book of Job"
+   ],
+   "examTip": "For a 12-mark evaluation, use accurate religious teaching, explain different religious or non-religious views, analyse the statement and reach a justified conclusion. The conclusion should follow from the arguments you have discussed.",
+   "marks": 12,
+   "modelAnswer": "A FIRST PERSPECTIVE\n\nOne line of reasoning is: The philosopher Epicurus, and later J.L. Mackie, set out the \"inconsistent triad\": if God is omnipotent and omnibenevolent, God would be able and willing to stop suffering, so the continued existence of suffering suggests such a God does not exist.\n\nA second consideration is: The scale of apparently pointless natural suffering, such as suffering caused by disease or natural disasters that do not result from any human choice, is especially hard to explain if a loving, all-powerful God exists.\n\nAN ALTERNATIVE PERSPECTIVE\n\nA different perspective is: The Irenaean or soul-making theodicy, developed by John Hick, argues that a world containing real challenges and suffering is necessary for humans to develop morally and spiritually into the people God intends them to become; a world with no suffering could not produce courage, compassion or growth.\n\nA further consideration is: The free will defence argues that much suffering results from humans misusing free will rather than from God; and the Book of Job presents a case where suffering is not always a punishment or proof of God's absence, but something whose purpose may be beyond human understanding.\n\nJUDGEMENT\n\nOverall, the conclusion should weigh the arguments above against this key consideration: Christian theodicies try to show suffering is compatible with God's existence (even if mysterious), whereas the problem of evil argues the two cannot be reconciled. It should then state which perspective is more convincing in relation to the exact wording of the question and explain why, rather than assuming that every Christian will reach the same view.",
+   "question": "“Everyone suffers; therefore God cannot exist.”\nEvaluate this statement."
+  },
+  {
+   "answerTopic": "evil-suffering-and-theodicy-extra-4",
+   "command": "Explain",
+   "evidence": [
+    "moral and natural evil",
+    "free-will defence",
+    "soul-making and challenges posed by innocent suffering"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 6,
+   "modelAnswer": "One view emphasises moral and natural evil. Another Christian tradition or reading may put more weight on a contrasting aspect of the same topic. Develop each view and explain the reason behind it.",
+   "question": "Explain two Christian views about evil, suffering and theodicy. Include a source, tradition or example where relevant."
+  },
+  {
+   "answerTopic": "evil-suffering-and-theodicy-extra-5",
+   "command": "Evaluate",
+   "evidence": [
+    "moral and natural evil",
+    "free-will defence",
+    "soul-making and challenges posed by innocent suffering"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 12,
+   "modelAnswer": "A FIRST PERSPECTIVE\nTeaching gives coherent meaning to the themes of moral and natural evil, free-will defence, soul-making and challenges posed by innocent suffering and helps Christians decide what is true.\n\nAN ALTERNATIVE PERSPECTIVE\nPractice makes belief visible in worship, compassion, family and service; without action faith may be empty. Christians within different traditions may also disagree about how the teaching should be lived.\n\nJUDGEMENT\nA reasoned conclusion should compare the authority and practical effect of belief and action, acknowledge diversity, and decide which is more persuasive for the exact claim.",
+   "question": "“Christian teaching about evil, suffering and theodicy is more important than Christian practice connected with it.”\nEvaluate this statement, referring to Christianity."
+  },
+  {
+   "answerTopic": "evil-suffering-and-theodicy-extra-2",
+   "command": "Outline",
+   "evidence": [
+    "moral and natural evil",
+    "free-will defence",
+    "soul-making and challenges posed by innocent suffering"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 4,
+   "modelAnswer": "A developed answer states two separate effects. One concerns belief or worship; the other concerns an ethical choice, practice or sense of community. Each is linked to moral and natural evil, free-will defence, soul-making and challenges posed by innocent suffering.",
+   "question": "Choose Christianity. Outline two ways in which evil, suffering and theodicy influences what a Christian believes or does."
+  },
+  {
+   "answerTopic": "evil-suffering-and-theodicy-extra-3",
+   "command": "Explain",
+   "evidence": [
+    "moral and natural evil",
+    "free-will defence",
+    "soul-making and challenges posed by innocent suffering"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 6,
+   "modelAnswer": "First, it expresses or clarifies the Christian ideas of moral and natural evil, free-will defence, soul-making and challenges posed by innocent suffering. Second, it shapes practical discipleship or worship. Explain why, rather than stopping after naming a belief or practice.",
+   "question": "Explain two reasons why evil, suffering and theodicy is important for Christians. Refer to Christian teaching in your answer."
+  }
+ ]
+}

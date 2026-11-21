@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "2.3",
+ "moduleTitle": "Celebrity culture",
+ "questions": [
+  {
+   "answerTopic": "2.3-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "J'admire l'acteur Omar Sy parce qu'il est très talentueux et généreux ; il soutient plusieurs associations caritatives. À mon avis, l'avantage principal de la célébrité, c'est la possibilité d'inspirer les autres et de changer les choses positivement. Cependant, l'inconvénient, c'est la perte de la vie privée et la pression constante des médias. De plus, je pense que les réseaux sociaux influencent beaucoup les jeunes, qui comparent parfois leur vie à celle des célébrités.\n\n(English translation: I admire the actor Omar Sy because he is very talented and generous; he supports several charities. In my opinion, the main advantage of fame is the possibility of inspiring others and changing things positively. However, the disadvantage is the loss of privacy and the constant pressure from the media. Moreover, I think social media greatly influences young people, who sometimes compare their life to that of celebrities.)",
+   "question": "Écrivez un article sur la culture des célébrités. Vous devez mentionner :\n• une célébrité que vous admirez et pourquoi\n• votre opinion sur les avantages de la célébrité, avec une raison\n• votre opinion sur les inconvénients de la célébrité, avec une raison\n• l'influence des réseaux sociaux sur les jeunes."
+  },
+  {
+   "answerTopic": "2.3-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. J'admire cet acteur parce qu'il est très généreux.\n2. La célébrité apporte des avantages et des inconvénients.\n3. Certaines célébrités perdent leur vie privée.\n4. À mon avis, les réseaux sociaux influencent trop les jeunes.",
+   "question": "Translate into French:\n\n1. I admire this actor because he is very generous.\n2. Fame brings advantages and disadvantages.\n3. Some celebrities lose their privacy.\n4. In my opinion, social media influences young people too much."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-2",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about celebrity culture, media influence and fame. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-3",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. My favourite celebrity is a sportswoman who encourages young people.\n2. Her success is impressive.\n3. However, the media should respect stars' private lives more.",
+   "modelAnswer": "1. Ma célébrité préférée est une sportive qui encourage les jeunes.\n2. Sa réussite est impressionnante.\n3. Cependant, les médias devraient mieux respecter la vie privée des stars.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-4",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about celebrity culture, media influence and fame. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-5",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic celebrity culture, media influence and fame:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime celebrity culture, media influence and fame parce que... Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. Cependant, ... À l'avenir, ... Use module terms including une célébrité, un modèle, la réputation, avoir de l'influence, les réseaux sociaux.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-6",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about celebrity culture, media influence and fame. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: une célébrité, un modèle, la réputation, avoir de l'influence, les réseaux sociaux.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-7",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to celebrity culture, media influence and fame.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-8",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about celebrity culture, media influence and fame. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-9",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about celebrity culture, media influence and fame: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: une célébrité, un modèle, la réputation, avoir de l'influence, les réseaux sociaux.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-10",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe celebrity culture, media influence and fame through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-celebrity-culture-media-influence-and-fame-4-11",
+   "evidence": [
+    "une célébrité",
+    "un modèle",
+    "la réputation"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on celebrity culture, media influence and fame. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: Ma célébrité préférée est une sportive qui encourage les jeunes. Sa réussite est impressionnante. Cependant, les médias devraient mieux respecter la vie privée des stars. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "celebrity culture, media influence and fame",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Celebrity culture\nKey vocabulary\n- une célébrité\n- un modèle\n- la réputation\n- avoir de l'influence\n- les réseaux sociaux\n\nRevision focus\nPractise present, past and future forms while discussing celebrity culture, media influence and fame. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

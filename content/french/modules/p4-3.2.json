@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "3.2",
+ "moduleTitle": "Media and technology",
+ "questions": [
+  {
+   "answerTopic": "3.2-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "J'utilise mon portable principalement pour communiquer avec mes amis et pour faire des recherches pour l'école. D'un côté, les réseaux sociaux sont pratiques parce qu'ils permettent de rester en contact facilement, par exemple avec ma famille à l'étranger. D'un autre côté, je pense qu'ils peuvent créer une dépendance et nuire à la concentration. Je conseille aux jeunes de fixer des limites de temps et d'éteindre leur portable avant de dormir.\n\n(English translation: I use my phone mainly to communicate with my friends and to do research for school. On one hand, social media is practical because it lets you stay in touch easily, for example with my family abroad. On the other hand, I think it can create addiction and harm concentration. I advise young people to set time limits and turn off their phone before sleeping.)",
+   "question": "Écrivez un article sur la technologie et les réseaux sociaux. Vous devez mentionner :\n• comment vous utilisez votre portable\n• les avantages des réseaux sociaux, avec un exemple\n• les inconvénients, avec une raison\n• un conseil pour les jeunes qui utilisent trop Internet."
+  },
+  {
+   "answerTopic": "3.2-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. J'utilise mon portable pour communiquer avec mes amis.\n2. Les réseaux sociaux ont des avantages et des inconvénients.\n3. Il est important de protéger ses informations personnelles.\n4. Tu devrais limiter ton temps d'écran le soir.",
+   "question": "Translate into French:\n\n1. I use my phone to communicate with my friends.\n2. Social media has advantages and disadvantages.\n3. It is important to protect your personal information.\n4. You should limit your screen time in the evening."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-2",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about media, phones, the internet and technology. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-3",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. I use my phone to communicate with my friends.\n2. Yesterday, I downloaded a useful app.\n3. In the future, I will limit my online time so I can sleep better.",
+   "modelAnswer": "1. Je me sers de mon portable pour communiquer avec mes amis.\n2. Hier, j'ai téléchargé une application utile.\n3. À l'avenir, je limiterai mon temps en ligne pour mieux dormir.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-4",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about media, phones, the internet and technology. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-5",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic media, phones, the internet and technology:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime media, phones, the internet and technology parce que... Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. Cependant, ... À l'avenir, ... Use module terms including un portable, les données personnelles, harceler, des achats en ligne, dépendre de.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-6",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about media, phones, the internet and technology. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: un portable, les données personnelles, harceler, des achats en ligne, dépendre de.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-7",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to media, phones, the internet and technology.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-8",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about media, phones, the internet and technology. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-9",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about media, phones, the internet and technology: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: un portable, les données personnelles, harceler, des achats en ligne, dépendre de.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-10",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe media, phones, the internet and technology through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-4-11",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on media, phones, the internet and technology. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "media, phones, the internet and technology",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Media and technology\nKey vocabulary\n- un portable\n- les données personnelles\n- harceler\n- des achats en ligne\n- dépendre de\n\nRevision focus\nPractise present, past and future forms while discussing media, phones, the internet and technology. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "2.2",
+ "moduleTitle": "Customs, festivals and celebrations",
+ "questions": [
+  {
+   "answerTopic": "2.2-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "La fête que je préfère est mon anniversaire parce que toute ma famille se réunit pour célébrer. L'année dernière, j'ai organisé une fête avec mes amis et nous avons dansé toute la soirée. À mon avis, les traditions sont importantes parce qu'elles renforcent les liens familiaux et créent des souvenirs inoubliables. L'année prochaine, je vais inviter aussi mes amis d'enfance pour rendre la fête encore plus spéciale.\n\n(English translation: The celebration I prefer is my birthday because my whole family gets together to celebrate. Last year, I organised a party with my friends and we danced all evening. In my opinion, traditions are important because they strengthen family bonds and create unforgettable memories. Next year, I am going to invite my childhood friends too, to make the celebration even more special.)",
+   "question": "Écrivez un article sur une fête ou une tradition que vous aimez. Vous devez mentionner :\n• une description de cette fête\n• ce que vous avez fait l'année dernière\n• votre opinion sur l'importance des traditions, avec une raison\n• ce que vous allez faire pour la prochaine occasion."
+  },
+  {
+   "answerTopic": "2.2-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. Ma famille fête Noël ensemble tous les ans.\n2. L'année dernière, nous avons regardé les feux d'artifice en ville.\n3. Cette tradition est très importante pour moi.\n4. L'année prochaine, je vais organiser une grande fête.",
+   "question": "Translate into French:\n\n1. My family celebrates Christmas together every year.\n2. Last year, we watched the fireworks in town.\n3. This tradition is very important to me.\n4. Next year, I am going to organise a big celebration."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-2",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about customs, festivals and celebrations. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: Chaque année, ma famille fête Noël ensemble. L'année dernière, nous avons participé au carnaval de notre ville. Pour le prochain anniversaire de ma mère, je préparerai un gâteau.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-3",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. Every year, my family celebrates Christmas together.\n2. Last year, we took part in our town's carnival.\n3. For my mother's next birthday, I will make a cake.",
+   "modelAnswer": "1. Chaque année, ma famille fête Noël ensemble.\n2. L'année dernière, nous avons participé au carnaval de notre ville.\n3. Pour le prochain anniversaire de ma mère, je préparerai un gâteau.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-4",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about customs, festivals and celebrations. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-5",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic customs, festivals and celebrations:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime customs, festivals and celebrations parce que... Chaque année, ma famille fête Noël ensemble. L'année dernière, nous avons participé au carnaval de notre ville. Pour le prochain anniversaire de ma mère, je préparerai un gâteau. Cependant, ... À l'avenir, ... Use module terms including une fête, fêter, un défilé, un feu d'artifice, traditionnel.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-6",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about customs, festivals and celebrations. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: une fête, fêter, un défilé, un feu d'artifice, traditionnel.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-7",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to customs, festivals and celebrations.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-8",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about customs, festivals and celebrations. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-9",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about customs, festivals and celebrations: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: une fête, fêter, un défilé, un feu d'artifice, traditionnel.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-10",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe customs, festivals and celebrations through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: Chaque année, ma famille fête Noël ensemble. L'année dernière, nous avons participé au carnaval de notre ville. Pour le prochain anniversaire de ma mère, je préparerai un gâteau.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-customs-festivals-and-celebrations-4-11",
+   "evidence": [
+    "une fête",
+    "fêter",
+    "un défilé"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on customs, festivals and celebrations. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: Chaque année, ma famille fête Noël ensemble. L'année dernière, nous avons participé au carnaval de notre ville. Pour le prochain anniversaire de ma mère, je préparerai un gâteau. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "customs, festivals and celebrations",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Customs, festivals and celebrations\nKey vocabulary\n- une fête\n- fêter\n- un défilé\n- un feu d'artifice\n- traditionnel\n\nRevision focus\nPractise present, past and future forms while discussing customs, festivals and celebrations. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

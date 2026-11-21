@@ -64,6 +64,18 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). In short:
 
 Once it's merged, everyone gets the new subject the next time they start the app. They don't need to reinstall.
 
+## Open pack format, import and export
+
+Subjects are plain JSON described by a JSON Schema ([`schema/gcse-revision-pack.schema.json`](schema/gcse-revision-pack.schema.json), draft 2020-12). A pack is either a folder (`pack.json` + `modules/*.json`) or a single `.pack.json` bundle, optionally zipped.
+
+- `gcse-revision import <bundle.json | folder | .zip>` validates against the schema and installs the pack on this device only (or use **Switch subject → Import pack…** in the app).
+- `gcse-revision export <pack.js> [out.pack.json]` turns an installed pack back into the open format. Packs containing recordings must be exported to a `.zip` so their audio files are included.
+- `gcse-revision validate` checks every pack and `content/` folder against the schema.
+
+Imported packs are private to your machine and are never published.
+
+**Audio.** Language packs set `config.speechLang` (e.g. `fr-FR`), which adds a 🔊 Listen button using your browser/OS text-to-speech voices (no files, works offline; voice quality varies and Chinese, Russian or Hindi may need an OS voice pack). A question can also carry its own recording: put files in the pack's `audio/` folder (`.mp3 .ogg .wav .m4a .webm`) and set `"audio": "clip1.mp3"` on the question. Recordings are supported for imported (private) packs only, so only use audio you have the right to use.
+
 ## Private subjects (personal use only)
 
 Some material can be used for your own revision but can't be published, for example booklets supplied by a school.

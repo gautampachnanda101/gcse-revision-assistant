@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 3",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "questions": [
+  {
+   "answerTopic": "1.3-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Answer using information from the passage only; quoting the relevant French phrase alongside your English answer can help you check you haven't missed detail.",
+   "marks": 10,
+   "modelAnswer": "1. Exam pressure, especially before the brevet (\"la pression des examens difficile à gérer, surtout avant le brevet\").\n2. Workshops to help students manage their stress better (\"des ateliers pour aider les élèves à mieux gérer leur stress\").\n3. Discover the world of work before choosing their path (\"découvrir le monde du travail avant de choisir leur orientation\").\n4. University, a BTS (vocational diploma), or an apprenticeship (\"l'université, un BTS ou un apprentissage\").",
+   "question": "Reading comprehension. Read the passage and answer in English:\n\n\"En France, beaucoup de collégiens trouvent la pression des examens difficile à gérer, surtout avant le brevet. Certains lycées offrent maintenant des ateliers pour aider les élèves à mieux gérer leur stress. De plus, le stage en entreprise de troisième permet aux élèves de découvrir le monde du travail avant de choisir leur orientation. Après le lycée, de nombreux jeunes choisissent entre l'université, un BTS ou un apprentissage.\"\n\n1. What do many middle-school students in France find difficult to manage?\n2. What do some schools now offer, and why?\n3. What does the Year 9 (troisième) work placement allow students to do?\n4. What three options do many young people choose between after lycée?"
+  },
+  {
+   "answerTopic": "1.3-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning of each sentence into natural English rather than word-for-word; check tenses (perfect/present) carry across accurately.",
+   "marks": 10,
+   "modelAnswer": "1. My favourite subject is history-geography.\n2. Next year, I am going to sit my exams.\n3. I did a work placement in an office for two weeks.\n4. Later, I would like to become an engineer.",
+   "question": "Translate into English:\n\n1. Ma matière préférée, c'est l'histoire-géographie.\n2. L'année prochaine, je vais passer mes examens.\n3. J'ai fait un stage dans un bureau pendant deux semaines.\n4. Plus tard, je voudrais devenir ingénieur."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-2",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Reading comprehension",
+   "question": "Read and answer in English: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\n1. Give one present detail.\n2. What happened in the past?\n3. What will or should happen later?\n4. Give a reason or opinion.",
+   "modelAnswer": "I prefer science because it is useful. Last year, I did work experience at a veterinary clinic. After sixth form, I would like to study at university.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-3",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Translate into English",
+   "question": "Translate into English:\n\nJe préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université.",
+   "modelAnswer": "I prefer science because it is useful. Last year, I did work experience at a veterinary clinic. After sixth form, I would like to study at university.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-4",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Match the time frames",
+   "question": "Read: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\nMatch each sentence to Present, Past or Future/Conditional and quote its strongest time or verb clue.",
+   "modelAnswer": "Sentence 1: Je préfère les sciences parce qu'elles sont utiles. — present.\nSentence 2: L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. — completed past.\nSentence 3: Après le lycée, j'aimerais étudier à l'université. — future or conditional.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-5",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Vocabulary in context",
+   "question": "Read: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\nGive the English meaning of: une matière, les devoirs, une formation, un stage. Then quote the connective or expression that links an opinion to a reason.",
+   "modelAnswer": "Use the standard meanings of the module vocabulary. The reason is signposted by parce que, car or the explicit contrasting/future expression in the passage.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-6",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "True or false",
+   "question": "Read: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\nDecide true, false or not stated for four suitable facts, quoting a French phrase as evidence for each true or false decision.",
+   "modelAnswer": "Any answer is justified by a short quotation. Never use outside knowledge and do not turn an unstated idea into a false one.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-7",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Reading: infer carefully",
+   "question": "Read: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\nWhat can you infer about the speaker's priorities? Support one inference with exact French evidence and avoid claiming something not stated.",
+   "modelAnswer": "A supported inference should reflect: I prefer science because it is useful. Last year, I did work experience at a veterinary clinic. After sixth form, I would like to study at university.. It must quote the relevant phrase rather than retell the whole paragraph.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-8",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Find the detail",
+   "question": "Read: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\nIn French, identify (1) a person or place, (2) an activity, (3) a past-time marker, and (4) a future or conditional form.",
+   "modelAnswer": "Suitable evidence comes directly from the transcript. Full reference: Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-9",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Multiple choice reading",
+   "question": "Read: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\n1. The speaker's current view is best summarised as (A) I prefer science because it is useful. (B) a fact not mentioned (C) a refusal.\n2. The past event is (A) Last year, I did work experience at a veterinary clinic. (B) tomorrow (C) a command.\n3. The final idea is (A) fixed (B) After sixth form, I would like to study at university. (C) uncertain.",
+   "modelAnswer": "1. A\n2. A\n3. B",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-10",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Reading: correct the summary",
+   "question": "A student has summarised « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. » as: “The speaker only discusses the present and dislikes the whole topic.” Correct the summary in English.",
+   "modelAnswer": "Accurate summary: I prefer science because it is useful. Last year, I did work experience at a veterinary clinic. After sixth form, I would like to study at university.. The text discusses several time frames and gives a more specific view, not a blanket dislike.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-3-11",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Translate the key sentences",
+   "question": "Choose the three core sentences in « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. » and translate them into natural, not literal, English. Explain one grammar feature that helped you.",
+   "modelAnswer": "I prefer science because it is useful. Last year, I did work experience at a veterinary clinic. After sixth form, I would like to study at university.\nThe tense, reflexive/partitive form or adjective agreement should be explained using the exact wording.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "school, subjects, work and future plans",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Education and work\nKey vocabulary\n- une matière\n- les devoirs\n- une formation\n- un stage\n- avoir l'intention de\n\nRevision focus\nPractise present, past and future forms while discussing school, subjects, work and future plans. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 3",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "note": {
+  "title": "Education and work",
+  "specFocus": "School subjects, school life and rules, future plans, jobs, work experience and ambitions.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "1.3 Education and work\nKey vocabulary (Russian = transliteration = English)\n- школа = shkola = school; предмет = predmet = subject; урок = urok = lesson; учитель/учительница = uchitel'/uchitel'nitsa = teacher\n- математика, физика, химия, история, английский язык = school subjects; любимый предмет = lyubimyy predmet = favourite subject\n- форма = forma = uniform; правило = pravilo = rule; домашнее задание = domashnee zadanie = homework; экзамен = ekzamen = exam\n- поступить в университет = postupit' v universitet = to go to university; профессия = professiya = profession; зарабатывать = zarabatyvat' = to earn\n- врач = vrach = doctor; инженер = inzhener = engineer; повар = povar = cook; программист = programmist = programmer\n- практика = praktika = work experience; опыт = opyt = experience; мечтать (о + prep.) = mechtat' = to dream of\n\nKey grammar\n- Subjects with на/по: урок по математике; я занимаюсь математикой (instrumental).\n- Future with хочу/собираюсь + infinitive: я собираюсь поступить в университет; я хочу стать врачом (стать + instrumental).\n- Past imperfective for habits/description (я ходил в школу каждый день) vs perfective for a completed action (я сдал экзамен).\n- Conditional: если бы я мог, я бы выбрал... ; Я хотел бы быть... = I would like to be...\n- Genitive after numbers 2-4 and prepositions: пять уроков, до школы, после уроков.\n\nExam tips\n- Learn стать + instrumental (стать учителем) and работать + instrumental (работать врачом).\n- Give an opinion on a subject: потому что он интересный/полезный/трудный.\n- Distinguish идти (on foot, one direction) from ходить (habitually): я хожу в школу пешком."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.3-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the questions first, then the text; answer only with information given in the text, and watch for negatives (не, нет, никогда) and time words that change the meaning.",
+   "marks": 5,
+   "modelAnswer": "1. In the town centre.\n2. Start at 8.30, finish at 3 o'clock.\n3. IT (computer science).\n4. It is too difficult for them.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Наша школа находится в центре города. Уроки начинаются в восемь тридцать и заканчиваются в три часа. Мой любимый предмет — информатика, потому что учитель очень интересно объясняет. Математику я не люблю: она слишком трудная для меня.»\n\n1. Where is the school?\n2. When do lessons start and finish?\n3. What is the favourite subject?\n4. Why doesn't the writer like maths?"
+  },
+  {
+   "answerTopic": "1.3-reading-1",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Quote or note the Russian phrase that supports each answer; check case endings and verb tense (past/present/future) to be sure who did what and when.",
+   "marks": 4,
+   "modelAnswer": "1. Dark trousers or a skirt and a white shirt.\n2. Doesn't have to think what to wear in the morning.\n3. No using phones in lessons.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«В нашей школе нужно носить форму: тёмные брюки или юбку и белую рубашку. Многие ученики недовольны, но мне это нравится, потому что не надо думать, что надеть утром. Ещё нельзя пользоваться телефонами на уроках.»\n\n1. What does the uniform consist of?\n2. Why does the writer like it?\n3. What is another rule?"
+  },
+  {
+   "answerTopic": "1.3-reading-2",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Give every detail asked for (e.g. both reason and result); a one-word answer often loses the second mark.",
+   "marks": 5,
+   "modelAnswer": "1. A doctor.\n2. Likes helping people.\n3. Six years.\n4. Their mum, who is also a doctor.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Я хочу стать врачом, потому что мне нравится помогать людям. Для этого нужно поступить в медицинский университет и учиться шесть лет. Я знаю, что это трудно, но я буду много заниматься. Моя мама тоже врач, и она меня поддерживает.»\n\n1. What does the writer want to be?\n2. Why?\n3. How long is the university study?\n4. Who supports the writer and why might this be relevant?"
+  },
+  {
+   "answerTopic": "1.3-reading-3",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Do not translate word-for-word: identify the key nouns and verbs, then express the sense in clear English.",
+   "marks": 5,
+   "modelAnswer": "1. In a café.\n2. Washing dishes and sometimes serving customers.\n3. Earned a little money and understood how hard it is to earn.\n4. He values his parents' work more.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Прошлым летом Олег две недели работал в кафе. Он мыл посуду и иногда обслуживал клиентов. Работа была утомительной, но он заработал немного денег и понял, как трудно зарабатывать. Теперь он больше ценит труд родителей.»\n\n1. Where did Oleg work last summer?\n2. What were his tasks?\n3. What did he gain from the work?\n4. How has his attitude changed?"
+  },
+  {
+   "answerTopic": "1.3-reading-4",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the questions first, then the text; answer only with information given in the text, and watch for negatives (не, нет, никогда) and time words that change the meaning.",
+   "marks": 4,
+   "modelAnswer": "1. In June.\n2. Foreign languages at university in St Petersburg.\n3. To work for a year as a translator in a small company.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Моя сестра Ира закончила школу в июне. Она сдала все экзамены и хочет поступить в университет в Санкт-Петербурге, чтобы изучать иностранные языки. Если она не поступит, она будет год работать переводчиком в небольшой компании.»\n\n1. When did Ira finish school?\n2. What does she want to study and where?\n3. What is her plan B?"
+  },
+  {
+   "answerTopic": "1.3-reading-5",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Quote or note the Russian phrase that supports each answer; check case endings and verb tense (past/present/future) to be sure who did what and when.",
+   "marks": 4,
+   "modelAnswer": "1. Helpers for a summer camp.\n2. Sixteen.\n3. 10 to 3, Monday to Friday.\n4. No.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Объявление: «Школа №15 ищет помощников для летнего лагеря. Вам должно быть не меньше шестнадцати лет. Работа с детьми с десяти до трёх, с понедельника по пятницу. Опыт не обязателен. Звоните по телефону секретаря.»»\n\n1. Who is wanted?\n2. What is the minimum age?\n3. What are the hours and days?\n4. Is experience needed?"
+  },
+  {
+   "answerTopic": "1.3-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English; check tense (past/present/future), negatives and who is doing the action.",
+   "marks": 8,
+   "modelAnswer": "1. My favourite subject is history.\n2. Yesterday we had five lessons.\n3. I want to become an engineer.\n4. The homework is very difficult.",
+   "question": "Translate into English:\n\n1. Мой любимый предмет — история.\n2. Вчера у нас было пять уроков.\n3. Я хочу стать инженером.\n4. Домашнее задание очень трудное."
+  },
+  {
+   "answerTopic": "1.3-translate-en-1",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Use endings to work out meaning: the case of a noun shows its role (subject, object, place), and past-tense endings show gender.",
+   "marks": 6,
+   "modelAnswer": "1. The teacher said the exam will be in May.\n2. After school I intend to go to university.\n3. My father works as a programmer.",
+   "question": "Translate into English:\n\n1. Учительница сказала, что экзамен будет в мае.\n2. После школы я собираюсь поступить в университет.\n3. Мой отец работает программистом."
+  },
+  {
+   "answerTopic": "1.3-translate-en-2",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Do not leave gaps: give your best sense for unknown words using the context, and keep the English tense the same as the Russian.",
+   "marks": 8,
+   "modelAnswer": "1. A thousand pupils study in our school.\n2. If I could, I would choose a different profession.\n3. I don't like getting up early but I have to go to school.\n4. The work experience in the office was very useful.",
+   "question": "Translate into English:\n\n1. В нашей школе учится тысяча учеников.\n2. Если бы я мог, я бы выбрал другую профессию.\n3. Я не люблю рано вставать, но мне надо идти в школу.\n4. Практика в офисе была очень полезной."
+  },
+  {
+   "answerTopic": "1.3-translate-en-3",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English; check tense (past/present/future), negatives and who is doing the action.",
+   "marks": 6,
+   "modelAnswer": "1. My brother studies physics and chemistry.\n2. I dream of working abroad.\n3. Last week I passed the English exam.",
+   "question": "Translate into English:\n\n1. Брат изучает физику и химию.\n2. Я мечтаю работать за границей.\n3. На прошлой неделе я сдал экзамен по английскому языку."
+  },
+  {
+   "answerTopic": "1.3-translate-en-4",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Use endings to work out meaning: the case of a noun shows its role (subject, object, place), and past-tense endings show gender.",
+   "marks": 8,
+   "modelAnswer": "1. My mum is a primary school teacher.\n2. A good salary is not the most important thing for me.\n3. In two years I will finish school.\n4. Working in a team is interesting.",
+   "question": "Translate into English:\n\n1. Моя мама — учительница в начальной школе.\n2. Хорошая зарплата — это не главное для меня.\n3. Через два года я закончу школу.\n4. Работать в команде — это интересно."
+  },
+  {
+   "answerTopic": "1.3-translate-en-5",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Do not leave gaps: give your best sense for unknown words using the context, and keep the English tense the same as the Russian.",
+   "marks": 6,
+   "modelAnswer": "1. The rules at school are very strict.\n2. I walk to school because I live nearby.\n3. My friend wants to start his own business.",
+   "question": "Translate into English:\n\n1. Правила в школе очень строгие.\n2. Я хожу в школу пешком, потому что живу рядом.\n3. Мой друг хочет открыть своё дело."
+  }
+ ]
+}

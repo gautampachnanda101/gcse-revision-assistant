@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 3",
+ "module": "3.2",
+ "moduleTitle": "Media and technology",
+ "questions": [
+  {
+   "answerTopic": "3.2-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Answer using information from the passage only; quoting the relevant French phrase alongside your English answer can help you check you haven't missed detail.",
+   "marks": 10,
+   "modelAnswer": "1. 85% (\"85% des adolescents français possèdent un smartphone\").\n2. Stay in touch with friends (\"rester en contact avec des amis\").\n3. Their effects on sleep and concentration (\"leurs effets sur le sommeil et la concentration\").\n4. Banned phone use during lessons (\"interdit l'usage des portables pendant les cours\").\n5. Cyberbullying (\"le cyberharcèlement\").",
+   "question": "Reading comprehension. Read the passage and answer in English:\n\n\"Une étude montre que 85% des adolescents français possèdent un smartphone. Si les réseaux sociaux permettent de rester en contact avec des amis, certains experts s'inquiètent de leurs effets sur le sommeil et la concentration. Plusieurs écoles ont donc interdit l'usage des portables pendant les cours. Les parents sont encouragés à discuter régulièrement avec leurs enfants des dangers d'Internet, comme le cyberharcèlement.\"\n\n1. What percentage of French teenagers own a smartphone?\n2. What do social media allow people to do, according to the text?\n3. What are some experts worried about?\n4. What have several schools done, and why?\n5. What danger of the internet is mentioned at the end?"
+  },
+  {
+   "answerTopic": "3.2-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning of each sentence into natural English rather than word-for-word; check tenses (perfect/present) carry across accurately.",
+   "marks": 10,
+   "modelAnswer": "1. I spend too much time on social media.\n2. It is important to protect your privacy online.\n3. My parents limit my screen time in the evening.\n4. Technology has advantages and disadvantages.",
+   "question": "Translate into English:\n\n1. Je passe trop de temps sur les réseaux sociaux.\n2. Il est important de protéger sa vie privée en ligne.\n3. Mes parents limitent mon temps d'écran le soir.\n4. La technologie a des avantages et des inconvénients."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-2",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Reading comprehension",
+   "question": "Read and answer in English: « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. »\n1. Give one present detail.\n2. What happened in the past?\n3. What will or should happen later?\n4. Give a reason or opinion.",
+   "modelAnswer": "I use my phone to communicate with my friends. Yesterday, I downloaded a useful app. In the future, I will limit my online time so I can sleep better.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-3",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Translate into English",
+   "question": "Translate into English:\n\nJe me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir.",
+   "modelAnswer": "I use my phone to communicate with my friends. Yesterday, I downloaded a useful app. In the future, I will limit my online time so I can sleep better.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-4",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Match the time frames",
+   "question": "Read: « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. »\nMatch each sentence to Present, Past or Future/Conditional and quote its strongest time or verb clue.",
+   "modelAnswer": "Sentence 1: Je me sers de mon portable pour communiquer avec mes amis. — present.\nSentence 2: Hier, j'ai téléchargé une application utile. — completed past.\nSentence 3: À l'avenir, je limiterai mon temps en ligne pour mieux dormir. — future or conditional.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-5",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Vocabulary in context",
+   "question": "Read: « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. »\nGive the English meaning of: un portable, les données personnelles, harceler, des achats en ligne. Then quote the connective or expression that links an opinion to a reason.",
+   "modelAnswer": "Use the standard meanings of the module vocabulary. The reason is signposted by parce que, car or the explicit contrasting/future expression in the passage.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-6",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "True or false",
+   "question": "Read: « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. »\nDecide true, false or not stated for four suitable facts, quoting a French phrase as evidence for each true or false decision.",
+   "modelAnswer": "Any answer is justified by a short quotation. Never use outside knowledge and do not turn an unstated idea into a false one.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-7",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Reading: infer carefully",
+   "question": "Read: « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. »\nWhat can you infer about the speaker's priorities? Support one inference with exact French evidence and avoid claiming something not stated.",
+   "modelAnswer": "A supported inference should reflect: I use my phone to communicate with my friends. Yesterday, I downloaded a useful app. In the future, I will limit my online time so I can sleep better.. It must quote the relevant phrase rather than retell the whole paragraph.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-8",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Find the detail",
+   "question": "Read: « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. »\nIn French, identify (1) a person or place, (2) an activity, (3) a past-time marker, and (4) a future or conditional form.",
+   "modelAnswer": "Suitable evidence comes directly from the transcript. Full reference: Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-9",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Multiple choice reading",
+   "question": "Read: « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. »\n1. The speaker's current view is best summarised as (A) I use my phone to communicate with my friends. (B) a fact not mentioned (C) a refusal.\n2. The past event is (A) Yesterday, I downloaded a useful app. (B) tomorrow (C) a command.\n3. The final idea is (A) fixed (B) In the future, I will limit my online time so I can sleep better. (C) uncertain.",
+   "modelAnswer": "1. A\n2. A\n3. B",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-10",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Reading: correct the summary",
+   "question": "A student has summarised « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. » as: “The speaker only discusses the present and dislikes the whole topic.” Correct the summary in English.",
+   "modelAnswer": "Accurate summary: I use my phone to communicate with my friends. Yesterday, I downloaded a useful app. In the future, I will limit my online time so I can sleep better.. The text discusses several time frames and gives a more specific view, not a blanket dislike.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-media-phones-the-internet-and-technology-3-11",
+   "evidence": [
+    "un portable",
+    "les données personnelles",
+    "harceler"
+   ],
+   "command": "Translate the key sentences",
+   "question": "Choose the three core sentences in « Je me sers de mon portable pour communiquer avec mes amis. Hier, j'ai téléchargé une application utile. À l'avenir, je limiterai mon temps en ligne pour mieux dormir. » and translate them into natural, not literal, English. Explain one grammar feature that helped you.",
+   "modelAnswer": "I use my phone to communicate with my friends. Yesterday, I downloaded a useful app. In the future, I will limit my online time so I can sleep better.\nThe tense, reflexive/partitive form or adjective agreement should be explained using the exact wording.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "media, phones, the internet and technology",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Media and technology\nKey vocabulary\n- un portable\n- les données personnelles\n- harceler\n- des achats en ligne\n- dépendre de\n\nRevision focus\nPractise present, past and future forms while discussing media, phones, the internet and technology. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

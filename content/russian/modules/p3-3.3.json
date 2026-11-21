@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 3",
+ "module": "3.3",
+ "moduleTitle": "The environment and where people live",
+ "note": {
+  "title": "The environment and where people live",
+  "specFocus": "Home and town, region, weather, environmental problems and what we can do about them.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "3.3 The environment and where people live\nKey vocabulary (Russian = transliteration = English)\n- город = gorod = town/city; деревня = derevnya = village; район = rayon = district; центр = tsentr = centre\n- квартира = kvartira = flat; дом = dom = house; этаж = etazh = floor; комната = komnata = room; сад = sad = garden\n- окружающая среда = okruzhayushchaya sreda = environment; загрязнение = zagryaznenie = pollution; мусор = musor = rubbish\n- сортировать мусор = sortirovat' musor = to sort rubbish; экономить воду = ekonomit' vodu = to save water; перерабатывать = pererabatyvat' = to recycle\n- глобальное потепление = global'noe potepleniye = global warming; наводнение = navodnenie = flood; лес = les = forest\n- пластик = plastik = plastic; велосипед = velosiped = bicycle; общественный транспорт = obshchestvennyy transport = public transport\n\nKey grammar\n- Location: в/на + prepositional (в центре города, на втором этаже); distances: далеко от + genitive.\n- Necessity and advice: надо/нужно/следует + infinitive; нельзя выбрасывать мусор.\n- Future for plans: мы будем сортировать мусор; я буду ездить на велосипеде.\n- Conditional with если бы: Если бы все ездили на автобусе, воздух был бы чище.\n- Comparatives: чище, грязнее, тише, шумнее; самый большой город.\n\nExam tips\n- Use чтобы + past/infinitive for purpose: чтобы защитить природу, надо...\n- Include a problem and a solution in writing tasks.\n- Remember на for floor/street/square (на втором этаже, на улице)."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.3-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the questions first, then the text; answer only with information given in the text, and watch for negatives (не, нет, никогда) and time words that change the meaning.",
+   "marks": 5,
+   "modelAnswer": "1. In a small town near Moscow.\n2. A park, two shops, a school.\n3. A cinema and shopping centre.\n4. Take a suburban train to the capital.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Я живу в небольшом городе недалеко от Москвы. У нас есть парк, два магазина и школа. Летом здесь тихо и красиво, но зимой скучно: нет кинотеатра и торгового центра. Если хочется развлечений, нужно ехать на электричке в столицу.»\n\n1. Where does the writer live?\n2. Name two things in the town.\n3. What is missing?\n4. How can you get entertainment?"
+  },
+  {
+   "answerTopic": "3.3-reading-1",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Quote or note the Russian phrase that supports each answer; check case endings and verb tense (past/present/future) to be sure who did what and when.",
+   "marks": 4,
+   "modelAnswer": "1. The fifth.\n2. Three.\n3. The writer and the brother.\n4. Having a room of their own.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Наша квартира находится на пятом этаже. В ней три комнаты: гостиная, спальня родителей и моя комната, которую я делю с братом. Балкон выходит во двор. Мне нравится дом, но я мечтаю о собственной комнате.»\n\n1. Which floor is the flat on?\n2. How many rooms?\n3. Who shares a room?\n4. What does the writer dream of?"
+  },
+  {
+   "answerTopic": "3.3-reading-2",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Give every detail asked for (e.g. both reason and result); a one-word answer often loses the second mark.",
+   "marks": 4,
+   "modelAnswer": "1. An Eco Day.\n2. Collected plastic bottles, planted trees, made posters.\n3. There is more and more rubbish in the world, which is dangerous for animals.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Мы в школе организовали «Экодень». Мы собрали пластиковые бутылки, посадили деревья во дворе и сделали плакаты о раздельном сборе мусора. Учитель географии объяснил, что в мире становится всё больше мусора, и это опасно для животных.»\n\n1. What was organised at school?\n2. Name two things pupils did.\n3. What did the geography teacher say?"
+  },
+  {
+   "answerTopic": "3.3-reading-3",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Do not translate word-for-word: identify the key nouns and verbs, then express the sense in clear English.",
+   "marks": 4,
+   "modelAnswer": "1. Dirty air and traffic jams.\n2. By bus to school; bike at weekends.\n3. New cycle paths and free buses for schoolchildren.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«В моём городе слишком много машин. Из-за этого воздух грязный, и на дорогах пробки. Я езжу в школу на автобусе, а по выходным — на велосипеде. Мэр обещал построить новые велодорожки и сделать автобусы бесплатными для школьников.»\n\n1. What are the two problems caused by cars?\n2. How does the writer travel?\n3. What did the mayor promise?"
+  },
+  {
+   "answerTopic": "3.3-reading-4",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Read the questions first, then the text; answer only with information given in the text, and watch for negatives (не, нет, никогда) and time words that change the meaning.",
+   "marks": 5,
+   "modelAnswer": "1. In a village.\n2. No noise and lots of greenery.\n3. Visits and helps in the vegetable garden.\n4. There is little work for them in the village.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Моя бабушка живёт в деревне. Там нет шума и много зелени. Бабушка выращивает овощи, и у неё есть куры. Летом я часто приезжаю к ней и помогаю в огороде. Правда, в деревне мало работы для молодых, поэтому многие уезжают в город.»\n\n1. Where does grandmother live?\n2. What is good about it?\n3. What does the writer do in summer?\n4. Why do many young people leave?"
+  },
+  {
+   "answerTopic": "3.3-reading-5",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Quote or note the Russian phrase that supports each answer; check case endings and verb tense (past/present/future) to be sure who did what and when.",
+   "marks": 4,
+   "modelAnswer": "1. More frequent floods and droughts.\n2. Use cars less and save energy.\n3. Sort rubbish and switch off lights.",
+   "question": "Reading comprehension. Read the text and answer in English:\n\n«Из-за глобального потепления в мире чаще бывают наводнения и засухи. Учёные говорят, что нужно меньше пользоваться машинами и экономить энергию. Если все начнут сортировать мусор и выключать свет, мы сможем помочь планете.»\n\n1. What does global warming cause?\n2. What do scientists advise?\n3. What could everyone do to help?"
+  },
+  {
+   "answerTopic": "3.3-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English; check tense (past/present/future), negatives and who is doing the action.",
+   "marks": 8,
+   "modelAnswer": "1. I live in a big city.\n2. Our flat is in the centre.\n3. We sort rubbish at home.\n4. There are lots of trees in the park.",
+   "question": "Translate into English:\n\n1. Я живу в большом городе.\n2. Наша квартира находится в центре.\n3. Мы сортируем мусор дома.\n4. В парке много деревьев."
+  },
+  {
+   "answerTopic": "3.3-translate-en-1",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Use endings to work out meaning: the case of a noun shows its role (subject, object, place), and past-tense endings show gender.",
+   "marks": 6,
+   "modelAnswer": "1. Air pollution is a big problem.\n2. I walk to school to protect nature.\n3. Yesterday there was heavy rain in our area.",
+   "question": "Translate into English:\n\n1. Загрязнение воздуха — большая проблема.\n2. Я хожу в школу пешком, чтобы беречь природу.\n3. Вчера в нашем районе был сильный дождь."
+  },
+  {
+   "answerTopic": "3.3-translate-en-2",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Do not leave gaps: give your best sense for unknown words using the context, and keep the English tense the same as the Russian.",
+   "marks": 8,
+   "modelAnswer": "1. We moved to a new house last year.\n2. If everyone cycled, the air would be cleaner.\n3. Our town doesn't have an underground, but it does have a tram.\n4. You must not throw rubbish on the street.",
+   "question": "Translate into English:\n\n1. Мы переехали в новый дом в прошлом году.\n2. Если бы все ездили на велосипедах, воздух был бы чище.\n3. В нашем городе нет метро, зато есть трамвай.\n4. Нельзя выбрасывать мусор на улице."
+  },
+  {
+   "answerTopic": "3.3-translate-en-3",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning into natural English; check tense (past/present/future), negatives and who is doing the action.",
+   "marks": 6,
+   "modelAnswer": "1. My room is small but cosy.\n2. The river near our house is very dirty.\n3. I would like to live by the sea.",
+   "question": "Translate into English:\n\n1. Моя комната маленькая, но уютная.\n2. Река рядом с нашим домом очень грязная.\n3. Я бы хотел жить около моря."
+  },
+  {
+   "answerTopic": "3.3-translate-en-4",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Use endings to work out meaning: the case of a noun shows its role (subject, object, place), and past-tense endings show gender.",
+   "marks": 8,
+   "modelAnswer": "1. Living in a village is calmer than in a city.\n2. We will save water and electricity.\n3. There used to be many factories in our district.\n4. Forests must be protected.",
+   "question": "Translate into English:\n\n1. В деревне жить спокойнее, чем в городе.\n2. Мы будем экономить воду и электричество.\n3. Раньше в нашем районе было много заводов.\n4. Леса нужно защищать."
+  },
+  {
+   "answerTopic": "3.3-translate-en-5",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Do not leave gaps: give your best sense for unknown words using the context, and keep the English tense the same as the Russian.",
+   "marks": 6,
+   "modelAnswer": "1. We have a garden where apple trees grow.\n2. The authorities promised to build a new park.\n3. I think everyone can help the environment.",
+   "question": "Translate into English:\n\n1. У нас есть сад, где растут яблони.\n2. Власти обещали построить новый парк.\n3. Я считаю, что каждый может помочь окружающей среде."
+  }
+ ]
+}

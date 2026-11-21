@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 1",
+ "module": "2.1",
+ "moduleTitle": "Free-time activities",
+ "note": {
+  "title": "Free-time activities",
+  "specFocus": "Hobbies, sport, music, cinema, TV, reading, going out and food/eating out.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "2.1 Free-time activities\nKey vocabulary (Russian = transliteration = English)\n- свободное время = svobodnoe vremya = free time; увлечение = uvlechenie = hobby; в свободное время = in my free time\n- играть в футбол/на гитаре = igrat' v futbol/na gitare = to play football/the guitar (в + acc. for games, на + prep. for instruments)\n- смотреть фильм/сериал = smotret' film/serial = to watch a film/series; слушать музыку = slushat' muzyku = to listen to music\n- кататься на велосипеде/на коньках/на лыжах = katat'sya na velosipede... = to ride a bike/skate/ski\n- встречаться с друзьями = vstrechat'sya s druz'yami = to meet friends; гулять = gulyat' = to go for a walk\n- чаще всего = chashche vsego = most often; иногда = inogda = sometimes; никогда не = nikogda ne = never\n\nKey grammar\n- Играть в + accusative (games/sports) but играть на + prepositional (instruments): играю в теннис, играю на пианино.\n- Нравиться: мне нравится футбол; мне нравятся фильмы ужасов (the thing liked is the subject).\n- Perfective past for one event: вчера я посмотрел фильм; imperfective for repeated/duration: я смотрел фильм два часа.\n- Future: в субботу мы пойдём в кино; буду играть.\n- Verbs of motion: идти/ходить (on foot), ехать/ездить (by transport): я часто хожу в кино; мы поедем на матч.\n\nExam tips\n- Do not say играть футбол: use играть в футбол.\n- Add time frequency words (часто, раз в неделю) to gain range.\n- Justify opinions with потому что or так как."
+ },
+ "questions": [
+  {
+   "answerTopic": "2.1-listening-0",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Plays basketball with friends.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: По будням я после уроков играю в баскетбол с друзьями. В выходные мы иногда снимаем короткие видео для нашего клуба.»\n\nAnswer in English:\nWhat does the speaker do after lessons on weekdays?"
+  },
+  {
+   "answerTopic": "2.1-listening-1",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Short videos for their club.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: По будням я после уроков играю в баскетбол с друзьями. В выходные мы иногда снимаем короткие видео для нашего клуба.»\n\nAnswer in English:\nWhat do they sometimes make at weekends?"
+  },
+  {
+   "answerTopic": "2.1-listening-2",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Lake Baikal.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: Вчера я посмотрел документальный фильм о Байкале. Он был длиннее, чем я ожидал, но красивые виды мне очень понравились.»\n\nAnswer in English:\nWhat was yesterday’s film about?"
+  },
+  {
+   "answerTopic": "2.1-listening-3",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "It was longer than expected, but the beautiful views were enjoyed.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: Вчера я посмотрел документальный фильм о Байкале. Он был длиннее, чем я ожидал, но красивые виды мне очень понравились.»\n\nAnswer in English:\nWhat did the speaker think of it?"
+  },
+  {
+   "answerTopic": "2.1-listening-4",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "For two years.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Я учусь играть на гитаре уже два года. Мой преподаватель говорит, что мне нужно больше практиковаться с ритмом.»\n\nAnswer in English:\nHow long has the speaker learned guitar?"
+  },
+  {
+   "answerTopic": "2.1-listening-5",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Rhythm.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Я учусь играть на гитаре уже два года. Мой преподаватель говорит, что мне нужно больше практиковаться с ритмом.»\n\nAnswer in English:\nWhat does the teacher say needs more practice?"
+  },
+  {
+   "answerTopic": "2.1-listening-6",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Knitting and listening to Russian podcasts.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: В свободное время моя сестра вяжет и слушает русские подкасты. Больше всего ей нравится подкаст о путешествиях.»\n\nAnswer in English:\nWhat are the sister’s two hobbies?"
+  },
+  {
+   "answerTopic": "2.1-listening-7",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "A travel podcast.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: В свободное время моя сестра вяжет и слушает русские подкасты. Больше всего ей нравится подкаст о путешествиях.»\n\nAnswer in English:\nWhich podcast is her favourite?"
+  },
+  {
+   "answerTopic": "2.1-listening-8",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "The tickets had sold out.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: В субботу мы хотели пойти в кино, но билеты закончились. Поэтому мы посмотрели комедию дома и приготовили попкорн.»\n\nAnswer in English:\nWhy did they not go to the cinema?"
+  },
+  {
+   "answerTopic": "2.1-listening-9",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Watched a comedy at home and made popcorn.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: В субботу мы хотели пойти в кино, но билеты закончились. Поэтому мы посмотрели комедию дома и приготовили попкорн.»\n\nAnswer in English:\nWhat did they do instead?"
+  },
+  {
+   "answerTopic": "2.1-listening-10",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Five kilometres.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: Раньше я ненавидел бег, однако прошлым летом участвовал в забеге на пять километров. В этом году хочу пробежать десять километров.»\n\nAnswer in English:\nHow far did the speaker run last summer?"
+  },
+  {
+   "answerTopic": "2.1-listening-11",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "To run ten kilometres.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: Раньше я ненавидел бег, однако прошлым летом участвовал в забеге на пять километров. В этом году хочу пробежать десять километров.»\n\nAnswer in English:\nWhat is this year’s aim?"
+  }
+ ]
+}

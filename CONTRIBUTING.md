@@ -13,6 +13,8 @@ Each subject is one self-contained **subject pack**: `data/<name>.js`. Name it `
 
 ## Pack format
 
+The format is defined by [`schema/gcse-revision-pack.schema.json`](schema/gcse-revision-pack.schema.json); `go run . validate` enforces it. Packs that predate the folder layout can set `meta.idPrefix` to keep existing question ids stable.
+
 ```js
 window.REVISION_SUBJECTS = window.REVISION_SUBJECTS || [];
 window.REVISION_SUBJECTS.push({

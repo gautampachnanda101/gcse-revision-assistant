@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 1",
+ "module": "1.1",
+ "moduleTitle": "Identity and relationships with others",
+ "note": {
+  "title": "Identity and relationships with others",
+  "specFocus": "Describing yourself and others, family and friends, relationships, arguments and making up.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "1.1 Identity and relationships with others\nKey vocabulary (Russian = transliteration = English)\n- семья = semya = family; родители = roditeli = parents; отчим/мачеха = otchim/machekha = stepfather/stepmother\n- сводный брат/сводная сестра = svodnyy brat/svodnaya sestra = stepbrother/stepsister; двоюродный брат = dvoyurodnyy brat = cousin (male)\n- ладить с (+ instr.) = ladit s = to get on with; ссориться = ssorit'sya = to argue; мириться/помириться = miritsya/pomiritsya = to make up\n- доверять (+ dat.) = doveryat' = to trust; поддерживать = podderzhivat' = to support; надёжный = nadyozhnyy = reliable\n- добрый = dobryy = kind; весёлый = veselyy = cheerful; вредный = vrednyy = naughty/annoying; щедрый = shchedryy = generous\n- высокий/низкий = vysokiy/nizkiy = tall/short; волосы = volosy = hair; тёмные/светлые = tyomnye/svetlye = dark/fair\n\nKey grammar\n- Genitive for possession and \"have\": у меня есть сестра; у Ани нет брата (negative = genitive).\n- Instrumental after ладить/дружить с: я дружу с Максимом; я лажу с мамой.\n- Past tense agrees with gender: он жил, она жила, оно жило, они жили. Perfective past: мы помирились.\n- Opinions with reasons: я думаю, что...; потому что...; так как...; Мне нравится, что... (always a comma before что/потому что).\n- Adjectives agree in gender, number and case: моя старшая сестра добрая; с моей старшей сестрой.\n\nExam tips\n- Always add потому что + a reason when giving an opinion about relationships.\n- Watch for не/нет/никогда: они never change the meaning back by accident - check each sentence for a negative.\n- Do not translate \"I have a brother\" with the verb to have: use у меня есть брат."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.1-listening-0",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "Five people.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: Меня зовут Лена. В моей семье пять человек: родители, старший брат и бабушка. Я лучше всего лажу с бабушкой, потому что она добрая и всегда меня выслушивает.»\n\nAnswer in English:\nHow many people are in Lena’s family?"
+  },
+  {
+   "answerTopic": "1.1-listening-1",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "She is kind and always listens to her.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Анна говорит: Меня зовут Лена. В моей семье пять человек: родители, старший брат и бабушка. Я лучше всего лажу с бабушкой, потому что она добрая и всегда меня выслушивает.»\n\nAnswer in English:\nWhy does she get on best with her grandmother?"
+  },
+  {
+   "answerTopic": "1.1-listening-2",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "He is cheerful but sometimes takes things without permission.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: Мой младший брат очень весёлый, но иногда берёт мои вещи без разрешения. На прошлой неделе мы из-за этого поссорились, однако уже вечером помирились.»\n\nAnswer in English:\nWhat is the speaker’s younger brother like?"
+  },
+  {
+   "answerTopic": "1.1-listening-3",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "That same evening.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Максим говорит: Мой младший брат очень весёлый, но иногда берёт мои вещи без разрешения. На прошлой неделе мы из-за этого поссорились, однако уже вечером помирились.»\n\nAnswer in English:\nWhen did the siblings make up?"
+  },
+  {
+   "answerTopic": "1.1-listening-4",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "They divorced.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Мои родители развелись два года назад. Теперь у меня есть отчим. Я сначала не хотел с ним разговаривать, но сейчас он поддерживает меня в учёбе.»\n\nAnswer in English:\nWhat happened to the speaker’s parents two years ago?"
+  },
+  {
+   "answerTopic": "1.1-listening-5",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "At first the speaker did not want to talk to him, but now he supports the speaker with schoolwork.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Вика говорит: Мои родители развелись два года назад. Теперь у меня есть отчим. Я сначала не хотел с ним разговаривать, но сейчас он поддерживает меня в учёбе.»\n\nAnswer in English:\nHow has the relationship with the stepfather changed?"
+  },
+  {
+   "answerTopic": "1.1-listening-6",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "She is reliable and honest.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: Моя лучшая подруга Катя надёжная и честная. Мы дружим с первого класса, хотя живём в разных районах города. Мы часто видимся по воскресеньям.»\n\nAnswer in English:\nGive two qualities of Katya."
+  },
+  {
+   "answerTopic": "1.1-listening-7",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "They often meet on Sundays.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Дима говорит: Моя лучшая подруга Катя надёжная и честная. Мы дружим с первого класса, хотя живём в разных районах города. Мы часто видимся по воскресеньям.»\n\nAnswer in English:\nHow often do the friends meet?"
+  },
+  {
+   "answerTopic": "1.1-listening-8",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "Time spent at the computer.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: Вчера у меня был спор с отцом о времени за компьютером. Он считает, что я слишком долго играю, а я хотел посмотреть фильм. В конце мы договорились ограничить время.»\n\nAnswer in English:\nWhat did the speaker argue about with Dad?"
+  },
+  {
+   "answerTopic": "1.1-listening-9",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 3,
+   "modelAnswer": "They agreed to limit the time.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Катя говорит: Вчера у меня был спор с отцом о времени за компьютером. Он считает, что я слишком долго играю, а я хотел посмотреть фильм. В конце мы договорились ограничить время.»\n\nAnswer in English:\nWhat agreement did they reach?"
+  },
+  {
+   "answerTopic": "1.1-listening-10",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "On another floor of the same house.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: У моей тёти двое детей. Они живут на другом этаже нашего дома, поэтому мы видимся почти каждый день. Мой двоюродный брат помогает мне с математикой.»\n\nAnswer in English:\nWhere do the cousins live?"
+  },
+  {
+   "answerTopic": "1.1-listening-11",
+   "command": "Listen and answer",
+   "evidence": [],
+   "examTip": "Listen or read for key numbers, names, time phrases and negatives; write only the detail the transcript supports.",
+   "marks": 2,
+   "modelAnswer": "He helps with mathematics.",
+   "question": "Listening-style written transcript for browser TTS (read the Russian transcript):\n\n«Илья говорит: У моей тёти двое детей. Они живут на другом этаже нашего дома, поэтому мы видимся почти каждый день. Мой двоюродный брат помогает мне с математикой.»\n\nAnswer in English:\nWhat help does the male cousin give?"
+  }
+ ]
+}

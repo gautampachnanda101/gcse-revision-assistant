@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "2.1",
+ "moduleTitle": "Free-time activities",
+ "note": {
+  "title": "Free-time activities",
+  "specFocus": "Hobbies, sport, music, cinema, TV, reading, going out and food/eating out.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "2.1 Free-time activities\nKey vocabulary (Russian = transliteration = English)\n- свободное время = svobodnoe vremya = free time; увлечение = uvlechenie = hobby; в свободное время = in my free time\n- играть в футбол/на гитаре = igrat' v futbol/na gitare = to play football/the guitar (в + acc. for games, на + prep. for instruments)\n- смотреть фильм/сериал = smotret' film/serial = to watch a film/series; слушать музыку = slushat' muzyku = to listen to music\n- кататься на велосипеде/на коньках/на лыжах = katat'sya na velosipede... = to ride a bike/skate/ski\n- встречаться с друзьями = vstrechat'sya s druz'yami = to meet friends; гулять = gulyat' = to go for a walk\n- чаще всего = chashche vsego = most often; иногда = inogda = sometimes; никогда не = nikogda ne = never\n\nKey grammar\n- Играть в + accusative (games/sports) but играть на + prepositional (instruments): играю в теннис, играю на пианино.\n- Нравиться: мне нравится футбол; мне нравятся фильмы ужасов (the thing liked is the subject).\n- Perfective past for one event: вчера я посмотрел фильм; imperfective for repeated/duration: я смотрел фильм два часа.\n- Future: в субботу мы пойдём в кино; буду играть.\n- Verbs of motion: идти/ходить (on foot), ехать/ездить (by transport): я часто хожу в кино; мы поедем на матч.\n\nExam tips\n- Do not say играть футбол: use играть в футбол.\n- Add time frequency words (часто, раз в неделю) to gain range.\n- Justify opinions with потому что or так как."
+ },
+ "questions": [
+  {
+   "answerTopic": "2.1-translate-ru-0",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 8,
+   "modelAnswer": "1. Я играю на гитаре.\n2. Мой брат играет в футбол.\n3. Я люблю читать книги.\n4. Мы часто ходим в кино.",
+   "question": "Translate into Russian:\n\n1. I play the guitar.\n2. My brother plays football.\n3. I like reading books.\n4. We often go to the cinema."
+  },
+  {
+   "answerTopic": "2.1-translate-ru-1",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 6,
+   "modelAnswer": "1. В свободное время я слушаю музыку.\n2. Я не люблю компьютерные игры.\n3. По субботам я встречаюсь с друзьями.",
+   "question": "Translate into Russian:\n\n1. In my free time I listen to music.\n2. I don't like computer games.\n3. On Saturdays I meet my friends."
+  },
+  {
+   "answerTopic": "2.1-translate-ru-2",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Вчера я посмотрел хороший фильм. / ...посмотрела...\n2. Он был захватывающий и смешной.\n3. Завтра мы будем играть в теннис.",
+   "question": "Translate into Russian:\n\n1. Yesterday I watched a good film.\n2. It was exciting and funny.\n3. Tomorrow we will play tennis."
+  },
+  {
+   "answerTopic": "2.1-translate-ru-3",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 6,
+   "modelAnswer": "1. Моя сестра ходит на плавание два раза в неделю. / ...ходит в бассейн...\n2. Она очень хорошо плавает.\n3. Она хочет выиграть соревнование.",
+   "question": "Translate into Russian:\n\n1. My sister goes swimming twice a week.\n2. She is a very good swimmer.\n3. She wants to win a competition."
+  },
+  {
+   "answerTopic": "2.1-translate-ru-4",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 9,
+   "modelAnswer": "1. Когда я был маленьким, я играл на пианино. / Когда я была маленькой, я играла...\n2. Теперь я предпочитаю спорт.\n3. Я думаю, что спорт лучше, чем телевизор.",
+   "question": "Translate into Russian:\n\n1. When I was little I played the piano.\n2. Now I prefer sport.\n3. I think sport is better than TV."
+  },
+  {
+   "answerTopic": "2.1-translate-ru-5",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Если в воскресенье будет солнечно, мы поедем на озеро.\n2. Если бы у меня было больше времени, я бы научился танцевать. / ...научилась...\n3. Я устал, потому что два часа играл в футбол. / Я устала...играла...",
+   "question": "Translate into Russian:\n\n1. If it is sunny on Sunday, we will go to the lake.\n2. If I had more time, I would learn to dance.\n3. I am tired because I played football for two hours."
+  },
+  {
+   "answerTopic": "2.1-writing-0",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 8,
+   "modelAnswer": "В свободное время я люблю играть на гитаре. Я играю каждый вечер, а по выходным ещё и в группе. В прошлую субботу мы выступали в школе. Мне нравится музыка, потому что она помогает расслабиться.\n\n(English translation: In my free time I like playing the guitar. I play every evening and at weekends also in a band. Last Saturday we performed at school. I like music because it helps me relax.)",
+   "question": "Напишите о вашем хобби. Вы должны упомянуть:\n• чем вы любите заниматься в свободное время\n• как часто вы этим занимаетесь\n• что вы делали в прошлые выходные\n• почему вам это нравится"
+  },
+  {
+   "answerTopic": "2.1-writing-1",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 8,
+   "modelAnswer": "Мой любимый спорт — футбол. Я играю на школьном стадионе с одноклассниками три раза в неделю. На прошлой неделе я смотрел матч по телевизору, и мне очень понравилось. В будущем я хотел бы попробовать плавание, потому что это полезно для здоровья.\n\n(English translation: My favourite sport is football. I play at the school stadium with classmates three times a week. Last week I watched a match on TV and really enjoyed it. In future I would like to try swimming because it's good for health.)",
+   "question": "Напишите о спорте. Вы должны упомянуть:\n• какой спорт вам нравится\n• где и с кем вы им занимаетесь\n• какой матч вы смотрели недавно\n• каким спортом вы хотели бы заняться в будущем"
+  },
+  {
+   "answerTopic": "2.1-writing-2",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 10,
+   "modelAnswer": "Я люблю комедии и фантастику. Недавно я смотрел новый фильм о космосе: он был длинным, но интересным. Телевидение мне нравится меньше, чем интернет, потому что передачи часто скучные, а реклама раздражает. В следующий раз я хочу посмотреть старый советский фильм «Ирония судьбы».\n\n(English translation: I like comedies and science fiction. I recently watched a new film about space: it was long but interesting. I like TV less than the internet because the programmes are often boring and the adverts are annoying. Next time I want to watch the old Soviet film \"The Irony of Fate\".)",
+   "question": "Напишите на форум о фильмах и телевидении. Вы должны упомянуть:\n• какие фильмы вы любите\n• какой фильм вы смотрели недавно\n• ваше мнение о телевидении\n• что вы посмотрите в следующий раз"
+  },
+  {
+   "answerTopic": "2.1-writing-3",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 10,
+   "modelAnswer": "По субботам я обычно встаю поздно и играю в футбол с друзьями. После обеда мы ходим гулять в парк или в кафе. В это воскресенье я ездила к бабушке и помогала ей в саду. В следующие выходные мы пойдём на концерт, потому что мой друг достал билеты.\n\n(English translation: On Saturdays I usually get up late and play football with friends. After lunch we go for a walk in the park or to a café. This Sunday I went to my grandmother's and helped her in the garden. Next weekend we're going to a concert because my friend got tickets.)",
+   "question": "Напишите о том, как вы проводите выходные. Вы должны упомянуть:\n• что вы обычно делаете в субботу\n• с кем вы проводите время\n• что вы делали в воскресенье\n• какие у вас планы на следующие выходные"
+  },
+  {
+   "answerTopic": "2.1-writing-4",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 12,
+   "modelAnswer": "Я люблю читать, потому что книги помогают мне отдохнуть и узнать что-то новое. Моя любимая книга — «Мастер и Маргарита», хотя она довольно трудная. В детстве я читала сказки Пушкина, а родители читали мне перед сном. Электронные книги удобны, но я предпочитаю бумажные, потому что люблю запах страниц. Если бы у меня было больше времени, я бы читала каждый день.\n\n(English translation: I like reading because books help me relax and learn something new. My favourite book is \"The Master and Margarita\", although it is quite difficult. As a child I read Pushkin's fairy tales and my parents read to me before bed. E-books are convenient but I prefer paper ones because I like the smell of pages. If I had more time I would read every day.)",
+   "question": "Напишите о книгах и чтении. Вы должны упомянуть:\n• любите ли вы читать и почему\n• какая ваша любимая книга\n• что вы читали в детстве\n• как вы относитесь к электронным книгам"
+  },
+  {
+   "answerTopic": "2.1-writing-5",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 12,
+   "modelAnswer": "Мы с друзьями любим кататься на велосипедах и ходить в кино. Обычно мы встречаемся в центре города возле фонтана. На прошлой неделе мы ездили на пикник к озеру, и там мы купались и играли в волейбол. Отдыхать с друзьями лучше, чем одному, потому что вместе веселее и можно обсудить всё на свете.\n\n(English translation: My friends and I like cycling and going to the cinema. We usually meet in the town centre by the fountain. Last week we went on a picnic to the lake, where we swam and played volleyball. Relaxing with friends is better than alone because it is more fun together and you can discuss everything under the sun.)",
+   "question": "Напишите о занятиях с друзьями. Вы должны упомянуть:\n• что вы любите делать вместе\n• где вы встречаетесь\n• какое интересное событие было у вас недавно\n• почему друзья важны для хорошего отдыха"
+  }
+ ]
+}

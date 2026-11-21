@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "1.2",
+ "moduleTitle": "Healthy living and lifestyle",
+ "questions": [
+  {
+   "answerTopic": "1.2-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "Pour rester en forme, je fais de la natation deux fois par semaine et j'essaie de manger équilibré. À mon avis, une alimentation saine est essentielle parce qu'elle donne de l'énergie et améliore la concentration à l'école. Le mois dernier, j'ai décidé d'arrêter de boire des boissons sucrées, et je me sens beaucoup mieux depuis. Je conseille aux jeunes de dormir au moins huit heures par nuit et de limiter le temps passé devant les écrans.\n\n(English translation: To stay fit, I go swimming twice a week and I try to eat healthily. In my opinion, a healthy diet is essential because it gives you energy and improves concentration at school. Last month, I decided to stop drinking sugary drinks, and I have felt much better since. I advise young people to sleep at least eight hours a night and limit screen time.)",
+   "question": "Écrivez un article sur la vie saine. Vous devez mentionner :\n• ce que vous faites pour rester en forme\n• votre opinion sur l'alimentation équilibrée, avec une raison\n• un changement que vous avez fait récemment\n• un conseil pour les jeunes qui veulent être en meilleure santé."
+  },
+  {
+   "answerTopic": "1.2-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. J'essaie de manger équilibré tous les jours.\n2. Tu ne devrais pas boire trop de café.\n3. L'année dernière, j'ai commencé à faire du yoga.\n4. À mon avis, le sommeil est aussi important que l'exercice.",
+   "question": "Translate into French:\n\n1. I try to eat a balanced diet every day.\n2. You should not drink too much coffee.\n3. Last year, I started doing yoga.\n4. In my opinion, sleep is as important as exercise."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-2",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about healthy living, food, sport and wellbeing. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-3",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. To stay healthy, I eat lots of fruit and drink water.\n2. Yesterday, I did sport for an hour.\n3. I should sleep earlier because sleep is important.",
+   "modelAnswer": "1. Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau.\n2. Hier, j'ai fait du sport pendant une heure.\n3. Je devrais dormir plus tôt car le sommeil est important.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-4",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about healthy living, food, sport and wellbeing. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-5",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic healthy living, food, sport and wellbeing:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime healthy living, food, sport and wellbeing parce que... Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. Cependant, ... À l'avenir, ... Use module terms including équilibré, éviter, en bonne santé, une matière grasse, se sentir bien.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-6",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about healthy living, food, sport and wellbeing. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: équilibré, éviter, en bonne santé, une matière grasse, se sentir bien.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-7",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to healthy living, food, sport and wellbeing.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-8",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about healthy living, food, sport and wellbeing. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-9",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about healthy living, food, sport and wellbeing: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: équilibré, éviter, en bonne santé, une matière grasse, se sentir bien.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-10",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe healthy living, food, sport and wellbeing through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-4-11",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on healthy living, food, sport and wellbeing. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "healthy living, food, sport and wellbeing",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Healthy living and lifestyle\nKey vocabulary\n- équilibré\n- éviter\n- en bonne santé\n- une matière grasse\n- se sentir bien\n\nRevision focus\nPractise present, past and future forms while discussing healthy living, food, sport and wellbeing. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

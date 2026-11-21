@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 3",
+ "module": "1.2",
+ "moduleTitle": "Healthy living and lifestyle",
+ "questions": [
+  {
+   "answerTopic": "1.2-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Answer using information from the passage only; quoting the relevant French phrase alongside your English answer can help you check you haven't missed detail.",
+   "marks": 10,
+   "modelAnswer": "1. Because of the low price and the speed (\"à cause du prix bas et de la rapidité\").\n2. Canteens with balanced menus including fresh fruit and vegetables (\"des menus équilibrés, incluant des fruits et des légumes frais\").\n3. They sleep better and are less stressed before exams (\"dorment mieux et sont moins stressés avant les examens\").\n4. Limiting screens, to improve sleep (\"limiter les écrans le soir pour améliorer le sommeil\").",
+   "question": "Reading comprehension. Read the passage and answer in English:\n\n\"Beaucoup de jeunes Français mangent trop de malbouffe à cause du prix bas et de la rapidité. Cependant, de plus en plus de lycées proposent des cantines avec des menus équilibrés, incluant des fruits et des légumes frais. Une étude récente montre que les adolescents qui font du sport régulièrement dorment mieux et sont moins stressés avant les examens. Les médecins conseillent de limiter les écrans le soir pour améliorer le sommeil.\"\n\n1. Why do many young French people eat a lot of junk food, according to the text?\n2. What are more schools now offering?\n3. What does a recent study show about teenagers who do regular sport?\n4. What do doctors recommend in the evening, and why?"
+  },
+  {
+   "answerTopic": "1.2-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning of each sentence into natural English rather than word-for-word; check tenses (perfect/present) carry across accurately.",
+   "marks": 10,
+   "modelAnswer": "1. You must not smoke because it is bad for your health.\n2. I drink a lot of water every day.\n3. My father stopped eating red meat.\n4. We should do more exercise to stay fit.",
+   "question": "Translate into English:\n\n1. Il ne faut pas fumer parce que c'est mauvais pour la santé.\n2. Je bois beaucoup d'eau tous les jours.\n3. Mon père a arrêté de manger de la viande rouge.\n4. On devrait faire plus d'exercice pour rester en forme."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-2",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Reading comprehension",
+   "question": "Read and answer in English: « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. »\n1. Give one present detail.\n2. What happened in the past?\n3. What will or should happen later?\n4. Give a reason or opinion.",
+   "modelAnswer": "To stay healthy, I eat lots of fruit and drink water. Yesterday, I did sport for an hour. I should sleep earlier because sleep is important.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-3",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Translate into English",
+   "question": "Translate into English:\n\nPour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important.",
+   "modelAnswer": "To stay healthy, I eat lots of fruit and drink water. Yesterday, I did sport for an hour. I should sleep earlier because sleep is important.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-4",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Match the time frames",
+   "question": "Read: « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. »\nMatch each sentence to Present, Past or Future/Conditional and quote its strongest time or verb clue.",
+   "modelAnswer": "Sentence 1: Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. — present.\nSentence 2: Hier, j'ai fait du sport pendant une heure. — completed past.\nSentence 3: Je devrais dormir plus tôt car le sommeil est important. — future or conditional.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-5",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Vocabulary in context",
+   "question": "Read: « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. »\nGive the English meaning of: équilibré, éviter, en bonne santé, une matière grasse. Then quote the connective or expression that links an opinion to a reason.",
+   "modelAnswer": "Use the standard meanings of the module vocabulary. The reason is signposted by parce que, car or the explicit contrasting/future expression in the passage.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-6",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "True or false",
+   "question": "Read: « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. »\nDecide true, false or not stated for four suitable facts, quoting a French phrase as evidence for each true or false decision.",
+   "modelAnswer": "Any answer is justified by a short quotation. Never use outside knowledge and do not turn an unstated idea into a false one.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-7",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Reading: infer carefully",
+   "question": "Read: « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. »\nWhat can you infer about the speaker's priorities? Support one inference with exact French evidence and avoid claiming something not stated.",
+   "modelAnswer": "A supported inference should reflect: To stay healthy, I eat lots of fruit and drink water. Yesterday, I did sport for an hour. I should sleep earlier because sleep is important.. It must quote the relevant phrase rather than retell the whole paragraph.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-8",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Find the detail",
+   "question": "Read: « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. »\nIn French, identify (1) a person or place, (2) an activity, (3) a past-time marker, and (4) a future or conditional form.",
+   "modelAnswer": "Suitable evidence comes directly from the transcript. Full reference: Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-9",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Multiple choice reading",
+   "question": "Read: « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. »\n1. The speaker's current view is best summarised as (A) To stay healthy, I eat lots of fruit and drink water. (B) a fact not mentioned (C) a refusal.\n2. The past event is (A) Yesterday, I did sport for an hour. (B) tomorrow (C) a command.\n3. The final idea is (A) fixed (B) I should sleep earlier because sleep is important. (C) uncertain.",
+   "modelAnswer": "1. A\n2. A\n3. B",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-10",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Reading: correct the summary",
+   "question": "A student has summarised « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. » as: “The speaker only discusses the present and dislikes the whole topic.” Correct the summary in English.",
+   "modelAnswer": "Accurate summary: To stay healthy, I eat lots of fruit and drink water. Yesterday, I did sport for an hour. I should sleep earlier because sleep is important.. The text discusses several time frames and gives a more specific view, not a blanket dislike.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-healthy-living-food-sport-and-wellbeing-3-11",
+   "evidence": [
+    "équilibré",
+    "éviter",
+    "en bonne santé"
+   ],
+   "command": "Translate the key sentences",
+   "question": "Choose the three core sentences in « Pour rester en bonne santé, je mange beaucoup de fruits et je bois de l'eau. Hier, j'ai fait du sport pendant une heure. Je devrais dormir plus tôt car le sommeil est important. » and translate them into natural, not literal, English. Explain one grammar feature that helped you.",
+   "modelAnswer": "To stay healthy, I eat lots of fruit and drink water. Yesterday, I did sport for an hour. I should sleep earlier because sleep is important.\nThe tense, reflexive/partitive form or adjective agreement should be explained using the exact wording.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "healthy living, food, sport and wellbeing",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Healthy living and lifestyle\nKey vocabulary\n- équilibré\n- éviter\n- en bonne santé\n- une matière grasse\n- se sentir bien\n\nRevision focus\nPractise present, past and future forms while discussing healthy living, food, sport and wellbeing. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

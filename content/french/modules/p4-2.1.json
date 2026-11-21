@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 4",
+ "module": "2.1",
+ "moduleTitle": "Free-time activities",
+ "questions": [
+  {
+   "answerTopic": "2.1-writing-0",
+   "command": "Write in French",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (e.g. perfect + near future) and always justify opinions with parce que/car to access the top marks.",
+   "marks": 10,
+   "modelAnswer": "Pendant mon temps libre, j'aime faire du sport et sortir avec mes amis. Le mois dernier, je suis allé(e) à un concert avec ma meilleure amie, et c'était une soirée inoubliable. À mon avis, les loisirs sont essentiels parce qu'ils permettent de réduire le stress après une longue journée à l'école. À l'avenir, j'aimerais essayer l'escalade parce que ça a l'air passionnant.\n\n(English translation: In my free time, I like doing sport and going out with my friends. Last month, I went to a concert with my best friend, and it was an unforgettable evening. In my opinion, hobbies are essential because they help reduce stress after a long day at school. In the future, I would like to try climbing because it looks exciting.)",
+   "question": "Écrivez un article sur vos loisirs. Vous devez mentionner :\n• ce que vous faites pendant votre temps libre\n• une activité que vous avez faite récemment\n• votre opinion sur l'importance des loisirs, avec une raison\n• une activité que vous aimeriez essayer à l'avenir."
+  },
+  {
+   "answerTopic": "2.1-translate-fr-0",
+   "command": "Translate into French",
+   "evidence": [],
+   "examTip": "Check verb endings and adjective agreement carefully; accurate grammar scores marks even if your vocabulary choice is simple.",
+   "marks": 10,
+   "modelAnswer": "1. Je passe mon temps libre à lire et à faire du sport.\n2. Le week-end dernier, nous sommes allé(e)s faire du shopping en ville.\n3. Il préfère jouer aux jeux vidéo plutôt que regarder la télévision.\n4. À l'avenir, je voudrais apprendre à jouer de la guitare.",
+   "question": "Translate into French:\n\n1. I spend my free time reading and playing sport.\n2. Last weekend, we went shopping in town.\n3. He prefers playing video games to watching television.\n4. In the future, I would like to learn to play the guitar."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-2",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Write in French",
+   "question": "Write 80–90 words in French about free-time activities, sport and entertainment. Mention: an opinion; a recent experience; a useful fact; and a future or ideal-world suggestion.",
+   "modelAnswer": "A strong response uses this kind of opening: Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains.\nThen add a second viewpoint, connectives and a justified conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-3",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Translate into French",
+   "question": "Translate into French:\n1. In the evening, I listen to music to relax.\n2. Last weekend, we played badminton.\n3. Next Saturday, I am going to watch a new film with my friends.",
+   "modelAnswer": "1. Le soir, j'écoute de la musique pour me détendre.\n2. Le week-end dernier, nous avons joué au badminton.\n3. Samedi prochain, je vais regarder un nouveau film avec mes copains.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-4",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Write a message",
+   "question": "Write 50–60 words in French to a friend about free-time activities, sport and entertainment. Include a question, an opinion, a past event and a plan.",
+   "modelAnswer": "Salut ! À mon avis, ... parce que... Récemment, j'ai... Et toi, qu'en penses-tu ? La semaine prochaine, je vais...",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-5",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Improve the paragraph",
+   "question": "Improve this vague paragraph for the topic free-time activities, sport and entertainment:\n« J'aime ça. Je fais des choses. C'était bien. Demain, je ferai quelque chose. »\nAdd precise nouns, connectives and three time frames.",
+   "modelAnswer": "J'aime free-time activities, sport and entertainment parce que... Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. Cependant, ... À l'avenir, ... Use module terms including se détendre, un loisir, passionnant, pratiquer, télécharger.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-6",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Write a balanced article",
+   "question": "Write about free-time activities, sport and entertainment. Give one advantage, one disadvantage, a personal past example and a practical recommendation. Aim for 90 words.",
+   "modelAnswer": "A high-scoring answer has four paragraphs and uses: d'abord, en plus, cependant, à mon avis, l'année dernière and à l'avenir. Topic language: se détendre, un loisir, passionnant, pratiquer, télécharger.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-7",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Translate into French",
+   "question": "Translate accurately: “I enjoy this because it is useful. Last year I tried something new. In the future, I would like to improve my habits.” Adapt the middle sentence to free-time activities, sport and entertainment.",
+   "modelAnswer": "J'aime cela parce que c'est utile. L'année dernière, j'ai essayé quelque chose de nouveau dans ce domaine. À l'avenir, j'aimerais améliorer mes habitudes.",
+   "marks": 9,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-8",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Write in French",
+   "question": "Write a short email asking for information about free-time activities, sport and entertainment. State your needs, describe your previous experience, ask two questions and thank the recipient.",
+   "modelAnswer": "Madame, Monsieur, je voudrais des renseignements sur... J'ai déjà... Pourriez-vous me dire...? Combien...? Je vous remercie d'avance.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-9",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Correct the grammar",
+   "question": "Correct and then extend this response about free-time activities, sport and entertainment: « Je aime ... parce que il est bon. Hier je fait ... Demain je ferait ... »",
+   "modelAnswer": "A corrected version uses j'aime, parce qu'il est..., hier j'ai fait..., demain je ferai.... Extend with exact vocabulary: se détendre, un loisir, passionnant, pratiquer, télécharger.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-10",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Write under a word limit",
+   "question": "In 60 French words, describe free-time activities, sport and entertainment through a positive view, a negative view and one change. Include an intensifier and a complex connective.",
+   "modelAnswer": "Use très/assez/vraiment, although = bien que (or cependant), and ensure the three required views are covered. Example factual language: Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains.",
+   "marks": 8,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-free-time-activities-sport-and-entertainment-4-11",
+   "evidence": [
+    "se détendre",
+    "un loisir",
+    "passionnant"
+   ],
+   "command": "Produce an exam plan",
+   "question": "Plan and then write a 100-word French response on free-time activities, sport and entertainment. Your plan must allocate present, past, opinion and future points; every bullet must become at least one sentence.",
+   "modelAnswer": "Plan: opinion + reason; present detail; past event; future or ideal change. Check then write: Le soir, j'écoute de la musique pour me détendre. Le week-end dernier, nous avons joué au badminton. Samedi prochain, je vais regarder un nouveau film avec mes copains. Add a comparison and conclusion.",
+   "marks": 10,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "free-time activities, sport and entertainment",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Free-time activities\nKey vocabulary\n- se détendre\n- un loisir\n- passionnant\n- pratiquer\n- télécharger\n\nRevision focus\nPractise present, past and future forms while discussing free-time activities, sport and entertainment. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

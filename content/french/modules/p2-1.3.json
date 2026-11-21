@@ -1,0 +1,172 @@
+{
+ "paper": "Paper 2",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "questions": [
+  {
+   "answerTopic": "1.3-speaking-0",
+   "command": "Describe the photo",
+   "evidence": [
+    "je pense que c'est peut-être...",
+    "elle nous prépare pour...",
+    "même si"
+   ],
+   "examTip": "Structure your description in three parts: what you see, an opinion, and a personal link — this shows range beyond simple description.",
+   "marks": 10,
+   "modelAnswer": "Sur la photo, je vois des élèves assis à leur bureau qui écoutent attentivement leur professeur. Je pense que c'est peut-être un cours d'histoire parce qu'il y a une carte au mur. À mon avis, l'école est importante parce qu'elle nous prépare pour notre avenir, même si les journées sont parfois longues et fatigantes.\n\n(English translation: In the photo, I can see students sitting at their desks listening attentively to their teacher. I think it might be a history lesson because there is a map on the wall. In my opinion, school is important because it prepares us for our future, even if the days are sometimes long and tiring.)\n\nUseful phrases: je pense que c'est peut-être...; elle nous prépare pour...; même si",
+   "question": "Describe this photo of students sitting at desks in a classroom, listening to a teacher. Say what is happening, what subject you think it might be, and give your opinion on school life."
+  },
+  {
+   "answerTopic": "1.3-speaking-1",
+   "command": "Role-play",
+   "evidence": [
+    "j'ai fait un stage",
+    "j'ai aidé/j'ai rangé",
+    "je veux ce poste parce que"
+   ],
+   "examTip": "Prepare flexible phrases for the unexpected question in advance; you cannot predict it exactly, but a stock structure (opinion + reason + example) will fit almost any topic.",
+   "marks": 10,
+   "modelAnswer": "— J'ai fait un stage dans un magasin pendant une semaine.\n— J'ai aidé les clients et j'ai rangé les rayons.\n— (Question imprévue) Je veux ce poste parce que j'adore travailler avec le public et je suis très organisé(e).\n\n(English translation: — I did a work placement in a shop for a week.\n— I helped customers and tidied the shelves.\n— (Unexpected question) I want this job because I love working with the public and I am very organised.)\n\nUseful phrases: j'ai fait un stage; j'ai aidé/j'ai rangé; je veux ce poste parce que",
+   "question": "Role-play: your teacher plays a French employer. You must (1) say what work experience you have done, (2) describe one task you did, and (3) answer an unexpected question about why you want the job."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-2",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Describe the photo",
+   "question": "Describe an imagined photograph showing school, subjects, work and future plans. Include a person, an action, a place, an opinion with a reason and one past or future detail.",
+   "modelAnswer": "Sur la photo, on voit... Au premier plan, une personne est en train de... Je pense que c'est ... parce que... Récemment, j'ai... / À l'avenir, je...",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-3",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Role-play",
+   "question": "Prepare a role-play about school, subjects, work and future plans. In French: ask for information; give a preference and reason; describe a past experience; ask a future question; respond to a problem.",
+   "modelAnswer": "Pourriez-vous me donner des renseignements ? Je préfère... parce que... La semaine dernière, j'ai... Qu'est-ce que vous ferez demain ? Je vais essayer de résoudre le problème.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-4",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Conversation",
+   "question": "Answer orally in French about school, subjects, work and future plans: What is your opinion? What did you do recently? What will you do in future? Give a reason each time.",
+   "modelAnswer": "À mon avis, school, subjects, work and future plans est important parce que... Récemment, j'ai fait quelque chose lié à ce thème avec... À l'avenir, je vais... car...",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-5",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Read aloud",
+   "question": "Read aloud, then discuss: « Je préfère les sciences parce qu'elles sont utiles. L'année dernière, j'ai fait un stage dans un cabinet vétérinaire. Après le lycée, j'aimerais étudier à l'université. »\nGive the main message, one agreement, one disagreement and a personal extension.",
+   "modelAnswer": "The main message is: I prefer science because it is useful. Last year, I did work experience at a veterinary clinic. After sixth form, I would like to study at university.. Je suis d'accord avec... mais je pense aussi que... Pour ma part...",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-6",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Photo follow-up",
+   "question": "Photo follow-up on school, subjects, work and future plans: What is happening? What is positive? What is negative? What happened before? What might happen next?",
+   "modelAnswer": "Une personne est en train de... Un avantage est... mais un inconvénient est... Avant, ... Ensuite, ...",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-7",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Solve a speaking problem",
+   "question": "In a role-play about school, subjects, work and future plans, apologise because an arrangement has gone wrong, suggest a solution, ask one question and confirm a new plan.",
+   "modelAnswer": "Je suis vraiment désolé(e). Je peux proposer... Est-ce que cela vous convient ? D'accord, je vais ... et nous nous retrouverons...",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-8",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Describe preferences",
+   "question": "Speak for 40 seconds on school, subjects, work and future plans. Compare two choices, say what you preferred in the past and explain what you would choose in an ideal situation.",
+   "modelAnswer": "Je préfère... plutôt que... parce que... Dans le passé, j'ai... Si je pouvais, je choisirais...",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-9",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Give advice",
+   "question": "A friend needs advice about school, subjects, work and future plans. Give three pieces of advice in French, justify one, and ask the friend about their next step.",
+   "modelAnswer": "Tu devrais... Il vaut mieux... Je te conseille de... parce que... Qu'est-ce que tu vas faire ensuite ?",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-10",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Conversation: unexpected question",
+   "question": "Answer an unexpected question about school, subjects, work and future plans: Is this important for young people? Explain, include an example from your own life and acknowledge another view.",
+   "modelAnswer": "Oui, c'est important parce que... Par exemple, ... Cependant, pour certaines personnes, ...",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-school-subjects-work-and-future-plans-2-11",
+   "evidence": [
+    "une matière",
+    "les devoirs",
+    "une formation"
+   ],
+   "command": "Plan a response",
+   "question": "Prepare a 5-point speaking response on school, subjects, work and future plans: present fact, opinion, past event, other person's view, future plan.",
+   "modelAnswer": "1. Je préfère les sciences parce qu'elles sont utiles.\n2. Je pense que... parce que...\n3. La semaine dernière, j'ai...\n4. Certaines personnes croient que...\n5. À l'avenir, je voudrais...",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "school, subjects, work and future plans",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Education and work\nKey vocabulary\n- une matière\n- les devoirs\n- une formation\n- un stage\n- avoir l'intention de\n\nRevision focus\nPractise present, past and future forms while discussing school, subjects, work and future plans. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

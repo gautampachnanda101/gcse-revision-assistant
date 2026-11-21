@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "note": {
+  "title": "Education and work",
+  "specFocus": "School life, subjects, rules, study, future education, jobs and work experience.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "1.3 Education and work\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 教育 jiàoyù — education\n- 学科 xuékē — school subject\n- 作业 zuòyè — homework\n- 校服 xiàofú — school uniform\n- 考试 kǎoshì — exam\n- 实习 shíxí — work experience\n- 专业 zhuānyè — subject/course\n- 同事 tóngshì — colleague\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.3-translate-zh-0",
+   "command": "Translate into Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Choose a natural Chinese word order and check the correct measure word, time expression and negative.",
+   "marks": 2,
+   "modelAnswer": "我最喜欢中文课，因为老师上课很有趣。",
+   "question": "Translate into Mandarin Chinese:\n\nI like Chinese lessons best because the teacher makes lessons interesting."
+  },
+  {
+   "answerTopic": "1.3-translate-zh-1",
+   "command": "Translate into Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Choose a natural Chinese word order and check the correct measure word, time expression and negative.",
+   "marks": 2,
+   "modelAnswer": "我们的学校比以前严格，不能在走廊用手机。",
+   "question": "Translate into Mandarin Chinese:\n\nOur school is stricter than before: we cannot use phones in corridors."
+  },
+  {
+   "answerTopic": "1.3-translate-zh-2",
+   "command": "Translate into Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Choose a natural Chinese word order and check the correct measure word, time expression and negative.",
+   "marks": 2,
+   "modelAnswer": "昨天数学考试太难了，我没有做完最后一题。",
+   "question": "Translate into Mandarin Chinese:\n\nYesterday’s maths exam was too hard; I did not finish the last question."
+  },
+  {
+   "answerTopic": "1.3-translate-zh-3",
+   "command": "Translate into Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Choose a natural Chinese word order and check the correct measure word, time expression and negative.",
+   "marks": 2,
+   "modelAnswer": "我每天放学后先做作业，然后练钢琴。",
+   "question": "Translate into Mandarin Chinese:\n\nAfter school every day I do homework first, then practise the piano."
+  },
+  {
+   "answerTopic": "1.3-translate-zh-4",
+   "command": "Translate into Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Choose a natural Chinese word order and check the correct measure word, time expression and negative.",
+   "marks": 2,
+   "modelAnswer": "将来我想上大学，学习设计。",
+   "question": "Translate into Mandarin Chinese:\n\nIn the future I want to go to university and study design."
+  },
+  {
+   "answerTopic": "1.3-translate-zh-5",
+   "command": "Translate into Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Choose a natural Chinese word order and check the correct measure word, time expression and negative.",
+   "marks": 2,
+   "modelAnswer": "我在一家书店实习了一星期。",
+   "question": "Translate into Mandarin Chinese:\n\nI did work experience in a bookshop for one week."
+  },
+  {
+   "answerTopic": "1.3-writing-0",
+   "command": "Write in Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Plan one or two accurate sentences per bullet and include at least a past event, an opinion with a reason, and a future plan.",
+   "marks": 10,
+   "modelAnswer": "这份工作工资不高，但是能学到很多东西。 虽然校服方便，我还是觉得颜色不好看。 我们班上周组织了一次校外活动。 我觉得这个话题很重要，因为和我们的日常生活有关。如果有机会，我以后会继续了解。\n\n(English translation: This job is not highly paid, but you can learn a lot. Although the uniform is convenient, I do not think the colour looks good. Our class organised a school trip last week. I think this topic is important because it is related to our daily lives. If I have the chance, I will continue to learn about it in the future.)",
+   "question": "Write in Mandarin Chinese about education and work. You must mention:\n• What is the advantage of this job?\n• what happened in the past\n• an opinion with a reason\n• your plan or a future possibility"
+  },
+  {
+   "answerTopic": "1.3-writing-1",
+   "command": "Write in Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Plan one or two accurate sentences per bullet and include at least a past event, an opinion with a reason, and a future plan.",
+   "marks": 10,
+   "modelAnswer": "虽然校服方便，我还是觉得颜色不好看。 我们班上周组织了一次校外活动。 妈妈是护士，她工作时间很长。 我觉得这个话题很重要，因为和我们的日常生活有关。如果有机会，我以后会继续了解。\n\n(English translation: Although the uniform is convenient, I do not think the colour looks good. Our class organised a school trip last week. My mum is a nurse and works very long hours. I think this topic is important because it is related to our daily lives. If I have the chance, I will continue to learn about it in the future.)",
+   "question": "Write in Mandarin Chinese about education and work. You must mention:\n• What criticism is made of the uniform?\n• what happened in the past\n• an opinion with a reason\n• your plan or a future possibility"
+  },
+  {
+   "answerTopic": "1.3-writing-2",
+   "command": "Write in Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Plan one or two accurate sentences per bullet and include at least a past event, an opinion with a reason, and a future plan.",
+   "marks": 10,
+   "modelAnswer": "我们班上周组织了一次校外活动。 妈妈是护士，她工作时间很长。 理想的工作应该有挑战性，也要帮助别人。 我觉得这个话题很重要，因为和我们的日常生活有关。如果有机会，我以后会继续了解。\n\n(English translation: Our class organised a school trip last week. My mum is a nurse and works very long hours. An ideal job should be challenging and should also help other people. I think this topic is important because it is related to our daily lives. If I have the chance, I will continue to learn about it in the future.)",
+   "question": "Write in Mandarin Chinese about education and work. You must mention:\n• What did the class do last week?\n• what happened in the past\n• an opinion with a reason\n• your plan or a future possibility"
+  },
+  {
+   "answerTopic": "1.3-writing-3",
+   "command": "Write in Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Plan one or two accurate sentences per bullet and include at least a past event, an opinion with a reason, and a future plan.",
+   "marks": 10,
+   "modelAnswer": "妈妈是护士，她工作时间很长。 理想的工作应该有挑战性，也要帮助别人。 如果我通过考试，明年就会申请这所学校。 我觉得这个话题很重要，因为和我们的日常生活有关。如果有机会，我以后会继续了解。\n\n(English translation: My mum is a nurse and works very long hours. An ideal job should be challenging and should also help other people. If I pass the exam, I will apply to this school next year. I think this topic is important because it is related to our daily lives. If I have the chance, I will continue to learn about it in the future.)",
+   "question": "Write in Mandarin Chinese about education and work. You must mention:\n• What job does Mum do and what is mentioned about it?\n• what happened in the past\n• an opinion with a reason\n• your plan or a future possibility"
+  },
+  {
+   "answerTopic": "1.3-writing-4",
+   "command": "Write in Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Plan one or two accurate sentences per bullet and include at least a past event, an opinion with a reason, and a future plan.",
+   "marks": 10,
+   "modelAnswer": "理想的工作应该有挑战性，也要帮助别人。 如果我通过考试，明年就会申请这所学校。 我最喜欢中文课，因为老师上课很有趣。 我觉得这个话题很重要，因为和我们的日常生活有关。如果有机会，我以后会继续了解。\n\n(English translation: An ideal job should be challenging and should also help other people. If I pass the exam, I will apply to this school next year. I like Chinese lessons best because the teacher makes lessons interesting. I think this topic is important because it is related to our daily lives. If I have the chance, I will continue to learn about it in the future.)",
+   "question": "Write in Mandarin Chinese about education and work. You must mention:\n• What two features should an ideal job have?\n• what happened in the past\n• an opinion with a reason\n• your plan or a future possibility"
+  },
+  {
+   "answerTopic": "1.3-writing-5",
+   "command": "Write in Mandarin Chinese",
+   "evidence": [],
+   "examTip": "Plan one or two accurate sentences per bullet and include at least a past event, an opinion with a reason, and a future plan.",
+   "marks": 10,
+   "modelAnswer": "如果我通过考试，明年就会申请这所学校。 我最喜欢中文课，因为老师上课很有趣。 我们的学校比以前严格，不能在走廊用手机。 我觉得这个话题很重要，因为和我们的日常生活有关。如果有机会，我以后会继续了解。\n\n(English translation: If I pass the exam, I will apply to this school next year. I like Chinese lessons best because the teacher makes lessons interesting. Our school is stricter than before: we cannot use phones in corridors. I think this topic is important because it is related to our daily lives. If I have the chance, I will continue to learn about it in the future.)",
+   "question": "Write in Mandarin Chinese about education and work. You must mention:\n• When will the speaker apply to the school?\n• what happened in the past\n• an opinion with a reason\n• your plan or a future possibility"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "1.1",
+ "moduleTitle": "Identity and relationships with others",
+ "note": {
+  "title": "Identity and relationships with others",
+  "specFocus": "Describing yourself and others, family and friends, relationships, arguments and making up.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "1.1 Identity and relationships with others\nKey vocabulary (Russian = transliteration = English)\n- семья = semya = family; родители = roditeli = parents; отчим/мачеха = otchim/machekha = stepfather/stepmother\n- сводный брат/сводная сестра = svodnyy brat/svodnaya sestra = stepbrother/stepsister; двоюродный брат = dvoyurodnyy brat = cousin (male)\n- ладить с (+ instr.) = ladit s = to get on with; ссориться = ssorit'sya = to argue; мириться/помириться = miritsya/pomiritsya = to make up\n- доверять (+ dat.) = doveryat' = to trust; поддерживать = podderzhivat' = to support; надёжный = nadyozhnyy = reliable\n- добрый = dobryy = kind; весёлый = veselyy = cheerful; вредный = vrednyy = naughty/annoying; щедрый = shchedryy = generous\n- высокий/низкий = vysokiy/nizkiy = tall/short; волосы = volosy = hair; тёмные/светлые = tyomnye/svetlye = dark/fair\n\nKey grammar\n- Genitive for possession and \"have\": у меня есть сестра; у Ани нет брата (negative = genitive).\n- Instrumental after ладить/дружить с: я дружу с Максимом; я лажу с мамой.\n- Past tense agrees with gender: он жил, она жила, оно жило, они жили. Perfective past: мы помирились.\n- Opinions with reasons: я думаю, что...; потому что...; так как...; Мне нравится, что... (always a comma before что/потому что).\n- Adjectives agree in gender, number and case: моя старшая сестра добрая; с моей старшей сестрой.\n\nExam tips\n- Always add потому что + a reason when giving an opinion about relationships.\n- Watch for не/нет/никогда: они never change the meaning back by accident - check each sentence for a negative.\n- Do not translate \"I have a brother\" with the verb to have: use у меня есть брат."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.1-translate-ru-0",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 8,
+   "modelAnswer": "1. У меня есть младший брат.\n2. Моя мама очень добрая.\n3. Мы хорошо ладим.\n4. У меня нет сестры.",
+   "question": "Translate into Russian:\n\n1. I have a younger brother.\n2. My mum is very kind.\n3. We get on well.\n4. I don't have a sister."
+  },
+  {
+   "answerTopic": "1.1-translate-ru-1",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 6,
+   "modelAnswer": "1. Мой лучший друг живёт в Москве. / Моя лучшая подруга живёт в Москве.\n2. Он высокий, у него тёмные волосы.\n3. Вчера мы гуляли. / Вчера мы ходили гулять.",
+   "question": "Translate into Russian:\n\n1. My best friend lives in Moscow.\n2. He is tall and has dark hair.\n3. Yesterday we went for a walk."
+  },
+  {
+   "answerTopic": "1.1-translate-ru-2",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Мои родители развелись два года назад.\n2. Я живу с мамой и отчимом.\n3. Я думаю, что семья важна, потому что она поддерживает тебя.",
+   "question": "Translate into Russian:\n\n1. My parents got divorced two years ago.\n2. I live with my mum and stepfather.\n3. I think that family is important because they support you."
+  },
+  {
+   "answerTopic": "1.1-translate-ru-3",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 6,
+   "modelAnswer": "1. Моя сестра часто ссорится со мной.\n2. Но мы всегда быстро миримся.\n3. Я ей доверяю.",
+   "question": "Translate into Russian:\n\n1. My sister often argues with me.\n2. But we always make up quickly.\n3. I trust her."
+  },
+  {
+   "answerTopic": "1.1-translate-ru-4",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 9,
+   "modelAnswer": "1. В прошлые выходные я встретился с друзьями. / ...я встретилась с друзьями.\n2. Мы посмотрели фильм и поели пиццу.\n3. В следующем году я поеду к двоюродному брату в Англию.",
+   "question": "Translate into Russian:\n\n1. Last weekend I met my friends.\n2. We watched a film and ate pizza.\n3. Next year I will visit my cousin in England."
+  },
+  {
+   "answerTopic": "1.1-translate-ru-5",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Если бы у меня была сестра, я был бы счастлив. / ...я была бы счастлива.\n2. Хороший друг — это человек, который слушает.\n3. Я не люблю, когда люди врут.",
+   "question": "Translate into Russian:\n\n1. If I had a sister, I would be happy.\n2. A good friend is someone who listens.\n3. I don't like it when people lie."
+  },
+  {
+   "answerTopic": "1.1-writing-0",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 8,
+   "modelAnswer": "В моей семье четыре человека: мама, папа, младший брат и я. Мы хорошо ладим, хотя иногда ссоримся. Мой лучший друг Саша очень добрый и надёжный. В субботу мы вместе ходили в кино. Друзья важны, потому что они всегда поддерживают.\n\n(English translation: There are four people in my family: mum, dad, my younger brother and me. We get on well, although we sometimes argue. My best friend Sasha is very kind and reliable. On Saturday we went to the cinema together. Friends are important because they always support you.)",
+   "question": "Напишите о своей семье и друзьях. Вы должны упомянуть:\n• кто есть в вашей семье\n• какие у вас отношения с братом, сестрой или другом\n• что вы делали вместе недавно\n• почему друзья важны"
+  },
+  {
+   "answerTopic": "1.1-writing-1",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 8,
+   "modelAnswer": "Меня зовут Лиза, мне пятнадцать лет. Я невысокая, у меня светлые волосы и голубые глаза. Я весёлая, но иногда бываю упрямой. У меня есть старшая сестра, и мы очень близки. В субботу я пойду в гости к бабушке, и мы будем печь пирожки.\n\n(English translation: My name is Liza, I am fifteen. I'm short with fair hair and blue eyes. I'm cheerful but sometimes stubborn. I have an older sister and we are very close. On Saturday I will visit my grandmother and we will bake pies.)",
+   "question": "Напишите о себе. Вы должны упомянуть:\n• ваше имя и возраст\n• ваша внешность и характер\n• ваша семья\n• что вы будете делать на выходных"
+  },
+  {
+   "answerTopic": "1.1-writing-2",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 10,
+   "modelAnswer": "Настоящий друг должен быть честным и надёжным. Мою лучшую подругу зовут Настя. Мы дружим с детского сада. В прошлом году мы поссорились, потому что я забыла о её дне рождения. К счастью, я извинилась, и мы помирились. По-моему, семья и дружба одинаково важны, но семья всё-таки на первом месте.\n\n(English translation: A real friend should be honest and reliable. My best friend is called Nastya. We have been friends since nursery. Last year we fell out because I forgot her birthday. Luckily I apologised and we made up. In my opinion family and friendship are equally important, but family still comes first.)",
+   "question": "Напишите статью для школьного журнала о дружбе. Вы должны упомянуть:\n• какой должен быть настоящий друг\n• ваш лучший друг или подруга\n• ссора, которая у вас была\n• ваше мнение: дружба или семья важнее"
+  },
+  {
+   "answerTopic": "1.1-writing-3",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 10,
+   "modelAnswer": "Привет, Том! В моей семье пять человек. Мой папа — инженер, а мама работает учительницей. В прошлом месяце мы всей семьёй ездили на дачу и жарили шашлыки. Мне было очень весело. Когда я вырасту, я хочу создать большую семью, потому что люблю, когда дома шумно. Пиши мне!\n\n(English translation: Hi Tom! There are five people in my family. My dad is an engineer and my mum works as a teacher. Last month we all went to the dacha and barbecued kebabs. I had a lot of fun. When I grow up I want to have a big family because I like it when the house is noisy. Write to me!)",
+   "question": "Напишите письмо другу по переписке о вашей семье. Вы должны упомянуть:\n• сколько вас в семье\n• чем занимаются родители\n• что вы делали вместе в прошлом месяце\n• каким вы видите своё будущее"
+  },
+  {
+   "answerTopic": "1.1-writing-4",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 12,
+   "modelAnswer": "Мой друг Артём высокий, у него короткие тёмные волосы и добрые глаза. Я люблю его за то, что он всегда помогает и никогда не смеётся над другими. В воскресенье мы вместе играли в баскетбол и ели мороженое. По-моему, идеальная семья — это семья, где люди уважают друг друга и проводят время вместе. Если бы у меня была такая семья, я был бы счастлив.\n\n(English translation: My friend Artyom is tall with short dark hair and kind eyes. I love him because he always helps and never laughs at others. On Sunday we played basketball and ate ice cream together. In my opinion the ideal family is one where people respect each other and spend time together. If I had such a family, I would be happy.)",
+   "question": "Напишите о людях, которые вам близки. Вы должны упомянуть:\n• описание вашего друга\n• за что вы его любите\n• что вы делали вчера или в выходные\n• как вы представляете идеальную семью"
+  },
+  {
+   "answerTopic": "1.1-writing-5",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 12,
+   "modelAnswer": "Мне нравится, что мама всегда слушает меня и даёт хорошие советы. Мы иногда спорим из-за того, что я поздно ложусь спать. В последний раз я извинился, мама обняла меня, и всё было хорошо. Когда у меня будут дети, я хочу быть терпеливым родителем, потому что считаю, что терпение очень важно.\n\n(English translation: I like that mum always listens to me and gives good advice. We sometimes argue because I go to bed late. The last time I apologised, mum hugged me and everything was fine. When I have children I want to be a patient parent because I think patience is very important.)",
+   "question": "Напишите о том, как вы ладите с родителями. Вы должны упомянуть:\n• что вам нравится в маме или папе\n• о чём вы спорите\n• как вы помирились в последний раз\n• какими родителями вы хотите быть"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "3.2",
+ "moduleTitle": "Media and technology",
+ "note": {
+  "title": "Media and technology",
+  "specFocus": "Phones, social media, internet, TV, advantages/disadvantages of technology, online safety.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "3.2 Media and technology\nKey vocabulary (Russian = transliteration = English)\n- телефон/смартфон = telefon/smartfon = phone; компьютер/ноутбук = komp'yuter/noutbuk = computer/laptop; интернет = internet = internet\n- соцсети = sotsseti = social media; сообщение = soobshchenie = message; видео = video = video; приложение = prilozhenie = app\n- пользоваться (+ instr.) = pol'zovat'sya = to use; скачивать = skachivat' = to download; искать = iskat' = to look for/search\n- общаться = obshchat'sya = to communicate; переписываться = perepisyvat'sya = to text/correspond; зависимость = zavisimost' = addiction\n- опасный = opasnyy = dangerous; безопасность = bezopasnost' = safety; пароль = parol' = password; реклама = reklama = advertising\n- новости = novosti = news; передача = peredacha = programme; сериал = serial = series; ТВ/телевизор = TV\n\nKey grammar\n- Пользоваться + instrumental: я пользуюсь телефоном, мы пользуемся интернетом.\n- Общаться/переписываться с + instrumental: я общаюсь с друзьями онлайн.\n- Advantages/disadvantages: с одной стороны... с другой стороны...; плюс/минус; преимущество/недостаток.\n- Past with time: вчера я два часа сидел в соцсетях; Future: в будущем люди будут использовать больше роботов.\n- Conditional: если бы у меня не было телефона, я бы больше читал.\n\nExam tips\n- Use пользоваться + instrumental (я пользуюсь телефоном); использовать takes an accusative object (я использую телефон).\n- Explain both sides of technology and give a personal opinion.\n- Mention online safety (не сообщать пароль, быть осторожным)."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.2-translate-ru-0",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 8,
+   "modelAnswer": "1. У меня есть телефон.\n2. Я каждый день пользуюсь интернетом.\n3. Мой папа смотрит новости.\n4. Мой ноутбук новый.",
+   "question": "Translate into Russian:\n\n1. I have a phone.\n2. I use the internet every day.\n3. My dad watches the news.\n4. My laptop is new."
+  },
+  {
+   "answerTopic": "3.2-translate-ru-1",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 6,
+   "modelAnswer": "1. Я пишу сообщения друзьям.\n2. Мы играем в онлайн-игры.\n3. Я не люблю рекламу.",
+   "question": "Translate into Russian:\n\n1. I write messages to my friends.\n2. We play online games.\n3. I don't like advertising."
+  },
+  {
+   "answerTopic": "3.2-translate-ru-2",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Вчера я два часа провёл в телефоне. / ...провела...\n2. Я скачал новое приложение. / Я скачала...\n3. Оно было очень полезным.",
+   "question": "Translate into Russian:\n\n1. Yesterday I spent two hours on my phone.\n2. I downloaded a new app.\n3. It was very useful."
+  },
+  {
+   "answerTopic": "3.2-translate-ru-3",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 9,
+   "modelAnswer": "1. Соцсети опасны, если ты сообщаешь свой пароль.\n2. Нельзя разговаривать с незнакомыми людьми в интернете.\n3. Я всегда спрашиваю родителей.",
+   "question": "Translate into Russian:\n\n1. Social media is dangerous if you share your password.\n2. You shouldn't talk to strangers online.\n3. I always ask my parents."
+  },
+  {
+   "answerTopic": "3.2-translate-ru-4",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 9,
+   "modelAnswer": "1. В будущем мы будем использовать роботов.\n2. Технологии помогают нам учиться.\n3. Без интернета жизнь была бы труднее.",
+   "question": "Translate into Russian:\n\n1. In the future we will use robots.\n2. Technology helps us study.\n3. Without the internet life would be harder."
+  },
+  {
+   "answerTopic": "3.2-translate-ru-5",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Моя бабушка научилась пользоваться планшетом.\n2. Она звонит внукам по видеосвязи.\n3. Если бы у меня не было телефона, я бы больше читал. / ...читала.",
+   "question": "Translate into Russian:\n\n1. My grandmother learned to use a tablet.\n2. She makes video calls with her grandchildren.\n3. If I didn't have a phone, I would read more."
+  },
+  {
+   "answerTopic": "3.2-writing-0",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 8,
+   "modelAnswer": "Телефон у меня с одиннадцати лет. Я пользуюсь им, чтобы слушать музыку и общаться с друзьями. Вчера я смотрела видео о путешествиях и написала сообщения подругам. Без телефона я могу прожить день, но мне будет скучно.\n\n(English translation: I have had a phone since I was eleven. I use it to listen to music and talk to friends. Yesterday I watched videos about travel and wrote messages to friends. I can last a day without a phone but I will be bored.)",
+   "question": "Напишите о вашем телефоне. Вы должны упомянуть:\n• когда у вас появился телефон\n• для чего вы им пользуетесь\n• что вы делали вчера в телефоне\n• как долго вы можете без него обходиться"
+  },
+  {
+   "answerTopic": "3.2-writing-1",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 8,
+   "modelAnswer": "По телевизору я смотрю спорт и новости. В интернете я смотрю смешные видео и сериалы. Мне больше нравится интернет, потому что там можно выбрать любую передачу. Сегодня вечером я буду смотреть новую серию любимого сериала.\n\n(English translation: On TV I watch sport and news. On the internet I watch funny videos and series. I prefer the internet because you can choose any programme there. This evening I'll watch a new episode of my favourite series.)",
+   "question": "Напишите о телевидении и интернете. Вы должны упомянуть:\n• что вы смотрите по телевизору\n• что вы смотрите в интернете\n• что вам больше нравится и почему\n• что вы будете смотреть сегодня вечером"
+  },
+  {
+   "answerTopic": "3.2-writing-2",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 10,
+   "modelAnswer": "В интернете можно встретить мошенников и неприятные комментарии. Чтобы защитить себя, нужно ставить сложные пароли и не отправлять личные данные. У моего друга взломали страницу, и ему пришлось менять все пароли. По-моему, интернет безопасен только тогда, когда мы внимательны.\n\n(English translation: On the internet you can meet fraudsters and unpleasant comments. To protect yourself you need to use complex passwords and not send personal data. My friend's account was hacked and he had to change all his passwords. In my opinion the internet is safe only when we are careful.)",
+   "question": "Напишите об опасностях интернета. Вы должны упомянуть:\n• какие опасности есть в интернете\n• как защитить себя\n• что с вами случилось или с кем-то из знакомых\n• ваше мнение: безопасен ли интернет"
+  },
+  {
+   "answerTopic": "3.2-writing-3",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 10,
+   "modelAnswer": "В школе мы используем компьютеры на уроках информатики и для проектов. Мне нравится, что можно быстро найти информацию. На прошлой неделе мы сделали презентацию о Байкале. В будущем, думаю, учебники станут электронными, а учителя будут помогать роботы.\n\n(English translation: At school we use computers in IT lessons and for projects. I like that you can find information quickly. Last week we made a presentation about Baikal. In the future I think textbooks will become electronic and robots will help teachers.)",
+   "question": "Напишите статью о пользе технологий в школе. Вы должны упомянуть:\n• как вы используете компьютеры в школе\n• что вам нравится\n• какое задание вы выполняли недавно\n• как технологии изменят школу в будущем"
+  },
+  {
+   "answerTopic": "3.2-writing-4",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 12,
+   "modelAnswer": "Я пользуюсь несколькими соцсетями, чтобы общаться с друзьями. Плюс в том, что можно быстро узнавать новости и делиться фотографиями. Минус в том, что многие проводят там слишком много времени и забывают о настоящем общении. Я думаю, что соцсети полезны, если ограничивать время. Я советую выключать телефон хотя бы на час перед сном.\n\n(English translation: I use several social networks to chat with friends. The plus is that you can learn news quickly and share photos. The minus is that many people spend too much time there and forget about real communication. I think social networks are useful if you limit your time. I advise turning off your phone at least an hour before bed.)",
+   "question": "Напишите о преимуществах и недостатках социальных сетей. Вы должны упомянуть:\n• какими соцсетями вы пользуетесь\n• какие у них плюсы\n• какие у них минусы\n• ваше мнение и совет другим"
+  },
+  {
+   "answerTopic": "3.2-writing-5",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 12,
+   "modelAnswer": "Если бы у меня не было телефона, я бы больше читала и гуляла. Мои родители в детстве играли во дворе и звонили друзьям по домашнему телефону. Однажды у нас на целый день отключили интернет, и мы всей семьёй играли в настольные игры. Мне кажется, технологии нужно ограничивать, потому что слишком много экранов вредно для здоровья.\n\n(English translation: If I didn't have a phone I would read and go for walks more. My parents as children played in the yard and phoned friends on the home phone. Once our internet was cut off for a whole day and we played board games as a family. I think technology should be limited because too many screens are harmful to health.)",
+   "question": "Напишите о жизни без технологий. Вы должны упомянуть:\n• что бы вы делали без телефона\n• как жили ваши родители в детстве\n• какой день вы однажды провели без интернета\n• нужно ли ограничивать технологии"
+  }
+ ]
+}

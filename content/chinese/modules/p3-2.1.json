@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 3",
+ "module": "2.1",
+ "moduleTitle": "Free-time activities",
+ "note": {
+  "title": "Free-time activities",
+  "specFocus": "Sport, hobbies, music, screen time, reading, shopping and spending time with friends.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "2.1 Free-time activities\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 爱好 àihào — hobby\n- 休闲 xiūxián — leisure\n- 运动 yùndòng — sport\n- 阅读 yuèdú — reading\n- 音乐会 yīnyuèhuì — concert\n- 电影票 diànyǐngpiào — cinema ticket\n- 购物 gòuwù — shopping\n- 游戏 yóuxì — game\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "2.1-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "I play badminton with my friends every Saturday.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“我每个周六和朋友一起打羽毛球。”\n\nWhen and with whom does the speaker play badminton?"
+  },
+  {
+   "answerTopic": "2.1-reading-1",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "Last weekend we watched a very interesting film.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“上周末我们去看了一部非常有意思的电影。”\n\nWhat did they do last weekend?"
+  },
+  {
+   "answerTopic": "2.1-reading-2",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "I like listening to music, but I do not much like singing.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“我喜欢听音乐，但是不太喜欢唱歌。”\n\nWhat does the speaker enjoy and not enjoy?"
+  },
+  {
+   "answerTopic": "2.1-reading-3",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "Although video games are exciting, I play for only one hour a day.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“虽然电子游戏很刺激，我每天只玩一个小时。”\n\nHow long is spent on video games each day?"
+  },
+  {
+   "answerTopic": "2.1-reading-4",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "My older sister likes reading novels and has already finished three books.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“姐姐喜欢读小说，已经读完了三本。”\n\nWhat has the sister finished?"
+  },
+  {
+   "answerTopic": "2.1-reading-5",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Find the time word, subject and verb in the passage before writing a precise English answer.",
+   "marks": 2,
+   "modelAnswer": "This concert ticket is expensive, but it is worth it.",
+   "question": "Reading comprehension. Read the passage and answer in English.\n\n“这张音乐会门票很贵，不过值得。”\n\nWhat view is given of the concert ticket?"
+  },
+  {
+   "answerTopic": "2.1-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "Next holiday I want to learn how to make bread.",
+   "question": "Translate into English:\n\n下个假期我想学会做面包。"
+  },
+  {
+   "answerTopic": "2.1-translate-en-1",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "Yesterday we spent a long time buying clothes in the shopping centre.",
+   "question": "Translate into English:\n\n我们昨天在购物中心买衣服，花了很久。"
+  },
+  {
+   "answerTopic": "2.1-translate-en-2",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "If it rains, I will stay at home and watch television.",
+   "question": "Translate into English:\n\n如果下雨，我会待在家里看电视。"
+  },
+  {
+   "answerTopic": "2.1-translate-en-3",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "He likes outdoor activities more than before.",
+   "question": "Translate into English:\n\n他比以前更喜欢户外活动。"
+  },
+  {
+   "answerTopic": "2.1-translate-en-4",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "I think cycling is more relaxing than taking the bus.",
+   "question": "Translate into English:\n\n我觉得骑自行车比坐公交车轻松。"
+  },
+  {
+   "answerTopic": "2.1-translate-en-5",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning naturally; preserve tense, negative and relationship words such as 因为, 如果 or 虽然.",
+   "marks": 2,
+   "modelAnswer": "At weekends we often go for a picnic in the park.",
+   "question": "Translate into English:\n\n周末我们常去公园里野餐。"
+  }
+ ]
+}

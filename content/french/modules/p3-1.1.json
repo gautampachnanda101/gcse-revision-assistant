@@ -1,0 +1,164 @@
+{
+ "paper": "Paper 3",
+ "module": "1.1",
+ "moduleTitle": "Identity and relationships with others",
+ "questions": [
+  {
+   "answerTopic": "1.1-reading-0",
+   "command": "Reading comprehension",
+   "evidence": [],
+   "examTip": "Answer using information from the passage only; quoting the relevant French phrase alongside your English answer can help you check you haven't missed detail.",
+   "marks": 10,
+   "modelAnswer": "1. Ten years old (\"quand j'avais dix ans\").\n2. Sad, because she no longer saw her father every day (\"je ne voyais plus mon père tous les jours\").\n3. She adores him (\"j'ai un demi-frère que j'adore\").\n4. Organising her belongings between two houses (\"organiser mes affaires\").\n5. She thinks she is lucky to have two homes full of love (\"j'ai de la chance d'avoir deux maisons pleines d'amour\").",
+   "question": "Reading comprehension. Read the passage and answer in English:\n\n\"Léa, 15 ans : « Mes parents se sont séparés quand j'avais dix ans. Au début, j'étais triste parce que je ne voyais plus mon père tous les jours. Maintenant, ma mère est remariée et j'ai un demi-frère que j'adore. Je passe une semaine chez mon père et une semaine chez ma mère. C'est parfois compliqué d'organiser mes affaires, mais je pense que j'ai de la chance d'avoir deux maisons pleines d'amour. »\"\n\n1. How old was Léa when her parents separated?\n2. How did she feel at first, and why?\n3. What does she say about her half-brother?\n4. What is sometimes complicated for her?\n5. What is her overall opinion about her family situation?"
+  },
+  {
+   "answerTopic": "1.1-translate-en-0",
+   "command": "Translate into English",
+   "evidence": [],
+   "examTip": "Translate the full meaning of each sentence into natural English rather than word-for-word; check tenses (perfect/present) carry across accurately.",
+   "marks": 10,
+   "modelAnswer": "1. I get on very well with my twin sister.\n2. My parents have been divorced for three years.\n3. It is important to be loyal to your friends.\n4. We rarely argue, but we always make up quickly.",
+   "question": "Translate into English:\n\n1. Je m'entends très bien avec ma sœur jumelle.\n2. Mes parents sont divorcés depuis trois ans.\n3. Il est important d'être fidèle à ses amis.\n4. Nous nous disputons rarement, mais on se réconcilie toujours vite."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-2",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Reading comprehension",
+   "question": "Read and answer in English: « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. »\n1. Give one present detail.\n2. What happened in the past?\n3. What will or should happen later?\n4. Give a reason or opinion.",
+   "modelAnswer": "I get on well with my sister because she is generous. Last Saturday, my family and I visited my grandparents. Next weekend, I will go out to the cinema with my friends.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-3",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Translate into English",
+   "question": "Translate into English:\n\nJe m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma.",
+   "modelAnswer": "I get on well with my sister because she is generous. Last Saturday, my family and I visited my grandparents. Next weekend, I will go out to the cinema with my friends.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-4",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Match the time frames",
+   "question": "Read: « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. »\nMatch each sentence to Present, Past or Future/Conditional and quote its strongest time or verb clue.",
+   "modelAnswer": "Sentence 1: Je m'entends bien avec ma sœur parce qu'elle est généreuse. — present.\nSentence 2: Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. — completed past.\nSentence 3: Le week-end prochain, je sortirai avec mes amis au cinéma. — future or conditional.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-5",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Vocabulary in context",
+   "question": "Read: « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. »\nGive the English meaning of: s'entendre bien avec, se disputer, la famille recomposée, faire confiance à. Then quote the connective or expression that links an opinion to a reason.",
+   "modelAnswer": "Use the standard meanings of the module vocabulary. The reason is signposted by parce que, car or the explicit contrasting/future expression in the passage.",
+   "marks": 5,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-6",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "True or false",
+   "question": "Read: « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. »\nDecide true, false or not stated for four suitable facts, quoting a French phrase as evidence for each true or false decision.",
+   "modelAnswer": "Any answer is justified by a short quotation. Never use outside knowledge and do not turn an unstated idea into a false one.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-7",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Reading: infer carefully",
+   "question": "Read: « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. »\nWhat can you infer about the speaker's priorities? Support one inference with exact French evidence and avoid claiming something not stated.",
+   "modelAnswer": "A supported inference should reflect: I get on well with my sister because she is generous. Last Saturday, my family and I visited my grandparents. Next weekend, I will go out to the cinema with my friends.. It must quote the relevant phrase rather than retell the whole paragraph.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-8",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Find the detail",
+   "question": "Read: « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. »\nIn French, identify (1) a person or place, (2) an activity, (3) a past-time marker, and (4) a future or conditional form.",
+   "modelAnswer": "Suitable evidence comes directly from the transcript. Full reference: Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma.",
+   "marks": 4,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-9",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Multiple choice reading",
+   "question": "Read: « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. »\n1. The speaker's current view is best summarised as (A) I get on well with my sister because she is generous. (B) a fact not mentioned (C) a refusal.\n2. The past event is (A) Last Saturday, my family and I visited my grandparents. (B) tomorrow (C) a command.\n3. The final idea is (A) fixed (B) Next weekend, I will go out to the cinema with my friends. (C) uncertain.",
+   "modelAnswer": "1. A\n2. A\n3. B",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-10",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Reading: correct the summary",
+   "question": "A student has summarised « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. » as: “The speaker only discusses the present and dislikes the whole topic.” Correct the summary in English.",
+   "modelAnswer": "Accurate summary: I get on well with my sister because she is generous. Last Saturday, my family and I visited my grandparents. Next weekend, I will go out to the cinema with my friends.. The text discusses several time frames and gives a more specific view, not a blanket dislike.",
+   "marks": 3,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  },
+  {
+   "answerTopic": "fr-identity-family-friendship-and-relationships-3-11",
+   "evidence": [
+    "s'entendre bien avec",
+    "se disputer",
+    "la famille recomposée"
+   ],
+   "command": "Translate the key sentences",
+   "question": "Choose the three core sentences in « Je m'entends bien avec ma sœur parce qu'elle est généreuse. Samedi dernier, ma famille et moi avons rendu visite à mes grands-parents. Le week-end prochain, je sortirai avec mes amis au cinéma. » and translate them into natural, not literal, English. Explain one grammar feature that helped you.",
+   "modelAnswer": "I get on well with my sister because she is generous. Last Saturday, my family and I visited my grandparents. Next weekend, I will go out to the cinema with my friends.\nThe tense, reflexive/partitive form or adjective agreement should be explained using the exact wording.",
+   "marks": 6,
+   "examTip": "Use exact evidence, varied time frames and justified opinions; check negative wording and verb accuracy."
+  }
+ ],
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "identity, family, friendship and relationships",
+  "sourcePages": "Original GCSE French revision material aligned to the AQA themes; no source booklet used.",
+  "summary": "Identity and relationships with others\nKey vocabulary\n- s'entendre bien avec\n- se disputer\n- la famille recomposée\n- faire confiance à\n- fidèle\n\nRevision focus\nPractise present, past and future forms while discussing identity, family, friendship and relationships. Build answers with justified opinions and precise examples.\n\nExam technique\n- Spot time markers and negatives before answering.\n- Use parce que/car to justify an opinion.\n- Check adjective agreement, verb endings and whether the task asks for French or English."
+ }
+}

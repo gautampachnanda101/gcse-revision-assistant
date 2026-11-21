@@ -1,0 +1,145 @@
+{
+ "paper": "Paper 1",
+ "module": "1.3",
+ "moduleTitle": "Education and work",
+ "note": {
+  "title": "Education and work",
+  "specFocus": "School life, subjects, rules, study, future education, jobs and work experience.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "1.3 Education and work\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 教育 jiàoyù — education\n- 学科 xuékē — school subject\n- 作业 zuòyè — homework\n- 校服 xiàofú — school uniform\n- 考试 kǎoshì — exam\n- 实习 shíxí — work experience\n- 专业 zhuānyè — subject/course\n- 同事 tóngshì — colleague\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "1.3-listening-0",
+   "command": "Listen and answer",
+   "evidence": [
+    "我最喜欢中文课，因为老师上课很有趣。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I like Chinese lessons best because the teacher makes lessons interesting.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我最喜欢中文课，因为老师上课很有趣。”\n\nAnswer in English: Why is Chinese the speaker’s favourite subject?"
+  },
+  {
+   "answerTopic": "1.3-listening-1",
+   "command": "Listen and answer",
+   "evidence": [
+    "我们的学校比以前严格，不能在走廊用手机。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Our school is stricter than before: we cannot use phones in corridors.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我们的学校比以前严格，不能在走廊用手机。”\n\nAnswer in English: What new school rule is mentioned?"
+  },
+  {
+   "answerTopic": "1.3-listening-2",
+   "command": "Listen and answer",
+   "evidence": [
+    "昨天数学考试太难了，我没有做完最后一题。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Yesterday’s maths exam was too hard; I did not finish the last question.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“昨天数学考试太难了，我没有做完最后一题。”\n\nAnswer in English: What problem did the speaker have in the exam?"
+  },
+  {
+   "answerTopic": "1.3-listening-3",
+   "command": "Listen and answer",
+   "evidence": [
+    "我每天放学后先做作业，然后练钢琴。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "After school every day I do homework first, then practise the piano.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我每天放学后先做作业，然后练钢琴。”\n\nAnswer in English: What does the speaker do after school?"
+  },
+  {
+   "answerTopic": "1.3-listening-4",
+   "command": "Listen and answer",
+   "evidence": [
+    "将来我想上大学，学习设计。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "In the future I want to go to university and study design.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“将来我想上大学，学习设计。”\n\nAnswer in English: What future study plan is given?"
+  },
+  {
+   "answerTopic": "1.3-listening-5",
+   "command": "Listen and answer",
+   "evidence": [
+    "我在一家书店实习了一星期。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I did work experience in a bookshop for one week.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我在一家书店实习了一星期。”\n\nAnswer in English: Where and for how long was the work experience?"
+  },
+  {
+   "answerTopic": "1.3-listening-6",
+   "command": "Listen and answer",
+   "evidence": [
+    "这份工作工资不高，但是能学到很多东西。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "This job is not highly paid, but you can learn a lot.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“这份工作工资不高，但是能学到很多东西。”\n\nAnswer in English: What is the advantage of this job?"
+  },
+  {
+   "answerTopic": "1.3-listening-7",
+   "command": "Listen and answer",
+   "evidence": [
+    "虽然校服方便，我还是觉得颜色不好看。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Although the uniform is convenient, I do not think the colour looks good.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“虽然校服方便，我还是觉得颜色不好看。”\n\nAnswer in English: What criticism is made of the uniform?"
+  },
+  {
+   "answerTopic": "1.3-listening-8",
+   "command": "Listen and answer",
+   "evidence": [
+    "我们班上周组织了一次校外活动。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Our class organised a school trip last week.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我们班上周组织了一次校外活动。”\n\nAnswer in English: What did the class do last week?"
+  },
+  {
+   "answerTopic": "1.3-listening-9",
+   "command": "Listen and answer",
+   "evidence": [
+    "妈妈是护士，她工作时间很长。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "My mum is a nurse and works very long hours.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“妈妈是护士，她工作时间很长。”\n\nAnswer in English: What job does Mum do and what is mentioned about it?"
+  },
+  {
+   "answerTopic": "1.3-listening-10",
+   "command": "Listen and answer",
+   "evidence": [
+    "理想的工作应该有挑战性，也要帮助别人。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "An ideal job should be challenging and should also help other people.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“理想的工作应该有挑战性，也要帮助别人。”\n\nAnswer in English: What two features should an ideal job have?"
+  },
+  {
+   "answerTopic": "1.3-listening-11",
+   "command": "Listen and answer",
+   "evidence": [
+    "如果我通过考试，明年就会申请这所学校。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "If I pass the exam, I will apply to this school next year.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“如果我通过考试，明年就会申请这所学校。”\n\nAnswer in English: When will the speaker apply to the school?"
+  }
+ ]
+}

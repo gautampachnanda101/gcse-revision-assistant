@@ -1,0 +1,145 @@
+{
+ "paper": "Paper 1",
+ "module": "2.3",
+ "moduleTitle": "Celebrity culture",
+ "note": {
+  "title": "Celebrity culture",
+  "specFocus": "Famous people, role models, sports stars, influencers, fame and privacy.",
+  "sourcePages": "Original practice material written around common GCSE-style Mandarin Chinese themes; not official exam-board material.",
+  "summary": "2.3 Celebrity culture\nKey vocabulary (Simplified Chinese = pinyin = English)\n- 名人 míngrén — celebrity\n- 明星 míngxīng — star\n- 榜样 bǎngyàng — role model\n- 粉丝 fěnsī — fan\n- 博主 bózhǔ — influencer/blogger\n- 隐私 yǐnsī — privacy\n- 演出 yǎnchū — performance\n- 崇拜 chóngbài — to admire/idolise\n\nKey grammar\n- Use 的 for descriptions and relationships; use 很 for a predicate adjective (她很友好, not *她友好*) where needed.\n- Use 了 for a completed past event, 过 for an experienced action, and 在/正在 for an action in progress.\n- Time normally goes before the action: 我上周/昨天 + verb; place goes before the main verb when giving a sequence of actions.\n- Give reasons with 因为……所以…… and contrast with 虽然……但是……; use 如果……就…… for real conditions.\n- Measure words matter: 四口人, 两个朋友, 一本书, 一所学校; use 比 for comparison and 最 for the superlative.\n\nExam tips\n- Include an opinion and a reason; a bare adjective earns less communication than 因为……所以…… .\n- Check measure words, negatives (不/没有), and time expressions before answering.\n- Natural repetition is fine: accurate familiar vocabulary is better than a guessed rare word."
+ },
+ "questions": [
+  {
+   "answerTopic": "2.3-listening-0",
+   "command": "Listen and answer",
+   "evidence": [
+    "我最喜欢的演员拍过很多历史电影。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "My favourite actor has appeared in many historical films.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我最喜欢的演员拍过很多历史电影。”\n\nAnswer in English: What kind of films has the favourite actor appeared in?"
+  },
+  {
+   "answerTopic": "2.3-listening-1",
+   "command": "Listen and answer",
+   "evidence": [
+    "这位歌手的歌很有感染力。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "This singer’s songs are very moving.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“这位歌手的歌很有感染力。”\n\nAnswer in English: How are the singer’s songs described?"
+  },
+  {
+   "answerTopic": "2.3-listening-2",
+   "command": "Listen and answer",
+   "evidence": [
+    "她不仅有名，而且经常帮助穷人。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "She is not only famous but also often helps poor people.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“她不仅有名，而且经常帮助穷人。”\n\nAnswer in English: What positive action does the famous woman do?"
+  },
+  {
+   "answerTopic": "2.3-listening-3",
+   "command": "Listen and answer",
+   "evidence": [
+    "我觉得名人需要保护自己的隐私。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "I think celebrities need to protect their privacy.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我觉得名人需要保护自己的隐私。”\n\nAnswer in English: What do celebrities need to protect?"
+  },
+  {
+   "answerTopic": "2.3-listening-4",
+   "command": "Listen and answer",
+   "evidence": [
+    "昨天足球明星赢了比赛，我们特别兴奋。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The football star won the match yesterday and we were very excited.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“昨天足球明星赢了比赛，我们特别兴奋。”\n\nAnswer in English: Why were they excited yesterday?"
+  },
+  {
+   "answerTopic": "2.3-listening-5",
+   "command": "Listen and answer",
+   "evidence": [
+    "我的朋友关注了五位旅游博主。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "My friend follows five travel influencers.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“我的朋友关注了五位旅游博主。”\n\nAnswer in English: What kind of influencers does the friend follow?"
+  },
+  {
+   "answerTopic": "2.3-listening-6",
+   "command": "Listen and answer",
+   "evidence": [
+    "有些网络广告不真实，容易误导年轻人。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Some online adverts are untrue and can easily mislead young people.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“有些网络广告不真实，容易误导年轻人。”\n\nAnswer in English: What problem is mentioned with online adverts?"
+  },
+  {
+   "answerTopic": "2.3-listening-7",
+   "command": "Listen and answer",
+   "evidence": [
+    "这个运动员努力训练，是我的榜样。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "This athlete trains hard and is my role model.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“这个运动员努力训练，是我的榜样。”\n\nAnswer in English: Why is the athlete a role model?"
+  },
+  {
+   "answerTopic": "2.3-listening-8",
+   "command": "Listen and answer",
+   "evidence": [
+    "如果我是名人，我会用钱支持环保。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "If I were a celebrity, I would use money to support environmental protection.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“如果我是名人，我会用钱支持环保。”\n\nAnswer in English: What would the speaker do if famous?"
+  },
+  {
+   "answerTopic": "2.3-listening-9",
+   "command": "Listen and answer",
+   "evidence": [
+    "演唱会门票很快就卖完了。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "The concert tickets sold out very quickly.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“演唱会门票很快就卖完了。”\n\nAnswer in English: What happened to the tickets?"
+  },
+  {
+   "answerTopic": "2.3-listening-10",
+   "command": "Listen and answer",
+   "evidence": [
+    "他虽然很成功，却保持谦虚。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Although he is very successful, he remains modest.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“他虽然很成功，却保持谦虚。”\n\nAnswer in English: What quality does the successful person retain?"
+  },
+  {
+   "answerTopic": "2.3-listening-11",
+   "command": "Listen and answer",
+   "evidence": [
+    "粉丝不应该打扰明星的家人。"
+   ],
+   "examTip": "Listen/read for the time marker and the main verb first; answer only with the detail that is stated.",
+   "marks": 2,
+   "modelAnswer": "Fans should not disturb celebrities’ families.",
+   "question": "Listening-style written practice. Read the transcript; there is no audio in this app.\n\n“粉丝不应该打扰明星的家人。”\n\nAnswer in English: What should fans not do?"
+  }
+ ]
+}

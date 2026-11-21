@@ -1,0 +1,121 @@
+{
+ "paper": "Paper 4",
+ "module": "3.1",
+ "moduleTitle": "Travel and tourism, including places of interest",
+ "note": {
+  "title": "Travel and tourism, including places of interest",
+  "specFocus": "Holidays, transport, accommodation, sightseeing, directions, weather and holiday problems.",
+  "sourcePages": "Original practice material written around common GCSE-style language themes; not official exam-board material.",
+  "summary": "3.1 Travel and tourism, including places of interest\nKey vocabulary (Russian = transliteration = English)\n- путешествовать = puteshestvovat' = to travel; отпуск/каникулы = otpusk/kanikuly = holiday (work/school); поездка = poyezdka = trip\n- самолёт, поезд, автобус, машина, метро = samolyot, poezd, avtobus, mashina, metro = plane, train, bus, car, underground\n- гостиница = gostinitsa = hotel; номер = nomer = hotel room; бронировать = bronirovat' = to book; билет = bilet = ticket\n- достопримечательность = dostoprimechatel'nost' = sight; музей, замок, собор = muzey, zamok, sobor = museum, castle, cathedral\n- как пройти в...? = kak proyti v...? = how do I get to...?; прямо, налево, направо = pryamo, nalevo, napravo = straight on, left, right\n- погода = pogoda = weather; идёт дождь = idyot dozhd' = it's raining; жарко/холодно = zharko/kholodno = hot/cold\n\nKey grammar\n- Place: в/на + prepositional (в гостинице, на вокзале); direction: в/на + accusative (еду в Москву, иду на вокзал).\n- Verbs of motion: ехать/ездить (transport), идти/ходить (foot), лететь/летать (fly): мы летим в Сочи; я каждый год езжу к бабушке.\n- Past perfective for events: мы приехали вечером, мы посмотрели собор; imperfective for background: светило солнце.\n- Future: следующим летом мы поедем в Италию; я хотел бы поехать... (conditional).\n- Dative for age/feelings/weather: мне было жарко.\n\nExam tips\n- Learn the prefixes по-/при-/у- with motion verbs: поехать (set off), приехать (arrive), уехать (leave).\n- Use в + accusative for destination and в + prepositional for location - a very common slip.\n- Say the weather in the right tense: было жарко, будет дождь."
+ },
+ "questions": [
+  {
+   "answerTopic": "3.1-translate-ru-0",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 8,
+   "modelAnswer": "1. Мы едем в Испанию.\n2. Гостиница находится недалеко от пляжа.\n3. Погода жаркая. / Жарко.\n4. Я купил билет. / Я купила билет.",
+   "question": "Translate into Russian:\n\n1. We are going to Spain.\n2. The hotel is near the beach.\n3. The weather is hot.\n4. I bought a ticket."
+  },
+  {
+   "answerTopic": "3.1-translate-ru-1",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 6,
+   "modelAnswer": "1. Где находится вокзал?\n2. Идите прямо и поверните налево.\n3. Это пять минут пешком.",
+   "question": "Translate into Russian:\n\n1. Where is the station?\n2. Go straight on and turn left.\n3. It is five minutes on foot."
+  },
+  {
+   "answerTopic": "3.1-translate-ru-2",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Прошлым летом мы летали в Италию на самолёте.\n2. Мы посетили много музеев.\n3. Еда была вкусной.",
+   "question": "Translate into Russian:\n\n1. Last summer we went to Italy by plane.\n2. We visited many museums.\n3. The food was delicious."
+  },
+  {
+   "answerTopic": "3.1-translate-ru-3",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Check verb endings, adjective/noun agreement (gender, number, case) and the aspect of past-tense verbs; accurate grammar scores marks even with simple vocabulary.",
+   "marks": 9,
+   "modelAnswer": "1. Я предпочитаю ездить на поезде.\n2. Это удобнее, чем на автобусе.\n3. Можно смотреть в окно.",
+   "question": "Translate into Russian:\n\n1. I prefer to travel by train.\n2. It is more comfortable than by bus.\n3. You can look out of the window."
+  },
+  {
+   "answerTopic": "3.1-translate-ru-4",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Remember there is no word for a/the and no present tense of to be in Russian; use the correct case after prepositions (в/на + prepositional for place).",
+   "marks": 9,
+   "modelAnswer": "1. В следующем году я поеду в Россию.\n2. Я буду жить у друга в Москве. / ...у подруги...\n3. Я хочу увидеть Красную площадь.",
+   "question": "Translate into Russian:\n\n1. Next year I will go to Russia.\n2. I will stay with a friend in Moscow.\n3. I want to see Red Square."
+  },
+  {
+   "answerTopic": "3.1-translate-ru-5",
+   "command": "Translate into Russian",
+   "evidence": [],
+   "examTip": "Translate each sense unit in turn and re-read for endings; stress and spelling matter, so double-check soft signs, ы/и and ё.",
+   "marks": 9,
+   "modelAnswer": "1. Если пойдёт дождь, мы останемся в гостинице.\n2. Если бы у меня было много денег, я бы путешествовал по всему миру. / ...путешествовала...\n3. Номер был грязным, поэтому мы пожаловались.",
+   "question": "Translate into Russian:\n\n1. If it rains, we will stay at the hotel.\n2. If I had a lot of money, I would travel around the world.\n3. The room was dirty, so we complained."
+  },
+  {
+   "answerTopic": "3.1-writing-0",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 8,
+   "modelAnswer": "В прошлом году мы ездили в Грецию. Мы летели на самолёте три часа. Каждый день мы купались в море и ходили по городу. В будущем я хотел бы поехать в Россию, потому что хочу увидеть Москву и Санкт-Петербург.\n\n(English translation: Last year we went to Greece. We flew for three hours. Every day we swam in the sea and walked around the town. In future I would like to go to Russia because I want to see Moscow and St Petersburg.)",
+   "question": "Напишите об отпуске. Вы должны упомянуть:\n• куда вы ездили в прошлом году\n• как вы туда добрались\n• что вы там делали\n• куда вы хотели бы поехать в будущем"
+  },
+  {
+   "answerTopic": "3.1-writing-1",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 8,
+   "modelAnswer": "Мой идеальный отпуск — это поездка на море. Я хочу поехать с семьёй и друзьями. Мы будем плавать, загорать и ходить в рестораны. Такой отпуск идеален, потому что можно отдохнуть от школы и провести время с близкими.\n\n(English translation: My ideal holiday is a trip to the seaside. I want to go with my family and friends. We will swim, sunbathe and go to restaurants. Such a holiday is ideal because you can rest from school and spend time with loved ones.)",
+   "question": "Напишите о вашем идеальном отпуске. Вы должны упомянуть:\n• где вы хотите отдыхать\n• с кем вы хотите поехать\n• что вы будете делать\n• почему такой отпуск идеален для вас"
+  },
+  {
+   "answerTopic": "3.1-writing-2",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 10,
+   "modelAnswer": "Привет, Оля! Я сейчас в Сочи. Погода прекрасная: светит солнце и тепло. Вчера мы ходили в парк и катались на канатной дороге. Завтра мы поедем в горы, и я очень хочу сделать много фотографий. Скоро увидимся!\n\n(English translation: Hi Olya! I'm now in Sochi. The weather is wonderful: the sun is shining and it's warm. Yesterday we went to the park and rode the cable car. Tomorrow we're going to the mountains and I really want to take lots of photos. See you soon!)",
+   "question": "Напишите открытку другу с места отдыха. Вы должны упомянуть:\n• где вы находитесь\n• какая там погода\n• что вы уже посмотрели\n• что вы ещё хотите посмотреть"
+  },
+  {
+   "answerTopic": "3.1-writing-3",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Cover every bullet point, use at least two tenses (present + past or future) and justify opinions with потому что / так как to reach the top band.",
+   "marks": 10,
+   "modelAnswer": "В апреле я ездил в Санкт-Петербург на поезде. Дорога была долгой, но удобной. Мы увидели Эрмитаж, Исаакиевский собор и каналы. Больше всего мне понравился Эрмитаж, потому что там очень много интересных картин. Если бы у меня было больше времени, я бы остался там на неделю.\n\n(English translation: In April I went to St Petersburg by train. The journey was long but comfortable. We saw the Hermitage, St Isaac's Cathedral and the canals. I liked the Hermitage most because there are so many interesting paintings there. If I had more time, I would have stayed there for a week.)",
+   "question": "Напишите о поездке в город. Вы должны упомянуть:\n• какой город вы посетили\n• на чём вы ехали\n• какие достопримечательности вы видели\n• что вам понравилось больше всего"
+  },
+  {
+   "answerTopic": "3.1-writing-4",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Add range: use если / когда / хотя clauses, a comparison and a time marker; check cases and verb agreement before you finish.",
+   "marks": 12,
+   "modelAnswer": "Прошлым летом мы поехали в Турцию. В аэропорту я потеряла чемодан, и мы три дня жили без вещей. Мы позвонили в службу поддержки, и чемодан нашли. Туристам я советую всегда класть самое важное в ручную кладь и записывать номер рейса.\n\n(English translation: Last summer we went to Turkey. At the airport I lost my suitcase and we lived for three days without our things. We phoned customer support and the suitcase was found. I advise tourists to always put the most important things in hand luggage and write down the flight number.)",
+   "question": "Напишите о проблеме во время поездки. Вы должны упомянуть:\n• куда вы поехали\n• какая проблема возникла\n• что вы сделали, чтобы её решить\n• что вы посоветуете туристам"
+  },
+  {
+   "answerTopic": "3.1-writing-5",
+   "command": "Write in Russian",
+   "evidence": [],
+   "examTip": "Plan one or two sentences per bullet, aim for accurate Russian rather than very long sentences, and read through for endings at the end.",
+   "marks": 12,
+   "modelAnswer": "Туризм приносит деньги городам и помогает людям узнавать другие страны. Но туристы иногда оставляют мусор и создают шум. Прошлым летом мы были в Крыму, и там было много людей на пляже. Мне кажется, ездить за границу полезно, потому что можно узнать новую культуру, но и в своей стране есть много красивых мест.\n\n(English translation: Tourism brings money to cities and helps people get to know other countries. But tourists sometimes leave rubbish and make noise. Last summer we were in Crimea and there were a lot of people on the beach. I think travelling abroad is useful because you can learn about a new culture, but in your own country there are also many beautiful places.)",
+   "question": "Напишите о преимуществах и недостатках туризма. Вы должны упомянуть:\n• как туризм помогает людям\n• какие проблемы он создаёт\n• ваш опыт путешествий\n• ваше мнение: нужно ли ездить за границу"
+  }
+ ]
+}

@@ -10,6 +10,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"io"
 	"io/fs"
 	"net"
 	"net/http"
@@ -45,6 +46,8 @@ Usage:
   %s build content/<id> (maintainers) assemble a subject pack from content/<id>/ into data/<id>.js
   %s validate [files]   (maintainers) check subject packs (default: data/*.js)
   %s manifest [dir]     (maintainers) regenerate subjects.js from <dir>/data/*.js (default ".")
+  %s import <file|dir>  import a subject (bundle .json, folder or .zip in the open pack format) for this computer only
+  %s export <pack.js>   convert a built pack to the open bundle format (.pack.json)
   %s encrypt-private    (maintainers) encrypt private/*.js → private/*.js.enc using GCSE_PRIVATE_KEY
   %s version            print the version
 
@@ -52,7 +55,7 @@ Flags:
 
 Private packs (used only on this computer, never published): put pack .js files in
   %s
-`, appName, version, appName, appName, appName, appName, appName, appName, appName, appName, privatePacksDir())
+`, appName, version, appName, appName, appName, appName, appName, appName, appName, appName, appName, appName, privatePacksDir())
 	flag.PrintDefaults()
 }
 
@@ -121,6 +124,20 @@ func main() {
 		err = signManifest(orDefault(flag.Arg(0), "."))
 	case "verify":
 		err = verifyDir(orDefault(flag.Arg(0), "."))
+	case "import":
+		err = importPaths(flag.Args())
+	case "export":
+		if flag.NArg() < 1 {
+			err = errors.New("usage: gcse-revision export <data-pack.js> [out.json]")
+			break
+		}
+		dst := flag.Arg(1)
+		if dst == "" {
+			dst = strings.TrimSuffix(flag.Arg(0), ".js") + ".pack.json"
+		}
+		if err = exportPack(flag.Arg(0), dst); err == nil {
+			fmt.Println("Wrote", dst)
+		}
 	case "encrypt-private":
 		err = encryptPrivate(".")
 	case "keygen":
@@ -278,12 +295,29 @@ func newHandler(host string, ai *aiManager) http.Handler {
 		writeJSON(w, ai.status())
 	})
 	mux.Handle("/llm/", ai.proxy())
+	mux.HandleFunc("/api/import", func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodPost {
+			http.Error(w, "POST only", http.StatusMethodNotAllowed)
+			return
+		}
+		b, err := io.ReadAll(http.MaxBytesReader(w, r.Body, maxImportBytes))
+		if err == nil {
+			var res importResult
+			if res, err = importBytes(b); err == nil {
+				writeJSON(w, res)
+				return
+			}
+		}
+		w.WriteHeader(http.StatusBadRequest)
+		writeJSON(w, map[string]string{"error": err.Error()})
+	})
 
 	mux.HandleFunc("/subjects.js", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/javascript; charset=utf-8")
 		w.Header().Set("Cache-Control", "no-store")
 		_, _ = w.Write(renderManifest(effectiveManifest()))
 	})
+	mux.HandleFunc("/audio/", serveAudio)
 	mux.HandleFunc("/data/", func(w http.ResponseWriter, r *http.Request) {
 		name := strings.TrimPrefix(r.URL.Path, "/")
 		b, err := readSubjectFile(name)
@@ -319,6 +353,11 @@ func newHandler(host string, ai *aiManager) http.Handler {
 				return
 			}
 		}
+		if site := r.Header.Get("Sec-Fetch-Site"); site == "cross-site" {
+			http.Error(w, "forbidden fetch site", http.StatusForbidden)
+			return
+		}
+		w.Header().Set("Cross-Origin-Resource-Policy", "same-origin")
 		mux.ServeHTTP(w, r)
 	})
 }

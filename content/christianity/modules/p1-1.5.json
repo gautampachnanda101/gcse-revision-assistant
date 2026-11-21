@@ -1,0 +1,100 @@
+{
+ "paper": "Paper 1",
+ "module": "1.5",
+ "moduleTitle": "Ultimate reality",
+ "note": {
+  "id": "",
+  "paper": "",
+  "module": "",
+  "title": "",
+  "specFocus": "Christian belief about the nature and character of God, including the Trinity, and why views of God's nature vary.",
+  "sourcePages": "Written to match the Edexcel specification; no supplied booklet for this subject.",
+  "summary": "1.5 Ultimate Reality\nChristianity is monotheistic: Christians believe in one God, who is the ultimate reality underlying and sustaining everything that exists.\nCharacteristics of God\n• Omnipotent: all-powerful, able to do anything that is logically possible.\n• Omniscient: all-knowing, aware of everything past, present and future.\n• Omnibenevolent: perfectly good and loving; 1 John 4:8 states simply, \"God is love\".\n• Eternal and transcendent, yet also immanent (present and active within creation and in believers' lives).\nThe Trinity\n• Christians believe God exists as a Trinity — one God in three persons: Father, Son (Jesus Christ) and Holy Spirit — a central but mysterious doctrine that distinguishes Christianity from other monotheistic faiths.\n• The Trinity is not three separate gods, but three persons sharing one divine nature, often illustrated (imperfectly) using analogies such as water existing as ice, liquid and steam.\nDifferent attitudes to God's nature\n• Catholic and Orthodox Christians often approach God through rich tradition, sacraments and the intercession of saints and Mary, emphasising God's majesty and mystery.\n• Many Protestant Christians emphasise a direct, personal relationship with God through Jesus, without the same role for saints or Mary as intermediaries.\n• Classical theism stresses God's unchanging power and perfection; process theology (a minority, more modern view) suggests God's power works more through persuasion and relationship than total control, particularly in response to the problem of suffering.\nExam link: \"characteristics of God\" questions want named attributes (omnipotent, omniscient, loving, Trinity); \"different attitudes\" questions want a reason for the difference, such as denominational tradition."
+ },
+ "questions": [
+  {
+   "answerTopic": "god",
+   "command": "Identify",
+   "evidence": [
+    "Omnipotence, omniscience, omnibenevolence",
+    "1 John 4:8 (\"God is love\")",
+    "The Trinity",
+    "Eternal and transcendent"
+   ],
+   "examTip": "Give three distinct, relevant facts. One clear point earns each mark; development is not required for this question type.",
+   "marks": 3,
+   "modelAnswer": "A clear three-point response could be:\n\n1. Omnipotent: all-powerful, able to do anything that is logically possible.\n2. Omniscient and omnibenevolent: all-knowing and perfectly loving/good, as described throughout the Bible, for example 1 John 4:8, \"God is love\".\n3. Trinity: one God who exists eternally as three persons, Father, Son and Holy Spirit.",
+   "question": "Identify three characteristics of God."
+  },
+  {
+   "answerTopic": "god",
+   "command": "Explain",
+   "evidence": [
+    "The Trinity (Father, Son, Holy Spirit)",
+    "Catholic vs Protestant emphases",
+    "Intercession of saints and Mary",
+    "Classical theism vs process theology"
+   ],
+   "examTip": "For 6 marks, combine accurate knowledge with explanation. Explain why each point matters and link it directly to the question; avoid simply listing facts.",
+   "marks": 6,
+   "modelAnswer": "A developed answer could explain the issue through three connected points.\n\nFirst, Christianity teaches belief in one God who exists as a Trinity of three persons, Father, Son and Holy Spirit; while all mainstream Christians accept this doctrine, different denominations emphasise different aspects of God's nature, for example the fatherhood of God or the closeness of the Holy Spirit.\n\nSecond, Catholic and Orthodox Christians often emphasise God's majesty and mystery, approaching God through sacraments, saints and the intercession of Mary, while many Protestant traditions emphasise a direct, personal relationship with God without such intermediaries.\n\nFinally, Christians also hold different views in response to suffering: classical theism emphasises God's unchanging power and goodness even amid suffering, while some modern theologians (process theology) suggest God's power is better understood as persuasive rather than all-controlling, which changes how God's character is understood.",
+   "question": "Choose one religion. Explain why there are different attitudes to the nature and character of God in this religion."
+  },
+  {
+   "answerTopic": "ultimate-reality-and-the-nature-of-god-extra-4",
+   "command": "Explain",
+   "evidence": [
+    "omnipotence",
+    "omniscience",
+    "benevolence",
+    "personal relationship with God and the mystery of divine nature"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 6,
+   "modelAnswer": "One view emphasises omnipotence. Another Christian tradition or reading may put more weight on a contrasting aspect of the same topic. Develop each view and explain the reason behind it.",
+   "question": "Explain two Christian views about ultimate reality and the nature of God. Include a source, tradition or example where relevant."
+  },
+  {
+   "answerTopic": "ultimate-reality-and-the-nature-of-god-extra-5",
+   "command": "Evaluate",
+   "evidence": [
+    "omnipotence",
+    "omniscience",
+    "benevolence",
+    "personal relationship with God and the mystery of divine nature"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 12,
+   "modelAnswer": "A FIRST PERSPECTIVE\nTeaching gives coherent meaning to the themes of omnipotence, omniscience, benevolence, personal relationship with God and the mystery of divine nature and helps Christians decide what is true.\n\nAN ALTERNATIVE PERSPECTIVE\nPractice makes belief visible in worship, compassion, family and service; without action faith may be empty. Christians within different traditions may also disagree about how the teaching should be lived.\n\nJUDGEMENT\nA reasoned conclusion should compare the authority and practical effect of belief and action, acknowledge diversity, and decide which is more persuasive for the exact claim.",
+   "question": "“Christian teaching about ultimate reality and the nature of God is more important than Christian practice connected with it.”\nEvaluate this statement, referring to Christianity."
+  },
+  {
+   "answerTopic": "ultimate-reality-and-the-nature-of-god-extra-2",
+   "command": "Outline",
+   "evidence": [
+    "omnipotence",
+    "omniscience",
+    "benevolence",
+    "personal relationship with God and the mystery of divine nature"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 4,
+   "modelAnswer": "A developed answer states two separate effects. One concerns belief or worship; the other concerns an ethical choice, practice or sense of community. Each is linked to omnipotence, omniscience, benevolence, personal relationship with God and the mystery of divine nature.",
+   "question": "Choose Christianity. Outline two ways in which ultimate reality and the nature of God influences what a Christian believes or does."
+  },
+  {
+   "answerTopic": "ultimate-reality-and-the-nature-of-god-extra-3",
+   "command": "Explain",
+   "evidence": [
+    "omnipotence",
+    "omniscience",
+    "benevolence",
+    "personal relationship with God and the mystery of divine nature"
+   ],
+   "examTip": "Use accurate Christian teaching, explain why each point matters, and in an evaluation compare arguments before reaching a reasoned conclusion.",
+   "marks": 6,
+   "modelAnswer": "First, it expresses or clarifies the Christian ideas of omnipotence, omniscience, benevolence, personal relationship with God and the mystery of divine nature. Second, it shapes practical discipleship or worship. Explain why, rather than stopping after naming a belief or practice.",
+   "question": "Explain two reasons why ultimate reality and the nature of God is important for Christians. Refer to Christian teaching in your answer."
+  }
+ ]
+}
