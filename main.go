@@ -45,13 +45,14 @@ Usage:
   %s build content/<id> (maintainers) assemble a subject pack from content/<id>/ into data/<id>.js
   %s validate [files]   (maintainers) check subject packs (default: data/*.js)
   %s manifest [dir]     (maintainers) regenerate subjects.js from <dir>/data/*.js (default ".")
+  %s encrypt-private    (maintainers) encrypt private/*.js → private/*.js.enc using GCSE_PRIVATE_KEY
   %s version            print the version
 
 Flags:
 
 Private packs (used only on this computer, never published): put pack .js files in
   %s
-`, appName, version, appName, appName, appName, appName, appName, appName, appName, privatePacksDir())
+`, appName, version, appName, appName, appName, appName, appName, appName, appName, appName, privatePacksDir())
 	flag.PrintDefaults()
 }
 
@@ -120,6 +121,8 @@ func main() {
 		err = signManifest(orDefault(flag.Arg(0), "."))
 	case "verify":
 		err = verifyDir(orDefault(flag.Arg(0), "."))
+	case "encrypt-private":
+		err = encryptPrivate(".")
 	case "keygen":
 		err = keygen()
 	case "validate":

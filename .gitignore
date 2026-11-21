@@ -4,5 +4,6 @@
 *.tmp
 .DS_Store
 
-# Packs you may use yourself but not redistribute. Baked into personal builds only: go build -tags private
-/private/
+# Packs you may use yourself but not redistribute. Baked into your own local builds only (go build .)
+/private/*
+!/private/README.md

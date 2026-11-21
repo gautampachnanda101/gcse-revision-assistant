@@ -70,13 +70,10 @@ Some material can be used for your own revision but can't be published, for exam
 There are two ways to use it:
 
 - **Drop-in folder.** Put pack files in the folder that `gcse-revision --help` names. They're loaded on this computer only.
-- **Baked into your own binary.** Put pack files in `./private/` (gitignored), then build with:
+- **Baked into your own binary.** Put pack files in `./private/` (gitignored), then run `go build -o gcse-revision .`.
+  To keep them encrypted on disk, set `GCSE_PRIVATE_KEY` (base64 of 32 random bytes, `openssl rand -base64 32`) and run `go run . encrypt-private`. Build with `-ldflags "-X main.privatePackKey=$GCSE_PRIVATE_KEY"` so the binary can decrypt them.
 
-  ```sh
-  go build -tags private -o gcse-revision .
-  ```
-
-  The resulting binary includes those subjects and works fully offline. Don't redistribute it, and don't publish it as a release.
+  The resulting binary includes those subjects and works fully offline. The key is inside the binary, so this is protection against casual inspection, not copy protection. Don't redistribute that binary or publish it as a release. CI and public releases never contain private packs.
 
 ## Publishing content (maintainers)
 
@@ -120,6 +117,11 @@ CI runs all of this on Linux, macOS and Windows. After each release, it installs
 go build -o gcse-revision .   # Go 1.22+, standard library only
 ```
 
-## Content notice
+## Legal notice
 
-Questions are original practice items written to follow each exam board's published specification. Model answers are indicative exemplars only, not official mark schemes. Exam boards and their specifications are the property of their respective owners, and this project is not affiliated with or endorsed by any exam board.
+- **Not affiliated.** This project is independent. It is not affiliated with, sponsored by or endorsed by AQA, Pearson/Edexcel, OCR, WJEC or any other exam board, school or publisher. Exam board names, specification codes and marks are the property of their owners and are used only to say which specification a revision item follows.
+- **Original content.** Public subject packs contain original practice questions written to follow each board's published specification. They are not past-paper questions, and they don't reproduce board, publisher or school materials. Model answers are indicative exemplars, not official mark schemes. Other valid answers are credited in the exam.
+- **Third-party material stays private.** Anything derived from material supplied by a school, publisher or board, such as course booklets, is for personal use only. It is never committed to this repository, the signed content channel or a release. See "Private subjects".
+- **No warranty.** The software and content are provided "as is", without warranty of any kind, and may contain errors. Check them against your own course materials and teacher. Use is at your own risk, and the authors aren't liable for any loss, including exam outcomes.
+- **AI helper.** Answers from the AI helper are machine-generated, may be wrong, and are not vetted or endorsed by the authors. It runs locally using third-party models and software under their own licences.
+- **Takedown.** If you believe something in this repository infringes your rights, open an issue or contact the maintainer and it will be removed promptly.

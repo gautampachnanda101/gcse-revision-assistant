@@ -19,9 +19,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/fs"
 	"os"
-	"path"
 	"path/filepath"
 	"regexp"
 	"sort"
@@ -357,17 +355,11 @@ func privatePacksDir() string {
 
 const privatePrefix = "private/"
 
-// privatePackSources lists private packs: the on-disk folder first, then any baked into a personal build.
+// privatePackSources lists private packs: those baked into the binary, overridden by the on-disk folder.
 func privatePackSources() map[string][]byte {
 	out := map[string][]byte{}
-	if hasPrivateEmbedded {
-		if names, err := fs.Glob(privateEmbedded, "private/*.js"); err == nil {
-			for _, n := range names {
-				if b, err := privateEmbedded.ReadFile(n); err == nil {
-					out[path.Base(n)] = b
-				}
-			}
-		}
+	for n, b := range embeddedPrivatePacks() {
+		out[n] = b
 	}
 	files, _ := filepath.Glob(filepath.Join(privatePacksDir(), "*.js"))
 	for _, f := range files {
