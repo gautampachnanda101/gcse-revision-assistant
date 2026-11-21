@@ -1,7 +1,7 @@
 #!/bin/sh
 # GCSE Revision — one-command install for macOS and Linux:
 #   curl -fsSL https://raw.githubusercontent.com/gautampachnanda101/gcse-revision-assistant/main/install.sh | sh
-# Installs a single self-contained program to ~/.local/bin, then starts it (set GCSE_REVISION_NO_RUN=1 to skip).
+# Installs a single self-contained program to ~/.local/bin and registers a user background service.
 set -eu
 
 REPO="${GCSE_REVISION_REPO:-gautampachnanda101/gcse-revision-assistant}"
@@ -45,6 +45,11 @@ case ":$PATH:" in
 esac
 
 if [ "${GCSE_REVISION_NO_RUN:-0}" != "1" ]; then
-  echo "Starting GCSE Revision... (next time just run: $NAME)"
-  if [ -r /dev/tty ]; then exec "$BIN_DIR/$NAME" </dev/tty; else exec "$BIN_DIR/$NAME"; fi
+  echo "Starting GCSE Revision as a background service..."
+  "$BIN_DIR/$NAME" service install
+  case "$(uname -s)" in
+    Darwin) open "http://gcse-revision.localhost:8765/" >/dev/null 2>&1 || true ;;
+    Linux) if command -v xdg-open >/dev/null 2>&1; then xdg-open "http://gcse-revision.localhost:8765/" >/dev/null 2>&1 || true; fi ;;
+  esac
+  echo "Manage it with: $NAME service status|restart|logs|uninstall"
 fi

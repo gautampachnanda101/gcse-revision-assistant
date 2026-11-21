@@ -17,6 +17,19 @@ curl -fsSL https://raw.githubusercontent.com/gautampachnanda101/gcse-revision-as
 irm https://raw.githubusercontent.com/gautampachnanda101/gcse-revision-assistant/main/install.ps1 | iex
 ```
 
+The installer registers a per-user background service (launchd on macOS, systemd on Linux, or Task Scheduler on Windows), opens `http://gcse-revision.localhost:8765/`, and leaves the app running after logout/login. Standalone installations check for checksum-verified binary upgrades daily. Homebrew and Scoop installations invoke their package manager automatically.
+
+Useful commands:
+
+```text
+gcse-revision service status
+gcse-revision service restart
+gcse-revision service logs
+gcse-revision upgrade
+```
+
+Set `GCSE_REVISION_AUTO_UPDATE=0` or pass `--no-auto-update` to disable automatic application upgrades. The app remains fully usable offline.
+
 **Homebrew / Scoop**
 
 ```sh

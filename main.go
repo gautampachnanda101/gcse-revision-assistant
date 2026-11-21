@@ -37,26 +37,7 @@ const appName = "gcse-revision"
 var embedded embed.FS
 
 func usage() {
-	fmt.Fprintf(os.Stderr, `%s %s — GCSE revision app (runs fully offline once installed)
-
-Usage:
-  %s [flags]            start the app and open it in your browser (default)
-  %s update             download new/updated subject packs, then exit
-  %s setup-ai           install/start the local AI helper and download its model, then exit
-  %s build content/<id> (maintainers) assemble a subject pack from content/<id>/ into data/<id>.js
-  %s validate [files]   (maintainers) check subject packs (default: data/*.js)
-  %s manifest [dir]     (maintainers) regenerate subjects.js from <dir>/data/*.js (default ".")
-  %s import <file|dir>  import a subject (bundle .json, folder or .zip in the open pack format) for this computer only
-  %s export <pack.js>   convert a built pack to the open bundle format (.pack.json)
-  %s encrypt-private    (maintainers) encrypt private/*.js → private/*.js.enc using GCSE_PRIVATE_KEY
-  %s version            print the version
-
-Flags:
-
-Private packs (used only on this computer, never published): put pack .js files in
-  %s
-`, appName, version, appName, appName, appName, appName, appName, appName, appName, appName, appName, appName, privatePacksDir())
-	flag.PrintDefaults()
+	writeUsage(os.Stderr)
 }
 
 type options struct {
@@ -67,14 +48,18 @@ type options struct {
 	model     string
 	repo      string
 	branch    string
+	service   bool
+	noAutoUp  bool
 }
 
 func main() {
 	opts := options{}
 	flag.IntVar(&opts.port, "port", 8765, "port to serve on (127.0.0.1 only)")
 	flag.BoolVar(&opts.noBrowser, "no-browser", false, "don't open a browser window")
+	flag.BoolVar(&opts.service, "service", false, "run as a managed background service")
 	flag.BoolVar(&opts.offline, "offline", false, "never contact the internet (no subject updates, no AI downloads)")
 	flag.BoolVar(&opts.noAI, "no-ai", false, "don't install/start the local AI helper")
+	flag.BoolVar(&opts.noAutoUp, "no-auto-update", false, "disable automatic application upgrades")
 	flag.StringVar(&opts.model, "model", "", "Ollama model to use (default: chosen from this machine's RAM)")
 	flag.StringVar(&opts.repo, "repo", envOr("GCSE_REVISION_REPO", repo), "GitHub owner/name to fetch subject packs from")
 	flag.StringVar(&opts.branch, "branch", envOr("GCSE_REVISION_BRANCH", "content"), "branch to fetch signed subject packs from")
@@ -85,15 +70,23 @@ func main() {
 	if len(args) > 0 && !strings.HasPrefix(args[0], "-") {
 		cmd, args = args[0], args[1:]
 	}
-	_ = flag.CommandLine.Parse(args)
+	if err := flag.CommandLine.Parse(args); errors.Is(err, flag.ErrHelp) {
+		return
+	}
 	if cmd == "" && flag.NArg() > 0 {
 		cmd = flag.Arg(0)
-		_ = flag.CommandLine.Parse(flag.Args()[1:])
+		if err := flag.CommandLine.Parse(flag.Args()[1:]); errors.Is(err, flag.ErrHelp) {
+			return
+		}
 	}
 	var err error
 	switch cmd {
 	case "", "serve", "run":
 		err = serve(opts)
+	case "service":
+		err = serviceCommand(flag.Args(), opts)
+	case "upgrade":
+		err = upgradeCommand(context.Background())
 	case "update":
 		var n int
 		n, err = syncSubjects(context.Background(), opts.repo, opts.branch, logf)
@@ -152,6 +145,8 @@ func main() {
 		err = writeManifest(dir)
 	case "version", "--version":
 		fmt.Println(appName, version)
+	case "help", "--help", "-h":
+		usage()
 	default:
 		usage()
 		os.Exit(2)
@@ -170,7 +165,11 @@ func envOr(key, def string) string {
 }
 
 func logf(format string, args ...any) {
-	fmt.Printf("[%s] %s\n", time.Now().Format("15:04:05"), fmt.Sprintf(format, args...))
+	line := fmt.Sprintf("[%s] %s\n", time.Now().Format("15:04:05"), fmt.Sprintf(format, args...))
+	fmt.Print(line)
+	if serviceLog != nil {
+		_, _ = serviceLog.WriteString(line)
+	}
 }
 
 // dataDir is where downloaded subject packs, the private Ollama copy and logs live.
@@ -185,24 +184,38 @@ func dataDir() string {
 }
 
 func serve(opts options) error {
+	if opts.service {
+		if err := enableServiceLogging(); err != nil {
+			return err
+		}
+		defer closeServiceLogging()
+	}
 	addr := net.JoinHostPort("127.0.0.1", strconv.Itoa(opts.port))
 	ln, err := net.Listen("tcp", addr)
 	if err != nil {
 		// Already running? Just open the existing instance.
 		if alreadyRunning(addr) {
-			url := "http://" + addr + "/"
+			url := browserURL(opts.port)
 			logf("Already running at %s — opening it.", url)
 			if !opts.noBrowser {
 				openBrowser(url)
 			}
 			return nil
 		}
+		if opts.service {
+			return fmt.Errorf("configured service port %d is already in use", opts.port)
+		}
 		logf("Port %d is busy; picking a free one.", opts.port)
 		if ln, err = net.Listen("tcp", "127.0.0.1:0"); err != nil {
 			return err
 		}
 	}
-	url := "http://" + ln.Addr().String() + "/"
+	_, activePort, err := net.SplitHostPort(ln.Addr().String())
+	if err != nil {
+		ln.Close()
+		return err
+	}
+	url := browserURL(parsePort(activePort, opts.port))
 
 	if !opts.offline && opts.repo != "" {
 		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
@@ -231,9 +244,16 @@ func serve(opts options) error {
 	if !opts.noAI {
 		go ai.ensure(ctx)
 	}
+	if !opts.noAutoUp {
+		automaticUpgradeLoop(ctx, opts)
+	}
 
 	logf("GCSE Revision %s is running at %s", version, url)
-	logf("Keep this window open while you revise. Press Ctrl+C to quit.")
+	if opts.service {
+		logf("Background service ready; run '%s service status' for details.", appName)
+	} else {
+		logf("Keep this window open while you revise. Press Ctrl+C to quit.")
+	}
 	if !opts.noBrowser {
 		openBrowser(url)
 	}
@@ -251,9 +271,22 @@ func alreadyRunning(addr string) bool {
 	if err != nil {
 		return false
 	}
+
 	defer r.Body.Close()
 	var info map[string]any
 	return json.NewDecoder(r.Body).Decode(&info) == nil && info["app"] == appName
+}
+
+func browserURL(port int) string {
+	return "http://gcse-revision.localhost:" + strconv.Itoa(port) + "/"
+}
+
+func parsePort(s string, fallback int) int {
+	port, err := strconv.Atoi(s)
+	if err != nil {
+		return fallback
+	}
+	return port
 }
 
 func openBrowser(url string) {
@@ -342,7 +375,10 @@ func newHandler(host string, ai *aiManager) http.Handler {
 
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		h := r.Host
-		if h != host && h != strings.Replace(host, "127.0.0.1", "localhost", 1) {
+		allowed := h == host ||
+			h == strings.Replace(host, "127.0.0.1", "localhost", 1) ||
+			h == strings.Replace(host, "127.0.0.1", "gcse-revision.localhost", 1)
+		if !allowed {
 			http.Error(w, "forbidden host", http.StatusForbidden)
 			return
 		}
