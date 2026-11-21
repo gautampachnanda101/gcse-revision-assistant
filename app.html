@@ -43,7 +43,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <button class="nav-btn active" data-page="questions"><span class="nav-icon" aria-hidden="true">▤</span>Question bank</button>
 <button class="nav-btn" data-page="notes"><span class="nav-icon" aria-hidden="true">▧</span>Module notes</button>
 <button class="nav-btn" data-page="progress"><span class="nav-icon" aria-hidden="true">▥</span>My progress</button>
-<button class="nav-btn" data-page="author"><span class="nav-icon" aria-hidden="true">✎</span>Author a pack</button>
+<button class="nav-btn" data-page="author"><span class="nav-icon" aria-hidden="true">✎</span>Make a subject</button>
 </nav>
 <button class="nav-btn" id="switch-subject-btn" style="display:none"><span class="nav-icon" aria-hidden="true">🔀</span>Switch subject</button>
 <button class="theme-toggle" data-theme-toggle type="button" aria-label="Switch between light and dark mode">◐ Light / dark</button>
@@ -141,15 +141,25 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <div class="footer-note">No account or cloud connection is used. Use &ldquo;Export progress&rdquo; to make a backup before moving to another device or browser.</div>
 </section>
 <section class="page" id="page-author">
-<div class="hero"><div><div class="eyebrow">Open format · teachers and contributors</div><h2>Create a new subject pack</h2><p>Build original, reusable revision material in the same format used by every subject in the app.</p></div></div>
+<div class="hero"><div><div class="eyebrow">For teachers, parents and learners</div><h2>Make your own revision subject</h2><p>Turn your own questions and model answers into a private subject on this computer. Nothing is published or shared.</p></div></div>
 <div class="author-grid">
-<article class="author-card"><h3>1. Set up the pack</h3><ol><li>Create <code>content/my-subject/pack.json</code>.</li><li>Add one JSON file per paper/module under <code>content/my-subject/modules/</code>.</li><li>Keep the <code>storageId</code>, paper IDs and module names stable once students start using the pack.</li><li>Use only original material or material you have permission to redistribute.</li></ol></article>
-<article class="author-card"><h3>2. Write useful questions</h3><ul><li>Include a clear question, command word, mark allocation and model answer.</li><li>Add an exam tip and concise revision note for every module.</li><li>Use evidence only when it is required and accurate for the qualification.</li><li>Aim for at least 12 varied questions per module; never duplicate prompts.</li></ul></article>
-<article class="author-card"><h3>3. Validate and build</h3><p class="local-ai-note">Run these commands from the repository root:</p><pre class="code-sample">gcse-revision validate content/my-subject
-gcse-revision build content/my-subject
-gcse-revision validate</pre><p class="local-ai-note">The build command generates <code>data/my-subject.js</code> and refreshes the subject manifest.</p></article>
-<article class="author-card"><h3>4. Test before sharing</h3><ul><li>Import the generated bundle on another computer.</li><li>Check question IDs, spelling, symbols and model-answer marking.</li><li>Verify accents and non-Latin scripts with a fluent speaker.</li><li>Have a teacher or subject specialist review qualification details.</li></ul><p class="local-ai-note">Imported packs stay private to that computer. Published packs must pass the repository's content checks.</p></article>
-<article class="author-card author-wide"><h3>Starter bundle</h3><p class="local-ai-note">Copy this into <code>my-subject.pack.json</code>, edit every value, and import it from <strong>Switch subject → Import pack…</strong> for a quick local preview.</p><pre class="code-sample" id="author-starter">{
+<article class="author-card"><h3>1. Name the subject</h3><div class="toolbar-top" style="grid-template-columns:1fr 1fr">
+<div class="field"><label for="author-subject-name">Subject name</label><input id="author-subject-name" value="My Subject" maxlength="60"></div>
+<div class="field"><label for="author-subject-area">Group it with</label><input id="author-subject-area" value="My Subjects" maxlength="60"></div>
+<div class="field"><label for="author-exam-board">Course or exam board</label><input id="author-exam-board" value="GCSE practice" maxlength="80"></div>
+<div class="field"><label for="author-subject-icon">Icon or flag</label><input id="author-subject-icon" value="📚" maxlength="8"></div>
+</div><p class="local-ai-note">Use only work you wrote yourself or have permission to share with the people revising on this computer.</p></article>
+<article class="author-card"><h3>2. Add questions to any paper or topic</h3><p class="local-ai-note">Change the paper or topic before each question. The app will group your questions automatically.</p><div class="toolbar-top" style="grid-template-columns:1fr 1fr">
+<div class="field"><label for="author-paper-title">Paper</label><input id="author-paper-title" value="Paper 1" maxlength="80"></div>
+<div class="field"><label for="author-module-title">Topic or module</label><input id="author-module-title" value="Getting started" maxlength="80"></div>
+</div><div class="field"><label for="author-question">Question</label><textarea class="response-area" id="author-question" placeholder="For example: Explain one key idea from this topic." style="min-height:90px"></textarea></div>
+<div class="field"><label for="author-answer">Helpful model answer</label><textarea class="response-area" id="author-answer" placeholder="Write the kind of answer you would be happy for a learner to read." style="min-height:90px"></textarea></div>
+<div class="toolbar-top" style="grid-template-columns:1fr 1fr">
+<div class="field"><label for="author-marks">How many marks?</label><select id="author-marks"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>8</option><option>10</option><option>12</option></select></div>
+<div class="field"><label for="author-tip">Short exam tip</label><input id="author-tip" placeholder="Answer directly and give the required detail."></div>
+</div><button class="answer-button" id="author-add-question" style="margin-top:12px">Add this question</button><div class="local-ai-status" id="author-question-status" role="status">No questions added yet.</div></article>
+<article class="author-card author-wide"><h3>3. Save the subject</h3><div class="local-ai-note" id="author-question-list">Add one or more questions above, then save your subject.</div><div class="author-actions"><button class="answer-button" id="author-save-local" disabled>Add it to this computer</button><button class="mini-btn" id="author-download" disabled>Save a backup to keep</button><button class="mini-btn" id="open-subject-import">Choose a saved subject</button></div><div class="local-ai-status" id="author-save-status" role="status"></div>
+<details class="setup-details"><summary>See what will be saved</summary><p class="local-ai-note">This preview is for you to check. You do not need to edit it.</p><pre class="code-sample" id="author-starter">{
   "config": {
     "storageId": "my_subject",
     "subjectName": "My Subject",
@@ -185,13 +195,13 @@ gcse-revision validate</pre><p class="local-ai-note">The build command generates
       "examTip": "Answer the command word directly and give the required detail."
     }]
   }]
-}</pre><div class="author-actions"><button class="answer-button" id="copy-author-starter">Copy a starting pack</button><button class="mini-btn" id="open-subject-import">Choose a pack to try</button><span class="local-ai-note" id="copy-author-status" role="status"></span></div></article>
+}</pre></details></article>
 </div>
 </section>
 </div>
 </main>
 </div>
-<nav class="mobile-bar" aria-label="Workspace"><button class="active" data-page="questions"><span aria-hidden="true">▤</span>Questions</button><button data-page="notes"><span aria-hidden="true">▧</span>Notes</button><button data-page="progress"><span aria-hidden="true">▥</span>Progress</button><button data-page="author"><span aria-hidden="true">✎</span>Author</button></nav>
+<nav class="mobile-bar" aria-label="Workspace"><button class="active" data-page="questions"><span aria-hidden="true">▤</span>Questions</button><button data-page="notes"><span aria-hidden="true">▧</span>Notes</button><button data-page="progress"><span aria-hidden="true">▥</span>Progress</button><button data-page="author"><span aria-hidden="true">✎</span>Make</button></nav>
 <div class="subject-picker-overlay" id="subject-picker-overlay" style="display:none" role="dialog" aria-modal="true" aria-labelledby="subject-picker-title">
 <div class="subject-picker-card">
 <h3 id="subject-picker-title">Choose a subject</h3>
@@ -239,7 +249,7 @@ const APP_ID=CONFIG.storageId||'gcse_revision_app';
 const DEVICE_ID='revision_app_device_v1';
 const BACKUP_FILENAME=APP_ID.replace(/_/g,'-')+'-revision-progress.json';
 const STORE_KEY=APP_ID+'_preanswer_revision_v1';
-const TITLES={questions:'Question bank',notes:'Module notes',progress:'My progress',author:'Author a pack'};
+const TITLES={questions:'Question bank',notes:'Module notes',progress:'My progress',author:'Make a subject'};
 let saved=loadSaved();let typedAnswers=saved.answers;let aiFeedback=saved.feedback;let activePage='questions';let selectedPaper='all';
 const firstNotePaper=PAPERS[0]?PAPERS[0].id:((DATA.notes[0]&&DATA.notes[0].paper)||'');
 const firstNote=DATA.notes.find(n=>n.paper===firstNotePaper)||DATA.notes[0];
@@ -273,7 +283,23 @@ function looksLikeGibberish(answer){
 }
 function page(name){activePage=name;document.querySelectorAll('.page').forEach(x=>x.classList.toggle('active',x.id==='page-'+name));document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===name));document.getElementById('top-title').textContent=TITLES[name];if(name==='questions')renderQuestions();if(name==='notes')renderNotes();if(name==='progress')renderProgress();window.scrollTo({top:0,behavior:'smooth'});}
 document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>page(b.dataset.page)));
-document.getElementById('copy-author-starter')?.addEventListener('click',async()=>{const text=document.getElementById('author-starter')?.textContent||'';const status=document.getElementById('copy-author-status');try{await navigator.clipboard.writeText(text);status.textContent='Copied — paste it into a file to begin editing.';}catch(e){const box=document.createElement('textarea');box.value=text;document.body.appendChild(box);box.select();document.execCommand('copy');box.remove();status.textContent='Copied — paste it into a file to begin editing.';}});
+const authorQuestions=[];
+function authorValue(id,fallback=''){return document.getElementById(id)?.value.trim()||fallback;}
+function buildAuthorSubject(){
+ const name=authorValue('author-subject-name','My Subject'),area=authorValue('author-subject-area','My Subjects'),board=authorValue('author-exam-board','GCSE practice');
+ const id='custom_'+name.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+ const paperMap=new Map(),moduleMap=new Map();
+ (authorQuestions.length?authorQuestions:[{paperTitle:authorValue('author-paper-title','Paper 1'),moduleTitle:authorValue('author-module-title','Getting started'),command:'Answer',marks:2,question:'Explain one key idea from this topic.',modelAnswer:'A clear answer covering the key idea.',evidence:[],examTip:'Answer directly and include the requested detail.'}]).forEach(q=>{if(!paperMap.has(q.paperTitle))paperMap.set(q.paperTitle,`Paper ${paperMap.size+1}`);const key=paperMap.get(q.paperTitle)+'|'+q.moduleTitle;if(!moduleMap.has(key))moduleMap.set(key,[]);moduleMap.get(key).push({command:q.command,marks:q.marks,question:q.question,modelAnswer:q.modelAnswer,evidence:[],examTip:q.examTip});});
+ const papers=[...paperMap.entries()].map(([title,id])=>({id,label:title,title,subtitle:'private practice'}));
+ const modules=[...moduleMap.entries()].map(([key,questions],i)=>{const split=key.indexOf('|'),paper=key.slice(0,split),moduleTitle=key.slice(split+1);return {paper,module:String(i+1),moduleTitle,note:{title:moduleTitle,specFocus:moduleTitle,summary:'Review the key ideas for '+moduleTitle+'.'},questions};});
+ return {config:{storageId:id||'custom_subject',subjectName:name,subjectArea:area,examBoard:board,brandIcon:authorValue('author-subject-icon','📚'),brandTitle:name+' Revision',brandSubtitle:board,breadcrumb:area+' / '+name,pageTitle:name+' Revision',papers,heroEyebrow:'Private practice',footerNote:'Original questions made on this computer. They are private and are not official exam-board material.'},meta:{title:name+' practice',qualification:board,provenance:'Original practice material created locally; not official exam-board content.'},modules};
+}
+function refreshAuthorSubject(){const pack=buildAuthorSubject();document.getElementById('author-starter').textContent=JSON.stringify(pack,null,2);const ready=authorQuestions.length>0;document.getElementById('author-save-local').disabled=!ready;document.getElementById('author-download').disabled=!ready;document.getElementById('author-question-list').innerHTML=ready?`<strong>${authorQuestions.length} question${authorQuestions.length===1?'':'s'} ready.</strong><ol>${authorQuestions.map(q=>`<li><strong>${esc(q.paperTitle)} · ${esc(q.moduleTitle)}</strong>: ${esc(q.question)}</li>`).join('')}</ol>`:'Add one or more questions above, then save your subject.';}
+document.getElementById('author-add-question')?.addEventListener('click',()=>{const question=authorValue('author-question'),modelAnswer=authorValue('author-answer'),status=document.getElementById('author-question-status');if(!question||!modelAnswer){status.textContent='Please write the question and a helpful model answer first.';status.className='local-ai-status bad';return;}authorQuestions.push({paperTitle:authorValue('author-paper-title','Paper 1'),moduleTitle:authorValue('author-module-title','Getting started'),command:'Answer',marks:Number(document.getElementById('author-marks').value),question,modelAnswer,evidence:[],examTip:authorValue('author-tip','Answer clearly and include the detail the question asks for.')});document.getElementById('author-question').value='';document.getElementById('author-answer').value='';status.textContent='Added. Change the paper or topic if needed, then write another question.';status.className='local-ai-status ok';refreshAuthorSubject();});
+document.querySelectorAll('#page-author input,#page-author select').forEach(el=>el.addEventListener('input',refreshAuthorSubject));
+document.getElementById('author-download')?.addEventListener('click',()=>{const text=JSON.stringify(buildAuthorSubject(),null,2);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:'application/json'}));a.download=(buildAuthorSubject().config.subjectName||'my-subject').toLowerCase().replace(/[^a-z0-9]+/g,'-')+'.subject.json';a.click();URL.revokeObjectURL(a.href);document.getElementById('author-save-status').textContent='Saved. Keep this file somewhere safe.';});
+document.getElementById('author-save-local')?.addEventListener('click',async()=>{const status=document.getElementById('author-save-status');status.textContent='Adding your subject…';try{const r=await fetch('/api/import',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(buildAuthorSubject())});const j=await r.json();if(!r.ok||j.error)throw new Error(j.error||r.statusText);status.textContent='Added “'+j.title+'”. Reloading your subjects…';setTimeout(()=>location.reload(),700);}catch(e){status.textContent='Could not add it here. Save a backup, then open the installed app and choose a saved subject. '+e.message;status.className='local-ai-status bad';}});
+refreshAuthorSubject();
 document.getElementById('open-subject-import')?.addEventListener('click',()=>document.getElementById('switch-subject-btn')?.click());
 function moduleKey(q){return q.paper+'|'+q.module;}
 function populateFilters(){const sel=document.getElementById('module-filter');const mods=[...new Map(QUESTIONS.map(q=>[moduleKey(q),q])).values()].sort((a,b)=>a.paper.localeCompare(b.paper)||a.module.localeCompare(b.module,undefined,{numeric:true}));sel.innerHTML='<option value="all">All modules</option>'+mods.map(q=>`<option value="${esc(moduleKey(q))}">${esc(q.paper)} · ${esc(q.module)} — ${esc(q.moduleTitle)}</option>`).join('');}
