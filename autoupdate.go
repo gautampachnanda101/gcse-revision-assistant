@@ -424,6 +424,14 @@ func managedUpgrade(restart bool) (bool, error) {
 		return false, fmt.Errorf("package manager upgrade: %s: %w", strings.TrimSpace(string(out)), err)
 	}
 	if restart {
+		current, locateErr := installedPackageExecutable()
+		if locateErr != nil {
+			return false, locateErr
+		}
+		installOut, installErr := exec.Command(current, "service", "install").CombinedOutput()
+		if installErr != nil {
+			return false, fmt.Errorf("install upgraded background service: %s: %w", strings.TrimSpace(string(installOut)), installErr)
+		}
 		return true, errProcessExitForUpgrade
 	}
 	return true, nil
@@ -454,6 +462,8 @@ func stageScoopUpgrade(exe string, restart bool) (bool, error) {
 		fmt.Sprintf(`try { Wait-Process -Id %d -Timeout 30 -ErrorAction SilentlyContinue } catch {}`, os.Getpid()) + "\n" +
 		`try {` + "\n" +
 		`  scoop update gcse-revision 2>&1 | Out-File -Append -FilePath $Log` + "\n" +
+		`  $NewExe = Join-Path (scoop prefix gcse-revision) "gcse-revision.exe"` + "\n" +
+		`  & $NewExe service install 2>&1 | Out-File -Append -FilePath $Log` + "\n" +
 		`  "Scoop upgrade completed" | Out-File -Append -FilePath $Log` + "\n" +
 		`} catch {` + "\n" +
 		`  "Scoop upgrade failed: $($_.Exception.Message)" | Out-File -Append -FilePath $Log` + "\n" +
@@ -463,8 +473,7 @@ func stageScoopUpgrade(exe string, restart bool) (bool, error) {
 		for _, arg := range os.Args[1:] {
 			args = append(args, psQuote(arg))
 		}
-		body += "try { Start-Process -FilePath " + psQuote(exe) + " -ArgumentList @(" + strings.Join(args, ",") + ") } catch { "
-		body += `"Unable to restart after Scoop upgrade: $($_.Exception.Message)" | Out-File -Append -FilePath $Log` + " }\n"
+		_ = args
 	}
 	body += "Remove-Item -LiteralPath $MyInvocation.MyCommand.Path -Force\n"
 	if err := os.WriteFile(script, []byte(body), 0o600); err != nil {
