@@ -56,6 +56,32 @@ func TestPackageManagedPaths(t *testing.T) {
 	}
 }
 
+func TestCompletionScripts(t *testing.T) {
+	for _, shell := range []string{"bash", "zsh", "fish", "powershell"} {
+		var b bytes.Buffer
+		if err := writeCompletion(&b, shell); err != nil {
+			t.Fatalf("%s completion: %v", shell, err)
+		}
+		if !strings.Contains(b.String(), "gcse-revision") || !strings.Contains(b.String(), "service") {
+			t.Fatalf("%s completion looks incomplete", shell)
+		}
+	}
+	var b bytes.Buffer
+	if err := writeCompletion(&b, "cmd"); err == nil {
+		t.Fatal("unsupported shell should fail")
+	}
+}
+
+func TestHelpTopic(t *testing.T) {
+	var b bytes.Buffer
+	if err := helpTopic(&b, "service"); err != nil {
+		t.Fatal(err)
+	}
+	if !strings.Contains(b.String(), "localhost:8765") {
+		t.Fatal("service help omitted app URL")
+	}
+}
+
 func filepathForTest() string {
 	return strings.ReplaceAll(os.TempDir(), `\`, "/") + "/gcse-revision"
 }

@@ -87,6 +87,10 @@ func main() {
 		err = serviceCommand(flag.Args(), opts)
 	case "upgrade":
 		err = upgradeCommand(context.Background())
+	case "doctor":
+		err = runDoctor(opts)
+	case "completion":
+		err = writeCompletion(os.Stdout, flag.Arg(0))
 	case "update":
 		var n int
 		n, err = syncSubjects(context.Background(), opts.repo, opts.branch, logf)
@@ -146,7 +150,11 @@ func main() {
 	case "version", "--version":
 		fmt.Println(appName, version)
 	case "help", "--help", "-h":
-		usage()
+		if flag.Arg(0) == "" {
+			usage()
+		} else {
+			err = helpTopic(os.Stdout, flag.Arg(0))
+		}
 	default:
 		usage()
 		os.Exit(2)
