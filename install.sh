@@ -26,7 +26,7 @@ trap 'rm -rf "$tmp"' EXIT
 
 fetch() { if command -v curl >/dev/null 2>&1; then curl -fsSL "$1" -o "$2"; else wget -qO "$2" "$1"; fi; }
 
-echo "Downloading $asset…"
+echo "Downloading ${asset}..."
 fetch "$base/$asset" "$tmp/$NAME"
 fetch "$base/checksums.txt" "$tmp/checksums.txt"
 want="$(grep " $asset\$" "$tmp/checksums.txt" | cut -d' ' -f1)"
@@ -45,6 +45,6 @@ case ":$PATH:" in
 esac
 
 if [ "${GCSE_REVISION_NO_RUN:-0}" != "1" ]; then
-  echo "Starting GCSE Revision… (next time just run: $NAME)"
+  echo "Starting GCSE Revision... (next time just run: $NAME)"
   if [ -r /dev/tty ]; then exec "$BIN_DIR/$NAME" </dev/tty; else exec "$BIN_DIR/$NAME"; fi
 fi
