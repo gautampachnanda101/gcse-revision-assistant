@@ -184,7 +184,7 @@ jobs:
 
   smoke:
     # The real user journey against the real release: one-command install, then fetch signed content from GitHub.
-    needs: release
+    needs: [release, publish-packages]
     strategy:
       fail-fast: false
       matrix:
@@ -196,6 +196,7 @@ jobs:
         env:
           GCSE_REVISION_NO_RUN: '1'
           GCSE_REVISION_BIN_DIR: ${{ runner.temp }}/bin
+          GCSE_REVISION_DOWNLOAD_BASE: https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}
         run: |
           curl -fsSL "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${VERSION}/install.sh" | sh
           "$GCSE_REVISION_BIN_DIR/gcse-revision" version | grep -F "${VERSION}"
@@ -206,8 +207,16 @@ jobs:
         env:
           GCSE_REVISION_NO_RUN: '1'
           GCSE_REVISION_NO_PATH: '1'
+          GCSE_REVISION_DOWNLOAD_BASE: https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}
         run: |
           irm "https://raw.githubusercontent.com/$env:GITHUB_REPOSITORY/$env:VERSION/install.ps1" | iex
           $exe = Join-Path $env:LOCALAPPDATA 'Programs\gcse-revision\gcse-revision.exe'
           $v = & $exe version; if ($v -notmatch [regex]::Escape($env:VERSION)) { throw "wrong version: $v" }
           & $exe update; if ($LASTEXITCODE -ne 0) { throw 'update failed' }
+      - name: Smoke test Homebrew formula
+        if: runner.os == 'macOS'
+        run: |
+          brew update
+          formula="${TAP_REPO/homebrew-tap/tap}/gcse-revision"
+          brew install --formula "$formula"
+          brew test --formula "$formula"
