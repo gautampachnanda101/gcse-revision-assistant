@@ -226,7 +226,8 @@ func startServer(t *testing.T, env []string, args ...string) *server {
 	}
 	t.Cleanup(func() {
 		if runtime.GOOS == "windows" {
-			_ = s.cmd.Process.Kill()
+			// Kill() leaves the private Ollama child running, which keeps its DLLs locked and breaks TempDir cleanup.
+			_ = exec.Command("taskkill", "/T", "/F", "/PID", fmt.Sprint(s.cmd.Process.Pid)).Run()
 		} else {
 			_ = s.cmd.Process.Signal(os.Interrupt)
 		}
