@@ -49,7 +49,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 </nav>
 <button class="nav-btn" id="switch-subject-btn" style="display:none"><span class="nav-icon" aria-hidden="true">🔀</span>Switch subject</button>
 <button class="theme-toggle" data-theme-toggle type="button" aria-label="Switch between light and dark mode">◐ Light / dark</button>
-<div class="sidebar-bottom"><div class="offline-tag" id="device-status">Checking this computer…</div><div>All questions and model answers are stored in this file. Your bookmarks and revision ticks are saved in this browser on this device.</div></div>
+<div class="sidebar-bottom"><div>All questions and model answers are stored in this file. Your bookmarks and revision ticks are saved in this browser on this device.</div></div>
 </aside>
 <main class="main" id="main-content">
 <header class="topbar"><div><div class="breadcrumb" id="breadcrumb">Religious Studies / Hinduism</div><div class="top-title" id="top-title">Question bank</div></div><div class="top-right"><button class="pill theme-toggle-mobile" data-theme-toggle type="button" aria-label="Switch between light and dark mode">◐ Theme</button><span class="pill" id="total-pill">331 prewritten answers</span><span class="pill offline" id="app-mode-status">Checking connection…</span></div></header>
@@ -551,7 +551,7 @@ const CLOUD_AI_PROVIDERS=[{endpoint:'https://api.openai.com/v1',label:'OpenAI',m
 function localAiLabelForBase(base){const match=LOCAL_AI_CANDIDATES.find(c=>c.base===base);return match?match.label:'your AI helper';}
 function localAiBase(){const el=document.getElementById('local-ai-url');return (el?.value||localStorage.getItem(LOCAL_AI_URL_KEY)||'http://127.0.0.1:8080').trim().replace(/\/$/,'');}
 let aiReadyForDevice=false;
-function updateDeviceStatus(){const badge=document.getElementById('device-status'),top=document.getElementById('app-mode-status');const network=navigator.onLine?'Online':'Offline ready';if(top){top.textContent=navigator.onLine?'Online · ready':'Offline · available';top.title=navigator.onLine?'The app is connected to the network; revision packs still work offline':'No network connection is needed for built-in questions and answers';}if(!badge)return;badge.textContent='● '+network+' · '+(aiReadyForDevice?'AI ready':'AI not connected');badge.title=aiReadyForDevice?'The AI helper has connected':'Questions and model answers still work without AI';}
+function updateDeviceStatus(){const top=document.getElementById('app-mode-status');if(!top)return;const ai=aiReadyForDevice?'AI ready':'AI not connected';top.textContent=(navigator.onLine?'Online':'Offline ready')+' · '+ai;top.title=aiReadyForDevice?'The AI helper has connected':'Questions and model answers still work without AI';}
 function setLocalAiStatus(message,kind=''){if(kind==='ok')aiReadyForDevice=true;else if(kind==='bad')aiReadyForDevice=false;updateDeviceStatus();document.querySelectorAll('.ai-status-target').forEach(el=>{el.textContent=message;el.className='local-ai-status ai-status-target '+kind;});}
 window.addEventListener('online',updateDeviceStatus);window.addEventListener('offline',updateDeviceStatus);updateDeviceStatus();
 async function detectLocalAiAt(base){
