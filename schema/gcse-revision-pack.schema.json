@@ -18,6 +18,9 @@
     "rubrics": {
       "$ref": "#/$defs/rubrics"
     },
+    "markingSchema": {
+      "$ref": "#/$defs/markingSchema"
+    },
     "meta": {
       "type": "object"
     },
@@ -45,6 +48,9 @@
         },
         "rubrics": {
           "$ref": "#/$defs/rubrics"
+        },
+        "markingSchema": {
+          "$ref": "#/$defs/markingSchema"
         },
         "meta": {
           "type": "object"
@@ -112,6 +118,35 @@
           "type": "string",
           "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$",
           "description": "BCP-47 language tag (e.g. fr-FR) used for text-to-speech of transcripts and model answers."
+        },
+        "referenceLinks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              }
+            }
+          }
+        },
+        "aiAuthoringInstructions": {
+          "type": "string",
+          "description": "Optional subject-specific constraints for AI-assisted model-answer drafting."
+        },
+        "markingSchemaId": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "ID of the separate marking schema used by this revision subject."
         }
       }
     },
@@ -147,6 +182,70 @@
         "type": "object",
         "additionalProperties": {
           "type": "string"
+        }
+      }
+    },
+    "markingSchema": {
+      "title": "Separate AI-readable marking rules",
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "dsl"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dsl": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rules": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              }
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "adaptable",
+                "official",
+                "custom"
+              ]
+            },
+            "sourceNotes": {
+              "type": "string"
+            }
+          }
         }
       }
     },

@@ -65,12 +65,13 @@ type packNote struct {
 }
 
 type packFile struct {
-	Config       map[string]any               `json:"config"`
-	Questions    map[string][]packQuestion    `json:"questions"`
-	Notes        []packNote                   `json:"notes"`
-	Rubrics      map[string]map[string]string `json:"rubrics,omitempty"`
-	ModuleCounts map[string]int               `json:"moduleCounts,omitempty"`
-	Meta         map[string]any               `json:"meta,omitempty"`
+	Config        map[string]any               `json:"config"`
+	Questions     map[string][]packQuestion    `json:"questions"`
+	Notes         []packNote                   `json:"notes"`
+	Rubrics       map[string]map[string]string `json:"rubrics,omitempty"`
+	MarkingSchema map[string]any               `json:"markingSchema,omitempty"`
+	ModuleCounts  map[string]int               `json:"moduleCounts,omitempty"`
+	Meta          map[string]any               `json:"meta,omitempty"`
 }
 
 func parsePack(b []byte) (packFile, error) {

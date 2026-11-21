@@ -44,6 +44,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <button class="nav-btn" data-page="notes"><span class="nav-icon" aria-hidden="true">▧</span>Module notes</button>
 <button class="nav-btn" data-page="progress"><span class="nav-icon" aria-hidden="true">▥</span>My progress</button>
 <button class="nav-btn" data-page="author"><span class="nav-icon" aria-hidden="true">✎</span>Make a subject</button>
+<button class="nav-btn" data-page="marking"><span class="nav-icon" aria-hidden="true">⚖</span>Marking rules</button>
 </nav>
 <button class="nav-btn" id="switch-subject-btn" style="display:none"><span class="nav-icon" aria-hidden="true">🔀</span>Switch subject</button>
 <button class="theme-toggle" data-theme-toggle type="button" aria-label="Switch between light and dark mode">◐ Light / dark</button>
@@ -53,7 +54,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <header class="topbar"><div><div class="breadcrumb" id="breadcrumb">Religious Studies / Hinduism</div><div class="top-title" id="top-title">Question bank</div></div><div class="top-right"><button class="pill theme-toggle-mobile" data-theme-toggle type="button" aria-label="Switch between light and dark mode">◐ Theme</button><span class="pill" id="total-pill">331 prewritten answers</span><span class="pill offline">Offline ready</span></div></header>
 <div class="content">
 <section class="page active" id="page-questions">
-<div class="hero"><div><div class="eyebrow" id="hero-eyebrow">Paper 1 &middot; Paper 2 Hinduism</div><h2>Question bank</h2><p>Choose any question. The &ldquo;View model answer&rdquo; button opens a prewritten exemplar with supporting examples and exam guidance.</p></div></div>
+<div class="hero"><div><div class="eyebrow" id="hero-eyebrow">Paper 1 &middot; Paper 2 Hinduism</div><h2>Question bank</h2><p>Choose any question. The &ldquo;View model answer&rdquo; button opens a prewritten exemplar with supporting examples and exam guidance.</p><div class="pill" id="marking-scheme-pill" style="display:inline-flex;margin-top:10px">⚖ No marking plan linked</div></div></div>
 <details class="local-ai-panel" id="local-ai-panel">
 <summary><span class="ai-summary-copy"><h3>🤖 Ask your AI helper</h3><small>Optional · machine-generated answers may be wrong</small></span></summary>
 <p>Your AI helper can read what you write and give you friendly tips. By default it runs on this computer, so nothing is sent to the internet — but a grown-up can connect a cloud AI service instead, below. You don't need either — the ready-made model answers always work without it.</p>
@@ -143,20 +144,38 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <section class="page" id="page-author">
 <div class="hero"><div><div class="eyebrow">For teachers, parents and learners</div><h2>Make your own revision subject</h2><p>Turn your own questions and model answers into a private subject on this computer. Nothing is published or shared.</p></div></div>
 <div class="author-grid">
-<article class="author-card"><h3>1. Name the subject</h3><div class="toolbar-top" style="grid-template-columns:1fr 1fr">
+<article class="author-card author-wide"><h3>1. Name the subject</h3><div class="field"><label for="author-preset">Start with a subject setup</label><select id="author-preset"></select></div><div class="toolbar-top" style="grid-template-columns:1fr 1fr">
 <div class="field"><label for="author-subject-name">Subject name</label><input id="author-subject-name" value="My Subject" maxlength="60"></div>
 <div class="field"><label for="author-subject-area">Group it with</label><input id="author-subject-area" value="My Subjects" maxlength="60"></div>
 <div class="field"><label for="author-exam-board">Course or exam board</label><input id="author-exam-board" value="GCSE practice" maxlength="80"></div>
 <div class="field"><label for="author-subject-icon">Icon or flag</label><input id="author-subject-icon" value="📚" maxlength="8"></div>
-</div><p class="local-ai-note">Use only work you wrote yourself or have permission to share with the people revising on this computer.</p></article>
+</div><div class="field"><label for="author-rule-select">Marking rules used for this subject</label><select id="author-rule-select"></select></div><div class="local-ai-note" id="author-rule-summary"></div><div class="local-ai-note" id="author-reference-links"></div><button class="mini-btn" id="author-manage-rules">Create or edit marking rules</button><p class="local-ai-note">Revision subjects and marking rules are separate. You can reuse one set of rules across several subjects.</p></article>
+<article class="author-card author-wide"><h3>Ask another AI to make a subject</h3><p class="local-ai-note">Copy this request into ChatGPT, Gemini, Copilot or another assistant. Give it your own notes or official links. Ask a teacher to check everything before learners rely on it.</p><pre class="code-sample" id="author-ai-prompt">Create one private GCSE revision subject as a single JSON file.
+
+Subject: [replace this]
+Exam board/course and year: [replace this]
+Papers and topics: [replace this]
+Number of questions: [replace this]
+Sources I may use: [paste official links and your own notes]
+
+Requirements:
+- Write original questions and model answers. Never copy a past-paper question or a third-party model answer.
+- Support any number of papers and topics.
+- Each topic needs a revision note and questions with command, marks, question, modelAnswer, evidence [], and examTip.
+- Link the subject to a separate markingSchema by id; do not pretend an adaptable plan is an official board mark scheme.
+- Clearly flag uncertain content.
+- Return valid JSON only with config, markingSchema, modules and meta.
+- The markingSchema contains id, title, status ("adaptable" or "custom"), dsl, version, rules [], references [], and sourceNotes.
+- Include a warning that AI-generated material may be wrong and needs human review.</pre><div class="author-actions"><button class="answer-button" id="copy-author-ai-prompt">Copy this request</button><button class="mini-btn" id="download-author-example">Save an example subject file</button><span class="local-ai-status" id="copy-author-ai-status" role="status"></span></div></article>
 <article class="author-card"><h3>2. Add questions to any paper or topic</h3><p class="local-ai-note">Change the paper or topic before each question. The app will group your questions automatically.</p><div class="toolbar-top" style="grid-template-columns:1fr 1fr">
 <div class="field"><label for="author-paper-title">Paper</label><input id="author-paper-title" value="Paper 1" maxlength="80"></div>
 <div class="field"><label for="author-module-title">Topic or module</label><input id="author-module-title" value="Getting started" maxlength="80"></div>
 </div><div class="field"><label for="author-question">Question</label><textarea class="response-area" id="author-question" placeholder="For example: Explain one key idea from this topic." style="min-height:90px"></textarea></div>
-<div class="field"><label for="author-answer">Helpful model answer</label><textarea class="response-area" id="author-answer" placeholder="Write the kind of answer you would be happy for a learner to read." style="min-height:90px"></textarea></div>
+<div class="field"><label for="author-answer">Helpful model answer</label><textarea class="response-area" id="author-answer" placeholder="Write the kind of answer you would be happy for a learner to read." style="min-height:90px"></textarea></div><div class="submit-row"><button class="ai-feedback-button" id="author-draft-answer">🤖 Ask AI for a draft answer</button><button class="mini-btn" id="author-open-ai">Set up the AI helper</button><span class="local-ai-status" id="author-ai-status" role="status"></span></div><p class="ai-caveat" role="note">⚠️ AI drafts are machine-generated, may be wrong, and are not vetted or endorsed. Read and correct every answer before saving it.</p>
 <div class="toolbar-top" style="grid-template-columns:1fr 1fr">
 <div class="field"><label for="author-marks">How many marks?</label><select id="author-marks"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>8</option><option>10</option><option>12</option></select></div>
-<div class="field"><label for="author-tip">Short exam tip</label><input id="author-tip" placeholder="Answer directly and give the required detail."></div>
+<div class="field"><label for="author-command">Question instruction</label><select id="author-command"><option>Answer</option><option>State</option><option>Outline</option><option>Describe</option><option>Explain</option><option>Evaluate</option><option>Compare</option><option>Discuss</option></select></div>
+<div class="field" style="grid-column:1/-1"><label for="author-tip">Short exam tip</label><input id="author-tip" placeholder="Answer directly and give the required detail."></div>
 </div><button class="answer-button" id="author-add-question" style="margin-top:12px">Add this question</button><div class="local-ai-status" id="author-question-status" role="status">No questions added yet.</div></article>
 <article class="author-card author-wide"><h3>3. Save the subject</h3><div class="local-ai-note" id="author-question-list">Add one or more questions above, then save your subject.</div><div class="author-actions"><button class="answer-button" id="author-save-local" disabled>Add it to this computer</button><button class="mini-btn" id="author-download" disabled>Save a backup to keep</button><button class="mini-btn" id="open-subject-import">Choose a saved subject</button></div><div class="local-ai-status" id="author-save-status" role="status"></div>
 <details class="setup-details"><summary>See what will be saved</summary><p class="local-ai-note">This preview is for you to check. You do not need to edit it.</p><pre class="code-sample" id="author-starter">{
@@ -198,10 +217,56 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 }</pre></details></article>
 </div>
 </section>
+<section class="page" id="page-marking">
+<div class="hero"><div><div class="eyebrow">Admin · reusable AI marking</div><h2>Marking rules</h2><p>Create and check a reusable marking plan. Any linked revision subject can give the same clear instructions to its AI helper.</p></div></div>
+<div class="author-grid">
+<article class="author-card"><h3>Choose a starting point</h3><div class="field"><label for="marking-preset">Available rules</label><select id="marking-preset"></select></div><div class="field"><label for="marking-name">Name shown to people</label><input id="marking-name" maxlength="100"></div><div class="field"><label for="marking-dsl">AI-readable marking language</label><textarea class="response-area" id="marking-dsl" style="min-height:260px" spellcheck="false"></textarea></div><div class="author-actions"><button class="answer-button" id="marking-check">Check the rules</button><button class="mini-btn" id="marking-save">Save these rules on this computer</button></div><div class="local-ai-status" id="marking-status" role="status"></div></article>
+<article class="author-card"><h3>How to write rules</h3><p class="local-ai-note">Each line has one instruction. The AI receives both this readable text and a checked structured version.</p><pre class="code-sample">SCHEME My subject
+COMMAND Explain
+MARKS 2
+AWARD 1 accurate relevant knowledge
+AWARD 1 a clear linked explanation
+REQUIRE answer the question directly
+NEVER invent a quotation or source
+FEEDBACK give one precise next step
+
+COMMAND Evaluate
+MARKS AUTO
+BAND 9-12 balanced evaluation with a supported judgement
+BAND 5-8 relevant arguments with some evaluation
+BAND 1-4 limited points or description</pre><ul><li><strong>COMMAND ALL</strong> applies to every question.</li><li><strong>MARKS AUTO</strong> uses the marks on the question.</li><li><strong>AWARD</strong> states a mark and its credit condition.</li><li><strong>BAND</strong> states a score range and what that range looks like.</li><li><strong>REQUIRE</strong>, <strong>NEVER</strong> and <strong>FEEDBACK</strong> guide the AI.</li></ul></article>
+<article class="author-card author-wide"><h3>Ask another AI to make marking rules</h3><p class="local-ai-note">Give the AI official mark-scheme links or your own checked rules. It should produce this small DSL, not a revision subject.</p><pre class="code-sample" id="marking-ai-prompt">Create a reusable marking schema in the DSL below. This is separate from revision questions.
+
+Board/course and year: [replace this]
+Question instructions and marks: [for example Explain 2 marks; Evaluate 12 marks]
+Official source links: [paste current syllabus and mark scheme links]
+My custom requirements: [replace this]
+
+Rules:
+- Return one JSON object only with id, title, status, version, dsl, rules, references and sourceNotes.
+- status must be "adaptable" for board-based guidance or "custom" for user rules.
+- Never call the result an official mark scheme unless every descriptor was directly verified.
+- DSL instructions: SCHEME, COMMAND, MARKS, AWARD, BAND, REQUIRE, NEVER, FEEDBACK.
+- Use COMMAND ALL for shared rules and MARKS AUTO to use the question's own tariff.
+- Preserve a source link and clearly say which details were not verified.
+- The parsed rules array must mirror every DSL line.
+
+Example:
+SCHEME My marking plan
+COMMAND Explain
+MARKS 2
+AWARD 1 accurate relevant knowledge
+AWARD 1 a clear linked explanation
+REQUIRE answer the exact question
+NEVER invent an official mark
+FEEDBACK give one precise next step</pre><div class="author-actions"><button class="answer-button" id="copy-marking-ai-prompt">Copy this request</button><button class="mini-btn" id="download-marking-example">Save an example marking file</button><span class="local-ai-status" id="copy-marking-ai-status" role="status"></span></div></article>
+<article class="author-card author-wide"><h3>Your saved marking rules</h3><div id="marking-saved-list" class="local-ai-note">No custom rules saved yet.</div><div class="local-ai-note">Official links help people verify a plan: the app uses the rules you choose, not an unvetted assumption about an exam board.</div><div id="marking-reference-links" class="local-ai-note"></div></article>
+</div>
+</section>
 </div>
 </main>
 </div>
-<nav class="mobile-bar" aria-label="Workspace"><button class="active" data-page="questions"><span aria-hidden="true">▤</span>Questions</button><button data-page="notes"><span aria-hidden="true">▧</span>Notes</button><button data-page="progress"><span aria-hidden="true">▥</span>Progress</button><button data-page="author"><span aria-hidden="true">✎</span>Make</button></nav>
+<nav class="mobile-bar" aria-label="Workspace"><button class="active" data-page="questions"><span aria-hidden="true">▤</span>Questions</button><button data-page="notes"><span aria-hidden="true">▧</span>Notes</button><button data-page="progress"><span aria-hidden="true">▥</span>Progress</button><button data-page="author"><span aria-hidden="true">✎</span>Make</button><button data-page="marking"><span aria-hidden="true">⚖</span>Rules</button></nav>
 <div class="subject-picker-overlay" id="subject-picker-overlay" style="display:none" role="dialog" aria-modal="true" aria-labelledby="subject-picker-title">
 <div class="subject-picker-card">
 <h3 id="subject-picker-title">Choose a subject</h3>
@@ -249,7 +314,77 @@ const APP_ID=CONFIG.storageId||'gcse_revision_app';
 const DEVICE_ID='revision_app_device_v1';
 const BACKUP_FILENAME=APP_ID.replace(/_/g,'-')+'-revision-progress.json';
 const STORE_KEY=APP_ID+'_preanswer_revision_v1';
-const TITLES={questions:'Question bank',notes:'Module notes',progress:'My progress',author:'Make a subject'};
+const TITLES={questions:'Question bank',notes:'Module notes',progress:'My progress',author:'Make a subject',marking:'Marking rules'};
+const AUTHORING_PRESETS={
+ edexcel:{label:'Edexcel Pearson · Religious Studies',name:'Religious Studies',area:'Religious Studies',board:'Edexcel GCSE-style',icon:'✝️',markingId:'edexcel-rs-generic'},
+ cambridge0490:{label:'Cambridge IGCSE Religious Studies · 0490',name:'Religious Studies',area:'Religious Studies',board:'Cambridge IGCSE 0490',icon:'🌐',markingId:'cambridge-rs-0490'},
+ aqa:{label:'AQA Religious Studies',name:'Religious Studies',area:'Religious Studies',board:'AQA GCSE',icon:'📖',markingId:'aqa-rs-generic'},
+ custom:{label:'My own setup',name:'My Subject',area:'My Subjects',board:'My course',icon:'📚',markingId:'custom-generic'}
+};
+const BUILTIN_MARKING_SCHEMAS={
+ 'edexcel-rs-generic':{id:'edexcel-rs-generic',title:'Edexcel Religious Studies · check and adapt',status:'adaptable',sourceNotes:'Built from verified public structure and kept deliberately generic. Level descriptors must be checked against the official Pearson specification and current mark schemes.',version:1,dsl:`SCHEME Edexcel Religious Studies adaptable guidance
+COMMAND ALL
+MARKS AUTO
+REQUIRE answer the exact question and use relevant subject knowledge
+REQUIRE explain ideas in language suited to the marks available
+NEVER invent quotations, teachings or official mark allocations
+FEEDBACK identify what is accurate, what is missing, and one precise next step
+
+COMMAND Explain
+MARKS AUTO
+AWARD 1 one accurate and relevant point
+AWARD 1 a clear explanation or supporting development
+
+COMMAND Evaluate
+MARKS AUTO
+BAND 9-12 balanced evaluation with a supported judgement
+BAND 5-8 relevant arguments with some evaluation
+BAND 1-4 limited points or description`,references:[{title:'Edexcel International GCSE Religious Studies course materials',url:'https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-religious-studies-2017.coursematerials.html'},{title:'Pearson past papers and mark schemes',url:'https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html'}]},
+ 'cambridge-rs-0490':{id:'cambridge-rs-0490',title:'Cambridge IGCSE Religious Studies 0490 · check and adapt',status:'adaptable',sourceNotes:'Cambridge 2025–2027 structure uses 6/6/8 part tariffs and 60% AO1 / 40% AO2. Official level wording varies by paper and series; this DSL does not reproduce descriptors verbatim.',version:1,dsl:`SCHEME Cambridge IGCSE Religious Studies 0490 adaptable guidance
+COMMAND ALL
+MARKS AUTO
+REQUIRE answer the command word and the full question
+REQUIRE use accurate Religious Studies knowledge and relevant support
+NEVER invent quotations, syllabus requirements or official mark bands
+FEEDBACK compare the response only with this configured plan and give an unofficial estimate
+
+COMMAND Explain
+MARKS AUTO
+AWARD 1 accurate knowledge
+AWARD 1 clear explanation or development
+
+COMMAND Evaluate
+MARKS AUTO
+BAND 9-12 clear, balanced evaluation with a reasoned conclusion
+BAND 5-8 relevant views with some evaluation
+BAND 1-4 limited description or unsupported assertion`,references:[{title:'Official subject page',url:'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-religious-studies-0490/'},{title:'Past papers, mark schemes and examiner reports',url:'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-religious-studies-0490/past-papers/'},{title:'2025–2027 syllabus',url:'https://www.cambridgeinternational.org/Images/663158-2025-2027-syllabus.pdf'},{title:'2028 syllabus',url:'https://www.cambridgeinternational.org/Images/744791-2028-syllabus.pdf'},{title:'Official published resources',url:'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-religious-studies-0490/published-resources/'},{title:'PastLit archive',url:'https://pastlit.com/igcse/religious-studies-0490'},{title:'Save My Exams archive',url:'https://www.savemyexams.com/igcse/religious-studies/cie/past-papers/'},{title:'Papermunch archive',url:'https://www.papermunch.org/cambridge/igcse/religious-studies-0490/'}]},
+ 'aqa-rs-generic':{id:'aqa-rs-generic',title:'AQA Religious Studies · check and adapt',status:'adaptable',sourceNotes:'AQA GCSE RS A uses 1/1/4/6/12 question structures and a separate SPaG overlay. Verify the current official level wording and SPaG rules for the selected component.',version:1,dsl:`SCHEME AQA Religious Studies adaptable guidance
+COMMAND ALL
+MARKS AUTO
+REQUIRE use accurate subject knowledge and answer the command word
+REQUIRE support religious or non-religious views where the question asks for them
+NEVER invent quotations, sources or official level descriptors
+FEEDBACK be specific, supportive and honest about missing content
+
+COMMAND Explain
+MARKS AUTO
+AWARD 1 one accurate relevant point
+AWARD 1 clear explanation or development
+
+COMMAND Evaluate
+MARKS AUTO
+BAND 9-12 well-argued evaluation with a justified conclusion
+BAND 5-8 relevant discussion with some evaluation
+BAND 1-4 limited points with little evaluation`,references:[{title:'AQA Religious Studies 8062 specification',url:'https://www.aqa.org.uk/subjects/religious-studies/gcse/religious-studies-8062/specification'},{title:'AQA scheme of assessment',url:'https://www.aqa.org.uk/subjects/religious-studies/gcse/religious-studies-8062/specification/scheme-of-assessment'}]},
+ 'custom-generic':{id:'custom-generic',title:'My custom marking plan',status:'custom',sourceNotes:'Created by the user on this computer. It is not an official board marking scheme.',version:1,dsl:`SCHEME My custom marking plan
+COMMAND ALL
+MARKS AUTO
+REQUIRE answer the exact question
+REQUIRE use accurate relevant knowledge
+NEVER invent quotations or facts
+FEEDBACK explain what is correct, what is missing and one next step`,references:[]}
+};
+const MARKING_STORE_KEY=DEVICE_ID+'_marking_schemas_v1';
 let saved=loadSaved();let typedAnswers=saved.answers;let aiFeedback=saved.feedback;let activePage='questions';let selectedPaper='all';
 const firstNotePaper=PAPERS[0]?PAPERS[0].id:((DATA.notes[0]&&DATA.notes[0].paper)||'');
 const firstNote=DATA.notes.find(n=>n.paper===firstNotePaper)||DATA.notes[0];
@@ -281,9 +416,44 @@ function looksLikeGibberish(answer){
  if(letters.length>=4&&new Set(letters.toLowerCase()).size<=2)return true;
  return false;
 }
-function page(name){activePage=name;document.querySelectorAll('.page').forEach(x=>x.classList.toggle('active',x.id==='page-'+name));document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===name));document.getElementById('top-title').textContent=TITLES[name];if(name==='questions')renderQuestions();if(name==='notes')renderNotes();if(name==='progress')renderProgress();window.scrollTo({top:0,behavior:'smooth'});}
-document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>page(b.dataset.page)));
+function page(name){activePage=name;document.querySelectorAll('.page').forEach(x=>{x.classList.toggle('active',x.id==='page-'+name);x.hidden=x.id!=='page-'+name;});document.querySelectorAll('[data-page]').forEach(x=>{x.classList.toggle('active',x.dataset.page===name);x.setAttribute('aria-current',x.dataset.page===name?'page':'false');});document.getElementById('top-title').textContent=TITLES[name];if(name==='questions')renderQuestions();if(name==='notes')renderNotes();if(name==='progress')renderProgress();window.scrollTo({top:0,behavior:'smooth'});}
+document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();page(b.dataset.page);}));
 const authorQuestions=[];
+function loadCustomMarkingSchemas(){try{return JSON.parse(localStorage.getItem(MARKING_STORE_KEY)||'{}');}catch(e){return {};}}
+function saveCustomMarkingSchemas(value){try{localStorage.setItem(MARKING_STORE_KEY,JSON.stringify(value));}catch(e){}}
+function allMarkingSchemas(){return {...BUILTIN_MARKING_SCHEMAS,...loadCustomMarkingSchemas()};}
+function parseMarkingDSL(text){
+ const result={scheme:'',rules:[],errors:[]};let current=null;
+ String(text||'').split(/\r?\n/).forEach((raw,line)=>{const value=raw.trim();if(!value||value.startsWith('#'))return;const m=value.match(/^(\S+)\s*(.*)$/),key=m?m[1].toUpperCase():'',arg=m?m[2].trim():'';
+  if(key==='SCHEME'){if(!arg)result.errors.push(`Line ${line+1}: SCHEME needs a name.`);else result.scheme=arg;}
+  else if(key==='COMMAND'){if(!arg)result.errors.push(`Line ${line+1}: COMMAND needs a question instruction.`);else{current={command:arg,marks:'AUTO',awards:[],bands:[],requires:[],never:[],feedback:[]};result.rules.push(current);}}
+  else if(key==='MARKS'){if(!current)result.errors.push(`Line ${line+1}: add COMMAND before MARKS.`);else if(arg.toUpperCase()==='AUTO')current.marks='AUTO';else if(/^\d+$/.test(arg)&&Number(arg)>0)current.marks=Number(arg);else result.errors.push(`Line ${line+1}: MARKS must be AUTO or a positive number.`);}
+  else if(key==='AWARD'){const a=arg.match(/^(\d+)\s+(.+)$/);if(!current)result.errors.push(`Line ${line+1}: add COMMAND before AWARD.`);else if(!a)result.errors.push(`Line ${line+1}: use AWARD 1 followed by the credit condition.`);else current.awards.push({points:Number(a[1]),description:a[2]});}
+  else if(key==='BAND'){const a=arg.match(/^(\d+)\s*-\s*(\d+)\s+(.+)$/);if(!current)result.errors.push(`Line ${line+1}: add COMMAND before BAND.`);else if(!a||Number(a[1])>Number(a[2]))result.errors.push(`Line ${line+1}: use BAND 5-8 followed by the description.`);else current.bands.push({min:Number(a[1]),max:Number(a[2]),description:a[3]});}
+  else if(['REQUIRE','NEVER','FEEDBACK'].includes(key)){if(!current)result.errors.push(`Line ${line+1}: add COMMAND before ${key}.`);else if(!arg)result.errors.push(`Line ${line+1}: ${key} needs some guidance.`);else current[{REQUIRE:'requires',NEVER:'never',FEEDBACK:'feedback'}[key]].push(arg);}
+  else result.errors.push(`Line ${line+1}: "${key}" is not a supported instruction.`);
+ });
+ if(!result.scheme)result.errors.push('Add one SCHEME line with a useful name.');
+ if(!result.rules.length)result.errors.push('Add at least one COMMAND block.');
+ result.rules.forEach(rule=>{const total=rule.awards.reduce((n,a)=>n+a.points,0);if(Number.isInteger(rule.marks)&&total>rule.marks)result.errors.push(`${rule.command}: AWARD totals more than ${rule.marks} marks.`);if(!rule.awards.length&&!rule.bands.length&&!rule.requires.length)result.errors.push(`${rule.command}: add an AWARD, BAND or REQUIRE line.`);});
+ return result;
+}
+function selectedMarkingSchema(){const schemas=allMarkingSchemas();return schemas[document.getElementById('author-rule-select')?.value]||schemas['custom-generic'];}
+function markingReferenceHTML(schema){const refs=schema.references||[];const note=schema.sourceNotes?`<p class="local-ai-note">${esc(schema.sourceNotes)}</p>`:'';return note+(refs.length?'<strong>Useful references:</strong> '+refs.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noreferrer">${esc(r.title)}</a>`).join(' · '):'You can add your own official links when checking this marking plan.');}
+function renderMarkingSelectors(preferred=''){
+ const schemas=allMarkingSchemas(),options=Object.values(schemas).map(s=>`<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('');
+ const author=document.getElementById('author-rule-select'),admin=document.getElementById('marking-preset');
+ if(author)author.innerHTML=options;if(admin)admin.innerHTML=options;
+ const choice=preferred&&schemas[preferred]?preferred:('edexcel-rs-generic'in schemas?'edexcel-rs-generic':Object.keys(schemas)[0]);
+ if(author)author.value=choice;if(admin)admin.value=choice;
+ const preset=document.getElementById('author-preset');if(preset&&!preset.options.length)preset.innerHTML=Object.entries(AUTHORING_PRESETS).map(([k,v])=>`<option value="${k}">${esc(v.label)}</option>`).join('');
+ document.getElementById('marking-reference-links').innerHTML=markingReferenceHTML(schemas[choice]);
+}
+function updateAuthorRuleSummary(){const schema=selectedMarkingSchema();if(!schema)return;document.getElementById('author-rule-summary').textContent=schema.title+' — '+(schema.rules?.length||parseMarkingDSL(schema.dsl).rules.length)+' rule blocks.';document.getElementById('author-reference-links').innerHTML=markingReferenceHTML(schema);refreshAuthorSubject();}
+function loadMarkingEditor(id){const schema=allMarkingSchemas()[id];if(!schema)return;document.getElementById('marking-name').value=schema.title;document.getElementById('marking-dsl').value=schema.dsl;document.getElementById('marking-status').textContent='';document.getElementById('marking-reference-links').innerHTML=markingReferenceHTML(schema);}
+function checkMarkingEditor(){const result=parseMarkingDSL(document.getElementById('marking-dsl').value),el=document.getElementById('marking-status');if(result.errors.length){el.textContent=result.errors.join(' ');el.className='local-ai-status bad';return null;}el.textContent='Checked — '+result.rules.length+' rule block'+(result.rules.length===1?'':'s')+' ready for the AI helper.';el.className='local-ai-status ok';return result;}
+function renderSavedMarkingSchemas(){const saved=loadCustomMarkingSchemas(),items=Object.values(saved);document.getElementById('marking-saved-list').innerHTML=items.length?items.map(s=>`<div class="choice-card"><div class="choice-title">${esc(s.title)}</div><div class="choice-desc">${esc(s.id)} · saved on this computer</div><button class="mini-btn" data-edit-marking="${esc(s.id)}">Open and edit</button></div>`).join(''):'No custom rules saved yet.';}
+function applyAuthorPreset(key){const p=AUTHORING_PRESETS[key]||AUTHORING_PRESETS.edexcel;document.getElementById('author-subject-name').value=p.name;document.getElementById('author-subject-area').value=p.area;document.getElementById('author-exam-board').value=p.board;document.getElementById('author-subject-icon').value=p.icon;document.getElementById('author-rule-select').value=p.markingId;updateAuthorRuleSummary();}
 function authorValue(id,fallback=''){return document.getElementById(id)?.value.trim()||fallback;}
 function buildAuthorSubject(){
  const name=authorValue('author-subject-name','My Subject'),area=authorValue('author-subject-area','My Subjects'),board=authorValue('author-exam-board','GCSE practice');
@@ -292,14 +462,32 @@ function buildAuthorSubject(){
  (authorQuestions.length?authorQuestions:[{paperTitle:authorValue('author-paper-title','Paper 1'),moduleTitle:authorValue('author-module-title','Getting started'),command:'Answer',marks:2,question:'Explain one key idea from this topic.',modelAnswer:'A clear answer covering the key idea.',evidence:[],examTip:'Answer directly and include the requested detail.'}]).forEach(q=>{if(!paperMap.has(q.paperTitle))paperMap.set(q.paperTitle,`Paper ${paperMap.size+1}`);const key=paperMap.get(q.paperTitle)+'|'+q.moduleTitle;if(!moduleMap.has(key))moduleMap.set(key,[]);moduleMap.get(key).push({command:q.command,marks:q.marks,question:q.question,modelAnswer:q.modelAnswer,evidence:[],examTip:q.examTip});});
  const papers=[...paperMap.entries()].map(([title,id])=>({id,label:title,title,subtitle:'private practice'}));
  const modules=[...moduleMap.entries()].map(([key,questions],i)=>{const split=key.indexOf('|'),paper=key.slice(0,split),moduleTitle=key.slice(split+1);return {paper,module:String(i+1),moduleTitle,note:{title:moduleTitle,specFocus:moduleTitle,summary:'Review the key ideas for '+moduleTitle+'.'},questions};});
- return {config:{storageId:id||'custom_subject',subjectName:name,subjectArea:area,examBoard:board,brandIcon:authorValue('author-subject-icon','📚'),brandTitle:name+' Revision',brandSubtitle:board,breadcrumb:area+' / '+name,pageTitle:name+' Revision',papers,heroEyebrow:'Private practice',footerNote:'Original questions made on this computer. They are private and are not official exam-board material.'},meta:{title:name+' practice',qualification:board,provenance:'Original practice material created locally; not official exam-board content.'},modules};
+ const marking=selectedMarkingSchema(),parsed=parseMarkingDSL(marking.dsl);
+ const markingSchema={id:marking.id,title:marking.title,status:marking.status||'custom',sourceNotes:marking.sourceNotes||'',version:marking.version||1,dsl:marking.dsl,rules:parsed.errors.length?[]:parsed.rules,references:marking.references||[]};
+ return {config:{storageId:id||'custom_subject',subjectName:name,subjectArea:area,examBoard:board,brandIcon:authorValue('author-subject-icon','📚'),brandTitle:name+' Revision',brandSubtitle:board,breadcrumb:area+' / '+name,pageTitle:name+' Revision',papers,heroEyebrow:'Private practice',footerNote:'Original questions made on this computer. They are private and are not official exam-board material.',markingSchemaId:marking.id,referenceLinks:marking.references||[],aiAuthoringInstructions:'Draft original material only. Follow the linked marking rules exactly and do not copy or invent official mark schemes.'},markingSchema,meta:{title:name+' practice',qualification:board,provenance:'Original practice material created locally; not official exam-board content.'},modules};
 }
 function refreshAuthorSubject(){const pack=buildAuthorSubject();document.getElementById('author-starter').textContent=JSON.stringify(pack,null,2);const ready=authorQuestions.length>0;document.getElementById('author-save-local').disabled=!ready;document.getElementById('author-download').disabled=!ready;document.getElementById('author-question-list').innerHTML=ready?`<strong>${authorQuestions.length} question${authorQuestions.length===1?'':'s'} ready.</strong><ol>${authorQuestions.map(q=>`<li><strong>${esc(q.paperTitle)} · ${esc(q.moduleTitle)}</strong>: ${esc(q.question)}</li>`).join('')}</ol>`:'Add one or more questions above, then save your subject.';}
-document.getElementById('author-add-question')?.addEventListener('click',()=>{const question=authorValue('author-question'),modelAnswer=authorValue('author-answer'),status=document.getElementById('author-question-status');if(!question||!modelAnswer){status.textContent='Please write the question and a helpful model answer first.';status.className='local-ai-status bad';return;}authorQuestions.push({paperTitle:authorValue('author-paper-title','Paper 1'),moduleTitle:authorValue('author-module-title','Getting started'),command:'Answer',marks:Number(document.getElementById('author-marks').value),question,modelAnswer,evidence:[],examTip:authorValue('author-tip','Answer clearly and include the detail the question asks for.')});document.getElementById('author-question').value='';document.getElementById('author-answer').value='';status.textContent='Added. Change the paper or topic if needed, then write another question.';status.className='local-ai-status ok';refreshAuthorSubject();});
+document.getElementById('author-add-question')?.addEventListener('click',()=>{const question=authorValue('author-question'),modelAnswer=authorValue('author-answer'),status=document.getElementById('author-question-status');if(!question||!modelAnswer){status.textContent='Please write the question and a helpful model answer first.';status.className='local-ai-status bad';return;}authorQuestions.push({paperTitle:authorValue('author-paper-title','Paper 1'),moduleTitle:authorValue('author-module-title','Getting started'),command:document.getElementById('author-command').value,marks:Number(document.getElementById('author-marks').value),question,modelAnswer,evidence:[],examTip:authorValue('author-tip','Answer clearly and include the detail the question asks for.')});document.getElementById('author-question').value='';document.getElementById('author-answer').value='';status.textContent='Added. Change the paper or topic if needed, then write another question.';status.className='local-ai-status ok';refreshAuthorSubject();});
 document.querySelectorAll('#page-author input,#page-author select').forEach(el=>el.addEventListener('input',refreshAuthorSubject));
 document.getElementById('author-download')?.addEventListener('click',()=>{const text=JSON.stringify(buildAuthorSubject(),null,2);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:'application/json'}));a.download=(buildAuthorSubject().config.subjectName||'my-subject').toLowerCase().replace(/[^a-z0-9]+/g,'-')+'.subject.json';a.click();URL.revokeObjectURL(a.href);document.getElementById('author-save-status').textContent='Saved. Keep this file somewhere safe.';});
 document.getElementById('author-save-local')?.addEventListener('click',async()=>{const status=document.getElementById('author-save-status');status.textContent='Adding your subject…';try{const r=await fetch('/api/import',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(buildAuthorSubject())});const j=await r.json();if(!r.ok||j.error)throw new Error(j.error||r.statusText);status.textContent='Added “'+j.title+'”. Reloading your subjects…';setTimeout(()=>location.reload(),700);}catch(e){status.textContent='Could not add it here. Save a backup, then open the installed app and choose a saved subject. '+e.message;status.className='local-ai-status bad';}});
 refreshAuthorSubject();
+document.getElementById('author-preset').addEventListener('change',e=>applyAuthorPreset(e.target.value));
+document.getElementById('author-rule-select').addEventListener('change',updateAuthorRuleSummary);
+document.getElementById('author-manage-rules').addEventListener('click',()=>page('marking'));
+document.getElementById('author-open-ai').addEventListener('click',()=>{document.getElementById('local-ai-panel').open=true;document.getElementById('local-ai-panel').scrollIntoView({behavior:'smooth',block:'center'});});
+document.getElementById('author-draft-answer').addEventListener('click',async e=>{const q=authorValue('author-question'),status=document.getElementById('author-ai-status'),button=e.currentTarget;if(!q){status.textContent='Write the question first.';status.className='local-ai-status bad';return;}const pack=buildAuthorSubject(),marking=pack.markingSchema,command=document.getElementById('author-command').value,marks=document.getElementById('author-marks').value;button.disabled=true;button.textContent='Thinking…';status.textContent='Drafting from your question and marking rules…';try{const prompt=`Draft an original GCSE-style model answer for a human author to review. Subject: ${pack.config.subjectName}. Board/course: ${pack.config.examBoard}. Command: ${command}. Marks: ${marks}. Question: ${q}.\\n\\nUse only this configured marking plan:\\n${marking.dsl}\\n\\nAlso obey: ${pack.config.aiAuthoringInstructions}\\nReturn only the learner-facing model answer, with no meta-commentary. Do not claim the draft is official or copy a past-paper mark scheme.`;const text=await sendAiChat([{role:'system',content:'You help teachers draft original revision material. You follow only the configured marking DSL and never claim a generated answer is an official mark scheme.'},{role:'user',content:prompt}]);document.getElementById('author-answer').value=text;status.textContent='Draft added. Please review and correct it before saving.';status.className='local-ai-status ok';}catch(err){status.textContent='Your AI helper is not ready. '+err.message;status.className='local-ai-status bad';}finally{button.disabled=false;button.textContent='🤖 Ask AI for a draft answer';}});
+document.getElementById('marking-check').addEventListener('click',checkMarkingEditor);
+document.getElementById('marking-preset').addEventListener('change',e=>loadMarkingEditor(e.target.value));
+document.getElementById('marking-save').addEventListener('click',()=>{const parsed=checkMarkingEditor();if(!parsed)return;const title=document.getElementById('marking-name').value.trim()||'My marking rules';const id='custom_marking_'+title.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');const current=document.getElementById('marking-preset').value,base=allMarkingSchemas()[current];const schema={id,title,version:1,status:'custom',sourceNotes:'Custom rules saved on this computer after a user check. Not an official exam-board marking scheme.',dsl:document.getElementById('marking-dsl').value,rules:parsed.rules,references:base?.references||[]};const saved=loadCustomMarkingSchemas();saved[id]=schema;saveCustomMarkingSchemas(saved);renderMarkingSelectors(id);renderSavedMarkingSchemas();loadMarkingEditor(id);updateAuthorRuleSummary();document.getElementById('marking-status').textContent='Saved on this computer and ready to link to a subject.';});
+document.getElementById('marking-saved-list').addEventListener('click',e=>{const b=e.target.closest('[data-edit-marking]');if(!b)return;document.getElementById('marking-preset').value=b.dataset.editMarking;loadMarkingEditor(b.dataset.editMarking);});
+async function copyFriendlyText(sourceId,statusId){const text=document.getElementById(sourceId).textContent,status=document.getElementById(statusId);try{await navigator.clipboard.writeText(text);status.textContent='Copied. Paste it into your AI assistant.';status.className='local-ai-status ok';}catch(e){status.textContent='Select the text in the box and copy it manually.';status.className='local-ai-status';}}
+function downloadFriendlyFile(name,text){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:'application/json'}));a.download=name;a.click();URL.revokeObjectURL(a.href);}
+document.getElementById('copy-author-ai-prompt').addEventListener('click',()=>copyFriendlyText('author-ai-prompt','copy-author-ai-status'));
+document.getElementById('copy-marking-ai-prompt').addEventListener('click',()=>copyFriendlyText('marking-ai-prompt','copy-marking-ai-status'));
+document.getElementById('download-author-example').addEventListener('click',()=>downloadFriendlyFile('example-revision-subject.json',JSON.stringify(buildAuthorSubject(),null,2)));
+document.getElementById('download-marking-example').addEventListener('click',()=>downloadFriendlyFile('example-marking-rules.json',JSON.stringify(allMarkingSchemas()['custom-generic'],null,2)));
+renderMarkingSelectors();renderSavedMarkingSchemas();applyAuthorPreset('edexcel');loadMarkingEditor('edexcel-rs-generic');
 document.getElementById('open-subject-import')?.addEventListener('click',()=>document.getElementById('switch-subject-btn')?.click());
 function moduleKey(q){return q.paper+'|'+q.module;}
 function populateFilters(){const sel=document.getElementById('module-filter');const mods=[...new Map(QUESTIONS.map(q=>[moduleKey(q),q])).values()].sort((a,b)=>a.paper.localeCompare(b.paper)||a.module.localeCompare(b.module,undefined,{numeric:true}));sel.innerHTML='<option value="all">All modules</option>'+mods.map(q=>`<option value="${esc(moduleKey(q))}">${esc(q.paper)} · ${esc(q.module)} — ${esc(q.moduleTitle)}</option>`).join('');}
@@ -310,7 +498,7 @@ function speakable(text){return String(text||'').split(/\n*\(English translation
 function listenButton(q,what){if(!(q.audio&&what!=='answer')&&!(CONFIG.speechLang&&'speechSynthesis' in window))return'';return `<div class="submit-row" style="margin:0 0 10px"><button class="mini-btn" data-listen="${esc(q.id)}" data-what="${what}" aria-label="Listen">🔊 Listen</button><span class="submit-hint">${(q.audio&&what!=='answer')?'Recorded audio':'Computer-generated voice — exam audio will sound different'}</span></div>`;}
 function playQuestionAudio(id,what){const q=QUESTIONS.find(x=>x.id===id);if(!q)return;if(q.audio&&what!=='answer'){new Audio('audio/'+CONFIG.storageId.replace(/_/g,'-')+'/'+encodeURIComponent(q.audio)).play();return;}
  if(!('speechSynthesis' in window)||!CONFIG.speechLang)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(speakable(what==='answer'?q.modelAnswer:q.question));u.lang=CONFIG.speechLang;u.rate=.9;speechSynthesis.speak(u);}
-function renderQuestions(){updateStats();const list=document.getElementById('question-list');const qs=filteredQuestions();document.getElementById('result-count').textContent=`Showing ${qs.length} of ${QUESTIONS.length} questions`;if(!qs.length){list.innerHTML='<div class="empty"><strong>No questions found</strong>Try clearing a filter or changing your search.</div>';return;}list.innerHTML=qs.map((q,i)=>{const open=expandedId===q.id;const paperIdx=PAPERS.findIndex(p=>p.id===q.paper);const paperTag='p'+(paperIdx>=0?paperIdx%4:0);const answer=answerVisible.has(q.id);return `<article class="q-card ${open?'open':''}" id="card-${esc(q.id)}"><button class="q-trigger" data-open="${esc(q.id)}" aria-expanded="${open}"><span class="q-number">${String(i+1).padStart(2,'0')}</span><span class="q-main"><span class="q-meta"><span class="tag ${paperTag}">${esc(q.paper)}</span><span class="tag">Module ${esc(q.module)}</span><span class="tag mark">${q.marks} marks</span></span><span class="q-text">${esc(q.question)}</span><span class="q-sub">${esc(q.moduleTitle)} · Question booklet p. ${q.sourcePage||'—'}</span></span><span class="q-right"><span class="chevron" aria-hidden="true">⌄</span></span></button>${open?`<div class="q-body"><div class="response-heading" id="response-heading-${esc(q.id)}">Your answer</div><textarea class="response-area" data-response="${esc(q.id)}" aria-labelledby="response-heading-${esc(q.id)}" placeholder="Write your answer here...">${esc(typedAnswers[q.id]||'')}</textarea>${listenButton(q,'question')}<div class="submit-row"><button class="answer-button" data-submit="${esc(q.id)}">Submit answer &amp; view model answer</button><span class="submit-hint">Your answer is for practice only; it is not automatically marked.</span></div><div class="submit-row" style="margin-top:10px"><button class="ai-feedback-button" data-ai-feedback="${esc(q.id)}">🤖 Ask my AI helper for tips</button><span class="submit-hint">Optional &amp; free · stays on this computer</span></div><div class="ai-feedback" id="ai-feedback-${esc(q.id)}" aria-live="polite">${formatAiFeedback(aiFeedback[q.id]||'')}</div><div class="ai-caveat" role="note">⚠️ Answers from the AI helper are machine-generated, may be wrong, and are not vetted or endorsed by the authors.</div><div class="question-context"><span class="small-muted">You can also reveal the exemplar without writing an answer.</span><button class="mini-btn" data-answer="${esc(q.id)}">${answer?'Hide model answer':'View model answer'}</button></div>${answer?answerMarkup(q):''}<div class="q-actions"><button class="mini-btn ${saved.revised[q.id]?'active':''}" data-revised="${esc(q.id)}">${saved.revised[q.id]?'✓ Revised':'Mark as revised'}</button><button class="mini-btn ${saved.bookmarks[q.id]?'active':''}" data-bookmark="${esc(q.id)}">${saved.bookmarks[q.id]?'★ Bookmarked':'☆ Bookmark question'}</button></div></div>`:''}</article>`;}).join('');}
+function renderQuestions(){updateStats();const list=document.getElementById('question-list');const qs=filteredQuestions();document.getElementById('result-count').textContent=`Showing ${qs.length} of ${QUESTIONS.length} questions`;if(!qs.length){list.innerHTML='<div class="empty"><strong>No questions found</strong>Try clearing a filter or changing your search.</div>';return;}list.innerHTML=qs.map((q,i)=>{const open=expandedId===q.id;const paperIdx=PAPERS.findIndex(p=>p.id===q.paper);const paperTag='p'+(paperIdx>=0?paperIdx%4:0);const answer=answerVisible.has(q.id);const marking=DATA.markingSchema;const aiLabel=marking?'🤖 Ask AI to mark my answer':'🤖 Ask my AI helper for tips';const aiHint=marking?`Uses “${esc(marking.title)}” · unofficial estimate`:'Optional feedback · no official marking plan linked';return `<article class="q-card ${open?'open':''}" id="card-${esc(q.id)}"><button class="q-trigger" data-open="${esc(q.id)}" aria-expanded="${open}"><span class="q-number">${String(i+1).padStart(2,'0')}</span><span class="q-main"><span class="q-meta"><span class="tag ${paperTag}">${esc(q.paper)}</span><span class="tag">Module ${esc(q.module)}</span><span class="tag mark">${q.marks} marks</span></span><span class="q-text">${esc(q.question)}</span><span class="q-sub">${esc(q.moduleTitle)} · Question booklet p. ${q.sourcePage||'—'}</span></span><span class="q-right"><span class="chevron" aria-hidden="true">⌄</span></span></button>${open?`<div class="q-body"><div class="response-heading" id="response-heading-${esc(q.id)}">Your answer</div><textarea class="response-area" data-response="${esc(q.id)}" aria-labelledby="response-heading-${esc(q.id)}" placeholder="Write your answer here...">${esc(typedAnswers[q.id]||'')}</textarea>${listenButton(q,'question')}<div class="submit-row"><button class="answer-button" data-submit="${esc(q.id)}">Submit answer &amp; view model answer</button><span class="submit-hint">Your answer is for practice only; it is not automatically marked.</span></div><div class="submit-row" style="margin-top:10px"><button class="ai-feedback-button" data-ai-feedback="${esc(q.id)}">${aiLabel}</button><span class="submit-hint">${aiHint}</span></div><div class="ai-feedback" id="ai-feedback-${esc(q.id)}" aria-live="polite">${formatAiFeedback(aiFeedback[q.id]||'')}</div><div class="ai-caveat" role="note">⚠️ AI marking is machine-generated, may be wrong, and is not vetted or endorsed. The result is an unofficial estimate, not an exam-board mark.</div><div class="question-context"><span class="small-muted">You can also reveal the exemplar without writing an answer.</span><button class="mini-btn" data-answer="${esc(q.id)}">${answer?'Hide model answer':'View model answer'}</button></div>${answer?answerMarkup(q):''}<div class="q-actions"><button class="mini-btn ${saved.revised[q.id]?'active':''}" data-revised="${esc(q.id)}">${saved.revised[q.id]?'✓ Revised':'Mark as revised'}</button><button class="mini-btn ${saved.bookmarks[q.id]?'active':''}" data-bookmark="${esc(q.id)}">${saved.bookmarks[q.id]?'★ Bookmarked':'☆ Bookmark question'}</button></div></div>`:''}</article>`;}).join('');}
 function selectPaper(p){selectedPaper=p;document.querySelectorAll('[data-paper]').forEach(b=>b.classList.toggle('active',b.dataset.paper===p));document.getElementById('module-filter').value='all';expandedId=null;renderQuestions();}
 function renderPaperTabs(){const el=document.getElementById('paper-tabs');if(!el)return;el.innerHTML='<button class="tab active" data-paper="all">All papers</button>'+PAPERS.map(p=>`<button class="tab" data-paper="${esc(p.id)}">${esc(p.label||p.id)}${p.title?' · '+esc(p.title):''}</button>`).join('');}
 function renderNotesPaperOptions(){const sel=document.getElementById('notes-paper');if(!sel)return;sel.innerHTML=PAPERS.map(p=>`<option value="${esc(p.id)}">${esc(p.label||p.id)}</option>`).join('');}
@@ -537,9 +725,16 @@ async function requestLocalFeedback(id,button){const q=QUESTIONS.find(x=>x.id===
 Student answer:
 ${answer}
 
+Configured marking schema:
+${DATA.markingSchema?.dsl||CONFIG.markingScheme||'No board-specific schema is configured. Give formative feedback without inventing official marking criteria.'}
+
+Parsed marking rules (machine-readable):
+${JSON.stringify(DATA.markingSchema?.rules||[],null,2)}
+Schema status: ${DATA.markingSchema?.status||'custom'}. ${DATA.markingSchema?.sourceNotes||''}
+
 First, check whether this is a genuine attempt to answer the question — not empty, not random/keyboard-mash text, not an unrelated copy of the question, and not obviously off-topic. If it is not a genuine attempt, say so plainly in one or two sentences and ask the student to write a real answer; do not invent strengths, marks, or an improvement plan for it, and stop there.
 
-Only if it is a genuine attempt, give concise, useful formative feedback with: (1) what is accurate and relevant, (2) what is missing or needs correcting, (3) one or two specific ways to improve, and (4) an indicative mark range only if you can justify it. Match the demand of the mark allocation and ${CONFIG.examBoard} style. Do not invent quotations or teachings. Be explicit that this is an unofficial estimate, not an official ${CONFIG.examBoard} mark. Do not reveal the prewritten model answer verbatim. Never praise an answer that has no real content.`;const text=await sendAiChat([{role:'system',content:`You provide accurate, age-appropriate, constructive GCSE-level ${CONFIG.subjectArea} feedback. You are honest, not just agreeable: you never award marks or praise to an answer that is not a genuine attempt.`},{role:'user',content:prompt}]);aiFeedback[id]=text;}catch(e){aiFeedback[id]="Your AI helper isn't connected right now ("+e.message+"). Click \"🔍 Find my AI helper\" above, or just use the ready-made model answer instead.";}finally{saveSaved();renderQuestions();}}
+Only if it is a genuine attempt, give concise, useful formative feedback with: (1) what is accurate and relevant, (2) what is missing or needs correcting, (3) one or two specific ways to improve, and (4) an indicative mark range only if the configured marking schema clearly supports it. Prefer the exact configured rules over generic examiner knowledge. Treat adaptable rules as user-defined guidance, never as an official exam-board mark scheme. Do not invent quotations or teachings. Be explicit that any estimate is unofficial and machine-generated. Do not reveal the prewritten model answer verbatim. Never praise an answer that has no real content.`;const text=await sendAiChat([{role:'system',content:`You provide accurate, age-appropriate, constructive GCSE-level ${CONFIG.subjectArea} feedback. The configured marking schema is authoritative for this conversation: do not replace it with remembered board rules. You are honest, not just agreeable: you never award marks or praise to an answer that is not a genuine attempt.`},{role:'user',content:prompt}]);aiFeedback[id]=text;}catch(e){aiFeedback[id]="Your AI helper isn't connected right now ("+e.message+"). Click \"🔍 Find my AI helper\" above, or just use the ready-made model answer instead.";}finally{saveSaved();renderQuestions();}}
 
 function formatNoteSummary(value){
  const skip=new Set(['Idea','Meaning','Term','Example','Significance','Type','Stage','Role','Name','Date','Length','Character','Teaching','Path','Feature','Features','Advantages','Disadvantages',...PAPERS.map(p=>p.label||p.id)]);
@@ -579,6 +774,9 @@ function applyConfig(){
  setText('breadcrumb',CONFIG.breadcrumb);
  setText('hero-eyebrow',CONFIG.heroEyebrow);
  setText('footer-note',CONFIG.footerNote);
+ const marking=DATA.markingSchema;
+ const markingPill=document.getElementById('marking-scheme-pill');
+ if(markingPill)markingPill.textContent=marking?'⚖ '+marking.title+' · '+(marking.status==='official'?'official':'check/adapt'):'⚖ No marking plan linked';
  const iconEl=document.querySelector('.brand-icon');if(iconEl)iconEl.textContent=defaultBrandIcon();
  setText('notes-hero-eyebrow',`${DATA.notes.length} modules · full course coverage`);
 }

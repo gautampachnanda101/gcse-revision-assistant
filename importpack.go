@@ -138,10 +138,11 @@ func readSourceFS(fsys fs.FS) (packFile, []moduleSource, error) {
 }
 
 type bundleFile struct {
-	Config  map[string]any               `json:"config"`
-	Rubrics map[string]map[string]string `json:"rubrics,omitempty"`
-	Meta    map[string]any               `json:"meta,omitempty"`
-	Modules []moduleSource               `json:"modules"`
+	Config        map[string]any               `json:"config"`
+	Rubrics       map[string]map[string]string `json:"rubrics,omitempty"`
+	MarkingSchema map[string]any               `json:"markingSchema,omitempty"`
+	Meta          map[string]any               `json:"meta,omitempty"`
+	Modules       []moduleSource               `json:"modules"`
 }
 
 func readSourceBundle(b []byte) (packFile, []moduleSource, error) {
@@ -152,7 +153,7 @@ func readSourceBundle(b []byte) (packFile, []moduleSource, error) {
 	if err := json.Unmarshal(b, &bf); err != nil {
 		return packFile{}, nil, err
 	}
-	return packFile{Config: bf.Config, Rubrics: bf.Rubrics, Meta: bf.Meta}, bf.Modules, nil
+	return packFile{Config: bf.Config, Rubrics: bf.Rubrics, MarkingSchema: bf.MarkingSchema, Meta: bf.Meta}, bf.Modules, nil
 }
 
 func readSourceZip(b []byte) (packFile, []moduleSource, packAudio, error) {
@@ -449,8 +450,12 @@ func exportPack(src, dst string) error {
 	for _, k := range order {
 		modules = append(modules, byModule[k])
 	}
-	out, err := json.MarshalIndent(map[string]any{"$schema": "schema/gcse-revision-pack.schema.json",
-		"config": p.Config, "rubrics": p.Rubrics, "meta": p.Meta, "modules": modules}, "", " ")
+	exported := map[string]any{"$schema": "schema/gcse-revision-pack.schema.json",
+		"config": p.Config, "rubrics": p.Rubrics, "meta": p.Meta, "modules": modules}
+	if p.MarkingSchema != nil {
+		exported["markingSchema"] = p.MarkingSchema
+	}
+	out, err := json.MarshalIndent(exported, "", " ")
 	if err != nil {
 		return err
 	}
@@ -476,12 +481,16 @@ func exportAudioZip(p packFile, modules []*exportModule, dst string) error {
 			}
 		}
 	}
-	base, err := json.MarshalIndent(map[string]any{
+	basePack := map[string]any{
 		"$schema": "../../schema/gcse-revision-pack.schema.json",
 		"config":  p.Config,
 		"rubrics": p.Rubrics,
 		"meta":    p.Meta,
-	}, "", " ")
+	}
+	if p.MarkingSchema != nil {
+		basePack["markingSchema"] = p.MarkingSchema
+	}
+	base, err := json.MarshalIndent(basePack, "", " ")
 	if err != nil {
 		return err
 	}
