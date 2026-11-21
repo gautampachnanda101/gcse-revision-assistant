@@ -138,6 +138,7 @@ jobs:
             end
 
             def post_install
+              # One-time bridge for older running services; current versions also self-reconcile.
               system "#{bin}/gcse-revision", "service", "ensure"
             end
 
