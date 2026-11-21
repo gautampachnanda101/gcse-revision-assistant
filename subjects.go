@@ -195,6 +195,13 @@ func syncSubjects(ctx context.Context, repo, branch string, log func(string, ...
 	if err != nil {
 		return 0, err
 	}
+	sig, err := httpGet(ctx, rawURL(repo, branch, sigFile), 4<<10)
+	if err != nil {
+		return 0, fmt.Errorf("content signature: %w", err)
+	}
+	if err := verifyManifestSig(mb, sig); err != nil {
+		return 0, err
+	}
 	remote, err := parseManifest(mb)
 	if err != nil {
 		return 0, err

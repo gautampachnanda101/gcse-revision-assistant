@@ -23,7 +23,7 @@ To start it again later, run `gcse-revision`.
 ## What the program does
 
 - **Serves the app** at `http://127.0.0.1:8765`. It's only reachable from your own computer.
-- **Keeps subjects up to date.** At start-up it checks this repo for new or updated subject packs and downloads them. Each pack is checked against its SHA-256 before use. Offline, it uses the subjects it already has: everything works without internet once installed.
+- **Keeps subjects up to date without app updates.** At start-up it checks this repo's `content` branch for new or updated subject packs and downloads them. That branch is signed: CI signs the subject list (which records every pack's SHA-256) with a key only the maintainer holds, and the app rejects anything that doesn't verify against the public key built into it. Offline, it uses the subjects it already has, so everything works without internet once installed.
 - **Sets up the AI helper automatically.** It uses [Ollama](https://ollama.com) if it's already installed. If not, it downloads the official Ollama release into its own folder, with checksums verified and no admin rights needed. It then starts Ollama and downloads a model sized to your computer's memory:
 
   | RAM | Model |
@@ -70,6 +70,30 @@ There are two ways to use it:
   ```
 
   The resulting binary includes those subjects and works fully offline. Don't redistribute it, and don't publish it as a release.
+
+## Publishing content (maintainers)
+
+Merge a subject pack into `main`. The **Publish content** workflow then:
+
+1. validates it;
+2. signs `subjects.js`;
+3. force-pushes the signed set to the `content` branch;
+4. checks that a fresh install downloads and verifies exactly that content from GitHub.
+
+Installed apps pick it up the next time they start. One-time set-up of the signing key: `sh scripts/setup-signing.sh`.
+
+## Tests
+
+- `go test ./...` runs the unit tests.
+- `go test -tags e2e -v ./...` runs the end-to-end tests. They build the real binary and test:
+  - signed sync, including rejection of a tampered list or pack;
+  - offline serving of downloaded and private subjects;
+  - local-only access rules;
+  - the page rendered in headless Chrome;
+  - the one-command installer, including rejection of a bad checksum.
+- Add `E2E_AI=1` to the end-to-end tests to also download a private Ollama and a tiny model, then chat through the app's proxy.
+
+CI runs all of this on Linux, macOS and Windows. After each release, it installs the real release on all three operating systems with the one-line command.
 
 ## Building from source
 

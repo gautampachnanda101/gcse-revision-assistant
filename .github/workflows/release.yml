@@ -12,6 +12,9 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
+      - name: Refuse to release without a content signing key
+        run: |
+          if grep -q 'REPLACE_WITH_PUBLIC_KEY' signing.go; then echo "::error::run scripts/setup-signing.sh first"; exit 1; fi
       - run: go test ./...
       - name: Build
         run: |
@@ -27,3 +30,33 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release create "$GITHUB_REF_NAME" dist/* --title "$GITHUB_REF_NAME" --generate-notes
+
+  smoke:
+    # The real user journey against the real release: one-command install, then fetch signed content from GitHub.
+    needs: release
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Install (macOS/Linux)
+        if: runner.os != 'Windows'
+        env:
+          GCSE_REVISION_NO_RUN: '1'
+          GCSE_REVISION_BIN_DIR: ${{ runner.temp }}/bin
+        run: |
+          curl -fsSL "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/install.sh" | sh
+          "$GCSE_REVISION_BIN_DIR/gcse-revision" version | grep -F "${GITHUB_REF_NAME}"
+          "$GCSE_REVISION_BIN_DIR/gcse-revision" update
+      - name: Install (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        env:
+          GCSE_REVISION_NO_RUN: '1'
+          GCSE_REVISION_NO_PATH: '1'
+        run: |
+          irm "https://raw.githubusercontent.com/$env:GITHUB_REPOSITORY/$env:GITHUB_REF_NAME/install.ps1" | iex
+          $exe = Join-Path $env:LOCALAPPDATA 'Programs\gcse-revision\gcse-revision.exe'
+          $v = & $exe version; if ($v -notmatch [regex]::Escape($env:GITHUB_REF_NAME)) { throw "wrong version: $v" }
+          & $exe update; if ($LASTEXITCODE -ne 0) { throw 'update failed' }

@@ -8,7 +8,7 @@ $Repo = if ($env:GCSE_REVISION_REPO) { $env:GCSE_REVISION_REPO } else { 'gautamp
 $Name = 'gcse-revision'
 $Arch = if ($env:PROCESSOR_ARCHITECTURE -eq 'ARM64') { 'arm64' } else { 'amd64' }
 $Asset = "$Name-windows-$Arch.exe"
-$Base = "https://github.com/$Repo/releases/latest/download"
+$Base = if ($env:GCSE_REVISION_DOWNLOAD_BASE) { $env:GCSE_REVISION_DOWNLOAD_BASE } else { "https://github.com/$Repo/releases/latest/download" }
 $Dir = Join-Path $env:LOCALAPPDATA "Programs\$Name"
 New-Item -ItemType Directory -Force -Path $Dir | Out-Null
 $Exe = Join-Path $Dir "$Name.exe"
@@ -24,7 +24,7 @@ Move-Item -Force $Tmp $Exe
 Write-Host "Installed $Exe"
 
 $UserPath = [Environment]::GetEnvironmentVariable('Path', 'User')
-if (($UserPath -split ';') -notcontains $Dir) {
+if ($env:GCSE_REVISION_NO_PATH -ne '1' -and ($UserPath -split ';') -notcontains $Dir) {
   [Environment]::SetEnvironmentVariable('Path', ($UserPath.TrimEnd(';') + ";$Dir").TrimStart(';'), 'User')
   Write-Host "Added $Dir to your PATH (open a new terminal to use '$Name')."
 }

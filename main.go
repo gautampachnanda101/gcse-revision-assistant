@@ -73,7 +73,7 @@ func main() {
 	flag.BoolVar(&opts.noAI, "no-ai", false, "don't install/start the local AI helper")
 	flag.StringVar(&opts.model, "model", "", "Ollama model to use (default: chosen from this machine's RAM)")
 	flag.StringVar(&opts.repo, "repo", envOr("GCSE_REVISION_REPO", repo), "GitHub owner/name to fetch subject packs from")
-	flag.StringVar(&opts.branch, "branch", envOr("GCSE_REVISION_BRANCH", "main"), "branch to fetch subject packs from")
+	flag.StringVar(&opts.branch, "branch", envOr("GCSE_REVISION_BRANCH", "content"), "branch to fetch signed subject packs from")
 	flag.Usage = usage
 	// Accept flags before or after the subcommand: `gcse-revision update --offline` and `gcse-revision --offline update`.
 	cmd := ""
@@ -116,6 +116,12 @@ func main() {
 		if err == nil {
 			err = writeManifest(".")
 		}
+	case "sign":
+		err = signManifest(orDefault(flag.Arg(0), "."))
+	case "verify":
+		err = verifyDir(orDefault(flag.Arg(0), "."))
+	case "keygen":
+		err = keygen()
 	case "validate":
 		err = validateFiles(flag.Args())
 	case "manifest":

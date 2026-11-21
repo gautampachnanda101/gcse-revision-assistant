@@ -20,7 +20,7 @@ case "$(uname -m)" in
 esac
 
 asset="$NAME-$os-$arch"
-base="https://github.com/$REPO/releases/latest/download"
+base="${GCSE_REVISION_DOWNLOAD_BASE:-https://github.com/$REPO/releases/latest/download}"
 tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT
 

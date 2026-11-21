@@ -1,0 +1,53 @@
+name: Publish content
+# Signs the subject packs on main and publishes them to the `content` branch, which installed apps poll.
+# New subjects reach users without a new app release.
+on:
+  push:
+    branches: [main]
+    paths: ['data/**', 'subjects.js']
+  workflow_dispatch:
+concurrency: publish-content
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - name: Validate packs and manifest
+        run: |
+          go run . validate
+          go run . manifest && git diff --exit-code subjects.js
+      - name: Sign
+        env:
+          CONTENT_SIGNING_KEY: ${{ secrets.CONTENT_SIGNING_KEY }}
+        run: |
+          if [ -z "$CONTENT_SIGNING_KEY" ]; then echo "::error::CONTENT_SIGNING_KEY secret missing — run scripts/setup-signing.sh"; exit 1; fi
+          go run . sign .
+          go run . verify .   # checks against the public key compiled into this commit
+      - name: Push to the content branch
+        run: |
+          mkdir out && cp -r subjects.js subjects.js.sig data out/
+          cd out
+          git init -q -b content
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -q -m "Publish content from ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" content
+      - name: End-to-end check — a fresh app install receives exactly this content from GitHub
+        run: |
+          go build -o gcse-revision .
+          want=$(sha256sum subjects.js | cut -d' ' -f1)
+          for i in $(seq 1 30); do   # raw.githubusercontent.com caches for up to ~5 minutes
+            home=$(mktemp -d)
+            if HOME=$home XDG_CACHE_HOME=$home/.cache ./gcse-revision update --repo "$GITHUB_REPOSITORY"; then
+              got=$(sha256sum "$home/.cache/gcse-revision/subjects.js" | cut -d' ' -f1)
+              [ "$got" = "$want" ] && { echo "Verified: published content downloads and verifies."; exit 0; }
+              echo "CDN still serving older content ($got); retrying…"
+            fi
+            sleep 20
+          done
+          echo "::error::Published content never became downloadable and verifiable"; exit 1
