@@ -138,7 +138,8 @@ jobs:
             end
 
             def post_install
-              system "#{bin}/gcse-revision", "service", "install"
+              plist = "#{Dir.home}/Library/LaunchAgents/com.gautampachnanda101.gcse-revision.plist"
+              system "#{bin}/gcse-revision", "service", "install" if File.exist?(plist)
             end
 
             def caveats
@@ -166,7 +167,7 @@ jobs:
               "arm64": { "url": "${base}/gcse-revision_Windows_arm64.zip", "hash": "${w_a}", "bin": "gcse-revision.exe" }
             },
             "post_install": [
-              "& \"\$dir\\\\gcse-revision.exe\" service install"
+              "if (Get-ScheduledTask -TaskName 'GCSERevision' -ErrorAction SilentlyContinue) { & \"\$dir\\\\gcse-revision.exe\" service install }"
             ]
           }
           EOF
