@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#14233f" name="theme-color"/>
+<title>Hinduism IGCSE Revision</title>
+<style>
+:root{--ink:#17243b;--muted:#4b5263;--line:#e4e9f1;--paper:#f5f7fb;--white:#fff;--navy:#14233f;--blue:#2c559c;--blue-text:#2a5194;--blue2:#eaf0fb;--gold:#ba8b42;--goldbg:#fbf5e9;--green:#115b41;--greenbg:#eaf6f0;--shadow:0 12px 30px rgba(27,45,77,.07);--r:16px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:15px;line-height:1.55}
+button,input,select{font:inherit}button{cursor:pointer}.app{min-height:100vh}.sidebar{position:fixed;inset:0 auto 0 0;width:248px;background:var(--navy);color:white;padding:24px 17px;display:flex;flex-direction:column;z-index:5}.brand{display:flex;align-items:center;gap:12px;padding:4px 8px 26px}.brand-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:rgba(255,255,255,.12);font-size:25px}.brand h1{font-size:15px;line-height:1.2;margin:0;font-weight:750;letter-spacing:.01em}.brand p{margin:4px 0 0;color:#aebbd1;font-size:11px}.nav-label{color:#a4afc2;text-transform:uppercase;font-size:10px;letter-spacing:.14em;padding:12px 10px 8px}.nav-btn{width:100%;border:0;background:transparent;color:#cbd5e5;text-align:left;padding:12px 12px;border-radius:10px;display:flex;gap:12px;align-items:center;font-weight:600;font-size:13px;margin:3px 0}.nav-btn:hover,.nav-btn.active{background:rgba(255,255,255,.12);color:white}.nav-icon{width:20px;text-align:center;font-size:17px}.sidebar-bottom{margin-top:auto;border-top:1px solid rgba(255,255,255,.14);padding:17px 9px 0;color:#aebbd1;font-size:11px;line-height:1.6}.offline-tag{display:inline-flex;align-items:center;gap:6px;border-radius:20px;background:rgba(38,178,131,.16);color:#9ee2c8;padding:5px 9px;margin-bottom:10px;font-size:10px;font-weight:750;letter-spacing:.06em;text-transform:uppercase}
+.main{margin-left:248px;min-height:100vh}.topbar{height:76px;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4vw,54px);position:sticky;top:0;z-index:4;backdrop-filter:blur(12px)}.breadcrumb{font-size:11px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);font-weight:700}.top-title{font-size:18px;font-weight:750;margin-top:2px}.top-right{display:flex;gap:9px;align-items:center}.pill{padding:7px 11px;border-radius:30px;background:#eff2f7;color:#445065;font-size:11px;font-weight:700}.pill.offline{background:var(--greenbg);color:var(--green)}.content{max-width:1400px;padding:30px clamp(20px,4vw,54px) 70px;margin:auto}.page{display:none}.page.active{display:block}.hero{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:22px}.eyebrow{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--blue-text);font-weight:800}.hero h2{font-size:30px;letter-spacing:-.035em;line-height:1.15;margin:7px 0}.hero p{margin:0;color:var(--muted);max-width:720px;font-size:13px}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0 24px}.stat{background:white;border:1px solid var(--line);border-radius:14px;padding:15px 17px;box-shadow:0 4px 12px rgba(27,45,77,.025)}.stat .label{font-size:11px;color:var(--muted);font-weight:650}.stat .value{font-size:25px;font-weight:800;letter-spacing:-.04em;margin-top:3px}.stat .small{font-size:10px;color:var(--muted);margin-top:2px}.toolbar{background:white;border:1px solid var(--line);border-radius:var(--r);padding:17px;box-shadow:var(--shadow);margin-bottom:18px}.toolbar-top{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(130px,1fr));gap:10px}.field label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:#4d5667;margin:0 0 6px}.field input,.field select{height:43px;width:100%;border:1px solid #dfe5ee;background:#fbfcfe;border-radius:10px;padding:0 12px;color:var(--ink);outline:none}.field input:focus,.field select:focus{border-color:#7897ce;box-shadow:0 0 0 3px #eaf0fb}.toolbar-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px;flex-wrap:wrap}.paper-tabs{display:flex;gap:6px;flex-wrap:wrap}.tab{border:1px solid var(--line);background:white;color:#4c576a;padding:8px 12px;border-radius:9px;font-size:11px;font-weight:750}.tab.active{background:var(--navy);border-color:var(--navy);color:white}.result-count{color:var(--muted);font-size:11px;font-weight:650}.question-list{display:grid;gap:10px}.q-card{background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:border .15s,box-shadow .15s}.q-card.open{border-color:#b5c6e4;box-shadow:0 7px 22px rgba(36,64,110,.06)}.q-trigger{width:100%;padding:15px 17px;display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:12px;align-items:start;text-align:left;border:0;background:white;color:var(--ink)}.q-number{height:34px;width:34px;border-radius:10px;background:#f0f3f8;color:#445166;display:grid;place-items:center;font-size:10px;font-weight:800}.q-main{min-width:0}.q-meta{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:5px}.tag{background:#f0f3f8;color:#465063;border-radius:20px;padding:3px 8px;font-size:9px;font-weight:800;letter-spacing:.035em}.tag.p0{background:#eef2fb;color:#324f83}.tag.p1{background:#f8f1e6;color:#694a1c}.tag.p2{background:#f3edfb;color:#623a92}.tag.p3{background:#e8f6f5;color:#0c5a54}.tag.mark{background:#eff6f2;color:var(--green)}.q-text{font-size:14px;font-weight:680;line-height:1.45}.q-sub{font-size:10px;color:var(--muted);margin-top:5px}.q-right{display:flex;align-items:center;gap:10px;color:var(--muted)}.chevron{font-size:18px;line-height:1;transition:transform .15s}.q-card.open .chevron{transform:rotate(180deg)}.q-body{padding:0 18px 18px 67px;border-top:1px solid #edf0f5}.question-context{padding:14px 0 12px;display:flex;justify-content:space-between;align-items:center;gap:10px}.small-muted{font-size:10px;color:var(--muted)}.answer-button{border:0;background:var(--blue);color:white;padding:9px 14px;border-radius:9px;font-size:11px;font-weight:800;box-shadow:0 4px 9px rgba(49,94,172,.16)}.answer-button:hover{background:#244b91}.response-area{display:block;width:100%;min-height:230px;resize:vertical;border:1.5px solid #d7dfec;border-radius:13px;background:#fbfcff;padding:16px;font-family:inherit;font-size:14px;line-height:1.65;color:var(--ink);outline:none;margin:6px 0 10px}.response-area:focus{border-color:#7897ce;box-shadow:0 0 0 3px #eaf0fb}.response-heading{font-size:12px;font-weight:800;color:#4b576f;margin:13px 0 5px}.submit-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:15px}.submit-hint{font-size:10px;color:var(--muted)}.answer-panel{margin-top:4px;background:#fbfcff;border:1px solid #e4eaf5;border-radius:12px;padding:17px}.answer-banner{display:flex;justify-content:space-between;gap:15px;align-items:center;margin-bottom:12px}.answer-banner strong{font-size:13px}.indicative{font-size:9px;border-radius:30px;background:var(--goldbg);color:#694d22;padding:5px 9px;font-weight:800}.answer-text{font-size:13px;line-height:1.7;color:#2a3850;white-space:pre-line}.answer-text .section-label{font-size:10px;text-transform:uppercase;letter-spacing:.1em;font-weight:850;color:var(--blue-text);display:block;margin:13px 0 4px}.answer-extra{margin-top:15px;padding-top:12px;border-top:1px solid #e7ebf2}.answer-extra h4{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 7px}.evidence-list{margin:0;padding-left:18px;color:var(--muted);font-size:11px;line-height:1.55}.tip{margin-top:13px;padding:10px 12px;background:#f1f5fb;border-radius:9px;color:var(--muted);font-size:11px}.q-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}.mini-btn{background:white;border:1px solid var(--line);border-radius:8px;padding:7px 10px;color:var(--muted);font-size:10px;font-weight:750}.mini-btn.active{background:var(--greenbg);border-color:#bfe5d4;color:var(--green)}.empty{padding:35px;text-align:center;color:var(--muted);background:white;border:1px solid var(--line);border-radius:14px}.empty strong{display:block;color:var(--ink);font-size:15px;margin-bottom:5px}
+.notes-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:15px}.note-menu,.note-content-card,.progress-card{background:white;border:1px solid var(--line);border-radius:var(--r);padding:17px;box-shadow:var(--shadow)}.note-menu h3,.note-content-card h3,.progress-card h3{margin:0 0 12px;font-size:13px}.note-menu select{width:100%;height:40px;border:1px solid var(--line);border-radius:9px;padding:0 10px;background:#fbfcfe;margin-bottom:13px}.module-list{display:grid;gap:4px;max-height:62vh;overflow:auto}.module-item{border:0;background:transparent;text-align:left;padding:9px;border-radius:9px;color:var(--muted)}.module-item:hover,.module-item.active{background:#eef2fa;color:#254a88}.module-item small{display:block;font-size:9px;font-weight:800;letter-spacing:.05em}.module-item span{display:block;font-size:11px;font-weight:700}.focus{background:#f4f6fa;border-radius:10px;padding:12px;color:var(--muted);font-size:11px;margin-bottom:14px}.notes-text{font-size:13px;line-height:1.58;color:#34435d}.notes-text .note-heading{font-size:15px;font-weight:850;line-height:1.3;color:#183b68;margin:15px 0 5px;padding-bottom:3px;border-bottom:1px solid #e4eaf2}.notes-text .note-line{margin:2px 0}.notes-text .note-gap{height:6px}.note-content-card h2{font-size:20px;margin:2px 0 12px;letter-spacing:-.025em}.source-ref{margin-top:17px;padding-top:13px;border-top:1px solid var(--line);font-size:10px;color:var(--muted)}.progress-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.progress-card p{color:var(--muted);font-size:12px;margin:0}.progress-card .big{font-size:28px;font-weight:850;margin:3px 0 10px}.progress-card button{margin-top:13px}.footer-note{font-size:10px;color:var(--muted);margin-top:20px;line-height:1.6}.mobile-bar{display:none}
+@media(max-width:1000px){.sidebar{width:215px}.main{margin-left:215px}.toolbar-top{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.sidebar{display:none}.main{margin-left:0}.topbar{height:66px;padding:0 16px}.top-title{font-size:15px}.top-right .pill:not(.offline){display:none}.content{padding:22px 14px 85px}.hero{display:block}.hero h2{font-size:25px}.hero p{font-size:12px;margin-top:6px}.toolbar{padding:12px}.toolbar-top{grid-template-columns:1fr 1fr}.toolbar-top .field:first-child{grid-column:1/-1}.stats{gap:8px}.stat{padding:12px}.stat .value{font-size:22px}.q-trigger{padding:13px 11px;grid-template-columns:30px minmax(0,1fr) auto;gap:9px}.q-number{height:29px;width:29px}.q-text{font-size:12px}.q-body{padding:0 12px 14px}.question-context{align-items:flex-start;flex-direction:column}.answer-panel{padding:12px}.answer-text{font-size:12px}.notes-layout{grid-template-columns:1fr}.module-list{display:flex;overflow-x:auto;max-height:none;padding-bottom:5px}.module-item{min-width:125px}.progress-grid{grid-template-columns:1fr}.mobile-bar{display:flex;position:fixed;bottom:0;left:0;right:0;height:60px;background:rgba(255,255,255,.97);border-top:1px solid var(--line);z-index:10;justify-content:space-around;backdrop-filter:blur(12px)}.mobile-bar button{border:0;background:transparent;color:#4c586a;font-size:9px;font-weight:800;display:grid;place-items:center;gap:0}.mobile-bar button span{font-size:18px}.mobile-bar button.active{color:var(--blue-text)}}
+
+.local-ai-panel{margin:18px 0 22px;padding:18px 20px;border:1px solid #d9e3f3;border-radius:14px;background:#f8faff}.local-ai-panel h3{margin:0 0 5px;font-size:15px}.local-ai-panel p{margin:4px 0 12px;color:var(--muted);font-size:12px}.local-ai-controls{display:flex;gap:9px;flex-wrap:wrap;align-items:end}.local-ai-controls .field{flex:1;min-width:220px}.local-ai-controls input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:white}.ai-find-btn{background:var(--blue);color:white;border:0;border-radius:11px;padding:13px 20px;font-weight:800;font-size:14px;box-shadow:0 4px 9px rgba(49,94,172,.2)}.ai-find-btn:hover{background:#244b91}.ai-find-btn:disabled{opacity:.6;cursor:wait}.local-ai-status{font-size:13px;color:var(--muted);margin-top:11px;font-weight:650}.local-ai-status.ok{color:#126044}.local-ai-status.bad{color:#923531}.local-ai-status:empty{display:none}.ai-feedback{margin:14px 0;padding:16px;border:1px solid #d9e3f3;border-radius:12px;background:#f8faff;white-space:pre-wrap;font-size:13px;line-height:1.65}.ai-feedback:empty{display:none}.ai-feedback strong{display:block;margin-bottom:6px}.ai-feedback-button{background:#263e68;color:white;border:0;border-radius:9px;padding:10px 14px;font-weight:700;font-size:12px}.ai-feedback-button:disabled{opacity:.55;cursor:wait}.setup-details{margin-top:14px;font-size:12px;color:var(--muted)}.setup-details summary{cursor:pointer;font-weight:700;color:var(--ink)}.setup-details code{background:#edf1f7;padding:2px 5px;border-radius:4px;word-break:break-word}.setup-details pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#17243b;color:#f3f6fc;padding:12px;border-radius:9px;font-size:11px;line-height:1.55}.local-ai-note{font-size:11px;color:var(--muted);margin-top:8px}.advanced-field{margin-top:12px}.cloud-ai-toggle{margin-top:18px;padding-top:15px;border-top:1px solid #e4eaf2}.cloud-ai-toggle h4{margin:0 0 4px;font-size:13px;color:var(--ink)}.checkbox-row{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--ink);font-weight:650;margin:10px 0}.checkbox-row input{width:16px;height:16px}.wizard-row{display:flex;gap:10px;flex-wrap:wrap}.wizard-row .field{flex:1;min-width:160px}#wizard-instructions p{margin:8px 0}#wizard-instructions a{color:var(--blue-text)}.action-btn{background:white;border:1.5px solid var(--blue);color:var(--blue);border-radius:9px;padding:9px 16px;font-weight:800;font-size:12px}.action-btn:hover{background:var(--blue2)}.action-btn:disabled{opacity:.6;cursor:wait;border-color:var(--line);color:var(--muted);background:white}
+.wizard-progress{font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}.wizard-step h4{margin:0 0 10px;font-size:14px;color:var(--ink)}.choice-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:10px}.choice-card{background:white;border:2px solid var(--line);border-radius:12px;padding:14px;text-align:left;cursor:pointer;min-height:44px}.choice-card:hover{border-color:#b5c6e4}.choice-card.selected{border-color:var(--blue);background:var(--blue2)}.choice-title{font-weight:800;font-size:13px;color:var(--ink)}.choice-desc{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.4}.choice-badge{display:inline-block;margin-top:7px;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--green);background:var(--greenbg);padding:3px 8px;border-radius:20px}
+.subject-group-title{grid-column:1/-1;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:8px 0 0}.subject-picker-overlay{position:fixed;inset:0;background:rgba(20,35,63,.55);z-index:50;display:flex;align-items:center;justify-content:center;padding:20px}.subject-picker-card{background:white;border-radius:16px;padding:24px;max-width:560px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.3)}.subject-picker-card h3{margin:0 0 6px;font-size:17px}
+
+
+.skip-link{position:absolute;left:-9999px;top:0;z-index:100;background:var(--navy);color:white;padding:14px 20px;border-radius:0 0 10px 0;font-weight:750;text-decoration:underline}.skip-link:focus{left:0}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid #0a2a6b;outline-offset:2px;box-shadow:0 0 0 5px #ffd21a;border-radius:4px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="app">
+<aside class="sidebar">
+<div class="brand"><div class="brand-icon" aria-hidden="true">ॐ</div><div><h1 id="brand-title">Hinduism Revision</h1><p id="brand-subtitle">Edexcel International GCSE</p></div></div>
+<div class="nav-label">Workspace</div>
+<nav aria-label="Workspace">
+<button class="nav-btn active" data-page="questions"><span class="nav-icon" aria-hidden="true">▤</span>Question bank</button>
+<button class="nav-btn" data-page="notes"><span class="nav-icon" aria-hidden="true">▧</span>Module notes</button>
+<button class="nav-btn" data-page="progress"><span class="nav-icon" aria-hidden="true">▥</span>My progress</button>
+</nav>
+<button class="nav-btn" id="switch-subject-btn" style="display:none"><span class="nav-icon" aria-hidden="true">🔀</span>Switch subject</button>
+<div class="sidebar-bottom"><div class="offline-tag">● Offline &middot; no AI</div><div>All questions and model answers are stored in this file. Your bookmarks and revision ticks are saved in this browser on this device.</div></div>
+</aside>
+<main class="main" id="main-content">
+<header class="topbar"><div><div class="breadcrumb" id="breadcrumb">Religious Studies / Hinduism</div><div class="top-title" id="top-title">Question bank</div></div><div class="top-right"><span class="pill" id="total-pill">331 prewritten answers</span><span class="pill offline">Offline ready</span></div></header>
+<div class="content">
+<section class="page active" id="page-questions">
+<div class="hero"><div><div class="eyebrow" id="hero-eyebrow">Paper 1 &middot; Paper 2 Hinduism</div><h2>Question bank</h2><p>Choose any question. The &ldquo;View model answer&rdquo; button opens a prewritten exemplar with supporting examples and exam guidance.</p></div></div>
+<div class="local-ai-panel">
+<h3>🤖 Ask your AI helper</h3>
+<p>Your AI helper can read what you write and give you friendly tips. By default it runs on this computer, so nothing is sent to the internet — but a grown-up can connect a cloud AI service instead, below. You don't need either — the ready-made model answers always work without it.</p>
+<div class="local-ai-controls"><button class="ai-find-btn" id="local-ai-detect">🔍 Find my AI helper</button></div>
+<div class="local-ai-status ai-status-target" id="local-ai-status" aria-live="polite">Not connected yet. Click the button above to look for one.</div>
+<details class="setup-details"><summary>🧑‍🔧 Grown-ups: connection settings</summary>
+<p>A short, step-by-step walkthrough — no technical knowledge needed. Answer each question and we'll show you exactly what to do.</p>
+<div id="wizard-steps">
+<div class="wizard-progress" id="wizard-progress">Step 1 of 4</div>
+
+<div class="wizard-step" data-step="1">
+<h4>What kind of computer is this?</h4>
+<div class="choice-grid" id="wizard-os-choices"></div>
+</div>
+
+<div class="wizard-step" data-step="2" style="display:none">
+<h4>Which free program should we use?</h4>
+<div class="choice-grid" id="wizard-server-choices"></div>
+<button class="mini-btn" data-back="1">← Back</button>
+</div>
+
+<div class="wizard-step" data-step="3" style="display:none">
+<h4>How much memory (RAM) does this computer have?</h4>
+<p class="local-ai-note">Not sure? Pick "Not sure" below — we'll choose something that works almost everywhere. To check: <strong>Mac</strong> — Apple menu → About This Mac. <strong>Windows</strong> — Settings → System → About.</p>
+<div class="choice-grid" id="wizard-ram-choices"></div>
+<button class="mini-btn" data-back="2">← Back</button>
+</div>
+
+<div class="wizard-step" data-step="4" style="display:none">
+<h4>Install and connect</h4>
+<div id="wizard-instructions"></div>
+<div class="submit-row" style="margin-top:10px">
+<button class="mini-btn" data-back="3">← Back</button>
+<button class="action-btn" id="wizard-find-btn">✅ I've installed and started it — Find my AI helper</button>
+</div>
+<div class="local-ai-status ai-status-target" id="wizard-find-status" aria-live="polite" style="margin-top:8px"></div>
+</div>
+</div>
+
+<details class="setup-details" style="margin-top:16px"><summary>⚙️ More options (for advanced users)</summary>
+<p class="local-ai-note">Leave the server running in the background while the child uses the app. Each of these binds to 127.0.0.1 by default — keep it that way and do not expose it to your network.</p>
+<div class="field advanced-field"><label for="local-ai-preset">Local server address</label><select id="local-ai-preset"></select></div>
+<p class="local-ai-note">"Find my AI helper" checks every address above automatically. If you started your server on a different host or port, pick <strong>Custom address</strong> here instead.</p>
+<div class="field advanced-field" id="local-ai-custom-field" style="display:none"><label for="local-ai-url">Custom address</label><input id="local-ai-url" value="http://127.0.0.1:8080" spellcheck="false" autocomplete="off"></div>
+<button class="action-btn" id="local-ai-test" style="margin-top:8px">Test this address</button>
+<div class="local-ai-status ai-status-target" id="local-ai-test-status" aria-live="polite" style="margin-top:8px"></div>
+<div class="cloud-ai-toggle">
+<h4>☁️ Or use a cloud AI service instead</h4>
+<p>Needs an internet connection and your own API key from the provider. The key stays on this device only — it is never written to progress backups or synced folders.</p>
+<label class="checkbox-row"><input type="checkbox" id="cloud-ai-enable"> Use a cloud AI service instead of a local one</label>
+<p class="local-ai-note" id="cloud-ai-offline-note" style="display:none">You're offline right now, so cloud AI can't connect until you're back online.</p>
+<div id="cloud-ai-fields" style="display:none">
+<div class="field advanced-field"><label for="cloud-ai-provider">Provider</label><select id="cloud-ai-provider"></select></div>
+<div class="field advanced-field" id="cloud-ai-endpoint-field" style="display:none"><label for="cloud-ai-endpoint">Endpoint URL</label><input id="cloud-ai-endpoint" placeholder="https://your-provider.example.com/v1" spellcheck="false" autocomplete="off"></div>
+<div class="field advanced-field"><label for="cloud-ai-model">Model name</label><input id="cloud-ai-model" placeholder="e.g. gpt-4o-mini" spellcheck="false" autocomplete="off"></div>
+<div class="field advanced-field"><label for="cloud-ai-key">API key</label><input id="cloud-ai-key" type="password" spellcheck="false" autocomplete="off"></div>
+<button class="mini-btn" id="cloud-ai-save">Save &amp; test cloud connection</button>
+<div class="local-ai-status ai-status-target" id="cloud-ai-save-status" aria-live="polite" style="margin-top:8px"></div>
+</div>
+</div>
+</details>
+</details>
+</div>
+<div class="stats" id="stats"></div>
+<div class="toolbar">
+<div class="toolbar-top">
+<div class="field"><label for="search">Search questions</label><input id="search" placeholder="Search a topic, teaching, command word&hellip;" type="search"/></div>
+<div class="field"><label for="module-filter">Module</label><select id="module-filter"><option value="all">All modules</option></select></div>
+<div class="field"><label for="mark-filter">Marks</label><select id="mark-filter"><option value="all">All marks</option><option value="3">3 marks</option><option value="4">4 marks</option><option value="6">6 marks</option><option value="10">10 marks</option><option value="12">12 marks</option></select></div>
+<div class="field"><label for="status-filter">Revision status</label><select id="status-filter"><option value="all">All questions</option><option value="unrevised">Not yet revised</option><option value="revised">Marked as revised</option><option value="bookmarked">Bookmarked</option></select></div>
+</div>
+<div class="toolbar-bottom"><div class="paper-tabs" id="paper-tabs"></div><div class="result-count" id="result-count" aria-live="polite"></div></div>
+</div>
+<div class="question-list" id="question-list"></div>
+<div class="footer-note" id="footer-note">Questions are from the supplied 2027 course question booklets. Model answers are indicative prewritten exemplars based on the supplied course materials and assessment guidance; they are not official Edexcel mark schemes. Accepted answers may vary.</div>
+</section>
+<section class="page" id="page-notes">
+<div class="hero"><div><div class="eyebrow" id="notes-hero-eyebrow">20 modules &middot; full course coverage</div><h2>Module notes</h2><p>Concise, topic-based revision notes drawn from your supplied Paper 1 and Paper 2 course booklets.</p></div></div>
+<div class="notes-layout"><aside class="note-menu"><h3>Choose a module</h3><select id="notes-paper"></select><div class="module-list" id="module-list"></div></aside><article class="note-content-card" id="note-display"></article></div>
+</section>
+<section class="page" id="page-progress">
+<div class="hero"><div><div class="eyebrow">Your revision record</div><h2>My progress</h2><p>Keep track of questions you have revised and saved. Progress remains on this device and browser.</p></div></div>
+<div class="progress-grid" id="progress-grid"></div>
+<div class="footer-note">No account or cloud connection is used. Use &ldquo;Export progress&rdquo; to make a backup before moving to another device or browser.</div>
+</section>
+</div>
+</main>
+</div>
+<nav class="mobile-bar" aria-label="Workspace"><button class="active" data-page="questions"><span aria-hidden="true">▤</span>Questions</button><button data-page="notes"><span aria-hidden="true">▧</span>Notes</button><button data-page="progress"><span aria-hidden="true">▥</span>Progress</button></nav>
+<div class="subject-picker-overlay" id="subject-picker-overlay" style="display:none" role="dialog" aria-modal="true" aria-labelledby="subject-picker-title">
+<div class="subject-picker-card">
+<h3 id="subject-picker-title">Choose a subject</h3>
+<p class="local-ai-note">Switching restarts the app with that subject's own questions, notes, and saved progress.</p>
+<input id="subject-picker-search" type="search" placeholder="Search subjects or exam boards…" autocomplete="off" style="display:none;width:100%;box-sizing:border-box;padding:9px 12px;margin:4px 0 10px;border:1px solid #d9e3f3;border-radius:10px;font:inherit">
+<div class="choice-grid" id="subject-picker-choices" style="max-height:60vh;overflow:auto"></div>
+<button class="mini-btn" id="subject-picker-close">Cancel</button>
+</div>
+</div>
+<!-- Subject data lives in separate files under data/, each a self-contained subject pack (config + questions + notes).
+     subjects.js lists them (regenerate it with `gcse-revision manifest` after adding a data/<subject>.js file).
+     When run through the gcse-revision binary, subjects.js also includes packs downloaded from the online repo. -->
+<script src="subjects.js"></script>
+<script>
+(function(){var list=(window.REVISION_MANIFEST&&window.REVISION_MANIFEST.subjects)||[];
+ for(var i=0;i<list.length;i++){var f=String(list[i].file||'');if(/^data\/(private\/)?[A-Za-z0-9_-]+\.js$/.test(f))document.write('<script src="'+f+'"><\/script>');}})();
+</script>
+<script>
+'use strict';
+// Subject library: each entry is a self-contained data pack (config + questions + notes) pushed by a data/*.js file.
+// Only one subject is active per page load; switching persists the choice and reloads, keeping the rest of the app untouched by which subject is active.
+const ACTIVE_SUBJECT_KEY='revision_app_active_subject_v1';
+const SUBJECTS=window.REVISION_SUBJECTS||[];
+// The active subject is remembered by its storageId (not list position), so adding or downloading new subjects never switches you to a different one.
+const LEGACY_SUBJECT_ORDER=['edexcel_hinduism','edexcel_christianity','aqa_french'];
+function subjectId(s){return (s&&s.config&&s.config.storageId)||'';}
+function activeSubjectIndex(){let stored=localStorage.getItem(ACTIVE_SUBJECT_KEY)||'';if(/^\d+$/.test(stored))stored=LEGACY_SUBJECT_ORDER[Number(stored)]||'';const i=SUBJECTS.findIndex(s=>subjectId(s)===stored);if(i>=0)return i;const h=SUBJECTS.findIndex(s=>subjectId(s)==='edexcel_hinduism');return h>=0?h:0;}
+function switchSubject(index){if(!SUBJECTS[index])return;localStorage.setItem(ACTIVE_SUBJECT_KEY,subjectId(SUBJECTS[index])||String(index));location.reload();}
+if(!SUBJECTS.length){
+ document.body.innerHTML='<div style="max-width:560px;margin:60px auto;padding:30px;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:#17243b"><h1 style="font-size:20px">No subject data found</h1><p>This app loads its questions from separate files in a <code>data</code> folder next to this HTML file. Make sure that folder is present, then reopen the page.</p></div>';
+ throw new Error('No subject data registered — check that data/*.js files are present and loaded before the main script.');
+}
+const ACTIVE_SUBJECT=activeSubjectIndex();
+const DATA=SUBJECTS[ACTIVE_SUBJECT];
+const CONFIG=DATA.config||{};
+// Papers are read generically — any number of papers, in whatever order the subject data defines, not just exactly two.
+const PAPERS=Array.isArray(CONFIG.papers)?CONFIG.papers:Object.entries(CONFIG.papers||{}).map(([id,v])=>({id,label:id,...v}));
+const QUESTIONS=Object.values(DATA.questions||{}).flat();
+const APP_ID=CONFIG.storageId||'gcse_revision_app';
+// DEVICE_ID is deliberately NOT subject-specific: which AI program/port/key is installed on this computer is a device fact,
+// not revision progress — it must stay put when switching subjects, unlike APP_ID-scoped progress/backup keys below.
+const DEVICE_ID='revision_app_device_v1';
+const BACKUP_FILENAME=APP_ID.replace(/_/g,'-')+'-revision-progress.json';
+const STORE_KEY=APP_ID+'_preanswer_revision_v1';
+const TITLES={questions:'Question bank',notes:'Module notes',progress:'My progress'};
+let saved=loadSaved();let typedAnswers=saved.answers;let aiFeedback=saved.feedback;let activePage='questions';let selectedPaper='all';
+const firstNotePaper=PAPERS[0]?PAPERS[0].id:((DATA.notes[0]&&DATA.notes[0].paper)||'');
+const firstNote=DATA.notes.find(n=>n.paper===firstNotePaper)||DATA.notes[0];
+let selectedNote=firstNote?firstNote.paper+'|'+firstNote.module:'';
+let expandedId=null;let answerVisible=new Set();let answerSaveTimer=null;
+function loadSaved(){try{return Object.assign({revised:{},bookmarks:{},answers:{},feedback:{}},JSON.parse(localStorage.getItem(STORE_KEY)||'{}'));}catch(e){return {revised:{},bookmarks:{},answers:{},feedback:{}};}}
+function saveSaved(){try{localStorage.setItem(STORE_KEY,JSON.stringify(saved));}catch(e){}scheduleFolderSync();}
+
+// --- Optional folder sync: connect any folder on this device (including one synced by OneDrive, Google Drive, or iCloud Drive) and save there automatically ---
+const SYNC_DB_NAME=APP_ID+'_sync_db',SYNC_STORE='handles',SYNC_KEY='progress-file';let syncHandle=null,syncDebounceTimer=null;
+function openSyncDb(){return new Promise((resolve,reject)=>{const req=indexedDB.open(SYNC_DB_NAME,1);req.onupgradeneeded=()=>req.result.createObjectStore(SYNC_STORE);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
+async function idbSet(key,value){const db=await openSyncDb();return new Promise((resolve,reject)=>{const tx=db.transaction(SYNC_STORE,'readwrite');tx.objectStore(SYNC_STORE).put(value,key);tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);});}
+async function idbGet(key){const db=await openSyncDb();return new Promise((resolve,reject)=>{const tx=db.transaction(SYNC_STORE,'readonly');const req=tx.objectStore(SYNC_STORE).get(key);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
+function setSyncStatus(message,kind=''){const el=document.getElementById('sync-status');if(el){el.textContent=message;el.className='local-ai-status '+kind;}}
+function scheduleFolderSync(){if(!syncHandle)return;clearTimeout(syncDebounceTimer);syncDebounceTimer=setTimeout(async()=>{try{const perm=await syncHandle.queryPermission({mode:'readwrite'});if(perm==='granted'){await writeSyncFile();setSyncStatus('✅ Saved to '+syncHandle.name+' automatically.','ok');}}catch(e){}},900);}
+async function writeSyncFile(){if(!syncHandle)return false;try{const perm=await syncHandle.queryPermission({mode:'readwrite'});if(perm!=='granted'){const req=await syncHandle.requestPermission({mode:'readwrite'});if(req!=='granted')return false;}const writable=await syncHandle.createWritable();await writable.write(JSON.stringify(saved,null,2));await writable.close();return true;}catch(e){return false;}}
+async function restoreSyncHandle(){if(!('indexedDB' in window))return;try{const handle=await idbGet(SYNC_KEY);if(!handle)return;syncHandle=handle;const perm=await handle.queryPermission({mode:'readwrite'});setSyncStatus(perm==='granted'?('🔗 Connected to '+handle.name+'. Saves automatically.'):('🔗 Was connected to '+handle.name+'. Click "Save now" to reconnect.'),perm==='granted'?'ok':'');}catch(e){}}
+async function connectSyncFolder(){if(!('showSaveFilePicker' in window)){setSyncStatus("This browser can't connect a folder automatically. Use Export below, then save the file into your OneDrive, Google Drive, or iCloud Drive folder.",'bad');return;}try{const handle=await window.showSaveFilePicker({suggestedName:BACKUP_FILENAME,types:[{description:'Progress backup',accept:{'application/json':['.json']}}]});syncHandle=handle;await idbSet(SYNC_KEY,handle);await writeSyncFile();setSyncStatus('🎉 Connected! Your progress now saves to '+handle.name+' automatically. Pick a location inside OneDrive, Google Drive, or iCloud Drive to sync it between your devices.','ok');}catch(e){if(e.name!=='AbortError')setSyncStatus('Could not connect a folder. ('+e.message+')','bad');}}
+async function syncNowManual(){if(!syncHandle){connectSyncFolder();return;}const ok=await writeSyncFile();setSyncStatus(ok?('✅ Saved to '+syncHandle.name+' just now.'):'Could not save. Click "Save now" again to reconnect.',ok?'ok':'bad');}
+async function loadFromSyncFolder(){if(!('showOpenFilePicker' in window)){setSyncStatus("This browser can't open a folder automatically. Use Import below instead.",'bad');return;}try{const[handle]=await window.showOpenFilePicker({types:[{description:'Progress backup',accept:{'application/json':['.json']}}]});const file=await handle.getFile();const parsed=JSON.parse(await file.text());saved=Object.assign({revised:{},bookmarks:{},answers:{},feedback:{}},parsed);typedAnswers=saved.answers;aiFeedback=saved.feedback;saveSaved();syncHandle=handle;await idbSet(SYNC_KEY,handle);setSyncStatus('🎉 Loaded your progress from '+handle.name+'.','ok');renderQuestions();renderProgress();}catch(e){if(e.name!=='AbortError')setSyncStatus('Could not read that file. ('+e.message+')','bad');}}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+// AI helpers sometimes reply using Markdown-style emphasis. Escape first (so the model's own text can never inject HTML), then turn the safe, escaped **bold** markers into real <strong> tags.
+function formatAiFeedback(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');}
+// A cheap, conservative pre-check that catches obvious placeholder/junk text (e.g. "DDDD", "FOO") before ever calling the AI — model-agnostic and free, unlike relying on every backend to notice this itself.
+function looksLikeGibberish(answer){
+ const t=String(answer||'').trim();
+ if(t.length<4)return true;
+ const letters=t.replace(/[^a-zA-Z]/g,'');
+ if(letters.length>=4&&new Set(letters.toLowerCase()).size<=2)return true;
+ return false;
+}
+function page(name){activePage=name;document.querySelectorAll('.page').forEach(x=>x.classList.toggle('active',x.id==='page-'+name));document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===name));document.getElementById('top-title').textContent=TITLES[name];if(name==='questions')renderQuestions();if(name==='notes')renderNotes();if(name==='progress')renderProgress();window.scrollTo({top:0,behavior:'smooth'});}
+document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>page(b.dataset.page)));
+function moduleKey(q){return q.paper+'|'+q.module;}
+function populateFilters(){const sel=document.getElementById('module-filter');const mods=[...new Map(QUESTIONS.map(q=>[moduleKey(q),q])).values()].sort((a,b)=>a.paper.localeCompare(b.paper)||a.module.localeCompare(b.module,undefined,{numeric:true}));sel.innerHTML='<option value="all">All modules</option>'+mods.map(q=>`<option value="${esc(moduleKey(q))}">${esc(q.paper)} · ${esc(q.module)} — ${esc(q.moduleTitle)}</option>`).join('');}
+function updateStats(){const revised=Object.values(saved.revised).filter(Boolean).length;const bookmarked=Object.values(saved.bookmarks).filter(Boolean).length;const paperStats=PAPERS.map(p=>{const count=QUESTIONS.filter(q=>q.paper===p.id).length;return[p.label||p.id,count,`${p.title||''} · ${p.subtitle||''}`];});document.getElementById('stats').innerHTML=[['Total questions',QUESTIONS.length,'Across the complete supplied booklets'],...paperStats,['Revised',revised,`${bookmarked} bookmarked`]].map(x=>`<div class="stat"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="small">${x[2]}</div></div>`).join('');}
+function filteredQuestions(){const search=document.getElementById('search').value.trim().toLowerCase();const mod=document.getElementById('module-filter').value;const mark=document.getElementById('mark-filter').value;const status=document.getElementById('status-filter').value;return QUESTIONS.filter(q=>{if(selectedPaper!=='all'&&q.paper!==selectedPaper)return false;if(mod!=='all'&&moduleKey(q)!==mod)return false;if(mark!=='all'&&q.marks!==Number(mark))return false;if(status==='revised'&&!saved.revised[q.id])return false;if(status==='unrevised'&&saved.revised[q.id])return false;if(status==='bookmarked'&&!saved.bookmarks[q.id])return false;if(search&&!`${q.question} ${q.paper} ${q.module} ${q.moduleTitle} ${q.command}`.toLowerCase().includes(search))return false;return true;}).sort((a,b)=>a.paper.localeCompare(b.paper)||a.module.localeCompare(b.module,undefined,{numeric:true})||(a.sourcePage||0)-(b.sourcePage||0)||a.question.localeCompare(b.question));}
+function answerMarkup(q){const a=q.modelAnswer||'A model answer has not been supplied for this question.';const pieces=a.split(/\n\n/);const body=pieces.map(p=>{let safe=esc(p);if(/^A FIRST PERSPECTIVE$/.test(p)||/^AN ALTERNATIVE PERSPECTIVE$/.test(p)||/^JUDGEMENT$/.test(p))return `<span class="section-label">${safe}</span>`;return `<div>${safe.replace(/\n/g,'<br>')}</div>`;}).join('<br>');const evidence=(q.evidence||[]).filter(Boolean);return `<div class="answer-panel"><div class="answer-banner"><strong>Prewritten model answer</strong><span class="indicative">Indicative exemplar · ${q.marks} marks</span></div><div class="answer-text">${body}</div>${evidence.length?`<div class="answer-extra"><h4>Further examples and supporting evidence</h4><ul class="evidence-list">${evidence.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}<div class="tip"><strong>Exam focus:</strong> ${esc(q.examTip||'Keep your response focused on the question and support each point with accurate course knowledge.')}</div></div>`;}
+function renderQuestions(){updateStats();const list=document.getElementById('question-list');const qs=filteredQuestions();document.getElementById('result-count').textContent=`Showing ${qs.length} of ${QUESTIONS.length} questions`;if(!qs.length){list.innerHTML='<div class="empty"><strong>No questions found</strong>Try clearing a filter or changing your search.</div>';return;}list.innerHTML=qs.map((q,i)=>{const open=expandedId===q.id;const paperIdx=PAPERS.findIndex(p=>p.id===q.paper);const paperTag='p'+(paperIdx>=0?paperIdx%4:0);const answer=answerVisible.has(q.id);return `<article class="q-card ${open?'open':''}" id="card-${esc(q.id)}"><button class="q-trigger" data-open="${esc(q.id)}" aria-expanded="${open}"><span class="q-number">${String(i+1).padStart(2,'0')}</span><span class="q-main"><span class="q-meta"><span class="tag ${paperTag}">${esc(q.paper)}</span><span class="tag">Module ${esc(q.module)}</span><span class="tag mark">${q.marks} marks</span></span><span class="q-text">${esc(q.question)}</span><span class="q-sub">${esc(q.moduleTitle)} · Question booklet p. ${q.sourcePage||'—'}</span></span><span class="q-right"><span class="chevron" aria-hidden="true">⌄</span></span></button>${open?`<div class="q-body"><div class="response-heading" id="response-heading-${esc(q.id)}">Your answer</div><textarea class="response-area" data-response="${esc(q.id)}" aria-labelledby="response-heading-${esc(q.id)}" placeholder="Write your answer here...">${esc(typedAnswers[q.id]||'')}</textarea><div class="submit-row"><button class="answer-button" data-submit="${esc(q.id)}">Submit answer &amp; view model answer</button><span class="submit-hint">Your answer is for practice only; it is not automatically marked.</span></div><div class="submit-row" style="margin-top:10px"><button class="ai-feedback-button" data-ai-feedback="${esc(q.id)}">🤖 Ask my AI helper for tips</button><span class="submit-hint">Optional &amp; free · stays on this computer</span></div><div class="ai-feedback" id="ai-feedback-${esc(q.id)}" aria-live="polite">${formatAiFeedback(aiFeedback[q.id]||'')}</div><div class="question-context"><span class="small-muted">You can also reveal the exemplar without writing an answer.</span><button class="mini-btn" data-answer="${esc(q.id)}">${answer?'Hide model answer':'View model answer'}</button></div>${answer?answerMarkup(q):''}<div class="q-actions"><button class="mini-btn ${saved.revised[q.id]?'active':''}" data-revised="${esc(q.id)}">${saved.revised[q.id]?'✓ Revised':'Mark as revised'}</button><button class="mini-btn ${saved.bookmarks[q.id]?'active':''}" data-bookmark="${esc(q.id)}">${saved.bookmarks[q.id]?'★ Bookmarked':'☆ Bookmark question'}</button></div></div>`:''}</article>`;}).join('');}
+function selectPaper(p){selectedPaper=p;document.querySelectorAll('[data-paper]').forEach(b=>b.classList.toggle('active',b.dataset.paper===p));document.getElementById('module-filter').value='all';expandedId=null;renderQuestions();}
+function renderPaperTabs(){const el=document.getElementById('paper-tabs');if(!el)return;el.innerHTML='<button class="tab active" data-paper="all">All papers</button>'+PAPERS.map(p=>`<button class="tab" data-paper="${esc(p.id)}">${esc(p.label||p.id)}${p.title?' · '+esc(p.title):''}</button>`).join('');}
+function renderNotesPaperOptions(){const sel=document.getElementById('notes-paper');if(!sel)return;sel.innerHTML=PAPERS.map(p=>`<option value="${esc(p.id)}">${esc(p.label||p.id)}</option>`).join('');}
+document.getElementById('search').addEventListener('input',()=>{expandedId=null;renderQuestions();});
+['module-filter','mark-filter','status-filter'].forEach(id=>document.getElementById(id).addEventListener('change',()=>{expandedId=null;renderQuestions();}));
+document.getElementById('paper-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-paper]');if(b)selectPaper(b.dataset.paper);});
+document.getElementById('question-list').addEventListener('input',e=>{const area=e.target.closest('[data-response]');if(area){typedAnswers[area.dataset.response]=area.value;clearTimeout(answerSaveTimer);answerSaveTimer=setTimeout(saveSaved,500);}});
+document.getElementById('question-list').addEventListener('click',e=>{const ai=e.target.closest('[data-ai-feedback]');if(ai){requestLocalFeedback(ai.dataset.aiFeedback,ai);return;}const submit=e.target.closest('[data-submit]');if(submit){const id=submit.dataset.submit;const area=document.querySelector(`[data-response=\"${CSS.escape(id)}\"]`);if(area)typedAnswers[id]=area.value;saveSaved();answerVisible.add(id);renderQuestions();return;}const open=e.target.closest('[data-open]');if(open){const id=open.dataset.open;expandedId=expandedId===id?null:id;renderQuestions();return;}const ans=e.target.closest('[data-answer]');if(ans){const id=ans.dataset.answer;if(answerVisible.has(id))answerVisible.delete(id);else answerVisible.add(id);renderQuestions();return;}const rev=e.target.closest('[data-revised]');if(rev){const id=rev.dataset.revised;saved.revised[id]=!saved.revised[id];saveSaved();renderQuestions();return;}const bm=e.target.closest('[data-bookmark]');if(bm){const id=bm.dataset.bookmark;saved.bookmarks[id]=!saved.bookmarks[id];saveSaved();renderQuestions();return;}});
+
+const LOCAL_AI_URL_KEY=DEVICE_ID+'_local_llama_url_v1';const LOCAL_AI_KIND_KEY=DEVICE_ID+'_local_llama_kind_v1';const AI_MODE_KEY=DEVICE_ID+'_ai_mode_v1';const CLOUD_AI_ENDPOINT_KEY=DEVICE_ID+'_cloud_endpoint_v1';const CLOUD_AI_MODEL_KEY=DEVICE_ID+'_cloud_model_v1';const CLOUD_AI_KEY_KEY=DEVICE_ID+'_cloud_apikey_v1';
+// One-time migration: these settings used to live under the active subject's storage prefix (e.g. "edexcel_hinduism_local_llama_url_v1"),
+// so anyone who connected an AI helper before subjects were split would otherwise lose it the first time this runs. Rescue any such
+// value — from any subject's old prefix, found anywhere in localStorage — into the new device-wide key, once, without overwriting
+// anything a user has already set under the new scheme.
+(function migrateDeviceAiSettingsFromOldSubjectKeys(){
+ const suffixes=['_local_llama_url_v1','_local_llama_kind_v1','_ai_mode_v1','_cloud_endpoint_v1','_cloud_model_v1','_cloud_apikey_v1','_wizard_os_v1','_wizard_ram_v1','_wizard_server_v1'];
+ for(const suffix of suffixes){
+  const deviceKey=DEVICE_ID+suffix;
+  if(localStorage.getItem(deviceKey)!==null)continue;
+  for(let i=0;i<localStorage.length;i++){
+   const key=localStorage.key(i);
+   if(key&&key!==deviceKey&&key.endsWith(suffix)){localStorage.setItem(deviceKey,localStorage.getItem(key));break;}
+  }
+ }
+})();
+let localAiModel='local-model';let localAiKind=localStorage.getItem(LOCAL_AI_KIND_KEY)||'openai';let aiMode=localStorage.getItem(AI_MODE_KEY)||'local';
+const AI_SERVER_CATALOG=[
+ {id:'ollama',label:'Ollama',base:'http://127.0.0.1:11434',recommended:true,summary:'Easiest command-line option — one install, one pull command.',installLink:'https://ollama.com',
+  command:{mac:'ollama pull llama3.2',windows:'ollama pull llama3.2',linux:'ollama pull llama3.2'},
+  note:"<code>llama3.2</code> pulls Meta's free 3B model (~2 GB) — light enough for CPU on an ordinary laptop. Alternatives: <code>gemma3:4b</code>, <code>qwen3:4b</code>, <code>phi3</code>; for low-RAM machines try <code>gemma3:1b</code> or <code>llama3.2:1b</code> instead.",
+  corsNote:{mac:'If it still isn\'t found, it\'s almost always CORS, not Ollama being off: quit Ollama, run <code>launchctl setenv OLLAMA_ORIGINS "null"</code> in Terminal, then reopen Ollama. (Starting it yourself instead? Use <code>OLLAMA_ORIGINS=null ollama serve</code>.)',
+   windows:'If it still isn\'t found, it\'s almost always CORS, not Ollama being off: quit Ollama, open PowerShell and run <code>[Environment]::SetEnvironmentVariable(\'OLLAMA_ORIGINS\',\'null\',\'User\')</code>, then reopen Ollama. (Starting it yourself instead? Use <code>set OLLAMA_ORIGINS=null && ollama serve</code> in cmd.)',
+   linux:'If it still isn\'t found, it\'s almost always CORS, not Ollama being off: stop Ollama and start it with <code>OLLAMA_ORIGINS=null ollama serve</code> instead.'}},
+ {id:'llamacpp',label:'llama.cpp',base:'http://127.0.0.1:8080',summary:'Lightweight and widely used, with fine control over the exact model you run.',installLink:'https://github.com/ggml-org/llama.cpp',
+  command:{mac:'llama serve -hf bartowski/Llama-3.2-3B-Instruct-GGUF:Q4_K_M --host 127.0.0.1 --port 8080 --ctx-size 4096 --cors-origins "null"',
+   windows:'llama-server.exe -hf bartowski/Llama-3.2-3B-Instruct-GGUF:Q4_K_M --host 127.0.0.1 --port 8080 --ctx-size 4096 --cors-origins "null"',
+   linux:'llama serve -hf bartowski/Llama-3.2-3B-Instruct-GGUF:Q4_K_M --host 127.0.0.1 --port 8080 --ctx-size 4096 --cors-origins "null"'},
+  note:'The <code>-hf</code> part matters: without a model (or <code>-m</code>), newer versions start in "router mode" with nothing loaded, so detection will find the server but report "no model loaded yet". Used a different <code>--port</code>? Choose Custom address below and enter it.'},
+ {id:'lmstudio',label:'LM Studio',base:'http://127.0.0.1:1234',summary:'Friendly graphical app — no Terminal needed.',installLink:'https://lmstudio.ai',
+  guiSteps:'Download a model inside LM Studio, open the Developer tab, turn on "Enable CORS," then press Start Server.'},
+ {id:'jan',label:'Jan',base:'http://127.0.0.1:1337',summary:'Friendly graphical app — no Terminal needed.',installLink:'https://jan.ai',
+  guiSteps:"Download a model inside Jan, then turn on its built-in Local API Server (Settings → Local API Server → Start)."},
+ {id:'gpt4all',label:'GPT4All',base:'http://127.0.0.1:4891',summary:'Friendly graphical app — no Terminal needed.',installLink:'https://gpt4all.io',
+  guiSteps:'Download a model inside GPT4All, then turn on Settings → Application → Enable Local Server.'},
+];
+const LOCAL_AI_CANDIDATES=AI_SERVER_CATALOG.map(s=>({base:s.base,label:s.label}));
+function detectOS(){const platform=(navigator.userAgentData&&navigator.userAgentData.platform)||navigator.platform||'';const ua=navigator.userAgent||'';if(/mac/i.test(platform)||/Mac OS X/i.test(ua))return'mac';if(/win/i.test(platform)||/Windows/i.test(ua))return'windows';if(/linux/i.test(platform)||/Linux/i.test(ua))return'linux';return'mac';}
+const CLOUD_AI_PROVIDERS=[{endpoint:'https://api.openai.com/v1',label:'OpenAI',modelHint:'gpt-4o-mini'},{endpoint:'https://api.groq.com/openai/v1',label:'Groq',modelHint:'llama-3.3-70b-versatile'},{endpoint:'https://openrouter.ai/api/v1',label:'OpenRouter',modelHint:'openai/gpt-4o-mini'},{endpoint:'https://api.together.xyz/v1',label:'Together AI',modelHint:'meta-llama/Llama-3.3-70B-Instruct-Turbo'}];
+function localAiLabelForBase(base){const match=LOCAL_AI_CANDIDATES.find(c=>c.base===base);return match?match.label:'your AI helper';}
+function localAiBase(){const el=document.getElementById('local-ai-url');return (el?.value||localStorage.getItem(LOCAL_AI_URL_KEY)||'http://127.0.0.1:8080').trim().replace(/\/$/,'');}
+function setLocalAiStatus(message,kind=''){document.querySelectorAll('.ai-status-target').forEach(el=>{el.textContent=message;el.className='local-ai-status ai-status-target '+kind;});}
+async function detectLocalAiAt(base){
+ try{const r=await fetch(base+'/v1/models',{method:'GET'});if(r.ok){const data=await r.json();const list=Array.isArray(data.data)?data.data:[];const model=list[0]?.id;return{kind:'openai',model:model||'local-model',label:localAiLabelForBase(base),noModel:!model};}}catch(e){}
+ try{const r=await fetch(base+'/api/tags',{method:'GET'});if(r.ok){const data=await r.json();const list=Array.isArray(data.models)?data.models:[];const model=list[0]?.name;return{kind:'ollama',model:model||'local-model',label:'Ollama',noModel:!model};}}catch(e){}
+ // Both normal attempts failed. Before giving up, check if *something* is actually listening at this address but
+ // blocking the page via CORS (very common — e.g. Ollama's default OLLAMA_ORIGINS rejects file:// pages, whose
+ // Origin header is "null", so Ollama itself can be live and answering in the Network tab while every fetch() here
+ // still throws). A no-cors probe still resolves against a reachable server (as an opaque, unreadable response)
+ // but throws exactly like the real requests above when truly nothing is listening — so it tells the two apart.
+ let reachable=false;
+ try{await fetch(base+'/',{method:'GET',mode:'no-cors'});reachable=true;}catch(e){}
+ if(reachable){const err=new Error('blocked by CORS at '+base);err.corsBlocked=true;throw err;}
+ throw new Error('nothing answered at '+base);
+}
+function corsHelpFor(base){
+ const server=AI_SERVER_CATALOG.find(s=>s.base===base);
+ const os=(typeof wizardAnswers!=='undefined'&&wizardAnswers.os)||detectOS();
+ let text;
+ if(server?.corsNote)text=server.corsNote[os]||server.corsNote.mac;
+ else if(server?.guiSteps)text='Turn on its CORS setting: '+server.guiSteps;
+ else text="It needs to allow requests from this page — look for a CORS or \"allowed origins\" setting in its settings.";
+ // Opened by double-clicking (file://), the page's origin is "null", which most local servers reject by default.
+ // Serving the folder over http://localhost avoids that entirely with no server settings to change (Ollama allows localhost by default).
+ if(location.protocol==='file:')text='Easiest fix: open this app from a local web address instead of double-clicking the file — in Terminal, cd into the app\'s folder, run python3 -m http.server 8765, then visit http://127.0.0.1:8765/'+encodeURI(decodeURIComponent(location.pathname.split('/').pop()))+' . Or: '+text;
+ // This status line is shown via textContent (not HTML), so strip the <code> markup meant for the instructions panel.
+ return text.replace(/<[^>]+>/g,'');
+}
+async function sendLocalChat(base,kind,messages){
+ if(kind==='ollama'){const r=await fetch(base+'/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:localAiModel,messages,stream:false,options:{temperature:0.2}})});if(!r.ok)throw new Error('Server returned HTTP '+r.status);const data=await r.json();const text=data.message?.content?.trim();if(!text)throw new Error('empty response');return text;}
+ const r=await fetch(base+'/v1/chat/completions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:localAiModel,messages,temperature:0.2,max_tokens:650})});if(!r.ok)throw new Error('Server returned HTTP '+r.status);const data=await r.json();const text=data.choices?.[0]?.message?.content?.trim();if(!text)throw new Error('empty response');return text;
+}
+async function sendCloudChat(messages){
+ const endpoint=(localStorage.getItem(CLOUD_AI_ENDPOINT_KEY)||'').trim().replace(/\/$/,'');const model=(localStorage.getItem(CLOUD_AI_MODEL_KEY)||'').trim();const apiKey=localStorage.getItem(CLOUD_AI_KEY_KEY)||'';
+ if(!endpoint||!model||!apiKey)throw new Error('Add a provider, model name, and API key first.');
+ if(!navigator.onLine)throw new Error("you're offline right now");
+ const r=await fetch(endpoint+'/chat/completions',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+apiKey},body:JSON.stringify({model,messages,temperature:0.2,max_tokens:650})});
+ if(!r.ok)throw new Error('Server returned HTTP '+r.status);const data=await r.json();const text=data.choices?.[0]?.message?.content?.trim();if(!text)throw new Error('empty response');return text;
+}
+async function sendAiChat(messages){if(aiMode==='cloud')return sendCloudChat(messages);if(BUNDLED_AI.ready)return sendLocalChat(BUNDLED_AI.base,'ollama',messages);return sendLocalChat(localAiBase(),localAiKind||'openai',messages);}
+function setAiMode(mode){aiMode=mode;localStorage.setItem(AI_MODE_KEY,mode);const box=document.getElementById('cloud-ai-enable');const fields=document.getElementById('cloud-ai-fields');if(box)box.checked=mode==='cloud';if(fields)fields.style.display=mode==='cloud'?'block':'none';}
+async function testLocalAi(){setAiMode('local');const btn=document.getElementById('local-ai-test');if(btn){btn.disabled=true;btn.textContent='Looking…';}const base=localAiBase();setLocalAiStatus('Looking…');try{const info=await detectLocalAiAt(base);localAiModel=info.model;localAiKind=info.kind;localStorage.setItem(LOCAL_AI_URL_KEY,base);localStorage.setItem(LOCAL_AI_KIND_KEY,info.kind);if(info.noModel){setLocalAiStatus('Found '+info.label+' at '+base+', but it has no model loaded yet. Load one (see the instructions above), then try again.','bad');return false;}BUNDLED_AI.ready=false;setLocalAiStatus('Found it! Connected to '+info.label+'.','ok');return true;}catch(e){if(e&&e.corsBlocked){setLocalAiStatus("Something IS running at "+base+", but it's blocking this page from reaching it (this isn't a missing server). "+corsHelpFor(base),'bad');}else{setLocalAiStatus('Nothing answered at '+base+'. Check the server is running at that address — if you used a different port, choose Custom address above and try again.','bad');}return false;}finally{if(btn){btn.disabled=false;btn.textContent='Test this address';}}}
+document.getElementById('local-ai-test')?.addEventListener('click',testLocalAi);
+function setFindButtonsBusy(busy){const primary=document.getElementById('local-ai-detect'),wizard=document.getElementById('wizard-find-btn');if(primary){primary.disabled=busy;primary.textContent=busy?'🔍 Looking…':'🔍 Find my AI helper';}if(wizard){wizard.disabled=busy;wizard.textContent=busy?'🔍 Looking…':"✅ I've installed and started it — Find my AI helper";}}
+async function findLocalAi(){if(BUNDLED_AI.available)return bundledAiSetup();setAiMode('local');setFindButtonsBusy(true);setLocalAiStatus('Looking for your AI helper…');const manual=localAiBase();const tried=new Set();const candidates=[manual,...LOCAL_AI_CANDIDATES.map(c=>c.base)];let noModelFound=null;let corsBlockedFound=null;for(const base of candidates){if(tried.has(base))continue;tried.add(base);try{const info=await detectLocalAiAt(base);if(info.noModel){if(!noModelFound)noModelFound={base,info};continue;}localAiModel=info.model;localAiKind=info.kind;const urlField=document.getElementById('local-ai-url');if(urlField)urlField.value=base;const presetSelect=document.getElementById('local-ai-preset');if(presetSelect)presetSelect.value=LOCAL_AI_CANDIDATES.some(c=>c.base===base)?base:'custom';localStorage.setItem(LOCAL_AI_URL_KEY,base);localStorage.setItem(LOCAL_AI_KIND_KEY,info.kind);setLocalAiStatus('🎉 Found it! Your '+info.label+' AI helper is ready.','ok');setFindButtonsBusy(false);return true;}catch(e){if(e&&e.corsBlocked&&!corsBlockedFound)corsBlockedFound=base;}}
+ if(noModelFound){const{base,info}=noModelFound;localAiModel=info.model;localAiKind=info.kind;const urlField=document.getElementById('local-ai-url');if(urlField)urlField.value=base;const presetSelect=document.getElementById('local-ai-preset');if(presetSelect)presetSelect.value=LOCAL_AI_CANDIDATES.some(c=>c.base===base)?base:'custom';localStorage.setItem(LOCAL_AI_URL_KEY,base);localStorage.setItem(LOCAL_AI_KIND_KEY,info.kind);setLocalAiStatus('Found '+info.label+' at '+base+', but it has no model loaded yet. Load one (see the instructions above), then try again.','bad');setFindButtonsBusy(false);return false;}
+ if(corsBlockedFound){setLocalAiStatus("Found something running at "+corsBlockedFound+", but it's blocking this page from reaching it (this isn't a missing server). "+corsHelpFor(corsBlockedFound),'bad');setFindButtonsBusy(false);return false;}
+ setLocalAiStatus('No AI helper found yet. Running on a different port? Open the connection settings below, choose Custom address, and enter it. Otherwise ask a grown-up to start one.','bad');setFindButtonsBusy(false);return false;
+}
+// Built-in AI helper: when the page is served by the gcse-revision app, it installs/starts Ollama and downloads a model
+// itself, and proxies it at /llm on this same address — so no CORS settings, ports or model names to sort out.
+const BUNDLED_AI={available:false,ready:false,base:location.origin+'/llm',polling:false};
+function describeBundledAi(s){
+ const pct=(typeof s.progress==='number'&&s.progress>=0)?' '+Math.round(s.progress*100)+'%':'';
+ switch(s.phase){
+  case 'ready':return['🎉 Your AI helper is ready (using '+s.model+'). It runs on this computer — nothing you write leaves it.','ok'];
+  case 'installing':return['⏳ Setting up your AI helper (one-time)…'+pct+' — '+s.message,''];
+  case 'pulling':return['⏳ Downloading your AI helper\'s brain (one-time)…'+pct+'. You can keep revising while this finishes.',''];
+  case 'starting':case 'checking':case 'idle':return['⏳ Getting your AI helper ready…',''];
+  case 'disabled':return['AI helper is switched off. Click “Find my AI helper” to set it up.',''];
+  default:return['Couldn\'t set up the AI helper: '+s.message+' Click “Find my AI helper” to try again. The model answers still work without it.','bad'];
+ }
+}
+async function pollBundledAi(){
+ if(BUNDLED_AI.polling)return;BUNDLED_AI.polling=true;
+ try{
+  for(;;){
+   let s;try{const r=await fetch('/api/llm/status',{cache:'no-store'});s=await r.json();}catch(e){setLocalAiStatus('Lost contact with the app — is its window still open?','bad');return;}
+   const[msg,kind]=describeBundledAi(s);
+   if(aiMode!=='cloud')setLocalAiStatus(msg,kind);
+   if(s.phase==='ready'){BUNDLED_AI.ready=true;localAiModel=s.model;localAiKind='ollama';setFindButtonsBusy(false);return;}
+   BUNDLED_AI.ready=false;
+   if(s.phase==='error'||s.phase==='disabled'){setFindButtonsBusy(false);return;}
+   await new Promise(res=>setTimeout(res,1200));
+  }
+ }finally{BUNDLED_AI.polling=false;}
+}
+async function bundledAiSetup(){setAiMode('local');setFindButtonsBusy(true);try{await fetch('/api/llm/setup',{method:'POST'});}catch(e){}await pollBundledAi();setFindButtonsBusy(false);return BUNDLED_AI.ready;}
+(async function detectBundledAi(){
+ if(location.protocol==='file:')return;
+ try{const r=await fetch('/api/info',{cache:'no-store'});const info=await r.json();if(info.app!=='gcse-revision')return;}catch(e){return;}
+ BUNDLED_AI.available=true;
+ const gs=document.querySelector('.setup-details summary');if(gs)gs.textContent='🧑‍🔧 Grown-ups: use a different AI server or a cloud service (optional)';
+ pollBundledAi();
+})();
+document.getElementById('local-ai-detect')?.addEventListener('click',findLocalAi);
+document.getElementById('local-ai-url')?.addEventListener('change',e=>localStorage.setItem(LOCAL_AI_URL_KEY,e.target.value.trim()));
+const rememberedLocalUrl=localStorage.getItem(LOCAL_AI_URL_KEY);if(rememberedLocalUrl&&document.getElementById('local-ai-url'))document.getElementById('local-ai-url').value=rememberedLocalUrl;
+// Populate the local server dropdown from the same preset list Auto-detect uses, so they never drift apart.
+(function initLocalPresetDropdown(){
+ const sel=document.getElementById('local-ai-preset');if(!sel)return;
+ sel.innerHTML=LOCAL_AI_CANDIDATES.map(c=>`<option value="${c.base}">${esc(c.label)} — ${esc(c.base)}</option>`).join('')+'<option value="custom">Custom address…</option>';
+ const customField=document.getElementById('local-ai-custom-field');
+ function applyPreset(){if(sel.value==='custom'){customField.style.display='block';}else{customField.style.display='none';document.getElementById('local-ai-url').value=sel.value;localStorage.setItem(LOCAL_AI_URL_KEY,sel.value);}}
+ sel.value=LOCAL_AI_CANDIDATES.some(c=>c.base===rememberedLocalUrl)?rememberedLocalUrl:(rememberedLocalUrl?'custom':LOCAL_AI_CANDIDATES[0].base);
+ applyPreset();sel.addEventListener('change',applyPreset);
+})();
+// Guided setup wizard: pick your OS + program, see only the relevant steps, then test in one click.
+const WIZARD_OS_KEY=DEVICE_ID+'_wizard_os_v1';const WIZARD_RAM_KEY=DEVICE_ID+'_wizard_ram_v1';const WIZARD_SERVER_KEY=DEVICE_ID+'_wizard_server_v1';
+// Model picks verified against Ollama's live library — matched to the RAM tiers a real "best local LLM for a laptop" guide recommends.
+const RAM_MODEL_GUIDE={
+ '4gb':{label:'4 GB RAM',ollamaModel:'qwen3:1.7b',sizeHint:'~1.1 GB',desc:'Fast, simple Q&A and basic homework help — the right size for a budget laptop or Chromebook-class device.'},
+ '8gb':{label:'8 GB RAM',ollamaModel:'phi4-mini',sizeHint:'~2.5 GB',desc:'Handles step-by-step reasoning well — a good match for exam-style feedback.'},
+ '16gb':{label:'16 GB RAM or more',ollamaModel:'gemma3:4b',sizeHint:'~3.3 GB',desc:'More accurate while still running comfortably in the background.'},
+ 'unsure':{label:"Not sure",ollamaModel:'llama3.2',sizeHint:'~2 GB',desc:'A safe, well-tested default that runs fine on most laptops.'}
+};
+const WIZARD_OS_OPTIONS=[{value:'mac',label:'🍎 Mac'},{value:'windows',label:'🪟 Windows'},{value:'linux',label:'🐧 Linux'}];
+let wizardStep=1;
+const wizardAnswers={os:localStorage.getItem(WIZARD_OS_KEY)||detectOS(),server:localStorage.getItem(WIZARD_SERVER_KEY)||(AI_SERVER_CATALOG.find(s=>s.recommended)||AI_SERVER_CATALOG[0]).id,ram:localStorage.getItem(WIZARD_RAM_KEY)||'unsure'};
+function renderChoiceGrid(containerId,items,selectedValue){const el=document.getElementById(containerId);if(!el)return;el.innerHTML=items.map(it=>`<button type="button" class="choice-card${it.value===selectedValue?' selected':''}" data-value="${esc(it.value)}"><div class="choice-title">${esc(it.label)}</div>${it.desc?`<div class="choice-desc">${esc(it.desc)}</div>`:''}${it.recommended?'<span class="choice-badge">Recommended</span>':''}</button>`).join('');}
+function renderWizardChoices(){
+ renderChoiceGrid('wizard-os-choices',WIZARD_OS_OPTIONS,wizardAnswers.os);
+ renderChoiceGrid('wizard-server-choices',AI_SERVER_CATALOG.map(s=>({value:s.id,label:s.label,desc:s.summary,recommended:s.recommended})),wizardAnswers.server);
+ renderChoiceGrid('wizard-ram-choices',Object.entries(RAM_MODEL_GUIDE).map(([k,v])=>({value:k,label:v.label,desc:v.desc})),wizardAnswers.ram);
+}
+function goToWizardStep(step){
+ wizardStep=step;
+ document.querySelectorAll('.wizard-step').forEach(el=>{el.style.display=(Number(el.dataset.step)===step)?'block':'none';});
+ const progress=document.getElementById('wizard-progress');if(progress)progress.textContent=`Step ${step} of 4`;
+ if(step===4)renderWizard();
+}
+function renderWizard(){
+ const box=document.getElementById('wizard-instructions');if(!box)return;
+ const os=wizardAnswers.os;const server=AI_SERVER_CATALOG.find(s=>s.id===wizardAnswers.server)||AI_SERVER_CATALOG[0];
+ const ram=RAM_MODEL_GUIDE[wizardAnswers.ram]||RAM_MODEL_GUIDE.unsure;
+ let html=`<p><strong>${esc(server.label)}</strong> — ${esc(server.summary)} <a href="${esc(server.installLink)}" target="_blank" rel="noopener">Download ${esc(server.label)}</a>.</p>`;
+ if(server.id==='ollama'){
+  html+=`<p>Then in ${os==='windows'?'PowerShell':'Terminal'}:</p><pre>ollama pull ${esc(ram.ollamaModel)}</pre><p class="local-ai-note">For ${esc(ram.label)}: ${esc(ram.desc)} (${esc(ram.sizeHint)} download.) Want to compare others? <code>qwen3:1.7b</code>, <code>phi4-mini</code>, <code>gemma3:4b</code> and <code>llama3.2</code> are all free — just swap the name above.</p>`;
+ }else if(server.command){
+  html+=`<p>Then in ${os==='windows'?'PowerShell':'Terminal'}:</p><pre>${esc(server.command[os]||server.command.mac)}</pre><p class="local-ai-note">For ${esc(ram.label)}: look for a similarly-sized free model (around ${esc(ram.sizeHint)}) on Hugging Face — search the model name + "GGUF" and pick a bartowski Q4_K_M build, then swap the <code>-hf</code> value above.</p>`;
+ }else if(server.guiSteps){
+  html+=`<p>${server.guiSteps}</p><p class="local-ai-note">For ${esc(ram.label)}: pick a model around ${esc(ram.sizeHint)} in ${esc(server.label)}'s built-in model browser — ${esc(ram.desc)}</p>`;
+ }
+ if(server.note)html+=`<p class="local-ai-note">${server.note}</p>`;
+ if(server.corsNote)html+=`<p class="local-ai-note">${server.corsNote[os]||server.corsNote.mac}</p>`;
+ box.innerHTML=html;
+}
+(function initWizard(){
+ if(!document.getElementById('wizard-os-choices'))return;
+ renderWizardChoices();
+ document.getElementById('wizard-os-choices')?.addEventListener('click',e=>{const btn=e.target.closest('[data-value]');if(!btn)return;wizardAnswers.os=btn.dataset.value;localStorage.setItem(WIZARD_OS_KEY,wizardAnswers.os);renderWizardChoices();goToWizardStep(2);});
+ document.getElementById('wizard-server-choices')?.addEventListener('click',e=>{const btn=e.target.closest('[data-value]');if(!btn)return;wizardAnswers.server=btn.dataset.value;localStorage.setItem(WIZARD_SERVER_KEY,wizardAnswers.server);renderWizardChoices();goToWizardStep(3);});
+ document.getElementById('wizard-ram-choices')?.addEventListener('click',e=>{const btn=e.target.closest('[data-value]');if(!btn)return;wizardAnswers.ram=btn.dataset.value;localStorage.setItem(WIZARD_RAM_KEY,wizardAnswers.ram);renderWizardChoices();goToWizardStep(4);});
+ document.getElementById('wizard-steps')?.addEventListener('click',e=>{const back=e.target.closest('[data-back]');if(!back)return;goToWizardStep(Number(back.dataset.back));});
+ const hasAnswers=localStorage.getItem(WIZARD_OS_KEY)&&localStorage.getItem(WIZARD_RAM_KEY);
+ goToWizardStep(hasAnswers?4:1);
+ document.getElementById('wizard-find-btn')?.addEventListener('click',findLocalAi);
+})();
+// Optional cloud AI: gated to online only, key kept out of progress backups and folder sync.
+(function initCloudAi(){
+ const enableBox=document.getElementById('cloud-ai-enable'),fields=document.getElementById('cloud-ai-fields'),offlineNote=document.getElementById('cloud-ai-offline-note'),providerSel=document.getElementById('cloud-ai-provider'),endpointField=document.getElementById('cloud-ai-endpoint-field'),endpointInput=document.getElementById('cloud-ai-endpoint'),modelInput=document.getElementById('cloud-ai-model'),keyInput=document.getElementById('cloud-ai-key'),saveBtn=document.getElementById('cloud-ai-save');
+ if(!enableBox)return;
+ providerSel.innerHTML=CLOUD_AI_PROVIDERS.map(p=>`<option value="${p.endpoint}">${esc(p.label)}</option>`).join('')+'<option value="custom">Custom endpoint…</option>';
+ const savedEndpoint=localStorage.getItem(CLOUD_AI_ENDPOINT_KEY),savedModel=localStorage.getItem(CLOUD_AI_MODEL_KEY),savedKey=localStorage.getItem(CLOUD_AI_KEY_KEY);
+ if(savedModel)modelInput.value=savedModel;if(savedKey)keyInput.value=savedKey;
+ if(savedEndpoint){const known=CLOUD_AI_PROVIDERS.find(p=>p.endpoint===savedEndpoint);if(known){providerSel.value=known.endpoint;}else{providerSel.value='custom';endpointField.style.display='block';endpointInput.value=savedEndpoint;}}
+ function updateGating(){const online=navigator.onLine;enableBox.disabled=!online;offlineNote.style.display=online?'none':'block';}
+ updateGating();window.addEventListener('online',updateGating);window.addEventListener('offline',updateGating);
+ enableBox.checked=aiMode==='cloud';fields.style.display=aiMode==='cloud'?'block':'none';
+ enableBox.addEventListener('change',e=>{setAiMode(e.target.checked?'cloud':'local');});
+ providerSel.addEventListener('change',()=>{const val=providerSel.value;endpointField.style.display=val==='custom'?'block':'none';const found=CLOUD_AI_PROVIDERS.find(p=>p.endpoint===val);if(found&&!modelInput.value)modelInput.value=found.modelHint;});
+ saveBtn.addEventListener('click',async()=>{
+  const endpoint=providerSel.value==='custom'?endpointInput.value.trim().replace(/\/$/,''):providerSel.value;
+  const model=modelInput.value.trim(),apiKey=keyInput.value.trim();
+  localStorage.setItem(CLOUD_AI_ENDPOINT_KEY,endpoint);localStorage.setItem(CLOUD_AI_MODEL_KEY,model);localStorage.setItem(CLOUD_AI_KEY_KEY,apiKey);
+  setAiMode('cloud');
+  if(!navigator.onLine){setLocalAiStatus("You're offline right now — reconnect to the internet, then try again.",'bad');return;}
+  setLocalAiStatus('Checking the cloud AI service…');
+  try{await sendCloudChat([{role:'user',content:'Reply with one word: ready.'}]);setLocalAiStatus('🎉 Connected to '+(CLOUD_AI_PROVIDERS.find(p=>p.endpoint===endpoint)?.label||'your cloud AI service')+'.','ok');}
+  catch(e){setLocalAiStatus('Could not connect. ('+e.message+')','bad');}
+ });
+})();
+async function requestLocalFeedback(id,button){const q=QUESTIONS.find(x=>x.id===id);if(!q)return;const area=document.querySelector(`[data-response="${CSS.escape(id)}"]`);const answer=area?area.value:(typedAnswers[id]||'');if(area)typedAnswers[id]=answer;saveSaved();if(!answer.trim()){aiFeedback[id]='Write your answer in the box first, then ask your AI helper for tips.';saveSaved();renderQuestions();return;}if(looksLikeGibberish(answer)){aiFeedback[id]="That doesn't look like a real answer yet — it looks like placeholder or random text rather than an attempt at the question. Write what you actually know about it, then ask your AI helper again.";saveSaved();renderQuestions();return;}button.disabled=true;button.textContent='Thinking…';const out=document.getElementById('ai-feedback-'+CSS.escape(id));if(out){out.textContent='Your AI helper is reading your answer…';out.style.display='block';}try{const prompt=`You are a careful ${CONFIG.examBoard} ${CONFIG.subjectArea} examiner and supportive tutor specialising in ${CONFIG.subjectName}. Assess the student's response to the exact question below. Paper: ${q.paper}. Module: ${q.module} — ${q.moduleTitle}. Marks available: ${q.marks}. Command word: ${q.command||'as written'}. Question: ${q.question}
+
+Student answer:
+${answer}
+
+First, check whether this is a genuine attempt to answer the question — not empty, not random/keyboard-mash text, not an unrelated copy of the question, and not obviously off-topic. If it is not a genuine attempt, say so plainly in one or two sentences and ask the student to write a real answer; do not invent strengths, marks, or an improvement plan for it, and stop there.
+
+Only if it is a genuine attempt, give concise, useful formative feedback with: (1) what is accurate and relevant, (2) what is missing or needs correcting, (3) one or two specific ways to improve, and (4) an indicative mark range only if you can justify it. Match the demand of the mark allocation and ${CONFIG.examBoard} style. Do not invent quotations or teachings. Be explicit that this is an unofficial estimate, not an official ${CONFIG.examBoard} mark. Do not reveal the prewritten model answer verbatim. Never praise an answer that has no real content.`;const text=await sendAiChat([{role:'system',content:`You provide accurate, age-appropriate, constructive GCSE-level ${CONFIG.subjectArea} feedback. You are honest, not just agreeable: you never award marks or praise to an answer that is not a genuine attempt.`},{role:'user',content:prompt}]);aiFeedback[id]=text;}catch(e){aiFeedback[id]="Your AI helper isn't connected right now ("+e.message+"). Click \"🔍 Find my AI helper\" above, or just use the ready-made model answer instead.";}finally{saveSaved();renderQuestions();}}
+
+function formatNoteSummary(value){
+ const skip=new Set(['Idea','Meaning','Term','Example','Significance','Type','Stage','Role','Name','Date','Length','Character','Teaching','Path','Feature','Features','Advantages','Disadvantages',...PAPERS.map(p=>p.label||p.id)]);
+ return String(value||'').split('\n').map(line=>{
+  const t=line.trim();
+  if(!t) return '<div class="note-gap"></div>';
+  const words=t.split(/\s+/);
+  const heading=!/^[•▪]/.test(t) && !/[.!?]$/.test(t) && words.length>=2 && words.length<=10 && t.length<=88 && /^[A-Z“]/.test(t) && !skip.has(t);
+  if(heading) return `<div class="note-heading">${esc(t)}</div>`;
+  return `<div class="note-line">${esc(t)}</div>`;
+ }).join('');
+}
+function renderNotes(){const paper=document.getElementById('notes-paper').value;const modules=DATA.notes.filter(n=>n.paper===paper).sort((a,b)=>a.module.localeCompare(b.module,undefined,{numeric:true}));const menu=document.getElementById('module-list');menu.innerHTML=modules.map(n=>`<button class="module-item ${selectedNote===n.paper+'|'+n.module?'active':''}" data-note="${esc(n.paper+'|'+n.module)}"><small>MODULE ${esc(n.module)}</small><span>${esc(n.title)}</span></button>`).join('');let n=modules.find(x=>selectedNote===x.paper+'|'+x.module)||modules[0];if(n){selectedNote=n.paper+'|'+n.module;document.getElementById('note-display').innerHTML=`<div class="eyebrow">${esc(n.paper)} · Module ${esc(n.module)}</div><h2>${esc(n.title)}</h2><div class="focus">${esc(n.specFocus||'')}</div><div class="notes-text">${formatNoteSummary(n.summary||'')}</div><div class="source-ref">Source: ${esc(n.sourcePages||'Supplied course booklet')}. Based on the uploaded concise revision booklet for this paper.</div>`;}}
+document.getElementById('notes-paper').addEventListener('change',()=>{const p=document.getElementById('notes-paper').value;const first=DATA.notes.find(n=>n.paper===p);selectedNote=first?first.paper+'|'+first.module:'';renderNotes();});
+document.getElementById('module-list').addEventListener('click',e=>{const b=e.target.closest('[data-note]');if(!b)return;selectedNote=b.dataset.note;renderNotes();});
+function renderProgress(){const total=QUESTIONS.length;const revised=Object.values(saved.revised).filter(Boolean).length;const bookmarks=Object.values(saved.bookmarks).filter(Boolean).length;const byPaper=PAPERS.map(p=>{const qs=QUESTIONS.filter(q=>q.paper===p.id);const n=qs.filter(q=>saved.revised[q.id]).length;return {p:p.label||p.id,n,total:qs.length};});document.getElementById('progress-grid').innerHTML=`<div class="progress-card"><h3>Questions revised</h3><div class="big">${revised} / ${total}</div><p>${Math.round(revised/total*100)}% of the bank marked as revised.</p></div><div class="progress-card"><h3>Bookmarked questions</h3><div class="big">${bookmarks}</div><p>Use bookmarks to build a personal list of questions to revisit.</p></div>${byPaper.map(x=>`<div class="progress-card"><h3>${x.p}</h3><div class="big">${x.n} / ${x.total}</div><p>${Math.round(x.n/x.total*100)}% revised in this paper.</p></div>`).join('')}<div class="progress-card"><h3>🔄 Sync across devices</h3><p>Connect a folder on this computer — including one synced by OneDrive, Google Drive, or iCloud Drive — and your answers and progress save there automatically whenever something changes.</p><div class="submit-row"><button class="answer-button" id="sync-connect">🔗 Connect a synced folder</button><button class="mini-btn" id="sync-save-now">Save now</button><button class="mini-btn" id="sync-load">Load from folder</button></div><div class="local-ai-status" id="sync-status">Not connected yet.</div><p class="local-ai-note">Works in Chrome and Edge. In other browsers, use Export and Import below and save the file into your cloud-synced folder.</p></div><div class="progress-card"><h3>Export your progress</h3><p>Make a JSON backup of your answers, bookmarks and revision ticks. Save it into any OneDrive, Google Drive, or iCloud Drive folder to back it up or move it to another device.</p><button class="answer-button" id="export-progress">Export progress</button></div><div class="progress-card"><h3>Import a progress backup</h3><p>Restore a saved backup — including one opened from your OneDrive, Google Drive, or iCloud Drive folder.</p><input id="import-progress" type="file" accept="application/json" style="margin-top:12px;max-width:100%"></div>`;document.getElementById('export-progress').onclick=()=>{const blob=new Blob([JSON.stringify(saved,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=BACKUP_FILENAME;a.click();URL.revokeObjectURL(a.href);};document.getElementById('import-progress').onchange=async e=>{const file=e.target.files?.[0];if(!file)return;try{const parsed=JSON.parse(await file.text());saved=Object.assign({revised:{},bookmarks:{},answers:{},feedback:{}},parsed);typedAnswers=saved.answers;aiFeedback=saved.feedback;saveSaved();renderQuestions();renderProgress();}catch(err){alert('That file could not be read as a progress backup.');}};document.getElementById('sync-connect').addEventListener('click',connectSyncFolder);document.getElementById('sync-save-now').addEventListener('click',syncNowManual);document.getElementById('sync-load').addEventListener('click',loadFromSyncFolder);restoreSyncHandle();}
+// Make the whole app shell reflect CONFIG, so swapping the subject only means editing the data file — no code changes.
+// Pick a sensible icon from the subject if the data file doesn't specify one explicitly — so new subjects "just work" without hand-picking an icon each time.
+function defaultBrandIcon(){
+ if(CONFIG.brandIcon)return CONFIG.brandIcon;
+ const text=((CONFIG.subjectArea||'')+' '+(CONFIG.subjectName||'')).toLowerCase();
+ const rules=[
+  [/hindu/,'ॐ'],[/christian|bible|catholic/,'✝️'],[/islam|muslim/,'☪️'],[/jewish|judaism/,'✡️'],[/buddhis/,'☸️'],[/sikh/,'🪯'],
+  [/religious studies|theology|philosophy and ethics/,'🛐'],
+  [/french/,'🇫🇷'],[/spanish/,'🇪🇸'],[/german/,'🇩🇪'],[/italian/,'🇮🇹'],[/mandarin|chinese/,'🇨🇳'],[/japanese/,'🇯🇵'],[/language/,'🗣️'],
+  [/math/,'📐'],[/physic/,'🪐'],[/chemistr/,'🧪'],[/biolog/,'🧬'],[/computer science|computing/,'💻'],[/science/,'🔬'],
+  [/english|literature/,'📖'],[/geograph/,'🌍'],[/histor/,'🏛️'],[/art|design/,'🎨'],[/music/,'🎵'],[/physical education|\bpe\b/,'🏅'],[/business/,'💼'],[/economics/,'📈'],
+ ];
+ for(const[pattern,icon]of rules){if(pattern.test(text))return icon;}
+ return '🎓';
+}
+function applyConfig(){
+ if(CONFIG.pageTitle)document.title=CONFIG.pageTitle;
+ const setText=(id,val)=>{if(val==null)return;const el=document.getElementById(id);if(el)el.textContent=val;};
+ setText('brand-title',CONFIG.brandTitle);
+ setText('brand-subtitle',CONFIG.brandSubtitle);
+ setText('breadcrumb',CONFIG.breadcrumb);
+ setText('hero-eyebrow',CONFIG.heroEyebrow);
+ setText('footer-note',CONFIG.footerNote);
+ const iconEl=document.querySelector('.brand-icon');if(iconEl)iconEl.textContent=defaultBrandIcon();
+ setText('notes-hero-eyebrow',`${DATA.notes.length} modules · full course coverage`);
+}
+// Initial setup
+applyConfig();renderPaperTabs();renderNotesPaperOptions();populateFilters();document.getElementById('total-pill').textContent=`${QUESTIONS.length} questions · ${DATA.notes.length} modules`;
+(function initSubjectSwitcher(){
+ const btn=document.getElementById('switch-subject-btn');
+ if(SUBJECTS.length<=1)return;
+ if(btn)btn.style.display='';
+ const overlay=document.getElementById('subject-picker-overlay');
+ function renderSubjectPicker(){
+  const box=document.getElementById('subject-picker-choices');if(!box)return;
+  // Grouped by subject area (Religious Studies, Languages, …) and filterable, so it stays usable with many subjects.
+  const q=(document.getElementById('subject-picker-search')?.value||'').trim().toLowerCase();
+  const groups=new Map();
+  SUBJECTS.forEach((s,i)=>{const c=s.config||{};const title=c.brandTitle||c.subjectName||('Subject '+(i+1));const hay=[title,c.subjectName,c.examBoard,c.subjectArea].join(' ').toLowerCase();if(q&&!q.split(/\s+/).every(w=>hay.includes(w)))return;const area=c.subjectArea||'Other';if(!groups.has(area))groups.set(area,[]);groups.get(area).push({s,i,title,c});});
+  const areas=[...groups.keys()].sort();
+  box.innerHTML=areas.length?areas.map(area=>`<div class="subject-group-title">${esc(area)}</div>`+groups.get(area).sort((a,b)=>a.title.localeCompare(b.title)||String(a.c.examBoard).localeCompare(String(b.c.examBoard))).map(({i,title,c})=>`<button type="button" class="choice-card${i===ACTIVE_SUBJECT?' selected':''}" data-index="${i}"><div class="choice-title">${esc(title)}</div>${c.examBoard?`<div class="choice-desc">${esc(c.examBoard)}</div>`:''}</button>`).join('')).join(''):'<p class="local-ai-note">No subjects match that search.</p>';
+ }
+ const search=document.getElementById('subject-picker-search');
+ if(search){if(SUBJECTS.length>6)search.style.display='';search.addEventListener('input',renderSubjectPicker);}
+ renderSubjectPicker();
+ btn?.addEventListener('click',()=>{renderSubjectPicker();if(overlay)overlay.style.display='flex';});
+ document.getElementById('subject-picker-close')?.addEventListener('click',()=>{if(overlay)overlay.style.display='none';});
+ document.getElementById('subject-picker-choices')?.addEventListener('click',e=>{const b=e.target.closest('[data-index]');if(!b)return;switchSubject(Number(b.dataset.index));});
+})();
+renderQuestions();
+</script>
+</body>
+</html>

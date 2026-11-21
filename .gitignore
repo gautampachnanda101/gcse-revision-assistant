@@ -1,0 +1,8 @@
+/gcse-revision
+/gcse-revision.exe
+/dist/
+*.tmp
+.DS_Store
+
+# Packs you may use yourself but not redistribute. Baked into personal builds only: go build -tags private
+/private/
