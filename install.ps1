@@ -15,9 +15,11 @@ $Exe = Join-Path $Dir "$Name.exe"
 $Tmp = "$Exe.download"
 $TaskName = 'GCSERevision'
 $HadTask = $false
-& schtasks /Query /TN $TaskName *> $null
-if ($LASTEXITCODE -eq 0) {
-  $HadTask = $true
+try {
+  & schtasks /Query /TN $TaskName *> $null
+  $HadTask = $LASTEXITCODE -eq 0
+} catch {
+  $HadTask = $false
 }
 
 Write-Host "Downloading $Asset..."

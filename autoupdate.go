@@ -29,7 +29,10 @@ type githubRelease struct {
 }
 
 func automaticUpgradeLoop(ctx context.Context, opts options) {
-	if opts.offline || envOr("GCSE_REVISION_AUTO_UPDATE", "1") != "1" || version == "dev" {
+	if _, err := versionParts(version); err != nil {
+		return
+	}
+	if opts.offline || envOr("GCSE_REVISION_AUTO_UPDATE", "1") != "1" {
 		return
 	}
 	go func() {
