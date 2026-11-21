@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"net"
 	"os"
 	"os/exec"
 	"os/user"
@@ -74,10 +75,7 @@ func serviceCommand(args []string, opts options) error {
 	case "stop":
 		return stopService()
 	case "restart":
-		if err := stopService(); err != nil {
-			return err
-		}
-		return startService()
+		return restartServiceAt(opts.port)
 	case "status":
 		running, _, _ := serviceStatus()
 		if running {
@@ -132,12 +130,8 @@ func installService(opts options) error {
 		if err := writeFileAtomic(plistPath, []byte(plist)); err != nil {
 			return err
 		}
-		_ = exec.Command("launchctl", "bootout", "gui/"+currentUserID(), plistPath).Run()
-		if out, err := exec.Command("launchctl", "bootstrap", "gui/"+currentUserID(), plistPath).CombinedOutput(); err != nil {
-			// Fall back for older macOS releases.
-			if out2, err2 := exec.Command("launchctl", "load", "-w", plistPath).CombinedOutput(); err2 != nil {
-				return fmt.Errorf("launchctl bootstrap: %s: %w; launchctl load: %s: %v", out, err, out2, err2)
-			}
+		if err := restartServiceAt(opts.port); err != nil {
+			return fmt.Errorf("start installed launch agent: %w", err)
 		}
 	case "linux":
 		home, err := os.UserHomeDir()
@@ -234,13 +228,18 @@ func stopService() error {
 }
 
 func restartService() error {
+	return restartServiceAt(8765)
+}
+
+func restartServiceAt(port int) error {
 	if err := stopService(); err != nil {
 		return err
 	}
 	deadline := time.Now().Add(8 * time.Second)
 	for {
 		running, _, _ := serviceStatus()
-		if !running {
+		listening := alreadyRunning(net.JoinHostPort("127.0.0.1", strconv.Itoa(port)))
+		if !running && !listening {
 			break
 		}
 		if time.Now().After(deadline) {
@@ -251,8 +250,14 @@ func restartService() error {
 	var last error
 	for i := 0; i < 5; i++ {
 		if err := startService(); err == nil {
-			time.Sleep(750 * time.Millisecond)
-			return nil
+			healthDeadline := time.Now().Add(12 * time.Second)
+			for time.Now().Before(healthDeadline) {
+				if alreadyRunning(net.JoinHostPort("127.0.0.1", strconv.Itoa(port))) {
+					return nil
+				}
+				time.Sleep(250 * time.Millisecond)
+			}
+			last = fmt.Errorf("service started but %s is not responding", browserURL(port))
 		} else {
 			last = err
 		}
