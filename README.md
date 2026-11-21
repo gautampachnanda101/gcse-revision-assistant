@@ -17,6 +17,13 @@ curl -fsSL https://raw.githubusercontent.com/gautampachnanda101/gcse-revision-as
 irm https://raw.githubusercontent.com/gautampachnanda101/gcse-revision-assistant/main/install.ps1 | iex
 ```
 
+**Homebrew / Scoop**
+
+```sh
+brew install gautampachnanda101/tap/gcse-revision
+scoop bucket add gautampachnanda101 https://github.com/gautampachnanda101/scoop-bucket && scoop install gcse-revision
+```
+
 This installs one small program (`gcse-revision`) with no other dependencies, then opens the app in your browser.
 To start it again later, run `gcse-revision`.
 
@@ -81,6 +88,18 @@ Merge a subject pack into `main`. The **Publish content** workflow then:
 4. checks that a fresh install downloads and verifies exactly that content from GitHub.
 
 Installed apps pick it up the next time they start. One-time set-up of the signing key: `sh scripts/setup-signing.sh`.
+
+## Releases (maintainers)
+
+Versions are [semantic](https://semver.org) and automatic. After CI passes on `main`, the **Auto tag** workflow reads the [conventional commits](https://www.conventionalcommits.org) since the last tag:
+
+- `feat:` bumps the minor version.
+- `fix:` or `perf:` bumps the patch version.
+- `type!:` or a `BREAKING CHANGE` footer bumps the major version (the minor version while still 0.x).
+
+It releases only if one of those commits changed files that ship in the binary (Go code, `app.html`, `subjects.js`, the installers). Subject-pack content changes go out through the content channel and don't need a release.
+
+The **Release** workflow then builds all platforms, publishes the GitHub release and updates the Homebrew formula in `homebrew-tap` and the Scoop manifest in `scoop-bucket`. That needs a `HOMEBREW_TAP_GITHUB_TOKEN` secret on this repo: a token with write access to both of those repos. You can also release by hand with `git tag vX.Y.Z && git push origin vX.Y.Z`.
 
 ## Tests
 
