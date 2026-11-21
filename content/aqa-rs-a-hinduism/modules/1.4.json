@@ -1,0 +1,134 @@
+{
+ "paper": "Beliefs",
+ "module": "1.4",
+ "moduleTitle": "The atman; samsara, karma and moksha",
+ "note": {
+  "specFocus": "The concept of atman, as individual, eternal inner self, distinct from material mind and body. Cycle of birth and death: samsara; moral action and reaction: the law of karma; types of liberation: moksha.",
+  "summary": "ATMAN – THE ETERNAL SELF\nThe atman is the real, individual, eternal inner self (often translated \"soul\"). It is conscious, unchanging and indestructible, and it is distinct from the material body and also from the material mind, intellect and ego, which are made of prakriti. The Bhagavad Gita teaches: \"The self is never born, nor does it ever die… it is unborn, eternal, ever-existing and primeval; it is not killed when the body is killed\" (2.20). The Katha Upanishad compares the self to a passenger in a chariot: the body is the chariot, the intellect the driver, the mind the reins and the senses the horses (Katha Upanishad 1.3.3–4).\nTraditions differ: in Advaita Vedanta the atman is ultimately identical with Brahman (\"Tat tvam asi\", Chandogya Upanishad 6.8.7); in Dvaita and Vishishtadvaita the atman is eternally distinct from God, a tiny spark or part of him (Gita 15.7), whose nature is to serve and love God.\n\nSAMSARA – THE CYCLE OF BIRTH AND DEATH\nSamsara is the continuous cycle of birth, death and rebirth (reincarnation) through which the atman passes. \"As a person puts on new garments, giving up old ones, the self accepts new bodies, giving up the old and useless ones\" (Gita 2.22). The atman can be reborn as a human, animal, plant or in other worlds, depending on karma. Samsara is seen as a state of bondage and suffering, driven by desire and ignorance.\n\nKARMA – MORAL ACTION AND REACTION\nKarma literally means \"action\". The law of karma teaches that every intentional action has consequences that return to the person who performed it, in this life or a future one. \"As one acts, so one becomes: by good action one becomes good, by bad action bad\" (Brihadaranyaka Upanishad 4.4.5). Karma is not fate or punishment by God: it is a moral law of cause and effect, and people can change their future by their present choices. Many Hindus distinguish:\n• sanchita karma – the store of accumulated past karma;\n• prarabdha karma – the portion now \"ripening\" in this life (e.g. circumstances of birth);\n• kriyamana karma – the new karma being made now.\nGood karma (punya) leads to happier births; bad karma (papa) to suffering. However, even good karma keeps the soul in samsara, so the ultimate goal is to go beyond karma.\n\nMOKSHA – LIBERATION\nMoksha is liberation (release) from samsara, the final aim of human life. Hindus have different understandings of it:\n• Advaita: the atman realises its identity with nirguna Brahman, like a drop of water merging with the ocean; individuality as a separate self ends.\n• Vaishnava/theistic: the soul is freed from material bodies and enters the spiritual world (e.g. Vaikuntha or Goloka) to live in eternal loving relationship with God, keeping its individual identity. Traditional texts list types of liberation, including living in God's abode (salokya), being near him (samipya), having a form like his (sarupya) and merging into him (sayujya).\n• Jivanmukti – some believe a person can be liberated while still living (a jivanmukta).\nMoksha is reached through the paths of yoga (knowledge, action, meditation, devotion), and many believe it depends on God's grace. Krishna says that those who come to him \"do not take birth again\" (Gita 8.15).\n\nTODAY\nBelief in karma and rebirth influences daily choices: many Hindus avoid harming animals, give to charity and accept hardships calmly. At death, family members chant God's names and, after cremation, many take the ashes to a sacred river such as the Ganges; some British Hindus scatter ashes at designated sites on UK rivers."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Hindu term for liberation from the cycle of rebirth?\nA) Samsara\nB) Moksha\nC) Karma\nD) Atman",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Moksha.\nMoksha is liberation from samsara; samsara is the cycle itself, karma is action and its consequences, and atman is the eternal self.",
+   "evidence": [
+    "Bhagavad Gita 8.15"
+   ],
+   "examTip": "These four terms are the core vocabulary of the topic – learn precise one-line definitions.",
+   "answerTopic": "moksha"
+  },
+  {
+   "question": "Which one of the following best describes the atman?\nA) The material body\nB) The eternal inner self\nC) The law of cause and effect\nD) The cycle of four ages",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) The eternal inner self.\nThe atman is the individual, eternal self, distinct from the material mind and body (Gita 2.20).",
+   "evidence": [
+    "Bhagavad Gita 2.20"
+   ],
+   "examTip": "Remember the specification wording: 'individual, eternal inner self, distinct from material mind and body'.",
+   "answerTopic": "atman"
+  },
+  {
+   "question": "Give one type of karma.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: sanchita (accumulated) karma; prarabdha (ripening, present-life) karma; kriyamana/agami (karma being created now or to come); good karma (punya); bad karma (papa).",
+   "evidence": [
+    "Sanchita, prarabdha, kriyamana"
+   ],
+   "examTip": "'Good karma' or 'bad karma' is acceptable for one mark.",
+   "answerTopic": "karma"
+  },
+  {
+   "question": "Give one Hindu understanding of what happens at moksha.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: the atman merges with/realises its identity with Brahman; the soul goes to live eternally with God in the spiritual world; the soul is freed from rebirth; the soul enters loving service of God.",
+   "evidence": [
+    "Advaita and Vaishnava views of moksha"
+   ],
+   "examTip": "Any accurate brief view of liberation gains the mark.",
+   "answerTopic": "moksha"
+  },
+  {
+   "question": "Explain two ways in which belief in karma influences Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because Hindus believe every action has consequences that return to them, they try to act morally and avoid harming others. For example, many Hindus are vegetarian because killing animals creates bad karma, and they try to be honest in business and kind to family members.\n\nSecond way: Belief in karma affects how Hindus respond to suffering. Many accept difficult circumstances calmly, seeing them as the result of past actions (prarabdha karma), rather than blaming God or others. However, they also believe they can improve their future by present good actions, so they are encouraged to give to charity, perform seva (selfless service) and worship regularly.",
+   "evidence": [
+    "Brihadaranyaka Upanishad 4.4.5",
+    "Prarabdha karma",
+    "Seva"
+   ],
+   "examTip": "Develop each influence by giving a concrete action and linking it back to karma.",
+   "answerTopic": "karma influence"
+  },
+  {
+   "question": "Explain two contrasting Hindu beliefs about moksha.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First belief: Advaita Vedanta Hindus believe that moksha is the realisation that the atman is identical with Brahman. When ignorance is removed, the sense of being a separate individual disappears, like a drop of water merging with the ocean, and the self is one with ultimate reality.\n\nSecond belief: Vaishnava Hindus believe that in moksha the soul keeps its individual identity. It is freed from rebirth and lives eternally in the spiritual world, such as Vaikuntha or Goloka, in a loving relationship of service to God (Vishnu or Krishna). For them, liberation is reached mainly through devotion (bhakti) and God's grace rather than merging.",
+   "evidence": [
+    "Advaita – sayujya/merging",
+    "Vaishnava – Vaikuntha, Goloka",
+    "Drop and ocean analogy"
+   ],
+   "examTip": "The 'merge vs. relationship' contrast is the clearest pair for this question.",
+   "answerTopic": "moksha contrast"
+  },
+  {
+   "question": "Explain two Hindu beliefs about the atman.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First belief: The atman is eternal and cannot be destroyed. In the Bhagavad Gita 2.20 Krishna teaches, 'The self is never born, nor does it ever die… it is not killed when the body is killed.' This means that death is not the end of a person; only the body dies, which is why Krishna tells Arjuna not to grieve. It gives Hindus comfort when someone dies.\n\nSecond belief: The atman is distinct from the material body and mind, and it moves from body to body in samsara. The Gita (2.22) says, 'As a person puts on new garments, giving up old ones, the self accepts new bodies, giving up the old.' The Katha Upanishad (1.3.3–4) compares the self to the passenger in a chariot, while the body is the chariot and the mind the reins. This shows that the real person is the conscious self, not the body, so Hindus try to control the mind and senses rather than living only for physical pleasures.",
+   "evidence": [
+    "Bhagavad Gita 2.20, 2.22",
+    "Katha Upanishad 1.3.3–4 (chariot)",
+    "Atman distinct from mind and body"
+   ],
+   "examTip": "Gita 2.20 and 2.22 are the two most useful quotations for atman and samsara – learn both.",
+   "answerTopic": "atman"
+  },
+  {
+   "question": "Explain two Hindu teachings about samsara and karma.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Samsara is the cycle of birth, death and rebirth through which the atman passes. Bhagavad Gita 2.22 compares the soul to a person changing worn-out clothes for new ones. The soul may be reborn as a human, animal or in another world, and this cycle is seen as bondage because each life involves suffering, old age and death.\n\nSecond teaching: The kind of rebirth a soul receives is decided by the law of karma. The Brihadaranyaka Upanishad (4.4.5) teaches, 'As one acts, so one becomes: by good action one becomes good, by bad action bad.' Karma is not a punishment from God but a law of moral cause and effect, and present choices shape future lives. Because even good karma keeps the soul in samsara, the Gita (2.47) recommends acting without attachment to the results, so that no new binding karma is created and the soul can move towards moksha.",
+   "evidence": [
+    "Bhagavad Gita 2.22, 2.47",
+    "Brihadaranyaka Upanishad 4.4.5"
+   ],
+   "examTip": "Show how the two ideas connect: karma decides the next birth in samsara.",
+   "answerTopic": "samsara and karma"
+  },
+  {
+   "question": "'The law of karma is a fair way of explaining why people suffer.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nMany Hindus would agree. The law of karma teaches that every intentional action has consequences which return to the person who performed it: \"As one acts, so one becomes\" (Brihadaranyaka Upanishad 4.4.5). This is fair because nobody suffers randomly or because of someone else's choices; each person receives the results of their own actions. It treats people as responsible moral agents.\n\nKarma also explains suffering that seems unfair within a single lifetime. A child born into poverty or with an illness has not done anything wrong in this life, but Hindus believe that suffering may come from prarabdha karma, the past karma ripening in the present. Across many lifetimes in samsara, everything balances out. This removes the problem of a loving God appearing to cause innocent suffering, because God is not punishing anyone.\n\nKarma also offers hope. Present choices (kriyamana karma) shape the future, so a person is never trapped; they can improve their future through good actions, devotion and seva. Many Hindus find this a fair and empowering way of dealing with hardship.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nCritics argue that it is not fair to suffer for actions that we cannot remember. If a person has no memory of a past life, they cannot learn from it, so the suffering seems pointless. It could also lead to blaming victims – for example, suggesting that disabled people or the poor \"deserve\" their situation. Historically, karma was sometimes used to justify the caste system and the treatment of Dalits, which most people today see as deeply unjust.\n\nSome suffering seems to come from the actions of others or from natural disasters affecting thousands at once, such as earthquakes or pandemics. It is hard to believe that every victim had exactly matching karma.\n\nMany Hindus themselves would say that karma is not the whole explanation. Suffering may also be a test, a way of developing compassion and detachment, or an opportunity to turn to God. In bhakti traditions, God's grace can remove karma: Krishna promises, \"I shall free you from all sinful reactions; do not fear\" (Gita 18.66). And Hindu ethics insist that, whatever the cause, others' suffering must be relieved – it is never an excuse to ignore it.\n\nCONCLUSION\n\nKarma offers a consistent and, in principle, fair explanation of suffering, because it makes each person responsible for their own future. However, it becomes unfair if used to blame victims or to justify inequality, and many Hindus would accept that it is not the only explanation. I conclude that karma is a fair explanation when it is understood as a law of personal responsibility and combined with compassion, but not when it is used as a reason to accept injustice.",
+   "evidence": [
+    "Brihadaranyaka Upanishad 4.4.5",
+    "Prarabdha / kriyamana karma",
+    "Bhagavad Gita 18.66",
+    "Caste and Dalits"
+   ],
+   "examTip": "Include a criticism from within Hinduism (e.g. against victim-blaming) as well as from outside.",
+   "answerTopic": "karma and suffering"
+  },
+  {
+   "question": "'The aim of moksha means that this life is not important.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nFor Hindus, the ultimate goal is moksha – liberation from samsara. Compared with eternal liberation, a single life is only one of countless lives, \"like changing worn-out clothes\" (Gita 2.22). If the atman is eternal and the body temporary, it could be argued that this particular life is not very important.\n\nThe Gita teaches that even the highest material worlds are places of repeated birth and death (8.16), so worldly success, wealth and pleasure cannot bring lasting happiness. Many sannyasis give up their families, homes and possessions to seek moksha, and Advaita teaches that the world of separate individuals is ultimately maya. These ideas suggest that this life matters only as a step on the way to something else.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, most Hindus believe this life is extremely important precisely because it is the means of attaining moksha. A human birth is seen as rare and precious because only humans can consciously pursue liberation through the paths of yoga. The choices a person makes now create karma that shapes their future, so wasting this life could mean many more births.\n\nThe four aims of life (purusharthas) show that Hinduism values this life: dharma (duty), artha (wealth) and kama (pleasure) are all legitimate goals alongside moksha. The ashrama system gives each stage of life – student, householder, retirement and renunciation – its own importance. The householder (grihastha) stage is often said to support society as a whole.\n\nThe Gita does not tell Arjuna to escape from life but to fight in the battle and fulfil his duty, acting without selfish attachment (2.47). Many Hindus also believe in jivanmukti – liberation while still living – which shows that moksha can be expressed in this life, through love and service. For devotees in the bhakti tradition, loving God now is itself the beginning of eternal life.\n\nCONCLUSION\n\nThe goal of moksha does put this life into perspective: it is temporary, and material success is not the highest aim. But it does not make this life unimportant. Instead, Hindu teaching about the rare human birth, karma, the four aims and the Gita's call to action all show that this life is the essential opportunity to make spiritual progress. I therefore disagree with the statement.",
+   "evidence": [
+    "Bhagavad Gita 2.22, 2.47, 8.16",
+    "Four aims (purusharthas)",
+    "Ashramas",
+    "Jivanmukti"
+   ],
+   "examTip": "Link the issue to other parts of the specification (four aims, paths of yoga) to build logical chains of reasoning.",
+   "answerTopic": "moksha and this life"
+  }
+ ]
+}

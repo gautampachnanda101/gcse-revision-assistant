@@ -1,0 +1,93 @@
+{
+ "paper": "Theme B",
+ "module": "B.2",
+ "moduleTitle": "The value of the world: stewardship, the environment and the use of animals",
+ "note": {
+  "specFocus": "The value of the world and the duty of human beings to protect it, including religious teaching about stewardship, dominion, responsibility, awe and wonder; the use and abuse of the environment, including natural resources and pollution; the use and abuse of animals, including animal experimentation and the use of animals for food. Contrasting beliefs on animal experimentation are required.",
+  "summary": "KEY TERMS\nStewardship: the duty to look after the world on God's behalf. Dominion: authority or rule over creation. Awe and wonder: amazement at the beauty and complexity of nature, which for believers points to God. Natural resources: materials from the earth (oil, coal, water, timber); non-renewable resources run out. Pollution: contamination of land, air or water. Sustainable development: meeting today's needs without harming future generations. Animal experimentation: using animals in scientific research, e.g. testing medicines.\n\nCHRISTIANITY\nGod gave humans dominion: \"Rule over the fish… the birds… and over every living creature\" (Genesis 1:28), but also placed Adam in Eden \"to work it and take care of it\" (Genesis 2:15) – stewardship. \"The earth is the Lord's, and everything in it\" (Psalm 24:1). Pope Francis' encyclical Laudato Si' (2015) calls the earth \"our common home\" and urges action on climate change and care for the poor who suffer most from pollution. Christian organisations such as A Rocha and Christian Aid campaign on environmental issues. Animals: most Christians accept that animals may be used for food (Genesis 9:3) and for research that saves human lives, if suffering is minimised; humans alone are made in God's image. Some Christians are vegetarian and oppose cruelty: \"The righteous care for the needs of their animals\" (Proverbs 12:10).\n\nISLAM\nHumans are khalifah (vice-gerents/trustees) of the earth: \"It is He who has made you successors upon the earth\" (Qur'an 6:165). On the Day of Judgement people will be accountable for how they treated creation. The Prophet taught kindness to animals (the hadith of the man who gave water to a thirsty dog and was forgiven). Halal slaughter requires the animal to be treated well. Animal experimentation for genuine medical need is generally accepted if there is no unnecessary suffering; testing cosmetics is not.\n\nHINDUISM, BUDDHISM, SIKHISM, JUDAISM\nHindus see Brahman in all living things; ahimsa leads many to vegetarianism, and the cow is sacred. The Chipko movement (India, 1970s) protected trees. Buddhists follow the first Precept (do not harm living beings) and believe in interdependence; many are vegetarian and oppose animal testing. Sikhs believe God is present in creation; the Sikh calendar has an environment day. Judaism teaches bal tashchit ('do not destroy', from Deuteronomy 20:19) and tza'ar ba'alei chayim (preventing animal suffering).\n\nABUSE OF THE ENVIRONMENT\nClimate change from burning fossil fuels, deforestation, plastic pollution in oceans, overuse of resources. Responses: recycling, renewable energy, reducing consumption.\n\nNON-RELIGIOUS VIEWS\nHumanists value the natural world for its own sake and for future generations; many support animal research where needed but campaign for the '3Rs' (replace, reduce, refine). Peter Singer argues that causing animal suffering (speciesism) is wrong.\n\nUK LAW\nThe Animals (Scientific Procedures) Act 1986 regulates experiments; testing cosmetics on animals has been banned in the UK since 1998. The Climate Change Act 2008 (net zero by 2050)."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the religious idea that humans have a duty to look after the world for God?\nA Dominion\nB Stewardship\nC Awe\nD Pollution",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Stewardship.\nStewardship means caring for creation on God's behalf (Genesis 2:15). Dominion means having authority or rule over creation.",
+   "evidence": [
+    "Genesis 2:15"
+   ],
+   "answerTopic": "stewardship",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one way religious believers might reduce pollution.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: recycling; using public transport, walking or cycling; switching to renewable energy; reducing single-use plastic; campaigning through groups such as A Rocha or Christian Aid; using an eco-friendly place of worship (e.g. Eco Church scheme).",
+   "evidence": [
+    "Laudato Si' (2015)",
+    "Eco Church (A Rocha UK)"
+   ],
+   "answerTopic": "environment",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about animal experimentation.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians accept animal experimentation for medical research if it is necessary to save human lives and suffering is kept to a minimum. They believe that only humans are made in the image of God, so human life has greater value, but humans are stewards who must not be cruel ('The righteous care for the needs of their animals', Proverbs 12:10).\n\nBelief 2: In contrast, many Buddhists oppose animal experimentation. The first Moral Precept is to avoid harming living beings, and because all sentient beings can suffer and may be reborn in different forms, causing pain to animals creates bad karma and goes against compassion (karuna).",
+   "evidence": [
+    "Genesis 1:27",
+    "Proverbs 12:10",
+    "First Moral Precept",
+    "Animals (Scientific Procedures) Act 1986"
+   ],
+   "answerTopic": "animal experimentation",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about the duty to protect the environment.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe they have a duty of stewardship. God put Adam in the garden 'to work it and take care of it' (Genesis 2:15), and Pope Francis in Laudato Si' urged Christians to care for the earth as 'our common home', so many churches in Britain join schemes such as Eco Church to cut their carbon emissions.\n\nBelief 2: Similarly, Muslims believe humans are khalifah – trustees of Allah's creation. They will be judged on the Day of Judgement on how they used the earth, so many British Muslims support projects that reduce waste and plant trees, following the hadith that planting a tree is a form of charity.",
+   "evidence": [
+    "Genesis 2:15",
+    "Laudato Si' (2015)",
+    "Qur'an 6:165",
+    "Hadith on planting trees (Bukhari)"
+   ],
+   "answerTopic": "stewardship",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about the use of animals for food.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Most Christians believe it is acceptable to eat meat because God gave animals to humans for food after the flood: 'Everything that lives and moves about will be food for you' (Genesis 9:3). However, as stewards they should treat animals humanely, so some Christians choose free-range or ethically farmed food, and some choose vegetarianism.\n\nBelief 2: Many Hindus are vegetarian because of the principle of ahimsa (non-violence). The Laws of Manu (5.48) teach that meat cannot be obtained without injury to living beings, which harms one's karma. Because Hindus believe Brahman is present in all living things and the atman can be reborn in animal form, killing animals for food is seen as harming a sacred life; the cow in particular is sacred and beef is avoided.",
+   "evidence": [
+    "Genesis 9:3",
+    "Laws of Manu 5.48",
+    "Ahimsa",
+    "Atman in all beings"
+   ],
+   "answerTopic": "animals for food",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Humans have the right to use the world however they want.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nSome people might support the statement. In Genesis 1:28 God gives humans dominion – 'rule over the fish in the sea and the birds in the sky and over every living creature'. Some Christians in the past interpreted this as giving humans authority to use the earth's resources for their own benefit, for example to farm, mine and build, because humans alone are made in God's image. Some people argue that economic growth based on using natural resources has lifted billions out of poverty, and that human needs should come first. From a non-religious perspective, some argue that nature has no purpose or value except what humans give it, so it is ours to use.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMost religious believers strongly disagree. Christians emphasise stewardship: God placed Adam in Eden 'to work it and take care of it' (Genesis 2:15), and 'the earth is the Lord's' (Psalm 24:1), so humans do not own the world – they look after it for God and will be accountable. Pope Francis' Laudato Si' warns that the misuse of the earth harms the poor most and calls for 'ecological conversion'. Muslims believe they are khalifah, trustees who will answer to Allah on the Day of Judgement for their care of creation. Jewish teaching of bal tashchit forbids needless destruction, and Buddhists stress interdependence, so harming the environment harms everyone. Humanists also reject the statement: we have a responsibility to future generations, and climate change, plastic pollution and the loss of species show that using the world 'however we want' has terrible consequences. The UK's Climate Change Act 2008 reflects this idea that our use of the world must be limited.\n\nCONCLUSION\nThe argument from dominion is weak, because even in Genesis dominion is balanced by the duty of care, and almost all religious and non-religious traditions agree that humans are responsible for the world. The scientific evidence of environmental damage makes the consequences of the statement clear. I therefore conclude that humans have the right to use the world's resources to meet their needs, but not 'however they want': the right comes with a responsibility of stewardship to God, to other people and to future generations.",
+   "evidence": [
+    "Genesis 1:28",
+    "Genesis 2:15",
+    "Psalm 24:1",
+    "Laudato Si' (2015)",
+    "Khalifah",
+    "Bal tashchit",
+    "Climate Change Act 2008"
+   ],
+   "answerTopic": "dominion and stewardship",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

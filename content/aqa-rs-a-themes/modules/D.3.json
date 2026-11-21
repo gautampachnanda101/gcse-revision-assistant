@@ -1,0 +1,89 @@
+{
+ "paper": "Theme D",
+ "module": "D.3",
+ "moduleTitle": "Religion as a cause of conflict; nuclear weapons and weapons of mass destruction",
+ "note": {
+  "specFocus": "Religion and belief as a cause of war and violence in the contemporary world; nuclear weapons, including nuclear deterrence; the use of weapons of mass destruction. Contrasting beliefs on weapons of mass destruction are required.",
+  "summary": "KEY TERMS\nWeapons of mass destruction (WMD): weapons that can kill large numbers of people and cause great damage – nuclear, chemical and biological weapons. Nuclear weapons: explosive devices using nuclear reactions (e.g. the bombs dropped on Hiroshima and Nagasaki in August 1945, killing over 100,000 people, many from radiation later). Chemical weapons: toxic chemicals such as sarin (used in Syria, e.g. Ghouta 2013). Biological weapons: using bacteria or viruses (e.g. anthrax). Nuclear deterrence: having nuclear weapons to discourage an enemy from attacking. Disarmament: getting rid of weapons.\n\nRELIGION AS A CAUSE OF CONFLICT\nSome argue religion causes conflict because groups believe they alone have the truth, or use religion to justify violence – e.g. Islamist terrorist groups such as ISIS; tensions involving religious identity in Northern Ireland (the Troubles, 1960s–1998, though mainly about national identity and civil rights); violence between Hindus and Muslims in parts of India; the Israel–Palestine conflict, which has religious, national and territorial dimensions. Others argue religion is often blamed for conflicts that are really about land, power, politics or ethnicity, and that religion is more often a force for peace. Richard Dawkins argues religion fuels division; most religious leaders say violent extremists misuse religion.\n\nNUCLEAR WEAPONS AND DETERRENCE\nThe UK has Trident nuclear missiles on submarines. The Treaty on the Non-Proliferation of Nuclear Weapons (1968) aims to stop their spread; the Treaty on the Prohibition of Nuclear Weapons (2017, in force 2021) bans them for countries that sign (the UK has not). Arguments for deterrence: it has helped prevent large-scale war between nuclear powers since 1945 (\"mutually assured destruction\"); it protects a country against nuclear blackmail. Arguments against: it is immoral to threaten to kill millions of civilians; there is a risk of accidents or of weapons reaching terrorists; it is hugely expensive; it encourages other countries to build them.\n\nRELIGIOUS VIEWS ON WMD\nChristianity: the Catholic Church teaches \"every act of war directed to the indiscriminate destruction of entire cities… is a crime against God and man\" (Second Vatican Council, Gaudium et Spes 80). Pope Francis (2019, at Hiroshima and Nagasaki) declared that even the possession of nuclear weapons is immoral. The Church of England has generally opposed their use while debating deterrence; some Christians accept deterrence as a lesser evil. WMD fail the just war criteria of proportionality and protecting civilians. Christian CND campaigns for disarmament.\nIslam: WMD kill indiscriminately, and the Prophet forbade killing women, children and non-combatants; the Qur'an condemns those who \"spread corruption on earth\". Some Muslims argue deterrence may be necessary for self-defence.\nBuddhism: WMD break the first Precept and cause vast suffering. Sikhism and Hinduism: dharam yudh/just war rules forbid harming civilians; Judaism: the principle of pikuach nefesh and the prophetic vision of beating \"swords into ploughshares\" (Isaiah 2:4).\n\nNON-RELIGIOUS VIEWS\nHumanists generally oppose WMD as a threat to human life and future generations; some accept deterrence as a practical necessity while working for multilateral disarmament."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the term for having weapons in order to discourage an enemy from attacking?\nA Disarmament\nB Deterrence\nC Retaliation\nD Pacifism",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Deterrence.\nNuclear deterrence means possessing nuclear weapons so that an enemy will not attack for fear of a devastating response. Disarmament means getting rid of weapons.",
+   "evidence": [
+    "UK Trident programme"
+   ],
+   "answerTopic": "nuclear deterrence",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one example of a weapon of mass destruction.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from: nuclear weapons (e.g. atomic bombs); chemical weapons (e.g. sarin, mustard gas); biological weapons (e.g. anthrax); radiological 'dirty' bombs.",
+   "evidence": [
+    "Hiroshima and Nagasaki 1945"
+   ],
+   "answerTopic": "weapons of mass destruction",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about the possession of nuclear weapons.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Catholic Church, led by Pope Francis, teaches that even possessing nuclear weapons is immoral. The threat to destroy whole cities, killing millions of innocent civilians, can never be justified and goes against the sanctity of life, so Catholics should work for complete nuclear disarmament.\n\nBelief 2: In contrast, some Christians and many people of other faiths accept nuclear deterrence as a lesser evil. They argue that the UK's Trident weapons are never meant to be used but help to keep the peace by discouraging attacks, so possessing them can protect innocent people.",
+   "evidence": [
+    "Pope Francis, Nagasaki address (2019)",
+    "Gaudium et Spes 80",
+    "Mutually assured destruction"
+   ],
+   "answerTopic": "nuclear weapons",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about the use of weapons of mass destruction.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Most Christians believe using weapons of mass destruction is wrong because they cannot meet the just war criteria. They kill civilians indiscriminately and cause harm far greater than any good achieved, so they break the rules of proportionality and discrimination between soldiers and civilians.\n\nBelief 2: Similarly, Buddhists oppose the use of weapons of mass destruction because they break the first Precept of not harming living beings. The suffering caused by weapons like the atomic bombs on Hiroshima and Nagasaki, including radiation sickness lasting years, goes against the Buddhist values of compassion (karuna) and loving-kindness (metta).",
+   "evidence": [
+    "Just war: proportionality and discrimination",
+    "First Buddhist Precept",
+    "Hiroshima and Nagasaki 1945"
+   ],
+   "answerTopic": "weapons of mass destruction",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about whether religion causes war.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe that true religion leads to peace, not war, and that people who use religion to justify violence are misusing it. Jesus taught 'Blessed are the peacemakers' (Matthew 5:9), and the prophet Isaiah looked forward to a time when people 'will beat their swords into ploughshares' (Isaiah 2:4). Christians therefore argue that conflicts such as the Troubles in Northern Ireland were mainly about politics and national identity rather than Christian teaching.\n\nBelief 2: Muslims believe Islam is a religion of peace and that terrorists who claim to fight for Islam are going against its teachings. The Qur'an says 'whoever kills a soul… it is as if he had slain mankind entirely' (5:32), and 'There is no compulsion in religion' (2:256), which means faith must never be forced on others through violence. British Muslim organisations regularly condemn terrorist attacks as un-Islamic.",
+   "evidence": [
+    "Matthew 5:9",
+    "Isaiah 2:4",
+    "Qur'an 5:32",
+    "Qur'an 2:256"
+   ],
+   "answerTopic": "religion as a cause of war",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Religion is the main cause of war in the world today.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nSome people, including atheists such as Richard Dawkins, argue that religion is a major cause of conflict. Religions make claims about absolute truth, so believers may see those who disagree as enemies. Terrorist groups such as ISIS and Al-Qaeda have used religious language to justify attacks, including in the UK. There has been violence between Hindus and Muslims in parts of India, and the Israel–Palestine conflict involves sacred places such as Jerusalem that are important to Jews, Christians and Muslims. In history, the Crusades were fought in the name of Christianity. People who hold this view argue that without religion there would be one less reason to divide humanity into 'us' and 'them'.\n\nARGUMENTS FOR A DIFFERENT VIEW\nHowever, many argue that this is not true. Most wars today are about land, resources, power, nationalism or ethnicity: for example, Russia's invasion of Ukraine in 2022 is not a religious war. Even conflicts that seem religious often have other causes; the Troubles in Northern Ireland were mainly about national identity and civil rights, even though the communities were labelled Catholic and Protestant. Religious teachings themselves usually promote peace: Jesus taught 'Blessed are the peacemakers' (Matthew 5:9), the Qur'an teaches 'if they incline to peace, then incline to it also' (8:61), and Buddhists follow the Precept of non-harming. Many religious people work for peace, such as Desmond Tutu in South Africa, and religious organisations care for victims of war. Some of the deadliest conflicts of the 20th century, such as the two World Wars, were mainly caused by nationalism and political ideologies rather than religion.\n\nCONCLUSION\nReligion can be misused to inflame conflict, and in some cases religious identity is an important factor. However, the evidence suggests that most wars today have political, economic or ethnic causes, and that religion is often blamed for conflicts that are really about other issues. Religion is also a major force for peacemaking. I conclude that the statement is not justified: religion is sometimes a contributing factor, but it is not the main cause of war in the world today.",
+   "evidence": [
+    "Matthew 5:9",
+    "Qur'an 8:61",
+    "Richard Dawkins",
+    "Northern Ireland Troubles",
+    "Russia–Ukraine war (2022–)",
+    "Desmond Tutu"
+   ],
+   "answerTopic": "religion as a cause of war",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

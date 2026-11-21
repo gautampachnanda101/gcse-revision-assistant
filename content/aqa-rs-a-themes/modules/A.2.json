@@ -1,0 +1,85 @@
+{
+ "paper": "Theme A",
+ "module": "A.2",
+ "moduleTitle": "Contraception and family planning",
+ "note": {
+  "specFocus": "Contraception and family planning. Contrasting beliefs on contraception (Christianity + one or more other religious traditions) are a named requirement.",
+  "summary": "KEY TERMS\nContraception: methods used to prevent pregnancy. Artificial contraception: man-made methods such as condoms, the pill, implants, IUDs. Natural family planning (NFP): avoiding sex during the woman's fertile time, without artificial methods. Family planning: deciding when to have children and how many. Emergency contraception ('morning-after pill'): taken after sex; some believers regard methods that may stop a fertilised egg implanting as a form of early abortion.\n\nWHY PEOPLE USE CONTRACEPTION\nTo space children, protect the mother's health, for financial reasons, to avoid passing on genetic conditions, to prevent sexually transmitted infections (condoms), or because a couple does not want children.\n\nCHRISTIANITY\nCatholic: Humanae Vitae (Pope Paul VI, 1968) teaches that every sexual act within marriage must remain open to the transmission of life, so artificial contraception is wrong because it goes against natural law and God's purpose for sex. Catholics may use natural family planning for serious reasons, because it works with the natural cycle. Some Catholics in Britain disagree with this teaching in practice.\nOrthodox Churches generally discourage contraception but allow some methods with a priest's guidance.\nAnglican and most Protestant Churches: the Lambeth Conference of 1930 accepted the use of other methods in the light of Christian principles. Most Protestants today see responsible family planning as part of good stewardship of the family; they would reject methods that act after conception if they regard life as beginning at conception.\nGenesis 1:28 \"Be fruitful and increase in number\" is often quoted to show that children are a blessing.\n\nISLAM\nMost Muslims accept contraception within marriage for reasons such as the mother's health or spacing children, as long as it is not used to avoid having children altogether. Hadith report that some Companions practised coitus interruptus ('azl) in the Prophet's time and it was not forbidden. Methods that cause an early abortion are generally rejected. Some Muslims oppose contraception, trusting that Allah provides: \"Do not kill your children for fear of poverty; We will provide for them and for you\" (Qur'an 17:31).\n\nJUDAISM\nHaving children fulfils the first mitzvah, \"be fruitful and multiply\". Orthodox Judaism generally permits contraception for health reasons, usually preferring methods used by the woman (such as the pill) over condoms, which are seen as 'wasting seed'. Reform and Liberal Jews leave family planning to the couple's conscience.\n\nHINDUISM, SIKHISM, BUDDHISM\nHindus see having children as part of the grihastha (householder) stage; contraception is usually permitted, but ahimsa rules out methods that destroy a fertilised egg. Sikhism has no ban on contraception; it is a matter for the couple. Buddhists generally accept contraception that prevents conception, but not methods that harm a life once conceived (first Precept – non-harming).\n\nNON-RELIGIOUS VIEWS\nHumanists support contraception as a responsible way of preventing unwanted pregnancies and STIs, reducing abortions, and giving women control over their lives.\n\nUK CONTEXT\nContraception is free on the NHS; under-16s can receive confidential advice (the Gillick/Fraser guidelines)."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is a method of family planning accepted by the Catholic Church?\nA The contraceptive pill\nB Natural family planning\nC Condoms\nD Sterilisation",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Natural family planning.\nHumanae Vitae teaches that each sexual act must stay open to life, so artificial methods (A, C, D) are rejected, but couples may use the woman's natural fertility cycle to space children for serious reasons.",
+   "evidence": [
+    "Humanae Vitae (1968)"
+   ],
+   "answerTopic": "contraception",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one reason why a religious couple might decide to use contraception.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: to protect the mother's health; to space out their children; because they cannot afford to care for more children; to avoid passing on a genetic disorder; to prevent the spread of a sexually transmitted infection.",
+   "evidence": [
+    "Most Muslims and Protestants accept family planning for health or financial reasons"
+   ],
+   "answerTopic": "contraception",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about the use of artificial contraception.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Catholic Church teaches that artificial contraception is wrong. In Humanae Vitae (1968) it states that every sexual act within marriage must be open to new life, so deliberately blocking conception goes against natural law and God's purpose for sex; Catholics who need to space children should use natural family planning instead.\n\nBelief 2: In contrast, most Muslims in Britain accept artificial contraception within marriage for good reasons such as the mother's health or spacing children. This is because hadith record that 'azl (withdrawal) was practised by Companions of the Prophet without being forbidden, so preventing conception is not seen as wrong, provided the couple do not use it to avoid having children altogether.",
+   "evidence": [
+    "Humanae Vitae (1968)",
+    "Hadith on 'azl (Sahih Muslim)"
+   ],
+   "answerTopic": "contraception",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about the use of contraception within marriage.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Church of England accepts contraception within marriage. Since the Lambeth Conference of 1930 Anglicans have taught that couples may use other methods of birth control 'in the light of Christian principles', so planning a family responsibly, for example to give each child proper care, is seen as a loving decision.\n\nBelief 2: Similarly, many Sikhs in Britain believe contraception is acceptable and is a decision for the married couple. The Guru Granth Sahib does not forbid it, and Sikhs value equality between husband and wife, so they believe the couple should agree together about how many children they can raise well, though methods that end a life once conceived would be rejected.",
+   "evidence": [
+    "Lambeth Conference 1930",
+    "Sikh teaching on equality of husband and wife"
+   ],
+   "answerTopic": "contraception",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about why couples should be open to having children.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe that having children is one of the main purposes of marriage and a way of sharing in God's creation. In Genesis 1:28 God blesses the first humans and commands them to 'be fruitful and increase in number', so children are seen as a gift and blessing from God, not a burden. The Catholic Church therefore teaches that married couples should be generous in welcoming new life.\n\nBelief 2: Jews believe that 'be fruitful and multiply' is the first mitzvah (commandment) in the Torah. Raising children continues the Jewish people and passes on the covenant with God from generation to generation, for example by teaching children the Shema and celebrating Shabbat together. Orthodox Jews therefore normally use contraception only for serious reasons such as a threat to the mother's health.",
+   "evidence": [
+    "Genesis 1:28",
+    "Mitzvah of 'be fruitful and multiply'",
+    "Deuteronomy 6:7 (teach them to your children)"
+   ],
+   "answerTopic": "procreation",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Religious believers should be free to use any form of contraception.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany people would agree. Most Protestant Christians, including the Church of England since the Lambeth Conference of 1930, believe that responsible family planning is a moral choice for a married couple. They argue that God gave humans reason and freedom, and using contraception so that each child can be properly cared for, or to protect a woman's health, is a loving and responsible use of that freedom. Many Sikhs and Muslims also accept contraception for good reasons. Humanists add that contraception reduces unwanted pregnancies and abortions, prevents the spread of STIs and HIV, and gives women control over their own bodies and lives, all of which increase human wellbeing.\n\nARGUMENTS FOR A DIFFERENT VIEW\nHowever, the word 'any' makes the statement harder to accept. The Catholic Church teaches in Humanae Vitae that every sexual act within marriage must remain open to life, so artificial methods are wrong because they separate the unitive and procreative purposes of sex. Catholics may only use natural family planning. Even religions that generally accept contraception draw limits. Many Christians, Muslims, Hindus and Buddhists reject methods that might work after conception, such as some forms of emergency contraception, because they believe life begins at conception and the principle of sanctity of life (or ahimsa, non-harming) forbids ending it. Most Muslims also say contraception should not be used to avoid having children altogether, because children are a blessing and the family is central in Islam. Orthodox Jews often prefer some methods over others because of the teaching against 'wasting seed'.\n\nCONCLUSION\nThere is a strong case that believers should be free to plan their families, because almost every religion accepts at least some form of family planning, and it can protect health and wellbeing. However, the claim that they should be free to use 'any' form is weaker, because many religious traditions draw a clear moral line at methods that destroy a life after conception, and Catholic teaching rejects all artificial methods. I conclude that the statement is only partly true: in a free society believers have a legal right to choose, but for many of them their faith rightly guides which methods are morally acceptable, so in practice their choice is shaped by conscience and teaching rather than being unlimited.",
+   "evidence": [
+    "Humanae Vitae (1968)",
+    "Lambeth Conference 1930",
+    "Sanctity of life / ahimsa",
+    "Qur'an 17:31",
+    "Humanist arguments on wellbeing and autonomy"
+   ],
+   "answerTopic": "contraception",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

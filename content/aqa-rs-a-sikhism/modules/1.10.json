@@ -1,0 +1,137 @@
+{
+ "paper": "Beliefs",
+ "module": "1.10",
+ "moduleTitle": "The role and importance of the sangat (religious community)",
+ "note": {
+  "specFocus": "Spec 3.1.7.1 Beliefs about the nature of human life: the role and importance of the sangat (religious community).",
+  "summary": "MEANING\nSangat means 'company' or 'association'. It refers to the Sikh religious community, especially the congregation gathered in the presence of the Guru Granth Sahib. The ideal is the satsangat – 'true company' – of people who remember God. 'How is the Society of the Saints to be known? There, the Name of the One Lord is chanted' (Guru Nanak, Ang 72).\n\nTHE SANGAT'S SPIRITUAL ROLE\n• Shared worship: kirtan (singing hymns), katha (explanation), Ardas (congregational prayer) and hukamnama. Many Sikhs find the mind settles on God more easily in the sangat.\n• Overcoming haumai: being part of a humble, serving community helps the individual become gurmukh. Good company is said to shape the soul, just as bad company leads to the five thieves.\n• Guru Panth: Guru Gobind Singh gave the Guru's authority to the scripture (Guru Granth) and to the community of the Khalsa (Guru Panth). The sangat can make collective decisions (gurmatta), and the Panj Pyare who conduct Amrit Sanskar are chosen from it. Sikhs often say the Guru is present where five Sikhs gather in faith.\n\nTHE SANGAT'S PRACTICAL ROLE\n• Sewa and langar – the sangat cooks, serves and cleans.\n• Equality – everyone sits on the floor; there is no priestly caste; anyone may read or perform kirtan.\n• Support – care for the sick, the bereaved and newcomers; marriage (Anand Karaj) and naming ceremonies take place before the sangat.\n• Education – Punjabi, gurbani and kirtan classes, youth camps.\n• Identity – helping Sikhs in Britain keep their faith and culture.\n\nHISTORY\nGuru Nanak formed the first sangat at Kartarpur, where people lived, worked, worshipped and ate together. Later Gurus set up sangats across India. In the 18th century, when Sikhs were persecuted, the Sarbat Khalsa (gathering of the whole Khalsa) met at the Akal Takht to make decisions.\n\nDIVERSITY\n• Some Sikhs attend the gurdwara daily; others mainly at weekends or festivals; some rely on prayer at home and online kirtan.\n• Sangats sometimes divide along lines of caste, politics or tradition (e.g. separate Ramgarhia or other caste-linked gurdwaras), which many Sikhs criticise as against the Gurus' teaching.\n• Non-religious people may value community but not its spiritual authority.\n\nCONTEMPORARY EXAMPLE\nIn the UK, sangats in places such as Southall and Birmingham run food banks, youth clubs and support for elderly people, as well as weekly diwan (worship).\n\nKEY TERMS: sangat, satsangat, Guru Panth, gurmatta, kirtan, katha, Ardas, diwan, Sarbat Khalsa."
+ },
+ "questions": [
+  {
+   "question": "What is the sangat?\nA The holy book of Sikhism\nB The Sikh religious community or congregation\nC The canopy over the Guru Granth Sahib\nD The free kitchen",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – The Sikh religious community or congregation. Sangat means 'company' or 'association', especially the gathering of people who worship together in the presence of the Guru Granth Sahib. The canopy is the chanani and the free kitchen is the langar.",
+   "evidence": [
+    "Sangat"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "sangat"
+  },
+  {
+   "question": "According to the Guru Granth Sahib, how is the true sangat (satsangat) recognised?\nA By the size of its building\nB By the wealth of its members\nC As the place where the Name of the One God is spoken\nD As a gathering only of amritdhari Sikhs",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – As the place where the Name of the One God is spoken. Guru Nanak asks 'How is the Society of the Saints to be known? There, the Name of the One Lord is chanted' (Ang 72). The true sangat is defined by devotion, not wealth, size or status.",
+   "evidence": [
+    "'Satsangat kaisee jaaneeai, jithai eko naam vakhaaneeai' – Ang 72"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "satsangat"
+  },
+  {
+   "question": "Give one way the sangat supports individual Sikhs.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: worshipping together, e.g. kirtan and Ardas; encouragement to keep to the Sikh path/become gurmukh; practical help in times of need, e.g. bereavement or illness; learning about Sikhism and Punjabi; a sense of belonging and identity; opportunities to do sewa.",
+   "evidence": [
+    "Sangat"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "sangat support"
+  },
+  {
+   "question": "Give one meaning of 'Guru Panth'.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "The whole Sikh community (the Khalsa Panth) as Guru – Guru Gobind Singh gave spiritual authority to the community as well as to the scripture, so collective decisions of the sangat have the Guru's authority.",
+   "evidence": [
+    "Guru Granth, Guru Panth"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "guru panth"
+  },
+  {
+   "question": "Explain two ways in which the sangat is important for Sikhs today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: The sangat helps Sikhs worship. Hearing kirtan and the Guru Granth Sahib with others focuses the mind on God, and many Sikhs find it easier to meditate on the Name in the congregation than alone.\n\nSecond way: The sangat gives practical and moral support. For example, when someone dies the sangat gathers to say prayers and supports the family, and young Sikhs learn Punjabi and the Sikh way of life through classes and camps run by the community.",
+   "evidence": [
+    "Ang 72",
+    "Kirtan",
+    "Gurdwara classes"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "sangat importance"
+  },
+  {
+   "question": "Explain two ways in which belonging to the sangat influences how Sikhs behave.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: It encourages Sikhs to do sewa. In the sangat, people take turns to cook, serve and clean in the langar, which builds habits of humility and service to others.\n\nSecond way: It encourages Sikhs to live as gurmukh. Being with people who are trying to live by the Guru's teaching helps a Sikh avoid the five thieves and bad company, just as gurbani teaches that good company shapes the soul.",
+   "evidence": [
+    "Sewa",
+    "Gurmukh",
+    "Ang 72"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "sangat influence"
+  },
+  {
+   "question": "Explain two Sikh teachings about the importance of the sangat.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: In the sangat, God's Name is remembered, which helps believers grow spiritually. Joining the satsangat brings the person closer to God and helps them overcome haumai, so it is an important part of the path to mukti.\n\nSecond teaching: The sangat has the authority of the Guru. Guru Gobind Singh taught that the Guru is present where the Khalsa or sangat is gathered in the presence of the Guru Granth Sahib, and gave the community (Guru Panth) authority to make decisions. So the sangat is not just a group of individuals but a sacred body.\n\nSource: Guru Nanak writes 'How is the Society of the Saints to be known? There, the Name of the One Lord is chanted' (Ang 72). This shows that the sangat is defined by meditation on God, and that this is why it is spiritually important.",
+   "evidence": [
+    "Ang 72",
+    "Guru Granth / Guru Panth",
+    "Gurmatta"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "sangat teachings"
+  },
+  {
+   "question": "Explain two ways in which the sangat expresses Sikh belief in equality.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First way: Everyone sits on the floor together in the diwan hall, at the same level, with no special seats for rich or important people. Men and women of any background may attend and take part.\n\nSecond way: Anyone in the sangat may do sewa or lead worship, such as reading from the Guru Granth Sahib or performing kirtan, because Sikhism has no priestly caste. Everyone eats the same food in the langar and receives the same karah prasad.\n\nSource: Guru Nanak's teaching 'Recognise the Lord's Light within all, and do not ask about caste' (Ang 349) explains why the sangat is open to all. Guru Amar Das's rule that all must sit in the langar before seeing the Guru shows the sangat making equality real.",
+   "evidence": [
+    "Ang 349",
+    "Pangat and sangat",
+    "Karah prasad"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "sangat equality"
+  },
+  {
+   "question": "“Sikhs need the sangat to live a religious life.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nGuru Nanak teaches that the true company (satsangat) is where the Name of the One God is spoken (Ang 72). Sikhs believe that good company shapes the soul, and that remembering God is easier in the sangat than alone. Kirtan, Ardas and readings from the Guru Granth Sahib are shared experiences.\n\nMany important Sikh practices are communal and need the sangat: langar, sewa, akhand paths, gurpurb celebrations, Amrit Sanskar (performed by the Panj Pyare) and Anand Karaj all happen in the community. The Guru Panth itself – the community with the Guru's authority – makes collective decisions (gurmattas).\n\nThe sangat supports Sikhs practically and morally – teaching children, supporting the bereaved and encouraging people to resist the five thieves. Without it, many Sikhs would find it hard to keep their faith in a busy, secular society.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nSikhism also emphasises private devotion. Guru Ram Das describes the true Sikh rising early to meditate on the Name at home (Ang 305), and Nitnem prayers are usually said individually. A Sikh can meditate, live honestly (kirat karna) and share (vand chhakna) without going to the gurdwara.\n\nSome Sikhs live far from a gurdwara or are unable to attend because of illness or work. Many Sikhs today join online kirtan and keep a gutka (prayer book) at home. God is present everywhere, and mukti depends on grace and devotion, not on attendance.\n\nAlso, being in the sangat does not guarantee a religious life: a person can attend regularly but remain manmukh. What matters is the heart. A non-religious person might say community is valuable socially but not necessary for being a good person.\n\nCONCLUSION\n\nA Sikh can pray, meditate and live honestly alone, so the sangat is not strictly necessary for every part of religious life. But many core Sikh practices – langar, sewa, Amrit Sanskar and congregational worship – depend on it, and gurbani teaches that the satsangat helps the soul. The stronger view is that Sikhs need the sangat to live a full Sikh life, even though individual devotion is also essential.",
+   "evidence": [
+    "Ang 72",
+    "Ang 305",
+    "Guru Panth and gurmatta",
+    "Langar, Amrit Sanskar",
+    "Online kirtan"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "sangat evaluation"
+  },
+  {
+   "question": "“The sangat is more important than the gurdwara building.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nFor Sikhs, what makes a place holy is the presence of the Guru Granth Sahib and of people remembering God's Name. Guru Nanak teaches that the true sangat is wherever the Name of the One God is spoken (Ang 72), not a particular building. A gurdwara can be a simple room, a house or even a tent.\n\nThe sangat carries the Guru's authority: Guru Gobind Singh gave authority to the Guru Panth as well as the Guru Granth Sahib. Decisions, initiation (through the Panj Pyare) and sewa are all done by people, not bricks.\n\nSikh history shows the sangat surviving without buildings – in times of persecution in the 18th century, Sikhs met in forests and camps. Today Sikhs gather for akhand paths in homes, and langar is served on streets for homeless people, showing that the community can act anywhere.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nThe gurdwara provides the conditions for the sangat to meet: a place to install the Guru Granth Sahib respectfully on the takht under the chanani, a langar hall and kitchen, and space for classes and community events. Without the building, many of these practices would be very difficult.\n\nHistoric gurdwaras such as the Harimandir Sahib are sacred because of their link to the Gurus. Many Sikhs feel a deep spiritual connection there, and the building's design, with four doors open to all, itself teaches equality.\n\nThe gurdwara also acts as a visible symbol of Sikh identity in Britain, a centre of community life and a refuge – the Nishan Sahib shows travellers they can find food and shelter. Some might say the two cannot really be separated: the building exists for the sangat, and the sangat needs a home.\n\nCONCLUSION\n\nThe gurdwara building is very valuable and some gurdwaras are deeply sacred because of their history. However, in Sikh teaching the holiness of a gurdwara comes from the Guru Granth Sahib and the sangat gathered there, not the building itself. So the sangat is more important, although the building is the normal and best place for it to gather.",
+   "evidence": [
+    "Ang 72",
+    "Guru Panth",
+    "18th-century persecution",
+    "Harimandir Sahib's four doors",
+    "Nishan Sahib"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "sangat vs building"
+  }
+ ]
+}

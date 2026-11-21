@@ -1,0 +1,147 @@
+{
+ "paper": "Beliefs",
+ "module": "1.3",
+ "moduleTitle": "Different Christian beliefs about creation, including the role of Word and Spirit (John 1:1–3 and Genesis 1:1–3)",
+ "note": {
+  "specFocus": "Spec: Key beliefs — different Christian beliefs about creation including the role of Word and Spirit (John 1:1–3 and Genesis 1:1–3). Both passages are prescribed texts and questions may be set on them.",
+  "summary": "Prescribed texts (learn them)\n• Genesis 1:1–3: 'In the beginning God created the heavens and the earth. Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters. And God said, \"Let there be light,\" and there was light.'\n• John 1:1–3: 'In the beginning was the Word, and the Word was with God, and the Word was God. He was with God in the beginning. Through him all things were made; without him nothing was made that has been made.'\n\nWhat they teach\n• God the Father is the creator; creation is ex nihilo (out of nothing) and purposeful.\n• The Spirit was present and active ('hovering'), bringing life and order — the Spirit is 'the giver of life' (Nicene Creed).\n• God creates by speaking ('And God said…'). John identifies this creative Word (Greek: Logos) with Jesus: 'The Word became flesh' (John 1:14). So the Son is eternal, not created, and all three persons of the Trinity were involved in creation.\n• Creation is good: 'God saw all that he had made, and it was very good' (Genesis 1:31).\n\nThe Genesis accounts\n• Genesis 1: six days — light; sky; land, seas and plants; sun, moon and stars; fish and birds; animals and humans — then God rests on the seventh day.\n• Genesis 2: God forms Adam from the dust and breathes life into him; plants the Garden of Eden; forms Eve from Adam's rib. Humans are given stewardship: 'to work it and take care of it' (Genesis 2:15).\n• Humans are made 'in the image of God' (imago Dei, Genesis 1:27).\n\nDifferent Christian beliefs about creation\n• Literalist / creationist: Genesis is literally true; six 24-hour days; a young Earth (some evangelical Protestants). Science must fit scripture.\n• Old Earth / 'day-age' view: each 'day' represents a long period of time.\n• Non-literal / theistic evolution: Genesis teaches spiritual truth (God is creator, the world is good, humans are special) not science. God worked through the Big Bang and evolution. This is the view of the Catholic Church, the Church of England and most mainstream churches. The Big Bang was first proposed by a Catholic priest, Georges Lemaître; Pope Francis (2014) said evolution is not inconsistent with creation.\n• Intelligent design: some argue life is too complex to have evolved without a designer.\n\nWhy it matters / influence\n• Stewardship: caring for the environment (e.g. A Rocha, Eco Church, Pope Francis's Laudato Si', 2015).\n• Sanctity and dignity of life: all humans in God's image deserve respect.\n• Worship: Christians praise God as creator (e.g. harvest festivals, psalms such as Psalm 8 and Psalm 19).\n• Jesus' divinity: John 1 supports belief that Jesus is God.\n\nKey terms: creation ex nihilo, Logos/Word, Spirit, imago Dei, stewardship, literalism, creationism, theistic evolution, Big Bang."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following opens with the words 'In the beginning was the Word'?\nA  Genesis 1\nB  John 1\nC  Matthew 1\nD  Revelation 1",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — John 1\n\nJohn 1:1 begins 'In the beginning was the Word, and the Word was with God, and the Word was God.' John deliberately echoes Genesis 1:1 ('In the beginning God created…'), but Genesis does not mention 'the Word' by name. Christians understand the Word (Greek: Logos) to be Jesus, the Son.",
+   "evidence": [
+    "John 1:1–3",
+    "Genesis 1:1"
+   ],
+   "examTip": "Know the opening words of both prescribed passages: Genesis 1:1–3 and John 1:1–3.",
+   "answerTopic": "the Word"
+  },
+  {
+   "question": "In Genesis 1:2, what was 'hovering over the waters'?\nA  The Word of God\nB  An angel\nC  The Spirit of God\nD  The light",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C — The Spirit of God\n\nGenesis 1:2 says 'the Spirit of God was hovering over the waters.' Christians see this as the Holy Spirit present and active in creation. The Word is in John 1; light is created in Genesis 1:3.",
+   "evidence": [
+    "Genesis 1:2"
+   ],
+   "examTip": "The prescribed texts are examinable in detail — learn the key phrase from each verse.",
+   "answerTopic": "Spirit in creation"
+  },
+  {
+   "question": "Give one thing the prologue of John's Gospel teaches about the Word.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.:\n• The Word existed 'in the beginning' (was eternal / not created).\n• The Word was with God and the Word was God (John 1:1).\n• 'Through him all things were made' — the Word was the agent of creation (John 1:3).\n• The Word became flesh — Jesus (John 1:14).",
+   "evidence": [
+    "John 1:1–3",
+    "John 1:14"
+   ],
+   "examTip": "Any accurate point from John 1:1–3 will earn the mark.",
+   "answerTopic": "Word in John"
+  },
+  {
+   "question": "Give one way in which some Christians interpret the Genesis creation account.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.:\n• Literally — God created the world in six 24-hour days (creationism / Young Earth creationism).\n• Symbolically / as a myth or poem expressing truths about God, not scientific fact.\n• As compatible with science — God started the Big Bang and works through evolution (theistic evolution / the 'days' as long ages).",
+   "evidence": [
+    "Genesis 1",
+    "Young Earth creationism",
+    "Theistic evolution"
+   ],
+   "examTip": "Use a precise label if you can (e.g. 'literalist'), but a clear description also gains the mark.",
+   "answerTopic": "creation interpretation"
+  },
+  {
+   "question": "Explain two ways in which Christian beliefs about creation influence Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Christians believe God created the world and saw that it was 'very good' (Genesis 1:31) and gave humans responsibility to care for it (Genesis 2:15). This influences them to act as stewards — recycling, reducing their carbon footprint, or joining projects such as A Rocha or the Eco Church scheme.\n\nSecond way: Because the Bible says humans were made 'in the image of God' (Genesis 1:27), Christians believe every person has equal dignity and worth. This influences them to treat all people with respect, oppose discrimination and protect human life, for example by caring for the vulnerable.",
+   "evidence": [
+    "Genesis 1:27",
+    "Genesis 1:31",
+    "Genesis 2:15",
+    "A Rocha / Eco Church"
+   ],
+   "examTip": "Influence = a belief → a practical effect. Name a real example to develop the point.",
+   "answerTopic": "creation influence"
+  },
+  {
+   "question": "Explain two ways in which belief that God created through his Word influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because Christians believe Jesus is the Word through whom 'all things were made' (John 1:3), they see Jesus not just as a teacher but as God, present at creation. This influences them to worship Jesus and to give his teachings supreme authority in how they live.\n\nSecond way: Genesis shows God creating simply by speaking ('And God said…'), so Christians believe God's word has power. This influences them to value the Bible as the Word of God, reading it regularly in private devotion and in church services, and trusting its promises.",
+   "evidence": [
+    "John 1:1–3",
+    "Genesis 1:3",
+    "2 Timothy 3:16"
+   ],
+   "examTip": "Link the 'Word' to both Jesus and the power of God's speech/the Bible.",
+   "answerTopic": "Word influence"
+  },
+  {
+   "question": "Explain two Christian teachings about the role of the Word and the Spirit in creation.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching — the Word: John 1:1–3 teaches 'In the beginning was the Word… Through him all things were made; without him nothing was made that has been made.' Christians believe the Word is the Son, Jesus, who existed eternally with God and was the means through which God created everything. This shows Jesus was not created but was active in creation as God.\n\nSecond teaching — the Spirit: Genesis 1:2 describes 'the Spirit of God hovering over the waters' before God speaks. Christians interpret this as the Holy Spirit giving life and order to the formless world. The Nicene Creed calls the Spirit 'the giver of life'.\n\nApplication: Together these passages show Christians that the whole Trinity was involved in creation — the Father creating, through the Word, by the power of the Spirit. Many Christians therefore see the universe as an expression of God's love and order rather than an accident.",
+   "evidence": [
+    "John 1:1–3",
+    "Genesis 1:1–3",
+    "Nicene Creed 'the giver of life'"
+   ],
+   "examTip": "These two passages are named in the specification — quote them accurately.",
+   "answerTopic": "Word and Spirit"
+  },
+  {
+   "question": "Explain two different Christian beliefs about how the world was created.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First belief — literal creation: Some Christians, especially some evangelical Protestants, read Genesis 1 literally. They believe God created the universe in six 24-hour days a few thousand years ago and rested on the seventh (Genesis 2:2). They reject evolution where it contradicts scripture, because they believe the Bible is the inerrant Word of God.\n\nSecond belief — non-literal / theistic evolution: Most Christians, including the Catholic Church and the Church of England, see Genesis as a theological account teaching WHY the world exists and WHO created it, not HOW. They accept the Big Bang and evolution as the means God used. Pope Francis said God 'created beings and allowed them to develop according to the internal laws he gave to each one' (2014).\n\nShared ground: Both views agree with Genesis 1:1 'In the beginning God created the heavens and the earth' — that God is the ultimate cause of the universe and that it is good (Genesis 1:31).",
+   "evidence": [
+    "Genesis 1:1–2:3",
+    "Genesis 1:31",
+    "Pope Francis, Pontifical Academy of Sciences 2014",
+    "Georges Lemaître (Big Bang, Catholic priest)"
+   ],
+   "examTip": "If asked for 'different' beliefs, make the contrast explicit.",
+   "answerTopic": "creation views"
+  },
+  {
+   "question": "‘The Bible's account of creation should be taken literally.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nSome Christians, often called creationists or literalists, believe the Bible is the inspired and inerrant Word of God: 'All Scripture is God-breathed' (2 Timothy 3:16). If God inspired Genesis, it should be accepted as it stands — God created the world in six days and rested on the seventh. Reinterpreting it to fit science, they argue, puts human ideas above God's word.\n\nLiteralists also point out that other parts of the Bible treat creation as historical. Jesus refers to God making humans 'male and female' 'at the beginning' (Matthew 19:4), and the Sabbath commandment is based on the six days of creation (Exodus 20:11). If these are not literal, it might undermine trust in other teachings, such as the Fall and the need for salvation.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMost Christians — including the Catholic Church, the Church of England and the Orthodox Church — do not read Genesis literally. They argue it is a theological account explaining WHO made the world and WHY, not a scientific record. Its poetic structure (a refrain 'And there was evening, and there was morning') and the fact that Genesis 1 and 2 describe creation in different orders suggest it was not meant as a literal timetable.\n\nScience provides strong evidence for a 13.8-billion-year-old universe and for evolution. Many Christian scientists, such as Georges Lemaître (a Catholic priest who proposed the Big Bang theory) and Francis Collins, see no conflict between science and faith. Augustine, as early as the 5th century, warned Christians against interpreting Genesis in ways that contradict what can be known about the natural world.\n\nJohn 1:1–3 adds that God created through the Word and Genesis 1:2 speaks of the Spirit — this is a profound truth about God's nature rather than a description of physical processes.\n\nJUSTIFIED CONCLUSION\n\nLiteralists are right to take the Bible seriously as God's word, and the statement reflects a sincere desire to trust scripture. However, taking the Bible seriously is not the same as taking every passage literally. The literary style of Genesis and the weight of scientific evidence suggest it is better understood as true about God and humanity rather than as a scientific account. I therefore disagree with the statement: the central message — that God created a good world with purpose — matters more than a literal six-day timescale.",
+   "evidence": [
+    "2 Timothy 3:16",
+    "Matthew 19:4",
+    "Exodus 20:11",
+    "Genesis 1–2",
+    "John 1:1–3",
+    "Georges Lemaître",
+    "Augustine, The Literal Meaning of Genesis"
+   ],
+   "examTip": "Avoid saying 'Christians believe…' as if all agree; name which Christians hold each view.",
+   "answerTopic": "literal creation"
+  },
+  {
+   "question": "‘Science has proved that the Christian belief in creation is wrong.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nScientific evidence shows the universe began around 13.8 billion years ago with the Big Bang, and life developed over billions of years through evolution by natural selection, as Charles Darwin argued. This contradicts a literal reading of Genesis, in which the world is made in six days and humans are created fully formed. For those who think Christianity requires a literal Genesis, science has disproved it.\n\nAtheist scientists such as Richard Dawkins argue that natural processes explain the complexity of life without any need for a creator, and Stephen Hawking suggested the laws of physics could explain how the universe began. If science can explain the origin of everything, belief in a creator God seems unnecessary.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMost Christians argue that science and religion answer different questions. Science explains HOW the universe developed; Christian teaching explains WHY it exists and WHO is ultimately responsible. Genesis 1:1 'In the beginning God created the heavens and the earth' is not contradicted by the Big Bang — indeed the Big Bang was first proposed by a Catholic priest, Georges Lemaître.\n\nThe Catholic Church and Church of England accept evolution as the way God created. Pope Francis stated that the Big Bang 'does not contradict the intervention of the divine creator but, rather, requires it', and that God allowed creatures to develop according to the laws he gave them.\n\nScience also cannot explain why there is something rather than nothing, or why the universe has laws that allow life. Many Christians see the order and fine-tuning of the universe as evidence of design. John 1:3 teaches that 'through him all things were made', which is a claim about ultimate cause that lies beyond scientific testing.\n\nJUSTIFIED CONCLUSION\n\nScience has disproved a strictly literal reading of Genesis, but that is only one Christian view. The central Christian belief — that God is the creator and sustainer of the universe — is not something science can prove or disprove, because science studies processes within the universe. Since most Christians accept scientific findings while still believing God is the creator, I conclude that science has not proved the Christian belief in creation wrong; rather, it has challenged particular interpretations of it.",
+   "evidence": [
+    "Genesis 1:1",
+    "John 1:3",
+    "Georges Lemaître",
+    "Pope Francis 2014",
+    "Charles Darwin",
+    "Richard Dawkins",
+    "Stephen Hawking"
+   ],
+   "examTip": "A strong conclusion distinguishes between 'creation' as a belief and literal interpretation of Genesis.",
+   "answerTopic": "science and creation"
+  }
+ ]
+}

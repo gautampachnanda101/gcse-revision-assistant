@@ -1,0 +1,162 @@
+{
+ "paper": "Practices",
+ "module": "2.3",
+ "moduleTitle": "Salah and its significance (including Jummah and Sunni/Shi'a differences)",
+ "note": {
+  "specFocus": "Know salah and its significance: how and why Muslims pray, including times, directions, ablution (wudu), movements (rak'ahs) and recitations; salah in the home, mosque and elsewhere; Friday prayer (Jummah); key differences between Sunni and Shi'a practice; and different Muslim views about the importance of prayer.",
+  "summary": "WHY MUSLIMS PRAY\nSalah is the second pillar and an obligatory act for Shi'as. It is commanded 'at specified times' (4:103), was given to the Prophet on the Night Journey (al-Isra' wal-Mi'raj) - reduced from fifty to five - and 'prohibits immorality and wrongdoing' (29:45). It builds discipline, God-consciousness (taqwa) and unity. 'The first thing a servant will be called to account for is prayer' (Tirmidhi). Salah differs from du'a (personal prayer, in any language) and dhikr (remembrance).\n\nTIMES\nFajr (dawn, 2 rak'ahs), Zuhr (after midday, 4), Asr (afternoon, 4), Maghrib (after sunset, 3), Isha (night, 4). Times follow the sun (11:114; 17:78) and are announced by the adhan from the mosque.\n\nDIRECTION\nMuslims face the qiblah - the Ka'bah in Makkah (2:144); in mosques the mihrab shows the direction. Originally the qiblah was Jerusalem.\n\nABLUTION (WUDU)\nBased on 5:6. Make niyyah (intention), then wash hands, rinse mouth and nose, wash face, arms to the elbows, wipe head and ears, and wash (Sunni) or wipe (Shi'a) feet. Wudu is broken by e.g. using the toilet or sleeping. Ghusl (full wash) is needed in some cases; tayammum uses clean dust if no water is available. Purity of body, clothes and place matters.\n\nMOVEMENTS (RAK'AHS) AND RECITATIONS\nEach rak'ah: takbir ('Allahu Akbar'); qiyam (standing) reciting al-Fatihah (Surah 1) and another passage; ruku (bowing) - 'Glory be to my Lord the Magnificent'; standing; sujud (prostration, twice) - 'Glory be to my Lord the Most High'; julus (sitting). The final sitting includes the tashahhud (with Shahadah) and blessings on the Prophet; prayer ends with taslim ('as-salamu alaykum wa rahmatullah') to right and left.\n\nHOME, MOSQUE AND ELSEWHERE\n- Mosque: congregation in straight rows behind an imam; 'twenty-seven times better' than alone (Bukhari).\n- Home: anywhere clean with a prayer mat ('the earth has been made for me a place of prayer', Bukhari). Women commonly pray at home.\n- Elsewhere: school, work, travel; prayer rooms in UK hospitals, airports, universities; travellers may shorten prayers (4:101).\n\nJUMMAH\nFriday midday congregational prayer (62:9), obligatory for adult men; replaces Zuhr with two rak'ahs after a khutbah (sermon). Many Shi'a scholars historically regarded it as optional during the Imam's occultation; today many Shi'a centres hold it.\n\nSUNNI AND SHI'A DIFFERENCES\n- Shi'as often combine prayers into three sessions (Zuhr+Asr, Maghrib+Isha); Sunnis normally pray at five times (combining mainly when travelling).\n- Shi'as usually pray with arms at their sides; most Sunnis fold arms (Malikis often do not).\n- Shi'as prostrate on a turbah (clay tablet, often from Karbala) or natural material.\n- Small differences in wording of the adhan (Shi'as add 'Ali is the wali of Allah' and 'Hasten to the best of deeds') and in wudu.\n\nDIFFERENT VIEWS ABOUT IMPORTANCE\nMost see salah as essential; some scholars said abandoning it entirely is disbelief. Others stress inner sincerity (khushu') over form (107:4-6); Sufis add dhikr. Debates: mosque vs home; possibility of praying five times in a busy British life.\n\nKEY TERMS: salah, wudu, qiblah, mihrab, rak'ah, sujud, takbir, al-Fatihah, Jummah, khutbah, turbah."
+ },
+ "questions": [
+  {
+   "question": "What is the name of the ritual washing Muslims perform before salah?\nA Ihram\nB Wudu\nC Rak'ah\nD Qiblah",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Wudu is the ritual washing of hands, mouth, nose, face, arms, head, ears and feet before prayer (Qur'an 5:6).",
+   "evidence": [
+    "Qur'an 5:6"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "wudu"
+  },
+  {
+   "question": "How many rak'ahs are prayed in the obligatory Fajr (dawn) prayer?\nA Two\nB Three\nC Four\nD Five",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A - Fajr has two obligatory rak'ahs; Maghrib has three; Zuhr, Asr and Isha have four.",
+   "evidence": [
+    "Sunnah of the Prophet"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "rak'ahs"
+  },
+  {
+   "question": "Give two of the five daily prayer times.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: Fajr (dawn, before sunrise); Zuhr (just after midday); Asr (afternoon); Maghrib (just after sunset); Isha (night).",
+   "evidence": [
+    "Qur'an 11:114",
+    "Qur'an 17:78"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "prayer times"
+  },
+  {
+   "question": "Give two ways a Muslim prepares for salah.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: performing wudu (or ghusl if required, or tayammum with clean dust if no water); making sure the place and clothes are clean, e.g. using a prayer mat; facing the qiblah (direction of the Ka'bah); dressing modestly; making niyyah (intention) to pray; responding to the adhan.",
+   "evidence": [
+    "Qur'an 5:6",
+    "Qur'an 2:144"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "preparation"
+  },
+  {
+   "question": "Explain two differences in the practice of salah between Sunni and Shi'a Muslims.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Prayer times: Sunni Muslims usually pray five separate times a day, while many Shi'a Muslims combine Zuhr with Asr and Maghrib with Isha, praying at three times a day while still performing all five prayers. Shi'as point to occasions when the Prophet combined prayers even when not travelling.\n\n2. Position and objects: many Shi'as pray with their arms by their sides, while most Sunnis fold their arms across their chest or stomach (though Maliki Sunnis also often pray with arms by their sides). Shi'as also place their forehead on a small tablet of natural clay (a turbah or mohr), often made from the earth of Karbala, because they believe prostration should be on natural earth.",
+   "evidence": [
+    "Combining prayers (hadith in Sahih Muslim)",
+    "Turbah"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "Sunni and Shi'a differences"
+  },
+  {
+   "question": "Explain two ways Jummah prayer is different from salah at other times.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It is a congregational prayer held at midday on Friday, replacing the Zuhr prayer, and it is obligatory for adult Muslim men to attend at the mosque (women may attend but are not required to). 'O you who believe, when the call is made for prayer on Friday, hasten to the remembrance of Allah and leave trade' (62:9).\n\n2. It includes a khutbah (sermon) delivered by the imam before the prayer, often on a current issue or moral topic, and the prayer itself has two rak'ahs instead of the four of Zuhr. In Britain, Muslims often arrange a longer lunch break or school arrangement to attend, and large mosques may hold more than one Jummah session.",
+   "evidence": [
+    "Qur'an 62:9",
+    "Khutbah"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "Jummah"
+  },
+  {
+   "question": "Explain two ways Muslims perform salah, including movements and recitations.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Each prayer is made up of rak'ahs (units of set movements): standing (qiyam) while reciting al-Fatihah and another passage of the Qur'an; bowing (ruku) while praising God; prostrating (sujud) with forehead, nose, palms, knees and toes on the ground; and sitting (julus). Prostration shows complete submission to God.\n\n2. Recitations are in Arabic and begin with 'Allahu Akbar' (God is greatest) to enter the prayer. In the final sitting Muslims recite the tashahhud (including the Shahadah) and blessings on the Prophet, and they end by turning the head to the right and left saying 'as-salamu alaykum wa rahmatullah' (peace be upon you and the mercy of God).",
+   "evidence": [
+    "Al-Fatihah (Qur'an 1)",
+    "Tashahhud"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "how to pray"
+  },
+  {
+   "question": "Explain two reasons why salah is important to Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. It is a direct command from God and brings a Muslim close to Him. 'Indeed, prayer has been decreed upon the believers a decree of specified times' (Qur'an 4:103). Praying five times a day keeps God at the centre of life, and the Prophet described it as the believer's ascent (mi'raj) towards God - the five prayers were given during the Night Journey.\n\n2. It has a moral and spiritual effect, protecting a person from wrongdoing. 'Indeed, prayer prohibits immorality and wrongdoing' (Qur'an 29:45). Regular prayer builds discipline and taqwa, and praying in congregation at the mosque, shoulder to shoulder, shows the equality and unity of the ummah.",
+   "evidence": [
+    "Qur'an 4:103",
+    "Qur'an 29:45",
+    "Night Journey (Qur'an 17:1)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "importance"
+  },
+  {
+   "question": "Explain two features of salah performed at the mosque and at home.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. At the mosque, Muslims pray in congregation (jama'ah) behind an imam, standing in straight rows facing the qiblah, shown by the mihrab (niche) in the wall. The Prophet said 'Prayer in congregation is twenty-seven times better than prayer offered alone' (Sahih al-Bukhari). This is especially important for Jummah on Friday.\n\n2. At home or elsewhere (school, work, while travelling), Muslims can pray anywhere clean using a prayer mat, as the Prophet said 'The earth has been made for me a place of prayer and a means of purification' (Bukhari). They use a compass or app to find the qiblah. Women often pray at home, and families may pray together, with children learning by copying their parents; this shows prayer is part of everyday life, not only for the mosque.",
+   "evidence": [
+    "Hadith: congregational prayer 27 times better (Bukhari)",
+    "Hadith: 'The earth has been made for me a mosque' (Bukhari)",
+    "Qur'an 2:144 (qiblah)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "mosque and home"
+  },
+  {
+   "question": "Explain two different Muslim views about the importance of prayer.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Many Muslims see the five daily prayers as the most important practice after the Shahadah, essential to being a Muslim. The Prophet said 'The first thing for which a servant will be called to account on the Day of Judgement is prayer; if it is sound, the rest of his deeds will be sound' (Tirmidhi). Some scholars even taught that deliberately abandoning prayer altogether takes a person out of Islam.\n\n2. Others emphasise that the inner meaning matters as much as the outer form. The Qur'an warns 'woe to those who pray but are heedless of their prayer, those who make show' (Qur'an 107:4-6). Sufi Muslims especially stress khushu' (humility and concentration) and personal du'a and dhikr alongside salah. For many, a prayer said without thought is less valuable than one said with sincerity, and personal prayer is also important.",
+   "evidence": [
+    "Hadith on prayer at judgement (Tirmidhi)",
+    "Qur'an 107:4-6",
+    "Khushu'"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "different views"
+  },
+  {
+   "question": "‘Praying at the mosque is more important than praying at home.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nThe Prophet taught that 'prayer in congregation is twenty-seven times better than prayer offered alone' (Bukhari), and he regularly led prayer in the mosque in Madinah. Jummah prayer on Friday is obligatory for adult men and must be prayed in congregation (62:9). Praying at the mosque brings the ummah together: rich and poor stand shoulder to shoulder in straight rows, showing equality before God. The imam leads the prayer and delivers the khutbah, which educates the community. The mosque is a 'house of God', a peaceful setting that helps concentration, and attending builds friendships and support networks, which can be especially important for Muslims living as a minority in Britain.\n\nARGUMENTS AGAINST THE STATEMENT\nIslam teaches that prayer can be performed anywhere clean: 'The earth has been made for me a place of prayer' (Bukhari). God is immanent and hears every prayer wherever it is offered (2:186), so the place is less important than sincerity (khushu') and intention. Many Muslims cannot get to a mosque five times a day due to school, work, distance or caring responsibilities, and Islam is a practical religion that does not burden people beyond their capacity (2:286). Women are not required to attend the mosque, and some hadiths say a woman's prayer at home is equally or more rewarded (Abu Dawud). The home is also where children first learn to pray by watching their parents, so prayer at home builds faith in the next generation. Voluntary (nafl) prayers were often prayed at home by the Prophet, who said 'Do not make your houses graves' - meaning they should be places of prayer (Bukhari).\n\nShi'a Muslims value congregational prayer too, but many Shi'a communities did not traditionally treat Friday prayer as obligatory during the Imam's absence, showing that views on mosque attendance vary.\n\nCONCLUSION\nCongregational prayer, especially Jummah for men, has a special reward and an important community role. However, God accepts prayer offered sincerely anywhere, and for many Muslims the home is where most prayers take place. I conclude that praying at the mosque is more rewarding when possible, but it is not more important than praying sincerely and regularly, wherever that happens.",
+   "evidence": [
+    "Hadith: congregational prayer 27 times better",
+    "Qur'an 62:9",
+    "Qur'an 2:186",
+    "Hadith: 'Do not make your houses graves' (Bukhari)",
+    "Qur'an 2:286"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "mosque and home"
+  },
+  {
+   "question": "‘It is too difficult for Muslims in Britain today to pray five times a day.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nPrayer times are fixed by the sun, which in Britain creates challenges. In summer Fajr can be before 3am and Isha after 11pm, making sleep difficult, while in winter Zuhr, Asr and Maghrib are close together during the school or working day. Many workplaces, schools and exam timetables are not designed around prayer, and some Muslims may feel embarrassed or face discrimination when asking for a space or time to pray. Finding a clean place, performing wudu at work, and finding the qiblah in a busy environment can be awkward. For young people, peer pressure and busy lifestyles can make regular prayer hard to maintain.\n\nARGUMENTS AGAINST THE STATEMENT\nIslam is designed to be practical. Each prayer takes only a few minutes, and there is a window of time in which it can be performed rather than one exact moment. Prayer can be done anywhere clean (Bukhari), with a portable mat. If water is unavailable, tayammum (dry ablution) can be used (5:6). Travellers may shorten and combine prayers (4:101). Shi'a Muslims commonly combine Zuhr with Asr and Maghrib with Isha, praying at three times while keeping all five prayers, which fits more easily into a school or work day. Many British universities, airports, hospitals and workplaces now have multi-faith or prayer rooms, and the Equality Act 2010 protects people from religious discrimination. Apps give exact prayer times and the qiblah direction.\n\nMost importantly, Muslims believe God does not 'burden a soul beyond that it can bear' (2:286), and the Qur'an commands prayer 'at specified times' (4:103), so if God requires it, it must be possible. Millions of British Muslims do pray five times a day, showing it can be done.\n\nCONCLUSION\nThere are genuine practical difficulties, especially with long summer days and inflexible schedules. However, Islam's flexibility (prayer windows, combining, tayammum), modern facilities and legal protections mean that, with commitment, it is achievable. I therefore disagree with the statement: praying five times a day in Britain can be challenging, but it is not too difficult.",
+   "evidence": [
+    "Qur'an 2:286",
+    "Qur'an 4:101",
+    "Qur'an 4:103",
+    "Qur'an 5:6 (tayammum)",
+    "Equality Act 2010"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "prayer in Britain"
+  }
+ ]
+}

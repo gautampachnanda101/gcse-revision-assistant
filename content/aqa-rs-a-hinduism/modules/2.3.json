@@ -1,0 +1,138 @@
+{
+ "paper": "Practices",
+ "module": "2.3",
+ "moduleTitle": "Focuses of worship and representations of the divine and their importance",
+ "note": {
+  "specFocus": "Focuses of worship and representations of the divine and their importance: one God (personal or non-personal); the many deities, guru and other elders; holy land, hills and rivers; sacred plants and animals; the murti as a representation of God.",
+  "summary": "FOCUSES OF WORSHIP\nHindus direct their worship towards many focuses, all of which can be seen as ways of approaching the one divine reality.\n\nONE GOD (PERSONAL OR NON-PERSONAL)\nMany Hindus focus worship on one Supreme God. For a Vaishnava this may be Krishna or Vishnu; for a Shaiva, Shiva; for a Shakta, the Goddess. Others worship God as non-personal Brahman, often through the sacred syllable Om (Aum), which the Mandukya Upanishad describes as representing all of reality, past, present and future. Meditation on Om is a way of worshipping the formless divine.\n\nTHE MANY DEITIES, GURU AND OTHER ELDERS\n• Deities – Hindus worship deities such as Ganesha, Lakshmi, Hanuman, Saraswati and Durga for their particular qualities and blessings. Many families have a chosen deity (ishta-devata) and a family deity (kula-devata). Many see the deities as aspects or servants of the one God (Rig Veda 1.164.46).\n• Guru – a spiritual teacher who removes the darkness of ignorance (\"gu\" = darkness, \"ru\" = remover). Disciples honour the guru with deep respect, touching their feet and celebrating Guru Purnima. \"Approach a spiritual master, enquire submissively and render service; the wise who have seen the truth will teach you\" (Gita 4.34). Some gurus, such as the leaders of the Swaminarayan movement, are honoured as especially close to God.\n• Elders – parents, grandparents and teachers are honoured as God: \"Treat your mother as God, your father as God, your teacher as God\" (Taittiriya Upanishad 1.11.2). Hindus touch elders' feet to receive blessings.\n\nHOLY LAND, HILLS AND RIVERS\nIndia (Bharat) is regarded by many Hindus as a sacred land, filled with places linked to the deities and avatars. Mountains such as Kailash (the abode of Shiva) and Govardhan Hill (which Krishna lifted to protect the villagers of Vraj) are worshipped; pilgrims walk around Govardhan (parikrama). Rivers are worshipped as goddesses, especially the Ganga (Ganges), believed to flow from Vishnu's feet through Shiva's hair and to purify sins; the Yamuna and Saraswati are also sacred. The Ganga arati at Varanasi and Haridwar is performed every evening.\n\nSACRED PLANTS AND ANIMALS\n• Plants – Tulsi (holy basil) is worshipped as a goddess dear to Vishnu and Krishna and grown in many Hindu homes; bilva leaves are offered to Shiva; the peepal/ashvattha tree is sacred (\"Among trees I am the ashvattha\", Gita 10.26); the lotus symbolises purity.\n• Animals – the cow is honoured as a mother (gau mata) because she gives milk and represents non-violent generosity; Krishna is a cowherd (Govinda). Animals are linked with deities as their vehicles (vahanas): Nandi the bull (Shiva), Garuda the eagle (Vishnu), the mouse (Ganesha), the swan (Saraswati), the lion or tiger (Durga). Hanuman is honoured as a monkey devotee, and the snake (naga) is honoured at Naga Panchami.\n\nTHE MURTI AS A REPRESENTATION OF GOD\nA murti is a sacred image or form of a deity, made of stone, metal, wood or other material, often according to traditional rules. In a temple, the prana pratishtha ceremony invites the deity's presence into it. Views differ:\n• Many Vaishnavas believe God is truly present in the murti (arca-avatara), so it is served like a living person: woken, bathed, dressed, fed and put to rest.\n• Others see the murti as a symbol and aid to concentration, pointing to a God beyond form.\n• The Arya Samaj rejects murti worship as not Vedic.\nMurti features carry meaning: Ganesha's large ears (listening), Shiva's third eye (wisdom), Lakshmi's lotus (purity), Vishnu's conch and discus (protection)."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following plants is especially sacred to Vishnu and Krishna?\nA) Bilva\nB) Tulsi\nC) Peepal\nD) Neem",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Tulsi.\nTulsi (holy basil) is worshipped as a goddess dear to Vishnu and Krishna; bilva leaves are offered to Shiva.",
+   "evidence": [
+    "Tulsi – Vrinda devi"
+   ],
+   "examTip": "Pair plants with deities: tulsi – Vishnu/Krishna, bilva – Shiva.",
+   "answerTopic": "sacred plants"
+  },
+  {
+   "question": "Which one of the following is the ceremony that invites the deity's presence into a murti?\nA) Prana pratishtha\nB) Puja\nC) Parikrama\nD) Prasad",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) Prana pratishtha.\nPrana pratishtha ('establishing the life-breath') is the consecration ceremony after which the deity is believed to be present in the murti.",
+   "evidence": [
+    "Prana pratishtha"
+   ],
+   "examTip": "This term helps explain why the murti is treated as God, not just a statue.",
+   "answerTopic": "murti"
+  },
+  {
+   "question": "Give one sacred river in Hinduism.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: Ganga (Ganges); Yamuna; Saraswati; Godavari; Narmada; Kaveri; Sindhu.",
+   "evidence": [
+    "Sacred rivers"
+   ],
+   "examTip": "Ganges is the safest answer.",
+   "answerTopic": "sacred rivers"
+  },
+  {
+   "question": "Give one reason why the cow is sacred to many Hindus.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: she gives milk and nourishment like a mother (gau mata); she represents non-violence and generosity; Krishna was a cowherd who loved cows; products of the cow (milk, ghee) are used in worship; the bull Nandi is Shiva's vehicle; ahimsa – cows are harmless creatures.",
+   "evidence": [
+    "Gau mata",
+    "Krishna as Govinda"
+   ],
+   "examTip": "One reason only.",
+   "answerTopic": "sacred animals"
+  },
+  {
+   "question": "Explain two contrasting Hindu understandings of the murti.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First understanding: Many Hindus, especially Vaishnavas, believe God is truly present in the murti after the prana pratishtha ceremony. The murti is seen as a form in which God descends (arca-avatara) to accept worship, so it is treated like a living person – woken, bathed, dressed, offered food and put to rest each day.\n\nSecond understanding: Other Hindus see the murti as a symbol or aid to concentration rather than God himself. They believe God is beyond form, and the image helps the mind focus on God's qualities. Some, such as the Arya Samaj, reject murti worship altogether, believing it is not taught in the Vedas and that God should be worshipped through havan and prayer.",
+   "evidence": [
+    "Prana pratishtha",
+    "Arca-avatara",
+    "Arya Samaj"
+   ],
+   "examTip": "Contrast 'God is present' with 'symbol only' (and 'rejected').",
+   "answerTopic": "murti views"
+  },
+  {
+   "question": "Explain two ways in which Hindus show reverence for sacred animals or plants.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Many Hindus grow a tulsi plant at home, often on a special stand in the garden or courtyard. Each morning or evening they water it, light a lamp before it and walk around it in prayer, because tulsi is honoured as a goddess dear to Vishnu and Krishna; tulsi leaves are offered in worship and tulsi wood is used for japa beads.\n\nSecond way: Hindus show reverence for the cow as gau mata (mother cow). Many do not eat beef, and some support cow-protection projects such as the herd at Bhaktivedanta Manor, where cows are never slaughtered and are cared for until they die naturally. At the festival of Gopashtami, cows are decorated and worshipped.",
+   "evidence": [
+    "Tulsi",
+    "Bhaktivedanta Manor cow protection",
+    "Gopashtami"
+   ],
+   "examTip": "Concrete examples from British Hindu practice make points detailed.",
+   "answerTopic": "sacred plants and animals"
+  },
+  {
+   "question": "Explain two reasons why gurus and elders are important focuses of respect and worship for Hindus.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: The guru is the spiritual teacher who removes ignorance and guides the disciple to God. The word is often explained as 'one who removes darkness'. Krishna teaches, 'Approach a spiritual master, enquire submissively and render service; the wise who have seen the truth will teach you' (Gita 4.34). This is why disciples honour their guru by touching their feet and celebrating Guru Purnima, and why many British Hindus belong to guru-led movements such as BAPS or ISKCON.\n\nSecond reason: Parents, grandparents and teachers are honoured because they give life, care and knowledge. The Taittiriya Upanishad (1.11.2) instructs, 'Treat your mother as God, treat your father as God, treat your teacher as God.' Hindus therefore touch the feet of elders to receive blessings, seek their advice on important decisions such as marriage, and care for them in old age.",
+   "evidence": [
+    "Bhagavad Gita 4.34",
+    "Taittiriya Upanishad 1.11.2",
+    "Guru Purnima"
+   ],
+   "examTip": "Separate guru (spiritual teacher) and elders (family) into two clear reasons.",
+   "answerTopic": "guru and elders"
+  },
+  {
+   "question": "Explain two ways in which holy land, hills and rivers are focuses of worship for Hindus.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First way: Rivers, especially the Ganga, are worshipped as goddesses. Hindus believe the Ganga descended from heaven, flowing from Vishnu's feet and through Shiva's hair, as told in the Ramayana and Puranas. Bathing in it is believed to wash away bad karma, and every evening a spectacular Ganga arati is offered on the ghats of Varanasi and Haridwar. Many Hindus scatter the ashes of the dead in the Ganges. In the Gita Krishna says, 'Among rivers I am the Ganga' (10.31).\n\nSecond way: Hills and sacred land are worshipped because of their links with God. In the Bhagavata Purana, Krishna lifts Govardhan Hill to protect the villagers of Vraj from Indra's storms; pilgrims now walk around the hill (parikrama) and, at the festival of Govardhan Puja (Annakut), a 'mountain' of food is offered in temples, including in Britain. Mount Kailash is honoured as the abode of Shiva, and India as a whole is seen by many as a sacred land.",
+   "evidence": [
+    "Bhagavad Gita 10.31",
+    "Bhagavata Purana – Govardhan lila",
+    "Ganga arati",
+    "Annakut"
+   ],
+   "examTip": "Gita chapter 10 ('Among X, I am Y') is a rich source for sacred nature.",
+   "answerTopic": "holy land, hills and rivers"
+  },
+  {
+   "question": "'A murti is just a statue.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nFrom a non-religious point of view, a murti is made of stone, metal or wood by craftsmen and is physically no different from any other statue. It does not move, eat or speak, so to call it God seems mistaken.\n\nSome Hindus also hold this view, at least partly. The Arya Samaj, founded by Swami Dayananda Saraswati, taught that God is formless and that murti worship is not found in the Vedas; they worship through havan and prayer instead. Advaitins believe that ultimate reality is nirguna Brahman, beyond all form – \"neti, neti\" (Brihadaranyaka Upanishad 2.3.6) – so any image can only be a symbol. For them, the murti is at most a helpful aid to concentration.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, most Hindus would strongly disagree. In a temple, a murti is consecrated through the prana pratishtha ceremony, in which priests invite the life-breath and presence of the deity to dwell in it. From then on, it is no longer treated as an object but as God present in form. Vaishnavas call this the arca-avatara – God \"descending\" into a form that devotees can see and serve. The murti is woken, bathed, dressed, offered food and put to rest, just as one would serve a beloved guest.\n\nThis is based on the belief that God is everywhere and can make himself present wherever he wishes. If God is in the heart of every being (Gita 18.61), he can certainly be present in a murti. Krishna accepts offerings made with love (Gita 9.26), and darshan of the murti is a two-way meeting in which the devotee sees God and is seen by him.\n\nEven Hindus who see the murti as a symbol do not think it is \"just\" a statue. Like a national flag or a wedding ring, it carries deep meaning – Shiva's third eye, Ganesha's large ears and Lakshmi's lotus all teach about God's qualities and help worshippers focus.\n\nCONCLUSION\n\nPhysically a murti is a crafted image, but for the great majority of Hindus it is far more than \"just a statue\": it is either God truly present in form or a sacred symbol that leads the mind to God. Only a minority, such as the Arya Samaj, reject its use. I therefore disagree with the statement, since within Hindu belief the murti's meaning and consecration make it holy.",
+   "evidence": [
+    "Prana pratishtha",
+    "Arca-avatara",
+    "Bhagavad Gita 9.26, 18.61",
+    "Brihadaranyaka Upanishad 2.3.6",
+    "Arya Samaj"
+   ],
+   "examTip": "Avoid calling murti worship 'idol worship' – use the correct term and explain Hindu understanding.",
+   "answerTopic": "murti"
+  },
+  {
+   "question": "'Hindus should worship God alone, not deities, gurus or nature.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nMany Hindus believe there is one Supreme God, and some argue that worship should go to God alone. In the Bhagavad Gita, Krishna says that those who worship other gods \"are really worshipping me, but in the wrong way\" (9.23), and that worshippers of the devas go to the devas while his devotees come to him (9.25). This suggests that worshipping the Supreme God directly is better than worshipping lesser deities.\n\nThere are also risks in honouring gurus and nature. Some gurus have been exposed as dishonest or abusive, and treating any human being as divine can lead to blind obedience. Worshipping rivers or animals might seem to confuse what God has created with God himself. Reform movements such as the Arya Samaj encouraged Hindus to focus on the one formless God of the Vedas rather than on images and many deities.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, most Hindus see no conflict between worshipping God and honouring these other focuses, because they are understood as forms or reflections of God. The Rig Veda teaches that \"Truth is one; the wise call it by many names\" (1.164.46), so worshipping Ganesha or Lakshmi can be a way of worshipping the one reality. In chapter 10 of the Gita Krishna explains that he is present in the best of everything: \"Among rivers I am the Ganga… among trees I am the ashvattha\" (10.26, 10.31). Honouring a sacred river or tree is therefore honouring God's presence in it.\n\nThe guru is honoured because he or she leads the disciple to God. Krishna himself tells Arjuna to \"approach a spiritual master\" (Gita 4.34), and the Taittiriya Upanishad teaches respect for mother, father and teacher \"as God\" (1.11.2). This is not putting them in God's place; it is recognising God working through them.\n\nWorshipping nature also encourages care for the environment and ahimsa. Reverence for the Ganges has inspired clean-up campaigns, and reverence for cows supports cow-protection projects.\n\nCONCLUSION\n\nIt is true that the Supreme God is the ultimate focus of Hindu worship, and that the honour given to gurus, deities and nature should not replace it. However, Hindu teaching sees God as present in all these focuses, so honouring them can be a way of worshipping God. I therefore disagree with the statement, while accepting that Hindus need wisdom in choosing gurus and should remember that all worship ultimately points to the one God.",
+   "evidence": [
+    "Bhagavad Gita 4.34, 9.23, 9.25, 10.26, 10.31",
+    "Rig Veda 1.164.46",
+    "Taittiriya Upanishad 1.11.2",
+    "Arya Samaj"
+   ],
+   "examTip": "Bring in several focuses named in the specification (deities, guru, elders, rivers, plants, animals).",
+   "answerTopic": "focuses of worship"
+  }
+ ]
+}

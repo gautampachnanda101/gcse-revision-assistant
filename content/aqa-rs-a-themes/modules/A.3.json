@@ -1,0 +1,89 @@
+{
+ "paper": "Theme A",
+ "module": "A.3",
+ "moduleTitle": "Marriage, same-sex marriage, cohabitation, divorce and remarriage",
+ "note": {
+  "specFocus": "The nature and purpose of marriage; same-sex marriage and cohabitation; divorce, including reasons for divorce, and remarrying; ethical arguments related to divorce, including those based on the sanctity of marriage vows and compassion.",
+  "summary": "KEY TERMS\nMarriage: a legally recognised union between two people; for many believers a sacred covenant made before God. Cohabitation: a couple living together in a sexual relationship without being married. Same-sex marriage: marriage between two people of the same sex (legal in England and Wales since 2014, Scotland 2014, Northern Ireland 2020). Divorce: legal ending of a marriage. Annulment: a declaration that a valid marriage never existed. Remarriage: marrying again after divorce or the death of a spouse. Sanctity of marriage vows: the belief that the promises made are sacred.\n\nPURPOSE OF MARRIAGE\nCommon religious purposes: lifelong companionship and love, a stable place for sex and for bringing up children, and a commitment made before God and the community. The Church of England marriage service lists the gift of children, companionship and a life of mutual love and support.\n\nCHRISTIANITY\nMarriage is a covenant (Catholics: a sacrament) – \"what God has joined together, let no one separate\" (Mark 10:9). Vows are made \"till death us do part\". The Catholic Church does not recognise divorce; a marriage can only be annulled (e.g. if one partner did not freely consent). Divorced Catholics who remarry civilly are not normally able to receive communion. The Church of England accepts that marriages sometimes fail and, since 2002, allows remarriage in church at the priest's discretion. Many Protestants note Jesus' exception for \"sexual immorality\" (Matthew 19:9) and stress compassion and forgiveness. The Church of England and Catholic Church do not conduct same-sex marriages; the Methodist Church (2021) and some others do. Cohabitation is traditionally seen as falling short of the commitment of marriage, though many churches welcome cohabiting couples.\n\nISLAM\nMarriage (nikah) is a contract and a duty; the Prophet said \"marriage is my sunnah\". Divorce (talaq) is allowed but \"of all lawful things, the most hated by Allah is divorce\" (hadith). There is a three-month waiting period (iddah) to allow reconciliation, and families are expected to help: \"appoint an arbiter from his family and one from hers\" (Qur'an 4:35). Remarriage is permitted.\n\nJUDAISM\nMarriage (kiddushin – 'making holy') is a sacred covenant. Divorce is allowed through a get (document of divorce) given by the husband before a Beth Din; Deuteronomy 24:1 allows it. Without a get, Orthodox Jews cannot remarry religiously. Reform Judaism is more flexible and conducts same-sex marriages.\n\nHINDUISM AND SIKHISM\nHindu marriage is a lifelong sacramental bond and divorce is traditionally discouraged, though allowed in law. In Sikhism the Anand Karaj makes the couple \"one light in two bodies\"; divorce is discouraged but not forbidden, and the community tries to reconcile couples.\n\nETHICAL ARGUMENTS ABOUT DIVORCE\nSanctity of vows: promises made before God should not be broken; divorce harms children and weakens commitment. Compassion: forcing people to stay in abusive or loveless marriages causes suffering; Jesus showed mercy to the woman caught in adultery (John 8). Humanists support divorce when a relationship has broken down and want separation handled kindly.\n\nUK LAW\nThe Divorce, Dissolution and Separation Act 2020 introduced \"no-fault\" divorce in England and Wales from April 2022. Religious organisations are not required to conduct same-sex weddings (Marriage (Same Sex Couples) Act 2013 'quadruple lock')."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the term for a declaration that a marriage was never valid?\nA Annulment\nB Divorce\nC Cohabitation\nD Remarriage",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A Annulment.\nAn annulment (granted, for example, by a Catholic marriage tribunal) states that a valid marriage never existed, e.g. because one partner did not freely consent. Divorce ends a marriage that did exist.",
+   "evidence": [
+    "Catholic teaching on annulment"
+   ],
+   "answerTopic": "divorce",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one purpose of marriage in religious teaching.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: lifelong companionship/love and support; to have children; to provide a stable home to raise children in the faith; to make a commitment before God; a proper context for sex.",
+   "evidence": [
+    "Church of England marriage service",
+    "Genesis 2:24"
+   ],
+   "answerTopic": "marriage",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about divorce.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Catholic Church teaches that a valid sacramental marriage cannot be dissolved by divorce. This is because the couple make vows before God for life, and Jesus taught 'what God has joined together, let no one separate' (Mark 10:9), so Catholics can separate legally but can only remarry in church if their first marriage is annulled.\n\nBelief 2: In contrast, Muslims believe divorce is permitted, although it is disliked. If attempts at reconciliation through family arbiters fail, a couple may divorce (talaq) after a waiting period of three months (iddah), and both partners are free to remarry, because Islam recognises that forcing people to stay in a broken marriage can cause greater harm.",
+   "evidence": [
+    "Mark 10:9",
+    "Qur'an 4:35",
+    "Iddah waiting period"
+   ],
+   "answerTopic": "divorce",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about same-sex marriage.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Church of England teaches that marriage in church is between one man and one woman, so it does not conduct same-sex weddings. However, since 2023 it has permitted prayers of blessing (Prayers of Love and Faith) for same-sex couples, showing that it wants to welcome them while keeping its traditional definition of marriage.\n\nBelief 2: In contrast, Reform and Liberal Judaism in Britain conduct same-sex marriages. They believe that all people are made in the image of God and that a loving, lifelong commitment between two people of the same sex should be celebrated in the synagogue in the same way as any other marriage.",
+   "evidence": [
+    "Church of England Prayers of Love and Faith (2023)",
+    "Genesis 1:27",
+    "Marriage (Same Sex Couples) Act 2013"
+   ],
+   "answerTopic": "same-sex marriage",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about the nature and purpose of marriage.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe that marriage is a lifelong covenant between a man and a woman made before God. Genesis 2:24 says that 'a man leaves his father and mother and is united to his wife, and they become one flesh', which shows that marriage creates a new, permanent union. This is why the vows promise faithfulness 'till death us do part', and why many Christians see divorce as breaking a sacred promise.\n\nBelief 2: Sikhs believe that marriage is a spiritual union that helps both partners grow closer to God (Waheguru). In the Anand Karaj ceremony the couple walk around the Guru Granth Sahib four times while the Lavan hymns are sung, and the Guru Granth Sahib teaches that they are not those who merely sit together, but 'one light in two bodies'. So the purpose of marriage is equal partnership and shared spiritual progress, as well as raising a family.",
+   "evidence": [
+    "Genesis 2:24",
+    "Guru Granth Sahib, Lavan (Guru Ram Das)",
+    "'One light in two bodies' (Guru Granth Sahib, Ang 788)"
+   ],
+   "answerTopic": "marriage",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Religious people should never get divorced.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nSome religious believers agree because of the sanctity of marriage vows. In a Christian wedding the couple promise before God to stay together 'for better, for worse… till death us do part'. Jesus taught 'what God has joined together, let no one separate' (Mark 10:9), and the Catholic Church teaches that a valid sacramental marriage cannot be dissolved; it may only be declared null by annulment. Breaking such a promise is seen as breaking a promise to God, not only to a partner. Supporters also argue that divorce can harm children, who need stability, and that if divorce is easy, people may give up on marriage too quickly instead of working through difficulties with forgiveness, which is central to many faiths. Hindus traditionally see marriage as a lifelong sacramental bond for the same reason.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOthers argue that 'never' is too strong. The argument from compassion says that forcing someone to stay in an abusive, violent or loveless marriage causes great suffering, and a loving God would not want that. Jesus himself allowed an exception for sexual immorality (Matthew 19:9), and the Church of England has allowed remarriage in church, at the priest's discretion, since 2002, recognising that relationships sometimes fail and people deserve a second chance. Islam permits divorce, even though a hadith says it is 'the most hated of lawful things to Allah', because it is better than continued harm; the Qur'an requires family arbiters to attempt reconciliation first (4:35). Judaism also allows divorce through a get. Humanists argue that when a relationship has irretrievably broken down, ending it kindly is the most honest and least harmful choice, and UK law has accepted this with no-fault divorce since 2022.\n\nCONCLUSION\nThe arguments for the statement show how seriously religions take marriage, and it is right that religious people should work hard to keep their vows and seek reconciliation before considering divorce. However, I find the compassion argument more convincing, because a rule of 'never' would trap victims of abuse and does not reflect the teaching of most religions, which permit divorce as a last resort. Therefore I disagree with the statement: divorce should be rare and not entered lightly, but it can be the right choice for a religious person when a marriage has truly broken down.",
+   "evidence": [
+    "Mark 10:9",
+    "Matthew 19:9",
+    "Qur'an 4:35",
+    "Hadith: divorce the most hated lawful thing",
+    "Church of England remarriage (2002)",
+    "No-fault divorce (2022)"
+   ],
+   "answerTopic": "divorce",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

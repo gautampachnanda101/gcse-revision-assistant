@@ -1,0 +1,133 @@
+{
+ "paper": "Beliefs",
+ "module": "1.1",
+ "moduleTitle": "The concept of Dhamma (Dharma)",
+ "note": {
+  "specFocus": "The concept of Dhamma (Dharma): its meanings (the Buddha's teaching, universal truth), its place among the Three Refuges, where it is found (Tipitaka and Mahayana sutras), how Buddhists use and test it (Kalama Sutta, Parable of the Raft) and why it matters today.",
+  "summary": "WHAT DHAMMA MEANS\nDhamma (Pali) or Dharma (Sanskrit) is a word with several layers of meaning. Most importantly for GCSE, it means the teaching of the Buddha: his explanation of how things really are and of the way to end suffering. It can also mean universal truth or natural law (the way reality works whether or not a Buddha teaches it), and in Buddhist philosophy 'dhammas' are the tiny events that make up experience. Buddhists believe the Buddha did not invent the Dhamma; he discovered it, as a doctor diagnoses an illness that is already there.\n\nTHE THREE REFUGES (THREE JEWELS)\nThe Dhamma is one of the Three Jewels (tiratana): the Buddha (the teacher and example), the Dhamma (the teaching) and the Sangha (the community of monks, nuns and, in a wider sense, all practising Buddhists). Buddhists 'take refuge' in them by reciting: \"Buddham saranam gacchami, Dhammam saranam gacchami, Sangham saranam gacchami\" (\"I go for refuge to the Buddha… Dhamma… Sangha\"). Taking refuge is often seen as what makes someone a Buddhist.\n\nWHERE THE DHAMMA IS FOUND\n- Theravada Buddhists rely on the Pali Canon, the Tipitaka ('three baskets'): the Vinaya Pitaka (monastic rules), Sutta Pitaka (discourses of the Buddha, including the Dhammapada) and Abhidhamma Pitaka (philosophical analysis).\n- Mahayana Buddhists also use later sutras such as the Lotus Sutra, the Heart Sutra and the Pure Land sutras. Zen emphasises direct experience 'beyond words and letters', and Tibetan Buddhism values teachings passed from teacher (lama) to pupil.\n\nHOW BUDDHISTS TREAT THE DHAMMA\nThe Buddha encouraged people to test his teaching for themselves rather than accept it on blind faith. In the Kalama Sutta he told the Kalama people not to believe something simply because of tradition or a teacher's authority, but to accept it when they know for themselves it leads to welfare and happiness. He also compared the Dhamma to a raft (the Parable of the Raft, Majjhima Nikaya 22): it is a tool for crossing the river of suffering, not something to cling to once you have crossed. Shortly before his death he told his followers to be \"a lamp unto yourselves\" and to rely on the Dhamma as their guide.\n\nSYMBOLS\nThe Dhamma is symbolised by the Dharmachakra (Dhamma wheel). Its eight spokes represent the Eightfold Path. The Buddha's first sermon at the Deer Park in Sarnath, the Dhammacakkappavattana Sutta, is known as 'setting the wheel of Dhamma in motion'.\n\nWHY IT MATTERS TODAY\nThe Dhamma gives Buddhists a guide for ethics (the precepts), meditation and wisdom. It is studied, chanted and taught: for example, Dhamma talks at viharas such as Amaravati in Hertfordshire or teachings at Samye Ling in Scotland. Because it is about seeing reality clearly, many Buddhists see it as practical rather than as a set of beliefs about God, which is why Buddhism is often described as non-theistic.\n\nKEY TERMS\nDhamma/Dharma – the Buddha's teaching; universal truth. Tiratana – the Three Jewels. Sangha – Buddhist community. Tipitaka – Pali Canon. Sutta/sutra – a discourse or teaching. Dharmachakra – wheel of Dhamma."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is one of the Three Refuges (Three Jewels) in Buddhism?\nA) Nibbana\nB) Dhamma\nC) Karuna\nD) Samsara",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Dhamma. The Three Refuges are the Buddha, the Dhamma (his teaching) and the Sangha (the community). Nibbana is the goal, karuna is compassion and samsara is the cycle of rebirth, so none of these is a refuge.",
+   "evidence": [
+    "Three Refuges: Buddha, Dhamma, Sangha",
+    "\"Dhammam saranam gacchami\""
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "three refuges"
+  },
+  {
+   "question": "Which one of the following best describes the Tipitaka?\nA) A Buddhist monastery\nB) A type of meditation\nC) The Pali Canon of scriptures\nD) A Buddhist festival",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) The Pali Canon of scriptures. The Tipitaka ('three baskets') is the collection of scriptures used especially by Theravada Buddhists, made up of the Vinaya, Sutta and Abhidhamma Pitakas.",
+   "evidence": [
+    "Tipitaka: Vinaya, Sutta and Abhidhamma Pitakas"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "scriptures"
+  },
+  {
+   "question": "Give two meanings of the word 'Dhamma' (Dharma) in Buddhism.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of:\n- The teaching of the Buddha.\n- Universal truth or natural law (the way things really are).\n- The path or practice that leads to the end of suffering.\n- (In Buddhist philosophy) the basic elements or events that make up experience.",
+   "evidence": [
+    "Dhamma as teaching and as universal law"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "meaning of dhamma"
+  },
+  {
+   "question": "Name the three 'baskets' of the Pali Canon (Tipitaka).",
+   "marks": 2,
+   "command": "Name",
+   "modelAnswer": "Credit any two for 2 marks:\n- Vinaya Pitaka (rules for monks and nuns).\n- Sutta Pitaka (the discourses or sermons of the Buddha).\n- Abhidhamma Pitaka (philosophical and psychological analysis of the teaching).",
+   "evidence": [
+    "Vinaya, Sutta, Abhidhamma"
+   ],
+   "examTip": "Only two correct answers are needed for 2 marks even though there are three baskets; don't waste time explaining them.",
+   "answerTopic": "scriptures"
+  },
+  {
+   "question": "Explain two ways in which belief in the Dhamma influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Buddhists take refuge in the Dhamma as one of the Three Jewels. Many recite the refuges daily or at the start of puja ('Dhammam saranam gacchami'), so the Dhamma becomes the guide they turn to in deciding how to live, rather than following a god or their own desires.\n\n2. Buddhists study and listen to the Dhamma. For example, lay Buddhists attend Dhamma talks given by monks at a vihara or join study groups, and some chant suttas from memory. This helps them understand teachings such as the Four Noble Truths and put them into practice in their daily lives, for instance by keeping the Five Precepts.",
+   "evidence": [
+    "Three Refuges",
+    "Dhamma talks at viharas"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "influence of dhamma"
+  },
+  {
+   "question": "Explain two different ways in which Buddhists understand the authority of the Dhamma.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Many Buddhists see the Dhamma as truth to be tested, not believed blindly. The Buddha taught in the Kalama Sutta that people should accept a teaching only when they know for themselves that it leads to wellbeing, so Buddhists may try out meditation or the precepts and judge the results through experience.\n\n2. Other Buddhists place strong trust in particular texts or teachers. Theravada Buddhists treat the Pali Canon as the most reliable record of the Buddha's words, while many Mahayana Buddhists see sutras such as the Lotus Sutra as expressing the Buddha's highest teaching, and Tibetan Buddhists rely on a lama to pass on the Dhamma correctly.",
+   "evidence": [
+    "Kalama Sutta",
+    "Pali Canon",
+    "Lotus Sutra"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "authority of dhamma"
+  },
+  {
+   "question": "Explain two Buddhist teachings about the Dhamma.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The Dhamma is a tool to be used, not something to cling to. In the Parable of the Raft (Majjhima Nikaya 22), the Buddha compares his teaching to a raft that a man builds to cross a dangerous river; once across, he would be foolish to carry it on his head. This shows that the purpose of the Dhamma is practical: it helps people cross from suffering to nibbana.\n\n2. The Dhamma is a guide that replaces reliance on any single person. As he was dying, the Buddha told his followers to be 'a lamp unto yourselves' and to take the Dhamma as their refuge (Mahaparinibbana Sutta). This means Buddhists should follow the teaching and work out their own liberation rather than depend on the Buddha himself.",
+   "evidence": [
+    "Parable of the Raft (Majjhima Nikaya 22)",
+    "\"Be a lamp unto yourselves\" (Mahaparinibbana Sutta)"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "teachings about dhamma"
+  },
+  {
+   "question": "Explain two reasons why the Dhamma is important to Buddhists.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The Dhamma explains the cause of suffering and how to end it. In his first sermon at Sarnath, known as 'setting in motion the wheel of Dhamma' (Dhammacakkappavattana Sutta), the Buddha taught the Four Noble Truths. Without the Dhamma Buddhists would not know that craving causes suffering or that the Eightfold Path leads to nibbana.\n\n2. The Dhamma is one of the Three Refuges. Buddhists recite 'Dhammam saranam gacchami' ('I go for refuge to the Dhamma'). Like a shelter in a storm, the teaching gives security and direction in a world marked by impermanence, so it is central to Buddhist identity and worship.",
+   "evidence": [
+    "Dhammacakkappavattana Sutta",
+    "\"Dhammam saranam gacchami\""
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "importance of dhamma"
+  },
+  {
+   "question": "\"The Dhamma is the most important of the Three Refuges.\"\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThe Dhamma could be seen as the most important refuge because it is the truth itself. Buddhists believe the Buddha did not create the Dhamma but discovered it: the laws of impermanence, dependent arising and kamma would be true even if no Buddha had taught them. If the Dhamma is the reality that leads to nibbana, then the other two refuges depend on it.\n\nThe Buddha himself seemed to point his followers towards the Dhamma rather than himself. In the Mahaparinibbana Sutta he told them to be 'a lamp unto yourselves' and to take the Dhamma as their refuge after his death. He also said that whoever sees the Dhamma sees him. This suggests that the teaching outlasts the teacher and is what really matters.\n\nThe Dhamma is also what the Sangha preserves and passes on. Monks and nuns memorise and chant the suttas and give Dhamma talks; without the teaching, the community would have no purpose. In this sense the Dhamma is the centre of the wheel around which the others turn.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOn the other hand, many Buddhists would argue that the Three Refuges cannot be ranked because they depend on each other. Without the Buddha, no one would have discovered and taught the Dhamma in this age; without the Sangha, the Dhamma would not have been preserved for 2,500 years. Taking refuge in all three together is what makes a person a Buddhist.\n\nSome Buddhists place great emphasis on the Buddha. In Pure Land Buddhism, faith in Amitabha Buddha and reciting his name (the nembutsu) is the central practice, so the Buddha refuge seems most important. Devotion to the Buddha in puja, in front of a Buddha rupa, is also how many lay Buddhists express their faith.\n\nOthers stress the Sangha. The Buddha told Ananda that good friendship is 'the whole of the holy life', and in practice many people learn the Dhamma through teachers and fellow practitioners. The Parable of the Raft also warns against clinging even to the Dhamma, so perhaps it should not be treated as the 'most important' thing in a fixed way.\n\nCONCLUSION\nOverall, I think the statement is partly convincing. The Dhamma does have a special status because it is the truth that leads to the end of suffering, and the Buddha directed people to it. However, the Buddha and the Sangha are the means through which people meet and live the Dhamma, so most Buddhists would see the three refuges as a unity. The strongest conclusion is that the Dhamma is the content of the refuges, but it cannot be separated from the teacher who revealed it and the community that keeps it alive.",
+   "evidence": [
+    "\"Be a lamp unto yourselves\" (Mahaparinibbana Sutta)",
+    "Parable of the Raft",
+    "Pure Land: nembutsu",
+    "Three Refuges"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "three refuges"
+  },
+  {
+   "question": "\"Buddhists should only accept the Dhamma if they can test it for themselves.\"\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThe Buddha himself encouraged people to test his teaching. In the Kalama Sutta, the Kalama people were confused by many teachers with competing ideas. The Buddha told them not to accept something because of tradition, scripture, logic or the authority of a teacher, but to accept it when they knew for themselves that it was skilful and led to welfare and happiness. This strongly supports the statement.\n\nMuch of the Dhamma can be tested in experience. A person can notice impermanence and dukkha in everyday life, or see through meditation how craving creates dissatisfaction. Many Western Buddhists, including those at mindfulness and meditation centres in Britain, value Buddhism precisely because it invites investigation rather than blind faith.\n\nThe Parable of the Raft also shows that the Dhamma is a practical tool. You judge a raft by whether it gets you across the river, so it makes sense to judge the Dhamma by whether it actually reduces suffering.\n\nARGUMENTS FOR A DIFFERENT VIEW\nHowever, some parts of the Dhamma cannot easily be tested by ordinary people. Teachings about rebirth, kamma working across lifetimes, or the nature of nibbana go beyond present experience. Most Buddhists accept these partly through saddha (faith or confidence) in the Buddha, who is believed to have seen them directly on the night of his Enlightenment.\n\nIn some traditions trust is central. Pure Land Buddhists rely on faith in Amitabha Buddha's vow rather than on their own efforts, and Shinran taught that ordinary people cannot achieve Enlightenment through their own power. Tibetan Buddhists place deep trust in their lama, believing an experienced teacher can see further than a beginner.\n\nAlso, the Kalama Sutta does not say that people should reject everything they cannot yet test. The Buddha's point was to examine teachings carefully and to rely on the advice of the wise, so a beginner might reasonably accept some teachings provisionally, like a student trusting a doctor before they understand medicine.\n\nCONCLUSION\nI think the statement is mostly right in spirit but too strong as written. The Buddha clearly wanted people to investigate his teaching and not follow it blindly, and much of it can be tested. However, Buddhist practice also involves confidence in the Buddha and trusted teachers, especially regarding teachings like rebirth that go beyond ordinary experience. A balanced view is that Buddhists should test what they can, while holding the rest with reasoned trust until their own understanding grows.",
+   "evidence": [
+    "Kalama Sutta",
+    "Parable of the Raft",
+    "Saddha (faith/confidence)",
+    "Pure Land: reliance on Amitabha"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "testing the dhamma"
+  }
+ ]
+}

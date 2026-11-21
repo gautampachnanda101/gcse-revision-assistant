@@ -1,0 +1,140 @@
+{
+ "paper": "Practices",
+ "module": "2.4",
+ "moduleTitle": "Sacred festivals and their importance for Hindus in Great Britain today: Diwali and Holi",
+ "note": {
+  "specFocus": "Sacred festivals and their importance for Hindus in Great Britain today, including the origins and meaning of: Diwali; Holi.",
+  "summary": "WHY FESTIVALS MATTER\nFestivals (utsavas) mark sacred events, honour the deities, retell scripture stories and bring families and communities together. For Hindus in Great Britain – a minority community – they are especially important for passing on faith and culture to young people and for sharing Hindu traditions with the wider public. The specification requires the origins and meaning of Diwali and Holi.\n\nDIWALI (DEEPAVALI) – \"ROW OF LIGHTS\"\nWhen: the new-moon night of the month of Kartik (October/November), usually as part of a five-day festival.\nOrigins (different regions emphasise different stories):\n• The return of Rama and Sita to Ayodhya after fourteen years of exile and the defeat of the demon king Ravana, told in the Ramayana. The people lit rows of lamps to welcome them home.\n• The worship of Lakshmi, goddess of wealth and good fortune, who is believed to visit homes that are clean and lit.\n• Krishna's defeat of the demon Narakasura (celebrated as Naraka Chaturdashi, especially in South India).\n• For many Gujarati Hindus, the day after Diwali is the Hindu New Year (Annakut/Govardhan Puja), when temples offer a \"mountain\" of food.\nMeaning: the victory of light over darkness, good over evil and knowledge over ignorance (\"Lead me from darkness to light\", Brihadaranyaka Upanishad 1.3.28); a fresh start; prosperity.\nPractices: cleaning and decorating homes; lighting divas (clay oil lamps) and fairy lights; drawing rangoli patterns at doorways; Lakshmi puja; new clothes; giving sweets (mithai) and gifts; fireworks; businesses opening new account books; visiting the temple and family.\nIn Great Britain: Leicester's Diwali celebrations on the Golden Mile (Belgrave Road) are among the largest outside India, with a lights switch-on attracting tens of thousands; Trafalgar Square in London hosts \"Diwali on the Square\"; Neasden Mandir's Annakut displays hundreds of vegetarian dishes. Schools and workplaces increasingly mark Diwali, and the Prime Minister has hosted Diwali receptions.\n\nHOLI – THE FESTIVAL OF COLOURS\nWhen: the full moon of the month of Phalgun (February/March), marking the arrival of spring.\nOrigins:\n• Prahlad and Holika: the demon king Hiranyakashipu demanded to be worshipped, but his son Prahlad remained devoted to Vishnu. His aunt Holika, believed to be immune to fire, sat with Prahlad in a bonfire, but she was burned while Prahlad was protected. Vishnu then appeared as Narasimha (man-lion) to destroy Hiranyakashipu. (The story of Prahlad is told in the Bhagavata Purana, book 7.) The night before Holi, bonfires (Holika Dahan) are lit to celebrate the victory of devotion over evil.\n• Krishna and Radha: the young Krishna playfully threw coloured water and powder over Radha and the gopis (cowherd girls) of Vrindavan; the playful spraying of colour recalls this divine love.\nMeaning: triumph of good over evil and of faith over pride; God's protection of devotees; the joy of spring and new life; equality – barriers of age, caste, gender and wealth are forgotten as everyone is covered in colour; forgiveness and renewing friendships.\nPractices: Holika bonfires; throwing coloured powder (gulal) and water; singing and dancing; sharing sweets and drinks (e.g. gujiya, thandai); visiting friends and family.\nIn Great Britain: temples and community groups hold Holi events, and Bhaktivedanta Manor and other temples host festivals of colours; local councils and universities hold public Holi celebrations open to all.\n\nDIVERSITY\nFestivals are celebrated differently by region and tradition: Bengali Hindus worship Kali at Diwali; Vaishnavas emphasise Krishna at Holi; some Hindus celebrate quietly at home, others at large public events."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following stories is linked with the origins of Holi?\nA) Rama's return to Ayodhya\nB) Prahlad and Holika\nC) Ganesha's elephant head\nD) The churning of the ocean",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Prahlad and Holika.\nHoli remembers how Prahlad, devoted to Vishnu, was protected from the fire while Holika was burned. Rama's return to Ayodhya is linked to Diwali.",
+   "evidence": [
+    "Bhagavata Purana book 7 (Prahlad)",
+    "Holika Dahan"
+   ],
+   "examTip": "Don't mix up the festival stories – Rama/Lakshmi for Diwali, Prahlad/Krishna and Radha for Holi.",
+   "answerTopic": "Holi origins"
+  },
+  {
+   "question": "Which one of the following goddesses is especially worshipped at Diwali?\nA) Saraswati\nB) Parvati\nC) Lakshmi\nD) Ganga",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) Lakshmi.\nLakshmi, goddess of wealth and good fortune, is welcomed into clean, lamp-lit homes during Diwali (Lakshmi puja).",
+   "evidence": [
+    "Lakshmi puja"
+   ],
+   "examTip": "Remember that Lakshmi links Diwali to the topic of deities.",
+   "answerTopic": "Diwali"
+  },
+  {
+   "question": "Give one way in which Hindus celebrate Diwali.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: lighting divas/lamps; drawing rangoli patterns; performing Lakshmi puja; cleaning the home; wearing new clothes; giving sweets and gifts; fireworks; visiting the temple; Annakut offerings; starting new account books.",
+   "evidence": [
+    "Diwali practices"
+   ],
+   "examTip": "One practice is enough.",
+   "answerTopic": "Diwali practices"
+  },
+  {
+   "question": "Give one meaning of the festival of Holi.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: victory of good over evil; God protects his devotees; celebrating Krishna's love for Radha; the arrival of spring/new life; equality and unity; forgiveness and renewing relationships.",
+   "evidence": [
+    "Holi meaning"
+   ],
+   "examTip": "Meaning is not the same as practice – give a belief or message, not an activity.",
+   "answerTopic": "Holi meaning"
+  },
+  {
+   "question": "Explain two ways in which Hindus in Great Britain celebrate Diwali.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Many British Hindu families celebrate Diwali at home by cleaning and decorating the house, drawing colourful rangoli patterns at the door and lighting divas in the windows. They perform Lakshmi puja to welcome the goddess of good fortune, believing she visits homes that are clean and bright, and exchange sweets and gifts with family and friends.\n\nSecond way: Hindus also celebrate as a community. In Leicester, tens of thousands of people gather on Belgrave Road's 'Golden Mile' for the Diwali lights switch-on and fireworks, one of the largest celebrations outside India. Temples such as Neasden Mandir hold Annakut on the Hindu New Year, offering hundreds of vegetarian dishes to the deities, which are then shared as prasad.",
+   "evidence": [
+    "Leicester Golden Mile",
+    "Neasden Annakut",
+    "Lakshmi puja",
+    "Rangoli and divas"
+   ],
+   "examTip": "The question says 'in Great Britain' – include at least one British example.",
+   "answerTopic": "Diwali in Britain"
+  },
+  {
+   "question": "Explain two ways in which the festival of Holi is important for Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Holi reminds Hindus that good triumphs over evil and that God protects his devotees. On the night before Holi, bonfires (Holika Dahan) recall how Prahlad, who stayed devoted to Vishnu, was saved from the fire while the evil Holika was burned. This encourages Hindus to keep their faith in difficult times.\n\nSecond way: Holi brings people together and breaks down barriers. When people throw coloured powder at each other, everyone looks the same, so differences of age, caste, wealth and gender are forgotten for the day. This recalls the playful love of Krishna and Radha, and in Britain public Holi events often welcome people of all faiths, helping community cohesion.",
+   "evidence": [
+    "Holika Dahan",
+    "Krishna and Radha",
+    "Equality"
+   ],
+   "examTip": "Link 'importance' to belief, community and identity.",
+   "answerTopic": "Holi importance"
+  },
+  {
+   "question": "Explain two origins of Diwali.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First origin: Diwali celebrates the return of Rama and Sita to Ayodhya after fourteen years of exile and Rama's victory over the demon king Ravana, as told in the Ramayana. The people of Ayodhya lit rows of lamps (deepavali) to welcome their rightful king home. Hindus remember this by lighting divas, which symbolise the victory of good over evil and dharma over adharma.\n\nSecond origin: Diwali is also linked with Lakshmi, goddess of wealth and good fortune, and in some regions with Krishna's defeat of the demon Narakasura. Hindus clean their homes and light lamps to welcome Lakshmi, and many businesses open new account books, praying for prosperity in the coming year. The lights also express the prayer of the Brihadaranyaka Upanishad (1.3.28), 'Lead me from darkness to light', showing that Diwali is about spiritual light – knowledge overcoming ignorance – as well as outward celebration.",
+   "evidence": [
+    "Ramayana – Rama's return to Ayodhya",
+    "Lakshmi",
+    "Narakasura",
+    "Brihadaranyaka Upanishad 1.3.28"
+   ],
+   "examTip": "Questions on 'origins' need stories; questions on 'meaning' need beliefs – a strong answer links the two.",
+   "answerTopic": "Diwali origins"
+  },
+  {
+   "question": "Explain two origins of Holi.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First origin: Holi recalls the story of Prahlad, told in the Bhagavata Purana (book 7). His father, the demon king Hiranyakashipu, demanded to be worshipped as God, but Prahlad remained devoted to Vishnu. Holika, Prahlad's aunt, who was believed to be protected from fire, sat with him in a bonfire, yet she was burned and Prahlad survived; Vishnu then appeared as Narasimha to destroy the tyrant. Hindus light bonfires on the night before Holi (Holika Dahan) to celebrate the victory of devotion and goodness over pride and evil.\n\nSecond origin: Holi also remembers the playful love of Krishna for Radha and the gopis in Vrindavan, described in Vaishnava tradition and poetry. Krishna is said to have smeared colours on Radha and her friends. Throwing coloured powder at Holi recalls this divine love, and in Vrindavan and Mathura, and at ISKCON temples, Holi celebrations are full of kirtan and joy, expressing bhakti – loving devotion to God.",
+   "evidence": [
+    "Bhagavata Purana book 7 – Prahlad and Narasimha",
+    "Holika Dahan",
+    "Krishna and Radha in Vrindavan"
+   ],
+   "examTip": "Two different stories make two different origins.",
+   "answerTopic": "Holi origins"
+  },
+  {
+   "question": "'Diwali and Holi are more about culture than religion for Hindus in Great Britain today.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nFor many British Hindus, especially young people, Diwali and Holi are mainly enjoyable cultural events. Diwali is associated with fireworks, new clothes, sweets, family meals and the Leicester lights switch-on, which attract many non-Hindus too. Holi has become popular as a \"festival of colours\", with public colour-throwing events at universities and parks where many participants know little about the religious stories behind it.\n\nFestivals also help British Hindus maintain their Indian, Gujarati, Punjabi or Tamil identity in a country where they are a minority. Food, music, dance and dress are central to the celebrations, and some Hindus who rarely worship at a temple still celebrate Diwali as a way of feeling connected to their heritage. Commercial interests – shops, events and advertisements – also emphasise the cultural side.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, both festivals are deeply rooted in Hindu scripture and belief. Diwali remembers Rama's return to Ayodhya and his victory over Ravana (Ramayana), and is a time of Lakshmi puja. The lamps express the prayer \"Lead me from darkness to light\" (Brihadaranyaka Upanishad 1.3.28), showing that the festival's meaning is spiritual: knowledge overcoming ignorance and dharma defeating adharma. Many families visit temples for darshan and arati, and Annakut at Neasden Mandir is an act of devotion, offering food to God.\n\nHoli recalls Prahlad's devotion to Vishnu and God's protection of the faithful (Bhagavata Purana, book 7), and Krishna's divine love for Radha. The Holika bonfire is a religious ritual, and Vaishnava temples celebrate with kirtan and worship. Even the colours and the breaking down of social barriers reflect the Hindu belief that the same atman is present in everyone.\n\nFinally, in Hinduism, religion and culture are hard to separate. Hinduism is often described as a \"way of life\" (sanatana dharma), so cooking for the family, giving sweets and visiting relatives can themselves be expressions of dharma, love and hospitality.\n\nCONCLUSION\n\nThe cultural side of Diwali and Holi is clearly strong in Britain today, and some people celebrate them with little religious meaning. However, the festivals' origins, rituals and messages are thoroughly religious, and most Hindus see the cultural celebration as an expression of their faith rather than a replacement for it. I therefore disagree with the statement: for Hindus, the festivals are both cultural and religious, with the religious meaning at their heart.",
+   "evidence": [
+    "Ramayana",
+    "Bhagavata Purana book 7",
+    "Brihadaranyaka Upanishad 1.3.28",
+    "Leicester Diwali, Neasden Annakut",
+    "Sanatana dharma as a way of life"
+   ],
+   "examTip": "Questions about 'Great Britain today' reward real British examples.",
+   "answerTopic": "festivals: culture or religion"
+  },
+  {
+   "question": "'Festivals are the best way for Hindus to pass on their faith to young people.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nFestivals are exciting, colourful and fun, so they capture children's attention in a way that lessons often cannot. At Diwali, children help draw rangoli, light divas and hear the story of Rama and Sita from the Ramayana; at Holi they hear how Prahlad trusted Vishnu and was protected from the fire. These stories teach key Hindu values – courage, loyalty, devotion and the victory of good over evil – in a memorable way.\n\nFestivals also involve the whole family and community. Young people see grandparents, parents and temple communities worshipping together, take part in puja, arati and kirtan, and feel proud to be Hindu. In Britain, large public events such as the Leicester Diwali celebrations show young Hindus that their faith is valued by wider society, which can strengthen their identity.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, festivals happen only a few times a year, whereas faith is passed on mainly through daily life. Hindu teaching places great importance on the home: children learn by joining daily puja at the home shrine, saying prayers before meals and watching how their parents treat others. The Taittiriya Upanishad tells children to honour \"mother as God, father as God, teacher as God\" (1.11.2), suggesting that family example and teaching are central.\n\nThere is also a risk that festivals focus on fun – fireworks, sweets and colours – so young people may enjoy them without learning their religious meaning. Deeper understanding requires study of scriptures such as the Bhagavad Gita, which teaches that knowledge comes from approaching a teacher with questions (4.34). Many British temples run weekly classes (e.g. Bal Vihar or Sunday schools), youth camps and Gita study groups, which may be more effective at building understanding.\n\nFinally, Hindus are taught that dharma is lived through actions. Seeing parents practise ahimsa, seva and honesty may teach young people more about being Hindu than any celebration.\n\nCONCLUSION\n\nFestivals are a very powerful way of passing on Hindu faith because they make the stories and values memorable and create a sense of belonging. But they are most effective when combined with daily worship at home, the example of family members and proper teaching. I therefore conclude that festivals are an excellent way, but not the best on their own; the home is the most important place for passing on faith.",
+   "evidence": [
+    "Ramayana",
+    "Bhagavata Purana – Prahlad",
+    "Taittiriya Upanishad 1.11.2",
+    "Bhagavad Gita 4.34",
+    "Bal Vihar / temple classes"
+   ],
+   "examTip": "Compare festivals with other ways of passing on faith (home, classes, example) rather than only describing festivals.",
+   "answerTopic": "festivals and young people"
+  }
+ ]
+}

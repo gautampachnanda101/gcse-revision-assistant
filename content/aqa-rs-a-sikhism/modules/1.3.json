@@ -1,0 +1,136 @@
+{
+ "paper": "Beliefs",
+ "module": "1.3",
+ "moduleTitle": "The nature of human life as an opportunity to unite with God, and the Sikh virtues",
+ "note": {
+  "specFocus": "Spec 3.1.7.1 Key beliefs: the nature of human life as an opportunity to unite with God, including the development of Sikh virtues such as wisdom, truthful living, justice, temperance, self-control, patience, courage, humility, contentment.",
+  "summary": "HUMAN LIFE AS AN OPPORTUNITY\nSikhs believe every living being has a soul (atma) containing a spark of God's light (jot). Souls pass through many life forms – the Guru Granth Sahib speaks of wandering through 8.4 million (chaurasi lakh) life forms – according to karma. Human birth is rare and precious because only humans can consciously remember God and so reach mukti (liberation, union with God). Guru Arjan writes in the Sohila: 'This human body has been given to you. This is your chance to meet the Lord of the Universe. Nothing else will work' (Ang 12). Life is therefore not to be wasted on maya (illusion) and the pursuit of wealth, pleasure or status.\n\nHOW A SIKH USES THIS OPPORTUNITY\n• Nam japna – remembering and meditating on God's Name.\n• Kirat karna – honest work.\n• Vand chhakna – sharing with others; sewa.\n• Developing virtues and overcoming haumai and the five thieves.\n\nTHE SIKH VIRTUES (spec list)\n• Wisdom (gian) – spiritual understanding gained from the Guru's teaching, not just knowledge.\n• Truthful living (sach aachaar) – 'Truth is higher than everything, but higher still is truthful living' (Ang 62). Includes honesty in work.\n• Justice (niaon) – standing up for the oppressed; the Khalsa was formed partly to defend justice.\n• Temperance – moderation; avoiding excess, intoxicants (alcohol, tobacco, drugs are forbidden for amritdhari Sikhs).\n• Self-control – mastering the five thieves, e.g. lust and anger.\n• Patience (dhiraj/sabr) – accepting God's hukam calmly in hardship.\n• Courage (bravery) – shown by the Gurus' martyrdom and Sikh history; linked to God as Nirbhau (fearless).\n• Humility (nimrata) – the opposite of haumai: 'Sweetness and humility are the essence of goodness and virtue' (Ang 470).\n• Contentment (santokh) – satisfaction with what God gives; the opposite of greed.\nSikh writers also commonly list five virtues: sat (truth), santokh (contentment), daya (compassion), nimrata (humility) and pyare (love).\n\nWHY THE VIRTUES MATTER\nVirtues reflect God's qualities (e.g. Nirbhau, Nirvair), so developing them makes a person gurmukh (God-centred). They are not earned by effort alone: Sikhs believe they grow through God's grace (nadar) and meditation.\n\nDIVERSITY AND EXAMPLES\nSome Sikhs stress inner meditation, others active service and justice; most see them as inseparable. Examples today: Sikh volunteers running langar for the homeless in UK cities, or Sikhs speaking out against injustice, show virtues of compassion, justice and courage.\n\nKEY TERMS: atma, jot, mukti, maya, gian, sach aachaar, nimrata, santokh, daya, nadar, gurmukh."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following Sikh virtues means contentment?\nA Nimrata\nB Santokh\nC Daya\nD Sat",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – Santokh. Santokh is contentment: being satisfied with what God has given rather than greedy. Nimrata is humility, daya is compassion, and sat is truth.",
+   "evidence": [
+    "The five virtues: sat, santokh, daya, nimrata, pyare"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "virtues"
+  },
+  {
+   "question": "Which one of the following best describes the Sikh belief about human life?\nA It is a punishment for sins in a past life\nB It is the only life a person will ever have\nC It is a precious opportunity to unite with God\nD It is an illusion with no value",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – It is a precious opportunity to unite with God. Sikhs believe the soul passes through many life forms, and that the human birth is rare and is the chance to become one with God: 'This human body has been given to you; this is your chance to meet the Lord of the Universe' (Ang 12).",
+   "evidence": [
+    "'Bhaee paraapat maanukh dehureeaa' – Ang 12"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "human life"
+  },
+  {
+   "question": "Give one Sikh virtue.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: wisdom (gian); truthful living (sat/sach aachaar); justice (niaon); temperance; self-control; patience (sabr/dhiraj); courage (nirbhau/bravery); humility (nimrata); contentment (santokh); compassion (daya); love (pyare).",
+   "evidence": [
+    "AQA spec list of Sikh virtues"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "virtues"
+  },
+  {
+   "question": "Give one reason why Sikhs believe human life is special.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: only in human life can the soul unite with God/achieve mukti; human birth is rare, coming after many lives in other forms; humans can recognise God's light within and choose to remember God's Name; humans have the ability to develop virtues.",
+   "evidence": [
+    "Ang 12",
+    "Karma and rebirth"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "human life"
+  },
+  {
+   "question": "Explain two ways in which belief that human life is an opportunity to unite with God influences Sikhs today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Sikhs try not to waste their time on earth. Because the human birth is rare and precious, many Sikhs rise early at amrit vela to meditate on God's Name and recite Nitnem, so that every day brings them closer to God.\n\nSecond way: Sikhs try to develop virtues and live morally. Since union with God depends on overcoming haumai, Sikhs work at virtues such as humility and patience, for example by doing sewa such as cleaning shoes at the gurdwara, which trains them to put others before themselves.",
+   "evidence": [
+    "Ang 12",
+    "Amrit vela",
+    "Sewa"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "human life influence"
+  },
+  {
+   "question": "Explain two ways in which the virtue of truthful living influences Sikhs today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Sikhs aim to earn their living honestly (kirat karna). This means a Sikh in business would refuse to cheat customers or take bribes, because how they earn money is as important as how much they earn.\n\nSecond way: Sikhs try to make their words and actions match their beliefs. Guru Nanak taught that truthful living is higher than knowing the truth, so a Sikh should not just attend the gurdwara but also treat family, colleagues and strangers fairly and kindly in everyday life.",
+   "evidence": [
+    "'Sachahu orai sabh ko upar sach aachaar' – Ang 62",
+    "Kirat karna"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "truthful living"
+  },
+  {
+   "question": "Explain two Sikh virtues that help a person move closer to God.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First virtue: Humility (nimrata). Humility is the opposite of haumai (ego), which is the main barrier between a person and God. A humble person does not think they are better than others, accepts God's will and is willing to serve, for example by washing dishes in the langar.\n\nSecond virtue: Contentment (santokh). A contented person is satisfied with what God has given and is free from greed (lobh), one of the five thieves. Contentment brings inner peace, which makes it easier to focus the mind on God's Name.\n\nSource: The Guru Granth Sahib praises humility: 'Sweetness and humility are the essence of goodness and virtue' ('Mithat neevee Nanaka gun changiaaeeaa tat' – Ang 470). This shows that humility is not a weakness but the heart of a God-centred life, so it helps the Sikh move towards mukti.",
+   "evidence": [
+    "'Mithat neevee Nanaka gun changiaaeeaa tat' – Ang 470",
+    "Five thieves",
+    "Haumai"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "virtues"
+  },
+  {
+   "question": "Explain two Sikh teachings about the nature of human life.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Human life is a rare opportunity to unite with God. The soul (atma) has passed through many life forms according to karma, and only as a human can it consciously remember God and achieve mukti. So life should not be wasted on selfish pleasures.\n\nSecond teaching: Every human contains God's divine light (jot). This means each person has the potential to become gurmukh and develop virtues such as wisdom, justice and courage. It also means all humans are equal and must be treated with respect.\n\nSource: In the Sohila, Guru Arjan writes: 'This human body has been given to you. This is your chance to meet the Lord of the Universe. Nothing else will work' (Ang 12). Sikhs apply this by focusing on nam japna and sewa rather than wealth or status.",
+   "evidence": [
+    "'Bhaee paraapat maanukh dehureeaa, gobind milan kee eh teree bareeaa' – Ang 12",
+    "Jot – Ang 13"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "human life"
+  },
+  {
+   "question": "“Being humble is the most important Sikh virtue.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nFor Sikhs the greatest barrier to union with God is haumai – ego or self-centredness. Humility (nimrata) is the direct opposite of haumai, so it could be seen as the virtue that unlocks all the others. Guru Nanak wrote that 'sweetness and humility are the essence of goodness and virtue' (Ang 470).\n\nHumility is built into Sikh practice. Everyone covers their head and removes shoes in the gurdwara, bows before the Guru Granth Sahib and sits on the floor at the same level in the langar. Sewa such as cleaning shoes or washing dishes is valued precisely because it teaches humility. The Gurus themselves modelled it – Guru Amar Das served in the langar of Guru Angad before he became Guru.\n\nA person without humility may be truthful, brave or wise, but use those qualities to feel proud, which leads them away from God. So humility protects the other virtues.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nGuru Nanak taught that 'Truth is higher than everything, but higher still is truthful living' (Ang 62). Many Sikhs would therefore say truthful living (sach aachaar) is the most important, because it includes all the virtues in action. Humility without honesty would not be enough.\n\nOthers would argue that courage and justice are central, especially in Sikh history. Guru Gobind Singh created the Khalsa to defend the oppressed and the Gurus Arjan and Tegh Bahadur accepted martyrdom rather than give up their principles. A purely humble person might not stand up against injustice, which Sikhs are required to do.\n\nIt can also be argued that Sikhism does not rank virtues at all: virtues such as wisdom, contentment, patience, self-control and compassion work together, and a gurmukh shows them all. Non-religious people might value compassion or justice above humility, seeing too much humility as allowing others to be treated unfairly.\n\nCONCLUSION\n\nHumility has a strong claim, because it directly attacks haumai, the root problem in Sikh teaching. However, Sikh history shows that humility must be balanced by courage and justice, and Guru Nanak's emphasis on truthful living suggests all virtues must be lived together. The best conclusion is that humility is the foundation of the Sikh virtues, but not sufficient on its own.",
+   "evidence": [
+    "'Mithat neevee Nanaka' – Ang 470",
+    "'Sach aachaar' – Ang 62",
+    "Guru Amar Das's sewa",
+    "Khalsa and martyrdom of Gurus",
+    "Haumai"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "humility evaluation"
+  },
+  {
+   "question": "“Developing virtues is more important than worship for Sikhs.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nGuru Nanak repeatedly criticised empty ritual. He taught that 'Truth is higher than everything, but higher still is truthful living' (Ang 62). On this view, a Sikh who attends the gurdwara but cheats in business has missed the point; virtues such as honesty, justice and compassion are what God values.\n\nThe aim of human life is to unite with God, and the barrier is haumai and the five thieves (lust, anger, greed, attachment and pride). These are overcome by developing their opposite virtues – self-control, patience, contentment and humility. So virtue is the actual path to mukti.\n\nVirtues also benefit others: the Sikh emphasis on equality and sewa means a virtuous life helps society, while worship might seem more private. A humanist would agree that good character matters more than religious ritual.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nFor Sikhs virtues are not developed by willpower alone. They grow through nam japna – meditation on God's Name – and the Guru's grace (Gurprasad). Guru Ram Das describes the true Sikh as one who rises early and meditates on the Name (Ang 305). Without this worship, virtues may themselves become a source of pride.\n\nWorship in the sangat, listening to kirtan and reading the Guru Granth Sahib give Sikhs the teaching and inspiration they need to be virtuous. The Guru Granth Sahib says the Name is found in the satsangat (Ang 72). So worship and virtue cannot be separated: worship is the root and virtue the fruit.\n\nAlso, many Sikhs see worship as the expression of love for God, which is the deepest purpose of human life. Doing good deeds while forgetting God would leave a person manmukh rather than gurmukh.\n\nCONCLUSION\n\nSikhism rejects worship that is only ritual, so virtue is clearly essential. But it equally rejects the idea that a person can become good without remembering God. The three pillars – nam japna, kirat karna and vand chhakna – show that worship and virtuous living are equally necessary, so the statement is too one-sided: for Sikhs virtues are developed through worship, not instead of it.",
+   "evidence": [
+    "'Sach aachaar' – Ang 62",
+    "Ang 305 – the Gursikh's daily routine",
+    "Ang 72 – satsangat",
+    "Five thieves",
+    "Three pillars"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "virtues vs worship"
+  }
+ ]
+}

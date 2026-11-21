@@ -1,0 +1,38 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_sikhism",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Sikhism",
+  "brandIcon": "🪯",
+  "brandTitle": "Sikhism (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062)",
+  "pageTitle": "AQA GCSE Religious Studies A: Sikhism Revision",
+  "breadcrumb": "Religious Studies / AQA A / Sikhism",
+  "heroEyebrow": "Component 1 · Sikhism · Beliefs & teachings · Practices",
+  "papers": [
+   {"id": "Beliefs", "label": "Beliefs & teachings", "title": "Sikhism: Beliefs and teachings", "subtitle": "Key beliefs · the nature of human life (spec 3.1.7.1)"},
+   {"id": "Practices", "label": "Practices", "title": "Sikhism: Practices", "subtitle": "Worship and service · festivals and lifestyle (spec 3.1.7.2)"}
+  ],
+  "footerNote": "Original practice questions written to the AQA GCSE Religious Studies A (8062) specification, using the five-part question pattern (1, 1, 4, 6 and 12 marks) that applies from summer 2026. Not past-paper material. Model answers are indicative exemplars, not official AQA mark schemes; other valid answers are credited."
+ },
+ "rubrics": {
+  "Beliefs": {
+   "1": "1 mark. Either a multiple-choice question (choose the one correct option from A–D) or a short-response 'Give one…' question. One accurate, relevant answer earns the mark; no explanation is needed. AO1:1 knowledge.",
+   "4": "4 marks (AO1:2 influence). Typically 'Explain two ways in which belief in … influences Sikhs today.' For each way: simple explanation of a relevant and accurate influence = 1 mark; detailed (developed) explanation = 2 marks. Two ways × 2 marks.",
+   "6": "6 marks (AO1:1). 'Explain two Sikh teachings about … Refer to sacred writings or another source of Sikh belief and teaching in your answer.' Each teaching: simple explanation 1 mark, detailed explanation 2 marks (max 4). Source of authority: 2 marks for naming a relevant source AND applying it to the question; 1 mark for naming it only, or for applying it without naming it.",
+   "12": "12 marks (AO2) plus up to 3 SPaG marks. 'Evaluate this statement' – refer to Sikh teaching, give reasoned arguments for the statement and for a different view, reach a justified conclusion. Levels: L4 (10–12) well-argued, reasoned consideration of different views, logical chains of reasoning leading to judgements supported by relevant knowledge, religion applied to the issue; L3 (7–9) reasoned consideration of different views, logical chains of reasoning, clear reference to religion; L2 (4–6) reasoned consideration of one view, or recognition of different views each with reasons (max L2 with no reference to religion); L1 (1–3) a point of view with reason(s) stated."
+  },
+  "Practices": {
+   "1": "1 mark. Either a multiple-choice question (choose the one correct option from A–D) or a short-response 'Give one…' question. One accurate, relevant answer earns the mark; no explanation is needed. AO1:1 knowledge.",
+   "4": "4 marks (AO1:2/AO1:3). Typically 'Explain two different ways in which Sikhs …' or 'Explain two ways in which … influences Sikhs today.' For each way: simple explanation 1 mark; detailed explanation 2 marks. Where 'different' is asked, the two ways must genuinely differ.",
+   "6": "6 marks (AO1:1). 'Explain two … Refer to sacred writings or another source of Sikh belief and teaching in your answer.' Each point: simple explanation 1 mark, detailed explanation 2 marks (max 4). Source of authority: 2 marks for naming a relevant source AND applying it to the question; 1 mark for naming only, or applying without naming.",
+   "12": "12 marks (AO2) plus up to 3 SPaG marks. 'Evaluate this statement' – refer to Sikh teaching, give reasoned arguments for the statement and for a different view, reach a justified conclusion. Levels: L4 (10–12) well-argued, reasoned consideration of different views, logical chains of reasoning leading to judgements supported by relevant knowledge, religion applied to the issue; L3 (7–9) reasoned consideration of different views, logical chains, clear reference to religion; L2 (4–6) reasoned consideration of one view, or different views each with reasons (max L2 with no reference to religion); L1 (1–3) a point of view with reason(s) stated."
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A: Sikhism",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 1: The study of religions – Sikhism (3.1.7)",
+  "provenance": "Original practice questions, revision notes and indicative model answers written to the published AQA GCSE Religious Studies A (8062) specification (subject content 3.1.7 Sikhism; scheme of assessment v1.3, five-part questions of 1, 1, 4, 6 and 12 marks from summer 2026). Not past-paper material and not copied from AQA mark schemes, textbooks or revision guides. Model answers are indicative exemplars, not official mark schemes. Short quotations from the Guru Granth Sahib (cited by Ang/page) and other Sikh sources are used for study purposes; English renderings are paraphrased translations."
+ }
+}

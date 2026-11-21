@@ -1,0 +1,137 @@
+{
+ "paper": "Beliefs",
+ "module": "1.6",
+ "moduleTitle": "Akhirah (life after death), human responsibility and accountability, resurrection, heaven and hell",
+ "note": {
+  "specFocus": "Know Muslim beliefs about Akhirah (life after death): human responsibility and accountability, resurrection, the Day of Judgement, heaven (Jannah) and hell (Jahannam), and their influence on Muslims.",
+  "summary": "AKHIRAH - LIFE AFTER DEATH\nAkhirah is one of the six Sunni articles of faith; for Shi'as the resurrection and judgement are the root Mi'ad. Muslims believe this life is a test (67:2) and a preparation for eternal life.\n\nDEATH AND BARZAKH\nAt death the Angel of Death takes the soul (32:11). Many Muslims believe two angels, Munkar and Nakir, question the person in the grave about their Lord, religion and prophet. The soul then waits in barzakh ('barrier', 23:100) until the Day of Judgement, experiencing a foretaste of reward or punishment. Muslims bury the dead quickly, facing Makkah, after washing (ghusl) and the janazah prayer. Mourners say 'Inna lillahi wa inna ilayhi raji'un' - 'To Allah we belong and to Him we return' (2:156).\n\nRESURRECTION AND THE DAY OF JUDGEMENT (YAWM AD-DIN / YAWM AL-QIYAMAH)\n- Only God knows when; signs include the return of 'Isa and (in many traditions) the appearance of the Mahdi.\n- Israfil blows the trumpet; all people are raised bodily: 'He will give life to them who produced them the first time' (36:79). This is one reason most Muslims oppose cremation.\n- Each person receives the book of deeds: in the right hand for the saved, in the left for the condemned (69:19-25).\n- Deeds are weighed on the scales (mizan, 101:6-9). Even an atom's weight counts (99:7-8).\n- People cross the bridge as-Sirat over hell (hadith); the righteous cross safely.\n- The Prophet's intercession (shafa'ah) - Shi'as also believe the Imams and Fatimah will intercede.\n\nHEAVEN - JANNAH\nA garden of eternal peace with 'rivers of water... milk... honey' (47:15), shade, family reunion, no pain or hatred (15:47-48). There are levels; the highest is al-Firdaws. The greatest reward is God's pleasure and seeing Him (75:22-23). Some Muslims take the descriptions literally, others as symbols of joys beyond imagination.\n\nHELL - JAHANNAM\nFire 'whose fuel is people and stones' (66:6), with scorching water and pain (4:56). It is punishment for rejecting God and unrepented evil. Many scholars teach that believers with sins may be purified there temporarily, but those who rejected God remain forever.\n\nHUMAN RESPONSIBILITY AND ACCOUNTABILITY\n- Humans are khalifah (stewards, 2:30), given free will and reason.\n- Everyone answers for themselves: 'No bearer of burdens will bear the burden of another' (35:18).\n- Judgement considers intentions (niyyah): 'Actions are judged by intentions' (Bukhari, first hadith).\n- Mercy: sincere tawbah wipes out sins; God's mercy is vast (39:53).\n\nINFLUENCE TODAY\nMotivates honesty, worship and charity; brings comfort in bereavement; encourages justice since wrongs will be put right; shapes funeral and burial practice (e.g. Muslim sections in UK cemeteries).\n\nDEBATES\nIs fear of hell a good motive? (Rabi'a al-Adawiyya: worship from love.) Can a loving God allow hell? Muslims answer that justice and mercy together require accountability.\n\nKEY TERMS: Akhirah, barzakh, Yawm ad-Din, mizan, as-Sirat, shafa'ah, Jannah, al-Firdaws, Jahannam, Mi'ad."
+ },
+ "questions": [
+  {
+   "question": "What is barzakh?\nA The bridge over hell\nB The state or place between death and the Day of Judgement\nC The highest level of paradise\nD The book of a person's deeds",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Barzakh ('barrier') is the waiting state between death and resurrection (Qur'an 23:100). The bridge is as-Sirat; the highest level of paradise is often called al-Firdaws.",
+   "evidence": [
+    "Qur'an 23:100"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "barzakh"
+  },
+  {
+   "question": "Which Arabic term refers to hell in Islam?\nA Jannah\nB Jahannam\nC Jihad\nD Jummah",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Jahannam is hell; Jannah is paradise, jihad means striving and Jummah is Friday prayer.",
+   "evidence": [
+    "Qur'an 4:56"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "hell"
+  },
+  {
+   "question": "Give two Muslim beliefs about Jannah (paradise).",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: it is a garden of peace and beauty (Qur'an 47:15 describes rivers of water, milk, honey and pure drink); it is the reward for those who believed and did good; there are levels, the highest being al-Firdaws; people will be with their families and loved ones; there is no pain, sadness or tiredness; the greatest reward is being close to God / seeing God.",
+   "evidence": [
+    "Qur'an 47:15",
+    "Qur'an 15:47-48"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Jannah"
+  },
+  {
+   "question": "Give two things Muslims believe will happen on the Day of Judgement.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: Israfil will blow the trumpet; all people will be resurrected bodily; everyone's deeds will be weighed in the balance (mizan); each person will receive the book of their deeds in their right or left hand; people will cross the bridge as-Sirat; people will be sent to Jannah or Jahannam; the Prophet will intercede (shafa'ah) for believers.",
+   "evidence": [
+    "Qur'an 69:19-25",
+    "Qur'an 101:6-9"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Day of Judgement"
+  },
+  {
+   "question": "Explain two ways belief in Akhirah influences Muslims today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It motivates good behaviour. Knowing they will be held accountable for every deed, Muslims try to be honest, keep promises and help others - for example giving zakah and sadaqah, or volunteering - because these good deeds will weigh in their favour.\n\n2. It affects how they face death and grief. Muslims see death as a passage to the next life rather than the end, so they bury the dead quickly, facing Makkah, and pray the janazah prayer for the person's forgiveness. Mourners are comforted by the hope of meeting again in Jannah, and they say 'To Allah we belong and to Him we return' (2:156).",
+   "evidence": [
+    "Qur'an 2:156",
+    "Janazah prayer"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two Muslim beliefs about human responsibility and accountability.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Humans are God's khalifah (stewards) on earth (2:30) and are responsible for how they treat the world and other people. They have been given intelligence and free will, so they cannot blame others or fate for their wrong choices.\n\n2. Every person is individually accountable. 'No bearer of burdens will bear the burden of another' (35:18), so nobody can be punished or saved because of someone else. On the Day of Judgement every deed, even 'an atom's weight', will be shown (99:7-8), so Muslims believe they must answer personally for their actions and intentions.",
+   "evidence": [
+    "Qur'an 2:30",
+    "Qur'an 35:18",
+    "Qur'an 99:7-8"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "accountability"
+  },
+  {
+   "question": "Explain two Muslim beliefs about the resurrection and the Day of Judgement.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. All people will be physically resurrected. The Qur'an answers those who doubt by saying the One who created them the first time can bring them back: 'He will give life to them who produced them the first time' (Qur'an 36:79). Muslims therefore usually bury bodies rather than cremating them, out of respect for the body that will be raised.\n\n2. Each person will be judged and given their record of deeds. 'As for he who is given his record in his right hand, he will say, \"Here, read my record!\"' while the one given it in his left hand will wish he had never received it (Qur'an 69:19-25). Deeds will be weighed on the scales (mizan) and people sent to Jannah or Jahannam, though God's mercy and the Prophet's intercession can help believers.",
+   "evidence": [
+    "Qur'an 36:79",
+    "Qur'an 69:19-25",
+    "Qur'an 101:6-9"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "resurrection and judgement"
+  },
+  {
+   "question": "Explain two Muslim beliefs about heaven and hell.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Jannah (paradise) is a garden of eternal peace for those who believed and did good. The Qur'an describes 'rivers of water unaltered, rivers of milk... rivers of wine delicious to drinkers, and rivers of purified honey' (Qur'an 47:15). Many Muslims understand these descriptions as real, while others see them as symbols of joy beyond human imagination; the greatest reward is closeness to God.\n\n2. Jahannam (hell) is a place of punishment for those who rejected God and did evil without repenting. It is described as fire whose 'fuel is people and stones' (Qur'an 66:6). Some scholars believe that sinful Muslims may be purified there for a time before entering paradise, while it is eternal for those who rejected God entirely; this shows both God's justice and His mercy.",
+   "evidence": [
+    "Qur'an 47:15",
+    "Qur'an 66:6",
+    "Qur'an 9:72"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "heaven and hell"
+  },
+  {
+   "question": "‘Belief in life after death is the most important influence on how a Muslim lives.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nBelief in Akhirah gives every action eternal consequences. 'Whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it' (99:7-8). Because Muslims believe their deeds are being recorded by the Kiraman Katibin and will be weighed on the Day of Judgement, this belief can shape decisions about honesty, money, relationships and worship. The Qur'an describes this world as temporary and the next life as 'better and more lasting' (87:17). Belief in Akhirah also explains why Muslims fast in Ramadan, give zakah and avoid haram things: these choices are an investment in the hereafter. It shapes Muslim funerals, attitudes to grief and the hope that gives comfort in suffering.\n\nARGUMENTS AGAINST THE STATEMENT\nMany Muslims argue that Tawhid and love of God are more important influences than hope of reward or fear of punishment. The ideal is to worship God because He deserves it; the Sufi saint Rabi'a al-Adawiyya famously prayed that she would worship God out of love, not fear of hell or desire for paradise. Ihsan, described in the Hadith of Jibril as worshipping God 'as if you see Him', suggests the main motive should be awareness of God now, not the afterlife.\n\nOther influences are also powerful in daily life: the example (Sunnah) of the Prophet Muhammad, the Qur'an's direct commands, family and community (the ummah), and, for Shi'as, the guidance of the Imams and the marja'. A non-religious person would point out that people of all beliefs live morally because of empathy and conscience, not reward. Some Muslims might also say that living for this world properly - caring for others, acting as khalifah - is valuable in itself.\n\nCONCLUSION\nBelief in Akhirah is clearly a powerful motivator, giving Muslims a reason to act well even when no one is watching. However, Akhirah depends on Tawhid: it is God who judges, and the best reason to act well is love and obedience to God. I therefore think the statement goes too far - belief in life after death is one of the most important influences, but the deepest influence is belief in God Himself, with Akhirah as one consequence of that belief.",
+   "evidence": [
+    "Qur'an 99:7-8",
+    "Qur'an 87:17",
+    "Hadith of Jibril (ihsan)",
+    "Rabi'a al-Adawiyya"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Akhirah"
+  },
+  {
+   "question": "‘A loving God would not send anyone to hell.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nIslam teaches that God is ar-Rahman and ar-Rahim, and that 'My mercy encompasses all things' (7:156). Some people argue that a God of infinite mercy would forgive everyone eventually, and that eternal punishment for sins committed in a short human life seems out of proportion. Many people also make wrong choices because of their upbringing, ignorance or suffering. Non-religious people, and some religious believers, argue that the idea of hell is a way of controlling behaviour through fear and is incompatible with a loving God.\n\nThere is also diversity within Islam: some scholars, including the medieval thinker Ibn Qayyim al-Jawziyya, discussed whether hell's punishment might eventually end, and many Muslims believe sinful believers will only be in hell temporarily before being brought into paradise.\n\nARGUMENTS AGAINST THE STATEMENT\nMost Muslims believe hell is real because the Qur'an clearly describes it (e.g. 4:56, 66:6) and God is also al-Adl, the Just. A God who never held anyone to account for murder, cruelty or oppression would not be just to the victims. Justice and mercy go together: God offers mercy to anyone who sincerely repents (39:53), sends prophets and books so no one is punished without warning (17:15), and judges according to intentions and circumstances. Those who go to hell have, in a sense, chosen to reject God's repeated offers of mercy, using the free will He gave them.\n\nShi'a Muslims, stressing Adalat, argue that God's justice means no one is punished unfairly; hell is not a sign of a lack of love but of taking human choices seriously. Love that ignored evil would not be genuine love. Many hadiths emphasise that God's mercy is vast, that the Prophet will intercede for believers, and that anyone with 'an atom's weight of faith' will eventually leave the Fire (Bukhari), showing hell is not God's desire but a consequence of persistent wrongdoing.\n\nCONCLUSION\nThe statement raises a fair question about proportion and love. However, Islam presents God as both perfectly loving and perfectly just, and a just God must take evil seriously. Since everyone is offered mercy and guidance, and many believe hell is purifying for some, I conclude that a loving God could allow hell, so I disagree with the statement - although Muslims hope and pray that God's mercy will reach as many as possible.",
+   "evidence": [
+    "Qur'an 7:156",
+    "Qur'an 4:56",
+    "Qur'an 17:15",
+    "Qur'an 39:53",
+    "Hadith on intercession and leaving the Fire (Bukhari)"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "heaven and hell"
+  }
+ ]
+}

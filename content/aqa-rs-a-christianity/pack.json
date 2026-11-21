@@ -1,0 +1,48 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_christianity",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Christianity",
+  "brandIcon": "✝️",
+  "brandTitle": "Christianity (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062)",
+  "pageTitle": "AQA GCSE Religious Studies A — Christianity Revision",
+  "breadcrumb": "Religious Studies / AQA A / Christianity",
+  "heroEyebrow": "Component 1 · Christianity · Beliefs & teachings · Practices",
+  "papers": [
+   {
+    "id": "Beliefs",
+    "label": "Beliefs & teachings",
+    "title": "Beliefs and teachings",
+    "subtitle": "Key beliefs · Jesus Christ and salvation (1.1–1.9)"
+   },
+   {
+    "id": "Practices",
+    "label": "Practices",
+    "title": "Practices",
+    "subtitle": "Worship and festivals · The role of the church in the local and worldwide community (2.1–2.10)"
+   }
+  ],
+  "footerNote": "Original practice questions written to the AQA GCSE Religious Studies A (8062) specification, using the question structure for exams from June 2026 (1, 1, 4, 6, 12 marks). Not past-paper material. Model answers are indicative exemplars, not official AQA mark schemes; other valid answers are credited in the exam."
+ },
+ "rubrics": {
+  "Beliefs": {
+   "1": "1 mark (AO1). Two kinds of 1-mark item: (a) multiple choice — choose the one correct answer from A–D; (b) short response ('Give one…' / 'Name…') — one accurate, relevant point earns the mark; extra points are not needed and do not add marks.",
+   "4": "Explain two ways (4 marks, AO1). For each of two ways: a simple explanation of a relevant, accurate point = 1 mark; a detailed (developed) explanation = 2 marks. In the Beliefs section these items usually ask how a belief influences Christians today (AO1:2 influence on individuals, communities and societies).",
+   "6": "Explain two… and refer to sacred writings or another source of Christian belief and teaching (6 marks, AO1). First point: simple explanation 1 mark, detailed explanation 2 marks. Second point: simple 1, detailed 2. Source of authority: 2 marks for naming AND applying a relevant source (e.g. a Bible passage, creed, catechism or church teaching) to the question; 1 mark for only naming it or only applying it. Up to 6 marks in total. (From June 2026 this replaced the former 5-mark item; the question stem is unchanged.)",
+   "12": "Evaluate (12 marks, AO2: analyse and evaluate aspects of religion and belief, including significance and influence). Levels of response, best fit. Level 4 (10–12): a well-argued response with reasoned consideration of different points of view; logical chains of reasoning leading to judgement(s) supported by accurate knowledge; religious teaching applied to the issue. Level 3 (7–9): reasoned consideration of different points of view; logical chains of reasoning drawing on relevant knowledge; clear reference to religion. Level 2 (4–6): reasoned consideration of one point of view, OR recognition of different points of view each supported by relevant reasons; maximum Level 2 if there is no reference to religion. Level 1 (1–3): a point of view with reason(s) stated in support. 0: nothing worthy of credit. Answers must follow the four bullets: refer to Christian teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Up to 3 extra marks for spelling, punctuation and grammar (SPaG) are awarded on the 12-mark question in the Beliefs section: High 3 (consistent accuracy, wide range of specialist terms), Intermediate 2, Threshold 1."
+  },
+  "Practices": {
+   "1": "1 mark (AO1). Two kinds of 1-mark item: (a) multiple choice — choose the one correct answer from A–D; (b) short response ('Give one…' / 'Name…') — one accurate, relevant point earns the mark; extra points are not needed and do not add marks.",
+   "4": "Explain two ways (4 marks, AO1). For each of two ways: a simple explanation of a relevant, accurate point = 1 mark; a detailed (developed) explanation = 2 marks. In the Practices section these items often ask for two different ways a practice is carried out or understood within Christianity (AO1:3 similarities and differences), or for two ways a practice influences Christians.",
+   "6": "Explain two… and refer to sacred writings or another source of Christian belief and teaching (6 marks, AO1). First point: simple explanation 1 mark, detailed explanation 2 marks. Second point: simple 1, detailed 2. Source of authority: 2 marks for naming AND applying a relevant source (e.g. a Bible passage, creed, catechism or church teaching) to the question; 1 mark for only naming it or only applying it. Up to 6 marks in total. (From June 2026 this replaced the former 5-mark item; the question stem is unchanged.)",
+   "12": "Evaluate (12 marks, AO2: analyse and evaluate aspects of religion and belief, including significance and influence). Levels of response, best fit. Level 4 (10–12): a well-argued response with reasoned consideration of different points of view; logical chains of reasoning leading to judgement(s) supported by accurate knowledge; religious teaching applied to the issue. Level 3 (7–9): reasoned consideration of different points of view; logical chains of reasoning drawing on relevant knowledge; clear reference to religion. Level 2 (4–6): reasoned consideration of one point of view, OR recognition of different points of view each supported by relevant reasons; maximum Level 2 if there is no reference to religion. Level 1 (1–3): a point of view with reason(s) stated in support. 0: nothing worthy of credit. Answers must follow the four bullets: refer to Christian teaching, argue for the statement, argue for a different view, and reach a justified conclusion. SPaG is not assessed on the Practices 12-mark question (it is assessed on the Beliefs 12-mark question)."
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A — Christianity",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 1: The study of religions — Christianity (paper 8062/11)",
+  "provenance": "Original practice questions written to the AQA GCSE Religious Studies A (8062) specification (section 3.1.2 Christianity: beliefs and teachings; practices) and its published question structure for exams from June 2026. Not past-paper material: no questions are copied from AQA past papers, sample papers, mark schemes, textbooks or revision guides. Model answers and notes are indicative exemplars written for this app, not official AQA mark schemes. Short Bible quotations are cited in each question's evidence list."
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "paper": "Beliefs",
+ "module": "1.9",
+ "moduleTitle": "The relationship between free will and the 613 mitzvot",
+ "note": {
+  "specFocus": "The Covenant and the mitzvot: the relationship between free will and the 613 mitzvot – how humans choose whether to obey God's commandments, and Orthodox and Reform views on how binding the mitzvot are.",
+  "summary": "The 613 mitzvot\n• A mitzvah (plural mitzvot) is a commandment. The Talmud (Makkot 23b) teaches that the Torah contains 613 mitzvot: 248 positive commands (\"you shall…\"), linked to the number of parts of the body, and 365 negative commands (\"you shall not…\"), linked to the days of the year. So the mitzvot are meant to involve the whole person all year round.\n• Maimonides listed them in his Sefer ha-Mitzvot. Many cannot be kept today, for example the Temple sacrifices, and some apply only to priests, to men or women, or to the land of Israel.\n• The mitzvot cover worship (Shabbat, prayer, festivals), food (kashrut), family life and ethics (charity, honesty, justice).\n• \"Mitzvah\" is also used loosely to mean a good deed.\n\nFree will (bechirah)\n• Jews believe God created humans with the freedom to choose between good and evil: \"I have set before you life and death, blessing and curse; therefore choose life\" (Deuteronomy 30:19).\n• To Cain God said, \"Sin crouches at the door… but you can master it\" (Genesis 4:7), so humans are responsible for their choices.\n• Rabbi Akiva: \"Everything is foreseen, yet freedom of choice is given\" (Pirkei Avot 3:15). God knows everything, but humans still choose.\n• Maimonides wrote that every person can become as righteous as Moses or as wicked as Jeroboam; no one is forced (Laws of Repentance 5:2).\n• The rabbis taught that humans have two inclinations: the yetzer ha-tov (good inclination) and the yetzer ha-ra (evil or selfish inclination). The yetzer ha-ra is not wholly bad: without it, said the Midrash, no one would build a house, marry or have children (Genesis Rabbah 9:7). The Torah and mitzvot help people direct it well.\n• \"Everything is in the hands of heaven except the fear of heaven\" (Talmud Berakhot 33b): God controls much of life, but whether we obey God is our own choice.\n\nHow free will relates to the mitzvot\n• Commandments only make sense if people are free to obey or disobey. Without free will, reward, punishment and repentance would be meaningless.\n• Keeping the mitzvot is the way to use free will well: it trains the yetzer ha-tov and gives life holiness.\n• God judges people on their choices (Rosh Hashanah, Yom Kippur), and teshuvah (repentance) is always possible.\n• At Sinai the people freely accepted the covenant: \"we will do and we will understand\" (Exodus 24:7).\n\nDiversity\n• Orthodox: all 613 mitzvot (as many as can be kept today) are commanded by God and binding. Humans are free to choose whether to obey, but they are not free to decide which commands are valid. Halakhah (Jewish law), developed by the rabbis, guides how to keep them.\n• Reform: the mitzvot are a divinely inspired guide. Individuals use their free will and conscience to make \"informed choices\" about which ritual mitzvot to keep, while the ethical mitzvot remain binding. Reform Judaism has dropped some laws, for example on the separation of men and women in worship.\n• Some Jews keep mitzvot for cultural or family reasons rather than as commandments.\n\nKey terms: mitzvah; 613 mitzvot; halakhah; bechirah (free will); yetzer ha-tov; yetzer ha-ra; teshuvah."
+ },
+ "questions": [
+  {
+   "question": "How many mitzvot are there in the Torah according to Jewish tradition?\nA 10\nB 248\nC 365\nD 613",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "D – 613. The Talmud (Makkot 23b) counts 613 mitzvot: 248 positive commands and 365 negative commands.",
+   "evidence": [
+    "Talmud Makkot 23b"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "613 mitzvot"
+  },
+  {
+   "question": "What is the yetzer ha-ra?\nA The good inclination\nB The evil or selfish inclination\nC The written law\nD The day of judgement",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – the evil or selfish inclination. Jews believe every person has a yetzer ha-tov (good inclination) and a yetzer ha-ra, and must use free will to master the yetzer ha-ra.",
+   "evidence": [
+    "Genesis 4:7",
+    "Genesis Rabbah 9:7"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "free will"
+  },
+  {
+   "question": "Give two Jewish teachings about free will.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• God gives humans the choice to do good or evil (Deuteronomy 30:19).\n• Humans can master sin (Genesis 4:7).\n• \"Everything is foreseen, yet freedom of choice is given\" (Pirkei Avot 3:15).\n• People have a yetzer ha-tov and a yetzer ha-ra.\n• God judges people on their choices.\n• Anyone can repent (teshuvah).",
+   "evidence": [
+    "Deuteronomy 30:19",
+    "Genesis 4:7",
+    "Pirkei Avot 3:15"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "free will"
+  },
+  {
+   "question": "Give two areas of life covered by the 613 mitzvot.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Worship and prayer.\n• Shabbat and festivals.\n• Food (kashrut).\n• Family life and marriage.\n• Charity and treatment of the poor.\n• Business and honesty.\n• Agriculture.\n• The Temple and sacrifices.",
+   "evidence": [
+    "Leviticus 11",
+    "Leviticus 19",
+    "Exodus 20"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "613 mitzvot"
+  },
+  {
+   "question": "Explain two contrasting Jewish beliefs about the 613 mitzvot.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Orthodox Jews believe that all the mitzvot were given by God at Sinai and are binding for ever. Although humans have free will to obey or disobey, they cannot choose which commands to accept. So Orthodox Jews try to keep every mitzvah that can be kept today, such as all the laws of Shabbat and kashrut, as interpreted by halakhah.\n\n2. Reform Jews believe the mitzvot were inspired by God but recorded by humans in a particular time. They use their free will and conscience to make informed choices about ritual mitzvot. For example, a Reform Jew might light Shabbat candles but drive to synagogue, or not keep a fully kosher kitchen, while treating ethical mitzvot such as justice and charity as essential.",
+   "evidence": [
+    "Exodus 24:7",
+    "Talmud Makkot 23b"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "613 mitzvot: diversity"
+  },
+  {
+   "question": "Explain two ways in which belief in free will influences Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Jews take responsibility for their actions. Because God gives people the choice between good and evil (\"choose life\", Deuteronomy 30:19), Jews cannot blame God or fate for their wrong actions. This encourages them to think carefully about their choices, such as being honest in business or kind to others.\n\n2. It encourages repentance and self-improvement. Since people are free, they can change. At Rosh Hashanah and Yom Kippur Jews examine their behaviour, apologise to people they have wronged, and resolve to do better (teshuvah). Many also try to strengthen their yetzer ha-tov by taking on extra mitzvot, such as daily study or prayer.",
+   "evidence": [
+    "Deuteronomy 30:19",
+    "Maimonides, Laws of Repentance 5"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "free will"
+  },
+  {
+   "question": "Explain two Jewish teachings about free will. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. God gives every person the choice between good and evil. In Deuteronomy 30:19 God says, \"I have set before you life and death, blessing and curse; therefore choose life.\" Even Cain was told that sin \"crouches at the door… but you can master it\" (Genesis 4:7). Humans are therefore morally responsible for what they choose, and God judges them on those choices.\n\n2. Free will exists alongside God's knowledge. Rabbi Akiva taught that \"everything is foreseen, yet freedom of choice is given\" (Pirkei Avot 3:15). God knows what will happen, but this does not force anyone's choices. The rabbis add that each person has a yetzer ha-tov and a yetzer ha-ra, and that keeping the mitzvot helps them follow the good inclination. As the Talmud says, \"everything is in the hands of heaven except the fear of heaven\" (Berakhot 33b).",
+   "evidence": [
+    "Deuteronomy 30:19",
+    "Genesis 4:7",
+    "Pirkei Avot 3:15",
+    "Talmud Berakhot 33b"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "free will"
+  },
+  {
+   "question": "Explain two reasons why the 613 mitzvot are important to Jews. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. They are the terms of the covenant with God. At Sinai the people promised, \"All that the Lord has spoken we will do, and we will understand\" (Exodus 24:7). Keeping the mitzvot is how Jews fulfil their side of the covenant and show love for God; \"you shall love the Lord your God… and these words which I command you shall be upon your heart\" (Deuteronomy 6:5–6).\n\n2. They make the whole of life holy. The Talmud (Makkot 23b) links the 248 positive commands to the parts of the body and the 365 negative commands to the days of the year, teaching that every part of a person and every day can serve God. Through blessings over food, kashrut, Shabbat and ethical laws, ordinary activities become acts of worship. The mitzvot also help people use their free will well, strengthening the good inclination.",
+   "evidence": [
+    "Exodus 24:7",
+    "Deuteronomy 6:5–6",
+    "Talmud Makkot 23b"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "613 mitzvot"
+  },
+  {
+   "question": "\"If God has given humans free will, Jews should be free to choose which mitzvot to keep.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nReform Judaism argues that free will and conscience are gifts from God that should be used, not ignored. Reform Jews believe the Torah was inspired by God but written by humans, and that revelation continues. Each Jew should therefore study the tradition and make an \"informed choice\" about which ritual mitzvot are meaningful today. This allows Judaism to adapt, for example by giving women equal roles in worship.\n\nSome mitzvot cannot be kept today anyway, such as the Temple sacrifices, and the rabbis themselves adapted the law over time. Jewish life in Britain is diverse, and many Jews keep some mitzvot, such as Pesach and Yom Kippur, for family and cultural reasons. Forcing people to keep everything might push them away entirely, whereas choice can lead to more sincere observance.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nOrthodox Jews argue that the statement misunderstands free will. Free will means we are able to obey or disobey God (Deuteronomy 30:19, \"choose life\"), not that we have the right to decide which commands are valid. A commandment that you can opt out of is no longer a commandment. At Sinai the people accepted the whole Torah, saying \"we will do and we will understand\" (Exodus 24:7), and Jews believe that this covenant binds every generation.\n\nPirkei Avot 2:1 teaches that one should be as careful with a minor mitzvah as with a major one, because no one knows their true reward. Even mitzvot that seem to have no clear reason (chukim), such as the food laws, are kept as acts of obedience and love. If each person chooses, Orthodox Jews argue, Judaism risks becoming a matter of personal taste and could lose its distinct identity.\n\nA middle view, held by many Masorti and traditional Jews, is that the mitzvot are binding but halakhah can develop through rabbinic interpretation rather than individual choice.\n\nJUSTIFIED CONCLUSION\n\nThe statement reflects the Reform view and recognises that Jews in practice do make choices. However, it is weaker as an argument, because having free will does not logically mean that every choice is right; Judaism teaches that free will exists precisely so that people can choose to obey God. Orthodox Judaism's position is more consistent with the idea of a commandment, while Reform Judaism makes a strong case for conscience in interpreting ritual law. Overall the statement is not convincing for the ethical mitzvot, which all Jews regard as binding, but remains a real debate for ritual ones.",
+   "evidence": [
+    "Deuteronomy 30:19",
+    "Exodus 24:7",
+    "Pirkei Avot 2:1",
+    "Reform principle of informed choice"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "free will and the mitzvot"
+  },
+  {
+   "question": "\"Humans cannot really have free will if God knows everything.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nIf God is all-knowing, as Jews believe, then God already knows every decision a person will make. Some argue that if God knows I will do something, I cannot do otherwise, so my choice is not really free. The Torah also contains examples where God seems to control people's choices, for example God \"hardening Pharaoh's heart\" (Exodus 9:12), which suggests that people are not always free.\n\nSome people also argue from science or psychology that our choices are shaped by genes, upbringing and environment, so even without God free will may be an illusion. If that is true, Jewish teachings about reward, punishment and repentance would be hard to justify.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nJudaism firmly teaches that humans do have free will. Rabbi Akiva said, \"Everything is foreseen, yet freedom of choice is given\" (Pirkei Avot 3:15). Both are true, even if humans cannot fully understand how. Maimonides argued that God's knowledge is not like human knowledge: it is part of God's own nature, so it does not cause our actions. Knowing that something will happen is not the same as making it happen.\n\nThe whole Torah assumes free will. God says, \"I have set before you life and death… choose life\" (Deuteronomy 30:19), and tells Cain that he can master sin (Genesis 4:7). Commandments, judgement and teshuvah would make no sense if humans could not choose. Maimonides wrote that free will is \"a great principle and a pillar of the Torah\". Many commentators explain Pharaoh's hardened heart as the result of his own repeated choices; for the first plagues the text says Pharaoh hardened his own heart.\n\nThe Talmud teaches that \"everything is in the hands of heaven except the fear of heaven\" (Berakhot 33b): God may decide many things about a person's life, but whether they obey God remains their choice.\n\nJUSTIFIED CONCLUSION\n\nThe argument that God's knowledge removes free will is a serious philosophical puzzle, but it is not convincing from a Jewish point of view. Judaism holds that foreknowledge does not mean control, and the whole system of mitzvot, judgement and repentance depends on real choice. Even if the puzzle cannot be fully solved, Rabbi Akiva's teaching shows that Jews have long accepted both truths together. So the statement should be rejected.",
+   "evidence": [
+    "Pirkei Avot 3:15",
+    "Deuteronomy 30:19",
+    "Genesis 4:7",
+    "Exodus 8:15, 9:12",
+    "Maimonides, Laws of Repentance 5:3–5",
+    "Talmud Berakhot 33b"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "free will"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "paper": "Beliefs",
+ "module": "1.7",
+ "moduleTitle": "Jesus Christ and salvation: sin, including original sin",
+ "note": {
+  "specFocus": "Spec: Jesus Christ and salvation — beliefs and teachings about sin, including original sin.",
+  "summary": "What is sin?\n• Sin is any thought, word or action that goes against God's will and damages a person's relationship with God and others. The Greek word in the New Testament (hamartia) means 'missing the mark'.\n• Christians believe 'all have sinned and fall short of the glory of God' (Romans 3:23).\n• Jesus taught that sin begins in the heart: anger is like murder and lust like adultery (Matthew 5:21–28).\n• Examples of guidance: the Ten Commandments (Exodus 20), the Sermon on the Mount (Matthew 5–7).\n\nThe Fall (Genesis 3)\n• Adam and Eve lived in harmony with God in the Garden of Eden. God forbade them to eat from the tree of the knowledge of good and evil (Genesis 2:17).\n• The serpent tempted Eve; she and Adam ate the fruit. They felt shame, hid from God, and were expelled from Eden. Consequences: pain, toil, and death ('to dust you will return', Genesis 3:19).\n• The Fall shows humans misusing God's gift of free will.\n\nOriginal sin\n• The belief that the sin of Adam and Eve affected all humanity, so everyone is born with a tendency to sin and in a state of separation from God.\n• 'Sin entered the world through one man, and death through sin' (Romans 5:12); 'Surely I was sinful at birth' (Psalm 51:5).\n• Developed especially by St Augustine (4th–5th century).\n• Catholic teaching: original sin is 'contracted' not 'committed' — a state, not a personal act; it is removed in baptism, though its effects (concupiscence — the inclination to sin) remain (Catechism 405).\n• Orthodox Christians speak of 'ancestral sin': humans inherit mortality and a tendency to sin, but not Adam's guilt.\n• Some Protestant traditions (e.g. Calvinism) stress 'total depravity' — sin affects every part of human nature.\n• Some liberal Christians read Genesis 3 symbolically, as describing every human's experience rather than an event in history.\n\nThe remedy\n• Jesus is the 'new Adam': 'For as in Adam all die, so in Christ all will be made alive' (1 Corinthians 15:22).\n• God forgives those who repent: 'If we confess our sins, he is faithful and just and will forgive us' (1 John 1:9); the Parable of the Lost Son (Luke 15:11–32).\n\nInfluence today\n• Baptism: many churches baptise infants to cleanse original sin.\n• Confession: prayers of confession in services; the Catholic sacrament of Reconciliation.\n• Lord's Prayer: 'forgive us our trespasses… lead us not into temptation'.\n• Moral seriousness and humility; dependence on God's grace; forgiving others.\n• Lent is a season of repentance.\n\nChallenges\n• Fairness: why should people inherit the effects of someone else's sin? (Ezekiel 18:20.)\n• Humanists and some others argue humans are born neither good nor evil but shaped by environment.\n• Christians balance sin with the teaching that humans are made in God's image (Genesis 1:27) and that creation is 'very good'.\n\nKey terms: sin, the Fall, original sin, free will, concupiscence, repentance, confession, absolution, grace."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the belief that all humans are born with a tendency to sin inherited from Adam and Eve?\nA  Free will\nB  Original sin\nC  Atonement\nD  Grace",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Original sin\n\nOriginal sin is the belief that the first sin of Adam and Eve (the Fall, Genesis 3) affected all humanity, so every person is born with a tendency to do wrong and is separated from God. Free will is the ability to choose; atonement is reconciliation with God; grace is God's free, undeserved love.",
+   "evidence": [
+    "Genesis 3",
+    "Romans 5:12"
+   ],
+   "examTip": "Original sin is about a tendency/state humans are born with, not a sin a baby commits.",
+   "answerTopic": "original sin"
+  },
+  {
+   "question": "In Genesis 3, what did God tell Adam and Eve not to eat?\nA  Fruit from the tree of life\nB  Fruit from the tree of the knowledge of good and evil\nC  Any fruit in the garden\nD  Bread made from wheat",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Fruit from the tree of the knowledge of good and evil\n\nGod commanded Adam not to eat 'from the tree of the knowledge of good and evil' (Genesis 2:17). Tempted by the serpent, Eve ate and gave fruit to Adam (Genesis 3:6). They were then expelled from Eden.",
+   "evidence": [
+    "Genesis 2:16–17",
+    "Genesis 3:1–24"
+   ],
+   "examTip": "Know the details of the Fall story — it is the basis of the original sin teaching.",
+   "answerTopic": "the Fall"
+  },
+  {
+   "question": "Give one meaning of 'sin' in Christianity.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: any thought or action that separates a person from God; disobeying God's will or law; 'missing the mark' of what God intends; a wrong action against God or other people.",
+   "evidence": [
+    "1 John 3:4",
+    "Romans 3:23"
+   ],
+   "examTip": "A short definition is enough.",
+   "answerTopic": "sin definition"
+  },
+  {
+   "question": "Give one consequence of the Fall according to Genesis 3.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: Adam and Eve were expelled from the Garden of Eden; their relationship with God was broken; they felt shame/hid from God; pain in childbirth; hard work to grow food; death entered the world ('to dust you will return', Genesis 3:19); sin passed to all humanity (original sin).",
+   "evidence": [
+    "Genesis 3:16–24"
+   ],
+   "examTip": "Any one consequence mentioned in Genesis 3 is credited.",
+   "answerTopic": "consequences of the Fall"
+  },
+  {
+   "question": "Explain two ways in which belief in sin influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because Christians believe 'all have sinned and fall short of the glory of God' (Romans 3:23), they regularly seek forgiveness. Many churches include a prayer of confession in every service; Catholics may receive the sacrament of Reconciliation and be given absolution by a priest.\n\nSecond way: Belief in sin encourages Christians to examine their behaviour and try to resist temptation, following moral teachings such as the Ten Commandments and Jesus' Sermon on the Mount. They pray 'lead us not into temptation' in the Lord's Prayer and may avoid situations that could lead them to do wrong.",
+   "evidence": [
+    "Romans 3:23",
+    "1 John 1:9",
+    "Matthew 6:13",
+    "Exodus 20"
+   ],
+   "examTip": "Show practical effects — confession, prayer, moral choices.",
+   "answerTopic": "sin influence"
+  },
+  {
+   "question": "Explain two ways in which belief in original sin influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Many Christians, especially Catholics, Orthodox and Anglicans, believe baptism washes away original sin, so they have their children baptised as babies. Infant baptism welcomes the child into the Church and God's grace from the start of life.\n\nSecond way: Belief in original sin reminds Christians that they cannot become good entirely through their own effort; they depend on God's grace and Jesus' saving death. This influences them to be humble, to pray for God's help and to be forgiving towards others, recognising that everyone has the same human weakness.",
+   "evidence": [
+    "Romans 5:12",
+    "Psalm 51:5",
+    "Catechism 1250 (infant baptism)"
+   ],
+   "examTip": "Baptism is the clearest practical link to original sin.",
+   "answerTopic": "original sin influence"
+  },
+  {
+   "question": "Explain two Christian teachings about original sin.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Original sin began with the Fall in Genesis 3, when Adam and Eve disobeyed God by eating the forbidden fruit. Christians believe this broke the relationship between humanity and God and brought death and suffering into the world. Paul writes, 'sin entered the world through one man, and death through sin, and in this way death came to all people' (Romans 5:12).\n\nSecond teaching: Every human is born with original sin — an inherited tendency to do wrong and a condition of separation from God that they cannot overcome by themselves. Psalm 51:5 says 'Surely I was sinful at birth'. St Augustine developed this teaching. Catholic teaching says it is a 'state' rather than a personal act, and is washed away in baptism (Catechism 405).\n\nApplication: Christians believe the remedy is Jesus, the 'new Adam': 'For as in Adam all die, so in Christ all will be made alive' (1 Corinthians 15:22). Some Christians interpret Genesis 3 symbolically, as a story about the human condition rather than about two historical individuals.",
+   "evidence": [
+    "Genesis 3",
+    "Romans 5:12",
+    "Psalm 51:5",
+    "1 Corinthians 15:22",
+    "Augustine",
+    "Catechism 405"
+   ],
+   "examTip": "Show you understand original sin as a condition inherited, not a personal crime.",
+   "answerTopic": "original sin teachings"
+  },
+  {
+   "question": "Explain two Christian teachings about sin and forgiveness.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: All people sin and fall short of God's standards. 'For all have sinned and fall short of the glory of God' (Romans 3:23). Sin can be thoughts, words or actions — Jesus taught that even anger and lust in the heart are sinful (Matthew 5:21–28). Sin damages a person's relationship with God and others.\n\nSecond teaching: God forgives those who truly repent. 'If we confess our sins, he is faithful and just and will forgive us our sins' (1 John 1:9). Jesus showed this in the Parable of the Lost Son (Luke 15:11–32), where the father runs to welcome back his son. Forgiveness is possible because of Jesus' death.\n\nApplication: Christians must forgive others as they are forgiven — 'forgive us our sins, as we forgive those who sin against us' (Lord's Prayer). Catholics receive forgiveness through the sacrament of Reconciliation; Protestants typically confess directly to God in private or corporate prayer.",
+   "evidence": [
+    "Romans 3:23",
+    "Matthew 5:21–28",
+    "1 John 1:9",
+    "Luke 15:11–32",
+    "Matthew 6:12"
+   ],
+   "examTip": "Include a parable — it gives your teaching a clear, developed example.",
+   "answerTopic": "sin and forgiveness"
+  },
+  {
+   "question": "‘It is unfair that people are born with original sin.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nIt seems unjust that people should inherit guilt for something they did not do. A newborn baby has made no choices, so it seems wrong to say it is 'sinful'. Ezekiel 18:20 teaches that 'the child will not share the guilt of the parent', which appears to contradict the idea of inherited sin.\n\nMany people, including humanists, reject original sin as damaging, because it can make people feel guilty and worthless rather than encouraging them. Some Christians, too, interpret Genesis 3 symbolically, seeing Adam and Eve as representing every human rather than as ancestors who passed on sin. Pelagius, in the early Church, argued that humans are born innocent and can choose good; he was condemned, but his concern about fairness is still shared by some.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nChristian teaching does not usually say that babies are personally guilty. The Catholic Catechism explains original sin as a 'state' — a wounded human nature inclined to sin — rather than a personal act (Catechism 404–405). It is more like inheriting a condition than being punished for a crime.\n\nOriginal sin seems to fit human experience: every person, without exception, does wrong. Paul writes 'all have sinned' (Romans 3:23). The doctrine is a realistic explanation of why humans struggle to do good even when they want to ('I do not do the good I want to do', Romans 7:19).\n\nMost importantly, Christians believe God has not left humanity in this state. 'For as in Adam all die, so in Christ all will be made alive' (1 Corinthians 15:22). God's grace, offered freely to all through Jesus and through baptism, means no one is condemned simply because of original sin. Since the remedy is offered to everyone, the situation is not ultimately unfair.\n\nJUSTIFIED CONCLUSION\n\nIf original sin meant that God holds babies personally guilty and punishes them, it would indeed be unfair. But mainstream Christian teaching presents it as a description of the human condition — our tendency to sin — paired with God's free offer of grace to everyone. Understood this way, it is less a punishment than a diagnosis with a cure. I therefore disagree with the statement, while accepting that the traditional language of inherited 'guilt' can give a misleading impression.",
+   "evidence": [
+    "Genesis 3",
+    "Ezekiel 18:20",
+    "Romans 3:23",
+    "Romans 7:19",
+    "1 Corinthians 15:22",
+    "Catechism 404–405",
+    "Pelagius / Augustine"
+   ],
+   "examTip": "Using a historical debate (Augustine v Pelagius) shows depth.",
+   "answerTopic": "fairness of original sin"
+  },
+  {
+   "question": "‘Humans are naturally good, not naturally sinful.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nGenesis teaches that humans were made 'in the image of God' (Genesis 1:27) and that God saw everything he made as 'very good' (Genesis 1:31). Christians who stress this believe human nature is fundamentally good, even if damaged. Every person can show love, creativity and conscience, reflecting God.\n\nMany people perform extraordinary acts of kindness and self-sacrifice — rescuers in disasters, carers, organ donors — including people with no religious faith. Humanists argue that humans are naturally social and compassionate, and that wrongdoing comes mainly from poor upbringing, poverty or circumstances, not from an inherited sinful nature.\n\nSome Christians also reject the traditional doctrine of original sin, preferring to see Genesis 3 as a symbolic story of human choice, and believing people are born innocent.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nTraditional Christian teaching, developed by Augustine and held by Catholic, Orthodox and most Protestant churches, says that because of the Fall humans are born with original sin — a tendency to do wrong. 'Surely I was sinful at birth' (Psalm 51:5); 'all have sinned and fall short of the glory of God' (Romans 3:23).\n\nHuman history supports this: war, genocide and cruelty appear in every culture. Paul describes the inner struggle everyone recognises: 'I do not do the good I want to do, but the evil I do not want to do — this I keep on doing' (Romans 7:19). Even good people find it hard to be consistently selfless.\n\nThis is why Christians believe humans need God's grace and salvation through Jesus; if people were naturally good, the cross would be unnecessary.\n\nJUSTIFIED CONCLUSION\n\nThe statement presents a false choice. Christian teaching holds both truths together: humans are created good, in God's image, but that goodness has been wounded by sin. Humans are therefore capable of great good and great evil. I conclude that the statement is partly right — human beings are fundamentally good in their creation — but wrong to deny the reality of sin, which both scripture and experience show is natural to fallen human nature.",
+   "evidence": [
+    "Genesis 1:27, 31",
+    "Psalm 51:5",
+    "Romans 3:23",
+    "Romans 7:19",
+    "Augustine",
+    "Humanist views"
+   ],
+   "examTip": "A 'both/and' conclusion can be justified if you explain exactly how both are true.",
+   "answerTopic": "human nature"
+  }
+ ]
+}

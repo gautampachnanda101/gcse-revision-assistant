@@ -1,0 +1,133 @@
+{
+ "paper": "Beliefs",
+ "module": "1.4",
+ "moduleTitle": "The human personality in the Theravada and Mahayana traditions",
+ "note": {
+  "specFocus": "The human personality in the Theravada and Mahayana traditions. Theravada: the Five Aggregates (skandhas) of form, sensation, perception, mental formations, consciousness. Mahayana: sunyata, the possibility of attaining Buddhahood and Buddha-nature.",
+  "summary": "THE QUESTION\nWhat is a human being, if there is no permanent self (anatta)? The AQA specification asks you to know two traditions' answers: the Theravada teaching of the Five Aggregates, and the Mahayana teachings of sunyata, the possibility of attaining Buddhahood, and Buddha-nature.\n\nTHERAVADA: THE FIVE AGGREGATES (SKANDHAS / KHANDHAS)\nA person is made up of five constantly changing 'heaps' or groups:\n1. Form (rupa) – the physical body and the material world it senses.\n2. Sensation/feeling (vedana) – experiences felt as pleasant, unpleasant or neutral.\n3. Perception (sanna/samjna) – recognising and labelling what is experienced ('this is a dog').\n4. Mental formations (sankhara/samskara) – thoughts, intentions, habits, emotions and choices; this is where kamma is made.\n5. Consciousness (vinnana/vijnana) – awareness of experience through the six senses (including the mind).\nNone of these is a permanent self, and there is no self apart from them. In the Anattalakkhana Sutta (the Buddha's second sermon), the Buddha asks whether each aggregate is permanent or impermanent and whether what is impermanent can be called 'mine' or 'my self'; the monks agree it cannot. The Milindapanha's chariot analogy makes the same point. For Theravada Buddhists, seeing the aggregates clearly in vipassana meditation weakens attachment and leads towards becoming an arhat.\n\nMAHAYANA: SUNYATA (EMPTINESS)\nMahayana Buddhists extend anatta to everything: all phenomena are 'empty' (sunya) of independent, fixed existence because they arise through dependent arising. The Heart Sutra, chanted in many Mahayana temples, says: \"Form is emptiness, emptiness is form.\" The bodhisattva Avalokiteshvara sees that even the five aggregates are empty. Emptiness does not mean nothing exists; it means nothing exists by itself. The philosopher Nagarjuna (c. 2nd century CE) taught that emptiness is the 'middle way' between believing things exist permanently and believing they do not exist at all. Seeing emptiness removes the basis for clinging.\n\nMAHAYANA: BUDDHA-NATURE AND THE POSSIBILITY OF BUDDHAHOOD\nMany Mahayana traditions teach that all beings have Buddha-nature (tathagatagarbha): the seed or potential to become a Buddha. The Mahayana Mahaparinirvana Sutra teaches that all sentient beings have Buddha-nature, and the Lotus Sutra teaches that all can ultimately attain Buddhahood. Some compare Buddha-nature to gold covered in mud, or the sun hidden by clouds: it is already present but obscured by the Three Poisons. Zen teaches that Enlightenment means realising one's own true nature; Tibetan Buddhists describe the mind's natural clarity. Buddha-nature is generally understood as potential, not as an eternal soul.\n\nWHY THE DIFFERENCE MATTERS\nTheravada focuses on analysing the person to gain insight and achieve personal liberation (arhat). Mahayana's emphasis on emptiness and Buddha-nature supports the bodhisattva ideal: if all beings share Buddha-nature, all can and should be helped towards Enlightenment.\n\nCONTEMPORARY EXAMPLES\nBuddhists may use the five aggregates in meditation to notice that anger is just a passing formation, not 'who I am'. Belief in Buddha-nature encourages respect for everyone, including those in prison (e.g. Buddhist prison chaplaincy through Angulimala, the UK Buddhist prison chaplaincy organisation, named after a murderer who became an arhat).\n\nKEY TERMS\nSkandhas/khandhas – aggregates. Rupa, vedana, sanna, sankhara, vinnana – the five aggregates. Sunyata – emptiness. Tathagatagarbha – Buddha-nature, 'womb/embryo of the Buddha'. Arhat – perfected one."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is one of the Five Aggregates (skandhas)?\nA) Compassion\nB) Perception\nC) Generosity\nD) Patience",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Perception. The five aggregates are form, sensation, perception, mental formations and consciousness. Compassion is karuna, and generosity and patience are among the six perfections.",
+   "evidence": [
+    "Five aggregates"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "five aggregates"
+  },
+  {
+   "question": "Which one of the following best describes sunyata?\nA) Loving kindness\nB) Emptiness\nC) Rebirth\nD) Impermanence",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Emptiness. Sunyata is the Mahayana teaching that all things are empty of fixed, independent existence. Loving kindness is metta, rebirth is part of samsara and impermanence is anicca.",
+   "evidence": [
+    "Sunyata = emptiness"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "sunyata"
+  },
+  {
+   "question": "Name two of the Five Aggregates (skandhas).",
+   "marks": 2,
+   "command": "Name",
+   "modelAnswer": "Any two of: form (rupa); sensation/feeling (vedana); perception (sanna); mental formations (sankhara); consciousness (vinnana).",
+   "evidence": [
+    "Five aggregates"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "five aggregates"
+  },
+  {
+   "question": "Give two Mahayana teachings about the human personality.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of:\n- All things, including the aggregates, are empty (sunyata).\n- All beings have Buddha-nature.\n- All beings have the possibility of attaining Buddhahood.\n- There is no fixed self; a person exists dependently.",
+   "evidence": [
+    "Sunyata",
+    "Buddha-nature"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "mahayana"
+  },
+  {
+   "question": "Explain two contrasting beliefs about the human personality in Theravada and Mahayana Buddhism.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Theravada Buddhists explain the human personality by analysing it into the five aggregates: form, sensation, perception, mental formations and consciousness. A person is simply these changing parts working together, and by seeing this clearly in vipassana meditation one can let go of the idea of a self and become an arhat.\n\n2. Many Mahayana Buddhists emphasise that every person has Buddha-nature, an inner potential to become a fully enlightened Buddha which is already present though hidden by greed, hatred and ignorance. This gives a more positive picture of human nature and supports the goal of becoming a Buddha, not just an arhat.",
+   "evidence": [
+    "Five aggregates",
+    "Buddha-nature"
+   ],
+   "examTip": "In a 'contrasting' question, make sure your two points genuinely differ, for example one Theravada and one Mahayana belief. Two Theravada points would score less.",
+   "answerTopic": "theravada vs mahayana"
+  },
+  {
+   "question": "Explain two ways in which belief in Buddha-nature influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Buddhists who believe in Buddha-nature treat every person with respect, because everyone has the potential to become a Buddha. This might lead them to help people others reject, for example through Buddhist prison chaplaincy, believing even criminals can transform.\n\n2. Belief in Buddha-nature gives Buddhists confidence in their own practice. In Zen, for instance, practitioners sit in zazen to realise their own true nature rather than to gain something from outside. Believing Enlightenment is already within them encourages them to persevere in meditation even when it is difficult.",
+   "evidence": [
+    "Buddha-nature",
+    "Zazen",
+    "Angulimala"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "buddha-nature"
+  },
+  {
+   "question": "Explain two Buddhist teachings about the Five Aggregates (skandhas).\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. None of the aggregates is a permanent self. In the Anattalakkhana Sutta, the Buddha asks the monks whether form, feeling, perception, formations and consciousness are permanent or impermanent. They answer 'impermanent', and he explains that what is impermanent cannot be called 'this is mine, this is my self'. So a person has no fixed soul.\n\n2. The aggregates come together like the parts of a chariot. In the Milindapanha, Nagasena explains that a chariot is just the name for wheels, axle, frame and so on assembled together. In the same way, a 'person' is a name given to the five aggregates together; there is no extra self hiding behind them.",
+   "evidence": [
+    "Anattalakkhana Sutta",
+    "Milindapanha: the chariot"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "five aggregates"
+  },
+  {
+   "question": "Explain two Mahayana teachings about sunyata (emptiness).\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. All things are empty of independent existence. The Heart Sutra teaches, 'Form is emptiness, emptiness is form', meaning that even physical things (and the other aggregates) do not exist by themselves but arise through causes and conditions. Seeing this removes the basis for clinging and attachment.\n\n2. Emptiness is a middle way between extremes. The philosopher Nagarjuna taught that emptiness is the same as dependent arising: things are not permanently real, but they do not simply not exist either. This helps Mahayana Buddhists avoid both attachment to things and the despair of thinking nothing matters, and it supports the bodhisattva's wise compassion.",
+   "evidence": [
+    "Heart Sutra: \"Form is emptiness, emptiness is form\"",
+    "Nagarjuna"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "sunyata"
+  },
+  {
+   "question": "“The Theravada teaching about the human personality is more convincing than the Mahayana teaching.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThe Theravada teaching of the five aggregates is clear and can be tested. In vipassana meditation a person can observe for themselves bodily sensations, feelings, perceptions, thoughts and awareness arising and passing. This fits the Buddha's encouragement in the Kalama Sutta to know things for oneself.\n\nIt is based on what Theravada Buddhists see as the earliest record of the Buddha's teaching, the Pali Canon. In the Anattalakkhana Sutta, the Buddha's second sermon, he explains anatta by going through each aggregate. Theravada Buddhists may argue this has a stronger claim to be the Buddha's own words than later Mahayana sutras.\n\nThe five aggregates also fit well with modern psychology, which describes the mind as a set of changing processes rather than a single fixed soul. Someone might find this more convincing than talk of a hidden Buddha-nature, which might sound like a soul by another name.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMahayana Buddhists would argue that their teaching builds on and completes the Theravada view rather than contradicting it. The Heart Sutra itself begins with the five aggregates, but says they are empty. Sunyata extends anatta to all things, which follows logically from dependent arising, so it could be seen as more thorough.\n\nBuddha-nature gives a more hopeful and motivating picture of humanity. If all beings have the potential to become Buddhas, then everyone deserves respect, and no one is beyond change. This supports the bodhisattva ideal of compassion for all beings and may be more inspiring than analysis of the aggregates.\n\nConvincing is also partly a matter of experience. Zen practitioners report that in zazen they glimpse their true nature, and Tibetan teachers speak of the natural clarity of mind. For them the Mahayana teaching describes their experience better.\n\nCONCLUSION\nI think neither teaching is simply more convincing, because they answer slightly different questions. The Theravada five aggregates are a careful analysis of what a person is made of, and are easier to test. The Mahayana teachings explain what a person can become and how all beings are connected. Since many Mahayana Buddhists accept the five aggregates too, the strongest view is that the Mahayana teaching adds to the Theravada one, and a person might find the combination most convincing overall.",
+   "evidence": [
+    "Anattalakkhana Sutta",
+    "Heart Sutra",
+    "Kalama Sutta",
+    "Buddha-nature"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "theravada vs mahayana"
+  },
+  {
+   "question": "“Everyone has the potential to become a Buddha.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany Mahayana Buddhists believe that all sentient beings have Buddha-nature. The Mahayana Mahaparinirvana Sutra teaches that all beings possess Buddha-nature, and the Lotus Sutra teaches that the Buddha's different teachings are skilful means leading everyone eventually to Buddhahood. On this view, the potential is universal.\n\nThe life of the Buddha supports this. Siddhartha was a human being, not a god, and he achieved Enlightenment through his own effort. If he could do it, others can follow the same path. The Buddha taught that even the most wicked can change: Angulimala, a murderer, became an arhat.\n\nAnatta also suggests everyone can change. If there is no fixed self, no one is permanently stuck with greed, hatred or ignorance. With practice of the Eightfold Path, these can be removed.\n\nARGUMENTS FOR A DIFFERENT VIEW\nTheravada Buddhists generally teach that the goal for most people is to become an arhat, not a Buddha. A fully enlightened Buddha (samma-sambuddha) is someone who rediscovers the Dhamma when it has been forgotten, and such Buddhas are extremely rare. So, though all may eventually reach nibbana, it is not usual to speak of everyone becoming a Buddha.\n\nIn practice, it may take countless lifetimes. Bodhisattvas are described as working for aeons before becoming Buddhas. For most people this potential is so distant that it hardly seems meaningful in this life.\n\nSome Pure Land Buddhists believe that in this 'degenerate age' (mappo) people cannot reach Enlightenment by their own power and must rely on Amitabha Buddha to be reborn in the Pure Land, where Enlightenment is easier. This suggests the potential exists but cannot be realised by ordinary effort alone.\n\nA non-religious person might reject the idea entirely, arguing that there is no evidence of rebirth or of Enlightenment as a real state.\n\nCONCLUSION\nI think the statement is true for most Mahayana Buddhists, who believe Buddha-nature is present in all beings, and it is consistent with the Buddha's own example and with anatta. However, Theravada Buddhists would usually say the realistic goal is to become an arhat, and many traditions stress how long and difficult the path is. So the statement is best described as true in principle in Mahayana thought, but not a belief all Buddhists share in the same way.",
+   "evidence": [
+    "Lotus Sutra",
+    "Mahayana Mahaparinirvana Sutra: Buddha-nature",
+    "Angulimala",
+    "Mappo (Pure Land)"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "buddhahood"
+  }
+ ]
+}

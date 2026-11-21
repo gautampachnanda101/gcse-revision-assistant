@@ -1,0 +1,149 @@
+{
+ "paper": "Practices",
+ "module": "2.3",
+ "moduleTitle": "The role and meaning of the sacraments: the meaning of sacrament; the sacrament of baptism — infant and believers' baptism",
+ "note": {
+  "specFocus": "Spec: Worship and festivals — the role and meaning of the sacraments: the meaning of sacrament; the sacrament of baptism and its significance for Christians; infant and believers' baptism; different beliefs about infant baptism.",
+  "summary": "The meaning of sacrament\n• A sacrament is 'an outward and visible sign of an inward and spiritual grace' (Book of Common Prayer catechism, following St Augustine). Through physical things — water, bread, wine, oil — Christians believe they receive God's grace.\n• Catholic and Orthodox Churches: seven sacraments — baptism, confirmation (Orthodox: chrismation), Eucharist, reconciliation, anointing of the sick, marriage, holy orders. They are 'necessary for salvation' for believers (Catechism 1129).\n• Most Protestants (e.g. Anglicans, Methodists, Baptists): two sacraments commanded by Jesus — baptism (Matthew 28:19) and Holy Communion (Luke 22:19). Anglicans regard the other five as sacramental rites.\n• Quakers and the Salvation Army celebrate no outward sacraments; they believe grace is received inwardly and all of life is sacramental.\n\nBaptism — significance\n• Commanded by Jesus: 'go and make disciples of all nations, baptising them in the name of the Father and of the Son and of the Holy Spirit' (Matthew 28:19).\n• Jesus' own baptism by John in the River Jordan (Mark 1:9–11).\n• Meaning: cleansing from sin (including original sin); dying and rising with Christ — 'buried with him through baptism… we too may live a new life' (Romans 6:4); receiving the Holy Spirit; becoming a member of the Church, God's family.\n• Rite of initiation; for most churches it happens only once.\n\nInfant baptism (Catholic, Orthodox, Anglican, Methodist, URC…)\n• Usually at a font; water poured on the baby's head three times with the Trinitarian formula; sign of the cross; anointing with chrism oil (Catholic/Orthodox); white garment; lighted candle (Christ the light of the world).\n• Parents and godparents promise to bring the child up in the faith and reject evil; the congregation promises support.\n• Orthodox babies are fully immersed three times and receive chrismation and communion straight away.\n• Reasons: removes original sin; grace is God's gift, not dependent on understanding; household baptisms (Acts 16:33); 'the promise is for you and your children' (Acts 2:39); welcomes the child into the Church; later confirmed by the person at confirmation.\n\nBelievers' baptism (Baptist, many Pentecostal and evangelical churches)\n• Only for those old enough to choose — teenagers or adults who have repented and believe.\n• Usually by full immersion in a baptistery pool, river or sea; the candidate gives a testimony of faith and is asked if they will follow Jesus.\n• Reasons: New Testament pattern of faith then baptism — 'Repent and be baptised' (Acts 2:38); the Ethiopian official (Acts 8:36–38); Jesus was baptised as an adult; immersion best shows burial and resurrection (Romans 6:4); baptism should be a free personal commitment.\n• Babies may instead have a dedication or thanksgiving service.\n\nDifferent beliefs about infant baptism\n• For: grace, original sin, family faith, Church tradition since early centuries.\n• Against: babies cannot have faith; risk of nominal Christianity; no explicit New Testament example of baby baptism.\n\nContemporary context: numbers of infant baptisms in the Church of England have fallen significantly in recent decades, while believers' baptisms are prominent in growing evangelical and Pentecostal churches, sometimes held outdoors at beaches or rivers.\n\nKey terms: sacrament, grace, baptism, font, baptistery, immersion, godparents, infant baptism, believers' baptism, confirmation, dedication."
+ },
+ "questions": [
+  {
+   "question": "How many sacraments are recognised by the Catholic and Orthodox Churches?\nA  Two\nB  Five\nC  Seven\nD  Twelve",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C — Seven\n\nCatholic and Orthodox Churches recognise seven sacraments: baptism, confirmation (chrismation in the Orthodox Church), Eucharist, reconciliation (confession), anointing of the sick, marriage (matrimony) and holy orders (ordination). Most Protestant Churches recognise two — baptism and Holy Communion — because these were directly commanded by Jesus.",
+   "evidence": [
+    "Catechism 1113",
+    "Matthew 28:19",
+    "Luke 22:19"
+   ],
+   "examTip": "Learn the number and names of the sacraments for both Catholic and Protestant traditions.",
+   "answerTopic": "number of sacraments"
+  },
+  {
+   "question": "Which one of the following Christian groups practises believers' baptism rather than infant baptism?\nA  Roman Catholics\nB  Baptists\nC  Orthodox Christians\nD  Anglicans",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Baptists\n\nBaptists (and many Pentecostal and evangelical churches) practise believers' baptism — baptising only those old enough to make a personal declaration of faith, usually by full immersion. Catholics, Orthodox and Anglicans baptise infants.",
+   "evidence": [
+    "Acts 2:38",
+    "Romans 6:3–4"
+   ],
+   "examTip": "The name 'Baptist' comes from their distinctive view of baptism.",
+   "answerTopic": "believers' baptism"
+  },
+  {
+   "question": "Give one meaning of the word 'sacrament'.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: an outward, visible sign of an inward, invisible grace (Augustine / Book of Common Prayer); a religious ceremony through which Christians believe they receive God's grace; a sacred rite instituted by Christ.",
+   "evidence": [
+    "Augustine",
+    "Book of Common Prayer Catechism",
+    "Catechism of the Catholic Church 1131"
+   ],
+   "examTip": "The classic definition — 'an outward sign of inward grace' — is worth memorising.",
+   "answerTopic": "meaning of sacrament"
+  },
+  {
+   "question": "Give one symbol used in baptism.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: water (cleansing from sin / new life); the sign of the cross; oil (chrism — strength, anointing by the Spirit); a lighted candle (Christ the light of the world); a white garment (purity, new life); immersion (dying and rising with Christ).",
+   "evidence": [
+    "Romans 6:4",
+    "John 8:12"
+   ],
+   "examTip": "Name the symbol; a brief meaning is a bonus.",
+   "answerTopic": "baptism symbols"
+  },
+  {
+   "question": "Explain two different Christian beliefs about infant baptism.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First belief: Catholic, Orthodox, Anglican and Methodist Christians baptise babies. They believe baptism removes original sin and welcomes the child into God's family, so it should not be delayed. Parents and godparents make promises on the child's behalf, and the child later confirms their faith (e.g. at confirmation).\n\nSecond belief: Baptists, many Pentecostals and other evangelical Christians reject infant baptism. They argue that baptism should follow personal repentance and faith, as in Acts 2:38 ('Repent and be baptised'), which a baby cannot make. Instead, they may hold a service of dedication or thanksgiving for a baby, and baptise people as believers, usually by full immersion.",
+   "evidence": [
+    "Acts 2:38",
+    "Acts 16:33 (household baptism)",
+    "Catechism 1250"
+   ],
+   "examTip": "'Different beliefs' questions need two genuinely contrasting views — name the denominations.",
+   "answerTopic": "infant baptism beliefs"
+  },
+  {
+   "question": "Explain two ways in which the sacrament of baptism is important for Christians.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Baptism is the way a person becomes a member of the Church. It is a rite of initiation into the Christian community, followed in obedience to Jesus' command to 'make disciples… baptising them in the name of the Father and of the Son and of the Holy Spirit' (Matthew 28:19). The community promises to support the newly baptised.\n\nSecond way: Baptism symbolises cleansing from sin and new life in Christ. Going under the water represents dying to an old life and rising with Christ (Romans 6:4). For many Christians it is a public declaration of faith that marks a turning point in their lives.",
+   "evidence": [
+    "Matthew 28:19",
+    "Romans 6:3–4",
+    "Mark 1:9–11"
+   ],
+   "examTip": "Develop each point with what it means or what happens.",
+   "answerTopic": "importance of baptism"
+  },
+  {
+   "question": "Explain two Christian teachings about the sacrament of baptism.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Baptism was commanded by Jesus and follows his own example. Jesus was baptised by John in the River Jordan, when the Spirit descended and the Father's voice was heard (Mark 1:9–11). Before ascending, he instructed the disciples to baptise 'in the name of the Father and of the Son and of the Holy Spirit' (Matthew 28:19), which is why all Christian baptisms use this Trinitarian formula.\n\nSecond teaching: Baptism unites a person with Christ's death and resurrection and gives new life. Paul writes 'We were therefore buried with him through baptism into death in order that, just as Christ was raised from the dead… we too may live a new life' (Romans 6:4). Catholic teaching states baptism removes original sin and makes the person a child of God and member of the Church (Catechism 1213).\n\nApplication: These teachings explain why water and immersion are used, and why Christians see baptism as the beginning of the Christian life.",
+   "evidence": [
+    "Mark 1:9–11",
+    "Matthew 28:19",
+    "Romans 6:3–4",
+    "Catechism 1213"
+   ],
+   "examTip": "Combine a Gospel source with Paul's explanation in Romans 6.",
+   "answerTopic": "baptism teachings"
+  },
+  {
+   "question": "Explain two differences between infant baptism and believers' baptism.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First difference — who is baptised and why: In infant baptism (Catholic, Orthodox, Anglican), babies are baptised because the Church teaches baptism cleanses original sin and brings God's grace as a gift that does not depend on the child's understanding. Supporters point to households being baptised in Acts (Acts 16:33). In believers' baptism (Baptist, many Pentecostal churches), only those old enough to repent and believe are baptised, following Peter's words 'Repent and be baptised' (Acts 2:38).\n\nSecond difference — how it is done: Infant baptism usually takes place at a font. The priest pours water three times over the baby's head, makes the sign of the cross, and may anoint with oil; parents and godparents make promises and a candle is lit. Believers' baptism is usually by full immersion in a baptistery pool or river; the person gives a personal testimony and goes fully under the water, symbolising being 'buried with him' and rising to new life (Romans 6:4).\n\nApplication: Both use water and the Trinitarian formula of Matthew 28:19.",
+   "evidence": [
+    "Acts 16:33",
+    "Acts 2:38",
+    "Romans 6:4",
+    "Matthew 28:19"
+   ],
+   "examTip": "A 'difference' answer should compare both sides in each point.",
+   "answerTopic": "infant vs believers' baptism"
+  },
+  {
+   "question": "‘Babies should not be baptised.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nBaptists and many Pentecostal and evangelical Christians argue that baptism should be a free personal choice to follow Jesus. In the New Testament, baptism follows repentance and faith: 'Repent and be baptised, every one of you' (Acts 2:38); the Ethiopian official was baptised after declaring his belief (Acts 8:36–38). A baby cannot repent or believe, so they argue infant baptism is not biblical.\n\nJesus himself was baptised as an adult (Mark 1:9), and believers' baptism by full immersion clearly shows dying and rising with Christ (Romans 6:4). Baptising babies may produce nominal Christians who were 'christened' but never come to personal faith. Many such churches instead hold a dedication service for babies, giving thanks and praying for them, while leaving baptism until they can decide.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nCatholic, Orthodox, Anglican, Methodist and other churches baptise infants. They teach that baptism is a sacrament of God's grace, a gift that does not depend on human understanding or effort. Since every person is born with original sin, baptism cleanses the child and welcomes them into God's family from the start of life (Catechism 1250).\n\nThere is biblical support: whole households were baptised (Acts 16:33), which probably included children; Peter said the promise 'is for you and your children' (Acts 2:39); and Jesus said 'Let the little children come to me… for the kingdom of God belongs to such as these' (Mark 10:14). Baptism in the New Testament also replaced circumcision, which was given to Jewish baby boys (Colossians 2:11–12).\n\nThe child is not left without choice: parents and godparents promise to bring them up in the faith, and later the child can confirm those promises for themselves at confirmation.\n\nJUSTIFIED CONCLUSION\n\nBoth sides take scripture seriously, and the disagreement depends on what baptism is understood to be. If it is mainly a personal declaration of faith, believers' baptism makes more sense. If it is mainly God's gift of grace, then infants need not wait. Because the New Testament describes household baptisms, and because most Christians understand baptism as God's action rather than ours, I disagree with the statement — though I accept that Baptist Christians have strong reasons for their view, and both traditions agree that personal commitment must follow.",
+   "evidence": [
+    "Acts 2:38–39",
+    "Acts 8:36–38",
+    "Acts 16:33",
+    "Mark 10:14",
+    "Romans 6:4",
+    "Colossians 2:11–12",
+    "Catechism 1250"
+   ],
+   "examTip": "Show you understand the theological reason behind each practice, not just the practice.",
+   "answerTopic": "infant baptism debate"
+  },
+  {
+   "question": "‘Sacraments are essential for Christians.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nJesus commanded the two main sacraments: baptism ('baptising them in the name of the Father and of the Son and of the Holy Spirit', Matthew 28:19) and Holy Communion ('do this in remembrance of me', Luke 22:19). Since they come from Jesus, Christians must practise them. Jesus also said 'no one can enter the kingdom of God unless they are born of water and the Spirit' (John 3:5), which many link to baptism.\n\nCatholic and Orthodox Christians believe the seven sacraments are channels of God's grace, given at key moments of life: baptism, confirmation, Eucharist, reconciliation, anointing of the sick, marriage and holy orders. The Catholic Church teaches that the sacraments are 'necessary for salvation' for believers (Catechism 1129) and that the Eucharist is 'the source and summit of the Christian life'. Sacraments make God's grace tangible through water, bread, wine and oil.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nQuakers and the Salvation Army do not celebrate outward sacraments at all. They believe the whole of life can be sacramental and that grace is received inwardly and directly from God; the Salvation Army also wanted to avoid alcohol and divisions over ritual. Their members clearly live committed Christian lives.\n\nMany Protestants believe salvation is by grace through faith (Ephesians 2:8–9), not through rituals. The criminal crucified beside Jesus was promised paradise without baptism or communion (Luke 23:43). For these Christians, sacraments are important signs and acts of obedience, but not essential for salvation.\n\nMost Protestants also recognise only two sacraments, so the claim that seven sacraments are essential is not shared by all.\n\nJUSTIFIED CONCLUSION\n\nFor Catholic and Orthodox Christians the statement is clearly true: sacraments are the ordinary means of grace given by Christ. For most Protestants they are important commands of Jesus but not essential to salvation, and for Quakers they are unnecessary in outward form. Given that Jesus commanded baptism and communion, I conclude that sacraments are essential to the life of the Church and should be practised by Christians, but the example of the thief on the cross shows they are not essential for salvation itself — God's grace is not limited to them.",
+   "evidence": [
+    "Matthew 28:19",
+    "Luke 22:19",
+    "John 3:5",
+    "Catechism 1129, 1324",
+    "Ephesians 2:8–9",
+    "Luke 23:43",
+    "Quakers / Salvation Army"
+   ],
+   "examTip": "Quakers and the Salvation Army are excellent examples for the opposing view.",
+   "answerTopic": "importance of sacraments"
+  }
+ ]
+}

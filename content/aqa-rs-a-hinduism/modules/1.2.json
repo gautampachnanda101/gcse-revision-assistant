@@ -1,0 +1,138 @@
+{
+ "paper": "Beliefs",
+ "module": "1.2",
+ "moduleTitle": "How the divine presents: the Tri-murti, male and female deities and avatara",
+ "note": {
+  "specFocus": "How the divine presents: the Tri-murti (Brahma, Vishnu and Shiva); male and female deities, including Ganesha, Lakshmi, Hanuman, Saraswati; the concept of avatara, including Krishna, Rama.",
+  "summary": "HOW THE DIVINE PRESENTS\nHindus believe the one divine reality shows itself in many forms so that people can know, worship and relate to it. The specification focuses on the Tri-murti, male and female deities, and avatara.\n\nTHE TRI-MURTI (\"three forms\")\n• Brahma – the creator, who brings the universe into being at the start of each cycle. Shown with four heads (often linked to the four Vedas) and sitting on a lotus. He is rarely worshipped as a main deity; one famous temple is at Pushkar in Rajasthan. His consort is Saraswati.\n• Vishnu – the preserver or sustainer, who maintains the universe and protects dharma. Shown blue-skinned, holding a conch, discus (chakra), mace and lotus. His consort is Lakshmi. He descends as avatars.\n• Shiva – the destroyer or transformer, who ends the universe so it can be renewed, and destroys ignorance and ego. Shown as Nataraja (Lord of the Dance) within a circle of fire, or as a meditating yogi with a trident, third eye and the River Ganga in his hair. Often worshipped as the lingam. His consort is Parvati.\nThe Tri-murti expresses the cycle of creation, preservation and destruction. However, traditions differ: for Vaishnavas, Vishnu is the Supreme God and Brahma and Shiva are subordinate; for Shaivas, Shiva is supreme and performs all three functions.\n\nMALE AND FEMALE DEITIES\n• Ganesha – elephant-headed son of Shiva and Parvati; remover of obstacles; worshipped first at the start of any new venture, wedding or puja. His vehicle is a mouse.\n• Lakshmi – goddess of wealth, good fortune and prosperity; consort of Vishnu; worshipped especially at Diwali, when lamps are lit to welcome her into homes and businesses.\n• Hanuman – the monkey devotee of Rama in the Ramayana; symbol of loyal devotion, courage and strength. Many Hindus recite the Hanuman Chalisa for protection.\n• Saraswati – goddess of knowledge, learning, music and the arts; shown in white with a veena and a swan; honoured by students, especially at Vasant Panchami.\nGoddess-worship (Shaktism) sees the divine feminine (Shakti, Devi, e.g. Durga, Kali) as supreme power. Male and female deities together show that the divine includes both.\n\nAVATARA (\"one who descends\")\nAn avatar is a descent of God (usually Vishnu) into the world in a form. Krishna explains the purpose: \"Whenever there is a decline of dharma and a rise of adharma, I manifest myself… to protect the good, to destroy the wicked and to re-establish dharma, I appear age after age\" (Bhagavad Gita 4.7–8). The ten main avatars (Dashavatara) include Matsya (fish), Varaha (boar), Narasimha (man-lion), Rama, Krishna and Kalki, who is still to come.\n• Rama – prince of Ayodhya, hero of the Ramayana; the ideal of dharma as a son, husband and king; defeats the demon king Ravana to rescue Sita. Celebrated at Diwali and Rama Navami.\n• Krishna – teacher of the Bhagavad Gita, playful cowherd of Vrindavan, and object of loving devotion. Many Gaudiya Vaishnavas (including ISKCON) see Krishna not as one avatar but as the original Supreme Person, the source of all avatars (Bhagavata Purana 1.3.28: \"Krishna is the Lord himself\").\n\nWHY IT MATTERS TODAY\nDeities give Hindus a personal focus for puja, prayer and festivals. A British Hindu family may have murtis of Ganesha, Lakshmi and Krishna on its home shrine. Stories of the avatars teach moral values and courage, and many people choose an ishta-devata – a chosen, personal deity."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following members of the Tri-murti is known as the preserver?\nA) Brahma\nB) Shiva\nC) Vishnu\nD) Ganesha",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) Vishnu.\nVishnu preserves and sustains the universe and protects dharma; Brahma creates, Shiva destroys/transforms, and Ganesha is not part of the Tri-murti.",
+   "evidence": [
+    "Tri-murti: Brahma, Vishnu, Shiva"
+   ],
+   "examTip": "Learn the three functions with their deities: create – Brahma, preserve – Vishnu, destroy – Shiva.",
+   "answerTopic": "Tri-murti"
+  },
+  {
+   "question": "Which one of the following deities is the goddess of knowledge and the arts?\nA) Lakshmi\nB) Saraswati\nC) Durga\nD) Parvati",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Saraswati.\nSaraswati is the goddess of learning, music and the arts, shown holding a veena; Lakshmi is goddess of wealth and fortune.",
+   "evidence": [
+    "Saraswati – knowledge, veena, swan"
+   ],
+   "examTip": "Know one key role of each of the four deities named in the specification.",
+   "answerTopic": "deities"
+  },
+  {
+   "question": "Give one avatar of Vishnu.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: Rama; Krishna; Narasimha; Matsya; Kurma; Varaha; Vamana; Parashurama; Balarama (or Buddha in some lists); Kalki.",
+   "evidence": [
+    "Dashavatara"
+   ],
+   "examTip": "Rama and Krishna are named in the specification – they are the safest answers.",
+   "answerTopic": "avatara"
+  },
+  {
+   "question": "Give one reason why Ganesha is worshipped.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: he is the remover of obstacles; he is worshipped at the start of new ventures, journeys or ceremonies; he is the god of wisdom and new beginnings; he is the son of Shiva and Parvati.",
+   "evidence": [
+    "Ganesha – Vighneshvara, remover of obstacles"
+   ],
+   "examTip": "One brief, accurate reason is enough.",
+   "answerTopic": "Ganesha"
+  },
+  {
+   "question": "Explain two ways in which belief in avatars influences Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Belief that God descends to the world gives Hindus hope and trust that God cares for them. Because Krishna promises in the Gita to appear 'whenever there is a decline of dharma', Hindus believe that good will triumph over evil, which encourages them to keep doing their duty even in difficult times.\n\nSecond way: Hindus try to follow the example of avatars in their own lives. Rama is seen as the ideal of dharma – a faithful son, loyal husband and just king – so many Hindus learn the Ramayana, celebrate his return at Diwali and try to show the same loyalty and righteousness in their families and work.",
+   "evidence": [
+    "Bhagavad Gita 4.7–8",
+    "Ramayana",
+    "Rama as maryada purushottama (ideal man)"
+   ],
+   "examTip": "Each 'way' should say what Hindus actually do or feel because of the belief, then develop it with an example.",
+   "answerTopic": "avatara influence"
+  },
+  {
+   "question": "Explain two contrasting Hindu beliefs about the Tri-murti.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First belief: Many Hindus see the Tri-murti as three equal forms or functions of one divine reality: Brahma creates, Vishnu preserves and Shiva destroys so the universe can be renewed. On this view the three are like three roles of one God, showing that creation, life and destruction are all part of one divine cycle.\n\nSecond belief: Other Hindus do not see the three as equal. Vaishnavas believe Vishnu (or Krishna) is the Supreme Lord and that Brahma and Shiva act under him, while Shaivas believe Shiva is supreme and himself performs creation, preservation and destruction. So for these Hindus the Tri-murti describes functions within the universe rather than three equal Gods.",
+   "evidence": [
+    "Tri-murti",
+    "Vaishnavism",
+    "Shaivism"
+   ],
+   "examTip": "Using Vaishnava and Shaiva views is a straightforward way to show contrast.",
+   "answerTopic": "Tri-murti views"
+  },
+  {
+   "question": "Explain two Hindu beliefs about avatara.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First belief: An avatar is a 'descent' of God into the world to restore goodness. In the Bhagavad Gita 4.7–8, Krishna teaches, 'Whenever there is a decline of dharma… I manifest myself… to protect the good, to destroy the wicked and to re-establish dharma, I appear age after age.' So avatars such as Narasimha and Rama appear at times of crisis to defeat evil, showing God's care for the world.\n\nSecond belief: Avatars also reveal God's character so that humans can love and follow him. Rama, in the Ramayana, shows perfect dharma as a son and king, keeping his father's promise by accepting exile. Krishna reveals God's love and playfulness; many Gaudiya Vaishnavas follow the Bhagavata Purana (1.3.28), which teaches 'Krishna is the Lord himself', the source of all the avatars rather than just one of them.",
+   "evidence": [
+    "Bhagavad Gita 4.7–8",
+    "Ramayana",
+    "Bhagavata Purana 1.3.28",
+    "Dashavatara"
+   ],
+   "examTip": "Bhagavad Gita 4.7–8 is the classic text for avatars – learn a short version of it.",
+   "answerTopic": "avatara"
+  },
+  {
+   "question": "Explain two ways in which Hindu deities show what the divine is like.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First way: The deities show that the divine has many qualities which people need in different areas of life. Lakshmi shows the divine as the giver of prosperity and good fortune; Saraswati as the source of knowledge and the arts; Ganesha as the one who removes obstacles. The Rig Veda (1.164.46) teaches 'Truth is one; the wise call it by many names', so each deity can be seen as revealing one aspect of the one reality.\n\nSecond way: Deities such as Hanuman show what a loving relationship with God is like. In the Ramayana, Hanuman serves Rama with total loyalty and courage, crossing the ocean to find Sita. This shows that the divine is approached through devotion (bhakti), and Hanuman is himself honoured as the perfect devotee – millions recite the Hanuman Chalisa by Tulsidas. Male and female deities together also show that the divine includes both masculine and feminine qualities, as in Shakti traditions.",
+   "evidence": [
+    "Rig Veda 1.164.46",
+    "Ramayana – Hanuman",
+    "Hanuman Chalisa (Tulsidas)",
+    "Shakti"
+   ],
+   "examTip": "A Hindu text such as the Ramayana counts as a source of authority – name it and say what it shows.",
+   "answerTopic": "deities"
+  },
+  {
+   "question": "'Avatars are the most important way in which the divine presents itself.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nAvatars could be seen as the most important way the divine presents itself because they involve God actually entering the world to help it. In the Bhagavad Gita 4.7–8, Krishna promises that whenever dharma declines, \"I manifest myself… to protect the good, to destroy the wicked and to re-establish dharma\". This shows a God who acts in history, not a distant power.\n\nTwo of the most loved figures in Hinduism, Rama and Krishna, are avatars. Their stories, in the Ramayana and the Mahabharata/Bhagavata Purana, are the basis of major festivals such as Diwali, Holi, Rama Navami and Janmashtami. The Bhagavad Gita, perhaps the most widely read Hindu scripture, is the teaching of an avatar. For Gaudiya Vaishnavas (including ISKCON), Krishna is \"the Lord himself\" (Bhagavata Purana 1.3.28), so the avatar is the fullest revelation of God.\n\nAvatars also give clear moral examples. Rama shows how to follow dharma faithfully; Krishna teaches selfless action. A God in a human-like form is easy to understand, love and imitate.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, many Hindus worship deities who are not avatars. Shaivas worship Shiva as the supreme God, and Shiva is not normally thought of as descending in avatars in the same way. Goddess-worshippers (Shaktas) see Durga or Kali as supreme. Ganesha, Lakshmi, Saraswati and Hanuman are hugely popular, and Ganesha is worshipped first at almost every puja. For these Hindus the deities, not the avatars, are the main way the divine presents itself.\n\nOthers would argue that the most important presentation of the divine is within the heart. The Gita says that the Lord \"dwells in the hearts of all beings\" (18.61), so God is always present, not only at special times in history. Advaita Hindus would go further and say that all forms, including avatars, are ultimately ways of pointing to nirguna Brahman, which is beyond any form.\n\nFinally, the murti in temple and home could be seen as the most important presentation in everyday life, since that is where most Hindus actually meet God through darshan and puja.\n\nCONCLUSION\n\nAvatars are clearly very important, especially for Vaishnavas, and they provide many of Hinduism's greatest stories and teachings. But Hinduism is diverse: Shaivas, Shaktas and Advaitins would all give a different answer. I therefore think the statement is too strong. It is more accurate to say that avatars are the most important way for Vaishnavas, while for Hinduism as a whole the divine is understood to present itself in many equally valid ways.",
+   "evidence": [
+    "Bhagavad Gita 4.7–8, 18.61",
+    "Bhagavata Purana 1.3.28",
+    "Ramayana",
+    "Shaivism / Shaktism / Advaita"
+   ],
+   "examTip": "Show awareness that the answer differs between Vaishnava, Shaiva, Shakta and Advaita Hindus.",
+   "answerTopic": "avatara importance"
+  },
+  {
+   "question": "'The Tri-murti is the best way for Hindus to understand God.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nThe Tri-murti – Brahma the creator, Vishnu the preserver and Shiva the destroyer – helps Hindus understand that God is involved in every part of existence. Everything in the universe comes into being, lasts for a time and then ends, and the Tri-murti shows that each of these stages is in God's hands. This gives a complete picture of God's relationship with the world.\n\nIt also fits the Hindu understanding of time as cyclical. The universe goes through endless cycles of creation and dissolution, with the four ages (yugas) repeating. The Tri-murti explains this cycle in a simple, visual way, and is easy for children and new learners to grasp. It also teaches that destruction is not simply evil: Shiva's destruction clears the way for renewal and destroys ignorance, which is a positive message for people facing change or loss.\n\nFinally, the Tri-murti shows the unity behind the many: three forms but one divine reality, which reflects the Rig Veda's teaching that \"Truth is one; the wise call it by many names\" (1.164.46).\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, very few Hindus actually worship the Tri-murti as a group. Brahma has very few temples (Pushkar is the famous exception), while Vishnu and Shiva are worshipped in their own separate traditions. Vaishnavas believe Vishnu/Krishna is the Supreme Lord, and that Brahma is a created being who serves him; Shaivas believe Shiva is the supreme God who performs all three functions. For both groups, the Tri-murti is not the \"best\" way to understand God, because it seems to make their supreme God one of three equals.\n\nOther Hindus would say God is best understood through the three features of the divine – Brahman everywhere, Paramatma in the heart and Bhagavan beyond (Bhagavata Purana 1.2.11) – because this describes how a person can actually experience God, not just what God does to the universe. Advaita Hindus believe that God is ultimately nirguna, beyond all forms and functions, so the Tri-murti is at best a helpful picture.\n\nMany Hindus relate most deeply to God through a personal chosen deity (ishta-devata) such as Krishna, Durga or Ganesha, so the Tri-murti may have little effect on their devotion.\n\nCONCLUSION\n\nThe Tri-murti is a helpful way to explain God's relationship with the cycle of the universe, especially to beginners. However, because it is rarely the focus of worship and because the main Hindu traditions each see one God as supreme, I do not think it is the best way for Hindus to understand God. For most Hindus, God is better understood through a personal relationship of devotion or through realising the divine within.",
+   "evidence": [
+    "Tri-murti",
+    "Rig Veda 1.164.46",
+    "Bhagavata Purana 1.2.11",
+    "Pushkar Brahma temple",
+    "Ishta-devata"
+   ],
+   "examTip": "Developing a 'different view' with Vaishnava and Shaiva beliefs shows knowledge of diversity, which examiners credit.",
+   "answerTopic": "Tri-murti evaluation"
+  }
+ ]
+}

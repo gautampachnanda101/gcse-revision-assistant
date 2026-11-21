@@ -1,0 +1,147 @@
+{
+ "paper": "Practices",
+ "module": "2.4",
+ "moduleTitle": "The sacrament of Holy Communion/Eucharist: its significance, different ways it is celebrated and different interpretations of its meaning",
+ "note": {
+  "specFocus": "Spec: Worship and festivals — the sacrament of Holy Communion/Eucharist and its significance for Christians, including different ways in which it is celebrated and different interpretations of its meaning.",
+  "summary": "Origin\n• Holy Communion remembers the Last Supper, Jesus' Passover meal with his disciples the night before he died. 'He took bread, gave thanks and broke it, and gave it to them, saying, \"This is my body given for you; do this in remembrance of me.\" In the same way… he took the cup, saying, \"This cup is the new covenant in my blood\"' (Luke 22:19–20; 1 Corinthians 11:23–26).\n• The early Church 'devoted themselves… to the breaking of bread' (Acts 2:42).\n\nNames\n• Eucharist ('thanksgiving'), Mass (Catholic), Divine Liturgy (Orthodox service), Lord's Supper, Breaking of Bread, Holy Communion.\n\nSignificance\n• Obeying Jesus' command; remembering his sacrifice and resurrection.\n• Receiving God's grace and spiritual nourishment — 'I am the bread of life' (John 6:35).\n• Unity: 'Because there is one loaf, we, who are many, are one body' (1 Corinthians 10:17).\n• Proclaiming 'the Lord's death until he comes' (1 Corinthians 11:26).\n• Catholic: 'the source and summit of the Christian life' (Catechism 1324).\n\nDifferent ways it is celebrated\n• Catholic Mass: daily and weekly (Sunday obligation); Liturgy of the Word then Liturgy of the Eucharist; priest consecrates unleavened hosts and wine at the altar; people receive the host (on the tongue or hand) and sometimes the cup; leftover hosts are reserved in the tabernacle.\n• Orthodox Divine Liturgy: much takes place behind the iconostasis; leavened bread mixed with wine is given on a spoon; infants receive Communion after baptism and chrismation.\n• Anglican (Church of England): usually weekly; Common Worship liturgy; bread/wafers and a shared chalice; kneeling at an altar rail is common.\n• Nonconformist (e.g. Baptist, Methodist, URC): often monthly or less; ordinary bread and often non-alcoholic wine; may be passed around the seated congregation in small individual cups; simpler service focused on the words of institution.\n• Quakers and the Salvation Army: do not celebrate it outwardly.\n\nDifferent interpretations of its meaning\n• Transubstantiation (Catholic): the substance of bread and wine becomes the body and blood of Christ at consecration; the appearances remain (Council of Trent; Catechism 1376). Based on 'This is my body' and John 6:53–55.\n• Orthodox: a real change, understood as a holy mystery without the philosophical definition.\n• Lutheran (often called 'consubstantiation', though Lutherans themselves prefer 'sacramental union'): Christ is truly present 'in, with and under' the bread and wine.\n• Anglican: a range — many speak of the real presence; others a spiritual presence.\n• Memorialism (Zwingli; many Baptists): bread and wine are symbols that help believers remember Christ's sacrifice; 'do this in remembrance of me'.\n\nWho may receive?\n• Catholics generally ask only Catholics in a state of grace to receive; many Protestant churches practise 'open table', inviting all baptised Christians (or all who love Jesus).\n• This is a source of division among churches, and a focus for ecumenical dialogue.\n\nContemporary issues: during the COVID-19 pandemic many churches suspended the shared cup; some offered 'spiritual communion' online; gluten-free hosts and non-alcoholic options are now widely provided.\n\nKey terms: Eucharist, Mass, Lord's Supper, consecration, host, chalice, transubstantiation, real presence, memorial, open table."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Catholic belief that the bread and wine become the body and blood of Christ?\nA  Consubstantiation\nB  Transubstantiation\nC  Memorialism\nD  Incarnation",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Transubstantiation\n\nTransubstantiation is the Catholic teaching that at the consecration the substance of the bread and wine is changed into the body and blood of Christ, although the appearance (accidents) remains. 'Consubstantiation' is a term often used for the Lutheran view that Christ is present 'in, with and under' the bread and wine; memorialism (e.g. Zwingli, many Baptists) sees the meal as a remembrance.",
+   "evidence": [
+    "Catechism 1376",
+    "Council of Trent"
+   ],
+   "examTip": "Be precise with the spelling and meaning of transubstantiation.",
+   "answerTopic": "transubstantiation"
+  },
+  {
+   "question": "Which one of the following events does Holy Communion remember?\nA  The Sermon on the Mount\nB  The Last Supper\nC  The feeding of the 5000\nD  The wedding at Cana",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — The Last Supper\n\nHoly Communion re-enacts and remembers the Last Supper, Jesus' final meal with his disciples before his crucifixion, when he took bread and wine and said 'This is my body… This is my blood… do this in remembrance of me' (Luke 22:19–20; 1 Corinthians 11:23–26).",
+   "evidence": [
+    "Luke 22:19–20",
+    "1 Corinthians 11:23–26"
+   ],
+   "examTip": "Link the sacrament to its origin in the Gospels.",
+   "answerTopic": "Last Supper"
+  },
+  {
+   "question": "Give one name used by Christians for the sacrament of Holy Communion.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: the Eucharist (meaning 'thanksgiving'); the Mass (Catholic); the Lord's Supper; the Breaking of Bread; the Divine Liturgy (Orthodox name for the service); Holy Communion.",
+   "evidence": [
+    "1 Corinthians 11:20 'the Lord's Supper'",
+    "Acts 2:42 'the breaking of bread'"
+   ],
+   "examTip": "Different names often reflect different denominations.",
+   "answerTopic": "names of Eucharist"
+  },
+  {
+   "question": "Give one reason why some Christians receive Holy Communion every week or more often.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: Jesus commanded 'do this in remembrance of me'; they believe they receive Christ himself / God's grace; it strengthens their faith; Catholics have an obligation to attend Mass on Sundays; it unites them with the Church as the body of Christ; the early Church broke bread regularly (Acts 2:42, 46).",
+   "evidence": [
+    "Luke 22:19",
+    "Acts 2:42, 46",
+    "Catechism 2180"
+   ],
+   "examTip": "Give one clear reason.",
+   "answerTopic": "frequency of communion"
+  },
+  {
+   "question": "Explain two different ways in which Holy Communion is celebrated.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way — the Catholic Mass: A priest leads a formal liturgy including Bible readings and a homily, then consecrates the bread (unleavened wafers/hosts) and wine on the altar using Jesus' words. Catholics believe this makes present Christ's sacrifice, and they receive the host, sometimes also the cup. Mass is celebrated daily in many churches.\n\nSecond way — in many nonconformist churches (e.g. Baptist): The Lord's Supper may be held monthly as a simpler service. A minister reads the words of institution from 1 Corinthians 11, then ordinary bread and often non-alcoholic wine in small individual cups are passed around the seated congregation. It is understood mainly as a memorial and an act of fellowship.\n\n(Orthodox Christians celebrate the Divine Liturgy, receiving leavened bread soaked in wine from a spoon.)",
+   "evidence": [
+    "1 Corinthians 11:23–26",
+    "Catholic Mass",
+    "Baptist Lord's Supper",
+    "Orthodox Divine Liturgy"
+   ],
+   "examTip": "Contrast leaders, frequency, elements and beliefs.",
+   "answerTopic": "ways of celebrating communion"
+  },
+  {
+   "question": "Explain two ways in which receiving Holy Communion influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Christians believe they receive God's grace and spiritual strength through Communion. Many Catholics feel they receive Christ himself, which gives them the strength to live a Christian life during the week and to face difficulties with hope.\n\nSecond way: Communion unites believers as one community: 'Because there is one loaf, we, who are many, are one body' (1 Corinthians 10:17). This encourages Christians to be reconciled with others — many services include sharing the peace — and to serve others; some churches link Communion with collections for the poor or food bank donations. Catholics often end Mass with 'Go in peace, glorifying the Lord by your life'.",
+   "evidence": [
+    "1 Corinthians 10:17",
+    "John 6:35",
+    "Sign of peace"
+   ],
+   "examTip": "Show influence on both the individual and the community.",
+   "answerTopic": "influence of communion"
+  },
+  {
+   "question": "Explain two different Christian interpretations of the meaning of Holy Communion.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First interpretation — real presence: Catholics believe in transubstantiation: when the priest consecrates the bread and wine, they become the actual body and blood of Christ, though they still look and taste the same. This is based on Jesus' words 'This is my body' (Luke 22:19) and 'whoever eats my flesh and drinks my blood has eternal life' (John 6:54). Orthodox Christians also believe in a real change but call it a mystery; Lutherans believe Christ is truly present 'in, with and under' the bread and wine.\n\nSecond interpretation — memorial: Many Protestants, such as Baptists and some other nonconformist churches, believe the bread and wine are symbols that remind Christians of Jesus' sacrifice. They emphasise Jesus' command 'do this in remembrance of me' (1 Corinthians 11:24) and Paul's teaching that 'whenever you eat this bread and drink this cup, you proclaim the Lord's death until he comes' (1 Corinthians 11:26). This view goes back to the reformer Ulrich Zwingli.\n\nApplication: Anglicans hold a range of views between these positions. These differences affect how the bread and wine are treated after the service — Catholics reserve the consecrated hosts in a tabernacle.",
+   "evidence": [
+    "Luke 22:19",
+    "John 6:54",
+    "1 Corinthians 11:24–26",
+    "Catechism 1376",
+    "Ulrich Zwingli"
+   ],
+   "examTip": "Name a denomination for each interpretation — the AQA spec stresses 'different interpretations'.",
+   "answerTopic": "meanings of communion"
+  },
+  {
+   "question": "Explain two reasons why Holy Communion is important for Christians.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: It was instituted by Jesus at the Last Supper and he commanded it. 'He took bread, gave thanks and broke it, and gave it to them, saying, \"This is my body given for you; do this in remembrance of me\"' (Luke 22:19). By celebrating it, Christians obey Jesus and remember his death and resurrection.\n\nSecond reason: It brings Christians close to God and to each other. Catholics believe they truly receive Christ; the Catechism calls the Eucharist 'the source and summit of the Christian life' (Catechism 1324). Protestants believe it strengthens faith and brings them into fellowship with Christ. Paul teaches that sharing one loaf makes believers 'one body' (1 Corinthians 10:17), so it expresses the unity of the Church.\n\nApplication: That is why, for most Christians, Holy Communion is the central act of worship, and why disagreements about who may receive it (e.g. Catholic restrictions on non-Catholics) are taken so seriously.",
+   "evidence": [
+    "Luke 22:19–20",
+    "Catechism 1324",
+    "1 Corinthians 10:16–17"
+   ],
+   "examTip": "Use the words of institution as your source and apply them.",
+   "answerTopic": "importance of communion"
+  },
+  {
+   "question": "‘Holy Communion is the most important sacrament for Christians.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nHoly Communion was instituted by Jesus himself at the Last Supper with the command 'do this in remembrance of me' (Luke 22:19). Unlike baptism, which happens once, it is received repeatedly throughout life, continually nourishing faith. Jesus said 'I am the bread of life' and 'whoever eats my flesh and drinks my blood has eternal life' (John 6:35, 54).\n\nFor Catholics it is central: the Catechism calls the Eucharist 'the source and summit of the Christian life' (1324), and they believe Christ is truly present through transubstantiation. Orthodox Christians similarly see the Divine Liturgy as the heart of their faith. It is the main act of worship in most denominations, expressing the unity of the Church as 'one body' (1 Corinthians 10:17).\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany Christians would argue that baptism is more important, because it is the 'gateway' to all other sacraments. Without baptism a person is not a member of the Church and, in Catholic practice, cannot receive Communion. Jesus said 'no one can enter the kingdom of God unless they are born of water and the Spirit' (John 3:5). Baptism removes original sin and marks the start of the Christian life.\n\nSome Protestants, such as Baptists, see Communion as a memorial rather than a means of receiving Christ, and may celebrate it only monthly; for them the preaching of the Word may be equally central. Quakers and the Salvation Army do not celebrate outward sacraments at all, believing Christ can be encountered without them.\n\nOther Christians might argue that different sacraments are most important at different moments — for example reconciliation for a person seeking forgiveness, or the anointing of the sick at the end of life.\n\nJUSTIFIED CONCLUSION\n\nBaptism has a strong claim because it comes first and is necessary for the others. However, Holy Communion is the sacrament Christians share most often, it was given by Jesus on the night before he died, and it is the centre of worship in most of the Christian world. I conclude that for the majority of Christians — Catholic, Orthodox and many Anglicans — Holy Communion is the most important sacrament for ongoing Christian life, although baptism is foundational and some Protestant traditions would not rank either above the Word of God.",
+   "evidence": [
+    "Luke 22:19",
+    "John 6:35, 54",
+    "John 3:5",
+    "1 Corinthians 10:17",
+    "Catechism 1324",
+    "Quakers / Salvation Army"
+   ],
+   "examTip": "Compare Communion directly with baptism — the obvious rival.",
+   "answerTopic": "most important sacrament"
+  },
+  {
+   "question": "‘The bread and wine at Holy Communion are only symbols.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nMany Protestants, including Baptists and some others in the nonconformist tradition, hold a memorialist view. Jesus said 'do this in remembrance of me' (1 Corinthians 11:24), suggesting the purpose is to remember. Paul says that eating the bread and drinking the cup 'proclaim the Lord's death until he comes' (1 Corinthians 11:26) — an act of witness.\n\nJesus often spoke in metaphors: 'I am the gate', 'I am the vine'. So 'This is my body' can be understood symbolically too. The reformer Ulrich Zwingli argued 'is' means 'signifies'. Also, the bread and wine clearly remain bread and wine physically — chemical tests would show no change — so many people find a literal change hard to accept.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nThe Catholic Church teaches transubstantiation: at consecration the substance of the bread and wine truly becomes Christ's body and blood, while the appearances remain (Catechism 1376). Jesus did not say 'this represents my body' but 'this is my body'. In John 6 many followers left because Jesus insisted 'my flesh is real food and my blood is real drink' (John 6:55); he did not soften his words.\n\nOrthodox Christians also believe in a real change, describing it as a holy mystery. Lutherans believe Christ is truly present 'in, with and under' the bread and wine, and many Anglicans speak of the 'real presence'. Paul warns that anyone who eats and drinks 'without discerning the body' brings judgement on themselves (1 Corinthians 11:29), suggesting more than a mere symbol.\n\nThe word 'only' is also challenged: even for symbolic views, the meal is a powerful act of fellowship and of receiving grace, not 'only' a sign.\n\nJUSTIFIED CONCLUSION\n\nThere is a genuine and long-standing disagreement. The memorialist view is consistent with Jesus' use of metaphor and with the command to remember, but the strong language of John 6 and 1 Corinthians 11 and the belief of the majority of the world's Christians (Catholic and Orthodox) suggest more than a symbol. I conclude that the statement is too strong: even many Protestants believe Christ is spiritually present in Communion, so describing the bread and wine as 'only symbols' fails to capture what most Christians believe is happening.",
+   "evidence": [
+    "Luke 22:19",
+    "John 6:53–55",
+    "1 Corinthians 11:24–29",
+    "Catechism 1376",
+    "Ulrich Zwingli",
+    "Lutheran 'real presence'"
+   ],
+   "examTip": "The word 'only' in the statement is a good handle for your conclusion.",
+   "answerTopic": "symbol or real presence"
+  }
+ ]
+}

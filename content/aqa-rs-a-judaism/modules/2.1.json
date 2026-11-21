@@ -1,0 +1,133 @@
+{
+ "paper": "Practices",
+ "module": "2.1",
+ "moduleTitle": "The synagogue and its importance",
+ "note": {
+  "specFocus": "The synagogue and worship: the synagogue and its importance for Jewish individuals and communities, as a house of prayer, study and assembly.",
+  "summary": "What is a synagogue?\n\"Synagogue\" is a Greek word meaning \"bringing together\". Jews often call it shul (Yiddish, \"school\"), or in Reform and Liberal communities a temple. Synagogues probably began during the Babylonian exile (6th century BCE) and became central after the destruction of the Second Temple in 70 CE, when prayer replaced sacrifice.\n\nThree Hebrew names, three purposes\n1. Beit Tefilah, house of prayer: communal services, especially on Shabbat and festivals; daily services where there is a minyan. Prayer is called \"the service of the heart\" (Talmud Ta'anit 2a), the replacement for Temple sacrifice: \"we will offer the words of our lips instead of bulls\" (Hosea 14:3).\n2. Beit Midrash, house of study: classes, Torah study, cheder (religion school) for children, and preparation for Bar and Bat Mitzvah. Study of Torah is itself a form of worship.\n3. Beit Knesset, house of assembly: the community centre for social events, youth clubs, kiddush after services, charity collections, support for the elderly and bereaved, celebrations of life-cycle events, and sometimes kosher catering.\n\nWhy the synagogue matters\n• It holds the Torah scrolls in the Aron Hakodesh (ark), the holiest objects in Judaism.\n• It is called a mikdash me'at, a \"small sanctuary\" (based on Ezekiel 11:16), echoing the Temple. Its holiness comes from prayer and Torah, not from the building itself.\n• Communal prayer is valued highly. Certain prayers, such as the Kaddish, the Kedushah and the reading of the Torah, need a minyan of ten adults. Orthodox synagogues count ten men; Reform, Liberal and most Masorti synagogues count women and men equally.\n• The rabbis taught that the Shekhinah rests among ten who pray together (Pirkei Avot 3:6; Berakhot 6a).\n• It strengthens Jewish identity in a minority community, which is particularly important in Britain, where Jews are a small minority (about 270,000 in England and Wales in the 2021 census).\n• The rabbi is a teacher and pastor, not a priest. A service can be led by any qualified member, and the chazan (cantor) leads singing in some synagogues.\n\nDiversity in Britain\n• Orthodox umbrella bodies include the United Synagogue (led by the Chief Rabbi). Strictly Orthodox (Haredi) communities have many small shtiebels, especially in Stamford Hill and Manchester. Sephardi communities include Bevis Marks (London, 1701), the oldest synagogue in continuous use in the UK.\n• Progressive movements: Reform Judaism and Liberal Judaism, which have been coming together under the name Progressive Judaism. Masorti Judaism is a traditional but non-Orthodox movement.\n• Orthodox Jews walk to synagogue on Shabbat, so Orthodox communities usually live within walking distance of one. Reform members may drive.\n\nDoes a Jew need a synagogue?\nMuch of Judaism is home-centred (Shabbat meals, the Pesach seder, kashrut), and private prayer is valid anywhere. However, the synagogue supports communal prayer, learning and support, which many see as vital for Jewish continuity.\n\nKey terms: Beit Tefilah; Beit Midrash; Beit Knesset; shul; minyan; mikdash me'at; rabbi; chazan."
+ },
+ "questions": [
+  {
+   "question": "Which Hebrew name for the synagogue means 'house of assembly'?\nA Beit Tefilah\nB Beit Midrash\nC Beit Knesset\nD Beit Din",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – Beit Knesset, the house of assembly or meeting. Beit Tefilah is the house of prayer, Beit Midrash the house of study, and Beit Din is a rabbinical court.",
+   "evidence": [
+    "Hebrew names of the synagogue"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "synagogue"
+  },
+  {
+   "question": "What is a minyan?\nA A prayer shawl\nB The minimum of ten adults needed for certain communal prayers\nC The reading desk in the synagogue\nD The leader of the synagogue",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B. A minyan is the quorum of ten adults needed for certain prayers, such as the Kaddish and the public reading of the Torah. Orthodox synagogues count men only, while Reform and Liberal synagogues count women and men.",
+   "evidence": [
+    "Talmud Berakhot 21b",
+    "Pirkei Avot 3:6"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "minyan"
+  },
+  {
+   "question": "Give two purposes of the synagogue.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• House of prayer (Beit Tefilah).\n• House of study (Beit Midrash).\n• House of assembly or community centre (Beit Knesset).\n• Keeping the Torah scrolls.\n• Celebrating life events such as Bar Mitzvah and weddings.\n• A base for charity work.\n• Education of children (cheder).",
+   "evidence": [
+    "Beit Tefilah, Beit Midrash, Beit Knesset"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "synagogue"
+  },
+  {
+   "question": "Give two activities, other than services, that may take place in a synagogue.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Hebrew or cheder classes for children.\n• Adult Torah study.\n• Youth clubs.\n• Kiddush and social events.\n• Bar or Bat Mitzvah preparation.\n• Charity collections or food bank.\n• Support groups for the elderly or bereaved.\n• Wedding receptions or celebrations.\n• Interfaith events.",
+   "evidence": [
+    "Beit Knesset and Beit Midrash roles"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "synagogue"
+  },
+  {
+   "question": "Explain two reasons why the synagogue is important to the Jewish community.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It is the place of communal worship. Some important prayers, such as the Kaddish and the reading of the Torah, can only be said with a minyan of ten. The synagogue brings people together for Shabbat and festival services, and the rabbis taught that God's presence rests among ten people who pray together.\n\n2. It holds the community together. As the Beit Knesset, the house of assembly, it offers education for children, adult study, youth clubs and support for the sick, elderly and bereaved. In Britain, where Jews are a small minority, it helps people keep their Jewish identity, celebrate life-cycle events together and pass on traditions to the next generation.",
+   "evidence": [
+    "Pirkei Avot 3:6",
+    "Talmud Berakhot 6a"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "importance of synagogue"
+  },
+  {
+   "question": "Explain two contrasting ways in which Orthodox and Reform Jews use the synagogue.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. In Orthodox synagogues, services are almost entirely in Hebrew, men and women sit separately (often with women in a gallery or behind a mechitzah), and only men count towards the minyan and lead the services. Many Orthodox synagogues hold daily morning and evening services, and members walk to the synagogue on Shabbat.\n\n2. In Reform synagogues, men and women sit together and participate equally: women can be rabbis, read from the Torah and count in the minyan. Services often include much more English, and some use musical instruments such as an organ. Many Reform synagogues hold services mainly on Shabbat and festivals rather than daily, and members may drive to services.",
+   "evidence": [
+    "Mechitzah",
+    "Reform egalitarian practice"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "Orthodox and Reform synagogues"
+  },
+  {
+   "question": "Explain two reasons why prayer in the synagogue is important for Jews. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Synagogue prayer replaced the Temple sacrifices. After the Temple was destroyed in 70 CE, the rabbis taught that prayer is \"the service of the heart\" (Ta'anit 2a), fulfilling Hosea's words, \"we will offer the words of our lips instead of bulls\" (Hosea 14:3). The three daily services match the times of the Temple offerings, so synagogue worship continues the worship of the Temple.\n\n2. Praying as a community brings special holiness. Some prayers, such as Kaddish and the Kedushah, need a minyan of ten. The rabbis taught that when ten gather, the Shekhinah (God's presence) is among them (Pirkei Avot 3:6). Praying together also expresses that Jews stand before God as one people, which is why most prayers are written in the plural (\"our God\", \"forgive us\").",
+   "evidence": [
+    "Hosea 14:3",
+    "Talmud Ta'anit 2a",
+    "Pirkei Avot 3:6"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "synagogue prayer"
+  },
+  {
+   "question": "Explain two ways in which the synagogue is a place of study. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Torah study is a central mitzvah, and the synagogue is a Beit Midrash, a house of study. The Mishnah lists the study of Torah as equal to all the other commandments, because it leads to all of them (Mishnah Peah 1:1). Synagogues run shiurim (classes) on the weekly Torah portion, Talmud and Jewish law, and many members join study partnerships (chavruta).\n\n2. It educates children and passes on the tradition. The Shema commands, \"teach them diligently to your children\" (Deuteronomy 6:7). Synagogues run cheder classes where children learn Hebrew, prayers, festivals and Jewish history, and they prepare young people for Bar and Bat Mitzvah, when they read from the Torah in front of the congregation.",
+   "evidence": [
+    "Mishnah Peah 1:1",
+    "Deuteronomy 6:7"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "synagogue as place of study"
+  },
+  {
+   "question": "\"Jews do not need to go to the synagogue to be religious.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nMuch of Jewish practice takes place at home rather than in the synagogue. Shabbat begins at home with candle-lighting, Kiddush and challah; the Pesach seder is a home ritual; kashrut is kept in the kitchen; and the mezuzah is on the doorpost of the home. The home is often called a mikdash me'at, a small sanctuary, so a Jew can live a deeply religious life centred on the family.\n\nPrayer does not need a building. Jews can pray the Shema and the Amidah privately, anywhere, and God listens to every sincere prayer. The Tenakh shows people praying alone: Hannah (1 Samuel 1) and Daniel (Daniel 6:11). Judaism also values ethical action, such as tzedakah, kindness and justice, which happens in daily life rather than in a building. For many Reform and secular Jews, Jewish identity is expressed through family, culture and social action rather than regular attendance.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nSome important mitzvot can only be fulfilled with a community. The Torah reading, the Kaddish (for example, a mourner saying Kaddish for a parent) and the Kedushah all need a minyan, which a person cannot form alone. Orthodox men are expected to pray with a minyan where possible, three times a day, and the rabbis taught that God's presence rests among ten who pray together.\n\nThe synagogue also protects Jewish life for the future. It is a Beit Midrash where children and adults study Torah, and a Beit Knesset that supports the sick, elderly and bereaved. In Britain, where Jews are a small minority, it provides community and identity that individuals might not be able to sustain alone. Rabbi Hillel taught, \"Do not separate yourself from the community\" (Pirkei Avot 2:4), which suggests that being religious is not only a private matter.\n\nJUSTIFIED CONCLUSION\n\nIt is true that a Jew can be religious without attending the synagogue regularly, because so much of Judaism is lived at home and in everyday ethics. However, the synagogue is needed for communal prayer, the Torah reading and Kaddish, and Jewish teaching discourages separating oneself from the community. The fairest conclusion is that the synagogue is not the only place to be religious, but a fully observant Jewish life, especially in Orthodox understanding, needs it.",
+   "evidence": [
+    "Pirkei Avot 2:4",
+    "Pirkei Avot 3:6",
+    "1 Samuel 1:10–13",
+    "Daniel 6:11"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "importance of synagogue"
+  },
+  {
+   "question": "\"The most important purpose of the synagogue is as a place of prayer.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe synagogue is above all a Beit Tefilah, a house of prayer. After the Temple was destroyed, prayer replaced sacrifice: \"we will offer the words of our lips instead of bulls\" (Hosea 14:3). The three daily services follow the pattern of the Temple offerings, and the synagogue is called a mikdash me'at, a small sanctuary. Its most important features, the Aron Hakodesh facing Jerusalem, the ner tamid and the bimah, are all designed for worship.\n\nCommunal prayer requires a synagogue and a minyan. The Torah is read publicly on Shabbat, Mondays and Thursdays, mourners say Kaddish, and the High Holy Days and festivals are celebrated together in services. The rabbis taught that the Shekhinah rests on ten people praying together, so it is through prayer that the synagogue becomes holy.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nSome argue study is more important. The synagogue is also a Beit Midrash, and the Mishnah says that the study of Torah is equal to all other commandments (Peah 1:1). The Talmud even says that a synagogue may be turned into a house of study, which has greater holiness, but not the other way round (Megillah 27a). This suggests that, in rabbinic thinking, study ranks above prayer.\n\nOthers say the community role matters most today. As a Beit Knesset, the synagogue holds Jewish identity together: education for children, youth groups, support for the elderly, food banks and life-cycle celebrations. Many British Jews who rarely pray regularly still belong to a synagogue for these reasons, and for Reform and Liberal Jews community and social action (tikkun olam) are central. Without the community, there would be no minyan anyway.\n\nIt can also be argued that the three purposes cannot be separated: Jews study in order to pray and act, and they pray as a community.\n\nJUSTIFIED CONCLUSION\n\nPrayer is the most visible purpose of the synagogue, and its design centres on worship. However, rabbinic teaching ranks study highly, and for many British Jews the community role is what keeps them connected. The most convincing conclusion is that prayer, study and community are three sides of one purpose, bringing Jews closer to God and to each other, so prayer is central but not clearly the most important on its own.",
+   "evidence": [
+    "Hosea 14:3",
+    "Mishnah Peah 1:1",
+    "Talmud Megillah 27a",
+    "Pirkei Avot 3:6"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "purposes of synagogue"
+  }
+ ]
+}

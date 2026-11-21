@@ -1,0 +1,89 @@
+{
+ "paper": "Theme C",
+ "module": "C.2",
+ "moduleTitle": "Miracles, evil and suffering, and scientific arguments against God",
+ "note": {
+  "specFocus": "The argument from miracles, including its strengths and weaknesses, and one example of a miracle; evil and suffering as an argument against the existence of God; arguments based on science against the existence of God. Contrasting beliefs on miracles (Christianity v non-religious beliefs) are required.",
+  "summary": "KEY TERMS\nMiracle: a seemingly impossible event, usually good, that cannot be explained by the laws of nature and is believed to be caused by God. Moral evil: suffering caused by humans acting wrongly (e.g. murder, war, terrorism). Natural evil: suffering caused by nature (e.g. earthquakes, disease, floods). Theodicy: an attempt to explain why God allows evil. Free will: the ability to make our own choices.\n\nTHE ARGUMENT FROM MIRACLES\nIf a miracle occurs, it must have a supernatural cause, which is God; therefore God exists. Examples: in the Bible, Jesus healing the sick, turning water into wine (John 2), raising Lazarus and his own resurrection. Example of a modern miracle: Lourdes in France, where Bernadette Soubirous reported visions of Mary in 1858; the Catholic Church's Lourdes Medical Bureau has officially recognised around 70 healings (e.g. Sister Bernadette Moriau, recognised in 2018 as the 70th). In Islam, the Qur'an itself is regarded as the greatest miracle; the Night Journey (Isra and Mi'raj) is also described. Sikhs recount stories of Guru Nanak, but Sikhism discourages seeking miracles.\nStrengths: personal experience can be powerful; there are many reports across religions; some events are hard to explain; miracles show God's love and involvement.\nWeaknesses: David Hume argued it is always more likely that a witness is mistaken or lying than that a law of nature was broken; many miracle stories come from religious people who want to believe; there may be scientific or psychological explanations (e.g. spontaneous remission, the placebo effect); coincidence; why would God perform some miracles but not prevent the Holocaust? Different religions report miracles that support conflicting beliefs.\n\nEVIL AND SUFFERING\nThe 'inconsistent triad' (associated with Epicurus and J.L. Mackie): if God is omnipotent and omnibenevolent, God would be able and willing to remove evil; but evil exists; so such a God cannot exist.\nReligious responses: free will – God gave humans freedom, and moral evil is the result of its misuse (Genesis 3, the Fall). John Hick's 'soul-making' theodicy – suffering helps people grow in virtue, such as compassion and courage. The Book of Job – human beings cannot understand God's purposes (\"Where were you when I laid the earth's foundation?\", Job 38:4). Christians believe God shares in suffering through Jesus on the cross, and they respond with prayer and practical help. Islam: suffering is a test from Allah (\"We will surely test you with something of fear and hunger…\", Qur'an 2:155). Buddhism: dukkha (suffering) is part of existence, caused by craving (tanha); it is not a problem for belief in God because Buddhists do not believe in a creator God. Hinduism: suffering results from karma.\n\nSCIENCE AGAINST GOD\nBig Bang theory and evolution explain the universe and life without a creator; medicine explains many 'miracles'; Ockham's razor says choose the simplest explanation. Responses: science explains 'how', religion explains 'why'; many scientists are religious; science cannot explain what caused the Big Bang.\n\nNON-RELIGIOUS VIEWS\nAtheists see the problem of evil as the strongest argument against God; humanists reject miracles as lacking evidence and emphasise scientific explanations."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is an example of natural evil?\nA Murder\nB An earthquake\nC Terrorism\nD Theft",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B An earthquake.\nNatural evil is suffering caused by nature rather than by human choices. Murder, terrorism and theft are moral evil, caused by people misusing their free will.",
+   "evidence": [
+    "Definitions: moral evil and natural evil"
+   ],
+   "answerTopic": "evil and suffering",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one example of a miracle.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: Jesus turning water into wine at Cana; Jesus healing a blind man; the raising of Lazarus; the resurrection of Jesus; a healing at Lourdes recognised by the Catholic Church; the revelation of the Qur'an to Muhammad.",
+   "evidence": [
+    "John 2:1–11",
+    "John 11",
+    "Lourdes healings"
+   ],
+   "answerTopic": "miracles",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about miracles.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe miracles happen and show that God is real and acts in the world. The Gospels record Jesus healing the sick and rising from the dead, and Catholics believe that healings at Lourdes, some officially recognised as medically inexplicable, show God still acts today.\n\nBelief 2: In contrast, many atheists and humanists believe miracles do not happen. Following David Hume, they argue it is always more likely that witnesses were mistaken, exaggerating or lying than that the laws of nature were broken, and that 'miracle cures' can be explained by science, such as spontaneous remission or the placebo effect.",
+   "evidence": [
+    "Mark 5:21–43",
+    "Lourdes Medical Bureau",
+    "David Hume, Of Miracles (1748)"
+   ],
+   "answerTopic": "miracles",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about whether evil and suffering show that God does not exist.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many atheists believe that evil and suffering show that God does not exist. If God were all-powerful he could stop suffering, and if he were all-loving he would want to; since suffering such as childhood cancer and tsunamis exists, they conclude that such a God does not exist.\n\nBelief 2: In contrast, Christians believe suffering does not disprove God. They argue that God gave humans free will, which makes real love possible but also means humans can cause moral evil, and that suffering can help people develop qualities such as compassion and courage (John Hick's soul-making theodicy).",
+   "evidence": [
+    "Epicurus / J.L. Mackie's inconsistent triad",
+    "Free will defence",
+    "John Hick's soul-making theodicy"
+   ],
+   "answerTopic": "evil and suffering",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about why God allows suffering.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe that suffering entered the world through human misuse of free will. In Genesis 3, Adam and Eve disobeyed God and this 'Fall' brought sin and suffering into the world. God gives humans free will because love must be freely chosen, so he allows them to make wrong choices, which explains moral evil such as war and cruelty.\n\nBelief 2: Muslims believe suffering is a test from Allah. The Qur'an says 'We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient' (2:155). This means that hardships are an opportunity for Muslims to show patience (sabr) and trust in Allah, and they will be rewarded on the Day of Judgement for how they respond.",
+   "evidence": [
+    "Genesis 3",
+    "Qur'an 2:155–156",
+    "Job 38:4"
+   ],
+   "answerTopic": "evil and suffering",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Miracles prove that God exists.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany Christians believe miracles are strong evidence for God. A miracle is an event that cannot be explained by the laws of nature, so if one occurs, the best explanation is a supernatural cause – God. The Gospels record many miracles of Jesus, such as healing a man born blind (John 9) and his resurrection, which Christians see as the greatest proof of God's power. The Catholic Church has recognised around 70 healings at Lourdes after careful investigation by doctors at the Lourdes Medical Bureau found no medical explanation. For someone who experiences a miracle personally, such as a sudden recovery after prayer, the experience may be overwhelming evidence. Muslims believe the Qur'an itself is a miracle, since Muhammad could not read or write, yet the Qur'an is regarded as perfect in its language and wisdom.\n\nARGUMENTS FOR A DIFFERENT VIEW\nNon-religious people argue that miracles prove nothing. David Hume argued that we should always believe the more likely explanation, and it is always more likely that a witness is mistaken, deceived or lying than that a law of nature has been broken. Many miracle reports come from religious people who wanted to believe, or from long ago when science was less developed. Many apparent miracles can be explained by science, such as spontaneous remission of cancer or psychological effects. Some events are simply coincidences. A further problem is that if God performs miracles, why does he heal some people and not prevent great evils such as the Holocaust? This seems unfair. Even some Christians accept that miracles are not proof: they are 'signs' that strengthen faith for those who already believe, rather than evidence that would convince anyone.\n\nCONCLUSION\nMiracles can be powerful for people who experience them and can make belief in God seem reasonable. However, 'prove' is a strong word, and the possibility of other explanations means that miracles cannot be proof for everyone. Hume's argument that it is always more reasonable to doubt reports of law-breaking events is hard to answer. I conclude that miracles do not prove that God exists, though for believers they may be meaningful signs that support their faith.",
+   "evidence": [
+    "John 9",
+    "Resurrection of Jesus",
+    "Lourdes Medical Bureau (around 70 recognised healings)",
+    "David Hume, Of Miracles",
+    "Qur'an as miracle"
+   ],
+   "answerTopic": "miracles",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

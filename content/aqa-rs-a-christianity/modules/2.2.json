@@ -1,0 +1,142 @@
+{
+ "paper": "Practices",
+ "module": "2.2",
+ "moduleTitle": "Prayer and its significance, including the Lord's Prayer, set prayers and informal prayer",
+ "note": {
+  "specFocus": "Spec: Worship and festivals — prayer and its significance, including the Lord's Prayer, set prayers and informal prayer.",
+  "summary": "What is prayer?\n• Prayer is communicating with God — speaking and listening. It can be spoken or silent, alone or with others.\n• Purposes are often remembered by ACTS: Adoration (praise), Confession (saying sorry), Thanksgiving, Supplication (asking — for oneself, petition; for others, intercession).\n• 'Pray continually; give thanks in all circumstances' (1 Thessalonians 5:17–18).\n• Jesus' teaching: pray sincerely and privately (Matthew 6:5–6); don't 'babble' with many words (Matthew 6:7); 'Ask and it will be given to you' (Matthew 7:7).\n• Jesus' example: praying alone (Luke 5:16); in Gethsemane, 'not as I will, but as you will' (Matthew 26:39).\n\nThe Lord's Prayer (Matthew 6:9–13; Luke 11:2–4)\nOur Father in heaven, hallowed be your name, your kingdom come, your will be done, on earth as in heaven. Give us today our daily bread. Forgive us our sins as we forgive those who sin against us. Lead us not into temptation but deliver us from evil. [For the kingdom, the power and the glory are yours, now and for ever. Amen.]\n• Significance: taught by Jesus himself as a model ('This, then, is how you should pray'); used by all denominations — a sign of unity; a summary of faith: praise, God's will first, daily needs, forgiveness, protection.\n• 'Our Father' shows a personal, loving relationship and that Christians are one family.\n• Influence: forgiving others; working for God's kingdom of justice on earth; trusting God for daily needs.\n• The closing doxology is used by Protestants and in some modern liturgies; Catholics say it separately at Mass.\n\nSet (formal) prayers\n• Prayers with fixed words, used repeatedly: the Lord's Prayer, the Hail Mary, the Jesus Prayer ('Lord Jesus Christ, Son of God, have mercy on me, a sinner' — Orthodox), the Grace, collects in the Book of Common Prayer, the Glory Be.\n• Aids: rosary beads (Catholic), prayer ropes (Orthodox).\n• Significance: help when people can't find words; unite congregations; ensure prayer is rooted in tradition and scripture; can be meditative.\n• Criticism: may become automatic or meaningless if said without thought.\n\nInformal (extempore) prayer\n• Prayers in one's own words, spontaneous, often personal — common in evangelical, Methodist, Baptist, Pentecostal churches and in private prayer.\n• Pentecostals may pray in tongues; Quakers pray in silence.\n• Significance: personal relationship with God; addresses specific needs; openness to the Holy Spirit, who 'helps us in our weakness' (Romans 8:26).\n• Criticism: can become self-centred or depend on the person's confidence.\n\nDiversity and contemporary examples\n• Catholics may pray to Mary and the saints to intercede for them; most Protestants pray directly to God only.\n• Prayer chains, prayer apps, 24-7 Prayer movement (begun in the UK in 1999), Taizé chant, Thy Kingdom Come (an annual global prayer movement between Ascension and Pentecost).\n\nUnanswered prayer\n• Christians believe God always hears prayer but may answer 'no' or 'not yet', or answer in an unexpected way — as Jesus accepted in Gethsemane.\n\nKey terms: prayer, adoration, confession, thanksgiving, supplication, intercession, set prayer, informal/extempore prayer, Lord's Prayer, rosary."
+ },
+ "questions": [
+  {
+   "question": "In which Gospel passage does Jesus teach the Lord's Prayer as part of the Sermon on the Mount?\nA  Matthew 6\nB  Mark 16\nC  John 3\nD  Luke 2",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A — Matthew 6\n\nJesus teaches the Lord's Prayer in Matthew 6:9–13 during the Sermon on the Mount. A shorter version is in Luke 11:2–4, where the disciples ask 'Lord, teach us to pray'.",
+   "evidence": [
+    "Matthew 6:9–13",
+    "Luke 11:1–4"
+   ],
+   "examTip": "Know both locations of the Lord's Prayer.",
+   "answerTopic": "Lord's Prayer source"
+  },
+  {
+   "question": "Which one of the following is a set prayer?\nA  A prayer made up on the spot in a house group\nB  The Hail Mary\nC  A silent personal conversation with God\nD  A spontaneous prayer for a sick friend",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — The Hail Mary\n\nA set prayer has fixed words that are used repeatedly. The Hail Mary is a traditional set prayer, especially used by Catholics, often with a rosary. The other options are informal (extempore) prayers.",
+   "evidence": [
+    "Hail Mary (based on Luke 1:28, 42)"
+   ],
+   "examTip": "Set = fixed words; informal = own words.",
+   "answerTopic": "set prayer"
+  },
+  {
+   "question": "Give one type of prayer.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: adoration (praise); confession; thanksgiving; supplication/petition (asking for oneself); intercession (praying for others); set/formal prayer; informal/extempore prayer; meditation/contemplation. (ACTS = Adoration, Confession, Thanksgiving, Supplication.)",
+   "evidence": [
+    "ACTS model"
+   ],
+   "examTip": "The ACTS acronym gives four quick answers.",
+   "answerTopic": "types of prayer"
+  },
+  {
+   "question": "Give one phrase from the Lord's Prayer.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: 'Our Father in heaven / who art in heaven'; 'hallowed be your name'; 'your kingdom come'; 'your will be done, on earth as in heaven'; 'give us today our daily bread'; 'forgive us our sins/trespasses as we forgive those who sin against us'; 'lead us not into temptation'; 'deliver us from evil'.",
+   "evidence": [
+    "Matthew 6:9–13"
+   ],
+   "examTip": "Accept traditional or modern wording.",
+   "answerTopic": "Lord's Prayer phrases"
+  },
+  {
+   "question": "Explain two different ways in which Christians pray.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way — set prayers: Many Christians, especially Catholic, Orthodox and Anglican, use set prayers with fixed words such as the Lord's Prayer, the Hail Mary or the Jesus Prayer ('Lord Jesus Christ, Son of God, have mercy on me'). These are said together in services or privately, and are helpful when people can't find their own words.\n\nSecond way — informal prayer: Other Christians, particularly in evangelical and Pentecostal churches, pray in their own words, speaking to God spontaneously like talking to a friend. This may happen aloud in a prayer meeting or silently at any time of day, allowing them to express personal feelings and specific needs.",
+   "evidence": [
+    "Matthew 6:9–13",
+    "Jesus Prayer",
+    "Hail Mary"
+   ],
+   "examTip": "Contrast set and informal prayer, giving examples of each.",
+   "answerTopic": "ways of praying"
+  },
+  {
+   "question": "Explain two ways in which the Lord's Prayer influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: The Lord's Prayer teaches Christians to forgive — 'forgive us our sins as we forgive those who sin against us'. Saying it regularly reminds them that they must forgive others if they want God's forgiveness, influencing how they deal with arguments and hurt.\n\nSecond way: The prayer asks 'your kingdom come, your will be done, on earth as in heaven'. This encourages Christians to work to make the world more like God's kingdom — just, peaceful and caring — for example by supporting food banks or campaigning against poverty. It also unites Christians of all denominations, since almost every church uses it.",
+   "evidence": [
+    "Matthew 6:9–13",
+    "Matthew 6:14–15"
+   ],
+   "examTip": "Pick specific phrases and show how each one shapes behaviour.",
+   "answerTopic": "Lord's Prayer influence"
+  },
+  {
+   "question": "Explain two reasons why the Lord's Prayer is important to Christians.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: It was given by Jesus himself. When the disciples asked 'Lord, teach us to pray' (Luke 11:1), Jesus gave them this prayer, and in Matthew 6:9 he said 'This, then, is how you should pray'. Christians believe it is the perfect model of prayer, so it is used in nearly every service, by all denominations, uniting Christians worldwide.\n\nSecond reason: It contains the key elements of Christian faith and prayer. It begins with praise ('hallowed be your name'), puts God's will first ('your kingdom come'), asks for daily needs ('our daily bread'), seeks forgiveness and commits to forgiving others, and asks for protection ('deliver us from evil'). The early theologian Tertullian called it 'a summary of the whole gospel'.\n\nApplication: Because it addresses God as 'Our Father', it reminds Christians that they belong to one family and can approach God with trust and love.",
+   "evidence": [
+    "Matthew 6:9–13",
+    "Luke 11:1–4",
+    "Tertullian, On Prayer"
+   ],
+   "examTip": "Quote phrases from the prayer itself as your source.",
+   "answerTopic": "importance of Lord's Prayer"
+  },
+  {
+   "question": "Explain two Christian teachings about prayer.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Christians should pray sincerely and privately, not to impress others. Jesus said, 'when you pray, do not be like the hypocrites… go into your room, close the door and pray to your Father, who is unseen' (Matthew 6:5–6). Prayer is about a real relationship with God, not a performance.\n\nSecond teaching: Christians should pray constantly and with trust that God hears them. Paul writes, 'pray continually; give thanks in all circumstances' (1 Thessalonians 5:17–18), and Jesus said 'Ask and it will be given to you; seek and you will find' (Matthew 7:7). However, Christians believe God answers in his own way — even Jesus prayed in Gethsemane 'not as I will, but as you will' (Matthew 26:39).\n\nApplication: This explains why Christians pray daily — using set prayers, informal prayers or silent meditation — and continue praying even when prayers do not seem to be answered as they hoped.",
+   "evidence": [
+    "Matthew 6:5–6",
+    "1 Thessalonians 5:17–18",
+    "Matthew 7:7",
+    "Matthew 26:39"
+   ],
+   "examTip": "Gethsemane is a powerful source for 'unanswered prayer'.",
+   "answerTopic": "teachings on prayer"
+  },
+  {
+   "question": "‘Set prayers are better than informal prayers.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nThe most important Christian prayer — the Lord's Prayer — is a set prayer, given by Jesus with the words 'This, then, is how you should pray' (Matthew 6:9). Set prayers carry the authority of scripture and tradition and have been tested over centuries, so they express Christian belief accurately.\n\nSet prayers unite Christians. When a congregation says the same words together, everyone takes part, and Christians across the world pray in the same way. They are especially helpful when people are stressed, grieving or unsure what to say; many Catholics find comfort in the rosary or the Hail Mary, and Orthodox Christians repeat the Jesus Prayer as a form of meditation.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nInformal prayer allows Christians to speak to God personally and honestly, like a child to a parent — Jesus taught them to call God 'Father'. It can address specific needs: a friend's illness, an exam, a world event. Many evangelical and Pentecostal Christians see spontaneous prayer as a sign of a living relationship with God and openness to the Spirit, who 'helps us in our weakness' when 'we do not know what we ought to pray for' (Romans 8:26).\n\nJesus warned against 'babbling like pagans' who think they will be heard 'because of their many words' (Matthew 6:7). Set prayers can become routine and be recited without thought. Quakers prefer silent waiting rather than set words.\n\nJesus himself prayed both ways: he used the psalms (a set prayer, Mark 15:34) and also prayed in his own words in Gethsemane.\n\nJUSTIFIED CONCLUSION\n\nBoth forms of prayer have strengths, and their weaknesses are opposite: set prayers can become automatic, while informal prayers can become self-centred or shallow. Since Jesus both taught a set prayer and prayed spontaneously, Christians generally see them as complementary. I conclude that set prayers are not 'better' in themselves; what matters is the sincerity of the person praying. Many Christians wisely use both — set prayers for structure and unity, informal prayers for personal relationship.",
+   "evidence": [
+    "Matthew 6:7–13",
+    "Romans 8:26",
+    "Mark 15:34 (Psalm 22)",
+    "Matthew 26:39",
+    "Rosary",
+    "Jesus Prayer"
+   ],
+   "examTip": "Use Jesus' own practice as evidence for both sides.",
+   "answerTopic": "set vs informal prayer"
+  },
+  {
+   "question": "‘Prayer is the most important part of a Christian's life.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nPrayer is how Christians communicate with God and build their relationship with him. Without prayer, faith can become just a set of ideas rather than a living relationship. Paul urges Christians to 'pray continually' (1 Thessalonians 5:17), suggesting prayer should run through every part of life.\n\nJesus made prayer central. He prayed before important decisions, often withdrew to pray alone (Luke 5:16), and taught his disciples the Lord's Prayer. In Gethsemane, facing death, he turned to prayer (Matthew 26:39). Many Christians, such as monks and nuns, dedicate their lives to prayer. Prayer also fuels everything else: Christians pray for guidance and strength before serving others.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nJesus said the greatest commandments are to love God and love your neighbour (Mark 12:30–31). Prayer is part of loving God, but loving and serving others is equally essential. James warns that faith without action is dead (James 2:17), and in the Parable of the Sheep and the Goats people are judged on whether they helped others, not on how much they prayed (Matthew 25:31–46).\n\nOther Christians would say the sacraments, especially Holy Communion, are the most important part of their life. Catholic teaching calls the Eucharist 'the source and summit of the Christian life'. Others would point to reading the Bible, or to faith in Jesus itself, as more fundamental.\n\nPrayer that does not lead to action could be hypocritical; Jesus criticised people who prayed publicly to be seen but neglected justice and mercy (Matthew 23:23).\n\nJUSTIFIED CONCLUSION\n\nPrayer is undeniably vital — it is the foundation of a Christian's relationship with God and was central to Jesus' own life. However, Christianity also requires love in action, sacraments and study of scripture, and these are not less important. I conclude that prayer is one of the most important parts of Christian life, but it is best seen not as separate from the rest; rather, prayer should inspire and be expressed through love for others, as the two great commandments show.",
+   "evidence": [
+    "1 Thessalonians 5:17",
+    "Luke 5:16",
+    "Matthew 26:39",
+    "Mark 12:30–31",
+    "James 2:17",
+    "Matthew 25:31–46",
+    "Matthew 23:23",
+    "Catechism 1324"
+   ],
+   "examTip": "Compare prayer with at least two alternatives (e.g. service, sacraments).",
+   "answerTopic": "importance of prayer"
+  }
+ ]
+}

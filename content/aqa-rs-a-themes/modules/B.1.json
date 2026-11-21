@@ -1,0 +1,87 @@
+{
+ "paper": "Theme B",
+ "module": "B.1",
+ "moduleTitle": "The origins of the universe",
+ "note": {
+  "specFocus": "Religious teachings about the origins of the universe and different interpretations of these; the relationship between scientific views, such as the Big Bang theory, and religious views.",
+  "summary": "KEY TERMS\nCreation: the act of bringing the universe into being. Ex nihilo: 'out of nothing'. Big Bang theory: the scientific theory that the universe began about 13.8 billion years ago from an extremely hot, dense point and has been expanding ever since (evidence: red shift showing galaxies moving apart, discovered by Edwin Hubble; cosmic microwave background radiation, discovered 1964). Literalist (fundamentalist): reads scripture as literally, historically true. Non-literal (liberal): reads it as conveying spiritual truth through symbol and story.\n\nCHRISTIANITY\nGenesis 1 describes God creating in six days by speaking (\"And God said, 'Let there be light'\") and resting on the seventh; Genesis 2 tells of Adam formed from dust. John 1:1–3 says \"In the beginning was the Word… Through him all things were made\". Literalist (young-earth) creationists believe the universe was created in six 24-hour days only thousands of years ago. Most Christians in Britain, including the Catholic Church and Church of England, read Genesis non-literally and accept the Big Bang: God is the cause behind it, and science explains how, religion explains why. The Big Bang theory was first proposed by Georges Lemaître, a Catholic priest, in 1927.\n\nISLAM\nAllah is the creator of everything: \"Your Lord is God, who created the heavens and the earth in six days\" (Qur'an 7:54), where 'days' may mean long periods. Some Muslims see the Big Bang described in \"the heavens and the earth were joined together, then We split them apart\" (21:30) and the expansion of the universe in 51:47.\n\nHINDUISM\nThe universe goes through endless cycles of creation, preservation and destruction (Brahma, Vishnu, Shiva). The Nasadiya Sukta (Rig Veda 10.129) asks whether even the gods know how creation began. Many Hindus see the Big Bang as fitting a cyclical universe.\n\nJUDAISM\nShares the Genesis account; many Jews read it non-literally. Orthodox Jews may follow the traditional calendar, while others accept scientific dating.\n\nBUDDHISM\nThe Buddha did not teach about how the universe began, calling such questions 'unanswerable' and unhelpful for ending suffering (the parable of the poisoned arrow).\n\nNON-RELIGIOUS VIEWS\nAtheists and humanists accept the Big Bang as the best evidence-based explanation, and see no need for a creator; some, such as Stephen Hawking, argued that the laws of physics could explain the universe's beginning without God. Others ask, \"what caused the Big Bang?\" – which many religious people answer with God (links to the First Cause argument, Theme C).\n\nARE SCIENCE AND RELIGION IN CONFLICT?\nConflict view: literalist creationists and some atheists. Compatibility view: most Christians and many others – science answers 'how', religion answers 'why', and the order of Genesis 1 (light, then sea, then land, then life, then humans) is broadly similar to scientific order."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following means 'out of nothing'?\nA Ex nihilo\nB Big Bang\nC Stewardship\nD Evolution",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A Ex nihilo.\nChristians, Muslims and Jews believe God created the universe ex nihilo – out of nothing – rather than from pre-existing material.",
+   "evidence": [
+    "Genesis 1:1"
+   ],
+   "answerTopic": "creation",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one piece of scientific evidence for the Big Bang theory.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from: red shift (light from distant galaxies is stretched, showing they are moving away, so the universe is expanding); cosmic microwave background radiation; the abundance of light elements such as hydrogen and helium.",
+   "evidence": [
+    "Hubble's observations (1929)",
+    "CMB radiation (1964)"
+   ],
+   "answerTopic": "Big Bang",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about the Genesis account of creation.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Some literalist Christians believe the Genesis account is literally true: God created the universe in six 24-hour days only a few thousand years ago. They believe the Bible is the inspired word of God and cannot be wrong, so where science disagrees, science must be mistaken.\n\nBelief 2: In contrast, most Christians and many Jews in Britain read Genesis as a non-literal story that teaches spiritual truths – that God is the creator and that the world is good – and accept the Big Bang. They point out that a 'day' in Genesis does not have to mean 24 hours, and that the Big Bang theory was first proposed by a Catholic priest, Georges Lemaître, showing that faith and science can agree.",
+   "evidence": [
+    "Genesis 1",
+    "Georges Lemaître (1927)"
+   ],
+   "answerTopic": "creation",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about the relationship between the Big Bang theory and religious belief.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe the Big Bang theory is compatible with belief in God. They argue that science explains how the universe began while religion explains why, so God could have used the Big Bang as the way to bring the universe into being; the Catholic Church teaches that faith and reason do not contradict each other.\n\nBelief 2: Similarly, many Muslims in Britain believe the Big Bang fits with the Qur'an. They point to Qur'an 21:30, which says the heavens and earth were 'joined together' before Allah 'split them apart', and to 51:47 about the expanding heavens, as showing that scientific discoveries reveal the work of Allah the Creator.",
+   "evidence": [
+    "Catechism of the Catholic Church 159 (faith and science)",
+    "Qur'an 21:30",
+    "Qur'an 51:47"
+   ],
+   "answerTopic": "Big Bang",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about how the universe came into existence.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe God created the universe out of nothing (ex nihilo) by his word. Genesis 1:1 states 'In the beginning God created the heavens and the earth', and throughout the chapter God speaks and things come into being ('Let there be light'). This shows that God is all-powerful and that creation is deliberate and good – 'God saw all that he had made, and it was very good' (Genesis 1:31).\n\nBelief 2: Hindus believe the universe has no single beginning but goes through endless cycles of creation, preservation and destruction. Brahma creates, Vishnu preserves and Shiva destroys so that creation can begin again. The Rig Veda's Creation Hymn (Nasadiya Sukta, 10.129) even asks whether anyone truly knows how creation arose, which shows a humble and questioning approach to the origins of the universe.",
+   "evidence": [
+    "Genesis 1:1, 1:3, 1:31",
+    "Rig Veda 10.129 (Nasadiya Sukta)"
+   ],
+   "answerTopic": "creation",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Science has shown that God did not create the universe.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nSome atheists and humanists agree. The Big Bang theory, supported by red shift and cosmic microwave background radiation, explains the development of the universe from a hot, dense state about 13.8 billion years ago through natural laws. This contradicts a literal reading of Genesis, in which the world is made in six days a few thousand years ago. If science can explain the universe naturally, there is no need to add God as an explanation – this follows the principle that the simplest explanation is usually best (Ockham's razor). Scientists such as Stephen Hawking argued that the laws of physics could account for the universe coming into existence without a creator. So for these thinkers, science has made the idea of a creator unnecessary.\n\nARGUMENTS FOR A DIFFERENT VIEW\nHowever, most Christians argue that science has not shown this at all. Science explains how the universe developed but not why there is something rather than nothing, or what caused the Big Bang. The Big Bang theory itself was first proposed by Georges Lemaître, a Catholic priest, who saw no conflict with his faith. Many Christians read Genesis non-literally: its message is that God is the creator and that creation is good, not a scientific timetable. Some argue the Big Bang actually supports creation ex nihilo, because it suggests the universe had a beginning, which fits with the First Cause argument. Muslims point to Qur'an 21:30, where the heavens and the earth were 'joined together' and then split apart, as consistent with the Big Bang. The fine-tuning of the laws of physics for life is also seen by some as evidence of a designer.\n\nCONCLUSION\nScience has shown that a literal six-day creation is very unlikely, so the statement is true for literalist creationists. But science studies the natural world and cannot test something outside nature, so it cannot prove or disprove a creator God. The question of what began the Big Bang remains unanswered by science. I therefore disagree with the statement: science has changed how many believers understand creation, but it has not shown that God did not create the universe; the two can be seen as answering different questions.",
+   "evidence": [
+    "Genesis 1",
+    "Qur'an 21:30",
+    "Georges Lemaître",
+    "Stephen Hawking",
+    "Ockham's razor",
+    "Red shift and cosmic microwave background radiation"
+   ],
+   "answerTopic": "science and religion",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

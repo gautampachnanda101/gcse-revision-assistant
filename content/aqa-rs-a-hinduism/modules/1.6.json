@@ -1,0 +1,134 @@
+{
+ "paper": "Beliefs",
+ "module": "1.6",
+ "moduleTitle": "Personal virtues including ahimsa, respect, empathy, mind/sense control, humility, love",
+ "note": {
+  "specFocus": "Personal virtues including ahimsa, respect, empathy, mind/sense control, humility, love.",
+  "summary": "WHY VIRTUES MATTER\nHindus believe that developing good qualities purifies the mind, increases sattva, produces good karma and prepares the atman for moksha. The Bhagavad Gita lists \"divine qualities\" such as fearlessness, purity, self-control, non-violence, truthfulness, freedom from anger, compassion, gentleness and humility (16.1–3), and describes the qualities of a true devotee who is \"free from hatred, friendly and compassionate to all\" (12.13). The specification names six virtues.\n\nAHIMSA (NON-VIOLENCE)\nAhimsa means not harming any living being in thought, word or action. It follows from the belief that the atman is present in all beings and that God dwells in every heart. The Gita teaches that the wise \"see with equal vision a learned brahmin, a cow, an elephant, a dog and an outcaste\" (5.18). Ahimsa leads many Hindus to vegetarianism and opposition to cruelty. Mahatma Gandhi made ahimsa the basis of non-violent resistance (satyagraha) against British rule. Hindus debate whether ahimsa allows self-defence or a just war; the Gita is set on a battlefield and Krishna tells Arjuna to fight as his kshatriya duty, which some interpret literally and others (including Gandhi) symbolically.\n\nRESPECT\nRespect for others, especially parents, elders, teachers and guests, is a key virtue. The Taittiriya Upanishad (1.11.2) teaches: \"Treat your mother as God, treat your father as God, treat your teacher as God, treat your guest as God.\" Hindus show respect by touching the feet of elders (pranam), greeting with \"namaste\" (recognising the divine in the other), and caring for elderly relatives at home. Respect extends to all religions; Hindus often stress that there are many paths to God.\n\nEMPATHY\nEmpathy means feeling and understanding the joys and sufferings of others as if they were one's own. The Gita says the highest yogi is one who \"sees the pleasure and pain of all beings as if they were their own\" (6.32). Empathy grows from seeing the same atman in everyone, and it motivates seva and charity.\n\nMIND AND SENSE CONTROL\nSelf-discipline over the mind and the senses (indriyas) is essential for spiritual life. \"When a person withdraws the senses from sense objects, as a tortoise draws in its limbs, their wisdom is steady\" (Gita 2.58). The Katha Upanishad compares the senses to horses that must be controlled by the reins of the mind and the driver (intellect). Practices such as fasting, meditation, japa, celibacy for monks and avoiding intoxicants train self-control. \"For one who has conquered the mind, the mind is the best friend\" (Gita 6.6).\n\nHUMILITY\nHumility means freedom from pride and ego (ahankara). The Gita lists \"humility, freedom from pride, non-violence, tolerance and simplicity\" as the first qualities of knowledge (13.8). Bowing before the murti, serving others, and honouring the guru express humility. The 16th-century saint Chaitanya taught that one should be \"more humble than a blade of grass and more tolerant than a tree\" when chanting God's names.\n\nLOVE\nLove (prema) for God and for all beings is the heart of bhakti. Krishna says, \"Whoever offers me with love a leaf, a flower, a fruit or water, I accept that offering of love\" (Gita 9.26). Love of God naturally becomes love for all creatures in whom God lives. Saints such as Mirabai and Tulsidas expressed this love in poetry and song.\n\nTODAY\nThese virtues shape Hindu life in Britain: vegetarian temple kitchens, multigenerational families, respectful greetings, volunteering, and interfaith work (e.g. Hindu temples taking part in Interfaith Week)."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following virtues means non-violence?\nA) Ahimsa\nB) Ahankara\nC) Artha\nD) Arati",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) Ahimsa.\nAhimsa means not harming any living being. Ahankara is ego/pride, artha is wealth (an aim of life) and arati is a form of worship.",
+   "evidence": [
+    "Bhagavad Gita 16.2"
+   ],
+   "examTip": "All four options start with 'A' – read Sanskrit terms carefully.",
+   "answerTopic": "ahimsa"
+  },
+  {
+   "question": "Which one of the following is described in the Bhagavad Gita as withdrawing its limbs, as a picture of sense control?\nA) A cow\nB) A tortoise\nC) A swan\nD) An elephant",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) A tortoise.\nGita 2.58 compares a wise person who withdraws the senses from sense objects to a tortoise drawing in its limbs.",
+   "evidence": [
+    "Bhagavad Gita 2.58"
+   ],
+   "examTip": "Memorable images from scripture help you score source marks too.",
+   "answerTopic": "sense control"
+  },
+  {
+   "question": "Give one way in which Hindus show respect to elders.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: touching the feet of elders (pranam/charan sparsh); greeting them with namaste; caring for elderly parents at home; asking for their blessings at important times; obeying and listening to them.",
+   "evidence": [
+    "Taittiriya Upanishad 1.11.2"
+   ],
+   "examTip": "A practical example is enough.",
+   "answerTopic": "respect"
+  },
+  {
+   "question": "Give one personal virtue named in Hindu teaching, other than ahimsa.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: respect; empathy; mind/sense control; humility; love; truthfulness (satya); compassion (daya); self-discipline; tolerance.",
+   "evidence": [
+    "Bhagavad Gita 16.1–3"
+   ],
+   "examTip": "Learn the six named in the specification: ahimsa, respect, empathy, mind/sense control, humility, love.",
+   "answerTopic": "virtues"
+  },
+  {
+   "question": "Explain two ways in which belief in ahimsa influences Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Many Hindus are vegetarian because of ahimsa. They believe animals have an atman and that killing them causes suffering and bad karma, so they avoid meat, fish and often eggs. Temple kitchens in Britain, such as those at Bhaktivedanta Manor or Neasden Mandir, serve only vegetarian food.\n\nSecond way: Ahimsa encourages Hindus to resolve conflict peacefully and to avoid harm in words and thoughts as well as actions. Following Gandhi's example of non-violent protest, some Hindus campaign peacefully for justice, and many try to avoid anger, insults or bullying in daily life and work.",
+   "evidence": [
+    "Ahimsa",
+    "Gandhi – satyagraha",
+    "Vegetarianism"
+   ],
+   "examTip": "Include ahimsa in thought and word, not just physical action, for a fuller development.",
+   "answerTopic": "ahimsa influence"
+  },
+  {
+   "question": "Explain two ways in which the virtue of mind and sense control influences Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Many Hindus fast on certain days, such as Ekadashi (the eleventh day of the lunar fortnight) or during Navaratri, avoiding grains or eating only once. This trains the senses to accept discipline and is believed to purify the mind and help them focus on God.\n\nSecond way: Hindus practise meditation, japa or yoga to steady the mind. A Hindu might chant a mantra on a mala of 108 beads each morning. This helps them stay calm and control anger or desire in everyday life, following the Gita's teaching that a controlled mind is 'the best friend' (6.6).",
+   "evidence": [
+    "Ekadashi fasting",
+    "Japa",
+    "Bhagavad Gita 6.6"
+   ],
+   "examTip": "Name a specific practice (fasting, japa, meditation) for each 'way'.",
+   "answerTopic": "sense control influence"
+  },
+  {
+   "question": "Explain two Hindu teachings about the virtues of respect and empathy.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Hindus are taught to respect parents, teachers and guests as if they were God. The Taittiriya Upanishad (1.11.2) instructs, 'Treat your mother as God, treat your father as God, treat your teacher as God, treat your guest as God.' This is why many Hindus touch the feet of their elders, care for grandparents at home and offer hospitality to visitors.\n\nSecond teaching: Hindus should feel the joys and sufferings of others as their own. In the Bhagavad Gita (6.32) Krishna says that the highest yogi is the one who 'sees the pleasure and pain of all beings as if they were their own'. Because the same atman and the same God are present in all beings, empathy is a natural result of spiritual understanding, and it motivates Hindus to help those in need through seva and charity.",
+   "evidence": [
+    "Taittiriya Upanishad 1.11.2",
+    "Bhagavad Gita 6.32"
+   ],
+   "examTip": "Each teaching can have its own source – that makes the source mark secure.",
+   "answerTopic": "respect and empathy"
+  },
+  {
+   "question": "Explain two Hindu teachings about humility and love.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Humility – freedom from pride and ego (ahankara) – is essential for spiritual progress. The Gita lists 'humility, freedom from pride, non-violence, tolerance and simplicity' as qualities of true knowledge (13.8). Pride makes a person think they are the controller, which strengthens attachment to the body. The saint Chaitanya taught that devotees should be 'more humble than a blade of grass', which is why Hindus bow before the murti and serve others.\n\nSecond teaching: Love (prema/bhakti) is the highest response to God. Krishna says, 'Whoever offers me with love a leaf, a flower, a fruit or water, I accept that offering' (Gita 9.26). This shows that God values sincere love more than expensive offerings, so even the poorest person can worship. Love of God then extends to all beings – the devotee is 'friendly and compassionate to all' (Gita 12.13).",
+   "evidence": [
+    "Bhagavad Gita 9.26, 12.13, 13.8",
+    "Chaitanya – Shikshashtakam verse 3"
+   ],
+   "examTip": "Gita 9.26 is very useful for worship questions too.",
+   "answerTopic": "humility and love"
+  },
+  {
+   "question": "'Ahimsa is the most important Hindu virtue.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nAhimsa is often described as the highest dharma (\"ahimsa paramo dharmah\", a phrase found in the Mahabharata). It follows directly from central Hindu beliefs: if the eternal atman is present in all living beings, and God dwells in every heart (Gita 18.61), then harming any being is harming the divine. The Gita says the wise see \"with equal vision\" a brahmin, a cow, an elephant, a dog and an outcaste (5.18).\n\nAhimsa also affects every area of life. It is the basis of Hindu vegetarianism, cow protection and care for the environment, and it shapes how Hindus speak and think, not only how they act. It also prevents the creation of bad karma, helping the soul towards moksha. Mahatma Gandhi showed its power by using non-violence to resist British rule, inspiring movements around the world, including Martin Luther King's civil rights campaign. For Gandhi, ahimsa and truth were inseparable.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nOthers argue that love is the most important virtue. In the bhakti traditions, loving devotion to God is the goal of life, and Krishna says that he accepts even a leaf offered \"with love\" (Gita 9.26). Love of God naturally produces ahimsa, empathy and humility, so love is the root from which the other virtues grow.\n\nSome would say humility or self-control is most important, because pride and uncontrolled senses lead to every other wrong. The Gita lists humility first among the qualities of knowledge (13.8), and teaches that controlling the mind makes it \"the best friend\" (6.6). Without self-control, a person cannot practise ahimsa consistently.\n\nThere are also limits to ahimsa. The Gita itself is set on a battlefield and Krishna urges Arjuna to fight as his duty (dharma) as a warrior. Many Hindus accept self-defence or protecting the innocent as sometimes necessary, which suggests that dharma – doing one's duty – may be more important than ahimsa in some situations.\n\nCONCLUSION\n\nAhimsa has a strong claim to be the most important Hindu virtue because it is rooted in the belief in the atman in all beings and it shapes daily life so widely. However, Hindu teaching treats the virtues as interconnected, and in bhakti traditions love is seen as the source of all the others. I conclude that ahimsa is the most visible and widely emphasised virtue, but love of God and all beings is arguably more fundamental, since it is what makes true non-violence possible.",
+   "evidence": [
+    "'Ahimsa paramo dharmah' (Mahabharata)",
+    "Bhagavad Gita 5.18, 6.6, 9.26, 13.8, 18.61",
+    "Gandhi",
+    "Arjuna's duty to fight"
+   ],
+   "examTip": "Compare ahimsa with at least two other named virtues and with dharma to show breadth.",
+   "answerTopic": "ahimsa importance"
+  },
+  {
+   "question": "'It is impossible to practise ahimsa in the modern world.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nAhimsa means not harming any living being in thought, word or action. In the modern world it seems almost impossible to live without causing some harm. Farming kills insects and destroys habitats, cars and planes contribute to pollution and climate change, and many everyday products – clothes, phones, medicines – may involve exploitation of workers or testing on animals. Even a strict vegetarian diet may rely on dairy farming, in which male calves are often slaughtered.\n\nConflict also makes ahimsa difficult. Countries keep armies, and individuals may face violence. The Bhagavad Gita itself shows Krishna telling Arjuna to fight in a war, which suggests that complete non-violence is not always possible or right. In a competitive society, harsh words and anger online and at work are common.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, Hindu teaching does not demand perfection; it asks people to minimise harm. Ahimsa begins with intention: the Gita teaches that what matters is acting with a pure mind and without selfish desire. A person who tries to reduce harm, rather than causing it deliberately, is practising ahimsa.\n\nMany Hindus practise ahimsa successfully today. Millions are vegetarian; some British Hindus choose ethically produced milk, such as from the cow-protection farm at Bhaktivedanta Manor, where cows are never slaughtered. Others take part in environmental projects such as the Bhumi Project, or support animal welfare. Ahimsa in word and thought – avoiding gossip, bullying and hatred – is possible for anyone, whatever the world is like.\n\nGandhi showed that ahimsa can work even on a national scale: his non-violent campaigns helped bring independence to India in 1947, and inspired others such as Martin Luther King. If non-violence could challenge an empire, it can certainly guide modern life.\n\nFinally, modern life also makes ahimsa easier in some ways: plant-based foods, ethical labels and information about supply chains help people make less harmful choices than ever before.\n\nCONCLUSION\n\nIt is true that complete, perfect ahimsa is probably impossible, because almost every action causes some harm. But Hindu teaching treats ahimsa as an ideal and a direction of life, focused on intention and minimising harm. Because millions of Hindus practise it meaningfully today, through diet, speech, environmental care and peaceful action, I disagree with the statement: ahimsa is difficult but not impossible.",
+   "evidence": [
+    "Ahimsa in thought, word and deed",
+    "Bhumi Project",
+    "Bhaktivedanta Manor cow protection",
+    "Gandhi",
+    "Bhagavad Gita – Arjuna's duty"
+   ],
+   "examTip": "Distinguish 'perfect' practice from sincere practice – this helps you reach a nuanced conclusion.",
+   "answerTopic": "ahimsa today"
+  }
+ ]
+}

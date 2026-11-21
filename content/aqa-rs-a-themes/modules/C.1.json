@@ -1,0 +1,87 @@
+{
+ "paper": "Theme C",
+ "module": "C.1",
+ "moduleTitle": "The Design argument and the First Cause argument",
+ "note": {
+  "specFocus": "The Design argument, including its strengths and weaknesses; the First Cause argument, including its strengths and weaknesses. (For 4-mark questions in Theme C, contrast Christianity with non-religious beliefs such as atheism and humanism.)",
+  "summary": "KEY TERMS\nTheist: believes in God. Atheist: believes there is no God. Agnostic: believes it is not possible to know whether God exists. Design argument (teleological argument): the universe shows signs of design, so it must have a designer – God. First Cause argument (cosmological argument): everything has a cause, so there must be a first, uncaused cause – God. Fine-tuning: the physical constants of the universe are precisely set for life to exist.\n\nTHE DESIGN ARGUMENT\nWilliam Paley (1802), the watchmaker analogy: if you found a watch on a heath, its intricate parts working together for a purpose would show it had a designer; the universe (e.g. the human eye) is far more complex, so it too must have a designer – God. Isaac Newton is said to have argued that the thumb alone convinced him of God's existence. Thomas Aquinas (Fifth Way): things without intelligence, like planets, act towards a purpose, so they must be directed by an intelligent being. F.R. Tennant's anthropic principle: the universe was perfectly suited for human life to develop, which suggests design. Scripture: \"The heavens declare the glory of God\" (Psalm 19:1); \"Since the creation of the world God's invisible qualities… have been clearly seen\" (Romans 1:20). The Qur'an often points to signs (ayat) in nature, e.g. 3:190.\nStrengths: based on observation; complexity and fine-tuning are striking; many find it intuitively convincing.\nWeaknesses: David Hume argued we cannot compare the universe to a machine because we have no experience of universes being made; the design might come from many gods or a poor designer. Charles Darwin's theory of evolution by natural selection explains apparent design without a designer. Evil, suffering and natural disasters suggest a flawed design. The universe could have arisen by chance (and, if there are many universes, one would be suitable for life).\n\nTHE FIRST CAUSE ARGUMENT\nThomas Aquinas (Second and Third Ways): everything that exists has a cause; a chain of causes cannot go back infinitely; so there must be a first cause which was not itself caused – God. Kalam argument (Islamic origin, e.g. al-Ghazali): everything that begins to exist has a cause; the universe began to exist; so it has a cause. The Big Bang is seen by some theists as supporting a beginning. Genesis 1:1 \"In the beginning God created…\"\nStrengths: matches the common-sense idea that things have causes; fits with the Big Bang suggesting a beginning.\nWeaknesses: if everything needs a cause, what caused God? (A theist reply: God is eternal and necessary, so needs no cause.) Why can't the universe be infinite, or itself uncaused? Bertrand Russell argued that the universe is 'just there, and that's all'. Even if there is a first cause, it need not be the loving God of religion. The Big Bang itself could be the first cause.\n\nNON-RELIGIOUS VIEWS\nAtheists and humanists usually find these arguments unconvincing and prefer scientific explanations; Richard Dawkins argues that any designer would need to be even more complex than the universe and so needs explaining too."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following philosophers used the watchmaker analogy to argue for God's existence?\nA Bertrand Russell\nB David Hume\nC William Paley\nD Charles Darwin",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C William Paley.\nIn Natural Theology (1802) Paley compared the universe to a watch found on a heath: its complexity and purpose point to a designer. Hume and Russell criticised arguments for God; Darwin's theory of evolution is often used against the design argument.",
+   "evidence": [
+    "William Paley, Natural Theology (1802)"
+   ],
+   "answerTopic": "design argument",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one weakness of the First Cause argument.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: if everything has a cause, what caused God?; the universe could have existed forever/an infinite chain of causes may be possible; the Big Bang could be the first cause without God; the first cause need not be the God of religion (all-loving, personal); the universe may just be a 'brute fact' (Russell).",
+   "evidence": [
+    "Bertrand Russell (1948 BBC debate with Copleston)"
+   ],
+   "answerTopic": "first cause argument",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about the Design argument.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe the Design argument shows that God exists. The complexity of things such as the human eye, and the way the universe is fine-tuned for life, suggests a designer, just as Paley argued that a watch must have a watchmaker; Psalm 19:1 says 'The heavens declare the glory of God'.\n\nBelief 2: In contrast, many atheists and humanists reject the Design argument. They argue that Darwin's theory of evolution by natural selection explains how complex living things develop gradually without a designer, and that natural disasters and diseases suggest the world is not well designed by a loving God.",
+   "evidence": [
+    "William Paley's watch analogy",
+    "Psalm 19:1",
+    "Charles Darwin, On the Origin of Species (1859)"
+   ],
+   "answerTopic": "design argument",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about the First Cause argument.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians accept the First Cause argument. Following Thomas Aquinas, they argue that everything has a cause and there cannot be an infinite chain of causes, so there must be an uncaused first cause – God, who 'in the beginning… created the heavens and the earth' (Genesis 1:1) – and they see the Big Bang as evidence that the universe had a beginning.\n\nBelief 2: In contrast, many atheists argue the argument contradicts itself: if everything needs a cause, then God needs a cause too. Bertrand Russell argued that the universe might simply exist without any explanation – it is 'just there' – so there is no reason to conclude it was caused by God.",
+   "evidence": [
+    "Thomas Aquinas, Summa Theologica (Five Ways)",
+    "Genesis 1:1",
+    "Bertrand Russell"
+   ],
+   "answerTopic": "first cause argument",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about what the natural world shows about God.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe the beauty and order of nature show that God is the creator. Paul wrote that 'since the creation of the world God's invisible qualities – his eternal power and divine nature – have been clearly seen, being understood from what has been made' (Romans 1:20). This is why many Christians see the Design argument as reasonable, and feel awe and wonder at the natural world.\n\nBelief 2: Muslims believe nature is full of signs (ayat) of Allah. The Qur'an says 'in the creation of the heavens and the earth and the alternation of night and day there are signs for people of understanding' (3:190). This means studying the natural world can lead people to recognise Allah's power and wisdom, and Muslims believe Allah's oneness (tawhid) is reflected in the unity and order of creation.",
+   "evidence": [
+    "Romans 1:20",
+    "Qur'an 3:190",
+    "Psalm 19:1"
+   ],
+   "answerTopic": "design argument",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'The First Cause argument proves that God exists.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany Christians and Muslims think the First Cause argument is convincing. Thomas Aquinas argued that everything we observe is caused by something else, and that a chain of causes cannot go back for ever, because then nothing would have started it. Therefore there must be a first cause that was not itself caused, and this is what people call God. This fits with Genesis 1:1, 'In the beginning God created the heavens and the earth', and with Muslim belief in Allah as al-Khaliq (the Creator). The Kalam version, developed by Muslim thinkers such as al-Ghazali, argues that whatever begins to exist has a cause, and the universe began to exist, so it has a cause. The Big Bang theory seems to support this, because it suggests that the universe had a beginning about 13.8 billion years ago. Believers argue that God is eternal, so God does not need a cause.\n\nARGUMENTS FOR A DIFFERENT VIEW\nAtheists and humanists argue the argument does not prove anything. If everything needs a cause, it is inconsistent to say that God does not. If God can be uncaused, why can't the universe be uncaused? Bertrand Russell argued that the universe is just a 'brute fact' – it may not need any explanation. Some scientists suggest the Big Bang may have resulted from natural processes or a previous universe, so there is no need to bring in God. Even if there were a first cause, it would not have to be the all-loving, all-powerful, personal God of Christianity or Islam – it could be an impersonal force. Some Christians also accept that the argument is not a proof: they believe in God through faith and revelation, and see the argument only as supporting what they already believe.\n\nCONCLUSION\nThe First Cause argument raises a powerful question – why is there something rather than nothing? – which science has not fully answered. However, a proof should leave no room for reasonable doubt, and the argument depends on assumptions (that an infinite chain is impossible, that God is the only possible first cause) which can reasonably be questioned. I conclude that the argument does not prove that God exists, but it can make belief in God reasonable for someone who already accepts other evidence, such as religious experience or scripture.",
+   "evidence": [
+    "Thomas Aquinas' Second/Third Ways",
+    "Kalam argument (al-Ghazali)",
+    "Genesis 1:1",
+    "Bertrand Russell's 'brute fact'",
+    "Big Bang theory"
+   ],
+   "answerTopic": "first cause argument",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

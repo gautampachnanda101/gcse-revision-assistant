@@ -1,0 +1,141 @@
+{
+ "paper": "Beliefs",
+ "module": "1.7",
+ "moduleTitle": "The seven sacraments, especially the Eucharist as 'source and summit' of Christian life",
+ "note": {
+  "specFocus": "AQA 8062 Catholic Christianity, the seven sacraments: names, meaning and effects of Baptism, Confirmation, Reconciliation, Anointing of the Sick, Matrimony, Holy Orders and the Eucharist; the Eucharist as 'the source and summit of Christian life'; different Christian views on the meaning and importance of the Eucharist.",
+  "summary": "THE SEVEN SACRAMENTS fall into three groups (CCC 1210–1212).\n\nSACRAMENTS OF INITIATION\n• Baptism (CCC 1213–1284): \"the gateway to life in the Spirit\". The signs are water poured three times with the words \"I baptise you in the name of the Father, and of the Son, and of the Holy Spirit\" (Matthew 28:19). Anointing with chrism, a white garment and a lighted candle follow. Effects: it removes original sin (and all sin), gives new birth as a child of God and makes the person a member of the Church. It leaves an indelible spiritual \"character\", so it is never repeated. Catholics usually baptise infants.\n• Confirmation (CCC 1285–1321): the bishop lays hands on the candidate and anoints the forehead with chrism: \"Be sealed with the Gift of the Holy Spirit.\" Effects: it strengthens baptismal grace and gives the seven gifts of the Spirit (wisdom, understanding, counsel, fortitude, knowledge, piety, fear of the Lord, Isaiah 11:2). It makes the person a mature witness to Christ, like the apostles at Pentecost (Acts 2; 8:14–17).\n• Eucharist (CCC 1322–1419): see below.\n\nSACRAMENTS OF HEALING\n• Reconciliation (Penance/Confession) (CCC 1422–1498): contrition, confession of sins to a priest, penance and absolution: \"I absolve you from your sins…\". Effects: forgiveness of sins committed after baptism and reconciliation with God and the Church. It is based on John 20:22–23: \"If you forgive the sins of any, they are forgiven them.\"\n• Anointing of the Sick (CCC 1499–1532): the priest lays on hands and anoints the forehead and hands of the seriously ill, frail elderly or dying with the oil of the sick. Effects: strength, peace and courage, forgiveness of sins and sometimes physical healing. It unites suffering with Christ. It is based on James 5:14–15.\n\nSACRAMENTS AT THE SERVICE OF COMMUNION\n• Matrimony (CCC 1601–1666): a lifelong, exclusive covenant between a baptised man and woman. The couple themselves are the ministers, and they exchange vows and consent. Effects: grace to love faithfully and to be open to children. It is indissoluble: \"what God has joined together, let no one separate\" (Mark 10:9).\n• Holy Orders (CCC 1536–1600): bishop, priest (presbyter) and deacon. A bishop lays on hands and says the prayer of consecration. Effects: an indelible character to act \"in the person of Christ\", to celebrate the sacraments, preach and lead the people. Only baptised men are ordained in the Catholic Church.\n\nTHE EUCHARIST – \"SOURCE AND SUMMIT\"\nVatican II calls the Eucharist \"the source and summit of the Christian life\" (Lumen Gentium 11; CCC 1324). It is the source because all grace and the life of the Church flow from Christ present in it. It is the summit because all Christian life and worship lead towards it. The other sacraments are \"oriented towards it\".\n• Institution: at the Last Supper Jesus took bread and said \"This is my body\", and took the cup, \"This is my blood\" (Luke 22:19–20; 1 Corinthians 11:23–26). \"Do this in remembrance of me.\"\n• Real Presence and transubstantiation: at the consecration, the substance of bread and wine becomes the Body and Blood of Christ, while the appearances (accidents) remain (Council of Trent; CCC 1374–1376). \"My flesh is true food and my blood is true drink\" (John 6:55).\n• Sacrifice: the Mass makes present the one sacrifice of Calvary. It is not a new sacrifice (CCC 1366–1367).\n• Communion: receiving Christ unites Catholics with him and with one another. Catholics must attend Mass on Sundays and holy days, and receive Communion at least once a year at Easter. Holy Communion is reserved in the tabernacle and adored (Eucharistic adoration). Pope Francis's Desiderio Desideravi (2022) reflects on the beauty of the liturgy.\n\nDIFFERENT CHRISTIAN VIEWS OF THE EUCHARIST\n• Orthodox: real presence, described as a mystery without the term transubstantiation.\n• Lutheran: Christ is truly present \"in, with and under\" the bread and wine (sacramental union). Luther rejected transubstantiation.\n• Anglican: a range of views, from real presence (Anglo-Catholic) to spiritual presence. Holy Communion is central but celebrated less often in some parishes.\n• Many Baptists, Pentecostals and other evangelicals (following Zwingli): a memorial, a symbolic remembrance (the Lord's Supper/breaking of bread).\n• Quakers and the Salvation Army: no outward Eucharist.\n\nKEY TERMS: initiation, chrism, indelible character, absolution, contrition, consecration, transubstantiation, Real Presence, source and summit, tabernacle, memorialism."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is a sacrament of healing?\nA) Confirmation\nB) Holy Orders\nC) Anointing of the Sick\nD) Matrimony",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: C) Anointing of the Sick.\n\nThe two sacraments of healing are Reconciliation and Anointing of the Sick. Confirmation is a sacrament of initiation. Holy Orders and Matrimony are sacraments at the service of communion.",
+   "evidence": [
+    "CCC 1420–1421"
+   ],
+   "examTip": "Learn the three groups: initiation (Baptism, Confirmation, Eucharist), healing (Reconciliation, Anointing), service of communion (Holy Orders, Matrimony).",
+   "answerTopic": "Groups of sacraments"
+  },
+  {
+   "question": "What is the Catholic term for the change of the bread and wine into the Body and Blood of Christ?\nA) Consubstantiation\nB) Transubstantiation\nC) Incarnation\nD) Memorialism",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: B) Transubstantiation (Council of Trent; CCC 1376).\n\nThe substance changes while the appearances remain. Consubstantiation is a term sometimes (loosely) used for the Lutheran view. Memorialism is the symbolic view of Zwingli and many evangelicals. Incarnation refers to God becoming human.",
+   "evidence": [
+    "CCC 1376",
+    "Council of Trent"
+   ],
+   "examTip": "Spell 'transubstantiation' correctly. It is a key specialist term that also helps your SPaG mark in 12-mark answers.",
+   "answerTopic": "Transubstantiation"
+  },
+  {
+   "question": "Give one effect of the sacrament of Baptism.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from:\n• Removes original sin (and all personal sin)\n• Makes the person a child of God / gives new life in the Spirit\n• Makes the person a member of the Church\n• Gives an indelible spiritual mark (character)\n• Opens the way to the other sacraments",
+   "evidence": [
+    "CCC 1263–1274",
+    "John 3:5"
+   ],
+   "examTip": "Effects are what the sacrament does, not what happens in the ceremony. 'Removes original sin', not 'water is poured'.",
+   "answerTopic": "Baptism"
+  },
+  {
+   "question": "Give one sign (matter or action) used in the sacrament of Confirmation.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from:\n• Anointing of the forehead with chrism (holy oil)\n• Laying on of hands by the bishop\n• The words 'Be sealed with the Gift of the Holy Spirit'\n• Choosing a Confirmation name / sponsor (accept as part of the rite)",
+   "evidence": [
+    "Acts 8:14–17",
+    "CCC 1300"
+   ],
+   "examTip": "Precise answers score: 'chrism' is better than just 'oil'.",
+   "answerTopic": "Confirmation"
+  },
+  {
+   "question": "Explain two ways in which belief in the Real Presence of Christ in the Eucharist influences Catholics today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Catholics show great reverence towards the Eucharist (1 mark). They genuflect towards the tabernacle when entering church, fast for an hour before receiving Holy Communion and receive it with an 'Amen', because they believe it truly is Jesus, not just bread (2nd mark).\n\nSecond way: Catholics attend Mass regularly and take part in Eucharistic adoration (1 mark). Because the Eucharist is 'the source and summit of the Christian life', they make Sunday Mass a priority. Many also spend time praying before the Blessed Sacrament in exposition or join Corpus Christi processions, as a way of being with Christ (2nd mark).",
+   "evidence": [
+    "Lumen Gentium 11; CCC 1324",
+    "CCC 1378–1379 (adoration)",
+    "Eucharistic fast"
+   ],
+   "examTip": "Use specific practices (genuflection, the Eucharistic fast, adoration) to show influence clearly.",
+   "answerTopic": "Eucharist – influence"
+  },
+  {
+   "question": "Explain two different Christian beliefs about the meaning of the Eucharist.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First belief: Catholics believe in transubstantiation (1 mark). At the consecration the bread and wine truly become the Body and Blood of Christ, though they still look and taste the same. Catholics take Jesus's words 'This is my body' (Luke 22:19) literally, so the consecrated host is worshipped as Christ himself (2nd mark).\n\nSecond belief: Many Protestant Christians, such as Baptists, see the Lord's Supper as a memorial (1 mark). The bread and wine remain bread and wine and are symbols that help believers remember Jesus's death, following his command 'Do this in remembrance of me'. This view comes from the reformer Zwingli (2nd mark).\n\n(Also creditworthy: the Lutheran view of real presence 'in, with and under' the bread and wine, or the Quaker view that no outward Eucharist is needed.)",
+   "evidence": [
+    "Luke 22:19",
+    "Council of Trent",
+    "Zwingli",
+    "Lutheran sacramental union"
+   ],
+   "examTip": "Name the denomination for each view. 'Some Christians…' is vague and may cost the development mark.",
+   "answerTopic": "Eucharist – diversity"
+  },
+  {
+   "question": "Explain two reasons why the Eucharist is described as 'the source and summit of the Christian life'.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: It is the 'source' because the whole life of the Church flows from it (1 mark). In Holy Communion Catholics receive Christ himself, who gives them grace and strength to live as his followers during the week. The Eucharist builds up the Church as the Body of Christ, uniting Catholics with one another (2nd mark).\n\nSecond reason: It is the 'summit' because it is the highest point of Christian worship (1 mark). The Mass makes present Christ's one sacrifice on the cross, and all other sacraments and prayers lead towards this moment of union with God (CCC 1324), which is a foretaste of heaven (2nd mark).\n\nSource of authority: Jesus says in John 6:54, 'Those who eat my flesh and drink my blood have eternal life, and I will raise them up on the last day.' This shows that the Eucharist is the source of eternal life, which is why the Church gives it such a central place. The phrase 'source and summit' itself comes from Lumen Gentium 11 (2 marks).",
+   "evidence": [
+    "Lumen Gentium 11; CCC 1324",
+    "John 6:54",
+    "1 Corinthians 10:17",
+    "CCC 1366"
+   ],
+   "examTip": "Explain both parts of the phrase, 'source' and 'summit'. That gives you a natural two-point structure.",
+   "answerTopic": "Source and summit"
+  },
+  {
+   "question": "Explain two Catholic teachings about the sacrament of Reconciliation.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Reconciliation truly forgives sins committed after baptism (1 mark). Through the priest's words of absolution, God forgives the penitent, provided they are truly sorry (contrite), confess their sins honestly and are willing to do penance. It is required for mortal sin before receiving Communion (2nd mark).\n\nSecond teaching: Reconciliation restores a person's relationship with the Church as well as with God (1 mark). Because sin damages the whole community, the priest acts in the name of the Church, and the penitent is reconciled with others. Penance, such as prayer or putting right a wrong, helps repair the harm done (2nd mark).\n\nSource of authority: After the resurrection Jesus breathed on the apostles and said, 'Receive the Holy Spirit. If you forgive the sins of any, they are forgiven them' (John 20:22–23). Catholics believe this gave the apostles, and the priests who succeed them, the authority to forgive sins in Christ's name (2 marks).",
+   "evidence": [
+    "John 20:22–23",
+    "Luke 15:11–32 (Prodigal Son)",
+    "CCC 1422–1424, 1440–1449"
+   ],
+   "examTip": "Learn the four parts of the rite: contrition, confession, penance, absolution. They make excellent development.",
+   "answerTopic": "Reconciliation"
+  },
+  {
+   "question": "'The Eucharist is the most important sacrament.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Catholic Church calls the Eucharist 'the source and summit of the Christian life' (Lumen Gentium 11; CCC 1324). No other sacrament is described in this way. The Catechism says that the other sacraments 'are bound up with the Eucharist and are oriented toward it'. In the Eucharist, Catholics believe they receive not just grace but Christ himself, really present through transubstantiation. 'My flesh is true food and my blood is true drink' (John 6:55).\n\nThe Eucharist is also the sacrament Catholics receive most often, weekly or even daily, so it has the greatest ongoing impact on their spiritual life. It makes present Christ's sacrifice on the cross (CCC 1366), unites the Church as one body (1 Corinthians 10:17) and gives 'eternal life' (John 6:54). It is why Catholics must attend Mass on Sundays and why churches have a tabernacle and sanctuary lamp.\n\nARGUMENTS AGAINST\n\nBaptism could be seen as more important, because without it a person cannot receive any other sacrament. It is 'the gateway to life in the Spirit' (CCC 1213). It removes original sin and makes someone a member of the Church, and Jesus said 'no one can enter the kingdom of God without being born of water and Spirit' (John 3:5). In an emergency, anyone can baptise, which shows how vital the Church considers it.\n\nOthers might argue that Reconciliation matters most for someone who has committed serious sin, because it restores the life of grace, and a person in mortal sin should not receive Communion until they have been reconciled. For a dying person, the Anointing of the Sick, together with Viaticum (final Communion), may feel most important.\n\nMany Protestants would disagree with the Catholic emphasis on the Eucharist altogether. For memorialists, the Lord's Supper is a symbolic act of remembrance, important but not more important than preaching the Word. Quakers do not practise it at all.\n\nIt can also be argued that ranking sacraments is unhelpful. They all come from Christ and together accompany a person through life, from birth (Baptism), through growing up (Confirmation) and calling (Matrimony or Holy Orders), to sickness and death (Anointing).\n\nCONCLUSION\n\nBaptism is necessary first, and each sacrament has its own role. However, the strongest argument from a Catholic perspective is that the Eucharist is the most important, because the Church explicitly teaches that it is the source and summit of Christian life and that the other sacraments are directed towards it. Baptism opens the door, but the Eucharist is the goal of Christian initiation and the repeated meeting with Christ himself. So the statement is justified within Catholic teaching, even if other Christians would not agree.",
+   "evidence": [
+    "Lumen Gentium 11; CCC 1324, 1213, 1366",
+    "John 6:54–55; 3:5",
+    "1 Corinthians 10:17",
+    "Memorialist and Quaker views"
+   ],
+   "examTip": "Weigh the Eucharist against at least one other named sacrament, such as Baptism. A comparison gives real evaluation.",
+   "answerTopic": "Eucharist – evaluation"
+  },
+  {
+   "question": "'Infant baptism should not be allowed because babies cannot choose for themselves.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nBaptism involves making promises to reject sin and believe in God. A baby cannot understand or make those promises, so it can be argued that the sacrament is being done to them rather than chosen by them. Many people today value personal choice and believe religion should be freely chosen when a person is old enough to understand.\n\nSome Christians agree for religious reasons. Baptists and many Pentecostal churches practise 'believer's baptism', usually by full immersion, for those old enough to profess faith. They point out that in the New Testament people were baptised after repenting and believing: 'Repent, and be baptised every one of you' (Acts 2:38). Jesus himself was baptised as an adult (Matthew 3). On this view, infant baptism has no clear biblical basis.\n\nARGUMENTS AGAINST\n\nThe Catholic Church teaches that baptism is a free gift of God's grace, not a reward for a choice. Because children are born with original sin, baptism frees them from it and makes them children of God (CCC 1250). Waiting would deny them this grace. The Church has baptised infants since early times, and the New Testament records whole 'households' being baptised (Acts 16:15, 33), which probably included children.\n\nParents make many important choices for their children, such as diet, education and language, because they love them and want the best for them. Catholic parents believe faith is the greatest gift they can give. At the baptism the parents and godparents make the promises on the child's behalf and commit to bringing them up in the faith. The child later confirms this personally at Confirmation, so they do have their own choice later.\n\nJesus welcomed children: 'Let the little children come to me… for it is to such as these that the kingdom of God belongs' (Mark 10:14). Catholics see infant baptism as following this welcome. Grace comes before any human response, just as God's love comes before we can love him.\n\nCONCLUSION\n\nThe statement raises a fair point about personal choice, and it is supported by Baptist practice and by many non-religious people. However, it assumes baptism is mainly about the person's own decision. For Catholics, baptism is mainly about God's gift: removing original sin and welcoming a child into God's family. The child is later free to affirm or reject that faith. Given this, the more convincing argument, from a Catholic perspective, is that infant baptism should be allowed, because it gives children grace from the start and does not remove their later freedom.",
+   "evidence": [
+    "CCC 1250–1252",
+    "Acts 2:38; 16:15, 33",
+    "Mark 10:14",
+    "Matthew 3",
+    "Believer's baptism (Baptists)"
+   ],
+   "examTip": "Bring in different Christian views (Catholic versus Baptist) as well as non-religious views. That shows a 'reasoned consideration of different points of view'.",
+   "answerTopic": "Baptism – evaluation"
+  }
+ ]
+}

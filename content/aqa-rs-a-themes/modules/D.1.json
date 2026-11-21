@@ -1,0 +1,91 @@
+{
+ "paper": "Theme D",
+ "module": "D.1",
+ "moduleTitle": "Peace, justice, forgiveness and reconciliation; violence, violent protest and terrorism",
+ "note": {
+  "specFocus": "The meaning and significance of peace, justice, forgiveness and reconciliation; violence, including violent protest; terrorism. Contrasting beliefs on violence (Christianity + one or more other religious traditions) are required.",
+  "summary": "KEY TERMS\nPeace: the absence of conflict, and more positively a state of harmony and wellbeing (Hebrew shalom, Arabic salaam). Justice: bringing about what is right and fair; making up for wrongs. Forgiveness: showing mercy and pardoning someone for what they have done wrong. Reconciliation: restoring friendly relationships after conflict. Violence: using actions that threaten or harm others. Protest: expressing disapproval, often publicly. Terrorism: the unlawful use of violence, usually against civilians, to further a political, religious or ideological cause.\n\nCHRISTIANITY\nJesus is called the 'Prince of Peace' (Isaiah 9:6); \"Blessed are the peacemakers\" (Matthew 5:9). Jesus taught forgiveness \"seventy-seven times\" (Matthew 18:22) and forgave those who crucified him (Luke 23:34). \"Do not repay anyone evil for evil\" (Romans 12:17); \"turn the other cheek\" (Matthew 5:39). Justice: \"Let justice roll on like a river\" (Amos 5:24). Most Christians support peaceful protest (e.g. Martin Luther King Jr's non-violent civil rights campaign). Violence is generally rejected, though Jesus overturned the money-changers' tables in the Temple (John 2) – some argue this shows righteous anger. Christians condemn terrorism because it kills innocent people, breaking \"Do not kill\". Coventry Cathedral, bombed in 1940, became a centre of reconciliation (the Community of the Cross of Nails).\n\nISLAM\n'Islam' comes from the same root as salaam (peace); Muslims greet each other with \"As-salamu alaykum\". Allah is al-Adl (the Just) and al-Ghaffar (the Forgiving). \"If they incline to peace, then incline to it also\" (Qur'an 8:61). Violence is only permitted in self-defence and within strict rules; terrorism is condemned because it kills innocents – \"whoever kills a soul… it is as if he had slain mankind entirely\" (5:32) – and \"There is no compulsion in religion\" (2:256). UK Muslim leaders, for example the Muslim Council of Britain, have repeatedly condemned terrorist attacks such as the Manchester Arena bombing (2017).\n\nOTHER RELIGIONS\nBuddhism: the first Precept (ahimsa – non-harming) and karuna (compassion); \"Hatred is never appeased by hatred… by non-hatred alone is hatred appeased\" (Dhammapada 5). The Dalai Lama campaigns non-violently for Tibet. Sikhism: violence is a last resort to defend the oppressed; protest against injustice. Judaism: seeking peace (Psalm 34:14 \"seek peace and pursue it\"); tikkun olam (repairing the world). Hinduism: Gandhi's satyagraha ('truth force'), non-violent resistance.\n\nPROTEST IN THE UK\nThe right to peaceful protest is protected by the Human Rights Act 1998 (Article 11), though public order laws restrict some protests. Violent protest (e.g. riots) is illegal and condemned by most religious people because it harms innocent people and property.\n\nTERRORISM\nExamples: 7/7 London bombings (2005); Manchester Arena (2017). Some terrorists claim religious motives, but religious leaders say they misuse religion. Responses: interfaith work, condemnation, support for victims.\n\nNON-RELIGIOUS VIEWS\nHumanists support peace and justice based on reason and human rights; they accept peaceful protest and condemn terrorism and violence, though some accept force as a last resort in self-defence."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following means restoring friendly relationships after conflict?\nA Justice\nB Reconciliation\nC Terrorism\nD Protest",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Reconciliation.\nReconciliation means making up after conflict so that relationships are restored, e.g. the work of Coventry Cathedral after the Second World War.",
+   "evidence": [
+    "Coventry Cathedral – Community of the Cross of Nails"
+   ],
+   "answerTopic": "reconciliation",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one reason why religious believers condemn terrorism.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: it kills innocent people; it breaks the commandment 'Do not kill'/sanctity of life; it spreads fear and hatred; it goes against teachings of peace and compassion; it damages the reputation of religion; 'There is no compulsion in religion' (Qur'an 2:256).",
+   "evidence": [
+    "Exodus 20:13",
+    "Qur'an 5:32"
+   ],
+   "answerTopic": "terrorism",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about the use of violence.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe violence is wrong because Jesus taught 'turn the other cheek' (Matthew 5:39) and told Peter to put away his sword when he was arrested. They believe that problems should be solved through peaceful means such as dialogue and non-violent protest, following the example of Martin Luther King Jr.\n\nBelief 2: In contrast, many Sikhs believe violence can be justified as a last resort to defend the innocent and oppressed. Guru Gobind Singh taught that when all other means have failed it is right to take up the sword, so a Sikh may use force to protect others from injustice, but never for revenge or gain.",
+   "evidence": [
+    "Matthew 5:39",
+    "Matthew 26:52",
+    "Zafarnama of Guru Gobind Singh"
+   ],
+   "answerTopic": "violence",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about forgiveness after conflict.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe they should forgive those who have wronged them, because Jesus taught Peter to forgive 'seventy-seven times' (Matthew 18:22) and prayed for his executioners. After Coventry Cathedral was destroyed by bombing in 1940, Provost Howard had the words 'Father forgive' carved in the ruins, and the cathedral became a centre for reconciliation with Germany.\n\nBelief 2: Similarly, Muslims believe forgiveness is important because Allah is al-Ghaffar, the Forgiving. The Qur'an encourages believers to pardon others, saying 'let them pardon and overlook. Would you not like that Allah should forgive you?' (24:22), so Muslims are encouraged to seek reconciliation rather than revenge.",
+   "evidence": [
+    "Matthew 18:21–22",
+    "Luke 23:34",
+    "Coventry Cathedral 'Father forgive'",
+    "Qur'an 24:22"
+   ],
+   "answerTopic": "forgiveness",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about the importance of peace.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe they are called to be peacemakers. In the Sermon on the Mount Jesus said 'Blessed are the peacemakers, for they will be called children of God' (Matthew 5:9). This means Christians should actively work to bring peace, for example through organisations like Pax Christi or by building understanding between communities in conflict.\n\nBelief 2: Buddhists believe peace begins in the mind and is achieved by overcoming hatred. The Dhammapada teaches 'Hatred is never appeased by hatred in this world; by non-hatred alone is hatred appeased' (verse 5). Buddhists therefore practise loving-kindness (metta) meditation to develop inner peace, which they believe leads to peaceful actions and a more peaceful world.",
+   "evidence": [
+    "Matthew 5:9",
+    "Dhammapada 5",
+    "Metta meditation"
+   ],
+   "answerTopic": "peace",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Religious believers should never take part in violent protest.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMost religious believers agree. Christians follow Jesus' teaching to 'turn the other cheek' (Matthew 5:39) and 'love your enemies' (Matthew 5:44), and Paul wrote, 'Do not repay anyone evil for evil' (Romans 12:17). Martin Luther King Jr, a Baptist minister, achieved major civil rights changes in the USA through non-violent marches and boycotts, showing that peaceful protest can be more powerful than violence because it wins public sympathy. Buddhists follow the first Precept of non-harming, and Hindus are inspired by Gandhi's satyagraha, which helped India gain independence. Violent protest often harms innocent bystanders, police and property, and can make people turn against the cause. In the UK the right to peaceful protest is protected by law, so violence is not necessary.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOthers argue that 'never' is too strong. When a government is extremely oppressive and peaceful protest is banned or brutally crushed, some believers think violence may be the only way to achieve justice. Dietrich Bonhoeffer, a German Lutheran pastor, joined a plot to assassinate Hitler because he believed it was necessary to stop greater evil. Some Christians point to Jesus overturning the tables of the money-changers (John 2:15) as an example of righteous anger against injustice. Sikhs believe force may be used as a last resort to protect the oppressed, following Guru Gobind Singh's teaching. Some Christians in apartheid South Africa felt that armed resistance was justified because peaceful protest had been met with violence, as at Sharpeville in 1960.\n\nCONCLUSION\nThe arguments for non-violence are strong, especially in a democracy like the UK where peaceful protest is legal and effective, and where violence would contradict the teachings of most religions. Examples like King and Gandhi show non-violence can succeed. However, in extreme situations of tyranny some believers have sincerely concluded that limited force is a last resort. I conclude that religious believers in Britain today should not take part in violent protest, but I would not say 'never' in every possible situation, since the duty to defend the oppressed may sometimes outweigh the duty of non-violence.",
+   "evidence": [
+    "Matthew 5:39, 5:44",
+    "Romans 12:17",
+    "John 2:15",
+    "Martin Luther King Jr",
+    "Dietrich Bonhoeffer",
+    "Gandhi's satyagraha",
+    "Human Rights Act 1998 Article 11"
+   ],
+   "answerTopic": "violent protest",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

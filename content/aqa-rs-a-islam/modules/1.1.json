@@ -1,0 +1,136 @@
+{
+ "paper": "Beliefs",
+ "module": "1.1",
+ "moduleTitle": "The six articles of faith in Sunni Islam and five roots of Usul ad-Din in Shi'a Islam",
+ "note": {
+  "specFocus": "Know the six articles of faith (Sunni) and the five roots of Usul ad-Din (Shi'a), including key similarities and differences, and be able to explain why they matter.",
+  "summary": "Muslims believe faith (iman) has a clear content. The Qur'an names belief in 'Allah, His angels, His books, His messengers and the Last Day' (Qur'an 4:136), and in the well-known Hadith of Jibril the Prophet adds belief in divine decree. Sunni and Shi'a Muslims organise these beliefs slightly differently.\n\nTHE SIX ARTICLES OF FAITH (SUNNI ISLAM)\n1. Tawhid - belief in the oneness of Allah, who has no partners or equals.\n2. Malaikah - belief in angels, beings of light who serve Allah (e.g. Jibril, Mika'il).\n3. Kutub - belief in the holy books: Qur'an, Tawrat (Torah), Zabur (Psalms), Injil (Gospel) and Suhuf (Scrolls of Ibrahim).\n4. Risalah / Rusul - belief in the prophets and messengers, from Adam to Muhammad, the 'Seal of the Prophets' (33:40).\n5. Akhirah / Yawm ad-Din - belief in life after death and the Day of Judgement.\n6. Al-Qadr - belief in predestination: Allah knows and has decreed all things.\n\nTHE FIVE ROOTS OF USUL AD-DIN (SHI'A ISLAM)\nUsul ad-Din means 'roots (foundations) of religion'. Shi'a Muslims (most British Shi'as are Twelvers, Ithna 'Ashari) believe each should be understood personally, not just accepted from others.\n1. Tawhid - oneness of God.\n2. Adalat - God's justice: God is perfectly fair and never acts wrongly, so humans have real free will and are responsible.\n3. Nubuwwah - prophethood, ending with Muhammad.\n4. Imamah - leadership by twelve divinely appointed, sinless (ma'sum) Imams, starting with Ali ibn Abi Talib.\n5. Mi'ad - the Day of Judgement and resurrection.\n\nSIMILARITIES\nBoth begin with Tawhid. Both include prophethood and the afterlife/judgement. Shi'as also believe in angels, holy books and God's decree, although these are not listed as separate roots, and Sunnis also believe God is just.\n\nDIFFERENCES\n- Imamah is a root only for Shi'as. It comes from the belief that the Prophet appointed Ali as his successor (Ghadir Khumm). Sunnis accepted the caliphs chosen by the community (Abu Bakr, Umar, Uthman, Ali).\n- Adalat is stressed by Shi'as; Sunnis list al-Qadr. This reflects different emphases on free will and God's control.\n\nWHY THEY MATTER\nThey are the core of belief, shaping worship (e.g. Shahadah expresses Tawhid and Risalah), morality (accountability on the Day of Judgement) and identity. Many Muslims stress unity: the Amman Message (2004) affirmed Sunni and Shi'a schools as valid Islam, and Qur'an 3:103 urges Muslims not to divide.\n\nKEY TERMS: iman (faith), shirk (associating partners with God - the greatest sin), ummah (worldwide Muslim community), ma'sum (sinless), Ithna 'Ashari (Twelver Shi'a)."
+ },
+ "questions": [
+  {
+   "question": "Which of the following is one of the five roots of Usul ad-Din in Shi'a Islam but is NOT listed separately among the six articles of faith in Sunni Islam?\nA Tawhid (oneness of God)\nB Imamah (leadership by the Imams)\nC Malaikah (angels)\nD Akhirah (life after death)",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Imamah, belief in the divinely appointed Imams beginning with Ali, is a distinct Shi'a root of faith. Tawhid and the afterlife appear in both lists, and angels are a Sunni article.",
+   "evidence": [
+    "Five roots: Tawhid, Adalat, Nubuwwah, Imamah, Mi'ad"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Usul ad-Din"
+  },
+  {
+   "question": "Which of these is one of the six articles of faith in Sunni Islam?\nA Khums\nB Al-Qadr (predestination)\nC Hajj\nD Adalat",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Belief in al-Qadr, Allah's decree, is the sixth article named in the Hadith of Jibril. Khums and Hajj are practices; Adalat is a Shi'a root.",
+   "evidence": [
+    "Hadith of Jibril (Sahih Muslim)"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "six articles"
+  },
+  {
+   "question": "Give two of the six articles of faith in Sunni Islam.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: belief in Allah's oneness (Tawhid); belief in angels (malaikah); belief in the holy books (kutub); belief in the prophets (risalah/rusul); belief in the Day of Judgement and life after death (Akhirah); belief in predestination (al-Qadr).",
+   "evidence": [
+    "Qur'an 4:136",
+    "Hadith of Jibril"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "six articles"
+  },
+  {
+   "question": "Give two of the five roots of Usul ad-Din in Shi'a Islam.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: Tawhid (oneness of God); Adalat (God's justice); Nubuwwah (prophethood); Imamah (the leadership of the twelve Imams); Mi'ad (the Day of Judgement and resurrection).",
+   "evidence": [
+    "Usul ad-Din = 'roots of religion'"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Usul ad-Din"
+  },
+  {
+   "question": "Explain two similarities between the six articles of faith in Sunni Islam and the five roots of Usul ad-Din in Shi'a Islam.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Both begin with Tawhid, the oneness of Allah. Sunni and Shi'a Muslims alike believe God is one and without partners, so committing shirk is the gravest sin in both traditions and every other belief depends on this one.\n\n2. Both include belief in prophethood and in the Day of Judgement. Sunnis call these risalah and Akhirah and Shi'as call them Nubuwwah and Mi'ad, but both accept that Allah sent prophets ending with Muhammad and that all people will be resurrected and judged, which gives life a moral purpose.",
+   "evidence": [
+    "Tawhid",
+    "Risalah / Nubuwwah",
+    "Akhirah / Mi'ad"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "similarities"
+  },
+  {
+   "question": "Explain two differences between the six articles of faith in Sunni Islam and the five roots of Usul ad-Din in Shi'a Islam.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Shi'a Islam includes Imamah as a root of faith. Shi'as believe Allah appointed Ali and eleven of his descendants as infallible leaders after Muhammad, whereas Sunnis do not hold this as an article of faith and accept leaders (caliphs) chosen by the community.\n\n2. Shi'a Islam names Adalat (God's justice) as a separate root. Shi'as emphasise that God is perfectly just and would never punish people for what they could not choose, so human free will matters; Sunnis believe God is just too but list al-Qadr (predestination) as a separate article instead, stressing God's control over all events.",
+   "evidence": [
+    "Imamah",
+    "Adalat",
+    "Al-Qadr"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "differences"
+  },
+  {
+   "question": "Explain two reasons why the six articles of faith are important to Sunni Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. They define what it means to be a believer (mu'min). The Qur'an warns that whoever disbelieves in Allah, His angels, His books, His messengers and the Last Day 'has certainly gone far astray' (Qur'an 4:136), so accepting these beliefs is necessary for true faith rather than an optional extra.\n\n2. They come from the Prophet's own teaching. In the Hadith of Jibril, the angel Jibril, appearing as a man, asked Muhammad what iman (faith) is, and the Prophet listed belief in Allah, angels, books, messengers, the Last Day and divine decree. Because this comes from the Prophet, Sunnis treat the six articles as a summary of authentic belief that shapes worship and daily life, e.g. knowing they will be judged encourages honesty.",
+   "evidence": [
+    "Qur'an 4:136",
+    "Hadith of Jibril (Sahih Muslim, Book of Faith)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "importance"
+  },
+  {
+   "question": "Explain two of the roots of Usul ad-Din and why they are important for Shi'a Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Adalat (divine justice): Shi'as believe Allah always acts justly and never wrongs anyone. The Qur'an says 'Indeed, Allah does not do injustice, even as much as an atom's weight' (Qur'an 4:40). This gives believers confidence that judgement will be fair and that humans have genuine free will, so they are responsible for their actions.\n\n2. Imamah (leadership): Shi'as believe Allah appointed the Imams to guide the community after the Prophet. They point to the event at Ghadir Khumm, where the Prophet said 'Whoever I am his master (mawla), Ali is his master'. This root is important because it explains why Shi'as follow the teachings of the Imams and, today, senior scholars (marja') who represent the hidden twelfth Imam.",
+   "evidence": [
+    "Qur'an 4:40",
+    "Hadith of Ghadir Khumm"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Usul ad-Din"
+  },
+  {
+   "question": "‘The differences between Sunni and Shi'a beliefs are more important than the similarities.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nImamah is a real and lasting difference. For Shi'a Muslims, belief that Ali and the eleven Imams after him were divinely chosen and infallible is a root of faith (Usul ad-Din). Sunnis reject this, accepting Abu Bakr, Umar, Uthman and Ali as rightly guided caliphs chosen by the community. This disagreement about who had authority after the Prophet's death in 632 CE has shaped separate schools of law, different hadith collections and different leaders of religious authority, such as Shi'a marja' (e.g. Ayatollah Sistani) compared with Sunni scholars and muftis.\n\nSome argue these differences have had serious consequences. Sectarian violence in countries such as Iraq, Pakistan and Syria shows how deeply people can feel about them. Also, the emphasis on Adalat in Shi'a thought and on al-Qadr in Sunni thought leads to differences in how believers think about free will and God's control.\n\nARGUMENTS AGAINST THE STATEMENT\nHowever, the core of the two lists is the same. Both start with Tawhid, the belief that 'He is Allah, the One' (Qur'an 112:1); both include prophethood, ending with Muhammad as the 'Seal of the Prophets' (Qur'an 33:40); and both include the resurrection and Day of Judgement. Sunnis also believe God is just, and Shi'as also believe in angels, holy books and God's decree; they simply organise the beliefs differently. Both read the same Qur'an, face the same qiblah and perform the same Hajj.\n\nMany Muslims stress the ummah (worldwide community). The Qur'an says 'hold firmly to the rope of Allah all together and do not become divided' (Qur'an 3:103). The Amman Message (2004), endorsed by hundreds of Sunni and Shi'a scholars, recognised both as valid Muslims. In Britain, Sunni and Shi'a Muslims often attend each other's mosques and work together in organisations such as the Muslim Council of Britain.\n\nCONCLUSION\nThe difference over Imamah is genuine and historically important, so it cannot be dismissed. But it concerns how guidance continues after the Prophet, not who God is or what salvation depends on. Since the beliefs about Allah, the Prophet, the Qur'an and the afterlife are shared, and these are the foundation of everything else, I conclude that the similarities are more important than the differences, even though the differences explain real variety within Islam.",
+   "evidence": [
+    "Qur'an 112:1",
+    "Qur'an 33:40",
+    "Qur'an 3:103",
+    "Amman Message (2004)",
+    "Imamah"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Sunni and Shi'a"
+  },
+  {
+   "question": "‘Belief in al-Qadr (predestination) is the most important of the six articles of faith.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nSome Sunni Muslims argue that al-Qadr is vital because it shapes how a believer lives every day. Believing that 'all things We created with predestination' (Qur'an 54:49) helps Muslims accept suffering with patience (sabr), trust in Allah (tawakkul) and say 'Insha'Allah' (if God wills) about the future. The Prophet listed it as part of faith in the Hadith of Jibril, and without it a believer might think events are random or that humans are in total control, which would undermine belief in God's power.\n\nIt also links the other articles: the books, angels and Day of Judgement are all part of God's plan, so al-Qadr shows that Allah is in control of history from creation to the end.\n\nARGUMENTS AGAINST THE STATEMENT\nMost Muslims would say Tawhid is the most important article, because every other belief depends on there being one God. Surah 112 is said to be worth a third of the Qur'an, and shirk (associating partners with God) is the one sin Allah will not forgive if a person dies without repenting (Qur'an 4:48). Al-Qadr only makes sense if there is first one all-powerful God whose decree it is.\n\nOthers may argue belief in Akhirah matters more for behaviour, because knowing 'whoever does an atom's weight of good will see it' (Qur'an 99:7) motivates moral action more directly. Shi'a Muslims do not list al-Qadr as one of the five roots; they emphasise Adalat (justice) and human free will, so for them it cannot be the most important.\n\nCONCLUSION\nAl-Qadr is important because it gives Muslims trust and patience, but it depends on Tawhid and is understood differently by Sunni and Shi'a Muslims. Since Tawhid is the foundation of all the other beliefs and is shared by every Muslim, the statement is unconvincing: al-Qadr is important but not the most important article.",
+   "evidence": [
+    "Qur'an 54:49",
+    "Qur'an 4:48",
+    "Qur'an 99:7",
+    "Surah 112",
+    "Hadith of Jibril"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "al-Qadr"
+  }
+ ]
+}

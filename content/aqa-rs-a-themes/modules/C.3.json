@@ -1,0 +1,85 @@
+{
+ "paper": "Theme C",
+ "module": "C.3",
+ "moduleTitle": "Special revelation, visions and enlightenment",
+ "note": {
+  "specFocus": "Special revelation as a source of knowledge about the divine (God, gods or ultimate reality), including visions and one example of a vision; enlightenment as a source of knowledge about the divine. Contrasting beliefs on visions (Christianity v non-religious beliefs) are required.",
+  "summary": "KEY TERMS\nRevelation: God (or the divine) making itself known to humans. Special revelation: God revealed directly to a particular person or group, e.g. through a vision, dream, prophecy or miracle. Vision: seeing something of spiritual significance, either with the eyes (a corporeal vision) or in the mind (an intellectual/imaginative vision), such as a saint, angel or God. Enlightenment: in Buddhism, gaining true knowledge of the nature of reality, ending suffering and rebirth (nibbana); in Hinduism and Sikhism, related ideas of moksha and mukti. The divine: God, gods or ultimate reality.\n\nEXAMPLES OF VISIONS\nChristianity: Saul (Paul) on the road to Damascus saw a light from heaven and heard Jesus ask, \"Saul, Saul, why do you persecute me?\" (Acts 9:1–19); he was blinded, then baptised, and became a leading apostle. Other examples: the Transfiguration (Mark 9); Bernadette Soubirous at Lourdes (1858); the children at Fatima (1917); Julian of Norwich's 'Revelations of Divine Love'. Joan of Arc reported visions of saints that guided her.\nOld Testament: Isaiah's vision of God in the Temple (Isaiah 6); Moses and the burning bush (Exodus 3).\nIslam: the Prophet Muhammad's revelation from the angel Jibril (Gabriel) on Mount Hira in 610 CE – \"Read! In the name of your Lord who created\" (Qur'an 96:1).\nSikhism: Guru Nanak's experience in the river Bein, where he disappeared for three days and returned saying \"There is no Hindu, there is no Muslim\".\n\nENLIGHTENMENT\nSiddhattha Gotama meditated under the Bodhi tree at Bodh Gaya and became the Buddha ('awakened one'), understanding the Four Noble Truths. Enlightenment comes through meditation and following the Eightfold Path, rather than from a God. For Buddhists, the 'divine' may be understood as ultimate reality rather than a personal God.\n\nWHY VISIONS MATTER\nThey can give certainty, change lives (e.g. Paul), offer guidance and strengthen the faith of a community. Places linked to visions such as Lourdes become pilgrimage sites.\n\nPROBLEMS AND ALTERNATIVE EXPLANATIONS\nThey are private and cannot be tested; they might be caused by hallucinations, drugs, alcohol, illness such as epilepsy or psychosis, lack of sleep or fasting; wishful thinking; some people may lie for attention or money; different religions report visions supporting contradictory beliefs. The Catholic Church investigates claimed visions carefully, and in 2024 issued new norms stressing caution; it approves very few.\n\nNON-RELIGIOUS VIEWS\nAtheists and humanists argue visions are best explained by psychology or neuroscience; Sigmund Freud saw religious experience as wish-fulfilment. They note that experiences seem to match the person's existing culture and religion – Catholics see Mary, Hindus see Krishna – suggesting they come from the mind. Some agnostics accept that people have genuine experiences, but say we cannot know what causes them."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is an example of special revelation?\nA Seeing God's power in a sunset\nB Reading about creation in a science book\nC Paul's vision on the road to Damascus\nD Feeling awe at the size of the universe",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C Paul's vision on the road to Damascus.\nSpecial revelation is a direct, personal experience of the divine given to a particular person (Acts 9). A and D describe general revelation through nature.",
+   "evidence": [
+    "Acts 9:1–19"
+   ],
+   "answerTopic": "special revelation",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one non-religious explanation for a person claiming to have seen a vision.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: hallucination; the effect of drugs or alcohol; mental or physical illness (e.g. psychosis, epilepsy, high fever); lack of sleep or food; wishful thinking; the person is lying or seeking attention; a dream mistaken for reality.",
+   "evidence": [
+    "Psychological explanations of religious experience (e.g. Freud)"
+   ],
+   "answerTopic": "visions",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about visions.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe visions can be genuine special revelation from God. For example, Saul saw a blinding light and heard Jesus speak to him on the road to Damascus (Acts 9), and his life was transformed as he became the apostle Paul, which they see as evidence that the vision really came from God.\n\nBelief 2: In contrast, many atheists and humanists believe visions are not real experiences of God but can be explained by the brain. They may be hallucinations caused by illness, drugs, tiredness or strong emotion, and the fact that people tend to see figures from their own religion suggests that visions come from the person's own mind and expectations.",
+   "evidence": [
+    "Acts 9:1–19",
+    "Psychological and neurological explanations"
+   ],
+   "answerTopic": "visions",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about the problems of claimed visions.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians, including the Catholic Church, are cautious about claimed visions. The Church investigates them carefully over many years and approves very few, because some people could be mistaken or lying, and a false vision could mislead believers away from the teaching of the Bible and the Church.\n\nBelief 2: Similarly, humanists believe claims of visions must be treated with caution. They argue that private experiences cannot be tested or checked by anyone else, so they cannot provide reliable knowledge about God and should not be accepted without strong evidence.",
+   "evidence": [
+    "Catholic Church norms for discerning apparitions (2024)",
+    "Humanist emphasis on evidence"
+   ],
+   "answerTopic": "visions",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about special revelation as a source of knowledge about the divine.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Muslims believe the most important special revelation was the Qur'an, revealed by Allah to the Prophet Muhammad through the angel Jibril, beginning on Mount Hira in 610 CE with the words 'Read! In the name of your Lord who created' (Qur'an 96:1). Because this revelation came directly from Allah, Muslims believe the Qur'an is the final, perfect word of God and the most reliable source of knowledge about him.\n\nBelief 2: Christians believe God has revealed himself through visions to individuals at important moments. In Exodus 3 God spoke to Moses from a burning bush, revealing his name ('I am who I am') and calling Moses to lead the Israelites out of slavery. This shows that special revelation can tell people about God's nature – that he is holy and eternal – and about what God wants them to do.",
+   "evidence": [
+    "Qur'an 96:1–5",
+    "Exodus 3:1–14",
+    "Acts 9"
+   ],
+   "answerTopic": "special revelation",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Visions are not a reliable source of knowledge about God.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany atheists and humanists agree. Visions are private experiences, so no one else can test or check them, which makes them weak evidence. There are many alternative explanations: hallucinations can be caused by drugs, alcohol, high fever, epilepsy, lack of sleep or mental illness, and people can be mistaken or even lie for attention or money. People usually see figures from their own religion – Catholics see Mary, Hindus see Krishna – which suggests that visions are shaped by the person's own mind and expectations. Different religions also report visions that seem to support contradictory beliefs, so they cannot all be true. Even Christians are careful: the Catholic Church investigates claimed visions for many years and approves very few, which shows that many claims are not considered genuine.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMany Christians argue that visions can be a genuine source of knowledge about God. The Bible contains many examples, such as Moses at the burning bush (Exodus 3) and Saul's vision on the road to Damascus (Acts 9). Saul went from persecuting Christians to becoming the apostle Paul, prepared to suffer and die for Christ; a change this dramatic is hard to explain if nothing real happened. The vision of Bernadette at Lourdes led to a place of pilgrimage where millions find faith and healing. Muslims believe the Prophet Muhammad's experience of the angel Jibril was a genuine revelation, giving the Qur'an. Philosopher Richard Swinburne's 'principle of credulity' says we should normally believe what people tell us they have experienced unless we have good reason not to, and the 'principle of testimony' says we should trust honest witnesses.\n\nCONCLUSION\nVisions can be life-changing and some, like Paul's, are hard to explain away. However, because they cannot be tested and there are many natural explanations, they are not reliable for everyone. I conclude that the statement is largely true as a general claim: visions cannot provide reliable knowledge about God that would convince a sceptic. But for the person who has the experience, and when it fits with scripture and leads to good results, a vision may reasonably be accepted as meaningful knowledge of God.",
+   "evidence": [
+    "Acts 9",
+    "Exodus 3",
+    "Qur'an 96:1",
+    "Swinburne's principles of credulity and testimony",
+    "Psychological explanations"
+   ],
+   "answerTopic": "visions",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

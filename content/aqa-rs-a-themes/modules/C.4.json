@@ -1,0 +1,89 @@
+{
+ "paper": "Theme C",
+ "module": "C.4",
+ "moduleTitle": "General revelation, ideas about the divine and the value of revelation",
+ "note": {
+  "specFocus": "General revelation: nature and scripture as a way of understanding the divine; different ideas about the divine from these sources (omnipotent and omniscient, personal and impersonal, immanent and transcendent); the value of general and special revelation and enlightenment as sources of knowledge about the divine, including the problems of different ideas about the divine and alternative explanations (the possibility that people were lying or mistaken). Contrasting beliefs on nature as general revelation (Christianity v non-religious beliefs) are required.",
+  "summary": "KEY TERMS\nGeneral revelation: God made known through ordinary, everyday ways available to everyone – especially nature, scripture, conscience and reason. Omnipotent: all-powerful. Omniscient: all-knowing. Omnibenevolent: all-loving. Personal: God has human-like qualities and can have a relationship with people (e.g. God as Father). Impersonal: the divine is a force or reality without human characteristics. Immanent: God is present in and involved with the world. Transcendent: God is beyond and outside the world, space and time.\n\nNATURE AS GENERAL REVELATION\nChristians believe the order and beauty of nature show God's power and creativity: \"The heavens declare the glory of God; the skies proclaim the work of his hands\" (Psalm 19:1); \"God's invisible qualities… have been clearly seen, being understood from what has been made\" (Romans 1:20). Feelings of awe and wonder (e.g. at a mountain view or the birth of a baby) can lead people to God; this is linked to the Design argument. Muslims see nature as full of signs (ayat) of Allah (Qur'an 3:190). Hindus see Brahman present in all of nature. Non-religious view: nature is beautiful and awe-inspiring but can be explained through science (evolution, physics); nature also contains cruelty and disasters, which may suggest no loving designer.\n\nSCRIPTURE AS GENERAL REVELATION\nChristians believe the Bible is inspired by God (\"All Scripture is God-breathed\", 2 Timothy 3:16); some read it literally, others as human writers inspired by God. Muslims believe the Qur'an is the direct word of Allah. Jews study the Torah. Sikhs treat the Guru Granth Sahib as the living Guru. Atheists see scripture as written by humans, reflecting their times.\n\nIDEAS ABOUT THE DIVINE\nChristianity: God is omnipotent (\"with God all things are possible\", Matthew 19:26), omniscient and omnibenevolent; both transcendent (creator beyond the universe) and immanent (in Jesus, the incarnation, and the Holy Spirit); personal (Jesus teaches people to pray 'Our Father'). Islam: Allah is transcendent (\"There is nothing like unto Him\", Qur'an 42:11) yet immanent (\"We are closer to him than his jugular vein\", 50:16); described by the 99 names. Hinduism: Brahman is ultimate reality, impersonal (nirguna) but also worshipped in personal forms such as Vishnu and Krishna (saguna). Buddhism: no creator God; ultimate reality is understood through enlightenment.\nProblems: some qualities seem to conflict – e.g. a personal, immanent God and a transcendent God; omnipotence and omnibenevolence and the existence of evil.\n\nTHE VALUE OF REVELATION\nFor: revelation offers knowledge that reason alone cannot reach; experiences transform lives; nature and scripture are open to everyone. Against: different religions describe the divine in different ways, so they cannot all be right; experiences may be explained by psychology or science; people may be mistaken, deceived or lying; scripture was written by humans and can be interpreted in many ways. Responses: some argue that different religions are seeing different aspects of the same ultimate reality, like the parable of the blind men and the elephant (used by Jains, Hindus and Buddhists).\n\nNON-RELIGIOUS VIEWS\nHumanists rely on reason, evidence and science rather than revelation; atheists argue that if God wanted to be known, revelation would be clearer and less contradictory."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following means that God is present in and involved with the world?\nA Transcendent\nB Immanent\nC Omniscient\nD Impersonal",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Immanent.\nAn immanent God is close to and active within creation, e.g. through the Holy Spirit. Transcendent means beyond the world; omniscient means all-knowing.",
+   "evidence": [
+    "Qur'an 50:16",
+    "Incarnation of Jesus"
+   ],
+   "answerTopic": "nature of God",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one example of general revelation.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: nature/the natural world; scripture such as the Bible or Qur'an; conscience; reason; the beauty of a sunset or the birth of a child that inspires awe and wonder; worship/tradition.",
+   "evidence": [
+    "Psalm 19:1",
+    "Romans 1:20"
+   ],
+   "answerTopic": "general revelation",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about nature as a source of knowledge about God.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe that nature is general revelation, showing people God's power and creativity. Psalm 19:1 says 'The heavens declare the glory of God', so experiences of awe and wonder, such as looking at the stars, can show that God is a powerful and loving creator.\n\nBelief 2: In contrast, many atheists believe nature reveals nothing about God. The beauty and complexity of nature are explained by science, such as evolution and physics, and nature also includes disease and natural disasters, which suggests there is no loving designer behind it.",
+   "evidence": [
+    "Psalm 19:1",
+    "Romans 1:20",
+    "Evolution by natural selection"
+   ],
+   "answerTopic": "nature as general revelation",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about scripture as a source of knowledge about God.\nIn your answer you should refer to the main religious tradition of Great Britain and non-religious beliefs.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe the Bible is a reliable source of knowledge about God because it is inspired by him: 'All Scripture is God-breathed' (2 Timothy 3:16). They believe it reveals God's character and his plan, especially through the life and teachings of Jesus in the Gospels.\n\nBelief 2: In contrast, humanists believe scripture is a collection of human writings that reflect the beliefs and culture of the people who wrote them. They argue it contains contradictions and some outdated moral views, so it cannot be relied on as knowledge about a God whose existence has not been shown.",
+   "evidence": [
+    "2 Timothy 3:16",
+    "Humanist approach to scripture"
+   ],
+   "answerTopic": "scripture as revelation",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about the nature of God.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe God is omnipotent – all-powerful. Jesus taught that 'with God all things are possible' (Matthew 19:26), and Christians believe God showed this power by creating the universe out of nothing and raising Jesus from the dead. This means believers can trust God to keep his promises and to help them in difficult times.\n\nBelief 2: Muslims believe Allah is both transcendent and immanent. He is beyond anything humans can imagine – 'There is nothing like unto Him' (Qur'an 42:11) – which is why Muslims do not make pictures of Allah. Yet the Qur'an also says 'We are closer to him than his jugular vein' (50:16), which shows that Allah knows every person's thoughts and is near to anyone who prays.",
+   "evidence": [
+    "Matthew 19:26",
+    "Qur'an 42:11",
+    "Qur'an 50:16",
+    "Surah 112 (al-Ikhlas)"
+   ],
+   "answerTopic": "nature of God",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Revelation is the best way to know what God is like.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany religious believers would agree. If God is transcendent – beyond the universe and human understanding – then humans could not discover what God is like by their own efforts; God must make himself known. Christians believe God revealed himself most fully in Jesus: 'Anyone who has seen me has seen the Father' (John 14:9). Through scripture, which is 'God-breathed' (2 Timothy 3:16), Christians learn that God is loving, holy and forgiving. Muslims believe the Qur'an, revealed by Allah to Muhammad through the angel Jibril, is the perfect word of God, and it describes Allah's qualities through his 99 names, such as al-Rahman (the Most Merciful). Special revelation, such as Paul's vision, can also give direct and life-changing knowledge. General revelation through nature is available to everyone: 'The heavens declare the glory of God' (Psalm 19:1).\n\nARGUMENTS FOR A DIFFERENT VIEW\nOthers argue revelation is not the best, or not a reliable, way. Different religions claim different revelations that seem to contradict each other: Christians believe God is a Trinity, Muslims believe Allah is strictly one, and Hindus describe Brahman in many forms. They cannot all be completely right. Visions and religious experiences can be explained by psychological causes, and people can be mistaken or lying. Scripture is interpreted in very different ways. Some believers argue that reason (such as the First Cause and Design arguments) is also a valuable route to knowing about God. Buddhists stress enlightenment through meditation, not revelation from a God. Atheists and humanists argue that we have no reliable way of knowing what God is like because there is no good evidence that God exists.\n\nCONCLUSION\nIf God exists and is transcendent, revelation seems the most likely way to learn about God, because humans could not otherwise know a being beyond the world. However, the disagreements between revelations and the possibility of other explanations mean that revelation must be tested, for example by reason, by the community of believers and by its fruits in people's lives. I conclude that, for believers, revelation is the best way to know what God is like, but it is not a certain way, and it works best alongside reason rather than instead of it.",
+   "evidence": [
+    "John 14:9",
+    "2 Timothy 3:16",
+    "Psalm 19:1",
+    "99 names of Allah",
+    "Parable of the blind men and the elephant"
+   ],
+   "answerTopic": "value of revelation",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

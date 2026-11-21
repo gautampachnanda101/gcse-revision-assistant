@@ -1,0 +1,87 @@
+{
+ "paper": "Theme A",
+ "module": "A.4",
+ "moduleTitle": "Families and gender equality",
+ "note": {
+  "specFocus": "The nature of families (role of parents and children; extended and nuclear families); the purpose of families (procreation, stability and protection of children, educating children in a faith); contemporary family issues (same-sex parents, polygamy); the roles of men and women; gender equality; gender prejudice and discrimination, including examples.",
+  "summary": "KEY TERMS\nNuclear family: two parents and their children. Extended family: parents, children and other relatives (grandparents, aunts, uncles) living together or close by. Single-parent family; blended (step) family; same-sex parents. Polygamy: having more than one husband or wife at the same time (polygyny = more than one wife). Procreation: having children. Gender equality: men and women having equal rights, status and opportunities. Gender prejudice: unfair judgements about someone because of their sex; discrimination: acting on that prejudice.\n\nPURPOSE OF FAMILIES\nProcreation; stability and protection of children; educating children in a faith (e.g. infant baptism and Christian upbringing; the Shema in Judaism tells parents to teach God's words \"to your children\", Deuteronomy 6:7; Muslim parents whisper the adhan into a newborn's ear).\nRoles: Christian children should \"honour your father and your mother\" (Exodus 20:12); parents should not \"exasperate your children\" but bring them up \"in the training and instruction of the Lord\" (Ephesians 6:4). In Hinduism and Sikhism the extended family is very important and caring for elderly parents is a duty.\n\nCONTEMPORARY ISSUES\nSame-sex parents: adoption by same-sex couples has been legal in England and Wales since 2005. Liberal Christians, Reform Jews and humanists argue that a loving, stable home matters most. The Catholic Church teaches that children have a right to a mother and a father. Many Muslims and Orthodox Jews hold similar traditional views.\nPolygamy: illegal in the UK (bigamy). Christianity teaches monogamy (\"the two will become one flesh\"). The Qur'an permits a man up to four wives only if he can treat them all justly, but adds \"you will never be able to deal justly between wives\" (4:3, 4:129); most British Muslims are monogamous. Polygamy was common among Old Testament figures such as Abraham and Jacob, but Judaism banned it for Ashkenazi Jews about 1000 CE.\n\nROLES OF MEN AND WOMEN AND EQUALITY\nChristianity: Genesis 1:27 says God created humankind \"male and female\", both in God's image; \"there is neither male nor female… you are all one in Christ Jesus\" (Galatians 3:28). Some Christians hold complementary roles (e.g. Ephesians 5:22 – wives submit to husbands), while most British Christians support equal roles. The Church of England has ordained women priests since 1994 and bishops since 2014; the Catholic Church ordains only men.\nIslam: men and women are equal before Allah (Qur'an 33:35) but often have complementary roles; men are expected to provide financially (4:34), and women have the right to work, own property and inherit. Khadijah, the Prophet's wife, was a successful businesswoman.\nJudaism: Orthodox Jews see different but equal roles, with the mother central to a Jewish home; Reform Judaism has women rabbis.\nSikhism: Guru Nanak taught \"From woman, man is born… why call her bad, from whom kings are born?\" (Guru Granth Sahib, Ang 473). Women can perform all roles in the gurdwara.\nBuddhism: the Buddha accepted women into the sangha as nuns (bhikkhunis).\n\nDISCRIMINATION IN THE UK\nThe Equal Pay Act 1970, Sex Discrimination Act 1975 and Equality Act 2010 outlaw sex discrimination; yet a gender pay gap and under-representation of women in leadership remain. Humanists campaign for full equality and for religions to treat women equally."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the term for a family made up of parents, children and other relatives such as grandparents?\nA Nuclear family\nB Extended family\nC Blended family\nD Single-parent family",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Extended family.\nAn extended family includes relatives beyond the parents and children, such as grandparents, aunts and uncles. A nuclear family is just parents and children.",
+   "evidence": [
+    "Definition: extended family"
+   ],
+   "answerTopic": "family types",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one example of gender discrimination.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: paying a woman less than a man for the same job; refusing to promote someone because of their sex; refusing a job to a woman because she might become pregnant; denying girls education; stopping someone holding a religious role only because of their sex (accept as an example of a debated issue).",
+   "evidence": [
+    "Equality Act 2010"
+   ],
+   "answerTopic": "gender discrimination",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about same-sex parents.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Catholic Church teaches that children have a right to be brought up by a mother and a father. It believes that God's design for the family is based on the marriage of a man and a woman, and that both male and female role models help a child to develop, so it does not support adoption by same-sex couples.\n\nBelief 2: In contrast, many liberal Christians and Reform Jews in Britain support same-sex parents. They believe that what matters most for a child is a loving, stable and safe home, and that same-sex couples who adopt or foster are showing the kind of selfless love God calls for; UK law has allowed same-sex couples to adopt since 2005.",
+   "evidence": [
+    "Catechism of the Catholic Church on the family",
+    "Adoption and Children Act 2002 (in force 2005)"
+   ],
+   "answerTopic": "same-sex parents",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about gender equality.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe that men and women are equal because both were created in the image of God (Genesis 1:27). This is why the Church of England has ordained women as priests since 1994 and as bishops since 2014, believing that women can serve God in leadership as fully as men.\n\nBelief 2: Similarly, Sikhs believe men and women are completely equal. Guru Nanak criticised those who looked down on women, asking why anyone would call woman bad 'from whom kings are born', so in the gurdwara women can read the Guru Granth Sahib, lead prayers and serve in the langar in the same way as men.",
+   "evidence": [
+    "Genesis 1:27",
+    "Guru Granth Sahib, Ang 473",
+    "Church of England women bishops 2014"
+   ],
+   "answerTopic": "gender equality",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about the role of children in a family.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe that children should respect and obey their parents. The fifth commandment says 'Honour your father and your mother' (Exodus 20:12), and Paul repeats this in Ephesians 6:1, so children are expected to listen to their parents' guidance and, as adults, to care for their parents when they grow old.\n\nBelief 2: Muslims believe that children have a duty of kindness and care towards their parents, especially in old age. The Qur'an teaches 'your Lord has commanded that you worship none but Him, and be kind to parents… do not say to them a word of disrespect' (17:23). This means Muslim children often look after elderly parents at home rather than putting them in a care home, and a hadith teaches that 'Paradise lies at the feet of your mother'.",
+   "evidence": [
+    "Exodus 20:12",
+    "Ephesians 6:1–4",
+    "Qur'an 17:23–24",
+    "Hadith: Paradise at the feet of mothers (an-Nasa'i)"
+   ],
+   "answerTopic": "role of children",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Men and women should have the same roles in family life.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany Christians support the statement because Genesis 1:27 teaches that God created humanity 'male and female' and both are made in God's image, so neither is superior. Paul wrote that in Christ 'there is neither… male nor female' (Galatians 3:28). Many modern Christian families share childcare, housework and paid work equally, believing that love means serving one another. Sikhs also argue for equality: the Gurus taught that women should be respected and that husband and wife are equal partners, 'one light in two bodies'. Humanists and supporters of the Equality Act 2010 argue that fixing roles by gender limits people's freedom and talents, and that children benefit from seeing both parents care and work. In modern Britain, many families rely on two incomes, so practical needs also support shared roles.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOthers believe men and women are equal in value but have different, complementary roles. Some Christians read Ephesians 5:22–25 as giving the husband a role of loving leadership and the wife a role of support, though they stress that the husband must love his wife 'as Christ loved the church'. Many Muslims believe that men have the responsibility to provide and protect (Qur'an 4:34), while women have a special honour as mothers, reflected in the hadith 'Paradise lies at the feet of your mother'. Orthodox Jews see the mother as the heart of the Jewish home, teaching children and preparing for Shabbat, while men have more public religious duties such as praying in a minyan. Supporters argue that different roles are not inferior roles and that equality does not have to mean sameness.\n\nCONCLUSION\nBoth views agree that men and women are of equal worth, which is the most important point. The complementary view is sincerely held and, when freely chosen, can work well. However, I find the statement more convincing, because insisting on roles based only on gender can easily turn into discrimination and can stop individuals using their gifts; it also ignores the reality of single-parent and same-sex families. My conclusion is that roles should be shared or decided by each couple fairly and freely, rather than fixed by gender, which fits best with the shared religious belief that every person is made in the image of God.",
+   "evidence": [
+    "Genesis 1:27",
+    "Galatians 3:28",
+    "Ephesians 5:22–25",
+    "Qur'an 4:34",
+    "Equality Act 2010"
+   ],
+   "answerTopic": "roles of men and women",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

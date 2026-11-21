@@ -1,0 +1,141 @@
+{
+ "paper": "Practices",
+ "module": "2.1",
+ "moduleTitle": "Prayer: the raising of the mind and heart to God; formal and informal prayer; the Lord's Prayer",
+ "note": {
+  "specFocus": "AQA 8062 Catholic Christianity, worship: prayer as 'the raising of the mind and heart to God'; the purpose and importance of formal and informal prayer and different views about their relative importance; the meaning and significance of the Lord's Prayer.",
+  "summary": "KEY IDEA: The Catechism, quoting St John Damascene, defines prayer as \"the raising of one's mind and heart to God or the requesting of good things from God\" (CCC 2559). Prayer is a living relationship with God. For Catholics it is always addressed to the Father, through the Son, in the Holy Spirit. St Paul urges Christians to \"pray without ceasing\" (1 Thessalonians 5:17).\n\nFORMS OF PRAYER (CCC 2626–2643): blessing and adoration, petition (asking for oneself), intercession (asking for others), thanksgiving and praise. A common memory aid is ACTS: Adoration, Contrition, Thanksgiving, Supplication.\n\nEXPRESSIONS OF PRAYER (CCC 2700–2724): vocal prayer (spoken words), meditation (reflecting on scripture or the mysteries of faith, e.g. lectio divina), and contemplative prayer (silent, loving attention to God, \"a gaze of faith fixed on Jesus\").\n\nFORMAL (SET) PRAYER: Prayers with fixed words, often said together.\n• The Mass and the Liturgy of the Hours (Divine Office), prayed daily by priests, religious and many lay people.\n• Traditional prayers: the Our Father, Hail Mary, Glory Be, Apostles' Creed, Angelus (traditionally at 6 a.m., noon and 6 p.m.), grace before meals and the Rosary.\nAdvantages: they unite Catholics worldwide in the same words, are tested by tradition, are easy to remember in times of stress and express the Church's faith accurately (\"lex orandi, lex credendi\", the law of prayer is the law of belief).\n\nINFORMAL (SPONTANEOUS) PRAYER: Prayer in one's own words, in any place, at any time. It is personal and honest, like talking to a friend. Jesus prayed alone on mountains (Luke 6:12) and taught \"go into your room and shut the door and pray to your Father who is in secret\" (Matthew 6:6). Charismatic and evangelical Christians often prefer spontaneous prayer.\nDebate: Which is more important? Formal prayer can become mechanical \"empty phrases\" (Matthew 6:7), but it can also carry people when they lack words. Informal prayer is heartfelt but may be self-centred or inaccurate. Catholic teaching values both. The Mass is the highest prayer of the Church, and personal prayer prepares for it and continues it.\n\nTHE LORD'S PRAYER: Jesus taught it when the disciples asked, \"Lord, teach us to pray\" (Luke 11:1–4; Matthew 6:9–13). Tertullian called it \"the summary of the whole gospel\" (CCC 2761). It is prayed at every Mass, at baptisms and in the Rosary.\nStructure: an address (\"Our Father who art in heaven\") and seven petitions.\n• Three about God: \"hallowed be thy name\" (reverence), \"thy kingdom come\" (God's reign of justice and peace), \"thy will be done on earth as it is in heaven\" (obedience).\n• Four about our needs: \"give us this day our daily bread\" (physical and spiritual needs, including the Eucharist), \"forgive us our trespasses as we forgive those who trespass against us\" (forgiveness depends on forgiving others), \"lead us not into temptation\" and \"deliver us from evil\".\nMeaning: \"Our\" shows community, since Christians pray as a family. \"Father\" (Abba) shows a close, trusting relationship. It is a model: praise God first, then ask for needs. It commits the one praying to live the values they pray for (forgiving others, working for the kingdom). The doxology \"For the kingdom, the power and the glory…\" is used by Protestants straight after the prayer, and by Catholics at Mass after a short prayer by the priest.\n\nCONTEMPORARY: Apps such as Hallow and Pray As You Go (from the Jesuits in Britain), livestreamed Masses and online Rosary groups. Prayer groups in parishes; Taizé-style prayer.\n\nKEY TERMS: prayer, adoration, petition, intercession, thanksgiving, formal/set prayer, informal/spontaneous prayer, meditation, contemplation, Liturgy of the Hours, Lord's Prayer, doxology."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Catholic definition of prayer quoted in the Catechism?\nA) 'The source and summit of the Christian life'\nB) 'The raising of one's mind and heart to God'\nC) 'An outward sign of inward grace'\nD) 'Love your neighbour as yourself'",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: B) 'The raising of one's mind and heart to God' (CCC 2559, quoting St John Damascene).\n\nA describes the Eucharist, C describes a sacrament, and D is Jesus's commandment (Mark 12:31).",
+   "evidence": [
+    "CCC 2559"
+   ],
+   "examTip": "Several AQA phrases are quoted in the specification. Learn them exactly, because they make ideal MCQ material.",
+   "answerTopic": "Definition of prayer"
+  },
+  {
+   "question": "In which Gospel passage do the disciples ask Jesus 'Lord, teach us to pray' before he teaches them the Lord's Prayer?\nA) Mark 16\nB) John 3\nC) Luke 11\nD) Acts 2",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: C) Luke 11 (verses 1–4).\n\nMatthew 6:9–13 gives the longer version within the Sermon on the Mount. Mark 16 is the resurrection, John 3 is Jesus and Nicodemus, and Acts 2 is Pentecost.",
+   "evidence": [
+    "Luke 11:1–4",
+    "Matthew 6:9–13"
+   ],
+   "examTip": "Know both Gospel locations of the Lord's Prayer: Matthew 6 and Luke 11.",
+   "answerTopic": "Lord's Prayer"
+  },
+  {
+   "question": "Give one example of a formal (set) prayer used by Catholics.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from: the Our Father (Lord's Prayer); the Hail Mary; the Glory Be; the Apostles' or Nicene Creed; the Angelus; the Rosary; the Liturgy of the Hours / Divine Office; grace before meals; the Act of Contrition; the Mass.",
+   "evidence": [
+    "Matthew 6:9–13",
+    "Luke 1:28, 42 (Hail Mary)"
+   ],
+   "examTip": "Give one named prayer. Don't explain it in a 1-mark answer.",
+   "answerTopic": "Formal prayer"
+  },
+  {
+   "question": "Give one reason why some Catholics prefer informal prayer.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from:\n• It is personal and can express exactly what the person feels\n• It can be said anywhere at any time\n• It feels like talking to God as a friend / a closer relationship\n• It avoids words becoming mechanical or repetitive (Matthew 6:7)\n• Jesus prayed alone in his own words (e.g. Gethsemane)",
+   "evidence": [
+    "Matthew 6:6–7"
+   ],
+   "examTip": "One reason is enough. 'It is personal' is acceptable.",
+   "answerTopic": "Informal prayer"
+  },
+  {
+   "question": "Explain two ways in which the Lord's Prayer influences Catholics today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: The Lord's Prayer is a model for how Catholics pray (1 mark). It begins by praising God ('hallowed be thy name') before asking for needs, so Catholics learn to put God first in their own prayers. They pray it daily and at every Mass (2nd mark).\n\nSecond way: It encourages Catholics to forgive others (1 mark). In praying 'forgive us our trespasses as we forgive those who trespass against us', they recognise that receiving God's forgiveness depends on forgiving others. This may lead them to seek reconciliation in their families or communities, even after serious harm (2nd mark).",
+   "evidence": [
+    "Matthew 6:9–13",
+    "Matthew 6:14–15",
+    "CCC 2838–2845"
+   ],
+   "examTip": "Pick two different petitions or features of the prayer. Each gives a ready-made 'way'.",
+   "answerTopic": "Lord's Prayer – influence"
+  },
+  {
+   "question": "Explain two different Christian views about the importance of formal and informal prayer.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First view: Many Catholics and Orthodox Christians value formal prayer highly (1 mark). Set prayers like the Our Father, the Rosary and the Liturgy of the Hours unite the whole Church in the same words and express the faith accurately. The Mass, a formal liturgy, is the highest form of prayer (2nd mark).\n\nSecond view: Many evangelical and Pentecostal Christians prefer informal, spontaneous prayer (1 mark). They believe prayer should come from the heart in a person's own words, led by the Holy Spirit, and worry that repeating set words can become 'empty phrases' (Matthew 6:7), so their worship often includes extempore prayer (2nd mark).",
+   "evidence": [
+    "Matthew 6:7",
+    "Liturgy of the Hours",
+    "Pentecostal/charismatic prayer"
+   ],
+   "examTip": "To show the views are different, connect each to a named tradition and give a reason for it.",
+   "answerTopic": "Formal vs informal – diversity"
+  },
+  {
+   "question": "Explain two reasons why prayer is important for Catholics.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: Prayer builds a personal relationship with God (1 mark). Just as friendships need communication, Catholics believe they grow closer to God by raising their 'mind and heart' to him (CCC 2559), listening as well as speaking, which strengthens their faith (2nd mark).\n\nSecond reason: Prayer gives strength and guidance in difficult times (1 mark). Catholics bring their worries, illnesses and decisions to God and pray for others (intercession), trusting that God hears and responds, even if not always in the way they expect (2nd mark).\n\nSource of authority: Jesus himself prayed often, for example in Gethsemane: 'not my will but yours be done' (Luke 22:42). This shows Catholics that prayer is important because Jesus did it, and that it helps a person accept God's will even in suffering (2 marks).",
+   "evidence": [
+    "CCC 2559",
+    "Luke 22:42",
+    "1 Thessalonians 5:17",
+    "Matthew 7:7 'Ask, and it will be given you'"
+   ],
+   "examTip": "Jesus's own example of prayer is an excellent source of authority for 'why is prayer important?' questions.",
+   "answerTopic": "Importance of prayer"
+  },
+  {
+   "question": "Explain two things the Lord's Prayer teaches Catholics about God.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: God is a loving Father (1 mark). Jesus teaches his followers to call God 'Father' (Abba), which shows a close, trusting relationship like that of a child with a good parent, and 'Our' shows that all believers are brothers and sisters in one family (2nd mark).\n\nSecond teaching: God is holy and sovereign (1 mark). 'Hallowed be thy name' and 'thy kingdom come, thy will be done' show that God deserves reverence and that his will should rule over the earth. Catholics should therefore work to bring about God's kingdom of justice and peace (2nd mark).\n\nSource of authority: The Lord's Prayer is found in Matthew 6:9–13, where Jesus says 'Pray then in this way: Our Father in heaven…'. Because Jesus himself gave these words, Catholics treat the prayer as the perfect model of prayer, which Tertullian called 'the summary of the whole gospel' (CCC 2761) (2 marks).",
+   "evidence": [
+    "Matthew 6:9–13",
+    "Luke 11:2–4",
+    "CCC 2761",
+    "Romans 8:15 'Abba! Father!'"
+   ],
+   "examTip": "Quote phrases from the prayer itself as evidence. Each phrase can unlock a belief.",
+   "answerTopic": "Lord's Prayer – meaning"
+  },
+  {
+   "question": "'Informal prayer is more valuable than formal prayer.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nInformal prayer comes straight from the heart. A person can speak to God honestly about their own situation, such as an exam, an illness or a broken friendship, in their own words. This makes prayer a real conversation and relationship, which fits the Catholic definition of prayer as 'the raising of one's mind and heart to God' (CCC 2559). Jesus warned against heaping up 'empty phrases' (Matthew 6:7) and taught people to pray 'in secret' (Matthew 6:6).\n\nJesus himself often prayed informally. In Gethsemane he prayed, in his own words, 'remove this cup from me; yet, not my will but yours be done' (Luke 22:42). Many evangelical and Pentecostal Christians, and Catholic charismatic groups, believe the Holy Spirit inspires spontaneous prayer and that it can be more alive than reading set words.\n\nARGUMENTS AGAINST\n\nFormal prayer has great value. Set prayers such as the Our Father were given by Jesus himself: 'Pray then in this way' (Matthew 6:9). If Jesus gave his followers a fixed prayer, it cannot be less valuable than our own words. The Church's greatest prayer, the Mass, is formal. Vatican II called the liturgy 'the summit toward which the activity of the Church is directed' (Sacrosanctum Concilium 10).\n\nFormal prayer unites Catholics across the world and across history. Saying the same Creed or Hail Mary links a believer to millions of others and to the saints. It expresses the faith accurately ('the law of prayer is the law of belief'). It also helps when people are too upset or tired to find words, for example praying the Rosary at a hospital bedside. It can be a form of meditation, as the repeated words free the mind to reflect on the mysteries of Christ.\n\nInformal prayer has weaknesses too. It may become self-centred, focused only on asking for things, or theologically confused. Formal prayers teach a balanced pattern of adoration, contrition, thanksgiving and petition.\n\nCONCLUSION\n\nInformal prayer can be deeply personal and sincere, and the statement rightly warns against formal prayer becoming mechanical. However, formal prayer is also sincere when said with attention, and it carries the authority of Jesus and the Church. The most convincing view, and the Catholic one, is that neither is more valuable. Each feeds the other: personal prayer helps someone mean the words of the liturgy, and formal prayer shapes and steadies personal prayer. What matters most is the heart of the person praying.",
+   "evidence": [
+    "CCC 2559",
+    "Matthew 6:6–9",
+    "Luke 22:42",
+    "Sacrosanctum Concilium 10",
+    "Lex orandi, lex credendi"
+   ],
+   "examTip": "A 'neither is better – they work together' conclusion is fine, but only if you have argued strongly for both sides first.",
+   "answerTopic": "Formal vs informal – evaluation"
+  },
+  {
+   "question": "'The Lord's Prayer is the only prayer a Catholic needs.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Lord's Prayer was taught by Jesus himself when his disciples asked, 'Lord, teach us to pray' (Luke 11:1). No other prayer has such direct authority. Tertullian called it 'the summary of the whole gospel' (CCC 2761), because it contains everything essential to Christian faith: praise of God, longing for his kingdom, obedience to his will, trust for daily needs, forgiveness and protection from evil.\n\nIt covers every type of prayer. 'Hallowed be thy name' is adoration, the petitions for bread and forgiveness are supplication and contrition, and the doxology, used by many Christians, is praise. Because it includes everything, some might argue a Catholic needs nothing more. It is also prayed by Christians of almost every denomination, so it unites the whole Church.\n\nARGUMENTS AGAINST\n\nThe Catholic tradition contains a rich variety of prayer. The Mass, the 'source and summit' of Christian life, goes far beyond the Lord's Prayer, though the Our Father is part of it. Catholics also pray the Hail Mary and the Rosary, asking for the intercession of Mary, and they pray to the saints. The Liturgy of the Hours draws on the Psalms. The Church encourages meditation and contemplative prayer (CCC 2705–2719), which may involve silence rather than words at all.\n\nJesus himself prayed in other ways. He prayed the Psalms ('My God, my God, why have you forsaken me?', Mark 15:34, quoting Psalm 22) and prayed in his own words in Gethsemane. St Paul told Christians to 'pray without ceasing' (1 Thessalonians 5:17), which suggests prayer should fill the whole of life in many forms, not just one set text.\n\nPeople's needs also differ. A grieving person, someone giving thanks for a new baby or a young person praying about a decision may need to speak personally to God. Informal prayer allows this.\n\nCONCLUSION\n\nThe Lord's Prayer is the perfect model of prayer and is central to Catholic life. In that sense the statement points to something true: if someone could pray only one prayer, this would be the best choice. However, the word 'only' does not fit Catholic teaching or practice, which values the Mass, Marian prayer, the Psalms, meditation and personal prayer. The stronger conclusion is that the Lord's Prayer is the pattern for all prayer, not a replacement for it.",
+   "evidence": [
+    "Luke 11:1–4",
+    "Matthew 6:9–13",
+    "CCC 2761, 2705–2719",
+    "Mark 15:34 (Psalm 22)",
+    "1 Thessalonians 5:17"
+   ],
+   "examTip": "Test the key word ('only') against real examples of Catholic prayer: the Mass, the Rosary, the Psalms and contemplation.",
+   "answerTopic": "Lord's Prayer – evaluation"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_islam",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Islam",
+  "brandIcon": "☪️",
+  "brandTitle": "Islam (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062)",
+  "pageTitle": "AQA GCSE Religious Studies A: Islam Revision",
+  "breadcrumb": "Religious Studies / AQA A / Islam",
+  "heroEyebrow": "Component 1 · Islam · Beliefs & teachings · Practices",
+  "papers": [
+   {
+    "id": "Beliefs",
+    "label": "Beliefs & teachings",
+    "title": "Islam: Beliefs and teachings",
+    "subtitle": "Key beliefs and authority (1.1-1.9)"
+   },
+   {
+    "id": "Practices",
+    "label": "Practices",
+    "title": "Islam: Practices",
+    "subtitle": "Worship, duties and festivals (2.1-2.8)"
+   }
+  ],
+  "footerNote": "Original practice questions written to the AQA GCSE Religious Studies A (8062) specification. Not past-paper material. Model answers are indicative exemplars, not official AQA mark schemes; other well-argued answers can gain full credit."
+ },
+ "rubrics": {
+  "Beliefs": {
+   "1": "1-mark multiple choice (AO1): one mark for the single correct letter.",
+   "2": "2-mark 'Give two…' / 'Name two…' (AO1): one mark for each correct, distinct point. No development required.",
+   "4": "4-mark 'Explain two ways / two contrasting…' (AO1): for each of two points, 1 mark for a simple explanation and 2 marks for a detailed explanation (point + development). Where the question asks for contrasting beliefs or influence, the two points must genuinely differ or be applied to Muslim life.",
+   "5": "5-mark 'Explain two… Refer to sacred writings or another source of Muslim belief and teaching' (AO1): for each of two points, 1 mark for a simple and 2 marks for a detailed explanation; plus 1 mark for a relevant, accurate reference to sacred writing (Qur'an, Hadith) or another source of Muslim belief and teaching.",
+   "12": "12-mark evaluation (AO2). Answers are marked on levels. Level 4 (10-12): a well-argued response that gives reasoned consideration to different points of view, with logical chains of reasoning leading to a judgement supported by accurate knowledge of Muslim teaching. Level 3 (7-9): reasoned consideration of different points of view with logical chains of reasoning drawing on relevant knowledge. Level 2 (4-6): reasoned consideration of one point of view, or recognition of different points of view each supported by reasons. Level 1 (1-3): a point of view with a reason stated in support. Up to 3 further marks for spelling, punctuation and grammar are available on 12-mark answers in the Beliefs section. (Paraphrased summary of AQA's published approach - not an official mark scheme.)"
+  },
+  "Practices": {
+   "1": "1-mark multiple choice (AO1): one mark for the single correct letter.",
+   "2": "2-mark 'Give two…' / 'Name two…' (AO1): one mark for each correct, distinct point. No development required.",
+   "4": "4-mark 'Explain two ways / two contrasting…' (AO1): for each of two points, 1 mark for a simple explanation and 2 marks for a detailed explanation (point + development). Where the question asks for contrasting beliefs or influence, the two points must genuinely differ or be applied to Muslim life.",
+   "5": "5-mark 'Explain two… Refer to sacred writings or another source of Muslim belief and teaching' (AO1): for each of two points, 1 mark for a simple and 2 marks for a detailed explanation; plus 1 mark for a relevant, accurate reference to sacred writing (Qur'an, Hadith) or another source of Muslim belief and teaching.",
+   "12": "12-mark evaluation (AO2). Answers are marked on levels. Level 4 (10-12): a well-argued response that gives reasoned consideration to different points of view, with logical chains of reasoning leading to a judgement supported by accurate knowledge of Muslim teaching. Level 3 (7-9): reasoned consideration of different points of view with logical chains of reasoning drawing on relevant knowledge. Level 2 (4-6): reasoned consideration of one point of view, or recognition of different points of view each supported by reasons. Level 1 (1-3): a point of view with a reason stated in support. (Paraphrased summary of AQA's published approach - not an official mark scheme.)"
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A: Islam",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 1: Islam",
+  "provenance": "Original practice questions, model answers and revision notes written to the published AQA GCSE Religious Studies A (8062) specification (Component 1, Islam: beliefs and teachings; practices). Not past-paper material and not copied from AQA mark schemes, textbooks or revision guides. Model answers are indicative, not official mark schemes. Short quotations from the Qur'an and Hadith are cited in each question's evidence."
+ }
+}

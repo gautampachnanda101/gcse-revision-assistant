@@ -1,0 +1,89 @@
+{
+ "paper": "Theme D",
+ "module": "D.4",
+ "moduleTitle": "Religion and peace-making; responses to the victims of war",
+ "note": {
+  "specFocus": "Religion and peace-making in the contemporary world, including the work of individuals influenced by religious teaching; religious responses to the victims of war, including the work of one present-day religious organisation.",
+  "summary": "KEY TERMS\nPeace-making: working actively to bring about peace and reconciliation. Peacekeeping: maintaining peace, e.g. UN forces. Victims of war: civilians and soldiers killed or injured, refugees and displaced people, families who lose loved ones. Refugee: a person forced to flee their country because of war or persecution. Humanitarian aid: practical help such as food, shelter and medicine.\n\nINDIVIDUALS INFLUENCED BY RELIGIOUS TEACHING\nArchbishop Desmond Tutu (Anglican, South Africa): opposed apartheid non-violently and chaired the Truth and Reconciliation Commission (1996–98), which allowed victims and perpetrators to speak and offered amnesty in return for full truth. Nobel Peace Prize 1984.\nMartin Luther King Jr (Baptist minister, USA): non-violent civil rights campaigner inspired by the Sermon on the Mount.\nFr Alec Reid, a Catholic priest, played an important part in the Northern Ireland peace process leading to the Good Friday Agreement (1998).\nLeymah Gbowee (Christian, Liberia): organised Christian and Muslim women to pray and protest for peace, helping end the Liberian civil war in 2003; Nobel Peace Prize 2011.\nThich Nhat Hanh (Buddhist monk, Vietnam): campaigned for peace during the Vietnam War; taught 'engaged Buddhism'.\nMalala Yousafzai (Muslim): campaigner for girls' education and peace.\nGandhi (Hindu): satyagraha, non-violent resistance.\n\nORGANISATIONS FOR PEACE\nPax Christi (Catholic international peace movement); the Fellowship of Reconciliation; Coventry Cathedral's Community of the Cross of Nails; the Corrymeela Community in Northern Ireland (Christian, bringing Catholics and Protestants together); Interfaith groups such as the Inter Faith Network.\n\nRESPONSES TO VICTIMS OF WAR\nTeaching: the Parable of the Good Samaritan (Luke 10:25–37) teaches love for anyone in need, including enemies; \"whatever you did for one of the least of these… you did for me\" (Matthew 25:40) – the parable of the sheep and goats. Islam: zakat and sadaqah; \"feed the hungry, visit the sick, free the captive\" (hadith, Bukhari). Sikhism: sewa (selfless service) and langar; Khalsa Aid gives emergency relief in war zones, e.g. Syria and Ukraine. Judaism: tzedakah (charity/justice) and gemilut chasadim (acts of loving-kindness); World Jewish Relief helps refugees.\nExample of a present-day religious organisation: Christian Aid – helps refugees and people affected by conflict with food, water, shelter and long-term support, works with local partners and campaigns for peace and justice; Caritas/CAFOD (Catholic) give emergency aid in conflict zones; Islamic Relief provides food, medical care and shelter, e.g. in Gaza, Yemen and Syria; Tearfund (evangelical Christian) works with churches in conflict areas.\nOthers: the Royal British Legion (secular) helps veterans; Red Cross/Red Crescent help all victims impartially.\n\nNON-RELIGIOUS VIEWS\nHumanists support peace-making and humanitarian aid based on compassion and human rights; Humanists UK campaigns for refugee rights."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following was a Christian leader who chaired South Africa's Truth and Reconciliation Commission?\nA Martin Luther King Jr\nB Desmond Tutu\nC Mahatma Gandhi\nD Thich Nhat Hanh",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Desmond Tutu.\nArchbishop Desmond Tutu, an Anglican, chaired the Truth and Reconciliation Commission (1996–98) after the end of apartheid, based on his belief in forgiveness and reconciliation.",
+   "evidence": [
+    "Truth and Reconciliation Commission (1996–98)"
+   ],
+   "answerTopic": "peace-making",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one way in which a religious organisation helps the victims of war.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: providing emergency food, water and shelter; medical care; helping refugees resettle; counselling for trauma; rebuilding homes, schools and hospitals; campaigning for peace and refugee rights; reuniting families.",
+   "evidence": [
+    "Christian Aid",
+    "Islamic Relief",
+    "Khalsa Aid"
+   ],
+   "answerTopic": "victims of war",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about helping victims of war.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe they should help victims of war because Jesus taught in the parable of the Good Samaritan that everyone in need is our neighbour, even a stranger or enemy. This is why Christian organisations such as Christian Aid provide shelter, food and long-term support to refugees from conflicts.\n\nBelief 2: Similarly, Sikhs believe that sewa (selfless service) to anyone in need is a way of serving God. Khalsa Aid, a Sikh charity founded in the UK, takes food, water and emergency supplies to people affected by war, such as refugees in Syria and Ukraine, whatever their religion.",
+   "evidence": [
+    "Luke 10:25–37",
+    "Christian Aid",
+    "Khalsa Aid (founded 1999)"
+   ],
+   "answerTopic": "victims of war",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about how religious believers should respond to conflict.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians believe the right response is active peace-making through reconciliation. For example, the Corrymeela Community in Northern Ireland brings Catholics and Protestants together to talk and pray, because Jesus said 'Blessed are the peacemakers' (Matthew 5:9).\n\nBelief 2: In contrast, some Sikhs believe that, as well as working for peace, believers may sometimes have a duty to take up arms to defend the oppressed. Guru Gobind Singh created the Khalsa as saint-soldiers who must protect the weak, so Sikhs see defending others as a last resort as part of their response to conflict.",
+   "evidence": [
+    "Matthew 5:9",
+    "Corrymeela Community",
+    "Khalsa – saint-soldiers"
+   ],
+   "answerTopic": "peace-making",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about why believers should work for peace.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe they should work for peace because Jesus taught 'Blessed are the peacemakers, for they will be called children of God' (Matthew 5:9). This inspired Archbishop Desmond Tutu, who believed that forgiveness and reconciliation were essential for a peaceful South Africa after apartheid. He led the Truth and Reconciliation Commission so that the truth about the past could be told and enemies could learn to live together.\n\nBelief 2: Muslims believe they should work for peace because Allah commands it: 'If they incline to peace, then incline to it also, and trust in Allah' (Qur'an 8:61). The word Islam is related to salaam, meaning peace, and Muslims greet each other with 'peace be upon you'. Organisations such as Islamic Relief support peace-building and help civilians in conflict zones because Muslims believe every human being is created by Allah and deserves dignity and protection.",
+   "evidence": [
+    "Matthew 5:9",
+    "Qur'an 8:61",
+    "Desmond Tutu",
+    "Islamic Relief"
+   ],
+   "answerTopic": "peace-making",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Religious organisations do more to help victims of war than anyone else.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThere is strong evidence that religious organisations play a major role in helping victims of war. Christian Aid, CAFOD, Tearfund, Islamic Relief, Khalsa Aid and World Jewish Relief provide food, water, medical care and shelter in conflict zones such as Syria, Yemen, Gaza and Ukraine. Religious teaching motivates believers to give: Christians follow the parable of the Good Samaritan (Luke 10) and Jesus' words 'whatever you did for one of the least of these… you did for me' (Matthew 25:40); Muslims give zakat and sadaqah; Sikhs perform sewa. Religious organisations often have local networks of churches, mosques and gurdwaras, so they can reach people quickly and stay for the long term, helping with trauma counselling and rebuilding communities. Religious individuals such as Desmond Tutu have also helped heal the wounds of war through reconciliation.\n\nARGUMENTS FOR A DIFFERENT VIEW\nHowever, many non-religious organisations do enormous work too. The International Committee of the Red Cross, Médecins Sans Frontières (Doctors Without Borders), Save the Children and UN agencies such as UNHCR, which supports millions of refugees, are not religious. Governments give billions of pounds in aid and can provide peacekeeping forces, which charities cannot. Humanists argue that compassion is a human value that does not depend on religion, and many non-religious people volunteer and donate generously. It is also very difficult to measure who does 'more' – religious and non-religious groups often work together. Some critics argue that religion can also be part of the cause of conflicts, so it should not be given all the credit for responding to them.\n\nCONCLUSION\nReligious organisations clearly make a huge and valuable contribution, inspired by teachings of love, justice and service. However, the largest aid organisations, such as UN agencies and the Red Cross, are not religious, and governments have resources that charities cannot match. I conclude that the statement is not justified: religious organisations do a great deal and may be especially good at long-term, local support, but they are one part of a wider effort, and helping victims of war is shared by people of all faiths and none.",
+   "evidence": [
+    "Luke 10:25–37",
+    "Matthew 25:40",
+    "Christian Aid, Islamic Relief, Khalsa Aid",
+    "Red Cross, MSF, UNHCR"
+   ],
+   "answerTopic": "victims of war",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

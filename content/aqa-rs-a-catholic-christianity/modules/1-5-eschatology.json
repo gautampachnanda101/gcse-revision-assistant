@@ -1,0 +1,140 @@
+{
+ "paper": "Beliefs",
+ "module": "1.5",
+ "moduleTitle": "Eschatology: resurrection, judgement, heaven, hell and purgatory",
+ "note": {
+  "specFocus": "AQA 8062 Catholic Christianity, key beliefs: eschatology – Catholic beliefs about life after death: resurrection, judgement (particular and last), heaven, hell and purgatory.",
+  "summary": "KEY IDEA: Eschatology is the study of the \"last things\": death, judgement, heaven, hell and purgatory. Catholics believe that death is not the end. Because Christ rose, \"life is changed, not ended\" (Preface for the Dead at the funeral Mass). The Nicene Creed ends: \"I look forward to the resurrection of the dead and the life of the world to come.\"\n\nRESURRECTION: Catholics believe in the resurrection of the body, not just the survival of the soul. At death, the immortal soul separates from the body and meets God at once. At the end of time, at Christ's Second Coming, God will reunite souls with their bodies, which will be glorified and transformed (CCC 988–1004). St Paul describes this: \"What is sown is perishable, what is raised is imperishable… It is sown a physical body, it is raised a spiritual body\" (1 Corinthians 15:42–44). Jesus's own risen body is the model. It was real (he ate fish, Luke 24:42–43), but no longer limited in the same way.\n\nJUDGEMENT: There are two stages.\n• Particular judgement: immediately after death, each soul is judged by Christ according to its faith and works and goes to heaven, purgatory or hell (CCC 1021–1022). The parable of the rich man and Lazarus (Luke 16:19–31) and Jesus's words to the thief, \"today you will be with me in Paradise\" (Luke 23:43), support this.\n• Last (general) judgement: at the end of time Christ will return in glory and judge all people publicly (CCC 1038–1041). In the parable of the sheep and the goats (Matthew 25:31–46), people are judged on how they treated \"the least of these\": feeding the hungry, welcoming strangers and visiting the sick and imprisoned.\n\nHEAVEN: Heaven is eternal life in perfect union with God, Mary, the angels and saints, \"the ultimate end and fulfilment of the deepest human longings\" (CCC 1024). It is described with images (a banquet, the Father's house with \"many dwelling places\", John 14:2). Its essence is the beatific vision, seeing God \"face to face\" (1 Corinthians 13:12; CCC 1028). Most Catholics see it as a state of being rather than a physical place.\n\nPURGATORY: Purgatory is a state of final purification for those who die in God's grace but are not yet fully free from the effects of sin (CCC 1030–1032). It is not a second chance and not a lesser hell. Everyone in purgatory will reach heaven. The Church supports the belief from 2 Maccabees 12:46 (Judas Maccabeus makes atonement for the dead) and 1 Corinthians 3:15 (\"saved, but only as through fire\"). Catholics pray for the dead, have Masses said for them and keep All Souls' Day (2 November).\n\nHELL: Hell is eternal separation from God, freely chosen by those who die in unrepented mortal sin and refuse God's love (CCC 1033–1037). Jesus speaks of \"the eternal fire\" (Matthew 25:41) and \"Gehenna\". The Church teaches that God predestines no one to hell. Its chief pain is the loss of God, for whom humans were created. Pope John Paul II (1999) described hell as a state rather than a place.\n\nDIVERSITY: Most Protestants reject purgatory as unbiblical, since 2 Maccabees is not in the Protestant Old Testament and Christ's sacrifice is seen as fully sufficient. Some liberal Christians doubt a literal hell or believe in universalism (all will eventually be saved). Others believe in annihilation of the wicked. Some Christians hold that the soul alone survives, rather than a bodily resurrection.\n\nINFLUENCE: Belief in judgement encourages Catholics to live morally and care for the poor (Matthew 25). The hope of resurrection brings comfort in grief. Praying for the dead keeps a bond with them (the \"communion of saints\").\n\nKEY TERMS: eschatology, resurrection of the body, soul, particular judgement, last judgement, Parousia, heaven, beatific vision, purgatory, hell, communion of saints."
+ },
+ "questions": [
+  {
+   "question": "What is the Catholic name for the state of purification after death for those who die in God's friendship but are not yet completely purified?\nA) Limbo\nB) Purgatory\nC) Paradise\nD) Parousia",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: B) Purgatory.\n\nCCC 1030–1031 describes purgatory as 'final purification of the elect'. Limbo was a theological theory about unbaptised infants, never defined doctrine. Paradise usually means heaven. Parousia is Christ's Second Coming.",
+   "evidence": [
+    "CCC 1030–1031"
+   ],
+   "examTip": "Watch for distractors with similar-sounding terms (Paradise or Parousia).",
+   "answerTopic": "Purgatory"
+  },
+  {
+   "question": "Which parable of Jesus teaches that people will be judged on how they treated the hungry, strangers, sick and prisoners?\nA) The Prodigal Son\nB) The Sheep and the Goats\nC) The Sower\nD) The Mustard Seed",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: B) The Sheep and the Goats (Matthew 25:31–46).\n\nThe King separates people according to whether they helped 'the least of these'. The Prodigal Son is about forgiveness. The Sower and the Mustard Seed are about the kingdom of God.",
+   "evidence": [
+    "Matthew 25:31–46"
+   ],
+   "examTip": "Matthew 25 is useful in many topics: judgement, love of neighbour, the SVP and CAFOD. Learn it well.",
+   "answerTopic": "Judgement"
+  },
+  {
+   "question": "Give one Catholic belief about heaven.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from:\n• Eternal life in perfect union with God\n• Seeing God face to face (the beatific vision)\n• Being with Mary, the angels and the saints\n• A state of perfect happiness / fulfilment\n• Only those who die in God's grace and are fully purified enter heaven",
+   "evidence": [
+    "CCC 1023–1029",
+    "1 Corinthians 13:12"
+   ],
+   "examTip": "One accurate belief is enough. 'Seeing God face to face' is a strong, precise answer.",
+   "answerTopic": "Heaven"
+  },
+  {
+   "question": "Give one Catholic practice linked to belief in purgatory.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from:\n• Praying for the dead\n• Having a Mass offered for a dead person (Mass intention)\n• Keeping All Souls' Day (2 November)\n• Praying the Rosary or other prayers for the souls in purgatory\n• Giving alms / doing good works offered for the dead",
+   "evidence": [
+    "2 Maccabees 12:46",
+    "CCC 1032"
+   ],
+   "examTip": "Practices linked to beliefs are a favourite AQA question. Always connect them in revision.",
+   "answerTopic": "Purgatory"
+  },
+  {
+   "question": "Explain two ways in which belief in judgement influences Catholics today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Catholics try to live moral lives and avoid sin because they will be held accountable to God (1 mark). They examine their conscience and go to the sacrament of Reconciliation, so that they are prepared for the particular judgement at death (2nd mark).\n\nSecond way: Catholics help people in need because Jesus taught that people will be judged by how they treat 'the least of these' (Matthew 25:40) (1 mark). This motivates them to volunteer with groups like the SVP, give to CAFOD, visit the sick and help at food banks. In serving the poor they are serving Christ (2nd mark).",
+   "evidence": [
+    "Matthew 25:31–46",
+    "Sacrament of Reconciliation"
+   ],
+   "examTip": "Two different influences, one 'religious practice' and one 'moral action', is a reliable structure.",
+   "answerTopic": "Judgement – influence"
+  },
+  {
+   "question": "Explain two different Christian beliefs about life after death.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First belief: Catholics believe in purgatory, a state of purification for those who die in God's grace but still need cleansing before heaven (1 mark). They therefore pray for the dead and have Masses said for them, believing those prayers can help souls on their way to heaven (2 Maccabees 12:46; CCC 1032) (2nd mark).\n\nSecond belief: Most Protestant Christians reject purgatory (1 mark). They believe that, through faith in Christ's complete sacrifice, a believer goes directly to be with God at death. They see no biblical basis for purgatory, partly because 2 Maccabees is not in the Protestant Bible, so they do not pray for the dead in the same way (2nd mark).",
+   "evidence": [
+    "CCC 1030–1032",
+    "2 Maccabees 12:46",
+    "Protestant canon"
+   ],
+   "examTip": "Purgatory is the clearest Catholic–Protestant difference on this topic. It is a reliable choice for a 'different views' question.",
+   "answerTopic": "Afterlife – diversity"
+  },
+  {
+   "question": "Explain two Catholic beliefs about the resurrection of the dead.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First belief: Catholics believe in the resurrection of the body, not just the survival of the soul (1 mark). At death the soul is separated from the body. At the end of time God will reunite each soul with a glorified, transformed body, as the Creed says: 'I look forward to the resurrection of the dead' (2nd mark).\n\nSecond belief: The resurrection of the dead is made possible by Jesus's own resurrection (1 mark). Christ is 'the first fruits' of those who have died. His risen body is the model of the resurrected body: real and recognisable, but no longer subject to death or decay (2nd mark).\n\nSource of authority: In 1 Corinthians 15:42–44 St Paul writes that what is 'sown a physical body' is 'raised a spiritual body', 'perishable' becoming 'imperishable'. This teaches that the resurrected body will be the same person, but transformed and glorified (2 marks).",
+   "evidence": [
+    "1 Corinthians 15:20, 42–44",
+    "Nicene Creed",
+    "CCC 997–1001",
+    "Luke 24:39–43"
+   ],
+   "examTip": "Bodily resurrection is distinctively Christian. Contrast it clearly with the soul simply living on.",
+   "answerTopic": "Resurrection of the dead"
+  },
+  {
+   "question": "Explain two Catholic beliefs about hell.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First belief: Hell is eternal separation from God (1 mark). Its chief punishment is the loss of God, for whom every human being was created and in whom alone they can find happiness (CCC 1035) (2nd mark).\n\nSecond belief: Hell is a free choice, not something God forces on people (1 mark). God 'predestines no one' to hell (CCC 1037). Those who end there have freely and finally rejected God's love by dying in unrepented mortal sin, so hell respects human free will (2nd mark).\n\nSource of authority: In the parable of the sheep and the goats, the King says to those who failed to help the needy, 'depart from me… into the eternal fire' (Matthew 25:41). This shows that hell is real, that it means being sent away from God, and that it is linked to the choices people make in life (2 marks).",
+   "evidence": [
+    "Matthew 25:41, 46",
+    "CCC 1033–1037"
+   ],
+   "examTip": "Be accurate: the Church says hell exists, but not who is in it. Avoid saying 'God sends bad people to hell' without the free-will point.",
+   "answerTopic": "Hell"
+  },
+  {
+   "question": "'A loving God would not send anyone to hell.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nChristians believe 'God is love' (1 John 4:8). A loving parent would never wish their child to suffer forever, so it seems contradictory that an all-loving God would allow eternal punishment. Jesus's parable of the Prodigal Son (Luke 15) shows a father who runs to welcome back his son, however badly he behaved.\n\nEternal punishment also seems out of proportion. Even serious sins are committed in a finite lifetime, so infinite punishment can seem unjust. For this reason some Christians are universalists: they believe all people will eventually be reconciled to God (they sometimes cite 1 Timothy 2:4, God 'desires everyone to be saved'). Others believe in annihilation, where the wicked simply cease to exist. Many non-religious people see hell as a medieval idea used to frighten people into obedience.\n\nARGUMENTS AGAINST\n\nCatholic teaching accepts that God is love, but it argues that hell is not God 'sending' people anywhere against their will. Hell is 'the state of definitive self-exclusion from communion with God' (CCC 1033). Because God created humans with free will, he respects their choice. If someone freely and finally rejects God, forcing them into heaven would be a violation of their freedom. 'God predestines no one to go to hell' (CCC 1037).\n\nJesus himself spoke of hell more than once. In Matthew 25:41, 46, those who refused to help the needy 'will go away into eternal punishment'. He also spoke of Gehenna. The Church cannot ignore this teaching. Love and justice belong together: a God who did not care about evil, such as murder or cruelty, would not be truly loving towards the victims.\n\nCatholics also note that God gives every chance to repent. The sacrament of Reconciliation, the thief on the cross (Luke 23:43) and the Divine Mercy devotion all show that mercy is always available. The Church has never declared that any particular person is in hell, and Catholics pray that all may be saved.\n\nCONCLUSION\n\nThe statement has emotional force, and it is correct that God does not want anyone to be lost. However, it misunderstands Catholic teaching by picturing God actively 'sending' people to hell. The more convincing view is that hell is the consequence of a free creature's final rejection of love. A loving God who respects freedom may permit that choice, while doing everything to prevent it. So a loving God and the possibility of hell are compatible, though Catholics hope and pray that hell will be empty of human souls.",
+   "evidence": [
+    "1 John 4:8",
+    "Luke 15:11–32",
+    "Matthew 25:41, 46",
+    "CCC 1033, 1037",
+    "1 Timothy 2:4",
+    "Universalism; annihilationism"
+   ],
+   "examTip": "Use precise Catholic wording ('self-exclusion', 'God predestines no one') to strengthen the argument against the statement.",
+   "answerTopic": "Hell – evaluation"
+  },
+  {
+   "question": "'Belief in purgatory is the most helpful Catholic teaching about life after death.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nMost people are neither perfectly holy nor completely wicked. Purgatory explains how ordinary people who die in God's friendship, but with faults and unconfessed lesser sins, can still be made ready for heaven (CCC 1030). This can be very comforting. It suggests God's mercy is patient and that a person does not have to be perfect at death to be saved.\n\nPurgatory also helps the living. Because Catholics believe in it, they can pray for those who have died, have Masses offered for them and keep All Souls' Day (2 November). This keeps a loving bond with the dead (the 'communion of saints') and gives grieving families something practical to do. The practice is rooted in 2 Maccabees 12:46, where Judas Maccabeus makes atonement for the dead 'so that they might be delivered from their sin'.\n\nARGUMENTS AGAINST\n\nOther teachings may be more central or helpful. The resurrection of the dead, based on Jesus's own resurrection (1 Corinthians 15), is the foundation of all Christian hope and is proclaimed in the Creed. Heaven, seeing God 'face to face' (1 Corinthians 13:12), is the goal that gives life its ultimate purpose. Purgatory is a stage on the way to heaven and only makes sense in the light of these deeper beliefs.\n\nThe teaching on judgement may be more helpful for how people live now. Matthew 25 tells Catholics that they will be judged on love for the poor, which directly motivates charity and justice. Purgatory, by contrast, has sometimes been misunderstood. In the Middle Ages abuses in the selling of indulgences contributed to the Reformation.\n\nMany Christians would not find purgatory helpful at all. Most Protestants reject it, arguing that Christ's sacrifice was fully sufficient (Hebrews 10:14), that it is not clearly taught in their Bible, and that it can make people anxious about further suffering after death. Non-religious people reject any afterlife.\n\nCONCLUSION\n\nPurgatory is a distinctively Catholic belief that offers real comfort and supports practices such as prayer for the dead, so it is certainly helpful for many Catholics. However, calling it the 'most helpful' teaching is hard to defend, because it depends on the more basic beliefs in resurrection and heaven, and other Christians reject it. The more convincing view is that the resurrection, guaranteed by Christ's own rising, is the most helpful teaching, since it gives hope to all believers. Purgatory adds a valuable expression of God's mercy within that hope.",
+   "evidence": [
+    "CCC 1030–1032",
+    "2 Maccabees 12:46",
+    "1 Corinthians 13:12; 15",
+    "Matthew 25:31–46",
+    "Hebrews 10:14",
+    "All Souls' Day"
+   ],
+   "examTip": "When a statement says 'most', compare at least two alternatives and decide between them in your conclusion.",
+   "answerTopic": "Purgatory – evaluation"
+  }
+ ]
+}

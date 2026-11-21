@@ -1,0 +1,131 @@
+{
+ "paper": "Beliefs",
+ "module": "1.5",
+ "moduleTitle": "Human destiny: the Arhat and Bodhisattva ideals, Buddhahood and the Pure Land",
+ "note": {
+  "specFocus": "Human destiny: different ideals in the Theravada and Mahayana traditions – the Arhat ('perfected person') and Bodhisattva ideals; Buddhahood and the Pure Land.",
+  "summary": "HUMAN DESTINY IN BUDDHISM\nBuddhists believe beings are reborn again and again in samsara according to their kamma until they achieve Enlightenment and nibbana. The traditions describe the ideal goal differently.\n\nTHERAVADA: THE ARHAT ('PERFECTED PERSON', 'WORTHY ONE')\nAn arhat (Pali: arahant) is someone who has followed the Buddha's teaching, destroyed greed, hatred and ignorance, and achieved nibbana. They will not be reborn after death. The Pali Canon describes the arhat's realisation with the words: \"Birth is ended, the holy life has been lived, what had to be done has been done, there is no more coming to any state of being.\" The Buddha himself was an arhat, but he is also a samma-sambuddha, a fully enlightened Buddha who discovered the Dhamma without a teacher. Arhats such as Sariputta, Moggallana and the nun Khema reached the goal through his teaching. Theravada Buddhists usually see this as achieved mainly by monks and nuns, through meditation and following the Vinaya, though lay people can make progress through merit-making and practice. The Dhammapada (chapter 7, 'The Arahant') describes the arhat as calm, free from fear, like a lake that is clear and undisturbed. Arhats are not selfish: they teach and help others, as the Buddha's disciples did.\n\nMAHAYANA: THE BODHISATTVA\nA bodhisattva ('Enlightenment being') is someone who aims to become a fully enlightened Buddha for the sake of all beings. Motivated by bodhicitta (the mind set on Enlightenment out of compassion), they take the bodhisattva vow, often expressed as: \"Beings are numberless; I vow to save them all.\" Shantideva's prayer says: \"For as long as space endures, and for as long as living beings remain, until then may I too abide to dispel the misery of the world\" (Bodhicaryavatara 10:55). Bodhisattvas practise the six perfections (paramitas) over many lifetimes, progressing through stages (bhumis). Some, such as Avalokiteshvara (compassion; Guanyin in China, Chenrezig in Tibet) and Manjushri (wisdom), are worshipped as celestial bodhisattvas. Tibetan Buddhists regard the Dalai Lama as an emanation of Avalokiteshvara. Mahayana Buddhists sometimes criticised the arhat goal as less complete, because it aims at personal liberation rather than Buddhahood for the sake of all.\n\nBUDDHAHOOD\nBuddhahood is the state of complete Enlightenment, with perfect wisdom and compassion. In Mahayana, it is the ultimate goal for everyone, made possible by Buddha-nature (see 1.4). There are said to have been many Buddhas, and Maitreya is expected to be the next Buddha in this world.\n\nTHE PURE LAND\nPure Land Buddhism (popular in China and Japan, e.g. Jodo Shu and Jodo Shinshu) focuses on Amitabha (Amida) Buddha. According to the Larger Sukhavativyuha Sutra, as the monk Dharmakara he made 48 vows, including the vow (the 18th) that anyone who sincerely calls on his name with faith will be reborn in his Pure Land, Sukhavati ('Land of Bliss'). There, free from distractions, beings can easily attain Enlightenment. Pure Land Buddhists recite the nembutsu: 'Namu Amida Butsu' ('I take refuge in Amida Buddha'). Honen and Shinran (12th–13th centuries) taught that in a degenerate age (mappo) people should rely on Amida's 'other-power' (tariki) rather than self-power (jiriki). Some see the Pure Land as a real place; others see it as a symbol of a purified mind.\n\nKEY TERMS\nArhat – perfected one. Bodhisattva – being who seeks Buddhahood for all. Bodhicitta – compassionate aspiration for Enlightenment. Paramitas – perfections. Sukhavati – Amitabha's Pure Land. Nembutsu – recitation of Amida's name."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the name of the Buddha at the centre of Pure Land Buddhism?\nA) Maitreya\nB) Amitabha\nC) Avalokiteshvara\nD) Manjushri",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Amitabha (Amida). Pure Land Buddhists hope to be reborn in Amitabha's Pure Land, Sukhavati. Maitreya is the future Buddha, and Avalokiteshvara and Manjushri are bodhisattvas.",
+   "evidence": [
+    "Amitabha / Sukhavati"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "pure land"
+  },
+  {
+   "question": "Which one of the following is the ideal goal in Theravada Buddhism?\nA) Bodhisattva\nB) Arhat\nC) Lama\nD) Rupa",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Arhat. An arhat is a 'perfected person' who has achieved nibbana and will not be reborn. The bodhisattva is the Mahayana ideal, a lama is a Tibetan teacher and a rupa is an image of the Buddha.",
+   "evidence": [
+    "Arhat"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "arhat"
+  },
+  {
+   "question": "Give two features of an arhat.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of:\n- They have achieved nibbana/Enlightenment.\n- They have destroyed greed, hatred and ignorance (the Three Poisons).\n- They will not be reborn after death.\n- They are calm, peaceful and free from fear.\n- They have followed the teaching of a Buddha (e.g. Sariputta).",
+   "evidence": [
+    "Dhammapada ch. 7"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "arhat"
+  },
+  {
+   "question": "Name two bodhisattvas.",
+   "marks": 2,
+   "command": "Name",
+   "modelAnswer": "Any two of: Avalokiteshvara (Guanyin/Chenrezig/Kannon); Manjushri; Tara; Maitreya; Kshitigarbha (Jizo); Samantabhadra; Vajrapani. (Also credit the Buddha in his previous lives, e.g. as Sumedha, or the Dalai Lama as an emanation of Avalokiteshvara.)",
+   "evidence": [
+    "Celestial bodhisattvas"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "bodhisattva"
+  },
+  {
+   "question": "Explain two contrasting beliefs about human destiny in Theravada and Mahayana Buddhism.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Theravada Buddhists believe the goal is to become an arhat, a perfected person who has removed greed, hatred and ignorance and reached nibbana, so they will not be reborn. This is usually achieved by following the teaching of the Buddha, often through monastic life and meditation.\n\n2. Mahayana Buddhists believe the highest goal is to become a Buddha by following the bodhisattva path. A bodhisattva vows to work for the Enlightenment of all beings, practising the six perfections over many lifetimes rather than seeking only their own liberation; some Mahayana Buddhists hope to be reborn in Amitabha's Pure Land where Enlightenment is easier.",
+   "evidence": [
+    "Arhat",
+    "Bodhisattva vow"
+   ],
+   "examTip": "Make the contrast explicit, e.g. 'In contrast, Mahayana Buddhists…'. Each point should be developed with what the goal involves.",
+   "answerTopic": "theravada vs mahayana"
+  },
+  {
+   "question": "Explain two ways in which belief in the Pure Land influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Pure Land Buddhists recite the nembutsu, 'Namu Amida Butsu', often many times a day or using a mala. This expresses gratitude and trust in Amida Buddha's vow and is their main religious practice, done at home and in temples, for example in Jodo Shinshu temples in Japan.\n\n2. Belief in the Pure Land gives comfort at death. Pure Land Buddhists may have images of Amida at a dying person's bedside and chant his name, believing that Amida will welcome them into Sukhavati. This brings hope and peace to the dying and their families.",
+   "evidence": [
+    "Nembutsu",
+    "Sukhavati"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "pure land"
+  },
+  {
+   "question": "Explain two Buddhist teachings about the bodhisattva ideal.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. A bodhisattva vows to help all beings. Shantideva writes: 'For as long as space endures, and for as long as living beings remain, until then may I too abide to dispel the misery of the world' (Bodhicaryavatara 10:55). This shows that the bodhisattva's motivation is compassion (karuna) for all beings, not just personal liberation.\n\n2. Bodhisattvas develop the six perfections (paramitas). The Perfection of Wisdom sutras teach that a bodhisattva must perfect generosity, morality, patience, energy, meditation and wisdom over many lifetimes. This shows that becoming a Buddha is a long path of training in both compassion and wisdom.",
+   "evidence": [
+    "Shantideva, Bodhicaryavatara 10:55",
+    "Perfection of Wisdom sutras: six paramitas"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "bodhisattva"
+  },
+  {
+   "question": "Explain two Buddhist teachings about the Pure Land.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Amitabha Buddha made a vow to save beings. According to the Larger Sukhavativyuha Sutra, as the monk Dharmakara he vowed that anyone who sincerely calls on his name with faith would be reborn in his Pure Land. This is why Pure Land Buddhists recite 'Namu Amida Butsu'.\n\n2. The Pure Land is a place where Enlightenment is easy to attain. The sutras describe Sukhavati as a beautiful land of jewelled trees and lotus ponds, free from suffering and distraction, where beings hear the Dhamma constantly. Shinran taught that ordinary people in this age cannot reach Enlightenment by their own power, so rebirth in the Pure Land through Amida's 'other-power' is the path for them.",
+   "evidence": [
+    "Larger Sukhavativyuha Sutra (Amitabha's vows)",
+    "Shinran: other-power (tariki)"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "pure land"
+  },
+  {
+   "question": "“Becoming a bodhisattva is a better ideal than becoming an arhat.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany Mahayana Buddhists argue that the bodhisattva ideal is better because it is motivated by compassion for all beings. A bodhisattva vows, 'Beings are numberless; I vow to save them all', and Shantideva prays to remain 'for as long as living beings remain'. This seems more selfless than seeking one's own nibbana.\n\nThe bodhisattva path aims at full Buddhahood, which includes perfect wisdom and compassion. The Lotus Sutra suggests that the arhat goal is a stage, a 'resting place', rather than the final destination, and that all are ultimately meant to become Buddhas. If Buddhahood is the highest state, then aiming for it seems the better ideal.\n\nThe bodhisattva ideal also inspires active social engagement. Many Mahayana Buddhists, such as followers of the Dalai Lama or members of Soka Gakkai and Fo Guang Shan, see helping others through education, charity and disaster relief as part of their path.\n\nARGUMENTS FOR A DIFFERENT VIEW\nTheravada Buddhists would argue that the arhat ideal is not selfish. Arhats have removed greed and hatred, and they naturally act with compassion. The Buddha's arhat disciples, like Sariputta, spent their lives teaching others. The Buddha told the first arhats to 'wander for the welfare of the many, out of compassion for the world'.\n\nThe arhat ideal is based on the Buddha's own teaching in the Pali Canon, which Theravada Buddhists see as the oldest record of his words. The Buddha was himself an arhat. Mahayana sutras that criticise the arhat goal came later and are not accepted by Theravada as the Buddha's words.\n\nThe arhat goal is also more achievable. The bodhisattva path takes countless lifetimes, while the arhat goal can be reached much sooner. Arguably, you cannot help others effectively until you have overcome your own greed, hatred and ignorance, just as a drowning person cannot rescue others.\n\nCONCLUSION\nI think the statement depends on which tradition you belong to. The bodhisattva ideal is impressive in its universal compassion, and for Mahayana Buddhists it is clearly the higher goal. However, it is unfair to call the arhat ideal selfish, since arhats are compassionate and teach others, and it has strong support in the earliest scriptures. Overall, both ideals combine wisdom and compassion; the bodhisattva ideal emphasises compassion more explicitly, but neither is simply 'better' for all Buddhists.",
+   "evidence": [
+    "Shantideva, Bodhicaryavatara",
+    "Lotus Sutra",
+    "\"Wander for the welfare of the many\" (Vinaya, Mahavagga)",
+    "Arhat Sariputta"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "arhat vs bodhisattva"
+  },
+  {
+   "question": "“Pure Land Buddhists rely too much on Amitabha Buddha instead of their own efforts.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThe Buddha's original teaching seems to stress self-effort. The Dhammapada says, 'You yourselves must strive; the Buddhas only point the way' (verse 276), and the Buddha told his followers to be 'a lamp unto yourselves'. Relying on Amitabha to bring you to the Pure Land might seem to go against this.\n\nTheravada Buddhists do not accept the Pure Land sutras as the Buddha's words, and they would see Enlightenment as something achieved through following the Eightfold Path, meditation and ethics, not by calling on a Buddha's name.\n\nSome critics argue that relying on another's power could make people passive, as if reciting the nembutsu is enough and moral effort is unnecessary. Even within Japanese Buddhism, Zen and Nichiren teachers criticised Pure Land for this reason.\n\nARGUMENTS FOR A DIFFERENT VIEW\nPure Land Buddhists believe relying on Amitabha is a realistic and humble response to human weakness. Shinran taught that in the degenerate age (mappo), ordinary people are too full of greed, hatred and ignorance to reach Enlightenment by themselves. Recognising this honestly and trusting Amida's compassionate vow is a way of letting go of the ego, which links to anatta.\n\nFaith in Amitabha does not mean doing nothing. Pure Land Buddhists still keep the precepts, practise generosity and recite the nembutsu with gratitude. Rebirth in the Pure Land is a means to Enlightenment, which they then hope to use to help others, like bodhisattvas.\n\nThe Pure Land path is open to everyone, not just monks with time for intensive meditation. Honen and Shinran wanted Buddhism to be accessible to ordinary farmers and workers. Also, all Buddhists rely to some extent on others: they take refuge in the Buddha, Dhamma and Sangha.\n\nCONCLUSION\nI do not think the statement is fair. From a Theravada view, relying on Amitabha may seem to neglect self-effort, and the Dhammapada does stress personal striving. But Pure Land Buddhists see trust in Amitabha as an honest recognition of human limitation and a way of overcoming self-centredness, and they still live ethical lives. 'Too much' assumes self-power is the only valid path, which Pure Land teaching rejects. So the statement reflects one tradition's view rather than a fair judgement on Pure Land Buddhism.",
+   "evidence": [
+    "Dhammapada 276",
+    "\"Be a lamp unto yourselves\"",
+    "Shinran: tariki and mappo",
+    "Nembutsu"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "pure land"
+  }
+ ]
+}

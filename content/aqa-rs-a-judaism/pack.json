@@ -1,0 +1,40 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_judaism",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Judaism",
+  "brandIcon": "✡️",
+  "brandTitle": "Judaism (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062)",
+  "pageTitle": "AQA GCSE Religious Studies A – Judaism Revision",
+  "breadcrumb": "Religious Studies / AQA A / Judaism",
+  "heroEyebrow": "Component 1 · Judaism · Beliefs & teachings · Practices",
+  "papers": [
+   {"id": "Beliefs", "label": "Beliefs & teachings", "title": "Judaism: beliefs and teachings", "subtitle": "Key beliefs · The Covenant and the mitzvot (1.1–1.10)"},
+   {"id": "Practices", "label": "Practices", "title": "Judaism: practices", "subtitle": "The synagogue and worship · Family life and festivals (2.1–2.13)"}
+  ],
+  "footerNote": "Original practice questions written to the AQA GCSE Religious Studies A (8062) specification, Component 1: Judaism. They are not past-paper material. Model answers are indicative exemplars, not official AQA mark schemes, and other valid answers are credited."
+ },
+ "rubrics": {
+  "Beliefs": {
+   "1": "1 mark (AO1), multiple choice: 1 mark for the correct option. No credit if more than one option is chosen.",
+   "2": "2 marks (AO1), 'Give two…': 1 mark for each correct, relevant point, up to 2. No development needed. Repeated points or points that are not distinct gain no extra credit.",
+   "4": "4 marks (AO1), 'Explain two ways…' or 'Explain two contrasting…': for each of two ways or beliefs, 1 mark for a simple explanation of a relevant and accurate point, or 2 marks for a detailed explanation. Where contrasting beliefs are asked for, the two must differ (for example Orthodox and Reform).",
+   "5": "5 marks (AO1), 'Explain two… Refer to sacred writings…': for each of two beliefs or teachings, 1 mark for a simple explanation or 2 marks for a detailed explanation, plus 1 mark for a relevant and accurate reference to sacred writings or another source of Jewish belief and teaching (for example Torah, Tenakh, Talmud, Mishnah, siddur or a respected rabbi). The reference may be paraphrased.",
+   "12": "12 marks (AO2), 'Evaluate this statement': marked by levels, with up to 3 further marks for spelling, punctuation and grammar. Level 4 (10–12): a well-argued answer that considers different points of view in reasoned detail, uses logical chains of reasoning and reaches a judgement supported by accurate knowledge of religious teaching. Level 3 (7–9): reasoned consideration of different points of view, with logical chains of reasoning drawing on knowledge of religious teaching. Level 2 (4–6): reasoned consideration of one point of view, or some recognition of different points of view, each backed by relevant reasons or evidence. Level 1 (1–3): a point of view supported by one or more simple reasons. A 'Jewish' perspective must be included; a justified conclusion is expected for the top level."
+  },
+  "Practices": {
+   "1": "1 mark (AO1), multiple choice: 1 mark for the correct option. No credit if more than one option is chosen.",
+   "2": "2 marks (AO1), 'Give two…': 1 mark for each correct, relevant point, up to 2. No development needed. Repeated points or points that are not distinct gain no extra credit.",
+   "4": "4 marks (AO1), 'Explain two ways…' or 'Explain two contrasting…': for each of two ways or practices, 1 mark for a simple explanation of a relevant and accurate point, or 2 marks for a detailed explanation. Where contrasting practices are asked for, the two must differ (for example Orthodox and Reform synagogues).",
+   "5": "5 marks (AO1), 'Explain two… Refer to sacred writings…': for each of two points, 1 mark for a simple explanation or 2 marks for a detailed explanation, plus 1 mark for a relevant and accurate reference to sacred writings or another source of Jewish belief and teaching (for example Torah, Tenakh, Talmud, Mishnah, siddur or Haggadah). The reference may be paraphrased.",
+   "12": "12 marks (AO2), 'Evaluate this statement': marked by levels, with up to 3 further marks for spelling, punctuation and grammar. Level 4 (10–12): a well-argued answer that considers different points of view in reasoned detail, uses logical chains of reasoning and reaches a judgement supported by accurate knowledge of religious teaching and practice. Level 3 (7–9): reasoned consideration of different points of view, with logical chains of reasoning drawing on knowledge of religious teaching. Level 2 (4–6): reasoned consideration of one point of view, or some recognition of different points of view, each backed by relevant reasons or evidence. Level 1 (1–3): a point of view supported by one or more simple reasons. A 'Jewish' perspective must be included; a justified conclusion is expected for the top level."
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A – Judaism",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 1: The study of religions – Judaism (beliefs and teachings; practices)",
+  "provenance": "Original practice questions written to the published AQA GCSE Religious Studies A (8062) specification (section 3.1.6 Judaism, and the Component 1 question structure of 1, 2, 4, 5 and 12 marks). They are not taken from AQA past papers, specimen papers, mark schemes, textbooks or revision guides. Model answers and revision notes are original indicative exemplars, not official AQA mark schemes; the rubric text paraphrases the published assessment structure. Short quotations from the Tenakh, Mishnah, Talmud and siddur are cited in the evidence lists."
+ }
+}

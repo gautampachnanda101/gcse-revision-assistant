@@ -1,0 +1,132 @@
+{
+ "paper": "Practices",
+ "module": "2.2",
+ "moduleTitle": "The design and religious features of synagogues",
+ "note": {
+  "specFocus": "The synagogue and worship: the design and religious features of synagogues, including the bimah (reading platform), aron hakodesh (ark) and ner tamid (ever-burning light), and associated practices; differences between Orthodox and Reform synagogues.",
+  "summary": "Design principles\nSynagogues vary greatly in architecture, but they share key features. There are no statues or pictures of God or people, because of the commandment against images (Exodus 20:4). Decoration uses Hebrew lettering, patterns, the Star of David, the menorah, the lions of Judah and plants. Most synagogues are built so that worshippers face Jerusalem (in Britain, roughly south-east), following Solomon's prayer (1 Kings 8:44) and the Talmud (Berakhot 30a).\n\nKey features\n• Aron Hakodesh (holy ark): a cupboard on the wall facing Jerusalem that holds the Sefer Torah scrolls. It recalls the Ark of the Covenant, which held the tablets of the Ten Commandments in the Temple. It is the focal point of the synagogue. It is covered by a decorated curtain, the parochet (based on the curtain in the Tabernacle, Exodus 26:31–33). The congregation stands when the ark is opened, and opening it is an honour.\n• Sefer Torah: a handwritten parchment scroll of the five books of Moses, written by a trained scribe (sofer). It is dressed in a mantle (Ashkenazi) or kept in a case (Sephardi), with a breastplate and crowns or finials (rimonim). It is not touched directly; a yad (pointer) is used to follow the words. By custom, if a scroll is dropped, those present may fast. Worn-out scrolls are buried.\n• Ner tamid (ever-burning light): a light, usually above the ark, that is never put out. It recalls the menorah in the Temple, which was to burn \"continually\" (Exodus 27:20–21), and symbolises God's eternal presence (Shekhinah) and the light of Torah.\n• Bimah (reading platform): a raised platform with a reading desk from which the Torah is read and services are often led. Raising it shows respect for the Torah and helps everyone hear (Nehemiah 8:4, Ezra stood on a wooden platform).\n• Other features: a display of the Ten Commandments (two tablets) above the ark; a menorah (seven-branched lamp, echoing the Temple); seats facing the ark or the bimah; memorial boards; a pulpit.\n\nAssociated practices\n• The Torah is carried around the synagogue (hakafah) before and after reading, and people touch it with their tallit or siddur and kiss it.\n• Hagbah: lifting the open scroll to show the congregation, who say \"This is the Torah which Moses set before the children of Israel.\"\n• Seven people are called up for an aliyah on Shabbat morning to say blessings over the reading.\n\nOrthodox and Reform differences\n• Bimah: in Orthodox synagogues it is traditionally in the centre, showing the Torah at the heart of the community, and the reader faces the ark. In most Reform synagogues the bimah and ark are together at the front, often like a stage, with the leader facing the congregation.\n• Seating: Orthodox synagogues separate men and women with a mechitzah (screen) or a women's gallery, so worshippers can concentrate on prayer. Reform and Liberal synagogues have mixed seating; families sit together.\n• Music: Orthodox synagogues sing without instruments on Shabbat (as a sign of mourning for the Temple and because playing instruments is avoided on Shabbat). Many Reform synagogues have an organ or other instruments and a mixed choir.\n• Leadership: in Reform synagogues women may be rabbis or cantors and read from the Torah at the bimah. Orthodox synagogues have male rabbis, although some now have female educators or advisors.\n• Name: some Reform communities call the building a \"temple\".\n\nKey terms: Aron Hakodesh; parochet; Sefer Torah; sofer; yad; ner tamid; bimah; mechitzah; aliyah; hagbah."
+ },
+ "questions": [
+  {
+   "question": "What is the ner tamid?\nA The reading platform\nB The ever-burning light\nC The curtain in front of the ark\nD The pointer used to read the Torah",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – the ever-burning light, which hangs above or near the ark. It recalls the Temple menorah that burned continually (Exodus 27:20) and symbolises God's eternal presence. The reading platform is the bimah, the curtain is the parochet, and the pointer is the yad.",
+   "evidence": [
+    "Exodus 27:20–21"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "ner tamid"
+  },
+  {
+   "question": "Which feature of a synagogue holds the Torah scrolls?\nA Bimah\nB Mechitzah\nC Aron Hakodesh\nD Ner tamid",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – the Aron Hakodesh, the holy ark, which holds the Sefer Torah scrolls. It is placed on the wall facing Jerusalem and recalls the Ark of the Covenant in the Temple.",
+   "evidence": [
+    "Exodus 25:10–22 (Ark of the Covenant)"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "Aron Hakodesh"
+  },
+  {
+   "question": "Give two features found in most synagogues.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Aron Hakodesh (ark).\n• Sefer Torah scrolls.\n• Ner tamid.\n• Bimah.\n• Parochet (curtain).\n• Ten Commandments tablets.\n• Menorah.\n• Seats facing Jerusalem.\n• Women's gallery or mechitzah (Orthodox).",
+   "evidence": [
+    "Exodus 27:20",
+    "Nehemiah 8:4"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "synagogue features"
+  },
+  {
+   "question": "Give two ways in which Jews show respect for the Torah scrolls in the synagogue.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Keeping them in the ark behind a curtain.\n• Standing when the ark is opened.\n• Using a yad instead of touching the text.\n• Dressing them in a mantle and crown.\n• Kissing them, or touching them with a tallit, as they are carried round.\n• Lifting them for all to see (hagbah).\n• Reading them from a raised bimah.\n• Burying worn-out scrolls.",
+   "evidence": [
+    "Hagbah",
+    "Yad"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "Torah scrolls"
+  },
+  {
+   "question": "Explain two differences between Orthodox and Reform synagogues.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Seating. In Orthodox synagogues men and women sit separately, either with women in an upstairs gallery or behind a mechitzah (screen), so that people can concentrate on prayer without distraction. In Reform synagogues men and women sit together as families, reflecting the Reform belief in equality in worship.\n\n2. The position of the bimah. In Orthodox synagogues the bimah is traditionally in the centre, with seats around it, showing that the Torah is at the heart of the community. In most Reform synagogues the bimah is at the front, next to the ark, and the leader faces the congregation, more like a stage. Reform synagogues may also have an organ, which Orthodox synagogues do not use on Shabbat.",
+   "evidence": [
+    "Mechitzah",
+    "Talmud Sukkah 51b (separation in the Temple courts)"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "Orthodox and Reform synagogues"
+  },
+  {
+   "question": "Explain two ways in which features of the synagogue remind Jews of the Temple in Jerusalem.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. The Aron Hakodesh recalls the Ark of the Covenant. In the Temple, the Ark held the tablets of the Ten Commandments in the Holy of Holies. The synagogue ark holds the Torah scrolls, is covered with a curtain (parochet) like the one in the Tabernacle, and is the holiest part of the building, so people stand when it is opened.\n\n2. The ner tamid recalls the Temple menorah. God commanded that a lamp should burn \"continually\" in the Tabernacle (Exodus 27:20). The synagogue's ever-burning light reminds Jews of the Temple and of God's constant presence. Synagogues also face Jerusalem, where the Temple stood, so prayers are directed towards the place of the ancient sanctuary.",
+   "evidence": [
+    "Exodus 25:10–22",
+    "Exodus 26:31–33",
+    "Exodus 27:20"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "synagogue and Temple"
+  },
+  {
+   "question": "Explain two reasons why the Aron Hakodesh is important in a synagogue. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. It holds the Sefer Torah, the most sacred object in Judaism. The Torah scrolls contain God's teaching given to Moses at Sinai. Because of this, the ark is the focal point of the synagogue, worshippers face it when praying, and they stand when it is opened, showing respect for God's word.\n\n2. It recalls the Ark of the Covenant in the Temple. God commanded Moses to make an ark to hold the tablets of the covenant and said, \"There I will meet with you\" (Exodus 25:22). The synagogue ark is placed on the wall facing Jerusalem and covered by a parochet, like the curtain in the Tabernacle (Exodus 26:31–33). It connects Jews today to the Temple and to God's presence.",
+   "evidence": [
+    "Exodus 25:10–22",
+    "Exodus 26:31–33"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "Aron Hakodesh"
+  },
+  {
+   "question": "Explain two reasons why the bimah and the ner tamid are important. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The bimah shows the importance of reading the Torah publicly. When Ezra read the Torah to the people, he stood \"on a wooden platform made for the purpose\" so all could hear (Nehemiah 8:4). The raised bimah honours the Torah and allows the whole congregation to hear the reading on Shabbat, Mondays, Thursdays and festivals. In Orthodox synagogues its central position shows the Torah at the heart of the community.\n\n2. The ner tamid symbolises God's eternal presence. God commanded that the lamp in the Tabernacle should burn \"continually\" (Exodus 27:20). The ever-burning light reminds Jews that God is always present and that the light of Torah never goes out, and it links each synagogue to the Temple in Jerusalem.",
+   "evidence": [
+    "Nehemiah 8:4",
+    "Exodus 27:20–21"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "bimah and ner tamid"
+  },
+  {
+   "question": "\"The Aron Hakodesh is the most important feature of a synagogue.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Aron Hakodesh holds the Sefer Torah, the holiest object in Judaism, containing God's words given at Sinai. It is placed on the wall facing Jerusalem, and it is the focal point towards which the whole congregation faces when praying. People stand when it is opened, and opening it is an honour, which shows its special status.\n\nIt links the synagogue to the Temple. The ark recalls the Ark of the Covenant, which held the tablets of the Ten Commandments in the Holy of Holies, where God said \"there I will meet with you\" (Exodus 25:22). The parochet that covers it recalls the Tabernacle curtain. Without the Torah scrolls in the ark, many would say that a building is just a hall, not a true synagogue.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nIt could be argued that the Sefer Torah itself, not the cupboard that holds it, is what matters. The ark is important only because of the scroll inside. Equally, the bimah, where the Torah is actually read to the people, could be seen as more important, because hearing God's word is the purpose of having the scroll. In Orthodox synagogues the bimah is at the centre, showing the Torah at the heart of the community.\n\nThe ner tamid is also deeply significant, as it symbolises God's eternal presence and recalls the Temple menorah. Some would argue that the most important \"feature\" is not a piece of furniture at all but the minyan, the community of ten who pray together, since the rabbis taught that the Shekhinah rests on them (Pirkei Avot 3:6). Jews prayed together for centuries in simple rooms and in hiding, which shows that the community is more essential than the furniture.\n\nJUSTIFIED CONCLUSION\n\nOf the physical features, the Aron Hakodesh has the strongest claim to be the most important, because it holds the Torah and gives the synagogue its focus and direction. However, its importance comes from the Torah inside it, and a synagogue truly comes alive only when a community gathers to pray and read the Torah. So the statement is true of the building's features, but the people and the Torah matter more than any feature.",
+   "evidence": [
+    "Exodus 25:22",
+    "Exodus 26:31–33",
+    "Pirkei Avot 3:6"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "Aron Hakodesh"
+  },
+  {
+   "question": "\"Orthodox and Reform synagogues are more alike than different.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nBoth Orthodox and Reform synagogues have the same essential features. Each has an Aron Hakodesh on the wall facing Jerusalem containing handwritten Torah scrolls, a ner tamid recalling the Temple menorah, and a bimah from which the Torah is read. Neither has images of God or people, because of the commandment against images (Exodus 20:4).\n\nTheir purposes are also the same. Both are a Beit Tefilah, Beit Midrash and Beit Knesset: a house of prayer, study and community. Both read the weekly Torah portion on Shabbat, celebrate the same festivals, hold Bar and Bat Mitzvah ceremonies and support their members through life-cycle events. Both teach the Shema and the core prayers such as the Amidah, and both teach Jewish ethics. A Jew entering either would recognise it as a synagogue.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nThere are significant differences in layout and worship. Orthodox synagogues separate men and women with a mechitzah or gallery, whereas Reform synagogues have mixed seating. The Orthodox bimah is often in the centre, while the Reform bimah is usually at the front with the ark. Reform synagogues may use an organ or instruments on Shabbat, which Orthodox synagogues do not.\n\nThese differences reflect deeper beliefs. Orthodox Judaism holds that the Torah and halakhah are God-given and unchanging, so traditional practices are kept. Reform Judaism believes in progressive revelation and equality, so women can be rabbis, read from the Torah and count in the minyan. Services in Reform synagogues use more English and are often shorter, and some prayers, for example those for restoring sacrifices, are changed or removed. For some Jews, these differences are so important that they would not pray in the other kind of synagogue.\n\nJUSTIFIED CONCLUSION\n\nBoth views have strength. The shared features and purposes show a common Jewish heritage centred on the Torah. The differences are not only about furniture, however; they reflect different understandings of revelation, law and gender roles. The most convincing conclusion is that they are alike in their essential features and purposes, but different in ways that matter deeply to the worshippers, so the statement is broadly true of the building but less true of the worship.",
+   "evidence": [
+    "Exodus 20:4",
+    "Mechitzah",
+    "Reform principle of progressive revelation"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "Orthodox and Reform synagogues"
+  }
+ ]
+}

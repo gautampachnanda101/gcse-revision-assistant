@@ -1,0 +1,132 @@
+{
+ "paper": "Beliefs",
+ "module": "1.3",
+ "moduleTitle": "The Three Marks of Existence",
+ "note": {
+  "specFocus": "The Three Marks of Existence: anicca (impermanence), anatta (no fixed self) and dukkha (unsatisfactoriness of life, suffering); how they connect; Dhammapada 277–279, the chariot analogy (Milindapanha); how Buddhists respond to them in practice.",
+  "summary": "OVERVIEW\nThe Three Marks of Existence (tilakkhana) are three characteristics the Buddha taught are true of all conditioned things. Seeing them clearly is a key part of wisdom (panna) and of the insight that leads to nibbana. The Dhammapada (verses 277–279) states: \"All conditioned things are impermanent… all conditioned things are unsatisfactory… all things are not-self. When one sees this with wisdom, one turns away from suffering. This is the path to purity.\"\n\n1. ANICCA – IMPERMANENCE\nEverything changes. Nothing stays the same from one moment to the next: bodies age, feelings come and go, relationships, possessions, mountains and even stars change and end. This follows from dependent arising: because things depend on changing conditions, they must change too. Impermanence is not in itself bad, but suffering comes when people cling to things as if they were permanent. Buddhists reflect on anicca in meditation, and Tibetan monks create sand mandalas over many days and then sweep them away to show that all things pass. The story of Kisa Gotami, a grieving mother sent by the Buddha to find a mustard seed from a house where no one had died, teaches that death and change touch everyone.\n\n2. ANATTA – NO FIXED SELF (NOT-SELF)\nThere is no permanent, unchanging soul or self (atman) at the core of a person. What we call 'I' is a constantly changing combination of the five aggregates (skandhas): form, sensation, perception, mental formations and consciousness (see 1.4). In the Milindapanha (Questions of King Milinda), the monk Nagasena compares a person to a chariot: the chariot is not the wheels, axle or frame alone, and there is no 'chariot' apart from the parts; 'chariot' is just a convenient name. In the same way, 'Nagasena' is a name for a collection of changing parts. Anatta does not mean people do not exist; it means they do not exist as fixed, independent things. Rebirth happens without a soul, like a flame passed from one candle to another.\n\n3. DUKKHA – UNSATISFACTORINESS, SUFFERING\nLife is marked by dukkha. This includes obvious pain (illness, grief, old age), the suffering caused by change (pleasant things end) and a deeper unsatisfactoriness because nothing conditioned can give lasting satisfaction. Dukkha is the first of the Four Noble Truths (see 1.7). It is not pessimism; the Buddha taught dukkha in order to show it can be ended.\n\nHOW THE MARKS CONNECT\nBecause everything is impermanent (anicca), there is no permanent self (anatta); because people crave permanence and a fixed self, they experience dukkha. Realising the three marks loosens craving and attachment.\n\nDIVERSITY\nTheravada Buddhists use the three marks as objects of vipassana (insight) meditation. Mahayana Buddhists deepen anatta into sunyata (emptiness): all things, not just persons, lack independent existence. Some Mahayana texts on Buddha-nature speak positively of a 'true self' or Buddha-nature, but most Buddhists explain this as a potential for Enlightenment rather than a permanent soul.\n\nCONTEMPORARY EXAMPLES\nReflection on anicca helps Buddhists cope with bereavement and change; mindfulness courses in the UK draw on observing how thoughts and feelings arise and pass. Anatta encourages Buddhists to be less self-centred and more compassionate.\n\nKEY TERMS\nTilakkhana – three marks. Anicca – impermanence. Anatta – no fixed self. Dukkha – suffering/unsatisfactoriness. Atman – (Hindu) eternal self, rejected by anatta. Skandhas/khandhas – five aggregates."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Buddhist term for 'no fixed self'?\nA) Anicca\nB) Anatta\nC) Dukkha\nD) Tanha",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Anatta. Anatta means there is no permanent, unchanging self or soul. Anicca is impermanence, dukkha is suffering/unsatisfactoriness and tanha is craving.",
+   "evidence": [
+    "Anatta = no fixed self"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "key terms"
+  },
+  {
+   "question": "Which one of the following is NOT one of the Three Marks of Existence?\nA) Anicca\nB) Dukkha\nC) Anatta\nD) Karuna",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "D) Karuna. Karuna means compassion, an ethical quality. The three marks are anicca (impermanence), dukkha (suffering) and anatta (no fixed self).",
+   "evidence": [
+    "Tilakkhana"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "three marks"
+  },
+  {
+   "question": "Name two of the Three Marks of Existence.",
+   "marks": 2,
+   "command": "Name",
+   "modelAnswer": "Any two of: anicca (impermanence); anatta (no fixed self); dukkha (suffering/unsatisfactoriness).",
+   "evidence": [
+    "Tilakkhana"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "three marks"
+  },
+  {
+   "question": "Give two examples that Buddhists might use to illustrate anicca (impermanence).",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two, e.g.:\n- The human body ageing from baby to old age.\n- A Tibetan sand mandala being swept away.\n- Seasons changing / leaves falling.\n- A candle flame that is never exactly the same from moment to moment.\n- Feelings and thoughts arising and passing in meditation.\n- Kisa Gotami learning that every family has experienced death.",
+   "evidence": [
+    "Sand mandala",
+    "Kisa Gotami"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "anicca"
+  },
+  {
+   "question": "Explain two ways in which belief in anicca (impermanence) influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Buddhists try not to become attached to possessions, people or situations. Because everything changes, clinging to things as if they will last brings suffering, so a Buddhist might enjoy good things while accepting they will end, and live simply rather than chasing material wealth.\n\n2. Belief in impermanence helps Buddhists cope with loss and death. A Buddhist who is bereaved may reflect, as Kisa Gotami learned, that death comes to every family. This does not remove grief, but it can bring acceptance and a calmer response, and it encourages people to value and be kind to others while they can.",
+   "evidence": [
+    "Kisa Gotami",
+    "Non-attachment"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "anicca"
+  },
+  {
+   "question": "Explain two ways in which belief in anatta influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Belief that there is no fixed self helps Buddhists reduce selfishness and pride. If 'I' is just a changing collection of the five aggregates, there is less reason to put one's own desires first, so Buddhists try to act generously and compassionately towards others.\n\n2. Anatta means people are able to change. Because there is no fixed self, a person is not trapped by their past character; a Buddhist who struggles with anger, for example, can work on it through metta meditation and the precepts, believing that transformation and ultimately Enlightenment are possible.",
+   "evidence": [
+    "Five aggregates",
+    "Metta meditation"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "anatta"
+  },
+  {
+   "question": "Explain two Buddhist teachings about anatta (no fixed self).\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. A person is made of parts, with no separate self beyond them. In the Milindapanha, the monk Nagasena explains to King Milinda that a chariot is not its wheels, axle or frame, nor anything apart from them; 'chariot' is just a name for the parts together. In the same way, a person is a name for the five aggregates working together.\n\n2. Seeing that all things are not-self leads away from suffering. The Dhammapada (279) says, 'All things are not-self. When one sees this with wisdom, one turns away from suffering.' Craving and clinging come from believing in a fixed 'me' that must be protected and satisfied, so realising anatta reduces craving and moves a person towards nibbana.",
+   "evidence": [
+    "Milindapanha: the chariot",
+    "Dhammapada 279"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "anatta"
+  },
+  {
+   "question": "Explain two ways in which the Three Marks of Existence are connected.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Impermanence explains no fixed self. Because everything is constantly changing (anicca), there cannot be an unchanging soul at the centre of a person. The Buddha taught in the Anattalakkhana Sutta that each of the five aggregates is impermanent, and whatever is impermanent cannot be a permanent self, so anatta follows from anicca.\n\n2. Impermanence and no-self lead to dukkha when people cling. The Dhammapada (277–278) teaches that 'all conditioned things are impermanent' and 'all conditioned things are unsatisfactory'. People suffer because they crave lasting pleasure and a permanent identity in a world where nothing lasts; seeing the marks with wisdom is the way to turn away from suffering.",
+   "evidence": [
+    "Anattalakkhana Sutta",
+    "Dhammapada 277–279"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "three marks"
+  },
+  {
+   "question": "“Anatta is the most difficult Buddhist teaching to accept.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nAnatta goes against a very strong human instinct. Most people feel that there is a real 'me' that stays the same throughout life, from childhood to old age. Saying that there is no fixed self can seem to contradict everyday experience, so many people find it hard to accept.\n\nIt also seems to conflict with ideas about rebirth and kamma. If there is no self, it is natural to ask who is reborn and who receives the results of actions. Buddhists answer with the image of one candle lighting another, or with the chariot analogy in the Milindapanha, but the answer is subtle and many find it confusing.\n\nMany religions, such as Christianity, Islam and Hinduism, teach that people have an eternal soul (in Hinduism, the atman). Someone coming from these backgrounds may find anatta especially challenging, as it denies something central to their worldview and to hopes of life after death.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOn the other hand, anatta can be supported by experience and reasoning. In meditation, Buddhists observe thoughts, feelings and perceptions arising and passing, and they cannot find any permanent 'thing' behind them. Modern psychology and neuroscience also describe the self as a changing process rather than a fixed soul, which makes anatta easier to accept for many people today.\n\nOther teachings might be harder to accept. Rebirth across many lifetimes cannot be tested in ordinary experience, and the idea that nibbana is beyond description can seem very mysterious. Some people find the teaching that 'life is dukkha' harder, because it seems pessimistic when they feel happy.\n\nAnatta can also be freeing rather than difficult. If there is no fixed self, people can change and grow, and there is less reason for pride or selfishness. Some Mahayana Buddhists also speak of Buddha-nature, which gives a positive picture alongside anatta.\n\nCONCLUSION\nI think anatta is probably the most difficult teaching to understand fully, because it challenges our deepest sense of who we are and raises puzzles about rebirth. However, 'difficult to accept' is different from 'difficult to understand'. For many Buddhists, especially through meditation and modern understanding of the mind, anatta becomes convincing, while rebirth and nibbana remain matters of trust. So the statement is reasonable, but not true for every Buddhist.",
+   "evidence": [
+    "Milindapanha: the chariot",
+    "Candle flame analogy for rebirth",
+    "Atman (Hindu soul)",
+    "Buddha-nature"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "anatta"
+  },
+  {
+   "question": "“Believing that life is dukkha (suffering) is too negative.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nAt first the teaching that life is dukkha can sound pessimistic. Many people experience a lot of joy in life, through friends, family, achievements and beauty, so saying that all conditioned things are unsatisfactory might seem to ignore the good parts of life.\n\nFocusing on suffering, old age and death could make people anxious or depressed, especially young people. A non-religious humanist might say we should focus on making the most of our one life and that happiness is possible here and now, without labelling life as suffering.\n\nSome critics also argue that teaching dukkha might encourage people to withdraw from the world rather than enjoy it or improve it, as when the Buddha himself left his family and palace life.\n\nARGUMENTS FOR A DIFFERENT VIEW\nBuddhists respond that teaching dukkha is realistic, not negative. The Buddha was like a doctor diagnosing an illness: he identified the problem (dukkha) in order to cure it. The Four Noble Truths go on to say that suffering has a cause and can be ended, and the Eightfold Path shows how. This is a very hopeful message.\n\nDukkha does not mean that there is no happiness. It means that happiness based on impermanent things cannot last, so even pleasant experiences carry the seed of loss. Recognising this helps Buddhists enjoy things without clinging, which can actually lead to a deeper and more stable contentment.\n\nThe teaching also leads to compassion. Recognising that everyone suffers encourages Buddhists to practise karuna and metta. Engaged Buddhists, such as those inspired by Thich Nhat Hanh, work to reduce suffering through peace work and social action. The Buddha himself was described as smiling and joyful, and Buddhist practice aims at peace and happiness, not misery.\n\nCONCLUSION\nI disagree with the statement. Although dukkha might sound negative on its own, in Buddhism it is the first step of a process that leads to freedom from suffering. Like a doctor's diagnosis, it is honest and necessary. Because Buddhism teaches that suffering can end and offers a practical path, believing life is dukkha is ultimately realistic and hopeful rather than too negative.",
+   "evidence": [
+    "Four Noble Truths",
+    "Buddha as doctor analogy",
+    "Dhammapada 278",
+    "Engaged Buddhism"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "dukkha"
+  }
+ ]
+}

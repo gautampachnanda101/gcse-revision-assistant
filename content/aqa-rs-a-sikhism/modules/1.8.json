@@ -1,0 +1,140 @@
+{
+ "paper": "Beliefs",
+ "module": "1.8",
+ "moduleTitle": "The expression of the equality of all: the lives of the Gurus, the Guru Granth Sahib and Sikhism today",
+ "note": {
+  "specFocus": "Spec 3.1.7.1 Beliefs about the nature of human life: the expression of the equality of all in the stories of the lives of the Gurus, including Guru Nanak and Guru Gobind Singh; the Guru Granth Sahib; in Sikhism today.",
+  "summary": "IN THE LIVES OF THE GURUS\nGuru Nanak (1469–1539)\n• After his experience at the river Bein he declared 'There is no Hindu, there is no Muslim' – all are equal before God.\n• His lifelong companion was Bhai Mardana, a Muslim musician.\n• Bhai Lalo and Malik Bhago: Guru Nanak stayed with Lalo, a poor carpenter of a 'low' caste, rather than accepting a feast from Malik Bhago, a rich official who exploited the poor. When he squeezed Lalo's bread, milk came out; Bhago's food produced blood – honest earnings are pure, exploitation is not.\n• He began the practice of shared meals at Kartarpur, the community he founded.\n• He spoke for women: 'Why call her inferior? From her, kings are born' (Ang 473).\nOther Gurus: Guru Angad and Mata Khivi developed the langar (Mata Khivi is praised at Ang 967); Guru Amar Das insisted 'first the langar, then the Guru' – even the Mughal Emperor Akbar ate on the floor with everyone – and opposed sati and purdah.\nGuru Gobind Singh (1666–1708)\n• At Vaisakhi 1699 he called for volunteers willing to give their heads. Five came forward from different castes and regions – the Panj Pyare.\n• All initiates drank amrit from one iron bowl, ending caste distinctions within the Khalsa.\n• Men were named Singh, women Kaur, replacing caste-based surnames.\n• He then knelt and asked the Panj Pyare to initiate him – the Guru and his followers equal.\n• In the Akal Ustat (Dasam Granth) he wrote 'Recognise the whole human race as one'.\n\nIN THE GURU GRANTH SAHIB\n• Compiled by Guru Arjan (Adi Granth, 1604) and completed by Guru Gobind Singh; contains hymns by six Gurus and by Hindu and Muslim saints (bhagats) of many castes – Kabir (weaver), Ravidas (leather-worker), Namdev (calico printer), Sain (barber), Sheikh Farid (Muslim Sufi).\n• Its teachings reject caste (Ang 349) and affirm women (Ang 473) and the unity of humanity (Ang 611, Ang 1349).\n• It is written in Gurmukhi, open to all to read.\n\nIN SIKHISM TODAY\n• Langar in every gurdwara; at the Harimandir Sahib tens of thousands are fed every day.\n• Equal right of women to every religious role (Sikh Rehat Maryada).\n• Use of Singh and Kaur; one bowl at Amrit Sanskar.\n• Sewa to all, e.g. Khalsa Aid, street langar for homeless people in British cities.\n• Challenges: caste-linked gurdwaras and marriage preferences in some communities; debates about women as Panj Pyare and in kirtan at the Harimandir Sahib.\n\nKEY TERMS: Panj Pyare, Khalsa, langar, pangat, bhagat bani, Adi Granth, Singh, Kaur."
+ },
+ "questions": [
+  {
+   "question": "In the story of Bhai Lalo and Malik Bhago, why did Guru Nanak choose to eat with Bhai Lalo?\nA Bhai Lalo was from a high caste\nB Bhai Lalo earned his living honestly\nC Malik Bhago refused to invite him\nD Bhai Lalo was a Sikh Guru",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – Bhai Lalo earned his living honestly. Bhai Lalo was a poor carpenter of a so-called 'low' caste; Malik Bhago was a rich official who exploited the poor. In the story, Lalo's simple bread produced milk and Bhago's rich food produced blood, showing that honest work and character matter, not wealth or caste.",
+   "evidence": [
+    "Janamsakhi story of Bhai Lalo and Malik Bhago"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "bhai lalo"
+  },
+  {
+   "question": "Which one of the following shows equality in the Guru Granth Sahib?\nA It is written only by the Sikh Gurus\nB It contains hymns by Hindu and Muslim saints of different castes\nC It may only be read by men\nD It is written only in Sanskrit",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – It contains hymns by Hindu and Muslim saints of different castes, such as Kabir (a weaver), Ravidas (a leather-worker, regarded as 'untouchable' at the time) and the Muslim Sufi Sheikh Farid. Their words are treated with the same respect as the Gurus' words. It is written in Gurmukhi script, and anyone may read it.",
+   "evidence": [
+    "Bhagat bani in the GGS – Kabir, Ravidas, Sheikh Farid, Namdev"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "ggs equality"
+  },
+  {
+   "question": "Give one example from the life of Guru Gobind Singh that shows equality.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: the Panj Pyare who came forward in 1699 were from different castes and regions; he created the Khalsa, in which all drank amrit from the same bowl, rejecting caste; he gave all men the name Singh and all women the name Kaur to remove caste surnames; he himself was initiated by the Panj Pyare, showing the Guru and Khalsa are equal.",
+   "evidence": [
+    "Vaisakhi 1699",
+    "Panj Pyare"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "guru gobind singh"
+  },
+  {
+   "question": "Give one example of a non-Sikh contributor whose writings are in the Guru Granth Sahib.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: Bhagat Kabir; Bhagat Ravidas; Sheikh Farid; Bhagat Namdev; Bhagat Trilochan; Bhagat Dhanna; Bhagat Sain; Bhagat Ramanand; Bhagat Beni; Bhagat Pipa; Bhagat Sadhna; Bhagat Surdas; Bhagat Jaidev; Bhagat Parmanand; Bhagat Bhikhan.",
+   "evidence": [
+    "Bhagat bani"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "bhagats"
+  },
+  {
+   "question": "Explain two ways in which the example of Guru Nanak influences Sikh attitudes to equality today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Guru Nanak ate with the poor carpenter Bhai Lalo rather than the rich Malik Bhago. This influences Sikhs to judge people by their honesty and character, not by wealth or caste, and to treat poor people with dignity.\n\nSecond way: Guru Nanak's companion was Bhai Mardana, a Muslim musician, and he taught 'There is no Hindu, there is no Muslim'. This encourages Sikhs today to respect people of other faiths and to take part in interfaith work and serve everyone in the langar.",
+   "evidence": [
+    "Bhai Lalo and Malik Bhago",
+    "Bhai Mardana",
+    "Guru Nanak at Bein"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "guru nanak equality"
+  },
+  {
+   "question": "Explain two ways in which equality is shown in Sikhism today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Through the langar. Everyone – rich or poor, Sikh or non-Sikh – sits on the floor together and is served the same vegetarian food, so no one is given a higher place.\n\nSecond way: Through the names Singh and Kaur. Many Sikhs use these names instead of caste-based family names, which shows that all Sikhs are equal members of one family, and women have their own name rather than being identified only through a husband.",
+   "evidence": [
+    "Langar",
+    "Singh and Kaur"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "equality today"
+  },
+  {
+   "question": "Explain two ways in which the Guru Granth Sahib expresses the equality of all.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First way: Through its content and authors. The Guru Granth Sahib contains hymns by Hindu and Muslim saints (bhagats) from many castes, including Kabir, a weaver, and Ravidas, a leather-worker regarded as an 'untouchable' at the time. Their words are treated as equally holy as those of the Gurus.\n\nSecond way: Through its teaching. Many hymns directly reject caste and gender discrimination and teach that God's light is in everyone. As the living Guru, it is open for anyone to read and hear in Gurmukhi.\n\nSource: Guru Nanak's words 'Recognise the Lord's Light within all, and do not ask about caste; there is no caste in the world hereafter' (Ang 349), and Bhagat Ravidas's hymns of devotion included in the scripture, show that the Guru Granth Sahib not only teaches equality but practises it in who is included.",
+   "evidence": [
+    "Ang 349",
+    "Bhagat Ravidas and Kabir in the GGS",
+    "Gurmukhi"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "ggs equality"
+  },
+  {
+   "question": "Explain two ways in which the lives of the Gurus showed the equality of all.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First way: Guru Nanak rejected caste and wealth as signs of worth. He chose to eat with the honest carpenter Bhai Lalo rather than the corrupt rich official Malik Bhago, and started the practice of communal eating. He travelled with Bhai Mardana, a Muslim.\n\nSecond way: Guru Gobind Singh created the Khalsa in 1699. The Panj Pyare who volunteered came from different castes, yet all drank amrit from the same bowl, and all men were named Singh and all women Kaur. Guru Gobind Singh then asked the Panj Pyare to initiate him, showing the Guru and the Khalsa were equal.\n\nSource: Guru Nanak's teaching in the Guru Granth Sahib, 'From woman, man is born… So why call her inferior?' (Ang 473), and Guru Amar Das's rule that all must eat in the langar before meeting him – even the Emperor Akbar – show the Gurus applying equality to gender and status.",
+   "evidence": [
+    "Bhai Lalo and Malik Bhago",
+    "Vaisakhi 1699",
+    "Ang 473",
+    "Akbar and Guru Amar Das's langar ('pehle pangat, pichhe sangat')"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "gurus equality"
+  },
+  {
+   "question": "“Sikhs today have achieved the equality the Gurus taught.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe langar is a powerful and continuing sign of equality: every day millions of people are fed in gurdwaras across the world, sitting together regardless of religion, caste or wealth. At the Harimandir Sahib in Amritsar, tens of thousands of people are fed daily by volunteers.\n\nWomen can take every religious role – reading the Guru Granth Sahib, kirtan, Ardas – and are named Kaur. Women have become leaders, such as Bibi Jagir Kaur, the first woman president of the SGPC. Sikhs serve people of all faiths through organisations such as Khalsa Aid and through langar on the streets for homeless people in UK cities.\n\nThe names Singh and Kaur continue to reject caste, and the Amrit ceremony still uses one bowl for all initiates.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nCaste has not disappeared. Some Sikhs still consider caste when arranging marriages, and in the UK some gurdwaras are associated with particular caste groups, such as Ramgarhia gurdwaras. Many members of the Ravidassia community, many of whom felt discriminated against, have formed their own separate places of worship.\n\nGender equality is also incomplete. Most granthis and gurdwara committee members are men, women are rarely chosen as Panj Pyare, and there have been disputes about women performing kirtan at the Harimandir Sahib. Cultural pressures such as son-preference and dowry still affect some families.\n\nSome Sikhs argue that these problems come from Punjabi culture, not Sikhism, and that the Gurus' teaching, especially Ang 349 and Ang 473, gives clear grounds to challenge them. But the fact that these problems exist shows equality has not been fully achieved.\n\nCONCLUSION\n\nSikhs have achieved a great deal: langar, sangat, naming and initiation still powerfully express the Gurus' teaching. But caste divisions and gender inequality persist in parts of the community. The fairest conclusion is that Sikhs today have achieved equality in principle and in many practices, but not yet completely in social life, and many Sikhs see continuing this work as part of following the Gurus.",
+   "evidence": [
+    "Harimandir Sahib langar",
+    "Bibi Jagir Kaur",
+    "Ramgarhia and Ravidassia communities in the UK",
+    "Ang 349",
+    "Ang 473",
+    "Khalsa Aid"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "equality today evaluation"
+  },
+  {
+   "question": "“The Guru Granth Sahib is the best example of Sikh belief in equality.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Guru Granth Sahib is the living Guru, so its example has supreme authority. It contains the writings not only of six Sikh Gurus but also of Hindu and Muslim saints from many castes, such as Kabir, Ravidas, Namdev and Sheikh Farid. Including a leather-worker considered 'untouchable' and a Muslim Sufi alongside the Gurus is a remarkable statement of equality, made by Guru Arjan when he compiled the Adi Granth in 1604.\n\nIts teaching is clear: 'Recognise the Lord's Light within all, and do not ask about caste' (Ang 349) and 'So why call her inferior? From her, kings are born' (Ang 473). Because it is permanent and unchanging, it is a fixed standard against which Sikhs can measure their behaviour.\n\nIt is also accessible: anyone may read it, and it is written in Gurmukhi in the language of ordinary people rather than a priestly language.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany would say the langar is the best example, because it shows equality in action every day. People sit side by side on the floor and eat the same food; Guru Amar Das even required the Emperor Akbar to eat in the langar before meeting him. Actions may speak louder than words.\n\nOthers would point to Vaisakhi 1699, when Guru Gobind Singh created the Khalsa. Men and women of all castes drank amrit from the same bowl and received the names Singh and Kaur, and the Guru himself was initiated by the Panj Pyare – a dramatic sign that leader and followers are equal.\n\nThe lives of the Gurus also give powerful examples, such as Guru Nanak's choice of Bhai Lalo over Malik Bhago. A non-religious person might argue that what matters is how Sikhs live today, for example in serving the homeless, rather than any text.\n\nCONCLUSION\n\nThe Guru Granth Sahib is a very strong example because, as the Guru, it both teaches equality and practises it through its inclusion of diverse voices. However, Sikh equality is expressed most visibly in the langar and the Khalsa. The best judgement is that the Guru Granth Sahib is the foundation of Sikh equality, while the langar and Khalsa are its clearest living examples.",
+   "evidence": [
+    "Adi Granth compiled by Guru Arjan (1604)",
+    "Ang 349",
+    "Ang 473",
+    "Langar and Akbar",
+    "Vaisakhi 1699",
+    "Bhai Lalo"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "ggs equality evaluation"
+  }
+ ]
+}

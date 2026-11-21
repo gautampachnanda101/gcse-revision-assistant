@@ -1,0 +1,135 @@
+{
+ "paper": "Beliefs",
+ "module": "1.7",
+ "moduleTitle": "The four aims of human life; the meaning of dharma, sanatana dharma and varnashrama dharma",
+ "note": {
+  "specFocus": "The four aims of human life: dharma, artha, kama, moksha. The meaning of dharma; sanatana dharma; varnashrama dharma.",
+  "summary": "THE FOUR AIMS OF HUMAN LIFE (PURUSHARTHAS)\nHindu tradition teaches four legitimate goals for human life:\n1. Dharma – duty, righteousness and moral order; living rightly according to one's nature and stage of life.\n2. Artha – wealth, prosperity and success, earned honestly to support family and society.\n3. Kama – pleasure and enjoyment, including love, beauty, art and family life, enjoyed within the limits of dharma.\n4. Moksha – liberation from samsara, the ultimate and highest aim.\nDharma frames the other three: wealth and pleasure are good when pursued according to dharma. Krishna says, \"I am desire that is not contrary to dharma\" (Gita 7.11). Moksha is the final goal that gives meaning to the others. The aims are often linked to the four ashramas (stages of life): brahmacharya (student – learning dharma), grihastha (householder – artha and kama within dharma), vanaprastha (retirement – detachment) and sannyasa (renunciation – seeking moksha).\n\nTHE MEANING OF DHARMA\nDharma comes from the root \"dhri\", \"to uphold\" or \"to sustain\". It is the moral and cosmic order that holds everything together, and also each person's duty within that order. There is no single English equivalent: it can mean duty, law, religion, righteousness or the essential nature of something (it is the dharma of fire to burn). Sources of dharma include the Vedas, smriti texts such as the Manusmriti, the example of good people and one's conscience.\n\nSANATANA DHARMA\nSanatana dharma means \"eternal dharma\" or \"eternal way\" and is the name many Hindus prefer for their religion. It refers to universal, timeless principles that apply to everyone – truthfulness, non-violence, purity, self-control, compassion – and, in many traditions, to the soul's eternal nature as a part of, and servant of, God. These universal duties are sometimes called sadharana dharma.\n\nVARNASHRAMA DHARMA\nVarnashrama dharma is duty according to one's varna (social class) and ashrama (stage of life).\n• The four varnas, described in the Purusha Sukta (Rig Veda 10.90.12) as coming from the mouth, arms, thighs and feet of the cosmic Purusha, are brahmins (priests and teachers), kshatriyas (rulers and soldiers), vaishyas (merchants and farmers) and shudras (workers and servants).\n• The Gita teaches that the varnas were created \"according to the divisions of guna and karma\" (4.13) – qualities and work – which many Hindus interpret as meaning that varna should depend on character and ability, not birth.\n• \"It is better to perform one's own dharma imperfectly than another's well\" (Gita 3.35) – Arjuna, a kshatriya, should fight, not become a monk.\nVarna is not the same as jati (caste by birth into a hereditary group). Over time the system became rigid and hereditary, and groups outside it (today called Dalits) suffered \"untouchability\". Reformers such as Gandhi, Swami Vivekananda and the Arya Samaj opposed caste discrimination; untouchability was abolished in the Indian Constitution (1950). In Britain there has been debate about caste discrimination law, and many British Hindus see caste as having little importance today, though it may still influence some marriages.\n\nDIVERSITY AND TODAY\nSome Hindus see varnashrama as an ideal spiritual-social order if based on qualities; others reject it entirely. Most British Hindus follow the four aims by working hard and honestly, enjoying family life and festivals, worshipping and giving to charity, and keeping moksha as their ultimate goal."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is NOT one of the four aims of human life?\nA) Dharma\nB) Artha\nC) Kama\nD) Samsara",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "D) Samsara.\nThe four aims (purusharthas) are dharma, artha, kama and moksha. Samsara is the cycle of rebirth, from which moksha brings release.",
+   "evidence": [
+    "Purusharthas"
+   ],
+   "examTip": "'NOT' questions are easy to misread – underline the word.",
+   "answerTopic": "four aims"
+  },
+  {
+   "question": "Which one of the following best describes artha?\nA) Pleasure\nB) Wealth and prosperity\nC) Liberation\nD) Eternal duty",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Wealth and prosperity.\nArtha is the aim of earning wealth and success honestly; kama is pleasure, moksha liberation, sanatana dharma eternal duty.",
+   "evidence": [
+    "Artha"
+   ],
+   "examTip": "Learn a one-word English gloss for each aim.",
+   "answerTopic": "artha"
+  },
+  {
+   "question": "Give one of the four varnas.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: brahmin (priests/teachers); kshatriya (rulers/warriors); vaishya (merchants/farmers); shudra (workers/servants).",
+   "evidence": [
+    "Rig Veda 10.90.12 (Purusha Sukta)"
+   ],
+   "examTip": "A single varna name earns the mark.",
+   "answerTopic": "varna"
+  },
+  {
+   "question": "Give one meaning of the term sanatana dharma.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: eternal dharma/duty; the eternal way/law; a name for Hinduism; universal duties that apply to everyone; the eternal nature/duty of the soul.",
+   "evidence": [
+    "Sanatana dharma"
+   ],
+   "examTip": "'Eternal duty' or 'eternal way' is enough.",
+   "answerTopic": "sanatana dharma"
+  },
+  {
+   "question": "Explain two ways in which the four aims of life influence Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because artha is a legitimate aim, many Hindus work hard to earn a good living, often running family businesses or studying for professional careers. However, because artha must be pursued within dharma, they try to earn money honestly and to use it to support their families, temples and charities rather than only for themselves.\n\nSecond way: Because moksha is the highest aim, Hindus try to include spiritual practice in everyday life even while pursuing work and family life. For example, a householder may perform puja at the home shrine every morning, fast on festival days and, in later life, spend more time on worship and pilgrimage, reflecting the vanaprastha stage of life.",
+   "evidence": [
+    "Purusharthas",
+    "Ashramas"
+   ],
+   "examTip": "Show how dharma 'frames' artha or kama – it develops the point well.",
+   "answerTopic": "four aims influence"
+  },
+  {
+   "question": "Explain two contrasting Hindu views about varnashrama dharma.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First view: Some Hindus believe varnashrama dharma is a God-given order for society. They point to the Gita's teaching that God created the four varnas (4.13) and that it is better to do one's own duty than another's (3.35). On this view, each person contributes to society by fulfilling their role, like the different parts of one body in the Purusha Sukta.\n\nSecond view: Many other Hindus believe varna should depend on a person's qualities and actions, not their birth, and reject the hereditary caste system and untouchability as a corruption of Hindu teaching. Reformers such as Gandhi and Vivekananda campaigned against caste discrimination, and many British Hindus see caste as irrelevant to their faith today.",
+   "evidence": [
+    "Bhagavad Gita 3.35, 4.13",
+    "Rig Veda 10.90",
+    "Gandhi, Vivekananda",
+    "Untouchability abolished 1950"
+   ],
+   "examTip": "Be accurate and respectful – distinguish varna (class by quality) from jati (caste by birth).",
+   "answerTopic": "varnashrama views"
+  },
+  {
+   "question": "Explain two Hindu teachings about the meaning of dharma.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Dharma is the moral and cosmic order that upholds the universe, and when it declines God acts to restore it. The word comes from 'dhri', meaning 'to uphold'. In the Bhagavad Gita 4.7–8 Krishna says, 'Whenever there is a decline of dharma… I manifest myself… to re-establish dharma.' This shows dharma is not just human rules but part of how reality is meant to be.\n\nSecond teaching: Dharma is also each person's own duty, which depends on their nature and position in life. In the Gita (3.35) Krishna teaches, 'It is better to perform one's own dharma imperfectly than another's perfectly.' Arjuna, as a kshatriya, must fight to protect justice rather than run away. Hindus therefore believe that a student, a parent or a retired person each has duties suited to their stage of life (ashrama), and that fulfilling them creates good karma.",
+   "evidence": [
+    "Bhagavad Gita 3.35, 4.7–8",
+    "'dhri' – to uphold",
+    "Svadharma"
+   ],
+   "examTip": "Show both meanings: dharma as cosmic order and as personal duty (svadharma).",
+   "answerTopic": "dharma"
+  },
+  {
+   "question": "Explain two Hindu teachings about the four aims of human life.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Artha (wealth) and kama (pleasure) are good, but only when they are pursued within dharma. Krishna says, 'I am desire that is not contrary to dharma' (Gita 7.11). This means enjoying family life, food, art and success is not wrong; Hindus are encouraged to marry and raise families in the householder stage (grihastha), but they must earn money honestly and avoid pleasures that harm others or themselves.\n\nSecond teaching: Moksha is the highest of the four aims, because the others belong only to this temporary life. The Katha Upanishad (1.2.1–2) contrasts the 'good' (shreya) with the merely 'pleasant' (preya), and says the wise choose the good. So while Hindus value the first three aims, they believe that real fulfilment lies in liberation from samsara, which is why later stages of life (vanaprastha and sannyasa) focus increasingly on spiritual goals.",
+   "evidence": [
+    "Bhagavad Gita 7.11",
+    "Katha Upanishad 1.2.1–2 (shreya and preya)",
+    "Ashramas"
+   ],
+   "examTip": "Linking the aims to the ashramas shows how the teaching works in practice.",
+   "answerTopic": "four aims"
+  },
+  {
+   "question": "'Moksha is the only aim of life that really matters.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nMoksha is described as the highest of the four aims (purusharthas) because it is the only one that is permanent. Wealth (artha) and pleasure (kama) belong to a body that will die, and even good karma only leads to another birth within samsara. The Katha Upanishad contrasts the \"good\" (shreya) with the merely \"pleasant\" (preya), and says the wise choose the good (1.2.2). If the purpose of life is to escape suffering permanently, moksha is the only aim that achieves it.\n\nThe Gita teaches that even the highest worlds are temporary (8.16), and Krishna says that those who reach him \"do not take birth again\" (8.15). Sannyasis give up the first three aims entirely to concentrate on liberation, and Advaita teachers such as Shankara saw the pursuit of knowledge for moksha as the true purpose of human birth.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, Hindu tradition deliberately gives four aims, not one. Dharma, artha and kama are seen as legitimate and necessary. Without artha, families could not be supported and temples and charities would not exist; without kama, there would be no marriage, children, art or joy. Krishna says, \"I am desire that is not contrary to dharma\" (Gita 7.11), suggesting that rightly ordered pleasure is itself sacred.\n\nDharma, in particular, could be seen as equally important, because it is the foundation of the other three and of moksha itself. A person cannot attain liberation without first living rightly. The Gita teaches Arjuna to perform his duty (3.35) rather than escape to seek liberation.\n\nThe ashrama system shows that different aims matter at different stages: a student focuses on learning dharma, a householder on artha and kama, and only later in life does moksha become the main goal. Most British Hindus are householders, for whom work, family and festivals really do matter, and they see them as part of a spiritual life, not distractions from it.\n\nCONCLUSION\n\nMoksha is the ultimate aim, and in that sense it matters most. But \"the only aim that matters\" is too strong, because Hindu teaching insists that dharma, artha and kama are valuable and form the path towards moksha. I conclude that moksha gives meaning to the other aims, but they still matter – especially dharma, without which moksha is impossible.",
+   "evidence": [
+    "Katha Upanishad 1.2.2",
+    "Bhagavad Gita 3.35, 7.11, 8.15–16",
+    "Ashramas",
+    "Shankara"
+   ],
+   "examTip": "Show how the aims are connected – the best answers argue that the other aims are a path towards moksha.",
+   "answerTopic": "moksha and the four aims"
+  },
+  {
+   "question": "'Varnashrama dharma has no place in Hinduism today.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nMany Hindus argue that the varna system has become linked with the hereditary caste system (jati), which has caused great injustice. For centuries, people born outside the four varnas (today called Dalits) were treated as \"untouchable\", denied entry to temples, education and wells. Reformers such as Gandhi, Swami Vivekananda and the Arya Samaj condemned this, and the Indian Constitution abolished untouchability in 1950. If varnashrama dharma leads to discrimination, it is against core Hindu values of ahimsa and seeing the divine in all beings (Gita 5.18).\n\nIn modern Britain, people choose careers according to their interests and abilities, not their birth. A Hindu may be a doctor, shopkeeper or soldier whatever their family background, and many young British Hindus regard caste as irrelevant. Many also see the ashrama stages – especially sannyasa – as impractical in a modern society where people work, retire and live with their families.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nOther Hindus argue that varnashrama dharma, properly understood, still has value. The Gita says the varnas are based on \"guna and karma\" – qualities and actions (4.13) – not birth. On this view, the idea that people have different natures and should contribute to society in different ways is sensible: some are naturally teachers, others leaders, businesspeople or skilled workers. Society, like the body in the Purusha Sukta (Rig Veda 10.90), needs all its parts.\n\nThe ashrama side of the teaching is also still practised. Hindus value the student stage of learning, the householder stage of supporting family and society, and many grandparents spend more time on worship, pilgrimage and service in later life (like vanaprastha). Some still become sannyasis, such as the monks of the Ramakrishna Mission or ISKCON.\n\nSvadharma – doing one's own duty well (Gita 3.35) – remains a central Hindu teaching, and it comes from varnashrama dharma. Parents, children and professionals each have responsibilities that suit them.\n\nCONCLUSION\n\nThe hereditary caste system and discrimination have no rightful place in Hinduism today, and most Hindus would agree. However, the underlying principles of varnashrama dharma – doing duty according to one's nature and stage of life – are still widely valued. I therefore partly disagree with the statement: the abuse of varna as caste should be rejected, but the ideas of svadharma and the stages of life remain meaningful.",
+   "evidence": [
+    "Bhagavad Gita 3.35, 4.13, 5.18",
+    "Rig Veda 10.90 (Purusha Sukta)",
+    "Gandhi, Vivekananda, Arya Samaj",
+    "Indian Constitution Article 17 (1950)"
+   ],
+   "examTip": "Handle caste sensitively and accurately: separate the ideal (varna by qualities) from historical practice (jati, untouchability).",
+   "answerTopic": "varnashrama today"
+  }
+ ]
+}

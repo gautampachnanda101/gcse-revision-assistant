@@ -1,0 +1,131 @@
+{
+ "paper": "Beliefs",
+ "module": "1.2",
+ "moduleTitle": "The concept of dependent arising (paticcasamupada)",
+ "note": {
+  "specFocus": "The concept of dependent arising (paticcasamupada): everything arises from and depends on conditions; the twelve links (nidanas); the Tibetan Wheel of Life; the link to anicca, anatta, dukkha, rebirth and the Four Noble Truths; Theravada and Mahayana (sunyata/interbeing) emphases.",
+  "summary": "THE BASIC IDEA\nDependent arising (Pali: paticcasamupada; also translated 'dependent origination' or 'conditioned arising') is the teaching that everything arises in dependence on conditions and ceases when those conditions cease. Nothing exists independently or by itself. The Buddha summed it up simply: \"When this exists, that comes to be; with the arising of this, that arises. When this does not exist, that does not come to be; with the cessation of this, that ceases.\" (Samyutta Nikaya 12). A plant, for example, depends on a seed, soil, water, sunlight and warmth; take these away and it does not grow.\n\nWHY IT IS SO CENTRAL\nBuddhists see dependent arising as the heart of the Buddha's Enlightenment insight. In the Majjhima Nikaya (MN 28) it is said: \"Whoever sees dependent arising sees the Dhamma; whoever sees the Dhamma sees dependent arising.\" It explains:\n- Why everything is impermanent (anicca): conditions are always changing.\n- Why there is no fixed self (anatta): a person is a process depending on many causes.\n- How suffering arises and how it can end: if craving is a condition for suffering, removing craving removes suffering. This is the logic behind the Four Noble Truths.\n- How rebirth happens without a soul: one life conditions the next, like one candle lighting another.\nThe monk Sariputta became a follower after hearing a short verse from the monk Assaji: of things that arise from a cause, the Buddha has taught their cause and their ending.\n\nTHE TWELVE LINKS (NIDANAS)\nThe process of suffering and rebirth is often explained through twelve links, each the condition for the next: (1) ignorance, (2) mental formations, (3) consciousness, (4) name-and-form (mind and body), (5) the six senses, (6) contact, (7) feeling, (8) craving (tanha), (9) clinging/grasping, (10) becoming, (11) birth, (12) ageing and death. The chain can be broken, especially at the link between feeling and craving, which is why mindfulness of feelings matters.\n\nTHE TIBETAN WHEEL OF LIFE (BHAVACHAKRA)\nThis painting, common in Tibetan monasteries, shows samsara held by Yama (or Mara), a figure representing death and impermanence. At the hub are a pig, a cockerel and a snake (the Three Poisons: ignorance, greed and hatred). Around them are beings rising and falling, then six realms of rebirth (gods, demi-gods, humans, animals, hungry ghosts, hell beings), and the twelve links in pictures on the outer rim, e.g. a blind person (ignorance), a potter (mental formations), a monkey (consciousness), a person drinking (craving). Outside the wheel the Buddha points to the moon, the way out: nibbana.\n\nDIVERSITY AND CONTEMPORARY RELEVANCE\nTheravada Buddhists emphasise dependent arising as a description of how suffering and rebirth work. In Mahayana thought, dependent arising is closely linked to sunyata (emptiness): because things depend on conditions they are 'empty' of independent existence. The Vietnamese Zen teacher Thich Nhat Hanh called this 'interbeing', saying a sheet of paper contains the cloud, the rain, the tree and the logger. Many Buddhists today apply the teaching to environmental issues, seeing all life as interconnected, and to ethics, since actions always have consequences.\n\nKEY TERMS\nPaticcasamupada – dependent arising. Nidanas – the twelve links. Samsara – cycle of birth, death and rebirth. Bhavachakra – Wheel of Life. Tanha – craving. Sunyata – emptiness."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Pali term for dependent arising?\nA) Paticcasamupada\nB) Parinibbana\nC) Panna\nD) Puja",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) Paticcasamupada. This is the teaching that everything arises in dependence on conditions. Parinibbana is final nibbana at death, panna is wisdom and puja is devotional worship.",
+   "evidence": [
+    "Paticcasamupada = dependent arising"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "key terms"
+  },
+  {
+   "question": "In the Tibetan Wheel of Life, which animal at the centre represents ignorance?\nA) Snake\nB) Cockerel\nC) Pig\nD) Monkey",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) Pig. The pig represents ignorance (delusion), the cockerel represents greed and the snake represents hatred. A monkey appears on the outer rim as a symbol of consciousness, not at the hub.",
+   "evidence": [
+    "Wheel of Life: pig, cockerel, snake"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "wheel of life"
+  },
+  {
+   "question": "Give two of the twelve links (nidanas) of dependent arising.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: ignorance; mental formations; consciousness; name-and-form (mind and body); the six senses (sense bases); contact; feeling (sensation); craving (tanha); clinging (grasping); becoming; birth; ageing and death.",
+   "evidence": [
+    "The twelve nidanas"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "twelve links"
+  },
+  {
+   "question": "Give two features of the Tibetan Wheel of Life (bhavachakra).",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of:\n- It is held by Yama/Mara, representing death and impermanence.\n- The hub shows a pig, cockerel and snake (the Three Poisons).\n- It shows the six realms of rebirth.\n- The outer rim shows the twelve links of dependent arising.\n- The Buddha stands outside pointing to the moon (nibbana).\n- A ring shows beings rising (good kamma) and falling (bad kamma).",
+   "evidence": [
+    "Bhavachakra imagery"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "wheel of life"
+  },
+  {
+   "question": "Explain two ways in which belief in dependent arising influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Buddhists try to change the conditions that lead to suffering. Since craving arises from feeling, a Buddhist might practise mindfulness so that when an unpleasant or pleasant feeling arises they notice it without automatically reacting with craving or anger. This breaks the chain at a key link.\n\n2. Buddhists recognise their interconnection with other beings and the world. Because nothing exists independently, many Buddhists, following ideas like Thich Nhat Hanh's 'interbeing', take care of the environment, avoid waste and act compassionately, knowing that harming others or nature also harms the conditions for their own wellbeing.",
+   "evidence": [
+    "Twelve links: feeling and craving",
+    "Interbeing (Thich Nhat Hanh)"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two ways in which dependent arising is linked to other Buddhist teachings.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Dependent arising explains impermanence (anicca). If everything depends on conditions that are constantly changing, then everything must also be constantly changing; nothing can remain the same for ever, which is why Buddhists teach that clinging to things brings suffering.\n\n2. Dependent arising is the basis of the Four Noble Truths. The second truth says suffering arises from a cause (craving), and the third says it ceases when the cause ceases. This is the same pattern as dependent arising: 'when this ceases, that ceases'. So the path to nibbana works by removing the conditions for suffering.",
+   "evidence": [
+    "Anicca",
+    "Four Noble Truths: samudaya and nirodha"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "links to other teachings"
+  },
+  {
+   "question": "Explain two Buddhist teachings about dependent arising.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Everything arises because of conditions. The Buddha taught: 'When this exists, that comes to be; with the arising of this, that arises. When this does not exist, that does not come to be; with the cessation of this, that ceases' (Samyutta Nikaya 12). This means nothing, including a person, exists independently; it is part of a web of causes.\n\n2. Understanding dependent arising is understanding the Dhamma itself. The Majjhima Nikaya (MN 28) says, 'Whoever sees dependent arising sees the Dhamma.' This shows that the teaching is not just one idea among many; it is the key insight the Buddha gained at Enlightenment, which explains both how suffering arises and how it can be ended.",
+   "evidence": [
+    "Samyutta Nikaya 12: \"When this exists, that comes to be…\"",
+    "MN 28: \"Whoever sees dependent arising sees the Dhamma\""
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "teachings"
+  },
+  {
+   "question": "Explain two ways in which the Tibetan Wheel of Life illustrates Buddhist teaching about dependent arising.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The hub shows the Three Poisons as the conditions which keep the wheel turning. The pig (ignorance), cockerel (greed) and snake (hatred) bite each other's tails, showing they feed one another. This illustrates the teaching that ignorance, the first of the twelve nidanas, conditions everything else in samsara.\n\n2. The outer rim shows the twelve links as a chain of pictures, such as a blind person for ignorance and a person drinking for craving. As the Buddha taught, 'with the arising of this, that arises' (Samyutta Nikaya 12), so each image depends on the one before. The Buddha pointing to the moon outside the wheel shows that by breaking the chain one can reach nibbana.",
+   "evidence": [
+    "Bhavachakra",
+    "Samyutta Nikaya 12"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "wheel of life"
+  },
+  {
+   "question": "“Dependent arising is the most important Buddhist teaching.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nDependent arising can be seen as the most important teaching because it was central to the Buddha's Enlightenment. Buddhist texts describe the Buddha contemplating the twelve links forwards and backwards on the night he became enlightened. The Majjhima Nikaya says, 'Whoever sees dependent arising sees the Dhamma; whoever sees the Dhamma sees dependent arising.' This suggests that understanding paticcasamupada is the same as understanding Buddhism.\n\nIt also underpins many other teachings. Impermanence (anicca) follows from it, because conditions keep changing. No-self (anatta) follows from it, because a person is a process depending on the five aggregates rather than a fixed soul. Even the Four Noble Truths have the same structure: suffering has a cause, and when the cause ends, suffering ends. Without dependent arising, these teachings would lack their explanation.\n\nIn Mahayana Buddhism it is linked to sunyata (emptiness), which the Heart Sutra presents as the highest wisdom. Thinkers such as Nagarjuna taught that emptiness and dependent arising are the same truth, which makes it central for Mahayana as well.\n\nARGUMENTS FOR A DIFFERENT VIEW\nHowever, many Buddhists would say the Four Noble Truths are the most important teaching. They were the subject of the Buddha's first sermon at Sarnath and give a clear practical diagnosis and cure for suffering, including the Eightfold Path. Dependent arising explains why, but the Four Noble Truths tell Buddhists what to do.\n\nFor many lay Buddhists, the most important teachings in daily life are ethical ones such as the Five Precepts, kamma, metta and karuna. A Buddhist may never study the twelve links in detail but still live a good Buddhist life through generosity and kindness.\n\nIn Pure Land Buddhism, the key teaching is Amitabha Buddha's vow to bring all who call on his name to the Pure Land. For these Buddhists, faith and the nembutsu matter more than understanding complex philosophy.\n\nIt could also be argued that teachings cannot be ranked because the Dhamma is a whole, like the spokes of a wheel which all need each other.\n\nCONCLUSION\nI think dependent arising has a strong claim to be the most important teaching in terms of understanding, because it explains the logic behind anicca, anatta and the Four Noble Truths. However, in terms of practice, the Four Noble Truths and the Eightfold Path are more directly useful, and different traditions put the emphasis elsewhere. So the statement is convincing philosophically, but less convincing as a description of how all Buddhists actually live.",
+   "evidence": [
+    "MN 28",
+    "Heart Sutra / Nagarjuna: emptiness",
+    "Dhammacakkappavattana Sutta (first sermon)",
+    "Pure Land: Amitabha's vow"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "importance"
+  },
+  {
+   "question": "“Understanding dependent arising helps Buddhists to live better lives.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nDependent arising teaches that suffering has causes which can be changed. If a Buddhist understands that craving arises from feeling, they can practise mindfulness to stop pleasant and unpleasant feelings turning into craving and aversion. This is a practical way of reducing anger, jealousy and anxiety, which makes life better for the person and those around them.\n\nIt encourages responsibility. Because every action is a condition for future results, Buddhists see that their choices shape their character and future (linked to kamma). The Buddha taught, 'with the arising of this, that arises', so harmful actions lead to harmful results and skilful actions to good ones. This motivates people to keep the precepts.\n\nIt also encourages compassion and care for the world. Thich Nhat Hanh's idea of interbeing teaches that we 'inter-are' with other people, animals and the environment. Buddhists inspired by this have campaigned on climate change and supported peace work, seeing that harming others ultimately harms everyone.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOn the other hand, the teaching can be very abstract. The twelve links are complex and their meaning is debated (for example whether they describe three lifetimes or each moment of experience). Simply understanding the theory does not automatically change behaviour; a person could understand it intellectually and still act selfishly.\n\nSome Buddhists stress that what really improves life is practice: meditation, keeping the precepts, generosity and devotion. Many devoted lay Buddhists in Sri Lanka or Thailand live very compassionate lives without studying paticcasamupada in detail.\n\nA non-religious person might argue that people can live good lives without any Buddhist teaching at all. Ideas about cause and effect and interconnection are found in science and in secular ethics; you do not need dependent arising to realise that pollution harms people or that anger damages relationships.\n\nCONCLUSION\nI think the statement is largely true, provided 'understanding' means more than knowing a list. Dependent arising gives a clear reason to change the causes of suffering, to take responsibility and to care for others, and the Buddha presented it as the heart of the Dhamma. But it helps only when it is put into practice through mindfulness and ethics, and good lives are possible in other ways too. So understanding dependent arising can help Buddhists live better lives, but it is not enough on its own.",
+   "evidence": [
+    "Samyutta Nikaya 12",
+    "Interbeing (Thich Nhat Hanh)",
+    "Twelve links: feeling and craving",
+    "Kamma"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "influence"
+  }
+ ]
+}

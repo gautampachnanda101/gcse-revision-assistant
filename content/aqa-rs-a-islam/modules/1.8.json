@@ -1,0 +1,139 @@
+{
+ "paper": "Beliefs",
+ "module": "1.8",
+ "moduleTitle": "The holy books: Qur'an (revelation and authority); the Torah, the Psalms, the Gospel, the Scrolls of Abraham and their authority",
+ "note": {
+  "specFocus": "Know Muslim beliefs about the holy books: the Qur'an (its revelation and authority) and the Torah (Tawrat), Psalms (Zabur), Gospel (Injil) and Scrolls of Abraham (Suhuf), and their authority.",
+  "summary": "KUTUB - THE HOLY BOOKS\nBelief in God's books (kutub) is a Sunni article of faith. Muslims believe God revealed scriptures to several prophets:\n- Suhuf (Scrolls) of Ibrahim - mentioned in 87:18-19 and 53:36-37; now lost.\n- Tawrat (Torah) - given to Musa (Moses).\n- Zabur (Psalms) - given to Dawud (David) (4:163).\n- Injil (Gospel) - given to 'Isa (Jesus), containing 'guidance and light' (5:46). Muslims understand the Injil as the message revealed to 'Isa, not the four Gospels written about him.\n- Qur'an - given to Muhammad, the final revelation.\n\nAUTHORITY OF THE EARLIER BOOKS\nMuslims respect them as originally true revelations, and Jews and Christians are called 'People of the Book' (Ahl al-Kitab). But Muslims believe they were changed, lost or mixed with human writing over time (tahrif; see 2:79), so they do not have full authority today. The Qur'an is 'confirming what was before it… and a criterion over it' (5:48).\n\nTHE QUR'AN - REVELATION\n- Began on Laylat al-Qadr in 610 CE in the Cave of Hira when Jibril commanded 'Iqra!' ('Read/Recite!') (96:1-5; 97:1).\n- Revealed gradually over about 23 years (17:106), in Makkah and Madinah, often in response to events.\n- Muhammad is traditionally described as ummi (unlettered), so the Qur'an's eloquence is seen as a miracle (i'jaz); it challenges anyone to produce a surah like it (2:23).\n- Memorised by Companions (huffaz) and written on materials such as parchment and bones; compiled into one volume under Caliph Abu Bakr (after many huffaz died in battle) and standardised by Caliph Uthman (c. 650 CE), who sent copies to major cities.\n- 114 surahs (chapters) of ayat (verses), arranged mostly by length, not chronology.\n\nTHE QUR'AN - AUTHORITY\n- The literal word of God (kalam Allah) in Arabic: 'We have sent it down as an Arabic Qur'an' (12:2); translations are 'interpretations of the meaning'.\n- Protected by God: 'We will be its guardian' (15:9).\n- Final and complete revelation for all humanity, the first source of Shari'ah, followed by the Sunnah/Hadith, then scholarly consensus and reasoning.\n- Treated with great respect: wudu before handling, placed on a stand, recited with tajwid, memorised by a hafiz, read in full during Ramadan; Muslims recite parts of it in every salah.\n\nSUNNI AND SHI'A\nBoth accept the same Qur'an. Sunni Muslims use hadith collections such as Sahih al-Bukhari and Sahih Muslim; Shi'a Muslims use collections such as al-Kafi and value the sayings of Imam Ali (Nahj al-Balagha). Shi'as believe the Imams were the most authoritative interpreters of the Qur'an.\n\nDEBATES\n- Is the Qur'an alone enough? (Most say Sunnah is also needed; a minority 'Qur'anist' view disagrees.)\n- Should it be read only in Arabic? (Arabic for worship; translations and tafsir for understanding.)\n- Literal vs contextual interpretation of some verses.\n\nKEY TERMS: kutub, Tawrat, Zabur, Injil, Suhuf, tahrif, Ahl al-Kitab, surah, ayah, hafiz, tafsir, tajwid."
+ },
+ "questions": [
+  {
+   "question": "Which holy book do Muslims believe was given to the Prophet Dawud (David)?\nA Tawrat (Torah)\nB Zabur (Psalms)\nC Injil (Gospel)\nD Suhuf (Scrolls)",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - The Qur'an says 'to Dawud We gave the Zabur' (4:163). The Tawrat was given to Musa, the Injil to 'Isa and the Suhuf to Ibrahim.",
+   "evidence": [
+    "Qur'an 4:163"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "holy books"
+  },
+  {
+   "question": "Over approximately how many years was the Qur'an revealed to Muhammad?\nA 1 year\nB 10 years\nC 23 years\nD 40 years",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C - The revelation began in 610 CE and continued until shortly before the Prophet's death in 632 CE, about 23 years.",
+   "evidence": [
+    "Qur'an 17:106 (revealed in stages)"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "revelation"
+  },
+  {
+   "question": "Give two holy books, other than the Qur'an, that Muslims believe were revealed by God.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: the Tawrat (Torah), given to Musa; the Zabur (Psalms), given to Dawud; the Injil (Gospel), given to 'Isa; the Suhuf (Scrolls) of Ibrahim.",
+   "evidence": [
+    "Qur'an 4:163",
+    "Qur'an 5:46",
+    "Qur'an 87:19"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "holy books"
+  },
+  {
+   "question": "Give two ways Muslims show respect for the Qur'an.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: performing wudu before touching it; keeping it on a high shelf or stand (kursi); wrapping it in cloth; not placing anything on top of it; reciting it in Arabic; memorising it (becoming a hafiz); not eating or talking while it is recited; reading it during Ramadan.",
+   "evidence": [
+    "Qur'an 56:79 ('none touch it except the purified')"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "respect"
+  },
+  {
+   "question": "Explain two reasons why the Qur'an has authority for Muslims.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Muslims believe it is the direct word of God, revealed in Arabic through Jibril to Muhammad, not written or edited by a human author. This means its teachings are perfect and must be obeyed, and it is the first source of Shari'ah law.\n\n2. Muslims believe it has been perfectly preserved. It was memorised by many Companions, written down during the Prophet's life, compiled under Abu Bakr and standardised under Uthman. Because the Arabic text has not changed, Muslims believe it carries God's message exactly as revealed, unlike earlier scriptures they believe were altered.",
+   "evidence": [
+    "Qur'an 15:9",
+    "Compilation under Abu Bakr and Uthman"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "authority of Qur'an"
+  },
+  {
+   "question": "Explain two contrasting beliefs about the authority of the Torah, Psalms and Gospel for Muslims compared with the Qur'an.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Muslims believe these books were originally genuine revelations from God, so they respect them and the prophets who received them. Rejecting them entirely would contradict the Sunni article of faith in God's books (kutub).\n\n2. However, Muslims believe they do not have the same authority as the Qur'an today, because over time their texts were changed, lost or mixed with human additions (tahrif). The Qur'an is seen as the final, complete and protected revelation that confirms what was true in them and corrects what was changed, so Muslims follow the Qur'an rather than the Bible for guidance.",
+   "evidence": [
+    "Kutub",
+    "Tahrif",
+    "Qur'an 5:48"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "earlier books"
+  },
+  {
+   "question": "Explain two Muslim beliefs about the revelation of the Qur'an.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Revelation began on Laylat al-Qadr (the Night of Power) in 610 CE when Jibril appeared to Muhammad in the Cave of Hira and commanded 'Read! In the name of your Lord who created' (Qur'an 96:1). Muhammad was believed to be unable to read or write, which Muslims see as evidence that the Qur'an came from God, not from him.\n\n2. The Qur'an was revealed gradually over about 23 years, in response to events in the Muslim community. 'And [it is] a Qur'an which We have separated [by intervals] that you might recite it to the people over a prolonged period' (Qur'an 17:106). The Prophet's Companions memorised and wrote down each revelation, and the full text was compiled shortly after his death.",
+   "evidence": [
+    "Qur'an 96:1-5",
+    "Qur'an 17:106",
+    "Qur'an 97:1"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "revelation"
+  },
+  {
+   "question": "Explain two Muslim beliefs about the holy books revealed before the Qur'an.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. God gave scriptures to earlier prophets: the Tawrat to Musa, the Zabur to Dawud, the Injil to 'Isa and the Scrolls (Suhuf) to Ibrahim. The Qur'an says 'to Dawud We gave the Zabur' (Qur'an 4:163) and that the Injil contained 'guidance and light' (Qur'an 5:46). Muslims must believe these were genuine revelations.\n\n2. Muslims believe these earlier books were not preserved in their original form. The Scrolls of Ibrahim (Qur'an 87:18-19) are lost, and Muslims believe the Torah and Gospel were changed by humans over time. So the Qur'an, which God promised to protect (15:9), acts as a 'criterion' over them and is the final authority.",
+   "evidence": [
+    "Qur'an 4:163",
+    "Qur'an 5:46",
+    "Qur'an 87:18-19",
+    "Qur'an 15:9"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "earlier books"
+  },
+  {
+   "question": "‘The Qur'an is the only holy book Muslims need.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nMuslims believe the Qur'an is the final and complete revelation from God, given to the 'Seal of the Prophets' (33:40). God promised to protect it: 'Indeed, it is We who sent down the message, and indeed, We will be its guardian' (15:9). Its Arabic text has remained unchanged since it was standardised under Uthman, and millions of Muslims have memorised it word for word. Muslims believe the earlier books - the Tawrat, Zabur, Injil and Suhuf of Ibrahim - have been lost or altered (tahrif), and the Qur'an confirms what was true in them and corrects what was changed (5:48). So in practice Muslims do not need to read the Bible for guidance; the Qur'an contains all the essential teachings.\n\nARGUMENTS AGAINST THE STATEMENT\nBelief in all of God's books is one of the six articles of faith (4:136), so Muslims cannot dismiss the earlier scriptures; they were 'guidance and light' (5:46) and show that God has always guided humanity. Some Muslims value studying the Bible to understand the shared history of the prophets and to build good relations with Jews and Christians, the 'People of the Book'.\n\nAlso, the Qur'an itself is not the only source of authority. Muslims need the Sunnah of the Prophet, recorded in the Hadith, to know how to carry out many commands. For example, the Qur'an commands salah but the details of the rak'ahs and times come mainly from the Sunnah. Shi'a Muslims also rely on the teachings of the Imams and collections such as al-Kafi, and use the Nahj al-Balagha (sermons of Imam Ali). Most Muslims also rely on scholars and Shari'ah to interpret the Qur'an. A small group called 'Qur'anists' claim only the Qur'an is needed, but most Sunni and Shi'a Muslims reject this view.\n\nCONCLUSION\nAs a holy book of revelation, the Qur'an is the only scripture Muslims need for guidance, because they believe it is complete and preserved. However, Muslims are required to believe in the earlier books, and they need the Hadith and scholarship to apply the Qur'an. So the statement is partly true: the Qur'an is the supreme and final holy book, but it is not the only source of authority Muslims need.",
+   "evidence": [
+    "Qur'an 15:9",
+    "Qur'an 5:46",
+    "Qur'an 5:48",
+    "Qur'an 4:136",
+    "Hadith / Sunnah"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "authority of Qur'an"
+  },
+  {
+   "question": "‘The Qur'an should only be read in Arabic.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nMuslims believe the Qur'an was revealed in Arabic: 'Indeed, We have sent it down as an Arabic Qur'an that you might understand' (12:2). The exact Arabic words are believed to be God's speech, so any translation is a human interpretation, not the Qur'an itself. Arabic has meanings, sounds and rhythms that cannot be fully captured in English, and recitation (tajwid) is regarded as a form of worship. Salah must include recitation of al-Fatihah in Arabic, so all Muslims learn some Arabic. Reading in Arabic also unites the worldwide ummah: a Muslim from Britain, Indonesia or Nigeria can pray together using the same words. Many British Muslim children attend madrasah classes to learn to read Qur'anic Arabic, and those who memorise it are honoured as hafiz.\n\nARGUMENTS AGAINST THE STATEMENT\nMost Muslims in the world are not native Arabic speakers, and the Qur'an is meant as guidance for 'all mankind' (2:185). If people only recite the Arabic without understanding it, they may miss its message. Translations - often called 'interpretations of the meaning', such as those by Abdullah Yusuf Ali or Muhammad Abdel Haleem - help Muslims study, reflect on its teachings and apply them to life. The Qur'an repeatedly asks people to reflect: 'Do they not reflect upon the Qur'an?' (4:82). Translations also allow non-Muslims to learn about Islam, which supports da'wah (inviting to Islam) and interfaith understanding.\n\nMany scholars therefore teach a balance: the Arabic is used in worship and is the authoritative text, while translations and tafsir (commentary) are used to understand it. Both Sunni and Shi'a scholars generally accept translations for study.\n\nCONCLUSION\nThe Arabic Qur'an is the only true Qur'an for Muslims and should be used for prayer and recitation. However, if 'read' means studying and understanding, insisting on Arabic alone would prevent most Muslims from fully grasping God's guidance. I therefore disagree with the statement: the Qur'an should be recited in Arabic, but it is right and helpful to read translations alongside it.",
+   "evidence": [
+    "Qur'an 12:2",
+    "Qur'an 2:185",
+    "Qur'an 4:82",
+    "Tajwid",
+    "Translations by Yusuf Ali, Abdel Haleem"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Arabic Qur'an"
+  }
+ ]
+}

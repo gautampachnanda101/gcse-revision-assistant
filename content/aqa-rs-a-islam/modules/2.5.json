@@ -1,0 +1,134 @@
+{
+ "paper": "Practices",
+ "module": "2.5",
+ "moduleTitle": "Zakah: the role and significance of giving alms (including Khums in Shi'a Islam)",
+ "note": {
+  "specFocus": "Know the role and significance of zakah (almsgiving), including its origins, how and why it is given, the benefits of receipt, and khums in Shi'a Islam.",
+  "summary": "WHAT IS ZAKAH?\nZakah is the third Sunni pillar and one of the Shi'a Ten Obligatory Acts. The word means 'purification' and 'growth'. It is a compulsory payment by adult Muslims whose wealth exceeds a minimum threshold (the nisab - traditionally the value of about 85g of gold or 595g of silver) held for one lunar year. It differs from sadaqah, which is voluntary charity of any kind - 'even a smile' (Tirmidhi).\n\nORIGINS\nZakah is commanded throughout the Qur'an, often with prayer: 'establish prayer and give zakah' (2:43). It was organised as a fixed duty in Madinah, where the Prophet appointed collectors and distributed it to the poor. After his death, Caliph Abu Bakr insisted it continue to be paid. Earlier prophets also commanded charity (e.g. 19:31 about 'Isa).\n\nHOW IT IS GIVEN\n- Usually 2.5% of savings, cash, gold, silver and business goods; different rates apply to crops and livestock (Shi'a law limits zakah to specific items such as gold, silver, certain crops and livestock).\n- Many Muslims pay it in Ramadan for greater reward.\n- Given directly, through the mosque, or through charities such as the National Zakat Foundation, Islamic Relief or Muslim Aid. In some countries (e.g. Saudi Arabia, Pakistan) the state collects it.\n- Should be given discreetly to protect the recipient's dignity (2:271).\n- Zakat-ul-Fitr is a separate small payment per person before Id-ul-Fitr.\n\nWHO RECEIVES IT (9:60)\nThe poor; the needy; zakah administrators; those whose hearts are to be reconciled; freeing captives; debtors; 'in the cause of Allah'; stranded travellers.\n\nWHY IT IS GIVEN\n- Obedience to God and a pillar of Islam.\n- Wealth belongs to God; humans are trustees (57:7).\n- Purifies the giver from greed and selfishness: 'Take from their wealth a charity by which you purify them' (9:103).\n- The poor have a right to it (51:19); creates a fairer society and narrows the gap between rich and poor.\n\nBENEFITS OF RECEIPT\nMeets basic needs; relieves debt; preserves dignity (it is a right, not a favour); allows participation in community life and festivals; can provide long-term support (education, business start-up); strengthens the ummah - the giver and receiver are both blessed.\n\nKHUMS IN SHI'A ISLAM\nKhums ('one-fifth') is one of the Ten Obligatory Acts. Based on 8:41 ('one fifth of it is for Allah, the Messenger, near relatives, orphans, the needy and the traveller'), Shi'as pay 20% of surplus annual income (what remains after the year's expenses), as well as on some other gains.\n- Sahm al-Imam (half): given to a marja' (e.g. Ayatollah Sistani's offices) for religious purposes - mosques, seminaries, publishing, charity - on behalf of the hidden Imam.\n- Sahm al-Sadat (half): to needy sayyids (descendants of the Prophet), who may not receive zakah from non-sayyids.\nSunnis understand 8:41 to apply to war booty (and some apply one-fifth to buried treasure), so they do not pay khums on income.\n\nDEBATES: Can zakah end poverty? Is khums on top of zakah fair? Should zakah go to non-Muslims? (Many scholars allow sadaqah to anyone and some allow zakah to non-Muslims in certain categories.)\n\nKEY TERMS: zakah, nisab, sadaqah, zakat-ul-fitr, khums, sahm al-Imam, sayyid, riba."
+ },
+ "questions": [
+  {
+   "question": "What percentage of qualifying savings do Muslims usually give as zakah each year?\nA 1%\nB 2.5%\nC 10%\nD 20%",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Zakah is normally 2.5% of wealth held above the nisab for a lunar year; 20% (one-fifth) is khums.",
+   "evidence": [
+    "Hadith on the rate of zakah (Abu Dawud)"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "how zakah is given"
+  },
+  {
+   "question": "What is khums?\nA A voluntary gift to charity\nB A Shi'a obligation to give one-fifth of surplus annual income\nC The minimum wealth before zakah is due\nD Charity given at the end of Ramadan",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Khums is the Shi'a duty of giving one-fifth (20%) of surplus income, based on Qur'an 8:41. Voluntary charity is sadaqah, the minimum is the nisab and end-of-Ramadan charity is zakat-ul-fitr.",
+   "evidence": [
+    "Qur'an 8:41"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "khums"
+  },
+  {
+   "question": "Give two groups of people who may receive zakah.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of the eight categories in Qur'an 9:60: the poor (fuqara'); the needy (masakin); those who collect and distribute zakah; those whose hearts are to be reconciled (e.g. new Muslims); freeing captives/slaves; people in debt; those working 'in the cause of Allah'; stranded travellers.",
+   "evidence": [
+    "Qur'an 9:60"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "recipients"
+  },
+  {
+   "question": "Give two benefits of zakah for those who receive it.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: it meets basic needs such as food, shelter and medicine; it can help them out of debt; it gives them dignity because it is their right, not a favour; it can help them start a business or gain education; it helps them feel part of the community; it helps them celebrate festivals.",
+   "evidence": [
+    "Qur'an 9:60",
+    "Qur'an 51:19 ('the beggar and the deprived')"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "benefits of receipt"
+  },
+  {
+   "question": "Explain two ways zakah is different from sadaqah.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Zakah is compulsory, but sadaqah is voluntary. Zakah is one of the Five Pillars and a fixed duty for every adult Muslim whose wealth is above the nisab, whereas sadaqah can be given at any time, by anyone, in any amount.\n\n2. Zakah has fixed rules about amount and recipients - normally 2.5% of savings held for a lunar year, given to the eight categories in 9:60 - while sadaqah has no fixed amount and can include non-financial acts; the Prophet said even a smile to your brother is sadaqah (Tirmidhi).",
+   "evidence": [
+    "Qur'an 9:60",
+    "Hadith: 'Your smile… is charity' (Tirmidhi)"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "zakah and sadaqah"
+  },
+  {
+   "question": "Explain two ways khums is given in Shi'a Islam.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Shi'a Muslims calculate one-fifth (20%) of their surplus annual income - what is left after normal living expenses for the year - and pay it as khums, often on a fixed 'khums date' each year.\n\n2. Khums is divided into two halves. The sahm al-Imam (Imam's share) is given to, or spent with the permission of, a marja' (senior scholar) for religious purposes such as mosques, seminaries and charities; the sahm al-sadat is given to poor descendants of the Prophet (sayyids), who are not allowed to receive zakah from non-sayyids.",
+   "evidence": [
+    "Qur'an 8:41",
+    "Sahm al-Imam and sahm al-sadat"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "khums"
+  },
+  {
+   "question": "Explain two Muslim teachings about the origins and purpose of zakah.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Zakah is commanded by God, often alongside prayer: 'And establish prayer and give zakah' (Qur'an 2:43). It was made obligatory in Madinah, where the Prophet organised its collection and distribution to support the poor of the first Muslim community. It is a duty to God, not just kindness.\n\n2. The word zakah means 'purification' and 'growth'. Giving it purifies the giver's wealth and soul from greed: 'Take from their wealth a charity by which you purify them and cause them increase' (Qur'an 9:103). Muslims believe all wealth belongs to God and they are only its trustees, so giving zakah keeps them from becoming selfish and reminds them that the poor have a right to part of it.",
+   "evidence": [
+    "Qur'an 2:43",
+    "Qur'an 9:103",
+    "Qur'an 57:7 (wealth held in trust)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "origins and purpose"
+  },
+  {
+   "question": "Explain two reasons why zakah is important to Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. It helps to create a fairer society by redistributing wealth from the rich to those in need. The Qur'an names eight groups who should receive it, beginning with 'the poor and the needy' (Qur'an 9:60). In the UK, charities such as the National Zakat Foundation use zakah to help people with rent, debt and essentials.\n\n2. It is an act of worship that develops the giver spiritually. It is one of the Five Pillars ('Islam is built upon five…', Bukhari) and shows obedience and gratitude to God. Because the giver acknowledges that wealth is a gift from God and not their own achievement, zakah reduces greed and pride and increases compassion, purifying the soul (9:103).",
+   "evidence": [
+    "Qur'an 9:60",
+    "Qur'an 9:103",
+    "Hadith: 'Islam is built upon five'"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "importance"
+  },
+  {
+   "question": "‘Giving zakah is the most effective way to end poverty.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nZakah is a compulsory, regular system of redistribution. If every Muslim with wealth above the nisab gave 2.5% every year, the total would be very large - organisations such as Islamic Relief and the UN have estimated global zakah to be worth hundreds of billions of dollars. The Qur'an directs it specifically to the poor, the needy and those in debt (9:60), so it targets the people who need it most. Because it is a right of the poor rather than a favour, it preserves their dignity. Historically, there are reports that under Caliph Umar ibn Abd al-Aziz zakah collectors could find no one poor enough to receive it. In Shi'a Islam, khums adds a further 20% of surplus income, funding schools, clinics and welfare. Charities such as the National Zakat Foundation in the UK show how zakah can be used for long-term help, like paying rent or funding training.\n\nARGUMENTS AGAINST THE STATEMENT\nPoverty has many causes - war, corruption, unfair trade, climate change, lack of education and healthcare - which charity alone cannot fix. Zakah provides help but does not change the structures that keep people poor. Many people argue that governments, fair taxation, fair trade and international aid are more effective at a large scale. Not all Muslims pay zakah correctly, and it is a duty only for Muslims, so it cannot alone end world poverty. Islam itself also teaches other ways to tackle poverty: voluntary sadaqah, interest-free lending (riba is forbidden), working to earn a living, and campaigning for justice. Some argue that the most effective approach is empowering people through education and jobs, which zakah can support but not replace.\n\nCONCLUSION\nZakah is a powerful and well-targeted way to reduce poverty, and if fully practised it would transform many lives. However, poverty's causes are complex, and zakah works best alongside political, economic and educational change. I therefore disagree that it is the most effective way on its own, but it is one of the most important tools for Muslims, as part of Islam's wider commitment to justice.",
+   "evidence": [
+    "Qur'an 9:60",
+    "Qur'an 2:275 (riba forbidden)",
+    "National Zakat Foundation",
+    "Islamic Relief",
+    "Khums (8:41)"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "zakah and poverty"
+  },
+  {
+   "question": "‘It is fair that Shi'a Muslims pay khums as well as zakah.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nShi'a Muslims believe khums is commanded in the Qur'an: 'Know that anything you obtain… one fifth of it is for Allah and for the Messenger and for [his] near relatives, orphans, the needy and the traveller' (8:41). The Imams taught that 'anything you obtain' (ghanimtum) applies to all gains, not only war booty. If God commands it, Shi'as see it as fair and right. Khums is only paid on surplus income after reasonable living expenses, so it does not push anyone into poverty. It funds religious education, mosques, community centres, hospitals and charities, and supports poor sayyids, who are not permitted to receive ordinary zakah. Many Shi'as feel that giving generously purifies wealth and protects them from greed (9:103), so paying both is a blessing, not a burden.\n\nARGUMENTS AGAINST THE STATEMENT\nSunni Muslims interpret 8:41 as referring only to war booty, so for them khums on income is not a duty, and the Five Pillars require only zakah. From this view, asking Shi'as to give 20% of surplus income on top of zakah could seem a heavy burden, especially for families on modest incomes. Some critics, including some Shi'a reformers, ask how the sahm al-Imam is used, as large sums are controlled by senior scholars, and they want transparency. Others note that in many Shi'a legal rulings, zakah is only due on specific items (such as gold, silver, livestock and certain crops), which is narrower than common Sunni practice, so in practice the overall burden may be balanced differently rather than simply doubled.\n\nCONCLUSION\nWhether it is fair depends partly on how 8:41 is interpreted. For Shi'as, khums is a divine command applied only to surplus income, funding vital religious and social work, so it is fair and even beneficial. Concerns about accountability can be addressed by transparent management. I therefore agree that it is fair for Shi'a Muslims, who freely accept this understanding of the Qur'an, to pay khums as well as zakah.",
+   "evidence": [
+    "Qur'an 8:41",
+    "Qur'an 9:103",
+    "Sahm al-Imam / sahm al-sadat"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "khums"
+  }
+ ]
+}

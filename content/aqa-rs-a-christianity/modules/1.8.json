@@ -1,0 +1,152 @@
+{
+ "paper": "Beliefs",
+ "module": "1.8",
+ "moduleTitle": "Jesus Christ and salvation: the means of salvation, including law, grace and Spirit",
+ "note": {
+  "specFocus": "Spec: Jesus Christ and salvation — beliefs and teachings about the means of salvation, including law, grace and Spirit.",
+  "summary": "What is salvation?\n• Salvation means being saved from sin and its consequences (separation from God, spiritual death) and brought into a restored relationship with God, leading to eternal life.\n• 'For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life' (John 3:16).\n• Christians differ about HOW people receive salvation. The specification names three means: law, grace and Spirit.\n\nSalvation through law (and good works)\n• God's law is given in the Old Testament, especially the Ten Commandments (Exodus 20). Jesus said he came 'not to abolish the Law… but to fulfil' it (Matthew 5:17).\n• Jesus summarised the law as loving God and loving your neighbour (Mark 12:30–31).\n• Some teachings link salvation to obedience: 'If you want to enter life, keep the commandments' (Matthew 19:17); 'faith by itself, if it is not accompanied by action, is dead' (James 2:17).\n• Catholic teaching: salvation is by God's grace, received through faith and the sacraments, and faith must be expressed in good works and keeping the commandments.\n• Problem: no one keeps the law perfectly (Romans 3:23).\n\nSalvation through grace\n• Grace is God's free, unearned love. 'It is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast' (Ephesians 2:8–9).\n• Martin Luther (Reformation, 1517 onwards) taught justification by faith alone (sola fide) and grace alone (sola gratia), from Romans 1:17. This is central for Protestants.\n• Good works are a response to grace, a sign of real faith, not a way of earning salvation.\n• The 1999 Joint Declaration on the Doctrine of Justification (Catholic Church and Lutheran World Federation) agreed that salvation is by grace through faith, and that good works follow.\n• Bonhoeffer warned against 'cheap grace' — grace without repentance or discipleship.\n\nSalvation through the Spirit\n• The Holy Spirit gives new life: 'no one can enter the kingdom of God unless they are born of water and the Spirit' (John 3:5) — being 'born again'.\n• The Spirit helps believers grow in holiness and produce the 'fruit of the Spirit' (Galatians 5:22–23), and assures them they are God's children (Romans 8:16).\n• Received at baptism and (for many) confirmation; Pentecostals emphasise a personal experience of the Spirit.\n• 'Repent and be baptised… you will receive the gift of the Holy Spirit' (Acts 2:38).\n\nBringing it together\n• Many Christians see salvation as the work of the Trinity: the Father's love (grace), the Son's sacrifice, and the Spirit's transforming power, with the law as the guide for living a saved life.\n• Orthodox Christians describe salvation as theosis — a lifelong journey of becoming more like God.\n\nInfluence\n• Gratitude and worship; humility; forgiving others; living by God's commandments; seeking the Spirit's help in prayer; taking part in sacraments; evangelism (sharing the good news of salvation).\n\nKey terms: salvation, law, grace, justification, faith, good works, sola fide, born again, Holy Spirit, theosis."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following describes 'grace' in Christianity?\nA  A reward God gives for good works\nB  God's free and undeserved love and favour\nC  A set of religious rules\nD  A type of prayer said before meals only",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — God's free and undeserved love and favour\n\nGrace is God's free, unearned love and kindness towards humanity, shown above all in salvation through Jesus: 'For it is by grace you have been saved, through faith… it is the gift of God — not by works' (Ephesians 2:8–9). (A prayer before meals is sometimes called 'grace', but that is not the theological meaning.)",
+   "evidence": [
+    "Ephesians 2:8–9"
+   ],
+   "examTip": "Be ready for distractors that use a word's everyday meaning.",
+   "answerTopic": "grace"
+  },
+  {
+   "question": "Which one of the following is the Christian term for being saved from sin and its consequences?\nA  Salvation\nB  Incarnation\nC  Evangelism\nD  Ascension",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A — Salvation\n\nSalvation means being saved or delivered from sin and its consequences (including separation from God and death) and restored to a right relationship with God, leading to eternal life.",
+   "evidence": [
+    "John 3:16",
+    "Acts 4:12"
+   ],
+   "examTip": "Salvation is the umbrella term for this whole topic.",
+   "answerTopic": "salvation"
+  },
+  {
+   "question": "Give one way in which Christians believe salvation can be achieved.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: through faith in Jesus Christ; through God's grace; through the work of the Holy Spirit; by following God's law / doing good works (combined with faith); through the sacraments, e.g. baptism (Catholic/Orthodox view); by repenting of sin.",
+   "evidence": [
+    "Ephesians 2:8–9",
+    "James 2:17",
+    "John 3:5"
+   ],
+   "examTip": "One clear method is enough.",
+   "answerTopic": "means of salvation"
+  },
+  {
+   "question": "Give one reason why some Christians believe good works are needed for salvation.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: 'faith by itself, if it is not accompanied by action, is dead' (James 2:17); Jesus taught that people will be judged on how they treated others (Matthew 25:31–46); Jesus told the rich man to keep the commandments to enter life (Matthew 19:17); good works show that faith is genuine.",
+   "evidence": [
+    "James 2:17, 24",
+    "Matthew 25:31–46",
+    "Matthew 19:17"
+   ],
+   "examTip": "Short and accurate — a reference strengthens it.",
+   "answerTopic": "works and salvation"
+  },
+  {
+   "question": "Explain two ways in which belief in salvation by grace influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because Christians believe salvation is a free gift they cannot earn (Ephesians 2:8–9), they respond with thankfulness and humility rather than pride. This influences them to worship joyfully, giving thanks to God in prayer and hymns such as 'Amazing Grace'.\n\nSecond way: Having received undeserved love from God, Christians feel called to show grace to others — forgiving people who hurt them and helping those who cannot repay them. For example, they may volunteer at a homeless shelter or support prisoners through organisations such as Prison Fellowship.",
+   "evidence": [
+    "Ephesians 2:8–9",
+    "Matthew 10:8 'Freely you have received; freely give'",
+    "'Amazing Grace' (John Newton)"
+   ],
+   "examTip": "Link grace to gratitude and to how Christians treat others.",
+   "answerTopic": "grace influence"
+  },
+  {
+   "question": "Explain two ways in which belief that the Holy Spirit helps bring salvation influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Christians believe the Spirit gives them new life and strength to change. Jesus said 'no one can enter the kingdom of God unless they are born of water and the Spirit' (John 3:5). This influences them to pray for the Spirit's help to overcome sin and to grow in the 'fruit of the Spirit' such as love, patience and self-control.\n\nSecond way: Many Christians believe they receive the Spirit through baptism and (for Catholics, Orthodox and Anglicans) confirmation, so they take part in these sacraments. In Pentecostal churches believers may seek a personal experience of the Spirit, such as 'baptism in the Spirit', during lively worship.",
+   "evidence": [
+    "John 3:5",
+    "Galatians 5:22–23",
+    "Acts 2:38"
+   ],
+   "examTip": "Different traditions experience the Spirit differently — use that to develop your answer.",
+   "answerTopic": "Spirit influence"
+  },
+  {
+   "question": "Explain two Christian teachings about how people are saved through law and grace.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching — law: God gave his law, such as the Ten Commandments (Exodus 20), to show people how to live rightly. Jesus taught 'If you want to enter life, keep the commandments' (Matthew 19:17) and that he came not to abolish the law but to fulfil it (Matthew 5:17). Many Christians, especially Catholics, teach that faith must be shown in obedience and good works: 'faith by itself, if it is not accompanied by action, is dead' (James 2:17).\n\nSecond teaching — grace: However, no one can keep the law perfectly, so salvation is ultimately God's gift. 'For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast' (Ephesians 2:8–9). Martin Luther emphasised salvation by grace through faith alone (sola fide), which became central to Protestant churches.\n\nApplication: Most Christians today agree that grace comes first, and that good works are a response to it, not a way of earning God's love.",
+   "evidence": [
+    "Exodus 20",
+    "Matthew 5:17",
+    "Matthew 19:17",
+    "James 2:17",
+    "Ephesians 2:8–9",
+    "Martin Luther (sola fide)"
+   ],
+   "examTip": "This topic is ideal for showing Catholic/Protestant difference.",
+   "answerTopic": "law and grace"
+  },
+  {
+   "question": "Explain two Christian teachings about the role of the Holy Spirit in salvation.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: The Holy Spirit gives new spiritual life. Jesus told Nicodemus 'no one can enter the kingdom of God unless they are born of water and the Spirit' (John 3:5). Christians believe the Spirit makes them 'born again', changing them from within when they turn to God in faith and baptism.\n\nSecond teaching: The Spirit continues to guide and transform believers throughout their lives, helping them to live as God wants. Paul describes the 'fruit of the Spirit' — 'love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control' (Galatians 5:22–23). The Spirit also assures believers that they are God's children (Romans 8:16).\n\nApplication: Christians believe that salvation is the work of the whole Trinity — the Father's love, the Son's sacrifice, and the Spirit applying salvation to each person. At Pentecost Peter told the crowd, 'Repent and be baptised… And you will receive the gift of the Holy Spirit' (Acts 2:38).",
+   "evidence": [
+    "John 3:5–8",
+    "Galatians 5:22–23",
+    "Romans 8:16",
+    "Acts 2:38"
+   ],
+   "examTip": "Name the 'fruit of the Spirit' accurately; it's a well-known source.",
+   "answerTopic": "Spirit and salvation"
+  },
+  {
+   "question": "‘Christians can only be saved by faith, not by good works.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nPaul teaches 'For it is by grace you have been saved, through faith… not by works, so that no one can boast' (Ephesians 2:8–9). If salvation could be earned by good deeds, it would no longer be a gift, and people might become proud. Because 'all have sinned' (Romans 3:23), no one can do enough good to make up for sin.\n\nMartin Luther, the Protestant reformer, rediscovered this teaching in Romans 1:17 ('the righteous will live by faith') and made sola fide (faith alone) a central principle of the Reformation. Many Protestant and evangelical Christians hold this view today. The criminal crucified next to Jesus had no chance to do good works, yet Jesus promised him paradise because of his faith (Luke 23:43).\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nJames writes, 'faith by itself, if it is not accompanied by action, is dead' and 'a person is considered righteous by what they do and not by faith alone' (James 2:17, 24). Jesus' Parable of the Sheep and the Goats (Matthew 25:31–46) shows people judged on whether they fed the hungry and cared for the sick.\n\nThe Catholic Church teaches that salvation is by God's grace, received through faith and the sacraments, and that genuine faith must express itself in love and good works. The Council of Trent rejected 'faith alone'. Orthodox Christians speak of salvation as a lifelong process of becoming like God (theosis), in which human effort cooperates with grace.\n\nMany Christians also stress the role of the Spirit and the law: the Spirit transforms believers so that they keep God's commands.\n\nJUSTIFIED CONCLUSION\n\nThe disagreement is narrower than it first appears. In 1999 the Catholic Church and the Lutheran World Federation signed a Joint Declaration agreeing that salvation is by grace alone, through faith, and that good works are the fruit of that faith. Both sides agree works cannot earn salvation, and both agree that real faith produces good works. I therefore conclude the statement is correct that works cannot earn salvation, but misleading if it implies works don't matter — true faith, as James says, is always shown in action.",
+   "evidence": [
+    "Ephesians 2:8–9",
+    "Romans 1:17",
+    "Romans 3:23",
+    "Luke 23:43",
+    "James 2:17, 24",
+    "Matthew 25:31–46",
+    "Council of Trent",
+    "Joint Declaration on the Doctrine of Justification (1999)"
+   ],
+   "examTip": "The Catholic–Lutheran Joint Declaration is a great contemporary example for a balanced conclusion.",
+   "answerTopic": "faith vs works"
+  },
+  {
+   "question": "‘God's grace is more important than following God's law.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nChristians believe no one can keep God's law perfectly — 'all have sinned and fall short of the glory of God' (Romans 3:23). If salvation depended on obeying the law, no one would be saved. Grace, God's free gift, is the only way: 'it is by grace you have been saved' (Ephesians 2:8).\n\nPaul argues that the law shows people their sin but cannot save them; 'a person is not justified by the works of the law, but by faith in Jesus Christ' (Galatians 2:16). Jesus himself criticised Pharisees who followed the law strictly but lacked love and mercy (Matthew 23:23). Grace is what changes the heart, which then makes people want to do good.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nJesus said 'Do not think that I have come to abolish the Law… but to fulfil' it (Matthew 5:17) and told the rich young man to 'keep the commandments' (Matthew 19:17). God's law, such as the Ten Commandments, still matters for Christians because it shows how to love God and neighbour.\n\nGrace without obedience could become an excuse for bad behaviour. Paul himself asked, 'Shall we go on sinning so that grace may increase? By no means!' (Romans 6:1–2). Dietrich Bonhoeffer warned against 'cheap grace' — forgiveness without repentance or discipleship. Catholics stress that faith must be lived out in keeping the commandments and doing good works (James 2:17).\n\nThe law also has a social value: it underpins justice and protects the vulnerable, which Christians support through campaigning and charity.\n\nJUSTIFIED CONCLUSION\n\nBoth are important, but they are not equal in role. Grace is the source of salvation and comes first: God loves and forgives people before they obey him. The law then shows how those who have received grace should live, and the Spirit helps them to keep it. Bonhoeffer's warning about 'cheap grace' shows they cannot be separated. I conclude that grace is more important because salvation depends on it, but a Christian who ignored God's law would show that they had not really understood grace.",
+   "evidence": [
+    "Romans 3:23",
+    "Ephesians 2:8",
+    "Galatians 2:16",
+    "Matthew 23:23",
+    "Matthew 5:17",
+    "Matthew 19:17",
+    "Romans 6:1–2",
+    "Dietrich Bonhoeffer, The Cost of Discipleship ('cheap grace')"
+   ],
+   "examTip": "Bonhoeffer's 'cheap grace' is a memorable evaluative point.",
+   "answerTopic": "grace vs law"
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "paper": "Practices",
+ "module": "2.1",
+ "moduleTitle": "Buddhist places of worship: temples, shrines, viharas and gompas, Buddha rupa, artefacts and offerings",
+ "note": {
+  "specFocus": "The nature, use and importance of Buddhist places of worship, including temples, shrines, monasteries (viharas), halls for meditation or learning (gompas), and their key features, including Buddha rupa, artefacts and offerings.",
+  "summary": "TYPES OF BUDDHIST PLACE OF WORSHIP\n- Temples: buildings for worship and teaching, often with a shrine room, meditation hall and sometimes a stupa. Styles vary: Thai temples (wats) with tiered roofs, Japanese Zen temples with gardens, Chinese temples with images of bodhisattvas such as Guanyin.\n- Viharas (monasteries): where monks (bhikkhus) and nuns (bhikkhunis) live, meditate and study; lay people visit to make offerings, hear Dhamma talks and join festivals. Examples in Britain: Amaravati (Hertfordshire) and Chithurst (West Sussex) in the Thai Forest tradition; the London Buddhist Vihara (Sri Lankan).\n- Gompas: Tibetan halls or monasteries for meditation and learning, e.g. Kagyu Samye Ling in Dumfriesshire, founded in 1967 as the first Tibetan Buddhist centre in the West.\n- Halls for meditation or learning: e.g. a Zen zendo, or city Buddhist centres such as those of the Triratna Buddhist Community.\n- Shrines: a focus for devotion, either in a temple or at home: a shelf or small room with a Buddha rupa and offerings.\n- Stupas (and pagodas): dome-shaped or tower monuments, often containing relics. Buddhists walk around them clockwise (circumambulation) as an act of devotion.\n\nKEY FEATURES\nThe Buddha rupa (image of the Buddha) is the main focus of the shrine. It is not worshipped as a god but reminds Buddhists of the Buddha's qualities and their own potential. Features include:\n- The ushnisha (bump on the head) – wisdom/Enlightenment.\n- The urna (dot between the eyebrows) – spiritual insight, a 'third eye'.\n- Long ear lobes – his former life of luxury (heavy earrings), and that he listens to the world's suffering.\n- Half-closed eyes – meditation, looking inward.\n- Mudras (hand gestures): dhyana (meditation), bhumisparsha (earth-touching, from his Enlightenment), dharmachakra (teaching), abhaya (fearlessness/protection).\nRupas of bodhisattvas (e.g. Avalokiteshvara with many arms) are common in Mahayana temples.\n\nARTEFACTS AND OFFERINGS\n- Flowers – beauty that fades: a reminder of anicca.\n- Candles or lamps – the light of the Buddha's wisdom dispelling the darkness of ignorance.\n- Incense – the 'fragrance' of the Dhamma and of good conduct spreading in all directions; also purifies the space.\n- Water bowls – especially in Tibetan shrines, often seven bowls representing offerings to an honoured guest (water to drink and wash, flowers, incense, light, perfume, food); they express generosity and non-attachment.\n- Food – offered to the Buddha and given to monks (dana), making merit.\n- Others: prayer wheels and prayer flags (Tibetan), bells, singing bowls, malas, thangkas (painted scrolls), mandalas, scriptures.\n\nETIQUETTE AND IMPORTANCE\nVisitors remove shoes, sit lower than the rupa and avoid pointing their feet at it; many bow three times (to the Buddha, Dhamma and Sangha). Places of worship matter because they provide a calm place for meditation and puja, teaching from the Sangha, a focus for community and festivals, and opportunities to make merit. However, worship at a home shrine is just as valid for many Buddhists, and some, especially in Western convert communities, rarely visit a temple.\n\nKEY TERMS\nVihara – monastery. Gompa – Tibetan hall/monastery. Rupa – image (form) of the Buddha. Mudra – symbolic hand gesture. Stupa – relic monument. Dana – generosity/giving. Thangka – Tibetan painted scroll."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the name for a Buddhist monastery?\nA) Gurdwara\nB) Vihara\nC) Mandir\nD) Synagogue",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Vihara. A vihara is a Buddhist monastery where monks and nuns live. A gurdwara is Sikh, a mandir Hindu and a synagogue Jewish.",
+   "evidence": [
+    "Vihara"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "places of worship"
+  },
+  {
+   "question": "What does the flower offered at a Buddhist shrine usually symbolise?\nA) Impermanence\nB) Rebirth in heaven\nC) The Sangha\nD) Wealth",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) Impermanence. Flowers are beautiful but soon wither, reminding Buddhists of anicca.",
+   "evidence": [
+    "Offerings: flowers and anicca"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "offerings"
+  },
+  {
+   "question": "Give two offerings Buddhists might make at a shrine.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: flowers; candles/lamps/light; incense; water (e.g. water bowls); food; fruit; money/donations; chanting or bowing (as devotional offerings).",
+   "evidence": [
+    "Shrine offerings"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "offerings"
+  },
+  {
+   "question": "Give two features of a Buddha rupa.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: ushnisha (bump on the head); urna (dot between the eyebrows); long ear lobes; half-closed eyes; a mudra (hand gesture) such as meditation, earth-touching or teaching; sitting in the lotus position; a calm, peaceful expression; a halo.",
+   "evidence": [
+    "Ushnisha, urna, mudras"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "buddha rupa"
+  },
+  {
+   "question": "Explain two ways in which Buddhists use a vihara.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. A vihara is a home for monks and nuns, where they live according to the Vinaya, meditate and study the Dhamma. Their way of life is supported by the lay community, so the vihara keeps the Sangha alive.\n\n2. Lay Buddhists visit the vihara to make offerings and learn. For example, at Amaravati in Hertfordshire lay people bring food for the monks (dana), which makes merit, and they stay to listen to Dhamma talks, join group meditation or celebrate festivals such as Wesak.",
+   "evidence": [
+    "Amaravati",
+    "Dana",
+    "Vinaya"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "vihara"
+  },
+  {
+   "question": "Explain two contrasting ways in which Buddhists might worship at a temple and at a home shrine.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. At a temple, worship is often communal and led by monks or nuns. Buddhists may chant together, listen to a Dhamma talk, meditate as a group in the shrine hall and offer food to the Sangha, which makes it a social occasion and builds community, especially at festivals.\n\n2. At a home shrine, worship is usually private and simpler. A Buddhist might light a candle and incense, bow three times to a small Buddha rupa and recite the Three Refuges or a mantra before meditating alone each morning. This fits worship into daily life without needing to travel.",
+   "evidence": [
+    "Shrine room",
+    "Home shrine"
+   ],
+   "examTip": "For 'contrasting', make the difference clear, e.g. communal vs private, led vs individual.",
+   "answerTopic": "temple vs home"
+  },
+  {
+   "question": "Explain two reasons why the Buddha rupa is important to Buddhists.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The rupa reminds Buddhists of the Buddha's qualities and teaching. For example, the earth-touching mudra recalls the night of his Enlightenment, when he called the earth to witness against Mara. Seeing this encourages Buddhists to develop the same determination; as the Dhammapada (276) says, 'the Buddhas only point the way', and the rupa points to that way.\n\n2. The rupa is a focus for devotion and gratitude. Buddhists bow before it and recite 'Buddham saranam gacchami' ('I go for refuge to the Buddha'). It is not worshipped as a god, but showing respect to it expresses thanks for the Dhamma and helps develop humility and calm before meditation.",
+   "evidence": [
+    "Bhumisparsha mudra",
+    "Dhammapada 276",
+    "\"Buddham saranam gacchami\""
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "buddha rupa"
+  },
+  {
+   "question": "Explain two reasons why Buddhists make offerings at a shrine.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Offerings remind Buddhists of key teachings. Flowers wither and remind Buddhists of impermanence; a traditional Pali verse chanted when offering flowers says that, just as these flowers will fade, so will this body. Candles symbolise the light of wisdom that dispels ignorance.\n\n2. Offerings develop generosity and make merit. Giving (dana) is the first of the six perfections and the antidote to greed, one of the Three Poisons. By giving freely without expecting anything back, Buddhists reduce attachment and create good kamma.",
+   "evidence": [
+    "Pali flower-offering verse",
+    "Dana",
+    "Three Poisons"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "offerings"
+  },
+  {
+   "question": "“Buddhists do not need to go to a temple or vihara to practise their religion.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThe heart of Buddhism is personal practice: keeping the precepts, meditation and developing wisdom. These can be done anywhere. The Buddha gained Enlightenment sitting under a tree, not in a temple, and he told his followers to be 'a lamp unto yourselves'.\n\nMany Buddhists have a shrine at home with a Buddha rupa, candles and incense, where they meditate, chant and make offerings every day. For them, the home shrine is as valid as any temple. Others practise using apps, online Dhamma talks and virtual sanghas, especially since the COVID-19 pandemic.\n\nIn Britain, temples can be far away; a Buddhist living in a rural area might find it impractical to visit regularly. What matters is the intention and practice, not the building. Zen Buddhists would say that zazen can be practised wherever one sits.\n\nARGUMENTS FOR A DIFFERENT VIEW\nThe Sangha is one of the Three Refuges, and the vihara is where the monastic Sangha lives. Lay Buddhists go there to support monks and nuns with dana, which is an important way of making merit, and to receive teaching. Without temples and viharas, the Sangha could not survive.\n\nTemples provide guidance from experienced teachers. Learning meditation alone can be difficult, and a monk, nun or lama can correct mistakes. Tibetan Buddhists believe receiving teachings and empowerments from a qualified lama is essential.\n\nTemples are also centres of community and festivals. Wesak, Parinirvana Day and Kathina are celebrated together, and the Buddha described spiritual friendship as 'the whole of the holy life'. Practising alone may lead to isolation or misunderstanding.\n\nCONCLUSION\nI agree that Buddhists do not strictly need to go to a temple, because the core of Buddhism is personal practice, which can be done at a home shrine or anywhere. However, temples and viharas are very valuable for supporting the Sangha, receiving teaching and building community, so most Buddhists benefit from going sometimes. The best view is that a temple is not essential, but it is an important support for practice.",
+   "evidence": [
+    "\"Be a lamp unto yourselves\"",
+    "Three Refuges: Sangha",
+    "Spiritual friendship (SN 45.2)",
+    "Home shrines"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "importance of temples"
+  },
+  {
+   "question": "“Offerings at a shrine are more important than meditation.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nFor many lay Buddhists, especially in countries such as Sri Lanka, Thailand and Myanmar, making offerings is a central part of daily religious life. Offering flowers, candles, incense and food is how they express devotion, gratitude and respect for the Buddha.\n\nOfferings develop generosity (dana), which is the first of the six perfections and the direct antidote to greed. Giving makes merit (good kamma) which leads to a better rebirth and helps support the Sangha. In Theravada Buddhism, giving food to monks is one of the most important acts a lay person can do.\n\nOfferings also teach. Wilting flowers remind Buddhists of impermanence, and light symbolises wisdom. So offerings are not just ritual; they help people reflect on the Dhamma, even those without time for long meditation.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMeditation is part of the Eightfold Path itself (right effort, right mindfulness, right concentration), while making offerings is not explicitly listed. The Buddha reached Enlightenment through meditation, not through offerings, and meditation is how wisdom, which removes ignorance, develops.\n\nThe Buddha taught that the best way to honour him was by practising the Dhamma. In the Mahaparinibbana Sutta, when flowers rained down on him, he said that whoever practises the Dhamma honours him more than through such offerings. This suggests practice is more important than offerings.\n\nZen Buddhists see zazen as the heart of practice, and Western convert Buddhists often focus mainly on meditation, rarely making formal offerings. Offerings done without understanding could become empty ritual.\n\nCONCLUSION\nI think meditation is more important than offerings in terms of reaching nibbana, as the Buddha himself emphasised practising the Dhamma above outward honour. However, offerings are not unimportant: they develop generosity, express gratitude and prepare the mind for meditation, and for many lay Buddhists they are the most accessible part of practice. Ideally the two work together, with offerings as a support for meditation rather than a replacement.",
+   "evidence": [
+    "Mahaparinibbana Sutta (honouring through practice)",
+    "Dana",
+    "Eightfold Path: samadhi",
+    "Zazen"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "offerings vs meditation"
+  }
+ ]
+}

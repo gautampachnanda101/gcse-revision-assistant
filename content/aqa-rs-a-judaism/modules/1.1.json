@@ -1,0 +1,137 @@
+{
+ "paper": "Beliefs",
+ "module": "1.1",
+ "moduleTitle": "The nature of God: God as one, God as Creator, God as Law-Giver and Judge, loving and merciful",
+ "note": {
+  "specFocus": "Key beliefs: the nature of God – God as one (the Shema), God as Creator, and God as Law-Giver and Judge who is also loving and merciful; how these beliefs shape Jewish life today.",
+  "summary": "The nature of God\nJudaism is strictly monotheistic: there is one God, who has no partner, form or body and cannot be divided. Everything else in Jewish belief and practice rests on this.\n\nGod as one\n• The Shema (Deuteronomy 6:4): \"Hear, O Israel: the Lord is our God, the Lord is One.\" It is said morning and evening, written inside the mezuzah and tefillin, and traditionally said as the last words before death.\n• God's oneness means God is unique and indivisible. Jews therefore reject any idea of God taking human form, or of more than one divine person.\n• The first two of the Ten Commandments forbid worshipping other gods and making idols (Exodus 20:2–5). For this reason synagogues contain no images of God.\n• Maimonides' Thirteen Principles of Faith (12th century) list God's unity as the second principle. Many Orthodox Jews sing them in the hymn Yigdal.\n\nGod as Creator\n• \"In the beginning God created the heavens and the earth\" (Genesis 1:1). God created everything, and created it good (Genesis 1:31).\n• Humans are made \"in the image of God\" (b'tselem Elohim, Genesis 1:27), which gives every life dignity and responsibility.\n• Shabbat recalls God resting on the seventh day (Genesis 2:2–3), so creation is remembered every week.\n• God is separate from the universe (transcendent) yet still involved in it. Orthodox Jews often read Genesis as God's revealed account. Many Reform and Liberal Jews, and many Orthodox Jews too, accept the Big Bang and evolution as the way God's creation unfolded.\n\nGod as Law-Giver\n• God gave the Torah to Moses at Sinai, including the Ten Commandments and, by tradition, 613 mitzvot (commandments). Obeying the law is a way of serving God.\n• Orthodox Jews believe both the written and the oral law come from God and are binding. Reform Jews see the law as divinely inspired but written down by humans, so they adapt it with informed personal choice.\n\nGod as Judge, loving and merciful\n• God judges people's actions, both in this life and after death. At Rosh Hashanah and Yom Kippur Jews pray to be written in the \"Book of Life\".\n• God's judgement is balanced by mercy: \"The Lord, the Lord, a God compassionate and gracious, slow to anger, abounding in kindness and faithfulness\" (Exodus 34:6). These \"Thirteen Attributes of Mercy\" are recited on festivals and fast days.\n• The rabbis taught that God created the world using both the attribute of justice (din) and the attribute of mercy (rachamim), because a world run on strict justice alone could not survive.\n• Because God is loving, Jews believe God forgives those who do teshuvah (repentance, literally \"returning\").\n\nInfluence today\nThese beliefs shape daily prayer (the Shema and Amidah), the blessings said before food, Shabbat, the High Holy Days and ethical behaviour, since all humans bear God's image. Many Jews avoid writing the divine name in full and write \"G-d\" instead.\n\nKey terms: Shema; monotheism; b'tselem Elohim; Torah; mitzvot; din (justice); rachamim (mercy); teshuvah."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Jewish declaration of faith that God is one?\nA Amidah\nB Shema\nC Kaddish\nD Havdalah",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – the Shema. Deuteronomy 6:4, \"Hear, O Israel: the Lord is our God, the Lord is One\", declares God's oneness. The Amidah is the standing prayer, the Kaddish praises God (and is said by mourners), and Havdalah ends Shabbat.",
+   "evidence": [
+    "Deuteronomy 6:4 (the Shema)"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "God as one"
+  },
+  {
+   "question": "Which one of the following best describes God as Creator in Judaism?\nA God made the world from materials that already existed alongside God\nB God created the universe and everything in it, and it was good\nC God created only the people of Israel\nD God created the world and then took no further interest in it",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B. Genesis 1:1 and 1:31 teach that God created everything and saw that it was \"very good\". Judaism teaches that God created freely and remains involved with creation, so D is wrong.",
+   "evidence": [
+    "Genesis 1:1",
+    "Genesis 1:31"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "God as Creator"
+  },
+  {
+   "question": "Give two ways in which Jews show their belief that God is one.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Reciting the Shema morning and evening.\n• Fixing a mezuzah containing the Shema to their doorposts.\n• Wearing tefillin, which contain the Shema, at weekday morning prayer.\n• Refusing to make or worship images of God.\n• Saying the Shema as their last words before death.\n• Singing Yigdal or affirming Maimonides' principle of God's unity.",
+   "evidence": [
+    "Deuteronomy 6:4–9",
+    "Exodus 20:3–5"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "God as one"
+  },
+  {
+   "question": "Give two qualities of God that Jews believe are shown in God being both Judge and merciful.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Justice: God judges actions fairly.\n• Mercy: God is compassionate and forgiving.\n• Love: God cares for creation and for the covenant people.\n• Patience: God is \"slow to anger\".\n• Faithfulness: God keeps promises.\n• Willingness to forgive those who repent (teshuvah).",
+   "evidence": [
+    "Exodus 34:6–7"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "God as Judge, loving and merciful"
+  },
+  {
+   "question": "Explain two ways in which belief in God as Creator influences Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Treating every person with dignity. Jews believe God created humans \"in the image of God\" (Genesis 1:27), so every person has equal worth. This shapes how they treat others, for example by giving tzedakah and opposing prejudice, because to harm a person is to disrespect God's image.\n\n2. Keeping Shabbat and caring for creation. God rested on the seventh day after creating the world, so Jews stop creative work on Shabbat to remember that the world belongs to God. Because the world is God's creation, many Jews also see caring for the environment as a religious duty, linked to the command not to destroy needlessly (bal tashchit). The festival of Tu Bishvat, the new year for trees, is often used today for tree planting.",
+   "evidence": [
+    "Genesis 1:27",
+    "Genesis 2:2–3",
+    "bal tashchit (Deuteronomy 20:19)"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "God as Creator"
+  },
+  {
+   "question": "Explain two contrasting Jewish understandings of God as Law-Giver.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Orthodox Jews believe God gave the whole Torah, both the written law and the oral law later recorded in the Talmud, to Moses at Sinai. The 613 mitzvot are therefore God's unchanging commands, and halakhah (Jewish law) must be obeyed in full, for example the Shabbat and kosher laws, because the commands come straight from God.\n\n2. Reform Jews believe the Torah was inspired by God but written by human beings over time, so God's will is understood through a developing, \"progressive\" revelation. Ethical commands, such as justice and loving one's neighbour, remain binding, but individuals may make an informed choice about ritual laws. For example, some Reform Jews do not keep strict kashrut or may drive to synagogue on Shabbat.",
+   "evidence": [
+    "Exodus 20:1–17",
+    "Torah min ha-shamayim (Torah from heaven) – Orthodox principle"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "God as Law-Giver"
+  },
+  {
+   "question": "Explain two Jewish beliefs about the oneness of God. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. God is unique and indivisible. Judaism teaches that there is only one God, who cannot be split into parts or persons. The Shema states, \"Hear, O Israel: the Lord is our God, the Lord is One\" (Deuteronomy 6:4). This is why Jews recite it twice daily and fix it to their doorposts in the mezuzah.\n\n2. Only God may be worshipped, and God must not be pictured. Because God is one and has no physical form, the commandments forbid other gods and graven images (Exodus 20:3–4). Maimonides stated that God has no body. Synagogues therefore contain no statues or pictures of God, and Jews have historically refused to worship idols even under persecution.",
+   "evidence": [
+    "Deuteronomy 6:4",
+    "Exodus 20:3–4",
+    "Maimonides, Thirteen Principles of Faith (principles 2 and 3)"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "God as one"
+  },
+  {
+   "question": "Explain two Jewish teachings about God as a loving and merciful Judge. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. God judges human actions. Jews believe God sees and judges everything people do. On Rosh Hashanah, tradition teaches that each person's deeds are reviewed and their fate is written in the Book of Life and sealed on Yom Kippur. This encourages Jews to take responsibility for their behaviour and to do teshuvah.\n\n2. God's judgement is always tempered by mercy. God revealed himself to Moses as \"compassionate and gracious, slow to anger, abounding in kindness\" (Exodus 34:6). The rabbis taught that God combines justice (din) and mercy (rachamim) when creating and judging the world, because strict justice alone would destroy it. So Jews trust that God will forgive those who sincerely repent, and they recite the Thirteen Attributes of Mercy during the High Holy Days.",
+   "evidence": [
+    "Exodus 34:6–7",
+    "Rabbinic teaching on din and rachamim (Genesis Rabbah 12:15)",
+    "Unetaneh Tokef prayer"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "God as Judge, loving and merciful"
+  },
+  {
+   "question": "\"The most important belief about God in Judaism is that God is one.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nGod's oneness is the foundation of Judaism. The Shema, \"Hear, O Israel: the Lord is our God, the Lord is One\" (Deuteronomy 6:4), is the closest thing Judaism has to a creed. It is recited every morning and evening, placed in the mezuzah and tefillin, and traditionally said at the moment of death. A belief that is built into the daily routine and into the last words of a Jewish life is clearly central.\n\nEvery other belief about God depends on God being one. Judaism holds that the Creator, the Law-Giver and the Judge are the same single God. If there were more than one god, the Torah could not claim absolute authority and creation would have no single purpose. Maimonides placed God's unity among the first of his Thirteen Principles, and the first two commandments forbid other gods and idols. Jews have historically died rather than deny this belief, which shows its importance.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany Jews would say that God as Law-Giver matters more for daily life. Judaism is often described as a religion of deeds rather than creeds: what counts is keeping the mitzvot, such as Shabbat, kashrut and tzedakah. The covenant at Sinai, where God gave the Torah, is what turned Israel into a people, so belief in God as Law-Giver shapes how Jews actually live.\n\nOthers would point to God as loving and merciful. Without God's mercy, the High Holy Days and teshuvah would make no sense, and people would have no hope of forgiveness. The Thirteen Attributes (Exodus 34:6) show God choosing to be known through compassion. A Reform Jew might argue that what matters most is the ethical character of God, which calls people to justice and kindness (tikkun olam), rather than an abstract statement about God's unity.\n\nSome would also argue that it is wrong to rank the beliefs at all. The Creator, Law-Giver and Judge are aspects of one God, not competing beliefs.\n\nJUSTIFIED CONCLUSION\n\nOn balance, the statement is convincing, because God's oneness is logically prior to the other beliefs: only if God is one can the Creator also be the source of the law and the merciful Judge. The strongest counter-argument is that Judaism stresses practice, but even that practice is framed by the Shema, which Jews recite as an act of worship. So oneness is the foundation, while the other beliefs explain how the one God relates to the world.",
+   "evidence": [
+    "Deuteronomy 6:4",
+    "Exodus 20:2–5",
+    "Exodus 34:6",
+    "Maimonides, Thirteen Principles"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "God as one"
+  },
+  {
+   "question": "\"Belief that God is a Judge is more important for Jews than belief that God is merciful.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nBelief in God as Judge gives moral seriousness to Jewish life. If God judges every action, then keeping the mitzvot matters, and wrongdoing has consequences. On Rosh Hashanah, called Yom ha-Din (the Day of Judgement), Jews believe their deeds are reviewed, and the Unetaneh Tokef prayer describes God deciding \"who shall live and who shall die\". This belief motivates Jews to examine their lives and change their behaviour.\n\nJustice is also central to the character of God in the Tenakh. Abraham asks, \"Shall not the Judge of all the earth do justly?\" (Genesis 18:25), and Deuteronomy 16:20 commands, \"Justice, justice you shall pursue.\" Jews who are judged by a just God are expected to act justly themselves, so this belief underpins the Jewish commitment to fair courts, honest business and social justice.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany Jews would say that judgement without mercy would be unbearable. The rabbis taught that God created the world using both strict justice and mercy, because a world judged by justice alone could not survive. God described himself to Moses as \"compassionate and gracious, slow to anger\" (Exodus 34:6), and these attributes are recited throughout the High Holy Days. The whole purpose of the Ten Days of Repentance is the hope that God's mercy will outweigh a harsh verdict.\n\nMercy also gives the belief in judgement its meaning. Jews believe that teshuvah, tefillah and tzedakah \"avert the severity of the decree\". Because God is loving, a person who sincerely returns to God can be forgiven, as the story of Jonah, read on Yom Kippur, shows with the people of Nineveh. Many Reform Jews emphasise God's love and the hope of forgiveness rather than fear of punishment.\n\nIt can also be argued that the two cannot be separated. The same God who judges is merciful, and Jews address God in prayer as Avinu Malkeinu, \"Our Father, our King\": loving like a parent and judging like a king.\n\nJUSTIFIED CONCLUSION\n\nThe statement is too one-sided. Judgement makes moral choices meaningful, but Jewish teaching consistently places mercy beside it, and the High Holy Day liturgy makes sense only if both are true. The stronger view is that the two beliefs are equally important and depend on each other: judgement gives Jews a reason to repent, and mercy gives them hope that repentance will be accepted.",
+   "evidence": [
+    "Genesis 18:25",
+    "Deuteronomy 16:20",
+    "Exodus 34:6",
+    "Avinu Malkeinu",
+    "Unetaneh Tokef"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "God as Judge, loving and merciful"
+  }
+ ]
+}

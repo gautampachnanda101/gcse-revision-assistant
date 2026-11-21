@@ -1,0 +1,88 @@
+{
+ "paper": "Theme B",
+ "module": "B.3",
+ "moduleTitle": "The origins and value of human life: evolution, sanctity of life, quality of life and abortion",
+ "note": {
+  "specFocus": "Religious teachings about the origins of human life and different interpretations of these; the relationship between scientific views such as evolution and religious views; the concepts of sanctity of life and quality of life; abortion, including when the mother's life is at risk; ethical arguments related to abortion, including those based on sanctity of life and quality of life. Contrasting beliefs on abortion are required.",
+  "summary": "KEY TERMS\nEvolution: the development of species over millions of years through natural selection (Charles Darwin, On the Origin of Species, 1859). Sanctity of life: the belief that life is sacred or holy because it is given by God. Quality of life: how good or fulfilling a life is, e.g. in terms of health, happiness and ability to function. Abortion: the deliberate ending of a pregnancy so that it does not result in a birth. Pro-life: believing abortion is wrong. Pro-choice: believing a woman has the right to choose.\n\nORIGINS OF HUMAN LIFE\nGenesis 1:27: \"God created mankind in his own image\"; Genesis 2:7: God formed man \"from the dust of the ground and breathed into his nostrils the breath of life\". Literalist creationists reject evolution. Most Christians (Catholic Church, Church of England) accept evolution as the way God created, but believe humans have a unique soul. Muslims believe Allah created Adam from clay (Qur'an 15:26); some accept evolution for other species but not humans. Atheists such as Richard Dawkins see evolution as making a creator unnecessary.\n\nSANCTITY OF LIFE\nChristianity: life is a gift from God – \"Before I formed you in the womb I knew you\" (Jeremiah 1:5); \"Do not kill\" (Exodus 20:13); the body is a temple of the Holy Spirit. Islam: \"whoever kills a soul… it is as if he had slain mankind entirely\" (Qur'an 5:32); only Allah gives and takes life. Judaism: saving a life (pikuach nefesh) overrides almost all other laws. Hindus, Buddhists and Sikhs: ahimsa; the atman/consciousness has value.\n\nABORTION – UK LAW\nThe Abortion Act 1967 (amended 1990) allows abortion up to 24 weeks if two doctors agree that continuing the pregnancy poses a greater risk to the physical or mental health of the woman or existing children; beyond 24 weeks if the woman's life is at serious risk or there is a substantial risk of serious disability. Different law applies in Northern Ireland (decriminalised 2019).\n\nRELIGIOUS VIEWS ON ABORTION\nCatholic Church: life begins at conception; direct abortion is always wrong. The principle of double effect allows treatment to save the mother (e.g. removing an ectopic pregnancy) even if the fetus dies as a foreseen but unintended result. Church of England: strongly opposes abortion in principle but accepts it can be the lesser of two evils in some cases (e.g. risk to the mother's life). Many liberal Christians stress compassion (situation ethics, 'love your neighbour'). Islam: most scholars allow abortion before ensoulment (often said to be 120 days) for serious reasons and always when the mother's life is at risk; many Muslims oppose it except to save the mother. Judaism: the mother's life comes first; the fetus is not regarded as a full person until birth, so abortion is permitted to save her life or health. Buddhism: abortion breaks the first Precept but intention and compassion matter. Hinduism and Sikhism generally oppose abortion except to save the mother; Sikhs are particularly opposed to sex-selective abortion.\n\nNON-RELIGIOUS VIEWS\nHumanists base decisions on quality of life and the woman's autonomy: the woman's rights, health and circumstances outweigh those of an early fetus, which cannot feel pain or have interests in the way a person does. Utilitarians weigh the happiness and suffering of all involved."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the belief that life is holy because it is given by God?\nA Quality of life\nB Pro-choice\nC Sanctity of life\nD Evolution",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C Sanctity of life.\nSanctity of life means life is sacred because God created it (e.g. Genesis 1:27). Quality of life refers to how good or fulfilling a life is.",
+   "evidence": [
+    "Genesis 1:27",
+    "Jeremiah 1:5"
+   ],
+   "answerTopic": "sanctity of life",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one condition under which abortion is legal in Great Britain.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from: two doctors agree that continuing the pregnancy poses a greater risk to the woman's physical or mental health (up to 24 weeks); risk to the health of existing children; the woman's life is at risk; a substantial risk the child would be born with a serious disability.",
+   "evidence": [
+    "Abortion Act 1967 (amended 1990)"
+   ],
+   "answerTopic": "abortion",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about abortion.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Catholic Church teaches that abortion is always wrong because life begins at conception and is sacred. God knows each person before birth ('Before I formed you in the womb I knew you', Jeremiah 1:5), so deliberately ending a pregnancy is the killing of an innocent human being and breaks the commandment 'Do not kill'.\n\nBelief 2: In contrast, Judaism teaches that abortion is permitted, and even required, when the mother's life is at risk. The Mishnah teaches that the mother's life takes priority because the fetus is not considered a full person until it is born, so the principle of saving life (pikuach nefesh) applies to the mother first.",
+   "evidence": [
+    "Jeremiah 1:5",
+    "Exodus 20:13",
+    "Mishnah Oholot 7:6",
+    "Pikuach nefesh"
+   ],
+   "answerTopic": "abortion",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about abortion when the mother's life is at risk.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Church of England is opposed to abortion in principle, but teaches that when the mother's life is at risk abortion may be morally acceptable as the lesser of two evils. Both lives are sacred, but where both may be lost, saving the mother is the most loving choice.\n\nBelief 2: Similarly, most Muslims believe abortion is allowed if the mother's life is in danger. The Islamic legal principle that the lesser of two harms should be chosen applies: the mother is already an established life with responsibilities to her family, so her life takes priority over that of the fetus.",
+   "evidence": [
+    "Church of England General Synod statements on abortion",
+    "Islamic principle of the lesser of two evils"
+   ],
+   "answerTopic": "abortion",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about the sanctity of life.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe that human life is sacred because every person is made in the image of God. Genesis 1:27 states 'God created mankind in his own image', which means each person has a special worth and dignity that does not depend on their health or abilities. This is why many Christians believe only God has the right to end a life, and oppose abortion and euthanasia.\n\nBelief 2: Muslims believe that life belongs to Allah, who alone decides when it begins and ends. The Qur'an teaches that 'whoever kills a soul… it is as if he had slain mankind entirely; and whoever saves one, it is as if he had saved mankind entirely' (5:32). This shows the immense value of every life, so Muslims see protecting life – for example through medical care – as a religious duty.",
+   "evidence": [
+    "Genesis 1:27",
+    "Qur'an 5:32",
+    "Qur'an 17:33"
+   ],
+   "answerTopic": "sanctity of life",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'The quality of a person's life is more important than the sanctity of life.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nHumanists and many other non-religious people agree. They argue that life matters because of the experiences, relationships and happiness it contains, so decisions about abortion should consider the quality of life of everyone involved: the woman's physical and mental health, the impact on her existing children, and, in some cases, whether a child would suffer severely. A utilitarian approach aims for the greatest happiness and least suffering, which means quality of life must be weighed. Some liberal Christians also give weight to quality of life. Using situation ethics, they argue that Jesus' command to love your neighbour means acting compassionately in each situation, for example accepting abortion when a pregnancy results from rape or threatens a woman's mental health. UK law reflects this: the Abortion Act 1967 allows abortion on grounds of risk to the woman's health.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMany religious believers argue the opposite. The Catholic Church teaches that life is sacred from conception because God creates each person ('Before I formed you in the womb I knew you', Jeremiah 1:5). A person's value comes from being made in God's image, not from their health or abilities, so judging lives by their quality risks saying some lives are worth less than others, which could lead to discrimination against disabled people. Muslims believe only Allah gives and takes life (Qur'an 5:32). Hindus, Buddhists and Sikhs follow ahimsa and see the soul or consciousness as present from early in pregnancy, so taking life creates bad karma. Supporters also argue that quality of life is hard to measure and can change: people with disabilities often report fulfilled lives.\n\nCONCLUSION\nSanctity of life gives an important protection for the vulnerable, and it is held by most religious traditions. However, even many religious believers allow exceptions, such as when the mother's life is at risk, which shows that quality of life and circumstances do affect moral decisions. I conclude that the two ideas should not be set against each other: sanctity of life should be the starting point, as it protects everyone's dignity, but in hard cases a compassionate concern for quality of life must also be considered. The statement is therefore too simple, because neither principle alone is enough.",
+   "evidence": [
+    "Jeremiah 1:5",
+    "Qur'an 5:32",
+    "Situation ethics (Joseph Fletcher)",
+    "Abortion Act 1967",
+    "Humanist and utilitarian arguments"
+   ],
+   "answerTopic": "quality of life",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

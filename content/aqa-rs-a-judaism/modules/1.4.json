@@ -1,0 +1,139 @@
+{
+ "paper": "Beliefs",
+ "module": "1.4",
+ "moduleTitle": "The nature and role of the Messiah",
+ "note": {
+  "specFocus": "Key beliefs: the nature and role of the Messiah (Mashiach), including different views on the role and importance of the Messiah (Orthodox, Reform and other perspectives).",
+  "summary": "The Messiah (Mashiach)\nMashiach means \"anointed one\". In ancient Israel, kings and priests were anointed with oil to show that God had chosen them. Traditional Judaism teaches that God will send a future human leader, anointed as king and descended from King David, who will bring in a messianic age of peace.\n\nNature of the Messiah (traditional view)\n• A human being, not divine, and not a son of God in a literal sense.\n• A descendant of David: \"A shoot shall come out from the stump of Jesse\" (Isaiah 11:1). Jesse was David's father. See also Jeremiah 23:5.\n• A great leader who is wise, just and faithful to the Torah; \"the spirit of the Lord shall rest on him\" (Isaiah 11:2).\n\nRole of the Messiah\n• To gather the Jewish people from exile back to the land of Israel.\n• To rebuild the Temple in Jerusalem.\n• To bring universal peace: \"They shall beat their swords into ploughshares… nation shall not lift up sword against nation\" (Isaiah 2:4), and \"the wolf shall live with the lamb\" (Isaiah 11:6).\n• To lead the world to know and worship the one God: \"The earth will be full of the knowledge of the Lord\" (Isaiah 11:9).\n• The messianic age is often linked with the resurrection of the dead and Olam Ha-Ba.\n• Maimonides' 12th Principle: \"I believe with perfect faith in the coming of the Messiah, and though he may tarry, I will wait daily for his coming.\" In the Mishneh Torah he wrote that if a person fulfils these tasks, he is the Messiah; if he fails, he is not.\n\nWhy Jews do not accept Jesus as Messiah\nThe messianic tasks, such as world peace, the ingathering of exiles and the rebuilding of the Temple, have not been fulfilled. Jewish belief also does not accept a divine Messiah.\n\nDifferent views\n• Orthodox: expect a personal Messiah and pray daily for his coming (in the Amidah). Some, for example within the Chabad-Lubavitch movement, stress that his coming may be very near. Some Orthodox Jews believe that every generation has a person who could be the Messiah if the generation deserved it.\n• Religious Zionists: many see the founding of the State of Israel (1948) as \"the first flowering of our redemption\", a step towards the messianic age. The phrase comes from the Prayer for the State of Israel.\n• Some strictly Orthodox groups (e.g. Satmar, Neturei Karta) believe that a Jewish state should be set up only by the Messiah, and so they oppose modern Zionism on religious grounds.\n• Reform and Liberal: most reject a personal Messiah and speak instead of a messianic age that humanity must build through justice and tikkun olam. Some Reform prayer books replace \"redeemer\" (go'el) with \"redemption\" (ge'ulah).\n• Some Jews believe the messianic idea is a symbol of hope rather than a literal future event.\n\nInfluence today\nBelief in the Messiah gives hope in times of suffering. Many Jews sang Maimonides' words \"Ani Ma'amin\" (\"I believe\") in the Nazi camps. It motivates Jews to act justly to \"prepare the way\", and it is expressed in prayer, in hopes for Jerusalem and at Pesach, when Elijah, the traditional herald of the Messiah, is welcomed at the seder.\n\nKey terms: Mashiach; messianic age; ingathering of exiles; Ani Ma'amin; Zionism; tikkun olam."
+ },
+ "questions": [
+  {
+   "question": "What does the Hebrew word Mashiach mean?\nA Teacher\nB Anointed one\nC Prophet\nD Saviour of the world",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – anointed one. Kings and priests in ancient Israel were anointed with oil to show that God had chosen them, and the Messiah is expected to be an anointed king descended from David.",
+   "evidence": [
+    "1 Samuel 16:13 (David anointed)"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "Messiah"
+  },
+  {
+   "question": "From whose family line do many Jews believe the Messiah will come?\nA Moses\nB Abraham's son Ishmael\nC King David\nD Aaron the priest",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – King David. Isaiah 11:1 speaks of \"a shoot from the stump of Jesse\" (David's father), and Jeremiah 23:5 of a \"righteous branch\" raised up for David.",
+   "evidence": [
+    "Isaiah 11:1",
+    "Jeremiah 23:5"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "Messiah"
+  },
+  {
+   "question": "Give two things Jews traditionally believe the Messiah will do.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Bring world peace.\n• Gather Jews from exile to Israel.\n• Rebuild the Temple in Jerusalem.\n• Rule justly as a king of David's line.\n• Bring all people to know the one God.\n• Usher in the resurrection of the dead or the messianic age.",
+   "evidence": [
+    "Isaiah 2:4",
+    "Isaiah 11:1–9"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "role of the Messiah"
+  },
+  {
+   "question": "Give two different Jewish views about the Messiah.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• A personal human Messiah from David's line will come (Orthodox).\n• There will be a messianic age brought about by human effort rather than one person (Reform).\n• The founding of Israel is the beginning of redemption (Religious Zionist).\n• Only the Messiah may establish a Jewish state (some strictly Orthodox groups).\n• The Messiah is a symbol of hope rather than a literal figure.",
+   "evidence": [
+    "Maimonides, 12th Principle",
+    "Prayer for the State of Israel"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "Messiah: diversity"
+  },
+  {
+   "question": "Explain two contrasting Jewish beliefs about the Messiah.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Orthodox Jews believe in a personal Messiah, a human descendant of King David, who will come to rebuild the Temple, gather the exiles and bring peace. They pray daily for his coming in the Amidah and affirm Maimonides' 12th Principle that they will wait for him every day, even if he delays.\n\n2. Many Reform and Liberal Jews do not expect one individual Messiah. They believe in a messianic age of peace and justice that humanity must bring about by working together for tikkun olam. Some Reform prayer books replace the word \"redeemer\" with \"redemption\" to show this. For them the messianic idea is a call to action rather than a wait for a saviour.",
+   "evidence": [
+    "Maimonides, 12th Principle",
+    "Isaiah 11:1–9",
+    "Reform siddur: ge'ulah (redemption) for go'el (redeemer)"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "Messiah: diversity"
+  },
+  {
+   "question": "Explain two ways in which belief in the Messiah influences Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It gives hope in suffering. Belief that God will one day bring a time of peace has strengthened Jews through persecution; some Jews in the Nazi camps sang \"Ani Ma'amin\", Maimonides' declaration of faith in the Messiah's coming. Today the belief gives hope that injustice and conflict will not last for ever.\n\n2. It motivates action and prayer. Many Jews believe that keeping the mitzvot and acting justly helps prepare the world for the messianic age, so they work for tikkun olam and support charities. It is also expressed in worship: at the Pesach seder a cup is poured for Elijah, the herald of the Messiah, and the door is opened for him, and the seder ends with \"Next year in Jerusalem\".",
+   "evidence": [
+    "Ani Ma'amin (based on Maimonides' 12th Principle)",
+    "Malachi 3:23 (Elijah before the day of the Lord)"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "Messiah today"
+  },
+  {
+   "question": "Explain two Jewish teachings about the role of the Messiah. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The Messiah will bring universal peace. Isaiah prophesies that in that time, \"they shall beat their swords into ploughshares… nation shall not lift up sword against nation, neither shall they learn war any more\" (Isaiah 2:4). Jews believe the Messiah's age will end war and hatred, and Isaiah 11:6 pictures even the wolf living with the lamb.\n\n2. The Messiah will restore the Jewish people and lead the world to God. Traditional teaching, summed up by Maimonides in the Mishneh Torah, says the Messiah will gather the exiles back to the land of Israel and rebuild the Temple in Jerusalem. Isaiah 11:9 says \"the earth shall be full of the knowledge of the Lord\". This is why Jews say the Messiah has not yet come: these tasks have not yet been fulfilled.",
+   "evidence": [
+    "Isaiah 2:4",
+    "Isaiah 11:6–9",
+    "Maimonides, Mishneh Torah, Laws of Kings 11"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "role of the Messiah"
+  },
+  {
+   "question": "Explain two Jewish beliefs about the nature of the Messiah. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The Messiah will be a human being, not God. Jews believe God is one and cannot become human (Deuteronomy 6:4), so the Messiah will be an ordinary mortal chosen and anointed by God, like the kings of Israel. Maimonides wrote that the Messiah will be a king who studies Torah and observes the mitzvot, and he will be judged by whether he achieves the messianic tasks.\n\n2. The Messiah will be descended from King David and filled with God's spirit. Isaiah 11:1–2 describes \"a shoot from the stump of Jesse\" on whom \"the spirit of the Lord shall rest – a spirit of wisdom and understanding\". So the Messiah is expected to be a wise, just and righteous ruler from David's family, which links the messianic hope to God's promises to David.",
+   "evidence": [
+    "Isaiah 11:1–2",
+    "Jeremiah 23:5",
+    "Deuteronomy 6:4",
+    "Maimonides, Laws of Kings 11:4"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "nature of the Messiah"
+  },
+  {
+   "question": "\"Belief in the Messiah is the most important Jewish belief.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nBelief in the Messiah is part of traditional Jewish faith and daily worship. Maimonides made it the 12th Principle of Faith: \"though he may tarry, I will wait daily for his coming\". Orthodox Jews pray for the Messiah and the rebuilding of Jerusalem in the Amidah three times a day. A belief that Jews pray about every day is clearly very important.\n\nThe Messiah gives purpose and direction to Jewish history. The prophets promise a future of peace, when nations \"beat their swords into ploughshares\" (Isaiah 2:4) and the exiles return. This hope sustained Jews through exile and persecution, including the Holocaust, when some went to their deaths singing \"Ani Ma'amin\". For many Religious Zionists the founding of Israel in 1948 is part of this messianic story, which shows the belief still shapes events today.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany Jews would say that belief in one God is far more important. The Shema, \"the Lord is One\", is the foundation of Judaism; the Messiah is only God's agent. Without the one God there could be no Messiah at all, so belief in God must come first.\n\nOthers argue that the covenant and the mitzvot matter more for daily life. Judaism focuses on how one lives now, keeping Shabbat, kashrut and tzedakah, rather than speculating about the future. A well-known teaching attributed to Rabban Yochanan ben Zakkai says that if you are planting a tree and are told the Messiah has come, finish planting the tree first and then go to greet him. Present duties come before messianic hopes.\n\nReform and Liberal Jews mostly do not believe in a personal Messiah at all. They speak of a messianic age built through human effort. If many committed Jews do not hold the belief, it cannot be the most important one.\n\nJUSTIFIED CONCLUSION\n\nBelief in the Messiah is important, especially for Orthodox Jews, as a source of hope and a vision of the future. It is not the most important belief, however: it depends on the more basic belief in one God, and Jewish life centres on keeping the covenant in the present. The fact that Reform Jews interpret it so differently also suggests that it is less central than belief in God or the Torah.",
+   "evidence": [
+    "Maimonides, 12th Principle",
+    "Isaiah 2:4",
+    "Deuteronomy 6:4",
+    "Avot de-Rabbi Natan (version B), ch. 31 – planting a tree before greeting the Messiah"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "Messiah"
+  },
+  {
+   "question": "\"Humans, not a Messiah, must bring peace to the world.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nMany Reform and Liberal Jews agree with this statement. They do not expect one individual saviour; they speak of a messianic age that humanity creates through justice and compassion. The idea of tikkun olam, healing or repairing the world, teaches that humans are God's partners in perfecting creation. Waiting passively for a Messiah could make people neglect their duty to fight injustice now.\n\nJewish teaching repeatedly calls people to act. Micah 6:8 asks what God requires: \"to do justice, to love kindness and to walk humbly with your God\". Pirkei Avot 2:16 teaches, \"It is not your duty to finish the work, but neither are you free to desist from it.\" Jews are commanded to \"seek peace and pursue it\" (Psalm 34:14). Even traditional Jews accept that humans must work for peace by keeping the mitzvot, giving tzedakah and practising gemilut chasadim (kindness).\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nOrthodox Jews believe that God has promised to send the Messiah, a descendant of David, who will bring lasting peace. The prophets describe a transformation of the world that seems beyond human ability: \"the wolf shall live with the lamb\" (Isaiah 11:6) and nations \"shall not learn war any more\" (Isaiah 2:4). Human history, with its repeated wars, suggests that people alone cannot achieve this, and only God working through the Messiah can.\n\nMaimonides' 12th Principle commits Jews to waiting for the Messiah every day. Some strictly Orthodox groups go further and believe that humans should not try to force the redemption, for example by founding a Jewish state, before the Messiah comes.\n\nMany traditional Jews would combine the two views: human righteousness prepares the way, and the Talmud suggests the Messiah could come in a generation that is wholly deserving. On this view, human effort and the Messiah work together rather than competing.\n\nJUSTIFIED CONCLUSION\n\nThe statement is persuasive in that every Jewish group agrees humans have a duty to work for peace now; neither Micah nor Pirkei Avot lets anyone off. Whether humans alone can complete the task is where views divide. Orthodox Judaism holds that final peace needs God's Messiah, while Reform Judaism places the task in human hands. The most balanced conclusion is that humans must bring peace, but traditional Jews would add that the task will finally be completed by God.",
+   "evidence": [
+    "Micah 6:8",
+    "Pirkei Avot 2:16",
+    "Psalm 34:14",
+    "Isaiah 2:4, 11:6",
+    "Talmud Sanhedrin 98a"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "Messiah"
+  }
+ ]
+}

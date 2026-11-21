@@ -1,0 +1,90 @@
+{
+ "paper": "Theme B",
+ "module": "B.4",
+ "moduleTitle": "Euthanasia, death and the afterlife",
+ "note": {
+  "specFocus": "Euthanasia; beliefs about death and an afterlife, and their impact on beliefs about the value of human life. Contrasting beliefs on euthanasia are required.",
+  "summary": "KEY TERMS\nEuthanasia: ending a life to relieve suffering ('good death'). Voluntary euthanasia: at the person's own request. Non-voluntary: when the person cannot ask (e.g. in a coma). Active: deliberately doing something to end life (e.g. a lethal injection). Passive: withdrawing or withholding treatment so that the person dies naturally. Assisted suicide (assisted dying): helping someone end their own life. Palliative care: care that relieves pain and symptoms at the end of life (e.g. in a hospice). Afterlife: life after death – heaven, hell, resurrection, reincarnation, rebirth.\n\nUK LAW\nEuthanasia and assisted suicide are illegal in England and Wales (Suicide Act 1961: assisting suicide carries up to 14 years in prison). Doctors may withdraw futile treatment, and may give pain relief that may shorten life (the principle of double effect). Some British people travel to Dignitas in Switzerland. Parliament has repeatedly debated assisted dying for terminally ill adults; check the current position, as the Terminally Ill Adults (End of Life) Bill was debated in 2024–25.\n\nCHRISTIANITY\nMost Christians oppose active euthanasia: life is a gift from God and only God should decide when it ends (Job 1:21 \"The Lord gave and the Lord has taken away\"); \"Do not kill\" (Exodus 20:13). The Catholic Church and Church of England oppose assisted suicide but accept that excessive or burdensome treatment can be refused, and strongly support hospices – the modern hospice movement was founded by Dame Cicely Saunders, a Christian, at St Christopher's Hospice (1967). Some liberal Christians (e.g. former Archbishop George Carey) support assisted dying out of compassion.\n\nISLAM\nLife belongs to Allah: \"No soul can die except by Allah's permission\" (Qur'an 3:145). Suicide and euthanasia are forbidden; suffering may be a test. Turning off life support when there is no hope of recovery may be acceptable.\n\nJUDAISM\nLife is precious; hastening death is forbidden, but it is permitted to remove something that is preventing a natural death.\n\nHINDUISM, BUDDHISM, SIKHISM\nHindus and Buddhists believe euthanasia may disturb karma and the soul's journey; a Buddhist's state of mind at death matters. Some Hindus accept the idea of a 'good death' and the tradition of prayopavesa (fasting to death) for the elderly. Sikhs believe life is God's gift and suffering should be accepted with God's will (hukam); they oppose euthanasia.\n\nNON-RELIGIOUS VIEWS\nHumanists support assisted dying for terminally ill, mentally competent adults, with safeguards: people should have autonomy and the right to a dignified death. Opponents (including some non-religious disability campaigners) fear a 'slippery slope' and pressure on vulnerable people.\n\nAFTERLIFE BELIEFS AND THE VALUE OF LIFE\nChristianity: resurrection, judgement, heaven and hell (\"I am the resurrection and the life\", John 11:25); Catholics also believe in purgatory. Islam: Akhirah – Day of Judgement, paradise (jannah) and hell (jahannam). Judaism: focus is on this life; some believe in resurrection and Olam Ha-Ba (the world to come). Hindus: samsara, reincarnation, moksha. Buddhists: rebirth, nibbana. Sikhs: reincarnation and mukti. Atheists/humanists: there is no afterlife, so this life is all we have and should be lived well.\nImpact: belief in judgement encourages moral behaviour and gives hope; belief that life continues may make death less feared; humanists argue the lack of an afterlife makes this life more precious."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is care that relieves pain and suffering at the end of life without trying to cure the illness?\nA Euthanasia\nB Palliative care\nC Assisted suicide\nD Resurrection",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B Palliative care.\nPalliative care, for example in a hospice, treats pain and symptoms and supports the dying person and their family; it does not deliberately end life.",
+   "evidence": [
+    "Hospice movement – Dame Cicely Saunders (1967)"
+   ],
+   "answerTopic": "palliative care",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one religious belief about life after death.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: resurrection of the body; judgement by God; heaven/paradise (jannah); hell (jahannam); purgatory; reincarnation of the atman; rebirth; reaching moksha/nibbana/mukti.",
+   "evidence": [
+    "John 11:25",
+    "Qur'an 3:185"
+   ],
+   "answerTopic": "afterlife",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about euthanasia.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Catholic Church teaches that active euthanasia is always wrong because life is sacred and only God has the right to end it. Instead, it supports palliative care in hospices, so that dying people receive dignity and comfort without their lives being deliberately ended.\n\nBelief 2: In contrast, some liberal Christians, such as former Archbishop of Canterbury George Carey, support assisted dying for terminally ill people. They argue that Jesus' command to love your neighbour means showing compassion and respecting a person's wish not to suffer an undignified, painful death.",
+   "evidence": [
+    "Exodus 20:13",
+    "Catechism of the Catholic Church 2277",
+    "George Carey's support for assisted dying (2014)"
+   ],
+   "answerTopic": "euthanasia",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about euthanasia.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians oppose euthanasia because they believe human life belongs to God. As Job says, 'The Lord gave and the Lord has taken away' (Job 1:21), so deciding when to die is seen as taking a decision that belongs to God alone.\n\nBelief 2: Similarly, Muslims oppose euthanasia because Allah decides the moment of death: 'No soul can die except by Allah's permission, at a term appointed' (Qur'an 3:145). Suffering may be a test of faith, and ending life early would be like suicide, which is forbidden, so Muslims instead care for the dying in the family.",
+   "evidence": [
+    "Job 1:21",
+    "Qur'an 3:145",
+    "Qur'an 4:29"
+   ],
+   "answerTopic": "euthanasia",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about life after death.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe in the resurrection and eternal life. Jesus said 'I am the resurrection and the life. The one who believes in me will live, even though they die' (John 11:25). Christians believe that, as Jesus rose from the dead, believers will be raised and judged by God, and those who have faith and have followed God will live with him in heaven. This gives hope at funerals and encourages Christians to live good lives.\n\nBelief 2: Hindus believe in reincarnation: the atman (soul) is reborn into a new body after death, in a cycle called samsara. The Bhagavad Gita (2.22) compares this to a person taking off worn-out clothes and putting on new ones. The kind of rebirth depends on karma, the results of a person's actions, and the final goal is moksha – liberation from the cycle and union with Brahman.",
+   "evidence": [
+    "John 11:25",
+    "Bhagavad Gita 2.22",
+    "Samsara, karma, moksha"
+   ],
+   "answerTopic": "afterlife",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Euthanasia should be made legal in the UK.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nHumanists UK and campaign groups such as Dignity in Dying argue that terminally ill, mentally competent adults should have the right to choose a dignified death. People have autonomy over their own lives, and it can be crueller to force someone to endure severe suffering than to allow them to die peacefully. At present some British people travel to Dignitas in Switzerland, which means they must die earlier than they would wish and away from home, and relatives risk prosecution. Some countries, such as the Netherlands and parts of the USA, have legal assisted dying with safeguards. Some Christians, such as George Carey, argue that compassion – loving your neighbour – supports legal assisted dying, and that it is not against God's will to end unbearable suffering.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMost religious believers oppose legalisation. Christians believe life is a sacred gift: 'The Lord gave and the Lord has taken away' (Job 1:21), and the commandment 'Do not kill' applies. Muslims believe only Allah decides when someone dies (Qur'an 3:145), and suffering can be a test. Hindus and Buddhists believe euthanasia could interfere with karma and the soul's journey. There are also non-religious arguments against: the 'slippery slope' argument suggests that once euthanasia is legal, it could be extended to people who are not terminally ill, and vulnerable or elderly people might feel pressure to die so as not to be a burden. Doctors could lose patients' trust. Many religious people say the answer is better palliative care: the hospice movement, begun by Christian Dame Cicely Saunders, shows that pain can usually be controlled and death can be dignified without deliberately ending life.\n\nCONCLUSION\nThe argument from compassion and autonomy is powerful, especially for people in great pain who are clearly capable of deciding. However, the risk that vulnerable people could be pressured, and the religious belief in the sanctity of life, are serious concerns. I conclude that, on balance, the law should not allow euthanasia in general, as the statement suggests; if assisted dying were ever to be allowed it would need to be restricted to terminally ill adults with very strict safeguards, and good palliative care should be available to everyone first, so that nobody chooses death because they lack proper care.",
+   "evidence": [
+    "Job 1:21",
+    "Qur'an 3:145",
+    "Exodus 20:13",
+    "Suicide Act 1961",
+    "Dignitas",
+    "Hospice movement",
+    "Slippery slope argument"
+   ],
+   "answerTopic": "euthanasia",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

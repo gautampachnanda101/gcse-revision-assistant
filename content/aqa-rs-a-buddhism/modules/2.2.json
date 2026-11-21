@@ -1,0 +1,133 @@
+{
+ "paper": "Practices",
+ "module": "2.2",
+ "moduleTitle": "Puja: devotional ritual in the home and temple, chanting, mantras and malas",
+ "note": {
+  "specFocus": "Puja, the significance and role of puja/devotional ritual in the home and in the temple, including chanting, both as a devotional practice and as an aid to mental concentration, mantra recitation, use of malas.",
+  "summary": "WHAT IS PUJA?\nPuja means 'worship' or 'devotional ritual'. In Buddhism it is not worship of a creator God but an expression of respect, gratitude and devotion towards the Buddha, the Dhamma and the Sangha, and a way of developing wholesome qualities. Puja may include bowing, making offerings (flowers, light, incense, food), chanting, reciting the Three Refuges and Five Precepts, mantra recitation and meditation.\n\nPUJA IN THE TEMPLE\nIn a temple or vihara, puja is often led by monks, nuns or lamas. In a typical Theravada puja the community bows three times before the rupa, chants the homage \"Namo tassa bhagavato arahato samma-sambuddhassa\" (\"Homage to the Blessed One, the Worthy One, the Fully Enlightened One\"), takes the Three Refuges and the Five Precepts in Pali, makes offerings, listens to a Dhamma talk and meditates. Monks may chant paritta (protective verses) such as the Metta Sutta and bless the congregation. Tibetan pujas can involve long chanting with drums, horns and cymbals, and full-length prostrations. Communal puja builds the Sangha and is central at festivals.\n\nPUJA IN THE HOME\nMany Buddhists have a home shrine with a Buddha rupa (or bodhisattva image, or a picture of a teacher), candles, incense and fresh flowers. Daily puja may be brief: lighting a candle, bowing, reciting the refuges and meditating. It brings Buddhist practice into ordinary life and allows the whole family to take part. In Japan, many homes have a butsudan (household altar), often also honouring ancestors.\n\nCHANTING\nChanting has two main purposes named in the AQA specification:\n1. As a devotional practice – expressing faith, gratitude and refuge; reciting words of the Buddha keeps the Dhamma alive and makes merit.\n2. As an aid to mental concentration – the rhythm and repetition calm and focus the mind, preparing for meditation and helping to keep out distracting thoughts.\nExamples include chanting suttas, the Heart Sutra in Zen and other Mahayana temples, and the nembutsu in Pure Land.\n\nMANTRA RECITATION\nA mantra is a sacred sound, word or phrase repeated many times. The most famous is \"Om mani padme hum\", associated with Avalokiteshvara, the bodhisattva of compassion, especially in Tibetan Buddhism; it is said to cultivate compassion. Pure Land Buddhists recite \"Namu Amida Butsu\" (I take refuge in Amida Buddha). Nichiren Buddhists (e.g. Soka Gakkai) chant \"Nam myoho renge kyo\", honouring the Lotus Sutra. Tibetan Buddhists also write mantras on prayer flags and inside prayer wheels; turning the wheel is believed to have the same effect as reciting the mantra.\n\nMALAS\nA mala is a string of prayer beads, usually 108 beads (a number often linked to the 108 mental defilements or kinds of feeling). Buddhists move one bead at a time between their fingers while reciting a mantra or the refuges, which helps them count repetitions and keeps attention focused. Wrist malas with 27 or 21 beads are also used.\n\nIMPORTANCE AND DIVERSITY\nPuja helps Buddhists develop devotion (saddha), gratitude, humility and concentration, and makes merit. Theravada puja tends to focus on the historical Buddha; Mahayana and Tibetan puja often include bodhisattvas and visualisation; Zen places less emphasis on devotional ritual and more on zazen, though chanting is still used. Some Western Buddhists practise little formal puja.\n\nKEY TERMS\nPuja – devotional worship. Mantra – sacred sound repeated. Mala – prayer beads. Paritta – protective chanting. Butsudan – Japanese home altar. Saddha – faith/confidence."
+ },
+ "questions": [
+  {
+   "question": "How many beads does a full Buddhist mala usually have?\nA) 8\nB) 27\nC) 108\nD) 1000",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) 108. A full mala usually has 108 beads, used to count mantra recitations. Smaller wrist malas may have fewer (e.g. 27).",
+   "evidence": [
+    "Mala: 108 beads"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "mala"
+  },
+  {
+   "question": "Which bodhisattva is the mantra 'Om mani padme hum' associated with?\nA) Manjushri\nB) Avalokiteshvara\nC) Maitreya\nD) Amitabha",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Avalokiteshvara, the bodhisattva of compassion. Manjushri is the bodhisattva of wisdom, Maitreya the future Buddha and Amitabha a Buddha (not a bodhisattva) linked to the Pure Land.",
+   "evidence": [
+    "Om mani padme hum"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "mantra"
+  },
+  {
+   "question": "Give two actions Buddhists might perform during puja.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: bowing/prostrating; making offerings (flowers, candles, incense, food); chanting; reciting the Three Refuges or Five Precepts; reciting mantras; using a mala; meditating; listening to a Dhamma talk; ringing a bell; circumambulating a stupa.",
+   "evidence": [
+    "Puja"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "puja"
+  },
+  {
+   "question": "Give two purposes of chanting in Buddhism.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: to express devotion/gratitude to the Buddha; as an aid to concentration/to calm the mind; to remember and preserve the Buddha's teaching; to make merit; to develop qualities such as compassion; for protection or blessing (paritta); to prepare for meditation.",
+   "evidence": [
+    "Chanting: devotional and concentration"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "chanting"
+  },
+  {
+   "question": "Explain two contrasting ways in which Buddhists perform puja.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Many Buddhists perform puja in a temple with others, led by monks or nuns. In a Theravada vihara, for example, the community bows three times, chants the homage to the Buddha and the Three Refuges in Pali, offers flowers and food, and then listens to a Dhamma talk. This is communal and often longer.\n\n2. Other Buddhists perform puja privately at a home shrine. They might light a candle and incense, bow before a small Buddha rupa and recite a mantra on a mala before meditating, fitting this short ritual into their daily routine. In Japan, families may do this at a butsudan which also honours ancestors.",
+   "evidence": [
+    "Theravada puja",
+    "Butsudan"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "temple vs home"
+  },
+  {
+   "question": "Explain two ways in which using a mala helps Buddhists in their practice.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. A mala helps Buddhists count recitations. With 108 beads, a Buddhist can recite a mantra such as 'Om mani padme hum' a set number of times without losing count, so the mind can stay on the mantra rather than on counting.\n\n2. A mala aids concentration. The physical act of moving one bead at a time through the fingers gives the mind something to anchor to, so when attention wanders the Buddhist notices and returns to the mantra. This develops mindfulness and calm.",
+   "evidence": [
+    "Mala",
+    "Mantra recitation"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "mala"
+  },
+  {
+   "question": "Explain two reasons why chanting is important to Buddhists.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Chanting is a devotional practice expressing refuge and gratitude. Buddhists chant 'Buddham saranam gacchami, Dhammam saranam gacchami, Sangham saranam gacchami' ('I go for refuge to the Buddha, the Dhamma and the Sangha'), affirming their commitment and thanking the Buddha for his teaching.\n\n2. Chanting is an aid to mental concentration. The rhythm and repetition calm the mind. For example, chanting the Metta Sutta ('May all beings be happy') or the Heart Sutra focuses the mind on the teaching itself and prepares it for meditation, helping to keep distractions away.",
+   "evidence": [
+    "Three Refuges",
+    "Metta Sutta (Sutta Nipata 1.8)",
+    "Heart Sutra"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "chanting"
+  },
+  {
+   "question": "Explain two ways in which Buddhists use mantras.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Tibetan Buddhists recite 'Om mani padme hum', the mantra of Avalokiteshvara, to develop compassion. They may recite it on a mala, inscribe it on prayer flags or spin it in prayer wheels, believing that its power spreads compassion to all beings. The Karandavyuha Sutra praises this mantra highly.\n\n2. Pure Land Buddhists recite the nembutsu, 'Namu Amida Butsu'. Based on Amitabha's vow in the Larger Sukhavativyuha Sutra that those who call on his name will be reborn in his Pure Land, they recite it to express faith and gratitude, both at home and in the temple, and especially at the time of death.",
+   "evidence": [
+    "Om mani padme hum (Karandavyuha Sutra)",
+    "Larger Sukhavativyuha Sutra",
+    "Nembutsu"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "mantra"
+  },
+  {
+   "question": "“Puja is more important in the temple than in the home.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nPuja in a temple or vihara involves the Sangha, one of the Three Refuges. Monks, nuns or lamas lead the chanting and give Dhamma talks, so the worship is guided by experienced teachers and lay people can learn from them. This can make temple puja more meaningful and accurate.\n\nTemple puja is communal. Chanting together in a shrine hall, bowing and making offerings as a group builds a sense of community and strengthens faith, especially during festivals such as Wesak. Lay people can also make merit by giving dana directly to the monks, which is a particularly important practice in Theravada Buddhism.\n\nTemples contain special features that support devotion, such as large rupas, stupas containing relics, and the atmosphere of a dedicated sacred space. In Tibetan Buddhism, elaborate pujas with music and rituals are usually performed by monks in the gompa.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMany Buddhists would say the home is just as important, or more so, because that is where daily practice happens. A short daily puja at a home shrine, lighting a candle, bowing and reciting the refuges, keeps the Dhamma part of everyday life, whereas many lay people can only visit a temple occasionally.\n\nThe Buddha taught that what matters is practice and intention, not location. He told his followers to be 'a lamp unto yourselves'. A sincere puja at home expresses devotion and calms the mind just as much as one in a temple. In Japan, the butsudan in the home is central to family religious life, including honouring ancestors.\n\nFor Buddhists in Britain, there may be no temple of their tradition nearby, so home puja is essential. Zen and many Western Buddhists may focus on meditation at home rather than temple ritual.\n\nCONCLUSION\nI think neither is more important overall; they serve different purposes. Temple puja connects Buddhists to the Sangha, teaching and community, while home puja keeps practice alive every day. If I had to choose, I would say home puja is more important for most lay Buddhists because it is regular and personal, but the temple remains important for guidance and festivals.",
+   "evidence": [
+    "Three Refuges",
+    "\"Be a lamp unto yourselves\"",
+    "Butsudan",
+    "Dana to the Sangha"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "temple vs home"
+  },
+  {
+   "question": "“Reciting mantras is a waste of time.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nSome people argue that repeating the same words over and over has no effect in itself. A non-religious person might see it as mere ritual or superstition, especially the idea that spinning a prayer wheel or hanging prayer flags spreads blessings. They might say this time would be better spent helping others directly.\n\nSome Buddhists, particularly in Theravada and some Western traditions, place more emphasis on meditation and ethics than on mantra recitation. The Buddha warned against attachment to rites and rituals (one of the fetters that must be broken to progress on the path), so mechanical repetition without understanding could become a distraction.\n\nMantras such as 'Om mani padme hum' are in Sanskrit, and many people reciting them may not understand their meaning, which could make the practice empty.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMantras are an aid to concentration. Repetition, often counted on a mala, focuses the mind and calms it, much like counting breaths in meditation. Even neuroscience suggests rhythmic repetition can reduce stress. This is a practical benefit, not superstition.\n\nMantras develop qualities. Tibetan Buddhists recite 'Om mani padme hum' to cultivate compassion, often while visualising Avalokiteshvara and wishing for the welfare of all beings. Over time this shapes their attitudes and actions, which is the opposite of a waste of time.\n\nFor Pure Land Buddhists, the nembutsu is the central practice, an expression of trust in Amida's vow and gratitude for his compassion. For Nichiren Buddhists, chanting 'Nam myoho renge kyo' is believed to reveal one's Buddha-nature. For these traditions mantras are at the heart of the path.\n\nThe Buddha's warning about rites and rituals is about believing ritual alone saves you, not about practices done with understanding and intention.\n\nCONCLUSION\nI disagree with the statement. Mantra recitation can become empty if done without understanding, and that is a real danger. However, when practised with intention, mantras calm and focus the mind, develop compassion and express devotion, and for several traditions they are central to the path. So mantras are not a waste of time; their value depends on how they are used.",
+   "evidence": [
+    "Om mani padme hum",
+    "Nembutsu",
+    "Nam myoho renge kyo",
+    "Fetter of attachment to rites and rituals"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "mantra"
+  }
+ ]
+}

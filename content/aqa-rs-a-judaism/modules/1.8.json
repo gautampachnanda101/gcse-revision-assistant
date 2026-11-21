@@ -1,0 +1,144 @@
+{
+ "paper": "Beliefs",
+ "module": "1.8",
+ "moduleTitle": "The sanctity of human life, including 'saving a life' (Pikuach Nefesh)",
+ "note": {
+  "specFocus": "The Covenant and the mitzvot: the importance of the sanctity of human life, including the concept of 'saving a life' (Pikuach Nefesh), and how it applies to issues such as Shabbat, medicine and organ donation.",
+  "summary": "Sanctity of life\nThe sanctity of life is the belief that human life is holy and precious because it is given by God.\n• Humans are created \"in the image of God\" (Genesis 1:27), and God breathed \"the breath of life\" into the first human (Genesis 2:7).\n• \"Whoever sheds the blood of a human, by a human shall his blood be shed, for in the image of God he made humanity\" (Genesis 9:6).\n• The sixth commandment: \"Do not murder\" (Exodus 20:13).\n• Mishnah Sanhedrin 4:5: Adam was created alone to teach that \"whoever destroys a single life is considered as if he destroyed an entire world, and whoever saves a single life is considered as if he saved an entire world.\" Each person is unique and of infinite value.\n• \"The Lord gave and the Lord has taken away; blessed be the name of the Lord\" (Job 1:21). Only God should decide when life ends.\n\nPikuach nefesh (\"saving a life\")\n• Pikuach nefesh is the principle that saving a human life overrides almost every other commandment.\n• Source: \"You shall keep my laws and my rules, by which a person shall live\" (Leviticus 18:5). The rabbis added \"and not die by them\" (Talmud Yoma 85b). The mitzvot are meant to give life, not end it.\n• \"Do not stand idly by the blood of your neighbour\" (Leviticus 19:16) means there is a duty to act when someone is in danger.\n• Examples: breaking Shabbat to call an ambulance or drive someone to hospital; eating on Yom Kippur if fasting would endanger health (for example a pregnant woman or someone with diabetes, after medical advice); taking non-kosher medicine; postponing brit milah if a baby is unwell.\n• The rabbis taught that the duty applies even when it is not certain a life is at risk, and that the most observant people should act first so no one hesitates.\n• Exceptions: a Jew must not commit murder, idolatry or forbidden sexual relations (such as adultery or incest) even to save their own life (Talmud Sanhedrin 74a).\n\nApplications today\n• Medicine: Judaism strongly supports medical treatment and doctors. Hatzola volunteer ambulance services operate in Jewish areas of London and Manchester.\n• Organ donation: most authorities allow or encourage donation from a living donor, and donation after death when it saves a life. Orthodox rabbis debate how death is defined (brain-stem death or the heart stopping). Under the UK \"opt-out\" system (in England since 2020), people can record that their faith should be taken into account, and Jewish organisations have produced guidance for families.\n• Euthanasia: active euthanasia is generally forbidden because it ends life deliberately. Many authorities allow treatment that only prolongs dying to be withheld, and they allow strong pain relief. Some Reform and Liberal Jews take a more permissive view of the right to choose.\n• Abortion: most Jews believe that a fetus is not yet a full person until birth and that the mother's life takes priority (Mishnah Oholot 7:6). Orthodox Judaism allows abortion where the mother's life or health is at serious risk. Reform Judaism allows a wider range of reasons, leaving it to the woman's conscience.\n\nKey terms: sanctity of life; b'tselem Elohim; pikuach nefesh; Hatzola."
+ },
+ "questions": [
+  {
+   "question": "What is the meaning of pikuach nefesh?\nA Repairing the world\nB Saving a life\nC Charity\nD The world to come",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – saving a life. Pikuach nefesh is the principle that saving human life overrides almost all other mitzvot. Repairing the world is tikkun olam, and charity is tzedakah.",
+   "evidence": [
+    "Leviticus 18:5",
+    "Talmud Yoma 85b"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "pikuach nefesh"
+  },
+  {
+   "question": "Which one of the following commandments may a Jew NOT break, even to save their own life?\nA Keeping Shabbat\nB Fasting on Yom Kippur\nC The ban on murder\nD Eating only kosher food",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – murder. The Talmud (Sanhedrin 74a) teaches that murder, idolatry and forbidden sexual relations may not be committed even to save one's life. Shabbat, fasting and kashrut may all be set aside for pikuach nefesh.",
+   "evidence": [
+    "Talmud Sanhedrin 74a"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "pikuach nefesh"
+  },
+  {
+   "question": "Give two examples of pikuach nefesh in practice.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Driving to hospital or calling an ambulance on Shabbat.\n• Eating or drinking on Yom Kippur if fasting endangers health.\n• Taking medicine that is not kosher.\n• Doctors working on Shabbat.\n• Delaying brit milah for a sick baby.\n• Donating an organ to save a life.\n• Volunteering with Hatzola on Shabbat.",
+   "evidence": [
+    "Talmud Yoma 85b"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "pikuach nefesh"
+  },
+  {
+   "question": "Give two Jewish teachings that show that human life is sacred.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Humans are made in God's image (Genesis 1:27).\n• God breathed life into humans (Genesis 2:7).\n• \"Do not murder\" (Exodus 20:13).\n• Saving one life is like saving a whole world (Mishnah Sanhedrin 4:5).\n• \"The Lord gave and the Lord has taken away\" (Job 1:21).\n• \"Whoever sheds human blood…\" (Genesis 9:6).",
+   "evidence": [
+    "Genesis 1:27",
+    "Genesis 2:7",
+    "Mishnah Sanhedrin 4:5",
+    "Job 1:21"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "sanctity of life"
+  },
+  {
+   "question": "Explain two ways in which the principle of pikuach nefesh influences Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It allows Jews to break Shabbat or festival laws to save life. Normally driving or using a phone is forbidden on Shabbat, but if someone is seriously ill, Jews will call an ambulance or drive to hospital immediately. Volunteers for Hatzola, the Jewish emergency ambulance service in parts of London and Manchester, respond on Shabbat and Yom Kippur because saving life comes first.\n\n2. It shapes decisions about health and medicine. A Jew who is ill, pregnant or diabetic may be told by a rabbi and doctor not to fast on Yom Kippur, or to take medicine containing non-kosher ingredients. Many Jews also support organ donation that saves life, seeing it as a fulfilment of pikuach nefesh.",
+   "evidence": [
+    "Leviticus 18:5",
+    "Talmud Yoma 85b"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "pikuach nefesh"
+  },
+  {
+   "question": "Explain two contrasting Jewish views about abortion.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Orthodox Judaism generally allows abortion only when the mother's life or serious health is at risk. The Mishnah (Oholot 7:6) teaches that if a birth endangers the mother, her life takes priority, because she is a full person and the fetus is not yet. Abortion for social reasons is not usually accepted, because the fetus is potential human life created by God.\n\n2. Reform and Liberal Judaism allow abortion for a wider range of reasons, including the mother's mental health or a serious fetal condition, and leave the decision to the woman's conscience, guided by Jewish values. They stress the woman's wellbeing and her right to make an informed choice, while still treating abortion as a serious moral decision.",
+   "evidence": [
+    "Mishnah Oholot 7:6",
+    "Exodus 21:22–23"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "sanctity of life"
+  },
+  {
+   "question": "Explain two Jewish teachings about the sanctity of human life. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Every human is made in the image of God. Genesis 1:27 says \"God created humanity in his own image\", and God breathed into the first human \"the breath of life\" (Genesis 2:7). This means every life is holy and belongs to God, so murder is forbidden (Exodus 20:13), and many Jews oppose active euthanasia because only God should decide when life ends (\"the Lord gave and the Lord has taken away\", Job 1:21).\n\n2. Each life is of infinite value. The Mishnah (Sanhedrin 4:5) teaches that God created Adam alone to show that \"whoever saves a single life is as if he saved an entire world\". One person is not worth less than many, which is why Jews make great efforts to save even one life, and why pikuach nefesh overrides almost every other law.",
+   "evidence": [
+    "Genesis 1:27",
+    "Genesis 2:7",
+    "Exodus 20:13",
+    "Job 1:21",
+    "Mishnah Sanhedrin 4:5"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "sanctity of life"
+  },
+  {
+   "question": "Explain two Jewish teachings about pikuach nefesh. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Saving life overrides almost every other commandment. Leviticus 18:5 says the laws are those \"by which a person shall live\", and the rabbis explained this as \"live by them, and not die by them\" (Talmud Yoma 85b). So Shabbat, Yom Kippur and the food laws must be set aside if life is in danger; the Talmud even says one should break one Shabbat so the person can keep many future Shabbats.\n\n2. There is a duty to act, not just a permission. \"Do not stand idly by the blood of your neighbour\" (Leviticus 19:16) means a Jew who could save someone must do so. The rabbis said it is praiseworthy to act at once without first asking a rabbi, and even when it is uncertain whether a life is at risk. The only exceptions are murder, idolatry and forbidden sexual relations, which must not be committed even to save a life (Sanhedrin 74a).",
+   "evidence": [
+    "Leviticus 18:5",
+    "Leviticus 19:16",
+    "Talmud Yoma 85b",
+    "Talmud Sanhedrin 74a"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "pikuach nefesh"
+  },
+  {
+   "question": "\"Saving a life is the most important mitzvah in Judaism.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nPikuach nefesh overrides almost every other commandment. The rabbis read Leviticus 18:5, \"by which a person shall live\", as meaning that the mitzvot must not lead to death (Yoma 85b). So Shabbat, which carries some of the Torah's most serious penalties, and the Yom Kippur fast must both be broken to save a life. If saving a life can override these, it seems to rank above them.\n\nThe Mishnah teaches that saving one life is like saving an entire world (Sanhedrin 4:5), because every person is made in God's image. \"Do not stand idly by the blood of your neighbour\" (Leviticus 19:16) makes it an active duty. Jewish life today reflects this: Hatzola volunteers work on Shabbat, Jewish law supports medicine strongly, and many Jews support organ donation.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nPikuach nefesh does not override everything. A Jew must allow themselves to be killed rather than commit murder, idolatry or forbidden sexual relations (Sanhedrin 74a). This shows that some mitzvot, especially the ban on worshipping other gods, rank even higher, and that faithfulness to God can matter more than one's own life. Jewish history honours martyrs who died rather than renounce God, such as Rabbi Akiva, who died with the Shema on his lips.\n\nOthers argue it is wrong to rank mitzvot at all. Pirkei Avot 2:1 warns that we do not know the reward of each commandment, so we should be equally careful with \"light\" and \"heavy\" ones. Many Jews would also say the most basic mitzvah is to believe in and love the one God (the Shema and the first commandment), because all others flow from it. Some would point to the study of Torah, which the Talmud says is equal to all the others because it leads to doing them.\n\nPikuach nefesh is also an emergency principle: most of the time Jews are not saving lives but keeping the everyday mitzvot that make up their relationship with God.\n\nJUSTIFIED CONCLUSION\n\nSaving a life has an extremely high status in Judaism, overriding nearly every law and showing that the Torah exists to give life. Yet the fact that three prohibitions, above all idolatry, outrank it shows that it is not absolutely the most important. The most convincing conclusion is that pikuach nefesh is the most important principle when a life is in danger, while loyalty to the one God remains the foundation of all the mitzvot.",
+   "evidence": [
+    "Leviticus 18:5",
+    "Leviticus 19:16",
+    "Talmud Yoma 85b",
+    "Talmud Sanhedrin 74a",
+    "Mishnah Sanhedrin 4:5",
+    "Pirkei Avot 2:1"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "pikuach nefesh"
+  },
+  {
+   "question": "\"Euthanasia can never be acceptable for Jews.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nJudaism teaches that life is sacred because it comes from God. Humans are made in God's image (Genesis 1:27), and \"the Lord gave and the Lord has taken away\" (Job 1:21): only God has the right to end a life. Active euthanasia, deliberately ending a patient's life, is seen as a form of murder, forbidden by the sixth commandment.\n\nEven the last moments of life have value. Jewish law says a goses (a person who is dying) must not be touched in a way that hastens death, and that even a few moments of life are precious, as each life is \"an entire world\" (Mishnah Sanhedrin 4:5). Orthodox authorities and most mainstream rabbis oppose legalising assisted dying. Some worry it could put pressure on elderly or disabled people to feel they are a burden.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany Jewish authorities distinguish between actively killing and allowing natural death. The 13th-century Sefer Chasidim, quoted by Rabbi Moses Isserles (the Rema) in his notes to the Shulchan Aruch, says one may remove something that is artificially preventing a dying person from dying. On that basis many rabbis allow life-prolonging treatment to be withheld from a terminally ill patient who is suffering, and they allow strong pain relief even if it might shorten life. So not every end-of-life decision is ruled out.\n\nCompassion is also a Jewish value. The Talmud (Ketubot 104a) tells how Rabbi Judah ha-Nasi's maid, seeing his suffering, interrupted the prayers of his students for him to live, and he died. Some see this as permission to pray for death to end suffering. Some Reform and Liberal Jews argue that \"love your neighbour as yourself\" and respect for personal choice could support voluntary euthanasia or assisted dying for the terminally ill, with strict safeguards, and some progressive rabbis in Britain have publicly supported changing the law.\n\nJUSTIFIED CONCLUSION\n\nFor most Jews, and especially in Orthodox teaching, active euthanasia is not acceptable, because it deliberately ends a life that belongs to God. The statement is too absolute, however: Jewish law allows passive measures, such as stopping treatment that only prolongs dying, and some progressive Jews accept assisted dying. The strongest conclusion is that deliberately killing is ruled out by mainstream Judaism, but allowing a natural death with dignity can be acceptable.",
+   "evidence": [
+    "Genesis 1:27",
+    "Job 1:21",
+    "Exodus 20:13",
+    "Mishnah Sanhedrin 4:5",
+    "Rema on Shulchan Aruch, Yoreh De'ah 339:1 (citing Sefer Chasidim)",
+    "Talmud Ketubot 104a"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "euthanasia"
+  }
+ ]
+}

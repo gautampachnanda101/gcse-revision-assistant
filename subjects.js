@@ -19,6 +19,15 @@ window.REVISION_MANIFEST={
    "file": "data/french.js",
    "sha256": "1e77d586e675f247e1b0f3e72abd89a41ec6a03b8020060b930a9896c6f2cc20",
    "bytes": 118738
+  },
+  {
+   "id": "aqa_rs_a_sikhism",
+   "title": "Sikhism (AQA RS A)",
+   "board": "AQA GCSE",
+   "category": "Religious Studies",
+   "file": "data/aqa-rs-a-sikhism.js",
+   "sha256": "fbe8b5ea5b6ec8c7042d32d0de2bfbd127292dfda6251f6a471d83652cc44234",
+   "bytes": 185758
   }
  ]
 };

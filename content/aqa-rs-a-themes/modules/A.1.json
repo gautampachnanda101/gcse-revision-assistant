@@ -1,0 +1,88 @@
+{
+ "paper": "Theme A",
+ "module": "A.1",
+ "moduleTitle": "Human sexuality and sexual relationships before and outside marriage",
+ "note": {
+  "specFocus": "Human sexuality, including heterosexual and homosexual relationships; sexual relationships before and outside of marriage. Contrasting beliefs (Christianity + another religion) are required on sexual relationships before marriage and homosexual relationships.",
+  "summary": "KEY TERMS\nHuman sexuality: how people express themselves as sexual beings. Heterosexual: attracted to the opposite sex. Homosexual: attracted to the same sex. Chastity: not having sex before marriage. Adultery: a married person having sex with someone who is not their spouse. Promiscuity: having many casual sexual partners. Celibacy: choosing not to have sex at all (e.g. Catholic priests, monks and nuns).\n\nCHRISTIANITY\nTraditional teaching is that sex is a gift from God meant for marriage between a man and a woman: \"a man leaves his father and mother and is united to his wife, and they become one flesh\" (Genesis 2:24). Sex unites the couple and is open to new life. Paul calls the body \"a temple of the Holy Spirit\" (1 Corinthians 6:19) and warns against sexual immorality. Adultery breaks the seventh commandment, \"You shall not commit adultery\" (Exodus 20:14), and Jesus taught that even lustful looks are adultery in the heart (Matthew 5:28).\nOn homosexuality there are real differences. The Catechism of the Catholic Church teaches that homosexual people \"must be accepted with respect, compassion and sensitivity\" but that homosexual acts are not in keeping with natural law. Many evangelical Christians point to texts such as Leviticus 18:22 and Romans 1. Liberal Christians, and denominations such as the Methodist Church and Scottish Episcopal Church (which now permit same-sex marriage), argue that the key principle is faithful, loving commitment and the command to \"love your neighbour\". The Church of England allows prayers of blessing for same-sex couples (from 2023) but does not marry them.\nSome Christians accept sex before marriage in a committed, loving relationship that is heading towards marriage; others hold that it is always wrong.\n\nOTHER RELIGIONS\nIslam: sex is only permitted within marriage (nikah). Zina (sex outside marriage) is forbidden: \"Do not go near adultery; it is an outrage and an evil path\" (Qur'an 17:32). Most Muslims regard homosexual acts as sinful (the story of Lut, e.g. Qur'an 7:80–81), though they stress that people should not be abused; some liberal Muslims (e.g. Imaan, a UK LGBT Muslim group) disagree.\nJudaism: sex within marriage is a mitzvah and joyful; the Talmud says a husband has a duty to satisfy his wife. Orthodox Judaism forbids sex before marriage and homosexual acts (Leviticus 18:22); Reform and Liberal Judaism accept same-sex relationships and conduct same-sex weddings.\nBuddhism: the third Moral Precept is to avoid sexual misconduct, i.e. sex that harms others through lying, exploitation or betrayal. Many Buddhists judge a relationship by intention and harm rather than by gender or marital status.\nHinduism and Sikhism traditionally teach that sex belongs within marriage; lust (kaam) is one of the five thieves in Sikhism.\n\nNON-RELIGIOUS VIEWS\nHumanists believe consenting adults should be free to make their own choices, as long as no one is harmed or exploited; they support LGBT equality.\n\nUK LAW AND SOCIETY\nHomosexual acts were partially decriminalised in 1967 (England and Wales); the Equality Act 2010 protects sexual orientation; same-sex marriage became legal in England and Wales in 2014. The age of consent is 16. Sex before marriage is now widely accepted in British society, and cohabitation is common."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the term for a married person having a sexual relationship with someone who is not their spouse?\nA Cohabitation\nB Chastity\nC Adultery\nD Celibacy",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C Adultery.\nAdultery is sex between a married person and someone other than their husband or wife. Cohabitation is living together without marriage, chastity is not having sex before marriage, and celibacy is choosing not to have sex at all.",
+   "evidence": [
+    "Exodus 20:14 \"You shall not commit adultery\""
+   ],
+   "answerTopic": "adultery",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one religious reason why some believers think sex should only take place within marriage.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: sex is a gift from God for a husband and wife to become 'one flesh'; sex is meant to be open to having children, who should be raised in a stable married family; scripture forbids sexual immorality/adultery; it shows respect for the body as a temple of the Holy Spirit.",
+   "evidence": [
+    "Genesis 2:24",
+    "1 Corinthians 6:18–19"
+   ],
+   "answerTopic": "sex before marriage",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about sexual relationships before marriage.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Muslims believe that sex before marriage is always wrong. The Qur'an forbids zina and tells believers not even to 'go near' it (17:32), so Muslims are expected to remain chaste, and families often discourage dating so that sex is kept for the commitment of nikah.\n\nBelief 2: In contrast, some liberal Christians in Britain accept sex before marriage for a couple in a loving, committed relationship. They argue that the deeper Christian principle is love and faithfulness rather than the legal ceremony, so a couple who are committed and intend to marry are not acting selfishly or exploitatively.",
+   "evidence": [
+    "Qur'an 17:32",
+    "Liberal Christian emphasis on love and commitment (agape)"
+   ],
+   "answerTopic": "sex before marriage",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about homosexual relationships.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: The Catholic Church teaches that homosexual people must be treated with respect and never unjustly discriminated against, but that homosexual sexual acts are wrong. This is because they go against natural law: sex is intended to be both unitive and open to procreation within marriage between a man and a woman.\n\nBelief 2: Reform and Liberal Jews in Britain accept homosexual relationships and their rabbis can conduct same-sex weddings. They believe every person is created in the image of God (Genesis 1:27), so a loving, faithful same-sex relationship has the same value as a heterosexual one, and they read prohibitions such as Leviticus 18:22 in their historical context.",
+   "evidence": [
+    "Catechism of the Catholic Church 2357–2359",
+    "Genesis 1:27",
+    "Leviticus 18:22",
+    "Reform/Liberal Judaism same-sex marriages"
+   ],
+   "answerTopic": "homosexuality",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about adultery.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Christians believe adultery is a serious sin because it breaks the promises of faithfulness made before God in the marriage vows. The Ten Commandments state 'You shall not commit adultery' (Exodus 20:14), and Jesus went further, teaching that anyone who looks at someone lustfully has already committed adultery in their heart (Matthew 5:27–28). So Christians are taught to guard their thoughts as well as their actions.\n\nBelief 2: Muslims believe adultery is a major sin that damages families and society. The Qur'an says 'Do not go near adultery; it is an outrage and an evil path' (17:32), which means Muslims should avoid situations that could lead to it, such as being alone with someone of the opposite sex who is not a close relative. Adultery betrays a spouse, can bring children into an unstable situation, and harms trust in the community.",
+   "evidence": [
+    "Exodus 20:14",
+    "Matthew 5:27–28",
+    "Qur'an 17:32"
+   ],
+   "answerTopic": "adultery",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Sex should only take place within marriage.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany Christians agree with the statement because they believe sex is a gift from God designed for marriage. Genesis 2:24 describes a man and woman becoming 'one flesh' after leaving their parents and being united, which suggests the physical union belongs inside the lifelong commitment of marriage. The Catholic Church teaches that sex has two purposes, unitive and procreative, and both are best fulfilled within marriage, where any child is born into a stable home with two committed parents. Therefore sex outside marriage is seen as separating sex from the commitment it is meant to express.\n\nMuslims and Orthodox Jews would also agree. The Qur'an forbids zina and tells believers not to 'go near' adultery (17:32). Keeping sex for marriage is seen as protecting individuals, particularly women and children, from being used or abandoned, and protecting the family as the foundation of society. A further argument is practical: marriage brings legal protection and public promises, so if a pregnancy occurs the child has security.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOther people disagree. Humanists argue that consenting adults should be free to make their own choices about sex, and that what matters morally is consent, honesty and avoiding harm rather than whether a couple has had a wedding. Many couples in Britain cohabit in long-term, faithful relationships, raise children and are just as committed as married couples. Contraception also means sex need not result in pregnancy, which weakens the argument based on protecting children.\n\nSome liberal Christians argue that the central Christian teaching is love (agape) and faithfulness. Jesus did not specifically discuss sex before marriage, and they argue that a committed couple who intend to marry are acting in the spirit of Christian love. Buddhists judge sexual behaviour by the third Precept – avoiding sexual misconduct – which focuses on whether a relationship causes harm, rather than on marital status.\n\nCONCLUSION\nBoth sides are concerned about the same thing: protecting people from being hurt and treating sex as something meaningful. The argument for the statement is strongest for those who accept religious authority, because scripture in several religions clearly links sex and marriage. However, in a diverse society not everyone accepts those authorities, and the evidence that loving, committed unmarried couples can provide stability weakens the claim that sex must 'only' take place within marriage. I conclude that for religious believers the statement is justified by their sources of authority, but as a universal rule it is too absolute; commitment, consent and responsibility are the essential moral conditions.",
+   "evidence": [
+    "Genesis 2:24",
+    "Qur'an 17:32",
+    "Catholic teaching: unitive and procreative purposes of sex",
+    "Third Buddhist Moral Precept",
+    "Humanist emphasis on consent and harm"
+   ],
+   "answerTopic": "sex before marriage",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

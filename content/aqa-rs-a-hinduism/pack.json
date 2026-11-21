@@ -1,0 +1,38 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_hinduism",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Hinduism",
+  "brandIcon": "🕉️",
+  "brandTitle": "Hinduism (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062)",
+  "pageTitle": "AQA GCSE Religious Studies A – Hinduism Revision",
+  "breadcrumb": "Religious Studies / AQA A / Hinduism",
+  "heroEyebrow": "Component 1 · Hinduism · Beliefs & teachings · Practices",
+  "papers": [
+   {"id": "Beliefs", "label": "Beliefs & teachings", "title": "Hinduism: Beliefs and teachings", "subtitle": "modules 1.1–1.7 (spec 3.1.4.1)"},
+   {"id": "Practices", "label": "Practices", "title": "Hinduism: Practices", "subtitle": "modules 2.1–2.7 (spec 3.1.4.2)"}
+  ],
+  "footerNote": "Original practice questions written to the published AQA GCSE Religious Studies A (8062) specification (Hinduism, 3.1.4) and its five-part question structure (1, 1, 4, 6 and 12 marks, from Summer 2026). They are not AQA past-paper questions. Model answers are indicative exemplars, not official AQA mark schemes; other valid answers are credited in the exam."
+ },
+ "rubrics": {
+  "Beliefs": {
+   "1": "1-mark questions (AO1). Either a multiple-choice question (choose the correct letter from four options) or a 'Give one…' question. One accurate answer gains the mark; no development is needed. Spell key terms correctly.",
+   "4": "4-mark 'Explain two ways…' / 'Explain two contrasting…' questions (AO1). For each of two ways: simple explanation of a relevant and accurate point = 1 mark; detailed explanation (developed with an example, consequence or further information) = 2 marks. Two separate points, each developed, for full marks. For 'contrasting' questions the two points must differ (e.g. Advaita and Vaishnava views).",
+   "6": "6-mark 'Explain two… Refer to sacred writings or another source of Hindu belief and teaching in your answer' questions (AO1). Each of two teachings: simple explanation = 1 mark, detailed explanation = 2 marks. Source of authority: 2 marks for naming AND applying a relevant source (e.g. Bhagavad Gita 2.22, Rig Veda 10.129, an Upanishad, a guru or acharya), or 1 mark for naming it without applying it, or applying it without naming it.",
+   "12": "12-mark 'Evaluate this statement' questions (AO2) – refer to Hindu teaching, give reasoned arguments for the statement, give reasoned arguments for a different view, reach a justified conclusion. Level 4 (10–12): well-argued, reasoned consideration of different points of view; logical chains of reasoning leading to judgements supported by knowledge of relevant evidence; references to religion applied to the issue. Level 3 (7–9): reasoned consideration of different views; logical chains of reasoning; clear reference to religion. Level 2 (4–6): reasoned consideration of one view, or recognition of different views each supported by reasons – maximum Level 2 if there is no reference to religion. Level 1 (1–3): a point of view with reason(s). Up to 3 extra SPaG marks are awarded on the 12-mark questions in the Beliefs section."
+  },
+  "Practices": {
+   "1": "1-mark questions (AO1). Either a multiple-choice question (choose the correct letter from four options) or a 'Give one…' question. One accurate answer gains the mark; no development is needed.",
+   "4": "4-mark 'Explain two ways…' / 'Explain two contrasting…' questions (AO1). For each of two ways: simple explanation of a relevant and accurate point = 1 mark; detailed explanation = 2 marks. Use examples from Hindu practice in Britain or India today to develop points.",
+   "6": "6-mark 'Explain two… Refer to sacred writings or another source of Hindu belief and teaching in your answer' questions (AO1). Each of two points: simple = 1 mark, detailed = 2 marks. Source of authority: 2 marks for naming and applying a relevant source, 1 mark for naming only or applying only. Sources can include the Bhagavad Gita, Vedas, Upanishads, Ramayana, Puranas, the Yoga Sutras or a respected guru.",
+   "12": "12-mark 'Evaluate this statement' questions (AO2). Level 4 (10–12): well-argued, reasoned consideration of different points of view with logical chains of reasoning leading to a justified judgement and religion applied to the issue. Level 3 (7–9): reasoned consideration of different views, clear reference to religion. Level 2 (4–6): one view reasoned, or different views simply supported; maximum Level 2 without reference to religion. Level 1 (1–3): a view with reasons. (In the exam, SPaG marks for Hinduism are awarded on the Beliefs section 12-mark questions.)"
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A – Hinduism",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 1: Hinduism (8062/14)",
+  "provenance": "Original practice questions, model answers and revision notes written fresh to the published AQA GCSE Religious Studies A (8062) specification (version 1.3, September 2025, section 3.1.4 Hinduism) and its assessment structure. Not past-paper material and not taken from mark schemes, textbooks or revision guides. Model answers are indicative exemplars, not official AQA mark schemes. Short quotations from Hindu scriptures are paraphrased translations for study purposes."
+ }
+}

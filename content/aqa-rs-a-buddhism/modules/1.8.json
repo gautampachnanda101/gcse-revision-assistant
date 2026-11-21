@@ -1,0 +1,132 @@
+{
+ "paper": "Beliefs",
+ "module": "1.8",
+ "moduleTitle": "The Four Noble Truths: the causes of suffering (samudaya) and the Three Poisons",
+ "note": {
+  "specFocus": "The Four Noble Truths – the second truth: the causes of suffering (samudaya); the Three Poisons: ignorance, greed and hate; craving (tanha) and its three kinds; the Fire Sermon; antidotes in practice.",
+  "summary": "THE SECOND NOBLE TRUTH: SAMUDAYA\nSamudaya means 'arising' or 'origin'. The second Noble Truth teaches that suffering has a cause, and that cause is tanha (craving, literally 'thirst'). In the first sermon the Buddha described it as \"this craving which leads to renewed existence, accompanied by delight and lust, seeking delight here and there\". Because of dependent arising, if the cause can be removed, suffering can be removed.\n\nTHREE KINDS OF CRAVING (TANHA)\n1. Kama-tanha – craving for sense pleasures: food, possessions, sex, entertainment, pleasant experiences.\n2. Bhava-tanha – craving for existence or becoming: wanting to be someone, to have a fixed identity, status or fame, to live for ever.\n3. Vibhava-tanha – craving for non-existence: wanting to get rid of unpleasant things, to escape or not to exist (e.g. wishing a situation or person would disappear).\nCraving is bound up with clinging (upadana): holding on to things that are impermanent and treating them as 'mine'.\n\nTHE THREE POISONS (THREE FIRES)\nThe AQA specification names the Three Poisons (Three Fires or Three Unwholesome Roots) as causes of suffering:\n- Ignorance (moha/avijja) – not seeing reality as it is: not understanding anicca, anatta and dukkha. It is the root of the other two, and the first link of dependent arising. Symbol: the pig.\n- Greed (lobha/raga) – attachment, desire, wanting more. Symbol: the cockerel.\n- Hatred (dosa) – aversion, anger, ill will. Symbol: the snake.\nOn the Tibetan Wheel of Life they appear at the hub, each biting the tail of the next, showing they fuel one another and keep the wheel of samsara turning.\n\nSCRIPTURE\n- The Fire Sermon (Adittapariyaya Sutta, Samyutta Nikaya 35.28): \"Everything is burning… burning with the fire of passion, with the fire of aversion, with the fire of delusion.\" Nibbana literally means 'blowing out' these fires.\n- Dhammapada 251: \"There is no fire like lust, no grip like hatred, no net like delusion, no river like craving.\"\n- Dhammapada 216: \"From craving springs grief, from craving springs fear; for one who is wholly free from craving there is no grief, much less fear.\"\n\nTHE ANTIDOTES\nEach poison has an opposite wholesome root: generosity (dana) counters greed; loving kindness (metta) counters hatred; wisdom (panna) counters ignorance. So Buddhist practice targets the causes of suffering directly: giving to the Sangha, metta bhavana meditation and study of the Dhamma.\n\nDIVERSITY AND CONTEMPORARY EXAMPLES\nAll traditions accept the second truth. Theravada stresses removing craving through mindfulness and insight. Mahayana teachers note that bodhisattvas still have desire to help others, but this is wholesome aspiration (chanda), not selfish craving. Many Buddhists today apply the teaching to consumerism and advertising, which encourage kama-tanha; to social media, which can fuel bhava-tanha (craving for status); and to environmental damage driven by greed. Some Western Buddhist groups run 'mindful consumption' or 'buy nothing' initiatives.\n\nKEY TERMS\nSamudaya – origin of suffering. Tanha – craving. Upadana – clinging. Moha/avijja – ignorance. Lobha/raga – greed. Dosa – hatred. Dana – generosity."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is one of the Three Poisons?\nA) Hatred\nB) Compassion\nC) Wisdom\nD) Generosity",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) Hatred. The Three Poisons are ignorance, greed and hatred. Compassion, wisdom and generosity are wholesome qualities that act as their antidotes.",
+   "evidence": [
+    "Three Poisons"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "three poisons"
+  },
+  {
+   "question": "Which one of the following is the Pali word for craving?\nA) Tanha\nB) Sila\nC) Metta\nD) Magga",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) Tanha. Tanha means craving or 'thirst' and is the cause of suffering in the second Noble Truth. Sila is ethics, metta is loving kindness and magga is the path.",
+   "evidence": [
+    "Tanha = craving/thirst"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "tanha"
+  },
+  {
+   "question": "Name the Three Poisons.",
+   "marks": 2,
+   "command": "Name",
+   "modelAnswer": "Any two of: ignorance/delusion (moha); greed/attachment (lobha/raga); hatred/aversion (dosa).",
+   "evidence": [
+    "Three Poisons"
+   ],
+   "examTip": "Only two correct answers are needed for 2 marks.",
+   "answerTopic": "three poisons"
+  },
+  {
+   "question": "Give two types of craving (tanha) in Buddhist teaching.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: craving for sense pleasures (kama-tanha); craving for existence/becoming (bhava-tanha); craving for non-existence/to get rid of things (vibhava-tanha).",
+   "evidence": [
+    "Kama-, bhava-, vibhava-tanha"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "tanha"
+  },
+  {
+   "question": "Explain two ways in which belief in the Three Poisons influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Buddhists try to replace greed with generosity (dana). Knowing that greed fuels suffering, a Buddhist might give food to monks, donate to charity or try to buy less, so that letting go of possessions weakens attachment.\n\n2. Buddhists try to overcome hatred through loving kindness. They may practise metta bhavana meditation, wishing well first to themselves and then to friends, strangers and even enemies, so that anger is replaced by goodwill. This affects how they respond to conflict in daily life, for example forgiving rather than retaliating.",
+   "evidence": [
+    "Dana",
+    "Metta bhavana"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two ways in which tanha (craving) causes suffering according to Buddhism.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Craving makes people cling to things that are impermanent. Because everything changes (anicca), whatever we crave will eventually be lost, so the more we cling to possessions, people or pleasures, the more we suffer when they change or end.\n\n2. Craving is never satisfied and keeps us in samsara. When one desire is fulfilled, another arises, like drinking salt water that makes you thirstier. The Buddha taught that this craving 'leads to renewed existence', creating kamma that causes rebirth and further suffering.",
+   "evidence": [
+    "Anicca",
+    "Craving leads to renewed existence"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "tanha"
+  },
+  {
+   "question": "Explain two Buddhist teachings about the Three Poisons.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The Three Poisons are like fires that burn. In the Fire Sermon (Adittapariyaya Sutta), the Buddha taught that 'everything is burning… with the fire of passion, with the fire of aversion, with the fire of delusion'. This shows greed, hatred and ignorance cause constant suffering, and nibbana means 'blowing out' these fires.\n\n2. The Three Poisons keep beings trapped in samsara. On the Tibetan Wheel of Life, a pig, cockerel and snake at the hub bite one another's tails, showing ignorance, greed and hatred feed each other and drive the cycle of rebirth. Ignorance is the root: because people do not see anicca and anatta, they crave and hate.",
+   "evidence": [
+    "Fire Sermon (SN 35.28)",
+    "Bhavachakra hub"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "three poisons"
+  },
+  {
+   "question": "Explain two Buddhist teachings about craving (tanha).\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Craving is the cause of suffering. In the Dhammacakkappavattana Sutta, the Buddha said the origin of suffering is 'this craving which leads to renewed existence… seeking delight here and there'. This is the second Noble Truth, and it means that if craving can be removed, suffering will also end.\n\n2. Craving produces grief and fear. The Dhammapada (216) says, 'From craving springs grief, from craving springs fear; for one who is wholly free from craving there is no grief, much less fear.' This shows that the emotional pain people experience, such as worry about losing what they love, comes from attachment.",
+   "evidence": [
+    "Dhammacakkappavattana Sutta",
+    "Dhammapada 216",
+    "Dhammapada 251"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "tanha"
+  },
+  {
+   "question": "“Greed is the main cause of suffering in the world today.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nGreed (lobha) is one of the Three Poisons, and the second Noble Truth identifies craving as the cause of suffering. Much suffering in today's world seems to come from greed: economic inequality, exploitation of workers, corruption and wars over resources. Buddhists would see these as greed on a large scale.\n\nConsumerism encourages kama-tanha, craving for sense pleasures. Advertising constantly tells people they need more possessions to be happy, which leads to debt, stress and dissatisfaction. Environmental destruction and climate change are also driven by the demand for more and more, causing suffering for humans and animals. The Dhammapada says there is 'no river like craving', suggesting its power to sweep people away.\n\nARGUMENTS FOR A DIFFERENT VIEW\nBuddhists teach that ignorance (moha), not greed, is the root poison. On the Wheel of Life, the pig of ignorance is often shown leading the others, and ignorance is the first of the twelve links of dependent arising. People are greedy because they do not understand that everything is impermanent and that there is no fixed self to satisfy. So ignorance may be the deeper cause.\n\nHatred (dosa) also causes enormous suffering, through violence, racism, terrorism and war. Many conflicts are driven by fear and hatred of others rather than greed alone. The three poisons work together, so it may be impossible to single out one as the main cause.\n\nMuch suffering also has natural causes, such as earthquakes, disease and ageing, which are not directly caused by anyone's greed. A non-religious view might stress poverty, lack of education or bad political systems as causes, rather than a spiritual problem of craving.\n\nCONCLUSION\nI think greed is a major cause of human-made suffering in the world today, especially through consumerism, inequality and environmental damage, and the Buddha's teaching on craving is very relevant. However, from a Buddhist perspective ignorance is the deeper root, and hatred and natural causes also play a big role. So greed is one of the main causes, but not 'the main cause' on its own; the three poisons must be understood together.",
+   "evidence": [
+    "Second Noble Truth",
+    "Dhammapada 251",
+    "Wheel of Life: pig, cockerel, snake",
+    "Twelve links: ignorance first"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "three poisons"
+  },
+  {
+   "question": "“It is impossible to stop craving.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nCraving seems to be part of human nature. People naturally want food, comfort, love and security, and we seem to be biologically programmed to seek pleasure and avoid pain. Even very disciplined people still experience desires, so ending craving completely may seem impossible.\n\nModern society makes it even harder. Advertising, social media and consumer culture are designed to create new desires, encouraging kama-tanha and bhava-tanha (wanting status). For a lay person with a job, family and bills, living without any craving appears unrealistic.\n\nSome Buddhists themselves recognise how difficult it is. Pure Land Buddhists, following Shinran, believe that ordinary people in this age are full of blind passions and cannot end craving by their own power, so they rely on Amida Buddha.\n\nARGUMENTS FOR A DIFFERENT VIEW\nThe Buddha taught that craving can be stopped: this is the third Noble Truth (nirodha). He himself ended craving at his Enlightenment, and many disciples, including Kisa Gotami and Angulimala, became arhats. If it were impossible, the whole Buddhist path would be pointless.\n\nThe Eightfold Path offers practical methods. Mindfulness helps people notice desire arising without acting on it; metta and generosity weaken greed and hatred; wisdom about anicca and anatta removes the ignorance that feeds craving. Buddhists believe craving can gradually be reduced, even if complete ending takes a long time or many lifetimes.\n\nIt is also important to distinguish craving from all desire. Buddhists distinguish selfish craving from wholesome intention, such as the wish to become enlightened or to help others. Ending tanha does not mean becoming a robot with no wishes at all.\n\nCONCLUSION\nI disagree with the statement. Craving is very hard to stop and for most people it will not end quickly, especially in a consumer society. But Buddhism teaches, and claims to demonstrate through the Buddha and the arhats, that it can be ended through the Eightfold Path. So stopping craving is very difficult, but Buddhists would say it is not impossible, and even reducing it brings real benefits.",
+   "evidence": [
+    "Third Noble Truth (nirodha)",
+    "Arhats: Kisa Gotami, Angulimala",
+    "Shinran: blind passions",
+    "Eightfold Path"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "tanha"
+  }
+ ]
+}

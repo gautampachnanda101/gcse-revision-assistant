@@ -1,0 +1,40 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_buddhism",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Buddhism",
+  "brandIcon": "☸️",
+  "brandTitle": "Buddhism (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062)",
+  "pageTitle": "AQA GCSE Religious Studies A: Buddhism Revision",
+  "breadcrumb": "Religious Studies / AQA A / Buddhism",
+  "heroEyebrow": "Component 1 · Buddhism · Beliefs & teachings · Practices",
+  "papers": [
+   {"id": "Beliefs", "label": "Beliefs & teachings", "title": "Buddhism: Key beliefs and teachings", "subtitle": "Dhamma · the Buddha · Four Noble Truths (1.1–1.10)"},
+   {"id": "Practices", "label": "Practices", "title": "Buddhism: Practices", "subtitle": "Worship, festivals and ethics (2.1–2.8)"}
+  ],
+  "footerNote": "Original practice questions written to the published AQA GCSE Religious Studies A (8062) specification for Buddhism. They are not AQA past-paper questions, and the model answers are indicative exemplars, not official AQA mark schemes. Other valid answers will be credited in the exam."
+ },
+ "rubrics": {
+  "Beliefs": {
+   "1": "1-mark multiple choice (AO1): one correct answer from four options (A–D). 1 mark for the correct letter only.",
+   "2": "2-mark 'Give two…' / 'Name two…' (AO1): 1 mark for each of two correct, relevant points. No development is required.",
+   "4": "4-mark 'Explain two ways…' / 'Explain two contrasting beliefs…' (AO1): for each of two points, 1 mark for a simple explanation of a relevant and accurate belief, or 2 marks for a detailed explanation. Maximum 4.",
+   "5": "5-mark 'Explain two… Refer to sacred writings or another source of Buddhist belief and teaching in your answer.' (AO1): for each of two points, 1 mark for a simple explanation or 2 marks for a detailed explanation (maximum 4), plus 1 mark for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching.",
+   "12": "12-mark 'Evaluate this statement' (AO2), plus up to 3 SPaG marks. Answers should refer to Buddhist teaching, may refer to non-religious arguments, and must reach a justified conclusion. Level 4 (10–12): well-argued response with reasoned consideration of different points of view; logical chains of reasoning leading to judgements supported by knowledge and understanding of relevant evidence and information. Level 3 (7–9): reasoned consideration of different points of view, with logical chains of reasoning drawing on knowledge and understanding of relevant evidence and information. Level 2 (4–6): reasoned consideration of a point of view, or recognition of different points of view each supported by relevant reasons or evidence. Level 1 (1–3): point of view with reason(s) stated in support. (Paraphrase of AQA's generic levels; see the official specification and mark schemes for exact wording.)"
+  },
+  "Practices": {
+   "1": "1-mark multiple choice (AO1): one correct answer from four options (A–D). 1 mark for the correct letter only.",
+   "2": "2-mark 'Give two…' / 'Name two…' (AO1): 1 mark for each of two correct, relevant points. No development is required.",
+   "4": "4-mark 'Explain two ways in which belief about … influences Buddhists today' / 'Explain two contrasting ways…' (AO1): for each of two points, 1 mark for a simple explanation of a relevant and accurate influence or practice, or 2 marks for a detailed explanation. Maximum 4.",
+   "5": "5-mark 'Explain two… Refer to sacred writings or another source of Buddhist belief and teaching in your answer.' (AO1): for each of two points, 1 mark for a simple explanation or 2 marks for a detailed explanation (maximum 4), plus 1 mark for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching.",
+   "12": "12-mark 'Evaluate this statement' (AO2), plus up to 3 SPaG marks. Answers should refer to Buddhist teaching, may refer to non-religious arguments, and must reach a justified conclusion. Level 4 (10–12): well-argued response with reasoned consideration of different points of view; logical chains of reasoning leading to judgements supported by knowledge and understanding of relevant evidence and information. Level 3 (7–9): reasoned consideration of different points of view, with logical chains of reasoning drawing on knowledge and understanding of relevant evidence and information. Level 2 (4–6): reasoned consideration of a point of view, or recognition of different points of view each supported by relevant reasons or evidence. Level 1 (1–3): point of view with reason(s) stated in support. (Paraphrase of AQA's generic levels; see the official specification and mark schemes for exact wording.)"
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A: Buddhism",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 1: The study of religions, Buddhism (3.1.1.1 Key beliefs, 3.1.1.2 Practices)",
+  "provenance": "Original practice questions, revision notes and indicative model answers written to the published AQA GCSE Religious Studies A (8062) specification (topic list, question styles and mark tariffs). This is not AQA past-paper material and it does not reproduce AQA mark schemes, textbooks or revision guides. Model answers are indicative exemplars only, not official mark schemes. Short scripture quotations (Dhammapada, Pali Canon, Mahayana sutras) are paraphrased or quoted briefly for study purposes."
+ }
+}

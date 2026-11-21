@@ -1,0 +1,91 @@
+{
+ "paper": "Theme D",
+ "module": "D.2",
+ "moduleTitle": "Reasons for war, just war theory, holy war and pacifism",
+ "note": {
+  "specFocus": "Reasons for war, including greed, self-defence and retaliation; the just war theory, including the criteria for a just war; holy war; pacifism. Contrasting beliefs on pacifism are required.",
+  "summary": "KEY TERMS\nWar: armed conflict between nations or groups. Greed: selfish desire for more (land, resources, power). Self-defence: acting to protect oneself or others. Retaliation: deliberately harming someone in response to their harming you. Just war: a war that meets internationally accepted criteria for fairness. Holy war: fighting for a religious cause or God, often controlled by a religious leader. Pacifism: the belief that people should not take part in war or any violence.\n\nREASONS FOR WAR\nGreed – e.g. Iraq's invasion of Kuwait in 1990 was partly about oil. Self-defence – e.g. Ukraine resisting the Russian invasion (2022–). Retaliation – e.g. the US-led invasion of Afghanistan after the 9/11 attacks (2001). Religious teaching generally condemns greed (\"the love of money is a root of all kinds of evil\", 1 Timothy 6:10) and revenge, but many accept self-defence.\n\nJUST WAR THEORY\nDeveloped by St Augustine (4th–5th century) and Thomas Aquinas (13th century). Criteria include: (1) just cause – e.g. self-defence or protecting the innocent; (2) correct/legitimate authority – declared by a lawful government; (3) right intention – to promote good and end evil, not for revenge or greed; (4) last resort – all peaceful methods tried; (5) reasonable chance of success; (6) proportionality – the harm caused must not be greater than the harm prevented, and only necessary force used, with civilians not targeted. The Catholic Church sets out similar conditions (Catechism 2309). The Islamic tradition also has rules: fighting only in defence, not harming women, children, the elderly or crops, and making peace if the enemy offers it (\"Fight in the way of Allah those who fight you but do not transgress\", Qur'an 2:190).\n\nHOLY WAR\nChristianity: the Crusades (1095–1291) were called by popes to recapture Jerusalem. Most Christians today reject holy war. Islam: lesser jihad is a struggle in defence of Islam under strict conditions; greater jihad is the personal struggle to live a good Muslim life, which the Prophet called the greater struggle. Terrorist groups who claim to fight jihad are condemned by the vast majority of Muslims. Judaism: milchemet mitzvah (obligatory war) in the Hebrew Bible, e.g. defending Israel. Sikhism: dharam yudh (war in defence of righteousness) with criteria similar to just war, e.g. last resort, no looting.\n\nPACIFISM\nChristian pacifists, such as the Quakers (Religious Society of Friends), refuse to fight: \"all war is contrary to the spirit of Christ\" (Quaker Peace Testimony, 1660). They cite \"Blessed are the peacemakers\" (Matthew 5:9), \"love your enemies\" (Matthew 5:44) and Jesus telling Peter \"all who draw the sword will die by the sword\" (Matthew 26:52). In both World Wars, conscientious objectors refused to fight; some served as medics. Buddhists are often pacifist because of the first Precept; the Dalai Lama promotes non-violence. Jains practise strict ahimsa. Many Hindus follow Gandhi's non-violence, though the Bhagavad Gita describes Arjuna's duty (dharma) as a warrior to fight.\n\nNON-RELIGIOUS VIEWS\nMany humanists accept just war ideas as a last resort to protect human rights, while some are pacifists; they reject holy war because they see no divine authority for violence."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is a criterion of the just war theory?\nA The war must be fought for religious reasons\nB The war must be a last resort\nC The war must gain new land\nD The war must be declared by a religious leader",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B The war must be a last resort.\nJust war theory requires that all peaceful means have been tried first. Fighting for religion or authorised by a religious leader (A, D) is a feature of holy war; gaining land (C) is greed, not a just cause.",
+   "evidence": [
+    "Just war theory (Augustine, Aquinas)",
+    "Catechism of the Catholic Church 2309"
+   ],
+   "answerTopic": "just war",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Give one reason why a country might go to war.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from, for example: greed (for land, oil or other resources); self-defence; retaliation for an attack; to protect an ally or innocent people; religious or ideological beliefs; to remove a tyrant.",
+   "evidence": [
+    "Iraq–Kuwait 1990 (greed)",
+    "Afghanistan 2001 (retaliation)"
+   ],
+   "answerTopic": "reasons for war",
+   "examTip": "Multiple-choice: read all four options before choosing; only one letter is credited."
+  },
+  {
+   "question": "Explain two contrasting beliefs in contemporary British society about pacifism.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Quakers are Christian pacifists who refuse to take part in any war. Their Peace Testimony states that all war is contrary to the spirit of Christ, because Jesus taught 'love your enemies' (Matthew 5:44), so they work for peace through mediation and campaigning instead.\n\nBelief 2: In contrast, many Muslims believe that fighting can be right in self-defence. The Qur'an says 'Fight in the way of Allah those who fight you, but do not transgress' (2:190), so although Islam values peace, Muslims may be obliged to defend themselves, their community and their faith under strict rules.",
+   "evidence": [
+    "Quaker Peace Testimony (1660)",
+    "Matthew 5:44",
+    "Qur'an 2:190"
+   ],
+   "answerTopic": "pacifism",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two similar beliefs in contemporary British society about the just war theory.\nIn your answer you should refer to the main religious tradition of Great Britain and one or more other religious traditions.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Many Christians, including the Catholic Church and Church of England, accept the just war theory first developed by St Augustine and Thomas Aquinas. They believe war can be justified only if it has a just cause, such as defending the innocent, and is a last resort, because sometimes using force is the only way to stop a greater evil.\n\nBelief 2: Similarly, Sikhs believe a war can be justified if it is dharam yudh – a war in defence of righteousness. Like the just war theory, it must be a last resort, fought without hatred or revenge, using minimum force, and soldiers must not loot or harm civilians.",
+   "evidence": [
+    "Augustine and Aquinas",
+    "Catechism 2309",
+    "Dharam yudh (Guru Gobind Singh)"
+   ],
+   "answerTopic": "just war",
+   "examTip": "Two different (or similar) beliefs, each developed with a second sentence of detail. You must use Christianity plus another religious tradition (Theme C: Christianity plus non-religious beliefs). No quotation needed."
+  },
+  {
+   "question": "Explain two religious beliefs about holy war.\nRefer to sacred writings or another source of religious belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "Belief 1: Most Christians today reject the idea of holy war. Although popes called the Crusades in the Middle Ages, most Christians now believe that killing in God's name goes against Jesus' teaching. When Peter drew his sword at Jesus' arrest, Jesus said 'Put your sword back in its place, for all who draw the sword will die by the sword' (Matthew 26:52), which shows that the Christian faith should not be spread or defended through violence.\n\nBelief 2: Muslims distinguish between the greater jihad – the inner struggle to obey Allah – and the lesser jihad, a defensive struggle which may involve fighting. The lesser jihad must follow strict conditions: it must be in self-defence, declared by a legitimate leader, and not harm civilians. The Qur'an teaches 'Fight in the way of Allah those who fight you, but do not transgress; Allah does not love transgressors' (2:190), so attacking innocent people can never be holy war.",
+   "evidence": [
+    "Matthew 26:52",
+    "Qur'an 2:190",
+    "Greater and lesser jihad",
+    "The Crusades (1095–1291)"
+   ],
+   "answerTopic": "holy war",
+   "examTip": "Two beliefs, each developed, plus a named sacred text or source of authority that you apply to the question. Naming the source and showing what it means for the issue gets both source marks."
+  },
+  {
+   "question": "'Religious believers should be pacifists.'\nEvaluate this statement.\nIn your answer you:\n• should give reasoned arguments in support of this statement\n• should give reasoned arguments to support a different point of view\n• should refer to religious arguments\n• may refer to non-religious arguments\n• should reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nMany religious believers think pacifism is the only consistent response to their faith. Jesus taught 'love your enemies and pray for those who persecute you' (Matthew 5:44) and 'Blessed are the peacemakers' (Matthew 5:9). When Peter used a sword to defend him, Jesus healed the injured servant and said 'all who draw the sword will die by the sword' (Matthew 26:52). Quakers believe there is 'that of God' in everyone, so killing anyone means destroying something sacred, and their Peace Testimony rejects all war. Buddhists follow the first Precept not to harm living beings, and violence creates bad karma. Pacifists also point out that modern wars kill huge numbers of civilians, and that non-violent movements, such as Gandhi's campaign for Indian independence, have achieved change. Pacifism does not mean doing nothing: pacifists work for peace through reconciliation, aid and campaigning.\n\nARGUMENTS FOR A DIFFERENT VIEW\nOther believers argue that pacifism can allow great evil to continue. Augustine and Aquinas developed the just war theory because they believed that loving one's neighbour sometimes means protecting them from attack. Most Christians in Britain accept that the Second World War was justified to stop the Nazis and the Holocaust. Islam teaches that Muslims may fight in self-defence (Qur'an 2:190) under strict conditions, and Sikhs believe it is a duty to defend the oppressed as a last resort, as Guru Gobind Singh taught. The Bhagavad Gita teaches that Arjuna, as a warrior, has a dharma to fight for justice. Some argue that refusing to fight while others defend you is unfair, and that the government has a duty to protect its citizens.\n\nCONCLUSION\nPacifism is a strong, principled position which reflects Jesus' teaching and the Buddhist ideal of non-harming, and pacifists play a vital role in reminding society of the cost of war. However, most religious traditions accept that force can be a last resort to protect innocent people, and it is hard to see how pacifism could have stopped threats such as Nazi Germany. I conclude that religious believers should always work for peace and be very reluctant to go to war, but that they are not obliged to be absolute pacifists; following the just war criteria is a more realistic way to apply religious love and justice.",
+   "evidence": [
+    "Matthew 5:9, 5:44, 26:52",
+    "Quaker Peace Testimony",
+    "First Buddhist Precept",
+    "Just war theory",
+    "Qur'an 2:190",
+    "Bhagavad Gita (Arjuna)"
+   ],
+   "answerTopic": "pacifism",
+   "examTip": "Argue for and against with logical chains of reasoning, use specific religious teaching (you are capped at Level 2 without religion), weigh the arguments and finish with a justified conclusion. Up to 3 extra SPaG marks: use specialist terms accurately."
+  }
+ ]
+}

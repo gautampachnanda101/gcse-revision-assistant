@@ -1,0 +1,137 @@
+{
+ "paper": "Beliefs",
+ "module": "1.9",
+ "moduleTitle": "Sewa: the importance and priority of service to others",
+ "note": {
+  "specFocus": "Spec 3.1.7.1 Beliefs about the nature of human life: sewa – the importance and priority of service to others, including physical (tan), mental (man) and material (dhan).",
+  "summary": "WHAT IS SEWA?\nSewa (seva) means selfless service to others, done without seeking reward or praise (nishkam sewa). Sikhs see it as service to God, because God's light (jot) is in every person. It is one of the most visible features of Sikh life and an essential part of being gurmukh.\n\nKEY TEACHINGS\n• 'In the midst of this world, do sewa, and you shall be given a place of honour in the Court of the Lord' (Guru Nanak, Sri Rag, Ang 26).\n• Sewa overcomes haumai: humble service, such as cleaning shoes or washing dishes, breaks down pride.\n• It expresses equality: when anyone may serve and anyone may be served, status disappears.\n• It is linked to the three pillars: nam japna (remembering God), kirat karna (honest work) and vand chhakna (sharing).\n\nTHREE TYPES OF SEWA\n1. Tan sewa – physical service using the body: cooking, serving and cleaning in the langar; cleaning the gurdwara; looking after shoes; helping at disasters; caring for the sick.\n2. Man sewa – mental service using the mind, knowledge and skills: teaching Punjabi, gurbani or kirtan; giving advice or counselling; doing professional work, such as medical or legal help, without charge; studying scripture to share it.\n3. Dhan sewa – material service using money and possessions: giving dasvandh (a tenth of income), donating food to the langar, funding charities and gurdwaras.\n\nEXAMPLES FROM SIKH HISTORY\n• Guru Amar Das served Guru Angad humbly for years, including fetching water before dawn, before becoming the third Guru.\n• Mata Khivi ran the langar with Guru Angad (praised at Ang 967).\n• Bhai Kanhaiya gave water to injured soldiers of both armies at Anandpur; Guru Gobind Singh praised him for seeing God in all and gave him ointment to treat their wounds. He is an inspiration for Sikh humanitarian work.\n\nPRIORITY OF SEWA\nSewa is not an optional extra – it is part of worship itself. Many Sikhs see it as one of the most important ways to show love for God. However, Sikhs teach that sewa should come from remembrance of God; sewa done for show increases haumai.\n\nSEWA TODAY\n• Langar in gurdwaras every day.\n• Khalsa Aid (founded 1999) – disaster relief worldwide, including refugee camps and earthquake zones.\n• Street langar and food banks for homeless people in UK cities; during COVID-19 many gurdwaras delivered meals to NHS staff and vulnerable people.\n• Blood-donation drives and environmental sewa (EcoSikh).\n\nDIVERSITY\nSikhs agree on the importance of sewa but may emphasise different types; some say tan sewa is most humbling, others that dhan sewa helps most people. Some debate whether sewa should be directed mainly to the Sikh community or equally to all (most say all).\n\nKEY TERMS: sewa, nishkam, tan, man, dhan, dasvandh, vand chhakna, kirat karna, langar."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Punjabi term for material sewa (service using money or possessions)?\nA Tan\nB Man\nC Dhan\nD Nam",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – Dhan. Dhan sewa is material service, such as giving money (dasvandh) or food. Tan sewa is physical service, man sewa is mental/intellectual service, and nam is God's Name.",
+   "evidence": [
+    "Tan, man, dhan sewa"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "types of sewa"
+  },
+  {
+   "question": "Which one of the following is an example of man (mental) sewa?\nA Washing dishes in the langar\nB Teaching Punjabi or gurbani to children at the gurdwara\nC Donating money to a charity\nD Cleaning the shoes of the sangat",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – Teaching Punjabi or gurbani to children. Man sewa uses a person's mind, knowledge or skills for others. Washing dishes and cleaning shoes are tan (physical) sewa; donating money is dhan (material) sewa.",
+   "evidence": [
+    "Man sewa"
+   ],
+   "examTip": "Read all four options before choosing. Only one is correct; write the letter clearly. If unsure, cross out options you know are wrong first.",
+   "answerTopic": "types of sewa"
+  },
+  {
+   "question": "Give one example of tan (physical) sewa.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: cooking, serving or cleaning in the langar; washing dishes; cleaning the gurdwara; looking after shoes of the sangat; helping in disaster relief; caring for sick or elderly people.",
+   "evidence": [
+    "Tan sewa"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "tan sewa"
+  },
+  {
+   "question": "Give one reason why sewa is important to Sikhs.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: it helps overcome haumai (ego); it is serving God, whose light is in all people; it expresses the equality of all; it was taught and modelled by the Gurus; it leads towards mukti/a place of honour in God's court (Ang 26); it puts the teaching of vand chhakna into practice.",
+   "evidence": [
+    "Ang 26"
+   ],
+   "examTip": "A 1-mark short response needs one accurate, relevant point only. A short phrase or sentence is enough; do not waste time explaining.",
+   "answerTopic": "sewa importance"
+  },
+  {
+   "question": "Explain two ways in which sewa influences the lives of Sikhs today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Sikhs give time to serve in the gurdwara, especially in the langar. Families may volunteer to cook and clean on a particular day, which gives everyone, including children, a habit of serving others humbly.\n\nSecond way: Sikhs serve the wider community, not just other Sikhs. For example, during the COVID-19 pandemic many UK gurdwaras delivered free meals to NHS workers, vulnerable people and the homeless, and Khalsa Aid provides relief in disasters around the world.",
+   "evidence": [
+    "Langar",
+    "Khalsa Aid",
+    "COVID-19 gurdwara meals"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "sewa influence"
+  },
+  {
+   "question": "Explain two different types of sewa.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First type: Tan sewa is physical service, using the body. For example, a Sikh might wash dishes in the langar or clean the gurdwara floor, which is humbling work that reduces haumai.\n\nSecond type: Dhan sewa is material service, using money or possessions. Many Sikhs give dasvandh – a tenth of their income – to the gurdwara or to charity, which helps others and stops them becoming greedy or attached to wealth.",
+   "evidence": [
+    "Tan, man, dhan sewa",
+    "Dasvandh"
+   ],
+   "examTip": "Give two separate ways. For each, make a simple point (1 mark) and then develop it with an example, consequence or detail (2 marks). Two undeveloped points score only 2.",
+   "answerTopic": "types of sewa"
+  },
+  {
+   "question": "Explain two Sikh teachings about the importance of sewa.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Sewa is a way of serving God. Because God's light is in every person, serving people is serving God. It is a key part of being gurmukh and of the path to mukti, alongside nam japna.\n\nSecond teaching: Sewa must be selfless (nishkam). It should be done without wanting reward or praise, otherwise it feeds haumai. When done humbly, it destroys ego and teaches equality, because the person serving puts themselves at the same level as everyone else.\n\nSource: Guru Nanak teaches 'In the midst of this world, do sewa, and you shall be given a place of honour in the Court of the Lord' (Ang 26). This shows that sewa is not optional but central to the Sikh path, and that its reward comes from God, so it should not be done for human praise.",
+   "evidence": [
+    "'Vich duniaa sev kamaaeeai taa dargeh baisan paaeeai' – Ang 26",
+    "Nishkam sewa",
+    "Haumai"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "sewa teachings"
+  },
+  {
+   "question": "Explain two examples from Sikh history that show the importance of sewa.\nRefer to sacred writings or another source of Sikh belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First example: Guru Amar Das served Guru Angad for many years, including fetching water for him every day before dawn, even when he was old. His humble service is one reason he was chosen as the third Guru, showing that sewa is valued above status.\n\nSecond example: Bhai Kanhaiya served water to wounded soldiers on both sides during a battle at Anandpur. When others complained, Guru Gobind Singh praised him, saying he saw the Guru's light in everyone, and gave him ointment to treat their wounds too. This shows sewa must be given to all, even enemies.\n\nSource: Guru Nanak's teaching that the one who does sewa in this world gains a place of honour in God's court (Ang 26) explains why Sikhs remember these examples: they show sewa as the practical form of devotion. Bhai Kanhaiya is often seen as an inspiration for the humanitarian work of Sikh organisations today.",
+   "evidence": [
+    "Guru Amar Das's sewa to Guru Angad",
+    "Bhai Kanhaiya",
+    "Ang 26"
+   ],
+   "examTip": "Explain two teachings, each developed (2 + 2 marks), then name a source of Sikh authority AND apply it to the question (2 marks). Naming the Guru Granth Sahib with an Ang number, or a Guru's teaching, and showing how it supports your point is the safest way to get the source marks.",
+   "answerTopic": "sewa history"
+  },
+  {
+   "question": "“Sewa is more important than prayer for Sikhs.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nSewa makes a real difference to other people's lives. Feeding the hungry in the langar, caring for the sick or giving dasvandh to charity meets real needs, whereas prayer might seem to benefit only the person praying. Guru Nanak taught that one who does sewa in this world gains a place of honour in God's court (Ang 26).\n\nSewa directly attacks haumai. Washing dishes or cleaning shoes humbles a person in a way that private prayer may not. The Gurus themselves showed sewa: Guru Amar Das served Guru Angad for years before becoming Guru, and Bhai Kanhaiya served water to soldiers of both sides.\n\nSikhism is a practical religion of householders. Guru Nanak criticised people who prayed or performed rituals while ignoring the poor, teaching that truthful living is higher than truth (Ang 62). A humanist would agree that serving others is the true measure of a good life.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nFor Sikhs, prayer and nam japna are the root of everything. Guru Ram Das describes the true Sikh as one who rises early, bathes and meditates on the Name (Ang 305), and only then goes about the day's work. Without remembering God, sewa can become a show to gain praise, which increases haumai.\n\nSewa is meant to be nishkam – selfless – and Sikhs believe this is possible only with God's grace, gained through prayer and meditation. Prayer gives the strength, humility and love that make sewa genuine.\n\nThe three pillars – nam japna, kirat karna and vand chhakna – are presented together. In the gurdwara, prayer and service are joined: Ardas is said and the food blessed before langar is served. So Sikhs would generally see them as two sides of one devotion rather than competing priorities.\n\nCONCLUSION\n\nSewa is clearly essential and is often the most visible part of Sikh life. However, in Sikh teaching it grows out of remembering God; prayer without service is incomplete, but service without prayer risks becoming ego. The stronger conclusion is that neither is more important: for Sikhs, prayer inspires sewa and sewa expresses prayer.",
+   "evidence": [
+    "Ang 26",
+    "Ang 62",
+    "Ang 305",
+    "Guru Amar Das; Bhai Kanhaiya",
+    "Three pillars",
+    "Humanist view"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "sewa vs prayer"
+  },
+  {
+   "question": "“Dhan (material) sewa is the least important type of sewa.”\nEvaluate this statement.\nIn your answer you should:\n• refer to Sikh teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nGiving money can be easy for wealthy people and may involve little personal sacrifice or humility. Tan sewa, such as washing dishes or cleaning shoes, is more effective at reducing haumai, because the person physically serves others at the lowest level.\n\nMan sewa, using one's mind and skills – for example teaching gurbani, counselling or giving professional help for free – involves personal commitment and can change lives in ways money cannot.\n\nThere is also a risk that material giving is done for status, such as having one's name read out as a donor, which feeds pride rather than overcoming it. The Gurus' greatest examples of sewa – Guru Amar Das fetching water, Bhai Kanhaiya tending wounded soldiers – were physical, not financial.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nDhan sewa is necessary for everything else. Without donations, gurdwaras could not run langar, buy food or support charities. Khalsa Aid's disaster relief depends on money given by ordinary Sikhs. Material sewa can therefore help far more people than one person's physical work.\n\nSikhs are taught the practice of dasvandh – giving a tenth of income – which is a serious and regular discipline. It directly tackles lobh (greed) and moh (attachment to wealth), two of the five thieves, so it is spiritually important too. Vand chhakna, sharing what one has, is one of the three pillars of Sikhism.\n\nSikh teaching does not rank the three types; sewa is valued by the intention behind it. A poor person's small gift given humbly may be worth more than a large showy donation. Many Sikhs would say tan, man and dhan should all be offered together.\n\nCONCLUSION\n\nPhysical sewa may be the most effective at reducing ego, but this does not make material sewa least important. Dhan sewa makes most community service possible and tackles greed and attachment directly. The best judgement is that all three types are equally important when done selflessly, so the statement is not convincing.",
+   "evidence": [
+    "Tan, man, dhan sewa",
+    "Dasvandh",
+    "Vand chhakna",
+    "Khalsa Aid",
+    "Five thieves: lobh and moh"
+   ],
+   "examTip": "Use the four bullets: refer to Sikh teaching, argue for the statement, argue for a different view, and reach a justified conclusion. Develop each argument into a chain of reasoning (because... this means... therefore...). Up to 3 extra SPaG marks are available, so use specialist Punjabi terms accurately.",
+   "answerTopic": "dhan sewa"
+  }
+ ]
+}

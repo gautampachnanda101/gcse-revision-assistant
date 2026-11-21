@@ -1,0 +1,142 @@
+{
+ "paper": "Beliefs",
+ "module": "1.1",
+ "moduleTitle": "Brahman: different Hindu understandings of brahman and the three features of the divine",
+ "note": {
+  "specFocus": "Brahman: different Hindu understandings of brahman; ultimate reality as divine consciousness (nirguna) and manifestation of God in form (saguna); spiritual worlds. Different understandings of the three features of the divine: everywhere, as non-personal (brahman); within the heart; beyond, as a personal loving God. Brihadaranyaka Upanishad 3.9.1.",
+  "summary": "WHAT IS BRAHMAN?\nBrahman is the Sanskrit term for ultimate reality: the eternal, unchanging source and ground of everything that exists. The Upanishads describe it as sat-chit-ananda – being, consciousness and bliss. The Rig Veda states, \"Truth is one; the wise call it by many names\" (Rig Veda 1.164.46), which is why many Hindus see the many deities as ways of approaching one reality.\n\nNIRGUNA AND SAGUNA\n• Nirguna Brahman – Brahman \"without qualities\": pure divine consciousness, beyond form, gender, name or description. The Upanishads say it can only be described as \"neti, neti\" (\"not this, not this\", Brihadaranyaka Upanishad 2.3.6). This view is central to Advaita Vedanta, taught by Shankara (8th century CE), for whom Brahman alone is ultimately real and the true self (atman) is identical with it (\"Tat tvam asi\" – \"You are that\", Chandogya Upanishad 6.8.7).\n• Saguna Brahman – Brahman \"with qualities\": God manifest in a form that can be known, loved and worshipped, e.g. Vishnu, Krishna, Shiva or the Goddess (Devi). Vaishnava teachers such as Ramanuja (Vishishtadvaita) and Madhva (Dvaita) taught that God is ultimately personal, with real qualities of love, mercy and beauty, and that souls remain distinct from God even in liberation.\n\nTHE THREE FEATURES OF THE DIVINE\nMany Hindus, especially Vaishnavas, describe one Absolute Truth understood in three ways (Bhagavata Purana 1.2.11: \"it is called Brahman, Paramatma and Bhagavan\"):\n1. Everywhere, as non-personal Brahman – the all-pervading divine energy (Isha Upanishad 1: \"All this is pervaded by the Lord\").\n2. Within the heart – Paramatma, the Supersoul who accompanies each soul as witness and guide (Bhagavad Gita 18.61: \"The Lord dwells in the hearts of all beings\").\n3. Beyond, as a personal loving God – Bhagavan, e.g. Krishna, who has a personality, form and relationships with devotees (Bhagavad Gita 9.29, 18.65).\nAdvaitins see the personal God as a lower, provisional understanding of nirguna Brahman; many Vaishnavas see impersonal Brahman as the \"light\" of the personal God (Bhagavad Gita 14.27: \"I am the basis of Brahman\").\n\nBRIHADARANYAKA UPANISHAD 3.9.1\nThe specification names this passage. The sage Vidagdha Shakalya asks Yajnavalkya, \"How many gods are there?\" He first answers \"3,306\", then steadily reduces the number – 33, 6, 3, 2, one and a half – until he answers \"One\" (3.9.9), identified with breath (prana) and Brahman. It shows the Hindu idea that the many gods are expressions of one divine reality.\n\nSPIRITUAL WORLDS\nBeyond the material universe many Hindus believe in eternal spiritual worlds where there is no birth, death or suffering: Vaikuntha (the realm of Vishnu), Goloka (the realm of Krishna) and Kailasa (Shiva's abode). Bhagavad Gita 8.21 and 15.6 describe a supreme abode \"from which, having attained, people do not return\".\n\nDIVERSITY AND TODAY\nHinduism has no single creed. A Smarta or Advaita Hindu may meditate on formless Brahman; an ISKCON devotee at Bhaktivedanta Manor (Watford) worships Krishna as the Supreme Person; a Shaiva sees Shiva as both formless (the lingam) and personal. Many British Hindus describe themselves as believing in \"one God with many forms\"."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the Hindu term for ultimate reality without qualities or form?\nA) Saguna Brahman\nB) Nirguna Brahman\nC) Avatara\nD) Prakriti",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Nirguna Brahman.\nNirguna means 'without qualities': Brahman as pure divine consciousness beyond form and description. Saguna Brahman is God with qualities, an avatara is a descent of God in form, and prakriti is matter.",
+   "evidence": [
+    "Nirguna = without qualities",
+    "Brihadaranyaka Upanishad 2.3.6 'neti, neti'"
+   ],
+   "examTip": "Learn the pair nirguna/saguna – they are easy marks and are needed in longer answers.",
+   "answerTopic": "nirguna Brahman"
+  },
+  {
+   "question": "Which one of the following describes the Paramatma?\nA) The divine present within the heart of every being\nB) The goddess of wealth\nC) The material world\nD) The fourth age of the universe",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) The divine present within the heart of every being.\nParamatma ('Supreme Self' or Supersoul) is the feature of the divine 'within the heart', the second of the three features of the divine (Brahman, Paramatma, Bhagavan).",
+   "evidence": [
+    "Bhagavad Gita 18.61",
+    "Bhagavata Purana 1.2.11"
+   ],
+   "examTip": "Connect each feature of the divine with its 'location': everywhere, within the heart, beyond.",
+   "answerTopic": "three features of the divine"
+  },
+  {
+   "question": "Give one of the three features of the divine in Hindu belief.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: Brahman – the divine everywhere as non-personal energy; Paramatma – the divine within the heart; Bhagavan – the divine beyond as a personal loving God.",
+   "evidence": [
+    "Bhagavata Purana 1.2.11"
+   ],
+   "examTip": "A single accurate term is enough; don't waste time explaining a 1-mark answer.",
+   "answerTopic": "three features of the divine"
+  },
+  {
+   "question": "Give one name for an eternal spiritual world in Hindu belief.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: Vaikuntha (the realm of Vishnu); Goloka (the realm of Krishna); Kailasa (the abode of Shiva); Brahman / the spiritual sky.",
+   "evidence": [
+    "Bhagavad Gita 15.6"
+   ],
+   "examTip": "Spelling of Sanskrit names does not need to be perfect, but it must be recognisable.",
+   "answerTopic": "spiritual worlds"
+  },
+  {
+   "question": "Explain two contrasting Hindu understandings of Brahman.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First understanding: Some Hindus, especially followers of Advaita Vedanta, understand Brahman as nirguna – ultimate reality without qualities, pure consciousness beyond any form or description. Shankara taught that Brahman alone is real and that the true self (atman) is identical with Brahman, so the goal is to realise this oneness through knowledge rather than to worship a separate God.\n\nSecond understanding: Other Hindus, especially Vaishnavas such as followers of Ramanuja or ISKCON, understand Brahman as ultimately saguna – a personal God with real qualities such as love and mercy, such as Vishnu or Krishna. For them the impersonal aspect is only one feature of God, and the highest goal is a loving relationship of devotion (bhakti) in which the soul remains distinct from God.",
+   "evidence": [
+    "Nirguna/saguna",
+    "Shankara – Advaita",
+    "Ramanuja – Vishishtadvaita",
+    "Chandogya Upanishad 6.8.7 'Tat tvam asi'"
+   ],
+   "examTip": "With 'contrasting', make sure the two points really differ – naming two schools (Advaita and Vaishnava) makes the contrast obvious.",
+   "answerTopic": "understandings of Brahman"
+  },
+  {
+   "question": "Explain two ways in which belief that the divine is present within the heart influences Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because God as Paramatma is believed to live in every being's heart, Hindus are encouraged to treat all living beings with respect and non-violence (ahimsa). Many Hindus greet others with 'namaste' – bowing to the divine in the other person – and some are vegetarian because animals also have the divine within them.\n\nSecond way: Belief that God is within means a Hindu can worship anywhere, not only in a temple. Many practise meditation or japa each day, turning inward to focus on the divine in the 'space of the heart', and believe that the inner God guides their conscience when they make moral decisions.",
+   "evidence": [
+    "Paramatma",
+    "Bhagavad Gita 18.61",
+    "Namaste",
+    "Ahimsa"
+   ],
+   "examTip": "'Influence' questions need practical effects on how Hindus live – actions, attitudes, worship.",
+   "answerTopic": "divine within the heart"
+  },
+  {
+   "question": "Explain two Hindu teachings about the three features of the divine.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: The divine is everywhere as non-personal Brahman, the energy or consciousness that pervades the whole universe. The Isha Upanishad begins, 'All this is pervaded by the Lord', teaching that nothing exists apart from the divine. This encourages Hindus to see the sacred in nature, people and animals.\n\nSecond teaching: The divine is also within the heart as Paramatma and beyond as a personal loving God, Bhagavan. In the Bhagavad Gita 18.61 Krishna says, 'The Lord dwells in the hearts of all beings', and later asks Arjuna to 'always think of me, become my devotee' (18.65). The Bhagavata Purana (1.2.11) explains that one Absolute Truth 'is called Brahman, Paramatma and Bhagavan', so for many Vaishnavas these are three ways of realising the same God, with the personal form seen as the most complete.",
+   "evidence": [
+    "Isha Upanishad 1",
+    "Bhagavad Gita 18.61, 18.65",
+    "Bhagavata Purana 1.2.11",
+    "Brahman / Paramatma / Bhagavan"
+   ],
+   "examTip": "Name the text AND show what it teaches about the point you are making – that secures both source marks.",
+   "answerTopic": "three features of the divine"
+  },
+  {
+   "question": "Explain two Hindu teachings about the relationship between the one divine reality and the many gods.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Many Hindus believe there is one ultimate reality that is described in many ways. The Rig Veda states, 'Truth is one; the wise call it by many names' (1.164.46). So when Hindus worship Ganesha, Lakshmi or Shiva, they may see them as different names or aspects of the one Brahman, rather than separate rival gods.\n\nSecond teaching: The Brihadaranyaka Upanishad 3.9.1 records the sage Yajnavalkya being asked 'How many gods are there?' He begins with '3,306' and reduces the number step by step until he answers 'One', which is Brahman. This teaches that the many devas are powers or manifestations within one divine reality. Vaishnavas add that the devas are servants of the Supreme Lord, Vishnu or Krishna, who is their source.",
+   "evidence": [
+    "Rig Veda 1.164.46",
+    "Brihadaranyaka Upanishad 3.9.1–9",
+    "Devas as manifestations of Brahman"
+   ],
+   "examTip": "Brihadaranyaka Upanishad 3.9.1 is named in the specification – learn the outline of the dialogue.",
+   "answerTopic": "one and many"
+  },
+  {
+   "question": "'Brahman is best understood as a personal God.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nMany Hindus, especially Vaishnavas, would agree. In the Bhagavad Gita, the supreme reality speaks as Krishna, a person who befriends Arjuna, teaches him and asks for his love: \"Always think of me, become my devotee, worship me\" (18.65). A God who can love and be loved must be personal, so this suggests that the personal understanding is the most complete one.\n\nThe Bhagavata Purana teaches that the one Absolute Truth is known as Brahman, Paramatma and Bhagavan (1.2.11). Vaishnava teachers such as Ramanuja and, later, the Gaudiya tradition (including ISKCON) argue that these are stages of realisation, with Bhagavan – the personal God – as the fullest. Krishna even says, \"I am the basis of the impersonal Brahman\" (Gita 14.27). On this view, the impersonal Brahman is like the sunshine, while the personal God is the sun itself.\n\nA further argument is practical. Most Hindus in Britain worship through puja, arati and bhajans directed at a deity such as Krishna, Rama, Shiva or Durga. Devotion (bhakti) is the most widely practised path, and it needs a personal object of love, so the personal understanding is the one that actually shapes Hindu religious life.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nFollowers of Advaita Vedanta, following Shankara, argue that Brahman is ultimately nirguna – beyond all qualities, including personality. The Upanishads describe Brahman only as \"neti, neti\" – \"not this, not this\" (Brihadaranyaka Upanishad 2.3.6), because any description limits it. A \"person\" has a particular form and character, so calling Brahman personal makes the infinite finite.\n\nAdvaitins accept worship of a personal God (Ishvara) as a valuable stage that purifies the mind, but they teach that the final truth is \"Tat tvam asi\" – \"You are that\" (Chandogya Upanishad 6.8.7): the self is identical with Brahman. If the self and Brahman are one, there is ultimately no separate person to worship.\n\nOthers might argue that no single understanding is \"best\". The three features of the divine (everywhere, within the heart and beyond) could all be equally valid, and the Rig Veda's \"Truth is one; the wise call it by many names\" suggests that different people approach the same reality in different ways according to their nature.\n\nCONCLUSION\n\nBoth sides are rooted in Hindu scripture, so the answer depends on which tradition is followed. However, I think the statement is only partly true. The personal understanding is clearly the most influential in practice and is strongly supported by the Gita, but the existence of the nirguna tradition, and the teaching of the three features, shows that Hinduism itself does not insist on one \"best\" understanding. A justified conclusion is that a personal understanding is best for a devotee on the path of bhakti, while the impersonal understanding is preferred by those on the path of knowledge.",
+   "evidence": [
+    "Bhagavad Gita 14.27, 18.65",
+    "Bhagavata Purana 1.2.11",
+    "Brihadaranyaka Upanishad 2.3.6 'neti, neti'",
+    "Chandogya Upanishad 6.8.7 'Tat tvam asi'",
+    "Rig Veda 1.164.46",
+    "Shankara / Ramanuja"
+   ],
+   "examTip": "Use named schools (Advaita vs Vaishnava) to give your arguments a clear religious basis, and make the conclusion weigh the two sides rather than repeat them.",
+   "answerTopic": "personal or impersonal Brahman"
+  },
+  {
+   "question": "'The many Hindu deities show that Hindus do not believe in one God.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nAt first sight Hindu worship involves many deities: Ganesha is honoured at the start of new ventures, Lakshmi at Diwali, Saraswati by students and Hanuman for strength and protection. Temples in Britain often have several shrines, each with its own murti and festivals, and the Vedas contain hymns to many devas such as Agni, Indra and Varuna. To an outsider this looks like belief in many gods.\n\nThe Brihadaranyaka Upanishad itself records the answer \"3,306 gods\" (3.9.1), and popular Hindu tradition sometimes speaks of \"33 crore\" (330 million) gods. Some villagers worship local goddesses who protect a particular place, with little thought of a single supreme being. So it could be argued that, in practice, many Hindus relate to many gods.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, the same Upanishadic passage continues: Yajnavalkya reduces the number of gods step by step until he answers \"One\" – Brahman (Brihadaranyaka Upanishad 3.9.9). The point of the dialogue is that the many gods are expressions of one divine reality. The Rig Veda says, \"Truth is one; the wise call it by many names\" (1.164.46).\n\nFor Vaishnavas, Vishnu or Krishna is the one Supreme Lord and the devas are his servants or powers; for Shaivas, Shiva is the supreme God; for Shaktas, the Goddess is the supreme reality. Each of these traditions is monotheistic in the sense that it worships one supreme God. Even the Tri-murti – Brahma, Vishnu and Shiva – is often explained as three functions (creating, preserving, destroying) of one divine reality.\n\nAdvaita Hindus go further, believing that all forms are manifestations of one nirguna Brahman. Many British Hindus, when asked, describe their faith as \"belief in one God who can be worshipped in many forms\", like one person who is a parent, child and friend at the same time.\n\nCONCLUSION\n\nThe statement confuses the variety of Hindu worship with Hindu belief about ultimate reality. The scriptures most quoted by Hindus teach that there is one ultimate reality, and the main traditions each focus on one supreme God. The many deities are better understood as forms, aspects or servants of that one God. Therefore I disagree with the statement, while accepting that some popular practice can appear polytheistic and that Hinduism allows a wide range of interpretations.",
+   "evidence": [
+    "Brihadaranyaka Upanishad 3.9.1–9",
+    "Rig Veda 1.164.46",
+    "Tri-murti",
+    "Vaishnava, Shaiva, Shakta traditions"
+   ],
+   "examTip": "Avoid calling Hinduism simply 'polytheistic' – show you understand the one/many relationship and the diversity of traditions.",
+   "answerTopic": "one God or many"
+  }
+ ]
+}

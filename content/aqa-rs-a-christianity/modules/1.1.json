@@ -1,0 +1,147 @@
+{
+ "paper": "Beliefs",
+ "module": "1.1",
+ "moduleTitle": "The nature of God: omnipotent, loving and just, and the problem of evil and suffering",
+ "note": {
+  "specFocus": "Spec: Key beliefs — the nature of God: God as omnipotent, loving and just, and the problem of evil and suffering.",
+  "summary": "Christians believe in one God whose nature is revealed in the Bible and above all in Jesus. Three qualities are named in the specification.\n\nOmnipotent (all-powerful)\n• God created the universe from nothing (ex nihilo) simply by speaking: 'Let there be light' (Genesis 1:3).\n• 'With God all things are possible' (Matthew 19:26). The Apostles' Creed calls God 'the Father almighty'.\n• Most Christians say omnipotence means God can do anything that is logically possible and consistent with his nature — he cannot, for example, do evil.\n\nLoving (benevolent)\n• 'God is love' (1 John 4:8). God's love is agape — selfless, unconditional love.\n• The supreme example is the sending of Jesus: 'For God so loved the world that he gave his one and only Son' (John 3:16).\n• Influence: Christians try to love others unconditionally (Mark 12:31 'Love your neighbour as yourself'), find comfort in prayer, and support charities.\n\nJust\n• God is fair and righteous; he judges people according to how they live (Matthew 25:31–46, the sheep and the goats).\n• God demands justice for the poor: 'let justice roll on like a river' (Amos 5:24); 'act justly and love mercy' (Micah 6:8).\n• God's justice is balanced by mercy — through Jesus, God forgives those who repent.\n• Influence: Christians campaign for fairness (e.g. Fairtrade, Christian Aid, Tearfund) and take moral responsibility.\n\nThe problem of evil and suffering\n• Moral evil: suffering caused by human choices (war, abuse, crime). Natural evil: suffering from natural causes (earthquakes, disease).\n• The 'inconsistent triad': if God is omnipotent and loving, why does evil exist? Some conclude God does not exist or is not as Christians describe him. This can lead believers to doubt.\n\nChristian responses\n• Free will: God gave humans freedom so that love could be genuine; misuse of freedom brought sin into the world (the Fall, Genesis 3). Augustine taught that evil is the result of the Fall, not God's creation.\n• Soul-making: Irenaeus, and later John Hick, argued suffering helps humans grow into the 'likeness' of God by developing compassion, courage and patience.\n• Job: a righteous man who suffers; God's answer (Job 38–42) is that his wisdom is beyond human understanding. Christians are called to trust.\n• God shares suffering: through Jesus' crucifixion God experienced pain; the resurrection promises it will end — 'He will wipe every tear from their eyes' (Revelation 21:4).\n• Practical response: prayer, and helping those who suffer (Good Samaritan, Luke 10:25–37).\n\nDiversity of views\n• Some Christians emphasise God's sovereignty (e.g. Calvinist traditions), others God's self-limiting love giving freedom to creation.\n• Not all Christians are satisfied by theodicies; many simply say suffering is a mystery but that God is present in it.\n\nContemporary examples: Christians often respond to disasters through relief agencies such as Tearfund, CAFOD or Christian Aid; hospital chaplains and the hospice movement (founded by Christian Dame Cicely Saunders) show compassion to those who suffer.\n\nKey terms: omnipotent, benevolent, just, agape, moral evil, natural evil, free will, theodicy, the Fall."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following words means that God is all-powerful?\nA  Omniscient\nB  Omnipotent\nC  Omnipresent\nD  Benevolent",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Omnipotent\n\nOmnipotent comes from the Latin omnis (all) and potens (powerful). Omniscient means all-knowing, omnipresent means present everywhere, and benevolent means all-loving/good. Christians see God's omnipotence in creation ('Let there be light', Genesis 1:3) and in Jesus' words 'with God all things are possible' (Matthew 19:26).",
+   "evidence": [
+    "Matthew 19:26",
+    "Genesis 1:3"
+   ],
+   "examTip": "Learn the four 'omni'/quality words precisely — they are a favourite multiple-choice target.",
+   "answerTopic": "omnipotence"
+  },
+  {
+   "question": "Which one of the following is the problem of evil and suffering most directly a challenge to?\nA  Belief that God is the Trinity\nB  Belief that God is omnipotent and loving\nC  Belief in the incarnation\nD  Belief in the authority of the Church",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Belief that God is omnipotent and loving\n\nThe problem of evil asks why a God who is all-powerful (able to stop suffering) and all-loving (wanting to stop suffering) allows evil to exist. It is therefore a direct challenge to belief that God is omnipotent and loving (and just). The other options are not the focus of the problem.",
+   "evidence": [
+    "Epicurus' (attributed) dilemma",
+    "1 John 4:8 'God is love'"
+   ],
+   "examTip": "Link the problem of evil to the specific qualities it challenges: omnipotent, loving (benevolent) and just.",
+   "answerTopic": "problem of evil"
+  },
+  {
+   "question": "Give one way in which the Bible shows that God is just.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.:\n• God judges people fairly according to what they have done (e.g. the parable of the sheep and the goats, Matthew 25:31–46).\n• God commands justice for the poor and oppressed ('let justice roll on like a river', Amos 5:24).\n• God punishes wrongdoing but is also merciful (e.g. Adam and Eve are punished for disobedience in Genesis 3).\n• God's laws (e.g. the Ten Commandments) set out what is right and fair.",
+   "evidence": [
+    "Amos 5:24",
+    "Matthew 25:31–46",
+    "Genesis 3"
+   ],
+   "examTip": "One accurate point is enough — don't waste time writing more for a 1-mark question.",
+   "answerTopic": "justice of God"
+  },
+  {
+   "question": "Give one type of evil that causes suffering.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Either:\n• Moral evil — suffering caused by humans misusing free will (e.g. murder, war, theft).\n• Natural evil — suffering caused by natural events not directly caused by humans (e.g. earthquakes, disease, tsunamis).",
+   "evidence": [
+    "Moral evil",
+    "Natural evil"
+   ],
+   "examTip": "Name the type; a quick example is fine but not required.",
+   "answerTopic": "types of evil"
+  },
+  {
+   "question": "Explain two ways in which belief that God is loving influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because Christians believe 'God is love' (1 John 4:8), they try to show the same unconditional love (agape) to others. This influences them to treat everyone — including enemies and strangers — with kindness and respect, for example by volunteering at a night shelter or supporting a food bank.\n\nSecond way: Belief in a loving God gives Christians comfort and hope when they suffer. Even in illness or bereavement they trust that God cares for them personally and has not abandoned them, so they may turn to prayer and to their church community for support rather than despair.",
+   "evidence": [
+    "1 John 4:8",
+    "John 3:16",
+    "Agape love"
+   ],
+   "examTip": "Make each way clearly separate, then add a second sentence that develops it (an example, consequence or reason).",
+   "answerTopic": "loving God influence"
+  },
+  {
+   "question": "Explain two ways in which belief that God is just influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Christians believe God is just and wants a fair world, so they are influenced to campaign for justice themselves. For example, many support Fairtrade or charities such as Christian Aid which tackle the causes of poverty, following teachings like Amos 5:24 'let justice roll on like a river'.\n\nSecond way: Because God will judge everyone fairly, Christians try to live morally and take responsibility for their actions. Knowing they will be accountable (Matthew 25), they try to follow Jesus' teaching, confess their sins and make amends when they do wrong.",
+   "evidence": [
+    "Amos 5:24",
+    "Matthew 25:31–46",
+    "Micah 6:8"
+   ],
+   "examTip": "'Influence' questions want what Christians actually DO or how they think/feel because of the belief.",
+   "answerTopic": "just God influence"
+  },
+  {
+   "question": "Explain two Christian teachings about the omnipotence of God.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: God is all-powerful because he created the whole universe out of nothing. Genesis 1 describes God simply speaking ('Let there be light') and the world coming into being, showing that nothing is beyond his power. Many Christians therefore believe God sustains the universe at every moment.\n\nSecond teaching: God's power is shown in miracles and above all in raising Jesus from the dead. The Apostles' Creed begins 'I believe in God, the Father almighty, creator of heaven and earth', and Jesus taught 'with God all things are possible' (Matthew 19:26). For Christians this means God's power can overcome even death and sin.\n\nSource of authority applied: Matthew 19:26 shows Christians that no situation is hopeless, because God's power is unlimited — though most Christians add that God uses his power in a way consistent with his love and does not override human free will.",
+   "evidence": [
+    "Genesis 1:1–3",
+    "Matthew 19:26",
+    "Apostles' Creed: 'God, the Father almighty'"
+   ],
+   "examTip": "To get the source mark fully, name the source AND explain what it shows about the teaching.",
+   "answerTopic": "omnipotence"
+  },
+  {
+   "question": "Explain two Christian responses to the problem of evil and suffering.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First response — free will: Many Christians argue that God gave humans free will so that they could freely choose to love him and others. Moral evil, such as war or cruelty, is the result of humans misusing that freedom. The story of the Fall (Genesis 3) shows Adam and Eve choosing to disobey God, bringing sin and suffering into the world. A world of genuine choice, they argue, is better than a world of robots.\n\nSecond response — suffering can have a purpose / trust in God: Some Christians, following thinkers such as Irenaeus and John Hick, believe suffering can help people develop virtues like courage, compassion and patience ('soul-making'). Others point to the Book of Job: Job suffers terribly but learns to trust God, whose ways are beyond human understanding (Job 38–42).\n\nPractical response: Christians also respond by praying for those who suffer and by helping them, as in the Parable of the Good Samaritan (Luke 10:25–37), and they believe God shares in suffering through Jesus on the cross.",
+   "evidence": [
+    "Genesis 3 (the Fall)",
+    "Book of Job 38–42",
+    "Irenaeus / John Hick 'soul-making'",
+    "Luke 10:25–37"
+   ],
+   "examTip": "Name a specific text (e.g. Job or Genesis 3) and show how it answers the problem.",
+   "answerTopic": "evil and suffering responses"
+  },
+  {
+   "question": "‘The existence of evil and suffering proves that God is not loving.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nThe problem of evil, often traced back to Epicurus and developed by modern philosophers, argues that if God is omnipotent he could stop suffering, and if he is loving he would want to; yet suffering clearly exists. A loving parent would not allow their child to suffer pointlessly, so many people — including some who once believed — conclude that God either does not exist or is not loving.\n\nNatural evil is particularly difficult to explain. Free will can account for murder or war, but it cannot explain why innocent children die of cancer or why earthquakes kill thousands. If God designed the world, he chose to include processes that cause terrible suffering, which seems incompatible with love. Even the Bible contains cries like 'My God, my God, why have you forsaken me?' (Psalm 22:1), showing that believers themselves have felt abandoned.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMost Christians reject the statement. They argue that love requires freedom: God gave humans free will so that love could be real, and much suffering comes from human choices (Genesis 3). A loving God respects that freedom rather than controlling people like puppets.\n\nIrenaeus and John Hick suggested that the world is a 'vale of soul-making' in which suffering allows people to develop compassion, courage and forgiveness — qualities which could not exist in a world with no difficulties. Christians also point to Job, who learns that human beings cannot fully understand God's purposes.\n\nAbove all, Christians believe God has shown his love by entering suffering himself: 'For God so loved the world that he gave his one and only Son' (John 3:16). Jesus suffered and died on the cross, so God is not distant from pain. The resurrection and the promise that God 'will wipe every tear from their eyes' (Revelation 21:4) show suffering is not the final word.\n\nJUSTIFIED CONCLUSION\n\nThe statement says evil 'proves' God is not loving, which is too strong. The existence of suffering is a serious challenge, and natural evil in particular is hard to answer, so it is reasonable for someone to conclude that it makes belief in a loving God less likely. However, proof requires that there could be no good reason for God to allow suffering, and Christians offer several plausible reasons — free will, soul-making and God's sharing in suffering through Christ. I therefore conclude that evil and suffering raise a genuine question about God's love but do not prove that God is unloving.",
+   "evidence": [
+    "Epicurus' dilemma",
+    "Psalm 22:1",
+    "Genesis 3",
+    "Irenaeus / Hick 'vale of soul-making'",
+    "John 3:16",
+    "Revelation 21:4",
+    "Book of Job"
+   ],
+   "examTip": "Pick up the key word in the statement ('proves') and use it in your conclusion — it often lets you reach a nuanced judgement.",
+   "answerTopic": "evil and a loving God"
+  },
+  {
+   "question": "‘Belief in an omnipotent God is more important to Christians than belief in a loving God.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nOmnipotence underpins all other Christian beliefs. Without God's power there would be no creation ('In the beginning God created the heavens and the earth', Genesis 1:1), no miracles, no resurrection and no hope of eternal life. The Apostles' Creed begins with 'God, the Father almighty', suggesting that God's power is foundational.\n\nA loving God who lacked power could not actually save anyone. Christians trust that God can defeat sin and death because 'with God all things are possible' (Matthew 19:26). In this sense, God's love would make no practical difference to believers without the omnipotence to put that love into action.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany Christians would say that love is the very nature of God: 1 John 4:8 says 'God is love', and the Bible never defines God simply as power. Jesus summed up the whole law as loving God and loving your neighbour (Mark 12:30–31), so love is central to how Christians should live.\n\nThe heart of Christianity is the cross. On the cross God's power is shown not through force but through self-giving love: 'For God so loved the world that he gave his one and only Son' (John 3:16). Paul even says that God's power is 'made perfect in weakness' (2 Corinthians 12:9). This suggests Christians understand omnipotence through love, not the other way round.\n\nAn all-powerful God who did not love would be frightening rather than worthy of worship. Many Christians find comfort in suffering because they believe God loves them personally, not merely because he is powerful.\n\nLove also shapes how Christians live day to day. Believers are commanded to forgive, to care for the poor and to love their enemies (Matthew 5:44) because this reflects God's own character; belief in God's power alone would not produce this way of life.\n\nJUSTIFIED CONCLUSION\n\nBoth qualities matter, and many Christians would say it is a false choice because God's attributes are united — he is omnipotent, loving and just at once. However, I think the statement is mostly wrong. The New Testament places love at the centre of God's identity and of Christian ethics, and the cross shows that God's power is always exercised in love. Omnipotence is essential, but for most Christians it is God's love that gives his power its meaning and makes him worthy of worship.",
+   "evidence": [
+    "Genesis 1:1",
+    "Apostles' Creed",
+    "Matthew 19:26",
+    "1 John 4:8",
+    "John 3:16",
+    "Mark 12:30–31",
+    "2 Corinthians 12:9"
+   ],
+   "examTip": "In 'more important' statements, compare the two things directly rather than writing two separate essays.",
+   "answerTopic": "omnipotence vs love"
+  }
+ ]
+}

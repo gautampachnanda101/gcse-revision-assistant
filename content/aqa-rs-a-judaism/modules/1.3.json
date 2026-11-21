@@ -1,0 +1,141 @@
+{
+ "paper": "Beliefs",
+ "module": "1.3",
+ "moduleTitle": "Beliefs about life after death, including judgement and resurrection",
+ "note": {
+  "specFocus": "Key beliefs: Jewish beliefs about life after death, including judgement and resurrection, and the different views held within Judaism (Orthodox and Reform).",
+  "summary": "Life after death in Judaism\nThe Tenakh says relatively little about life after death. Judaism focuses mainly on living well in this world by keeping the mitzvot. Even so, there is a long tradition of belief in a life beyond death, and Jews hold a range of views about it.\n\nKey terms\n• Sheol: in the early books of the Tenakh, a shadowy place of the dead where all people go (e.g. Psalm 6:5, Ecclesiastes 9:10).\n• Olam Ha-Ba: \"the world to come\". It can mean life after death, or the perfected world of the messianic age.\n• Gan Eden: \"the Garden of Eden\", a paradise where the souls of the righteous are with God.\n• Gehinnom: a place of purification, not eternal punishment. Rabbinic tradition says most souls spend no more than twelve months there (Mishnah Eduyot 2:10), which is why mourners say Kaddish for eleven months, so as not to suggest their parent needed the full twelve.\n• Techiyat ha-metim: \"resurrection of the dead\".\n\nResurrection\n• Daniel 12:2: \"Many of those who sleep in the dust of the earth will awake, some to everlasting life, others to reproach and everlasting contempt.\"\n• Ezekiel 37, the vision of the valley of dry bones coming back to life, is often read as a symbol of resurrection and of Israel's national renewal.\n• The Mishnah (Sanhedrin 10:1) says, \"All Israel have a share in the world to come\", but warns that someone who denies the resurrection of the dead loses that share.\n• Maimonides' 13th Principle of Faith: belief in the resurrection of the dead. The second blessing of the Amidah praises God \"who gives life to the dead\" (mechayeh ha-metim).\n• Many Orthodox Jews believe in a bodily resurrection when the Messiah comes. This is one reason they bury the body whole and do not allow cremation.\n\nJudgement\n• Jews believe God judges each person. At Rosh Hashanah and Yom Kippur God judges the living, writing people in the Book of Life.\n• After death the soul is judged on how the person lived: their keeping of the mitzvot, their kindness and their justice. \"The dust returns to the earth as it was, and the spirit returns to God who gave it\" (Ecclesiastes 12:7).\n• The rabbis taught that the righteous of all nations have a share in the world to come (Tosefta Sanhedrin 13:2). Non-Jews do not need to become Jewish to be rewarded, as long as they keep the seven Noahide laws.\n\nDiversity\n• Orthodox: affirm resurrection and judgement as principles of faith, and keep the traditional wording of the Amidah.\n• Reform and Liberal: many reject bodily resurrection and believe instead in the immortality of the soul, or that people live on through their deeds, children and memory. Some Reform prayer books offer \"who gives life to all\" (mechayeh hakol) in place of \"to the dead\". Reform Judaism permits cremation.\n• Many Jews of all groups say that it is impossible to know about the afterlife, and that what matters is this life. Pirkei Avot 4:17 says one hour of repentance and good deeds in this world is better than all the life of the world to come.\n\nInfluence\nThese beliefs encourage moral responsibility, shape burial and mourning (quick burial, no cremation for the Orthodox, Kaddish, yahrzeit) and offer comfort to the bereaved."
+ },
+ "questions": [
+  {
+   "question": "What is the Jewish term for 'the world to come'?\nA Gehinnom\nB Olam Ha-Ba\nC Shekhinah\nD Mashiach",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – Olam Ha-Ba. Gehinnom is a place of purification, Shekhinah is the divine presence, and Mashiach is the Messiah.",
+   "evidence": [
+    "Mishnah Sanhedrin 10:1"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "life after death"
+  },
+  {
+   "question": "Which one of the following is a Jewish belief about the resurrection of the dead?\nA Souls are reborn in a different body many times\nB The dead will be raised to life at a future time\nC Only animals are resurrected\nD The body is unimportant, so cremation is required",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B. Daniel 12:2 and Maimonides' 13th Principle teach that the dead will be raised in the future, often linked to the messianic age. Rebirth into many bodies (A) is not mainstream Jewish teaching, and Orthodox Jews forbid cremation.",
+   "evidence": [
+    "Daniel 12:2",
+    "Maimonides, 13th Principle"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "resurrection"
+  },
+  {
+   "question": "Give two Jewish beliefs about what happens after death.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• The soul returns to God (Ecclesiastes 12:7).\n• God judges each person's life.\n• The righteous go to Gan Eden.\n• Souls may be purified in Gehinnom for up to twelve months.\n• The dead will be resurrected in the messianic age.\n• A person lives on through their good deeds, children and memory (a common Reform view).",
+   "evidence": [
+    "Ecclesiastes 12:7",
+    "Daniel 12:2",
+    "Mishnah Eduyot 2:10"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "life after death"
+  },
+  {
+   "question": "Give two reasons why Jews may focus more on this life than on life after death.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• The Torah says little about the afterlife.\n• The mitzvot are to be lived in this world.\n• Judaism is a religion of deeds.\n• \"Choose life\" (Deuteronomy 30:19).\n• Pirkei Avot says one hour of good deeds in this world is better than all of the world to come.\n• Nobody can know what happens after death.",
+   "evidence": [
+    "Deuteronomy 30:19",
+    "Pirkei Avot 4:17"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "life after death"
+  },
+  {
+   "question": "Explain two contrasting Jewish beliefs about resurrection.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Many Orthodox Jews believe in the bodily resurrection of the dead. It is Maimonides' 13th Principle of Faith, and Daniel 12:2 speaks of those who \"sleep in the dust\" awakening. In the Amidah they praise God \"who gives life to the dead\". Because the body will be raised, they bury the body whole and quickly and do not allow cremation.\n\n2. Many Reform and Liberal Jews do not believe in a physical resurrection. Instead they believe the soul is immortal, or that people live on through their deeds and in the memory of those who loved them. Some Reform prayer books change the Amidah blessing to \"who gives life to all\", and Reform Judaism permits cremation.",
+   "evidence": [
+    "Daniel 12:2",
+    "Amidah, second blessing (Gevurot)",
+    "Pittsburgh Platform (1885), Reform rejection of bodily resurrection"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "resurrection"
+  },
+  {
+   "question": "Explain two ways in which belief in judgement after death influences Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It encourages them to keep the mitzvot and live ethically. Jews believe God will judge their lives, so they try to act justly, give tzedakah and show kindness, knowing their choices matter to God. The rabbis compared this world to a corridor before a banqueting hall: people should prepare themselves in the corridor (Pirkei Avot 4:16).\n\n2. It shapes repentance and mourning practices. Many Jews do teshuvah regularly, especially at the High Holy Days, so as to stand right before God. Mourners recite the Kaddish for eleven months after a parent dies. Many believe this helps the soul of the dead, who may spend up to twelve months being purified in Gehinnom before entering Gan Eden.",
+   "evidence": [
+    "Pirkei Avot 4:16",
+    "Mishnah Eduyot 2:10"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "judgement"
+  },
+  {
+   "question": "Explain two Jewish teachings about judgement after death. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. God judges each soul according to how the person lived. Ecclesiastes 12:7 teaches that \"the spirit returns to God who gave it\", and the following verses say that God will bring every deed into judgement (12:14). Jews believe they will be held to account for keeping the mitzvot and for treating others justly, which gives moral weight to daily choices.\n\n2. Judgement is merciful and usually leads to purification rather than everlasting punishment. Rabbinic teaching (Mishnah Eduyot 2:10) says the judgement of the wicked in Gehinnom lasts twelve months. After this most souls are purified and enter Gan Eden. The Mishnah also teaches that \"all Israel have a share in the world to come\" (Sanhedrin 10:1), and the rabbis taught that the righteous of all nations share in it too, showing that God's judgement is fair and generous.",
+   "evidence": [
+    "Ecclesiastes 12:7, 12:14",
+    "Mishnah Eduyot 2:10",
+    "Mishnah Sanhedrin 10:1",
+    "Tosefta Sanhedrin 13:2"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "judgement"
+  },
+  {
+   "question": "Explain two Jewish beliefs about resurrection. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The dead will be raised in the future. Daniel 12:2 teaches that \"many of those who sleep in the dust of the earth will awake, some to everlasting life, others to reproach\". Many Orthodox Jews believe this will happen in the messianic age, and it is the last of Maimonides' Thirteen Principles. It gives hope that death is not the end.\n\n2. Resurrection is praised daily in prayer. The second blessing of the Amidah praises God as the one \"who gives life to the dead\". The Mishnah (Sanhedrin 10:1) warns that a person who denies the resurrection loses their share in the world to come. Belief in the resurrection of the body explains why Orthodox Jews treat the body with great respect after death: they bury it whole, without cremation and usually within a day.",
+   "evidence": [
+    "Daniel 12:2",
+    "Mishnah Sanhedrin 10:1",
+    "Amidah, second blessing",
+    "Ezekiel 37"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "resurrection"
+  },
+  {
+   "question": "\"Jews should focus on this life, not on life after death.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Torah itself says very little about the afterlife. Its main concern is how to live in this world: God gives the mitzvot and commands, \"Choose life, so that you and your descendants may live\" (Deuteronomy 30:19). Judaism is often described as a religion of deeds, in which keeping Shabbat, giving tzedakah and acting justly are the centre of religious life.\n\nMany Jews argue that focusing on rewards after death could make people act for selfish reasons. Pirkei Avot (1:3) teaches that one should serve God not like a servant hoping for a reward, but out of love. Pirkei Avot 4:17 even says that one hour of repentance and good deeds in this world is better than all the life of the world to come. Reform and Liberal Jews, many of whom are uncertain about life after death, stress living on through good deeds and working for tikkun olam now.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nBelief in life after death is an important part of traditional Jewish teaching. Daniel 12:2 speaks of the dead awakening, the Mishnah says \"all Israel have a share in the world to come\", and Maimonides made resurrection the 13th Principle of Faith. Orthodox Jews praise God \"who gives life to the dead\" in the Amidah three times a day, so the belief cannot be pushed aside.\n\nBelief in judgement after death also gives this life meaning. If God judges each soul, then moral choices matter, and injustice in this world will ultimately be put right. The same passage of Pirkei Avot compares this world to a corridor leading to a banqueting hall: prepare in the corridor so that you may enter the hall. On this view, focusing on the world to come is a reason to live well now, not a distraction from it.\n\nThe belief also comforts the bereaved and shapes practice: quick burial, no cremation for Orthodox Jews, and the Mourner's Kaddish all reflect beliefs about the soul and resurrection.\n\nJUSTIFIED CONCLUSION\n\nThe statement is largely right about the emphasis of Judaism, which centres on keeping the mitzvot in this world. It goes too far, however, if it suggests that life after death does not matter. Traditional teaching shows that the two belong together: the hope of Olam Ha-Ba and the reality of judgement are reasons to live faithfully now. The strongest conclusion is that Jews should focus on this life because of, not instead of, their belief in what comes after.",
+   "evidence": [
+    "Deuteronomy 30:19",
+    "Pirkei Avot 1:3, 4:16–17",
+    "Daniel 12:2",
+    "Mishnah Sanhedrin 10:1"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "life after death"
+  },
+  {
+   "question": "\"Belief in resurrection is essential for Jews.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nResurrection is part of traditional Jewish belief. Maimonides included it as the 13th of his Principles of Faith, and the Mishnah (Sanhedrin 10:1) states that a person who denies the resurrection of the dead has no share in the world to come. That is a very strong statement that the belief is not optional.\n\nIt is also part of daily worship. The second blessing of the Amidah praises God four times as the one who gives life to the dead, and Orthodox Jews say it at every service. The Tenakh supports it: Daniel 12:2 speaks of those who \"sleep in the dust\" awakening, and Ezekiel's vision of dry bones coming to life (Ezekiel 37) gives hope of renewal. For Orthodox Jews the belief also shapes practice: they bury the body whole, forbid cremation, and link resurrection to the coming of the Messiah.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nReform Judaism has long rejected bodily resurrection. The Pittsburgh Platform of 1885 described the soul as immortal but rejected bodily resurrection, and some Reform prayer books offer \"who gives life to all\" in the Amidah. Reform Jews remain fully Jewish, so the belief cannot be essential to being Jewish in practice.\n\nThe Torah, the most authoritative part of the Tenakh, does not clearly teach resurrection; the clearest text, Daniel, is from a much later book. Judaism is more concerned with deeds than with creeds, and a Jew is defined by birth or conversion, not by signing up to a list of beliefs. Many Jews, Orthodox included, admit uncertainty about what resurrection will be like and focus on living by the mitzvot now. Others prefer to believe in the immortality of the soul, or in living on through their children and their good deeds.\n\nJUSTIFIED CONCLUSION\n\nWhether the statement is true depends on which Jewish perspective is taken. For Orthodox Jews, following the Mishnah and Maimonides, belief in resurrection is a principle of faith and therefore essential. For Reform and Liberal Jews it is not, and their Jewish identity rests on covenant, ethics and community. Since Judaism places more weight on practice than on a fixed creed, the fairer conclusion is that resurrection is an important traditional belief but not essential for all Jews today.",
+   "evidence": [
+    "Mishnah Sanhedrin 10:1",
+    "Maimonides, 13th Principle",
+    "Daniel 12:2",
+    "Ezekiel 37",
+    "Pittsburgh Platform 1885"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "resurrection"
+  }
+ ]
+}

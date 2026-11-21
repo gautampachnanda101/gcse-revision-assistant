@@ -1,0 +1,137 @@
+{
+ "paper": "Practices",
+ "module": "2.2",
+ "moduleTitle": "Popular piety: the Rosary and the Stations of the Cross",
+ "note": {
+  "specFocus": "AQA 8062 Catholic Christianity, worship: the role and importance of popular piety, including the Rosary and the Stations of the Cross.",
+  "summary": "KEY IDEA: Popular piety means forms of devotion that grew up among ordinary Catholics alongside the official liturgy (the Mass and sacraments). Examples include the Rosary, the Stations of the Cross, processions, pilgrimages, novenas, the veneration of relics and the use of medals (CCC 1674). The Church teaches that these devotions \"extend the liturgical life of the Church, but do not replace it\" (CCC 1675). They should lead people towards the liturgy. The Vatican's Directory on Popular Piety and the Liturgy (2001) gives guidance on this.\n\nTHE ROSARY\nWhat it is: a meditative prayer using a string of beads. The person meditates on events (\"mysteries\") in the lives of Jesus and Mary while praying vocal prayers.\nStructure: it begins with the sign of the cross, the Apostles' Creed, an Our Father, three Hail Marys and a Glory Be. Then come five decades. Each decade is one Our Father, ten Hail Marys and a Glory Be, often followed by the Fatima prayer (\"O my Jesus, forgive us our sins…\"). It ends with the Hail Holy Queen (Salve Regina).\nThe mysteries:\n• Joyful: Annunciation, Visitation, Nativity, Presentation, Finding in the Temple.\n• Luminous (added by Pope John Paul II in Rosarium Virginis Mariae, 2002): Baptism of Jesus, Wedding at Cana, Proclamation of the Kingdom, Transfiguration, Institution of the Eucharist.\n• Sorrowful: Agony in the Garden, Scourging, Crowning with Thorns, Carrying of the Cross, Crucifixion.\n• Glorious: Resurrection, Ascension, Descent of the Holy Spirit, Assumption of Mary, Coronation of Mary.\nThe Hail Mary draws on scripture: Gabriel's greeting \"Greetings, favoured one! The Lord is with you\" (Luke 1:28) and Elizabeth's \"Blessed are you among women, and blessed is the fruit of your womb\" (Luke 1:42).\nImportance: John Paul II called the Rosary a \"compendium of the Gospel\". With Mary, Catholics \"contemplate the face of Christ\". It can be prayed alone or in groups, at home, at wakes or vigils and online. It brings peace through rhythmic repetition, and October is the month of the Rosary. Mary is honoured, not worshipped. Catholics ask for her intercession: \"pray for us sinners\".\n\nTHE STATIONS OF THE CROSS (Way of the Cross)\nWhat it is: a devotion following Jesus's journey from condemnation to burial, usually through 14 \"stations\" (pictures or carvings around the walls of a church). At each one the person stops to pray and reflect. It began with pilgrims walking the Via Dolorosa in Jerusalem and was spread in Europe especially by the Franciscans, so people who could not travel could make a \"spiritual pilgrimage\".\nTraditional stations: 1 Jesus is condemned; 2 takes up his cross; 3 falls the first time; 4 meets his mother; 5 Simon of Cyrene helps (Mark 15:21); 6 Veronica wipes his face; 7 falls the second time; 8 meets the women of Jerusalem (Luke 23:28); 9 falls the third time; 10 is stripped; 11 is nailed to the cross; 12 dies; 13 is taken down; 14 is laid in the tomb. Some add a 15th, the resurrection. Some stations (falls, Veronica) come from tradition rather than the Gospels. In 1991 Pope John Paul II introduced a \"Scriptural Way of the Cross\" using only Gospel scenes.\nWhen: especially on Fridays in Lent and on Good Friday. The Pope leads the Stations at the Colosseum in Rome on Good Friday.\nImportance: it helps Catholics remember the cost of their redemption, feel sorrow for sin and unite their own suffering with Christ's (\"take up their cross daily\", Luke 9:23). It inspires compassion for those who suffer today, and modern versions link the stations to refugees or victims of injustice.\n\nDIFFERENT VIEWS: Many Protestants reject the Rosary because of its Marian focus and worry that repetition is the \"empty phrases\" Jesus criticised (Matthew 6:7). Some Anglicans use an Anglican rosary or pray the Stations. Catholics reply that the repetition is meditative and that the prayer is Christ-centred.\n\nKEY TERMS: popular piety, devotion, Rosary, decade, mysteries, intercession, Stations of the Cross, Via Dolorosa, Lent, Good Friday."
+ },
+ "questions": [
+  {
+   "question": "How many Hail Marys are prayed in one decade of the Rosary?\nA) Five\nB) Seven\nC) Ten\nD) Fourteen",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: C) Ten.\n\nEach decade has one Our Father, ten Hail Marys and a Glory Be. Five is the number of mysteries in each set, and fourteen is the number of traditional Stations of the Cross.",
+   "evidence": [
+    "Structure of the Rosary"
+   ],
+   "examTip": "Don't confuse the numbers: 5 mysteries per set, 10 Hail Marys per decade, 14 Stations.",
+   "answerTopic": "Rosary"
+  },
+  {
+   "question": "Which set of mysteries of the Rosary was added by Pope John Paul II in 2002?\nA) Joyful\nB) Sorrowful\nC) Glorious\nD) Luminous",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "Answer: D) Luminous (the 'Mysteries of Light'), added in Rosarium Virginis Mariae (2002).\n\nThey cover Jesus's public ministry, from his Baptism to the Institution of the Eucharist.",
+   "evidence": [
+    "Rosarium Virginis Mariae (2002)"
+   ],
+   "examTip": "Learn the four sets and one or two examples from each.",
+   "answerTopic": "Mysteries of the Rosary"
+  },
+  {
+   "question": "Give one event remembered in the Stations of the Cross.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from: Jesus is condemned to death; Jesus takes up his cross; Jesus falls (first/second/third time); Jesus meets his mother; Simon of Cyrene helps carry the cross; Veronica wipes Jesus's face; Jesus meets the women of Jerusalem; Jesus is stripped; Jesus is nailed to the cross; Jesus dies; Jesus is taken down from the cross; Jesus is laid in the tomb.",
+   "evidence": [
+    "Mark 15:21",
+    "Luke 23:26–28"
+   ],
+   "examTip": "Any single station is fine. Simon of Cyrene is a safe, Gospel-based choice.",
+   "answerTopic": "Stations of the Cross"
+  },
+  {
+   "question": "Give one time of year when Catholics especially pray the Stations of the Cross.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one from: Lent (especially the Fridays of Lent); Good Friday; Holy Week.",
+   "evidence": [
+    "Liturgical year"
+   ],
+   "examTip": "A single time is enough: 'Good Friday'.",
+   "answerTopic": "Stations – when"
+  },
+  {
+   "question": "Explain two ways in which praying the Rosary influences Catholics today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: The Rosary helps Catholics reflect on the life of Christ (1 mark). As they pray each decade they meditate on a mystery, for example the Crucifixion or the Resurrection. This deepens their understanding of the Gospel and their love for Jesus. John Paul II called it a 'compendium of the Gospel' (2nd mark).\n\nSecond way: The Rosary brings Catholics together in prayer and gives comfort in hard times (1 mark). Families or parish groups pray it together, especially in October and at vigils before funerals. Many Catholics carry rosary beads and pray when they are anxious or ill, finding peace in the repeated prayers and in asking for Mary's intercession (2nd mark).",
+   "evidence": [
+    "Rosarium Virginis Mariae",
+    "Luke 1:28, 42"
+   ],
+   "examTip": "Use practical details (October, funeral vigils, prayer groups, beads) to make the influence concrete.",
+   "answerTopic": "Rosary – influence"
+  },
+  {
+   "question": "Explain two different Christian views about the Rosary.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First view: Catholics see the Rosary as a powerful, Christ-centred prayer (1 mark). Through Mary, they meditate on the mysteries of Jesus's life. They believe Mary intercedes for them, and the Church has strongly encouraged it, for example in John Paul II's Rosarium Virginis Mariae (2002) (2nd mark).\n\nSecond view: Many Protestant Christians do not use the Rosary (1 mark). They believe prayer should be addressed directly to God through Christ, the 'one mediator' (1 Timothy 2:5). They are uneasy about prayers asking for Mary's intercession and think repetitive prayer can become the 'empty phrases' Jesus warned against (Matthew 6:7) (2nd mark).",
+   "evidence": [
+    "1 Timothy 2:5",
+    "Matthew 6:7",
+    "Rosarium Virginis Mariae"
+   ],
+   "examTip": "Give the reason behind each view, ideally with a Bible verse. That earns the development mark.",
+   "answerTopic": "Rosary – diversity"
+  },
+  {
+   "question": "Explain two reasons why the Stations of the Cross are important to Catholics.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: The Stations help Catholics remember and reflect on Jesus's suffering and death for their salvation (1 mark). By stopping at each scene they think about what Jesus endured out of love, which leads to sorrow for sin and gratitude for redemption, especially in Lent and on Good Friday (2nd mark).\n\nSecond reason: The Stations act as a spiritual pilgrimage (1 mark). They began with pilgrims walking the Via Dolorosa in Jerusalem. By moving around the church, Catholics who cannot travel to the Holy Land can still 'walk with Jesus' and unite their own suffering with his (2nd mark).\n\nSource of authority: Jesus says, 'If any want to become my followers, let them deny themselves and take up their cross daily and follow me' (Luke 9:23). The Stations put this into practice: Catholics literally follow Jesus's path to the cross and are inspired to bear their own crosses with faith (2 marks).",
+   "evidence": [
+    "Luke 9:23",
+    "Mark 15:21",
+    "Luke 23:27–28",
+    "CCC 1674"
+   ],
+   "examTip": "Link the practice to a belief, here redemption and discipleship, to show understanding rather than just description.",
+   "answerTopic": "Stations – importance"
+  },
+  {
+   "question": "Explain two reasons why Catholics pray the Rosary.\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: To meditate on the life of Jesus (1 mark). Each decade focuses on a mystery, such as the Nativity or the Resurrection, so the Rosary is a way of reflecting on the Gospel story and growing closer to Christ (2nd mark).\n\nSecond reason: To ask for Mary's prayers and to honour her (1 mark). Catholics believe Mary, as Mother of God and of the Church, intercedes for them. In each Hail Mary they ask her to 'pray for us sinners, now and at the hour of our death' (2nd mark).\n\nSource of authority: The first part of the Hail Mary comes directly from Luke's Gospel. The angel Gabriel says, 'Greetings, favoured one! The Lord is with you' (Luke 1:28), and Elizabeth says, 'Blessed are you among women, and blessed is the fruit of your womb' (Luke 1:42). This shows Catholics that honouring Mary is rooted in scripture (2 marks).",
+   "evidence": [
+    "Luke 1:28, 42",
+    "Rosarium Virginis Mariae (2002)",
+    "CCC 2678, 2708"
+   ],
+   "examTip": "Show that the Hail Mary is biblical. This is a good way to apply a source of authority.",
+   "answerTopic": "Rosary – reasons"
+  },
+  {
+   "question": "'Popular piety, such as the Rosary, is less important than the Mass.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Catholic Church teaches that the Eucharist is 'the source and summit of the Christian life' (Lumen Gentium 11). At Mass, Catholics believe Christ's sacrifice on the cross is made present and that they receive Christ himself in Holy Communion. No devotion can offer this. Attending Mass on Sundays is an obligation, whereas praying the Rosary or the Stations is optional.\n\nThe Catechism states that popular devotions 'extend the liturgical life of the Church, but do not replace it' (CCC 1675). The Directory on Popular Piety and the Liturgy (2001) warns against devotions becoming more important to people than the liturgy. So, according to the Church's own teaching, popular piety is secondary to the Mass.\n\nARGUMENTS AGAINST\n\nPopular piety can be just as important in a Catholic's daily life. Most people cannot attend Mass every day, but they can pray a decade of the Rosary on the bus or at home. John Paul II called the Rosary a 'compendium of the Gospel'. Through its mysteries it leads people to the same events, the Incarnation, death and resurrection of Jesus, that the Mass celebrates. In this way devotions help people prepare for Mass and live it out.\n\nIn some situations popular devotion may be the main way a person prays. In countries where priests are scarce, communities may gather for the Rosary when no Mass is possible. During the COVID-19 lockdowns, when churches were closed, many Catholics turned to the Rosary and the Stations at home. Popular piety also expresses the faith of a culture, for example through processions or Good Friday Stations through city streets, and can reach people who rarely attend Mass.\n\nMany Protestants would see neither the Rosary nor the Mass as essential in the Catholic sense. Some would value private Bible reading and spontaneous prayer above both, which shows that the importance of each depends on one's tradition.\n\nCONCLUSION\n\nThe statement agrees with official Catholic teaching: the Mass is the highest form of worship and devotions should never replace it. However, 'less important' should not mean 'unimportant'. Popular piety feeds the faith of ordinary Catholics every day and leads them back to the liturgy. The most convincing conclusion is that the Mass is more important in itself, because only it makes Christ's sacrifice present, but popular piety is a valuable and necessary support for the Mass, not a rival to it.",
+   "evidence": [
+    "Lumen Gentium 11",
+    "CCC 1674–1675",
+    "Directory on Popular Piety and the Liturgy (2001)",
+    "Rosarium Virginis Mariae (2002)"
+   ],
+   "examTip": "Use the Church's own teaching (CCC 1675) to judge the statement. It shows strong knowledge applied to the issue.",
+   "answerTopic": "Popular piety – evaluation"
+  },
+  {
+   "question": "'The Stations of the Cross are the best way for Catholics to prepare for Easter.'\nEvaluate this statement. In your answer you should:\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• refer to Catholic teaching\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nEaster celebrates Christ's victory over death, which cannot be understood without the cross. The Stations of the Cross lead Catholics step by step through Jesus's passion, from his condemnation to his burial. This helps them appreciate the cost of their redemption. Praying them on the Fridays of Lent builds up to Good Friday, when the Pope leads the Stations at the Colosseum and parishes gather to walk the Way of the Cross.\n\nThe Stations are active and accessible. People of all ages can take part, moving around the church, kneeling and reflecting on pictures. They put into practice Jesus's call to 'take up their cross daily and follow me' (Luke 9:23), so they shape how Catholics respond to their own suffering. Modern versions link stations to present-day suffering, such as refugees, so they can inspire compassion and action.\n\nARGUMENTS AGAINST\n\nThe Church teaches that the liturgy is central and that devotions 'do not replace it' (CCC 1675). The best preparation for Easter is arguably Lent as a whole: prayer, fasting and almsgiving (Matthew 6:1–18), beginning on Ash Wednesday. The sacrament of Reconciliation is especially encouraged before Easter so that Catholics can celebrate it in a state of grace. The Easter Triduum liturgies themselves, the Mass of the Lord's Supper, the Good Friday Celebration of the Passion and the Easter Vigil, are the high point of the Church's year.\n\nThe Stations also focus only on suffering and end at the tomb, unless a 15th station is added. Preparation for Easter should also include hope and joy. Some stations, such as Veronica and the three falls, come from tradition rather than scripture. That is why John Paul II introduced a Scriptural Way of the Cross in 1991.\n\nAlmsgiving is also important. Catholics give to CAFOD's Lent appeal or a Trócaire box, showing that preparation for Easter involves loving one's neighbour, not only personal devotion.\n\nCONCLUSION\n\nThe Stations are a powerful and much-loved way of preparing for Easter, because they place the cross at the centre and invite personal response. However, calling them the 'best' way overlooks the Church's teaching that the sacraments and liturgy come first, and that Lent involves prayer, fasting and almsgiving together. The stronger conclusion is that the Stations are one valuable part of Lenten preparation, especially on Good Friday, but Reconciliation, the Triduum and acts of charity are at least as important.",
+   "evidence": [
+    "Luke 9:23",
+    "Matthew 6:1–18",
+    "CCC 1675",
+    "Easter Triduum",
+    "Scriptural Way of the Cross (1991)"
+   ],
+   "examTip": "Offer realistic alternatives (Reconciliation, the Triduum, almsgiving). Comparison is the heart of evaluation.",
+   "answerTopic": "Stations – evaluation"
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "paper": "Beliefs",
+ "module": "1.9",
+ "moduleTitle": "The imamate in Shi'a Islam: its role and significance",
+ "note": {
+  "specFocus": "Know the Shi'a belief in the imamate (Imamah): its origins, the role of the Imams and its significance for Shi'a Muslims, compared with the Sunni understanding of leadership.",
+  "summary": "ORIGINS - THE SUCCESSION DISPUTE\nWhen the Prophet died in 632 CE, Muslims disagreed about who should lead the ummah.\n- Sunnis (ahl al-sunnah wal-jama'ah, about 85-90% of Muslims) believe the Prophet did not name a successor. The community chose Abu Bakr as first caliph (khalifah), followed by Umar, Uthman and Ali - the four 'Rightly Guided Caliphs' (al-Khulafa' al-Rashidun). Leadership is by consultation (shura, 42:38).\n- Shi'as ('Shi'at Ali', the party of Ali) believe the Prophet, at God's command, appointed his cousin and son-in-law Ali ibn Abi Talib at Ghadir Khumm (632 CE): 'Of whomever I am master (mawla), Ali is his master.' Sunnis accept the hadith but read mawla as 'friend'.\n\nWHAT IS AN IMAM (SHI'A)?\nIn everyday Islam 'imam' means the person who leads prayer at the mosque. In Shi'a theology the Imams are divinely appointed leaders from the Prophet's family (Ahl al-Bayt), descended from Ali and Fatimah. Imamah is one of the five roots of Usul ad-Din. Key beliefs:\n- Appointed by God (nass), not elected (cf. 2:124 'I will make you an imam for the people').\n- Ma'sum - sinless and infallible, purified (33:33).\n- Possess special knowledge to interpret the Qur'an and Sunnah correctly.\n- Are a 'proof' (hujjah) of God; the earth is never without one.\n- Not prophets - Muhammad remains the Seal of the Prophets.\n\nTHE TWELVE IMAMS (ITHNA 'ASHARI)\nMost Shi'as, including most in Britain, are Twelvers. The Imams include: 1 Ali (d. 661); 2 Hasan; 3 Husayn, martyred at Karbala in 680 CE (commemorated at Ashura); 6 Ja'far al-Sadiq, a great teacher of law (the Ja'fari school); 8 Ali al-Rida (shrine in Mashhad, Iran); 12 Muhammad al-Mahdi. Other Shi'a groups (e.g. Isma'ilis, led today by the Aga Khan, and Zaydis) recognise different lines.\n\nTHE HIDDEN IMAM AND THE MAHDI\nThe twelfth Imam entered the minor occultation (ghaybah) in 874 CE, communicating through four deputies, and the major occultation in 941 CE. Twelvers believe he is alive and will return as the Mahdi with 'Isa to 'fill the earth with justice' (hadith, Abu Dawud). Many Sunnis also believe in a future Mahdi, but not that he is already born and hidden.\n\nROLE AND SIGNIFICANCE TODAY\n- Authority: in the Imam's absence, Shi'as follow a marja' at-taqlid (e.g. Ayatollah Sistani); in Iran, the idea of wilayat al-faqih gives political authority to a senior jurist - not all Shi'as accept this.\n- Khums: half (sahm al-Imam) goes to the marja' for religious and charitable purposes.\n- Worship: ziyarat to shrines in Najaf, Karbala, Mashhad; Arbaeen walk; Ashura majlis and processions (e.g. in London).\n- Example: Husayn's stand against tyranny inspires justice; Ali's sayings (Nahj al-Balagha) guide ethics.\n- Hope: prayer for the Mahdi's return.\n\nKEY TERMS: Imamah, Ahl al-Bayt, ma'sum, nass, ghaybah, Mahdi, marja' at-taqlid, caliph, shura."
+ },
+ "questions": [
+  {
+   "question": "Who do Shi'a Muslims believe was the first Imam?\nA Abu Bakr\nB Ali ibn Abi Talib\nC Husayn ibn Ali\nD Muhammad al-Mahdi",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Shi'as believe the Prophet appointed his cousin and son-in-law Ali as the first Imam; Husayn was the third Imam and al-Mahdi the twelfth.",
+   "evidence": [
+    "Hadith of Ghadir Khumm"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "first Imam"
+  },
+  {
+   "question": "What do Twelver Shi'a Muslims believe happened to the twelfth Imam, Muhammad al-Mahdi?\nA He was killed at Karbala\nB He went into hiding (occultation) and will return\nC He became the first caliph\nD He wrote the Qur'an",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Twelvers believe the twelfth Imam went into occultation (ghaybah) in the 9th century and will return as the Mahdi to establish justice.",
+   "evidence": [
+    "Ghaybah (occultation), 874 CE / 941 CE"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Mahdi"
+  },
+  {
+   "question": "Give two beliefs Shi'a Muslims hold about the Imams.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: they were appointed by God through the Prophet, not elected; they are descendants of the Prophet through Ali and Fatimah; they are ma'sum (sinless/infallible); they are the authoritative interpreters of the Qur'an and Sunnah; there are twelve of them (for Twelvers); the twelfth Imam is hidden and will return as the Mahdi.",
+   "evidence": [
+    "Imamah as a root of Usul ad-Din"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "beliefs about Imams"
+  },
+  {
+   "question": "Give two ways Shi'a Muslims show the importance of the Imams today.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: following the guidance of a marja' (senior scholar) as representatives of the hidden Imam; visiting the shrines of the Imams (ziyarat), e.g. Karbala, Najaf, Mashhad; commemorating the death of Imam Husayn at Ashura; paying the Imam's share of khums (sahm al-Imam); praying for the return of the Mahdi; studying the sayings of the Imams (e.g. Nahj al-Balagha).",
+   "evidence": [
+    "Ziyarat",
+    "Sahm al-Imam"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Imamate today"
+  },
+  {
+   "question": "Explain two contrasting beliefs about leadership after the death of the Prophet Muhammad.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Sunni Muslims believe the Prophet did not name a successor, so the community chose the leader. The Companions chose Abu Bakr as the first caliph (khalifah), followed by Umar, Uthman and Ali - the four 'rightly guided caliphs'. The caliph was a political and community leader but did not have special religious authority beyond other scholars.\n\n2. Shi'a Muslims believe God, through the Prophet, appointed Ali as his successor at Ghadir Khumm, so leadership should stay within the Prophet's family (Ahl al-Bayt). The Imams were not only rulers but sinless spiritual guides who could interpret the Qur'an without error, which is why Imamah is a root of Usul ad-Din for Shi'as.",
+   "evidence": [
+    "Ghadir Khumm",
+    "Rightly guided caliphs",
+    "Ahl al-Bayt"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "succession"
+  },
+  {
+   "question": "Explain two ways belief in the Imamate influences Shi'a Muslims today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It affects religious authority. Because the twelfth Imam is in occultation, Twelver Shi'as follow a living marja' at-taqlid (source of emulation), such as Ayatollah Sistani in Najaf, for rulings on matters like fasting or new medical issues. This gives Shi'as a structured system of guidance.\n\n2. It shapes worship and commemorations. Shi'as visit the shrines of the Imams (e.g. Imam Husayn in Karbala, Imam Ali in Najaf); millions walk to Karbala for Arbaeen. They hold majlis (gatherings) at Ashura to mourn Husayn, whose stand against injustice inspires them to oppose oppression in their own lives.",
+   "evidence": [
+    "Marja' at-taqlid",
+    "Arbaeen",
+    "Ashura"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two reasons why the Imamate is important for Shi'a Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Shi'as believe the Imams are chosen by God to guide humanity after the Prophet. They point to the Qur'an's words to Ibrahim, 'Indeed, I will make you a leader (imam) for the people' (Qur'an 2:124), showing that leadership is appointed by God. The Prophet's declaration at Ghadir Khumm - 'Of whomever I am master, Ali is his master' - is seen as Ali's appointment. So following the Imams is following God's will.\n\n2. The Imams are believed to be ma'sum (infallible), so they can interpret the Qur'an and Sunnah without error. Shi'as often cite Qur'an 33:33, 'Allah intends only to remove from you the impurity, O people of the [Prophet's] household, and to purify you', as evidence of their purity. This means the teachings of the Imams provide reliable guidance on how to live, and their example - especially Imam Husayn at Karbala - is a model of faith and justice.",
+   "evidence": [
+    "Qur'an 2:124",
+    "Qur'an 33:33",
+    "Hadith of Ghadir Khumm"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "importance of Imamate"
+  },
+  {
+   "question": "Explain two Shi'a beliefs about the twelfth Imam.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Twelver Shi'as believe the twelfth Imam, Muhammad al-Mahdi, did not die but went into occultation (ghaybah). After a 'minor occultation' (874-941 CE), during which he communicated through four deputies, the 'major occultation' began, and he remains alive but hidden by God. Shi'as believe the earth is never without a proof (hujjah) of God, and he is that proof today.\n\n2. He will return at the end of time as the Mahdi ('rightly guided one') to establish justice, alongside the return of 'Isa. A widely reported hadith says he 'will fill the earth with justice as it was filled with oppression' (Abu Dawud). This gives Shi'as hope, and many pray for his return, while senior scholars (marja') guide the community in his absence.",
+   "evidence": [
+    "Hadith of the Mahdi (Sunan Abu Dawud)",
+    "Ghaybah",
+    "Hujjah"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "twelfth Imam"
+  },
+  {
+   "question": "‘Shi'a Muslims are right to believe that the Imams were chosen by God.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nShi'a Muslims believe the Prophet clearly appointed Ali at Ghadir Khumm on the way back from the Farewell Pilgrimage in 632 CE, saying 'Of whomever I am master (mawla), Ali is his master'. This hadith is recorded in both Shi'a and Sunni collections. They argue that the Qur'an presents leadership as a matter of God's choice: God told Ibrahim, 'I will make you a leader (imam) for the people', and added that the promise 'does not include the wrongdoers' (2:124), suggesting that true leaders must be pure and appointed by God. Qur'an 33:33 speaks of God purifying the Prophet's household. It seems unlikely that God would leave the community without clear guidance after the final prophet, and the conflicts that followed the Prophet's death show the need for divinely chosen leaders.\n\nARGUMENTS AGAINST THE STATEMENT\nSunni Muslims, the majority of Muslims, accept the Ghadir Khumm hadith but interpret 'mawla' as 'friend' or 'beloved', meaning the Prophet was asking people to love and support Ali, not appointing him as ruler. They point out that the Qur'an never names Ali or the Imams. They believe the Prophet did not appoint a successor, leaving the community to choose through consultation (shura), as the Qur'an praises those 'whose affair is [determined by] consultation among themselves' (42:38). The Companions chose Abu Bakr, and Ali himself eventually accepted him and later became the fourth caliph. Sunnis also argue that infallibility belongs only to prophets, so claiming it for the Imams raises them too high. A non-religious historian might see the dispute as a political struggle for power rather than divine choice.\n\nCONCLUSION\nBoth sides use the Qur'an and Hadith, and the disagreement depends largely on how texts like the Ghadir Khumm hadith and 2:124 are interpreted. Shi'a arguments show why belief in divinely chosen Imams is reasonable for them, especially given the importance of the Prophet's family. However, because the Qur'an does not explicitly name the Imams and stresses consultation, the Sunni view is also well supported. I conclude that it cannot be shown decisively which view is right; what matters most is that both traditions share the same core beliefs and respect Ali and the Ahl al-Bayt.",
+   "evidence": [
+    "Hadith of Ghadir Khumm",
+    "Qur'an 2:124",
+    "Qur'an 33:33",
+    "Qur'an 42:38 (shura)"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Imamate debate"
+  },
+  {
+   "question": "‘The Imamate is still important for Shi'a Muslims today even though the twelfth Imam is hidden.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nImamah is one of the five roots of Usul ad-Din, so for Shi'as it remains a fundamental belief whether or not the Imam is visible. Twelvers believe the twelfth Imam is alive in occultation and remains the proof (hujjah) of God on earth; his eventual return as the Mahdi to 'fill the earth with justice' gives hope in a world of injustice. In his absence, his authority is represented by qualified scholars - the marja' at-taqlid, such as Ayatollah Sistani - so the Imamate still provides living guidance on religious questions. Shi'as pay half of their khums as sahm al-Imam (the Imam's share), which funds schools, mosques and charities.\n\nThe example of the earlier Imams is also very much alive. Each year millions commemorate Imam Husayn at Ashura and walk to Karbala for Arbaeen - often described as one of the largest annual gatherings in the world. Husayn's stand against the tyrant Yazid inspires Shi'as to oppose oppression, and the teachings of Imam Ali in the Nahj al-Balagha are still studied for guidance on justice and leadership.\n\nARGUMENTS AGAINST THE STATEMENT\nSome might argue that because the Imam cannot be seen or consulted, his role has little practical effect, and that in reality Shi'as are guided by scholars and the Qur'an like Sunni Muslims. The occultation has lasted over a thousand years, which may make the belief feel distant to some young British Shi'as. Sunni Muslims do not accept the Imamate at all, so for most Muslims it has no importance. Some Shi'a scholars also disagree about how much authority the marja' should have, for instance over the Iranian idea of wilayat al-faqih (guardianship of the jurist), which suggests uncertainty about how the Imamate works in practice.\n\nCONCLUSION\nAlthough the twelfth Imam is hidden, the Imamate shapes Shi'a authority, giving (khums), worship (ziyarat, Ashura) and hope (the Mahdi's return). Its continuing influence on millions of people shows it is far from irrelevant. I therefore agree with the statement: the Imamate remains central to Shi'a identity and practice today, even if its daily impact comes through scholars and commemorations rather than direct contact with the Imam.",
+   "evidence": [
+    "Hadith of the Mahdi",
+    "Marja' at-taqlid",
+    "Sahm al-Imam",
+    "Ashura and Arbaeen",
+    "Nahj al-Balagha"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Imamate today"
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "paper": "Beliefs",
+ "module": "1.9",
+ "moduleTitle": "Jesus Christ and salvation: the role of Christ in salvation, including the idea of atonement",
+ "note": {
+  "specFocus": "Spec: Jesus Christ and salvation — beliefs and teachings about the role of Christ in salvation including the idea of atonement.",
+  "summary": "Why salvation needs Christ\n• Christians believe sin separates humans from God, and that humans cannot repair this relationship on their own: 'the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord' (Romans 6:23).\n• Jesus, fully God and fully human, is the one mediator who can bring God and humanity together.\n• 'I am the way and the truth and the life. No one comes to the Father except through me' (John 14:6); 'there is no other name under heaven… by which we must be saved' (Acts 4:12).\n\nAtonement\n• Atonement = 'at-one-ment': the restoring of the relationship between God and humanity through Jesus' life, death and resurrection.\n• 'We were reconciled to him through the death of his Son' (Romans 5:10).\n• 'Christ died for our sins according to the Scriptures' (1 Corinthians 15:3).\n\nDifferent understandings (models) of atonement\n• Sacrifice: Jesus is 'the Lamb of God, who takes away the sin of the world' (John 1:29), fulfilling the Temple sacrifices and Passover lamb. Hebrews describes him as the perfect high priest offering himself once for all.\n• Ransom: 'to give his life as a ransom for many' (Mark 10:45) — Jesus pays the price to free humanity from slavery to sin.\n• Substitution / satisfaction: Jesus takes the punishment humans deserve (Isaiah 53:5; 1 Peter 2:24). Anselm (Cur Deus Homo, c.1098) argued only a God-man could repay humanity's debt to God. Popular in evangelical Protestantism ('penal substitution').\n• Christus Victor: Jesus' death and resurrection defeat sin, death and the devil — 'Death has been swallowed up in victory' (1 Corinthians 15:54). Strong in Orthodox Christianity.\n• Moral example / influence: the cross reveals God's love and moves people to repent and love (Romans 5:8) — associated with Peter Abelard; emphasised by many liberal Christians.\n• Most Christians see these as complementary pictures rather than rival theories.\n\nThe resurrection and ascension in salvation\n• The resurrection shows the atonement has worked and that death is defeated (1 Corinthians 15:17, 20).\n• The risen and ascended Christ continues to 'intercede' for believers (Hebrews 7:25).\n\nDiversity of views on who is saved\n• Exclusivism: only those with explicit faith in Christ are saved (many evangelicals).\n• Inclusivism: salvation is through Christ, but may reach those who sincerely seek God without knowing him (Catholic Catechism 847).\n• Pluralism: many paths lead to God (a minority, liberal view).\n\nInfluence today\n• Holy Communion remembers Jesus' sacrifice: 'This is my body given for you' (Luke 22:19).\n• Good Friday and Easter; the cross as the central symbol.\n• Gratitude, assurance of forgiveness, and forgiving others.\n• Reconciliation work: 'he gave us the ministry of reconciliation' (2 Corinthians 5:18) — e.g. Coventry Cathedral's Community of the Cross of Nails, Corrymeela in Northern Ireland.\n• Evangelism: sharing the message of salvation (e.g. Alpha).\n\nKey terms: atonement, reconciliation, sacrifice, ransom, substitution, Christus Victor, redemption, Saviour, Lamb of God."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following best describes the Christian idea of atonement?\nA  Jesus' return at the end of time\nB  Restoring the relationship between God and humanity through Jesus' death\nC  Being baptised as a believer\nD  Jesus' birth in Bethlehem",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Restoring the relationship between God and humanity through Jesus' death\n\nAtonement literally means 'at-one-ment' — making God and humanity 'at one' again. Christians believe Jesus' death and resurrection repaired the relationship broken by sin. A is the Second Coming; C is believers' baptism; D is the nativity.",
+   "evidence": [
+    "Romans 5:10–11",
+    "2 Corinthians 5:18–19"
+   ],
+   "examTip": "Remember the 'at-one-ment' breakdown to define atonement quickly.",
+   "answerTopic": "atonement"
+  },
+  {
+   "question": "Which one of the following New Testament verses records Jesus saying he came 'to give his life as a ransom for many'?\nA  John 3:16\nB  Mark 10:45\nC  Romans 3:23\nD  Genesis 3:15",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — Mark 10:45\n\nMark 10:45: 'For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many.' This verse is the basis of the 'ransom' understanding of the atonement. (Genesis 3:15 is in the Old Testament.)",
+   "evidence": [
+    "Mark 10:45"
+   ],
+   "examTip": "Mark 10:45 is one of the most useful quotations for this topic.",
+   "answerTopic": "ransom"
+  },
+  {
+   "question": "Give one way Christians describe what Jesus' death achieved.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: it paid the price/ransom for sin; Jesus took the punishment humans deserved (substitution); it was the perfect sacrifice for sin; it defeated sin, death and evil (Christus Victor); it reconciled humans with God; it showed God's love and inspires people to change (moral example).",
+   "evidence": [
+    "Mark 10:45",
+    "1 Peter 2:24",
+    "Romans 5:8"
+   ],
+   "examTip": "A key word like 'sacrifice', 'ransom' or 'reconciliation' is enough.",
+   "answerTopic": "meaning of Jesus' death"
+  },
+  {
+   "question": "Give one Bible quotation that shows Jesus' death was a sacrifice for sin.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.:\n• 'Christ died for our sins according to the Scriptures' (1 Corinthians 15:3).\n• 'He himself bore our sins in his body on the cross' (1 Peter 2:24).\n• 'Look, the Lamb of God, who takes away the sin of the world!' (John 1:29).\n• 'to give his life as a ransom for many' (Mark 10:45).",
+   "evidence": [
+    "1 Corinthians 15:3",
+    "1 Peter 2:24",
+    "John 1:29",
+    "Mark 10:45"
+   ],
+   "examTip": "Learn two or three short verses word-for-word.",
+   "answerTopic": "sacrifice"
+  },
+  {
+   "question": "Explain two ways in which belief in the atonement influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Christians believe Jesus' death has reconciled them to God, so they feel forgiven and have confidence to approach God in prayer. This influences them to take part in services of Holy Communion, where they remember Jesus' sacrifice — 'This is my body given for you' (Luke 22:19) — and give thanks.\n\nSecond way: Because Christians believe Jesus gave his life for them, they try to live sacrificially for others, putting others' needs before their own. Paul writes that God 'gave us the ministry of reconciliation' (2 Corinthians 5:18), so Christians also work to reconcile people — for example by mediating in conflicts or supporting organisations like the Corrymeela Community.",
+   "evidence": [
+    "Luke 22:19",
+    "2 Corinthians 5:18",
+    "Corrymeela Community"
+   ],
+   "examTip": "Using the Eucharist as an example links Beliefs to Practices — examiners like that.",
+   "answerTopic": "atonement influence"
+  },
+  {
+   "question": "Explain two ways in which belief that Jesus is the Saviour influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Because Christians believe Jesus saves them from sin and death, they put their trust in him and follow him as Lord. Many describe making a personal commitment to Jesus, and they show this through regular worship, prayer and Bible reading.\n\nSecond way: Believing that salvation comes through Jesus — 'there is no other name under heaven… by which we must be saved' (Acts 4:12) — motivates many Christians to share the good news with others through evangelism, for example by running Alpha courses or supporting missionaries, so that others can be saved too.",
+   "evidence": [
+    "Acts 4:12",
+    "John 14:6",
+    "Alpha course"
+   ],
+   "examTip": "Show how belief changes action.",
+   "answerTopic": "Saviour influence"
+  },
+  {
+   "question": "Explain two Christian teachings about the role of Christ in salvation.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Jesus' death was a sacrifice that took away the sin of the world. John the Baptist calls Jesus 'the Lamb of God, who takes away the sin of the world' (John 1:29), linking him to the lambs sacrificed in the Temple and at Passover. Many Christians, especially evangelicals, believe in substitutionary atonement: Jesus took the punishment humans deserved — 'He himself bore our sins in his body on the cross' (1 Peter 2:24).\n\nSecond teaching: Through his resurrection Jesus defeated sin, death and evil, opening the way to eternal life. Paul writes 'Death has been swallowed up in victory' (1 Corinthians 15:54). This 'Christus Victor' view is especially emphasised by Orthodox Christians, whose Easter hymn proclaims Christ 'trampling down death by death'.\n\nApplication: Both teachings show Christians that salvation is achieved by Christ, not by human effort, and that his life, death and resurrection together reconcile people to God (Romans 5:10–11).",
+   "evidence": [
+    "John 1:29",
+    "1 Peter 2:24",
+    "1 Corinthians 15:54–57",
+    "Romans 5:10–11",
+    "Orthodox Paschal troparion"
+   ],
+   "examTip": "Name different theories of atonement to show breadth.",
+   "answerTopic": "Christ's role in salvation"
+  },
+  {
+   "question": "Explain two different Christian understandings of the atonement.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First understanding — substitution/sacrifice: Jesus died in the place of sinners, taking the punishment for sin that humans deserved, so that God's justice is satisfied and people are forgiven. Isaiah 53:5, which Christians apply to Jesus, says 'he was pierced for our transgressions… the punishment that brought us peace was on him'. Anselm of Canterbury (11th century) argued that only one who was both God and human could pay the debt of human sin.\n\nSecond understanding — moral example/reconciliation through love: Jesus' death shows the depth of God's love and inspires people to turn back to God. 'God demonstrates his own love for us in this: while we were still sinners, Christ died for us' (Romans 5:8). This view, associated with Peter Abelard, stresses that the cross changes human hearts rather than changing God.\n\nApplication: Many Christians combine these ideas with the 'ransom' teaching in Mark 10:45 and with Christus Victor (Jesus defeating evil), believing no single picture captures the full meaning of the cross.",
+   "evidence": [
+    "Isaiah 53:5",
+    "Romans 5:8",
+    "Mark 10:45",
+    "Anselm, Cur Deus Homo",
+    "Peter Abelard"
+   ],
+   "examTip": "If you name a theologian, also explain the idea in your own words.",
+   "answerTopic": "atonement theories"
+  },
+  {
+   "question": "‘Jesus' death was the only way for humans to be saved.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nMany Christians believe sin creates a separation from God that humans cannot repair themselves, since 'the wages of sin is death' (Romans 6:23). A perfect sacrifice was needed, and only Jesus, who is both God and sinless human, could offer it. Anselm argued that humanity owed a debt only humanity should pay but only God could pay — so the God-man had to die.\n\nJesus himself said 'I am the way and the truth and the life. No one comes to the Father except through me' (John 14:6), and Peter declared 'there is no other name under heaven… by which we must be saved' (Acts 4:12). In Gethsemane Jesus prayed 'if it is possible, may this cup be taken from me' (Matthew 26:39); some Christians argue that because he still had to die, there was no other way. Many evangelical Protestants hold this view firmly.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nSome Christians argue that an omnipotent, loving God could have forgiven humanity without anyone dying. In the Parable of the Lost Son (Luke 15) the father forgives freely without demanding payment. On this view the cross was the way God chose to show his love (Romans 5:8), rather than the only possible way.\n\nOthers stress that salvation involves Jesus' whole life, resurrection and the work of the Spirit, not his death alone. Paul says 'if Christ has not been raised… you are still in your sins' (1 Corinthians 15:17), so the resurrection is equally essential. Catholics and Orthodox also teach that salvation is received through the sacraments and a life of faith.\n\nSome liberal Christians and people of other faiths argue that God may save people of good will who have never heard of Jesus. The Catholic Church teaches that those who, through no fault of their own, do not know Christ but seek God sincerely may still be saved (Catechism 847) — though even then it is through Christ's grace.\n\nJUSTIFIED CONCLUSION\n\nChristian teaching is clear that salvation comes through Christ, and his death is at the centre of that. However, the statement says his death was 'the only way', and it is less clear that God could not have chosen another method; many theologians see the cross as the fitting and most loving way rather than a necessity. Also, salvation includes the resurrection, not death alone. I conclude that for Christians salvation comes only through Jesus, but it is better to say his death and resurrection together are God's chosen way of saving humanity than that his death was the only possible way.",
+   "evidence": [
+    "Romans 6:23",
+    "John 14:6",
+    "Acts 4:12",
+    "Matthew 26:39",
+    "Luke 15:11–32",
+    "Romans 5:8",
+    "1 Corinthians 15:17",
+    "Anselm",
+    "Catechism 847"
+   ],
+   "examTip": "Unpick key phrases — 'death' and 'only' — to reach a precise judgement.",
+   "answerTopic": "necessity of the cross"
+  },
+  {
+   "question": "‘The idea of atonement has no relevance for Christians today.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nThe language of atonement — sacrifice, ransom, blood, paying a debt — comes from ancient Jewish Temple practice and medieval ideas of honour, which can seem strange today. Many people in modern Britain do not think in terms of sin needing to be paid for, so the idea may seem outdated or even troubling. Some critics argue that a God who requires the death of his Son to forgive seems harsh.\n\nSome Christians focus mainly on Jesus' moral teaching — love, justice and compassion — and consider his example more relevant to modern life than theories about how his death saves people. Non-religious people would say the idea has no relevance because they reject the existence of sin and God altogether.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nFor most Christians, atonement is at the heart of their faith. 'Christ died for our sins' (1 Corinthians 15:3) is part of what Paul calls the gospel 'of first importance'. Christians remember it every time they share Holy Communion — 'This is my blood of the covenant, which is poured out for many for the forgiveness of sins' (Matthew 26:28) — and every Good Friday.\n\nThe idea is personally relevant because it offers forgiveness and freedom from guilt. Many Christians testify that knowing they are forgiven has transformed their lives, for example people who have turned away from addiction or crime.\n\nAtonement also has social relevance. Paul says God 'reconciled us to himself through Christ and gave us the ministry of reconciliation' (2 Corinthians 5:18). Christians work for reconciliation between communities — for example Coventry Cathedral's Community of the Cross of Nails, founded after the bombing of 1940 — inspired by the reconciling power of the cross.\n\nJUSTIFIED CONCLUSION\n\nThe older language of atonement may need explaining, and some theories are disputed even among Christians. However, the core idea — that through Jesus people can be reconciled to God and to each other — is clearly relevant to Christians today, both personally and socially. Its continuing place in worship and in reconciliation work shows it is far from irrelevant. I therefore disagree strongly with the statement, though I accept it may seem irrelevant from a non-religious point of view.",
+   "evidence": [
+    "1 Corinthians 15:3",
+    "Matthew 26:28",
+    "2 Corinthians 5:18–19",
+    "Community of the Cross of Nails (Coventry Cathedral)"
+   ],
+   "examTip": "Relevance questions are best answered with contemporary examples.",
+   "answerTopic": "relevance of atonement"
+  }
+ ]
+}

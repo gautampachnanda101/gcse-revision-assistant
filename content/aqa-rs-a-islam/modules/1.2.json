@@ -1,0 +1,133 @@
+{
+ "paper": "Beliefs",
+ "module": "1.2",
+ "moduleTitle": "Tawhid (the Oneness of God), Qur'an Surah 112",
+ "note": {
+  "specFocus": "Know and understand Tawhid, the Oneness of God, with particular reference to Qur'an Surah 112, and how it is expressed in Muslim belief and life.",
+  "summary": "TAWHID - THE ONENESS OF GOD\nTawhid (from the Arabic for 'making one') is the belief that Allah is one, unique and without any partner. It is the first article of faith in Sunni Islam and the first root of Usul ad-Din in Shi'a Islam, and the first half of the Shahadah: 'La ilaha illa Allah' - 'There is no god but Allah'. 'Allah' is simply the Arabic word for 'the God', and Arabic-speaking Christians use it too.\n\nSURAH 112 (AL-IKHLAS, 'SINCERITY')\n'Say: He is Allah, the One (Ahad). Allah, the Eternal Refuge (as-Samad). He neither begets nor is born, nor is there to Him any equivalent.' (Qur'an 112:1-4)\n- Ahad - absolutely one; God cannot be divided.\n- As-Samad - self-sufficient; everything depends on Him but He depends on nothing.\n- 'Neither begets nor is born' - God has no parents or children, so Muslims reject the Christian Trinity and the idea that Jesus ('Isa) is God's son, while honouring 'Isa as a great prophet.\n- 'Nothing is equivalent' - God is beyond comparison with creation (see also 42:11, 'There is nothing like unto Him').\nA hadith (Sahih al-Bukhari) reports the Prophet saying this short surah is equal to a third of the Qur'an.\n\nSHIRK\nShirk means associating partners with God - worshipping idols, treating a human as divine, or believing anything has power independent of God. It is the gravest sin: 'Allah does not forgive association with Him, but He forgives what is less than that' (4:48), meaning it is unforgiven if unrepented at death. Many scholars also warn against 'hidden' or 'minor' shirk, such as showing off in worship (riya') or making money or status one's real god.\n\nHOW TAWHID IS EXPRESSED\n- Worship is to God alone, without images or intermediaries; mosques use calligraphy and geometric patterns (aniconism).\n- The Prophet cleared the 360 idols from the Ka'bah in 630 CE.\n- All of life is 'ibadah (worship) because everything belongs to one Creator; there is no split between religious and secular.\n- Unity of humanity: one God created all, so the ummah transcends race and nation.\n- Every prophet preached Tawhid (21:25).\n\nSUNNI AND SHI'A\nBoth put Tawhid first. Shi'a theology links it closely with Adalat (God's justice) and holds that God's attributes are not separate from His essence. Some Muslims (e.g. many Salafis) criticise practices such as praying at saints' shrines as close to shirk, while many Sufis and Shi'as regard visiting shrines (ziyarat) as respectful remembrance and asking for intercession, not worship - an example of diversity in how Tawhid is applied.\n\nKEY TERMS: Tawhid, shirk, Ahad, as-Samad, riya', 'ibadah, Allahu Akbar ('God is greater')."
+ },
+ "questions": [
+  {
+   "question": "Which surah of the Qur'an is most closely associated with Tawhid?\nA Surah 1 (al-Fatihah)\nB Surah 96 (al-Alaq)\nC Surah 112 (al-Ikhlas)\nD Surah 97 (al-Qadr)",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C - Surah 112 declares 'He is Allah, the One... He neither begets nor is born, nor is there to Him any equivalent', the classic summary of Tawhid.",
+   "evidence": [
+    "Qur'an 112:1-4"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Surah 112"
+  },
+  {
+   "question": "What is the name for the sin of associating partners with Allah?\nA Shirk\nB Sawm\nC Shari'ah\nD Sunnah",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A - Shirk is treating anything as equal to God or sharing in His divinity; it is the opposite of Tawhid.",
+   "evidence": [
+    "Qur'an 4:48"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "shirk"
+  },
+  {
+   "question": "Give two things Surah 112 teaches about Allah.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: Allah is One (Ahad); Allah is the Eternal Refuge / self-sufficient, on whom all depend (as-Samad); Allah does not have children (He 'neither begets'); Allah was not born / has no parents; nothing is equal or comparable to Allah.",
+   "evidence": [
+    "Qur'an 112:1-4"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Surah 112"
+  },
+  {
+   "question": "Give two ways Muslims show belief in Tawhid in their lives.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: reciting the Shahadah ('There is no god but Allah…'); worshipping only Allah in salah; not having pictures or statues of God or the Prophet in mosques; avoiding shirk such as trusting in charms or idols; beginning actions with 'Bismillah'; decorating mosques with calligraphy and geometric patterns rather than images.",
+   "evidence": [
+    "Shahadah",
+    "Bismillah"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "living Tawhid"
+  },
+  {
+   "question": "Explain two ways belief in Tawhid influences Muslims today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It shapes worship. Because only Allah is worthy of worship, Muslims pray to God alone without intermediaries, and mosques contain no images of God or people; instead they use Arabic calligraphy of Qur'anic verses and geometric patterns that point to God's infinite nature without depicting Him.\n\n2. It shapes priorities in life. If Allah alone is God, nothing else - money, fame, celebrities or possessions - should be treated as if it were ultimate. Many Muslims see putting wealth or status above God as a form of 'hidden shirk', so Tawhid encourages humility, generosity (e.g. paying zakah) and trusting God rather than material things.",
+   "evidence": [
+    "Shirk",
+    "Calligraphy and aniconism in mosques"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two reasons why shirk is considered the greatest sin in Islam.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It directly contradicts Tawhid, the most basic belief in Islam. To treat anything as equal to Allah denies that He is the One, unique and without partner, so it attacks the foundation on which all other beliefs and practices depend.\n\n2. The Qur'an teaches that it is the one sin Allah will not forgive if a person dies without repenting of it: 'Indeed, Allah does not forgive association with Him, but He forgives what is less than that for whom He wills' (Qur'an 4:48). This shows how seriously it is taken, so Muslims are taught to guard carefully against it.",
+   "evidence": [
+    "Qur'an 4:48"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "shirk"
+  },
+  {
+   "question": "Explain two Muslim teachings about Tawhid (the Oneness of God).\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Allah is completely one and unique. Surah 112 teaches 'Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born, nor is there to Him any equivalent' (Qur'an 112:1-4). This means God cannot be divided, has no family and cannot be compared to anything created, which is why Muslims reject the Christian idea of the Trinity.\n\n2. Allah alone should be worshipped. The first part of the Shahadah, 'There is no god but Allah', expresses this, and the Prophet removed the idols from the Ka'bah when he returned to Makkah in 630 CE. Muslims therefore pray directly to God, and the five daily prayers are a constant reminder that He alone deserves worship.",
+   "evidence": [
+    "Qur'an 112:1-4",
+    "Shahadah",
+    "Removal of idols from the Ka'bah (630 CE)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Tawhid"
+  },
+  {
+   "question": "Explain two reasons why Tawhid is important to Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. It is the first and most important belief, the foundation of both the six articles and the five roots of Usul ad-Din. Every prophet taught it: 'We sent no messenger before you except that We revealed to him that there is no deity except Me, so worship Me' (Qur'an 21:25). Without belief in one God the other beliefs - angels, books, prophets, judgement - have no basis.\n\n2. It gives a unified view of life. Because one God created everything, all of life - work, family, environment - belongs to Him and should be lived according to His will. This means there is no division between 'religious' and 'everyday' life; even eating or helping a neighbour can be an act of worship ('ibadah) if done for God.",
+   "evidence": [
+    "Qur'an 21:25",
+    "'Ibadah (worship in all of life)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Tawhid"
+  },
+  {
+   "question": "‘Tawhid is the most important belief in Islam.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nTawhid is the first of the six articles of faith for Sunni Muslims and the first of the five roots of Usul ad-Din for Shi'a Muslims, so both traditions place it at the very start. The first words of the Shahadah, 'There is no god but Allah', state it, and a person becomes a Muslim by declaring it. The Prophet is reported to have said that Surah 112, which teaches 'He is Allah, the One', is equal to a third of the Qur'an, showing how central it is.\n\nEvery other belief depends on Tawhid. Angels are God's servants, prophets are God's messengers, holy books are God's words and the Day of Judgement is God's judgement. If there were not one God, none of these would make sense. The seriousness of shirk, which Allah will not forgive if unrepented (Qur'an 4:48), also shows that denying Tawhid is the worst possible mistake. The Qur'an says every messenger taught it (Qur'an 21:25).\n\nARGUMENTS AGAINST THE STATEMENT\nSome Muslims might argue that Risalah (prophethood) is equally important, because without the prophets and especially Muhammad people would not know who God is or how to worship Him; the Shahadah has two parts, and the second, 'Muhammad is the messenger of Allah', is also required. Others argue Akhirah matters most in practice, because the knowledge that every action will be judged ('whoever does an atom's weight of evil will see it', Qur'an 99:8) motivates moral behaviour.\n\nShi'a Muslims may argue that Adalat (justice) or Imamah are just as essential, since without trusting that God is just, and without guidance from the Imams, believers could misunderstand God's will. A non-religious person might argue that what matters most in any religion is how people treat others, not abstract beliefs about God's nature.\n\nCONCLUSION\nOther beliefs are vital, and in daily life Muslims may feel the influence of prophethood and judgement very strongly. However, prophethood and judgement themselves only exist because there is one God who sends messengers and judges. As Tawhid is shared by all Muslims, is stated first in the Shahadah and underpins all other beliefs, I agree with the statement that it is the most important belief in Islam.",
+   "evidence": [
+    "Qur'an 112",
+    "Qur'an 4:48",
+    "Qur'an 21:25",
+    "Qur'an 99:8",
+    "Shahadah"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Tawhid"
+  },
+  {
+   "question": "‘Muslims today find it difficult to avoid shirk.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nMany Muslim scholars teach that shirk is not only bowing to idols but also giving anything the devotion that belongs to God. Modern society constantly encourages people to treat money, success, appearance or celebrities as the most important things in life. Social media and consumer culture can make people seek the praise of others, which the Prophet warned about as 'minor shirk' (riya', showing off in worship) in a hadith recorded by Ahmad. In a busy, secular society such as Britain, it can be hard to keep God at the centre when work, school and entertainment take up most of the day.\n\nSome Muslims also worry about superstitious practices, such as relying on amulets or fortune-telling, which some cultures have mixed with Islam. Disagreement among Muslims about practices such as visiting shrines of saints shows that the line between respect and shirk is not always clear to everyone.\n\nARGUMENTS AGAINST THE STATEMENT\nOthers argue that Islam gives Muslims many built-in reminders that make avoiding shirk achievable. The five daily prayers, beginning each with 'Allahu Akbar' (God is greatest), refocus a Muslim on God throughout the day. Reciting Surah 112 and the Shahadah regularly reminds believers that nothing is equal to God. Mosques avoid images of God to prevent idolatry.\n\nIslam also teaches that God is merciful and forgiving. Qur'an 4:48 says God forgives sins other than shirk, and a person who repents sincerely of shirk during their lifetime can be forgiven; the Qur'an also says 'do not despair of the mercy of Allah' (Qur'an 39:53). Most Muslims do not worship idols at all, and having a job or enjoying possessions is not shirk unless they replace God. Zakah keeps wealth in its proper place by reminding Muslims that it belongs ultimately to God.\n\nCONCLUSION\nObvious shirk such as idol worship is easy for most British Muslims to avoid, but subtle forms, such as letting wealth or status matter more than God, are genuinely challenging in a materialistic culture. However, practices like salah and zakah are designed to meet that challenge. I conclude that avoiding shirk requires real effort today but is not unusually difficult, because Islam gives clear guidance and regular habits that help.",
+   "evidence": [
+    "Qur'an 4:48",
+    "Qur'an 39:53",
+    "Hadith on riya' (minor shirk), Musnad Ahmad",
+    "Allahu Akbar"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "shirk today"
+  }
+ ]
+}

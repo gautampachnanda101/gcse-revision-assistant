@@ -1,0 +1,137 @@
+{
+ "paper": "Practices",
+ "module": "2.1",
+ "moduleTitle": "Places of worship and their importance: home; temple; outdoors (such as shrines); the space of the heart",
+ "note": {
+  "specFocus": "Places of worship and their importance: home; temple; outdoors (such as shrines); the space of the heart.",
+  "summary": "OVERVIEW\nHindus believe God is everywhere, so worship can happen anywhere. The specification names four places: the home, the temple, outdoors (such as shrines) and the space of the heart.\n\nTHE HOME\nFor most Hindus the home is the main place of daily worship. Almost every Hindu home has a shrine (often called the mandir or puja room), which may be a whole room, a shelf or a small cabinet. It contains murtis or pictures of chosen deities (e.g. Ganesha, Lakshmi, Krishna, Shiva), a lamp (diva), incense, a bell, flowers and a tray for offerings. Worship is often led by the mother or grandmother, and families perform puja and arati in the morning and evening, offer food before eating, and pray before exams or journeys. Many key rites of passage (samskaras), such as the naming ceremony, take place at home. Home worship passes faith to children and makes the whole house sacred; God is treated as an honoured guest (\"atithi devo bhava\", Taittiriya Upanishad 1.11.2).\n\nTHE TEMPLE (MANDIR)\nA temple is believed to be the home of God on earth. In a traditional temple, murtis are installed by the prana pratishtha ceremony, after which the deity is believed to be present. The inner sanctum (garbhagriha, \"womb-house\") is under the tallest tower (shikhara in north India; gopuram gateways are prominent in south Indian temples). Worshippers remove shoes, ring a bell to announce their arrival, receive darshan, offer flowers or money, join arati and receive prasad (blessed food). Priests (pujaris) perform the main rituals, often several times daily. Temples are also community centres: they host festivals, weddings, language and dance classes, youth groups and free meals. In Britain there are well over 150 Hindu temples, such as BAPS Shri Swaminarayan Mandir in Neasden (London, opened 1995, a traditional stone mandir), Bhaktivedanta Manor (ISKCON, Watford) and Shri Venkateswara (Balaji) Temple at Tividale near Birmingham. Many began in converted buildings such as churches or warehouses.\nVisiting a temple is not compulsory; some Hindus attend mainly at festivals.\n\nOUTDOORS (SUCH AS SHRINES)\nIn India there are countless outdoor shrines: at the foot of sacred trees (e.g. the peepal), by roadsides, on hills and beside rivers. The River Ganges, mountains such as Kailash and Govardhan Hill, and places linked to the deities are themselves treated as sacred. Many festivals happen outdoors – Holi bonfires, immersing Ganesha murtis in water, or bathing at the Kumbh Mela. In Britain some Hindus worship at rivers or the sea, for example during Ganesh Chaturthi immersions or when scattering ashes.\n\nTHE SPACE OF THE HEART\nHindus believe God lives in the heart of every being as Paramatma: \"The Lord dwells in the hearts of all beings\" (Gita 18.61). The Chandogya Upanishad (8.1.1–3) describes a small lotus-like \"space within the heart\" inside the \"city of Brahman\" (the body), as vast as the universe. So the most important place of worship is internal: through meditation, japa and remembering God, a person can worship anywhere, at any time. Yogis and many Advaitins emphasise this inner worship.\n\nIMPORTANCE AND DIVERSITY\nPlaces of worship help Hindus focus the mind, receive blessings, build community and pass on traditions. Some, such as the Arya Samaj, reject murti worship and worship around the sacred fire (havan) instead. Many Hindus see outer worship as preparation for the inner worship of the heart."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the inner sanctum of a Hindu temple where the main murti is kept?\nA) Garbhagriha\nB) Mandapa\nC) Havan kund\nD) Mala",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A) Garbhagriha.\nThe garbhagriha ('womb-house') is the shrine room holding the main murti. The mandapa is the hall for worshippers, a havan kund is a fire pit and a mala is a string of prayer beads.",
+   "evidence": [
+    "Garbhagriha"
+   ],
+   "examTip": "Learn two or three parts of a temple – they are useful for 1-mark and 4-mark questions.",
+   "answerTopic": "temple"
+  },
+  {
+   "question": "Which one of the following best describes why the 'space of the heart' is a place of worship for Hindus?\nA) It is where the priest stands\nB) God is believed to dwell within the heart\nC) It is the name of a temple in Varanasi\nD) It is where prasad is kept",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) God is believed to dwell within the heart.\nHindus believe the divine lives within each being as Paramatma (Gita 18.61), so worship can be inward.",
+   "evidence": [
+    "Bhagavad Gita 18.61",
+    "Chandogya Upanishad 8.1.1"
+   ],
+   "examTip": "This links worship to the belief in the three features of the divine.",
+   "answerTopic": "space of the heart"
+  },
+  {
+   "question": "Give one item found at a Hindu home shrine.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: murti or picture of a deity; lamp (diva); incense; bell; flowers; arati tray; water pot; kumkum/sandalwood paste; offerings of food; conch shell.",
+   "evidence": [
+    "Home shrine (mandir)"
+   ],
+   "examTip": "Any single correct item gains the mark.",
+   "answerTopic": "home shrine"
+  },
+  {
+   "question": "Give one example of an outdoor place where Hindus worship.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: a shrine under a sacred tree (e.g. peepal); a roadside shrine; the banks of the River Ganges; a sacred hill such as Govardhan; the ghats at Varanasi; the sea or a river for murti immersion.",
+   "evidence": [
+    "Outdoor shrines"
+   ],
+   "examTip": "Specific examples are better than vague ones.",
+   "answerTopic": "outdoor worship"
+  },
+  {
+   "question": "Explain two ways in which the home is important for Hindu worship.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: The home shrine is where most daily worship happens. Families perform puja and arati in the morning and evening, offering light, incense, flowers and food to the murtis before eating. This makes worship part of everyday life rather than something kept for special occasions.\n\nSecond way: The home is where Hindu faith is passed on to children. Children learn prayers, stories and how to perform puja from parents and grandparents, and important samskaras such as naming ceremonies, and festivals like Diwali, are celebrated at home. This keeps traditions alive, especially for British Hindu families living far from India.",
+   "evidence": [
+    "Home shrine",
+    "Samskaras",
+    "Daily puja and arati"
+   ],
+   "examTip": "Develop each point with what actually happens at the home shrine.",
+   "answerTopic": "home worship"
+  },
+  {
+   "question": "Explain two ways in which Hindu temples in Britain are important for the Hindu community.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Temples are believed to be places where God is especially present, because the murtis have been installed with the prana pratishtha ceremony. Hindus visit to receive darshan, join arati led by priests and receive prasad, which they believe brings blessings; major festivals such as Diwali and Janmashtami attract thousands of worshippers, for example at Bhaktivedanta Manor.\n\nSecond way: Temples act as community centres for British Hindus. They provide classes in languages such as Gujarati or Hindi, dance and music lessons, youth groups and free vegetarian meals, and they host weddings and social events. This helps Hindus keep their identity and support each other, and temples such as Neasden Mandir also welcome school visits, improving understanding between communities.",
+   "evidence": [
+    "Prana pratishtha",
+    "Neasden Mandir",
+    "Bhaktivedanta Manor"
+   ],
+   "examTip": "Use a named British temple to make your explanation detailed.",
+   "answerTopic": "temple importance"
+  },
+  {
+   "question": "Explain two reasons why the space of the heart is important for Hindu worship.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First reason: Hindus believe God lives in the heart of every being, so the heart is a true place of worship. In the Bhagavad Gita (18.61) Krishna says, 'The Lord dwells in the hearts of all beings.' This means that a Hindu does not need a temple or a priest to meet God; through meditation and remembering God they can worship anywhere, at any time.\n\nSecond reason: The space of the heart is where spiritual realisation takes place. The Chandogya Upanishad (8.1.1–3) describes a small lotus-shaped dwelling within the 'city of Brahman', the body, and within it a space as vast as the whole universe, containing heaven and earth. Yogis and Advaitins focus on this inner space in meditation to realise the atman and Brahman, and many Hindus see outer worship as a preparation for this inner worship.",
+   "evidence": [
+    "Bhagavad Gita 18.61",
+    "Chandogya Upanishad 8.1.1–3 (dahara akasha)"
+   ],
+   "examTip": "Connect this practice back to the belief in Paramatma – that's a good way to develop it.",
+   "answerTopic": "space of the heart"
+  },
+  {
+   "question": "Explain two features of a Hindu temple and why they are important.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First feature: The garbhagriha (inner sanctum) contains the main murti, which has been installed by the prana pratishtha ceremony in which the deity is invited to be present. Above it rises the tower (shikhara), symbolising a sacred mountain such as Mount Meru or Kailash. This shows that the temple is understood as the home of God on earth, and worshippers come to receive darshan – to see and be seen by God.\n\nSecond feature: The temple has space for offerings and community worship, such as the mandapa (hall) where people gather for arati, bhajans and kirtan, and a kitchen where food is offered to God and given out as prasad. The Bhagavad Gita (9.26) teaches that God accepts 'a leaf, a flower, a fruit or water' offered with love, so offerings are central to temple worship. Sharing prasad also expresses the community's unity.",
+   "evidence": [
+    "Garbhagriha / shikhara",
+    "Prana pratishtha",
+    "Bhagavad Gita 9.26",
+    "Prasad"
+   ],
+   "examTip": "A source of authority can explain why a feature matters – here Gita 9.26 explains offerings.",
+   "answerTopic": "temple features"
+  },
+  {
+   "question": "'Worship at home is more important for Hindus than worship in the temple.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nFor most Hindus, the home is where worship happens every day. Hinduism does not require weekly attendance at a temple, and most families have a home shrine where they perform puja and arati each morning and evening and offer food before meals. Because worship at home is daily, it arguably shapes a Hindu's life far more than occasional temple visits.\n\nThe home is also where faith is passed on. Children learn prayers, stories from the Ramayana and how to perform puja from parents and grandparents. Many samskaras and festivals, such as lighting divas at Diwali, take place in the home. In Britain, where some families live far from a temple, home worship is especially important for keeping Hindu identity.\n\nHindu teaching supports this. God is present everywhere and in the heart (Gita 18.61), so a temple is not essential, and Krishna accepts even \"a leaf, a flower, a fruit or water\" offered with love (Gita 9.26) – something anyone can do at home.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nOn the other hand, the temple is believed to be the home of God on earth in a special way. The murtis are installed by trained priests in the prana pratishtha ceremony, and elaborate rituals are performed several times a day. Receiving darshan of the deity in a temple, and taking prasad, are seen as powerful blessings that home worship cannot fully provide.\n\nThe temple also brings the community together. Large festivals such as Diwali, Navaratri and Janmashtami are celebrated with thousands of people at temples such as Bhaktivedanta Manor and Neasden. Temples hold weddings, classes in Hindu scripture and languages, and serve free food. For British Hindus, a minority in a mainly non-Hindu country, this shared worship strengthens identity and supports people.\n\nSome Hindus might say neither is most important, because the deepest worship is in the space of the heart through meditation and devotion.\n\nCONCLUSION\n\nBoth places matter, but in different ways. The home is more important for daily, personal and family worship, while the temple is more important for community, festivals and priest-led rituals. Because Hinduism centres so much of religious life on the family and does not require temple attendance, I agree that home worship is more important for most Hindus – but the temple remains vital for the community as a whole.",
+   "evidence": [
+    "Bhagavad Gita 9.26, 18.61",
+    "Prana pratishtha",
+    "Bhaktivedanta Manor / Neasden Mandir",
+    "Home shrine"
+   ],
+   "examTip": "Compare the two places using the same criteria (frequency, community, holiness) to build a balanced argument.",
+   "answerTopic": "home vs temple"
+  },
+  {
+   "question": "'Hindus do not need special places in order to worship.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nHindus believe that God is everywhere. The Isha Upanishad begins, \"All this is pervaded by the Lord\", and the Gita teaches that \"the Lord dwells in the hearts of all beings\" (18.61). If God is present everywhere and within every person, then any place can be a place of worship.\n\nThe specification itself includes the \"space of the heart\" as a place of worship. The Chandogya Upanishad (8.1.1–3) describes a space within the heart that contains the whole universe. Through meditation, japa and remembering God, a Hindu can worship on a bus, at work or in hospital. The great yogis and saints often worshipped in forests or caves without any temple.\n\nWorship also depends more on attitude than place. Krishna accepts a leaf, flower, fruit or water offered with love (Gita 9.26), showing that devotion, not location, is what matters. Some reform groups, such as the Arya Samaj, focus on simple fire worship (havan) rather than elaborate temples.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, special places help people worship. Most people find it hard to concentrate on God in ordinary surroundings, and a home shrine or temple creates a sacred atmosphere with murtis, lamps, incense and bells. The temple is believed to be a place where God is especially present, because the murti has been consecrated through prana pratishtha.\n\nSacred places such as Varanasi, the River Ganges or the site of the Kumbh Mela are believed to have special spiritual power. Millions of Hindus go on pilgrimage to them, believing that bathing in the Ganges purifies karma and that dying in Varanasi can bring moksha. This suggests that some places really are holier than others.\n\nSpecial places also bring the community together for festivals, weddings and teaching, which cannot happen in the \"space of the heart\".\n\nCONCLUSION\n\nHindu teaching clearly states that God can be worshipped anywhere, so in principle Hindus do not need special places. However, in practice special places – home shrines, temples and sacred sites – are extremely helpful and are believed to carry special blessings. I therefore agree that they are not strictly necessary, but they are very valuable, especially for beginners and for community life; the ideal is to combine outer worship with the inner worship of the heart.",
+   "evidence": [
+    "Isha Upanishad 1",
+    "Bhagavad Gita 9.26, 18.61",
+    "Chandogya Upanishad 8.1.1–3",
+    "Prana pratishtha",
+    "Varanasi / Ganges"
+   ],
+   "examTip": "Use 'need' carefully – distinguish what is necessary from what is helpful.",
+   "answerTopic": "need for special places"
+  }
+ ]
+}

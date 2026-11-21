@@ -1,0 +1,132 @@
+{
+ "paper": "Practices",
+ "module": "2.3",
+ "moduleTitle": "Meditation: samatha, vipassana (including zazen) and visualisation",
+ "note": {
+  "specFocus": "Meditation, the different aims, significance and methods of meditation: Samatha (concentration and tranquillity) including mindfulness of breathing; Vipassana (insight) including zazen; the visualisation of Buddhas and Bodhisattvas.",
+  "summary": "WHY MEDITATE?\nMeditation (bhavana, 'mental cultivation' or 'development') is part of the samadhi section of the Eightfold Path (right effort, right mindfulness, right concentration). The Buddha reached Enlightenment through meditation, and Buddhists meditate to calm the mind, develop concentration and insight, reduce the Three Poisons and move towards nibbana. The Dhammapada says: \"Wisdom springs from meditation; without meditation wisdom wanes\" (verse 282).\n\n1. SAMATHA – CONCENTRATION AND TRANQUILLITY\nSamatha meditation aims to calm and focus the mind on a single object, overcoming distractions such as the five hindrances (sensual desire, ill will, sloth, restlessness and doubt). As concentration deepens, the meditator may reach states of deep absorption (jhanas).\n- Mindfulness of breathing (anapanasati) is the most common method. The meditator sits upright, often cross-legged, and focuses attention on the breath, perhaps counting breaths from one to ten. When the mind wanders, they gently bring it back. The Anapanasati Sutta (MN 118) teaches this method, and the Buddha is said to have used it on the night of his Enlightenment.\n- Other samatha objects include a candle flame, a coloured disc (kasina) and the metta bhavana (loving-kindness meditation), in which goodwill is developed towards oneself, a friend, a neutral person, a difficult person and all beings.\nAim: a calm, still, concentrated mind, like a still lake.\n\n2. VIPASSANA – INSIGHT\nVipassana means 'clear seeing'. It uses the calm mind to observe experience closely and see the Three Marks of Existence directly: that all sensations, thoughts and feelings are impermanent (anicca), unsatisfactory (dukkha) and not-self (anatta). The Satipatthana Sutta (MN 10) teaches the four foundations of mindfulness: body, feelings, mind and mental objects. Vipassana is popular in Theravada, and S. N. Goenka's ten-day silent courses (including at Dhamma Dipa in Herefordshire) have spread it worldwide.\nZazen ('seated meditation') in Zen Buddhism is included by the AQA specification here. Soto Zen practises shikantaza ('just sitting'), advocated by Dogen: sitting upright, facing a wall, letting thoughts come and go without attachment, to realise one's Buddha-nature. Rinzai Zen also uses koans (puzzling questions such as 'What is the sound of one hand clapping?') to break through ordinary thinking.\nAim: wisdom (panna) and Enlightenment.\n\n3. VISUALISATION OF BUDDHAS AND BODHISATTVAS\nPractised especially in Tibetan and other Mahayana traditions. The meditator builds up a detailed mental image of a Buddha or bodhisattva, such as Avalokiteshvara or Tara, often helped by a thangka (painted scroll) or rupa, sometimes while reciting their mantra. The aim is to develop the qualities they represent (e.g. compassion) and, in advanced Tibetan practice (deity yoga), to identify with the enlightened being and recognise that one's own mind has the same Buddha-nature, before dissolving the image into emptiness. Some Pure Land texts (the Contemplation Sutra) teach visualising Amitabha and his Pure Land.\n\nDIVERSITY AND CONTEMPORARY PRACTICE\nTheravada emphasises samatha and vipassana; Zen emphasises zazen; Tibetan Buddhism combines all three; Pure Land emphasises the nembutsu. In Britain, mindfulness-based cognitive therapy (MBCT), recommended within the NHS for recurrent depression, draws on Buddhist mindfulness techniques. Many Buddhists attend meditation retreats.\n\nKEY TERMS\nBhavana – mental cultivation/meditation. Samatha – calm. Anapanasati – mindfulness of breathing. Jhana – meditative absorption. Vipassana – insight. Zazen – seated meditation. Shikantaza – 'just sitting'. Koan – Zen riddle. Thangka – painted scroll."
+ },
+ "questions": [
+  {
+   "question": "Which type of meditation focuses on developing insight?\nA) Samatha\nB) Vipassana\nC) Puja\nD) Dana",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Vipassana. Vipassana means insight or 'clear seeing'. Samatha develops calm and concentration; puja is devotional worship and dana is generosity.",
+   "evidence": [
+    "Vipassana = insight"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "types of meditation"
+  },
+  {
+   "question": "Which tradition of Buddhism is zazen most associated with?\nA) Theravada\nB) Pure Land\nC) Zen\nD) Nichiren",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) Zen. Zazen, 'seated meditation', is the central practice of Zen Buddhism, e.g. Soto Zen's 'just sitting' (shikantaza).",
+   "evidence": [
+    "Zazen"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "zazen"
+  },
+  {
+   "question": "Give two aims of samatha meditation.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: to calm the mind; to develop concentration; to achieve tranquillity/peace; to overcome distractions/hindrances; to reach jhana (absorption); to prepare the mind for insight (vipassana); (with metta bhavana) to develop loving kindness.",
+   "evidence": [
+    "Samatha"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "samatha"
+  },
+  {
+   "question": "Give two methods of meditation used by Buddhists.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: mindfulness of breathing (anapanasati); counting the breath; metta bhavana (loving-kindness); vipassana/insight meditation (e.g. body scan, observing sensations); zazen/shikantaza; koan practice; visualisation of Buddhas or bodhisattvas; walking meditation; focusing on a candle or kasina; mantra meditation with a mala.",
+   "evidence": [
+    "Methods of meditation"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "methods"
+  },
+  {
+   "question": "Explain two contrasting methods of meditation in Buddhism.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. In samatha meditation, Buddhists focus on one object such as the breath. They sit still, follow each in-breath and out-breath, perhaps counting to ten, and gently return to the breath when the mind wanders. The aim is calm and concentration.\n\n2. In visualisation meditation, practised especially by Tibetan Buddhists, the meditator builds up a detailed mental image of a Buddha or bodhisattva such as Avalokiteshvara, often helped by a thangka. Rather than emptying the mind of images, they deliberately create one in order to develop the qualities, such as compassion, that the figure represents.",
+   "evidence": [
+    "Anapanasati",
+    "Visualisation; thangka"
+   ],
+   "examTip": "In 'contrasting' questions, show how the methods differ, e.g. focusing on a simple object vs building a complex image.",
+   "answerTopic": "methods"
+  },
+  {
+   "question": "Explain two ways in which meditation influences the lives of Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Meditation helps Buddhists respond calmly to difficulties. By practising mindfulness of breathing, a Buddhist learns to notice anger or anxiety arising without reacting automatically, so in daily life they might pause and breathe before responding to a stressful situation.\n\n2. Meditation shapes Buddhists' routines and commitments. Many meditate every morning at a home shrine, attend weekly group sittings at a Buddhist centre, or go on retreats such as ten-day silent vipassana courses. This regular practice keeps them focused on developing wisdom and compassion.",
+   "evidence": [
+    "Mindfulness",
+    "Vipassana retreats"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two aims of vipassana meditation.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Vipassana aims to see the Three Marks of Existence directly. By closely observing sensations, thoughts and feelings, a meditator sees that everything is impermanent, unsatisfactory and not-self. The Dhammapada (277) says that when one sees with wisdom that all conditioned things are impermanent, one turns away from suffering.\n\n2. Vipassana aims to develop mindfulness of the whole of experience. The Satipatthana Sutta teaches mindfulness of body, feelings, mind and mental objects, and calls this 'the direct path for the purification of beings… for the realisation of nibbana'. Insight gained in this way removes ignorance and leads towards Enlightenment.",
+   "evidence": [
+    "Dhammapada 277",
+    "Satipatthana Sutta (MN 10)"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "vipassana"
+  },
+  {
+   "question": "Explain two reasons why meditation is important to Buddhists.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Meditation is part of the Eightfold Path. Right effort, right mindfulness and right concentration form the samadhi section of the Threefold Way, so meditation is not optional but one of the three trainings that lead to nibbana. The Dhammapada (282) teaches that 'wisdom springs from meditation; without meditation wisdom wanes'.\n\n2. The Buddha achieved Enlightenment through meditation. Sitting beneath the Bodhi tree, he used mindfulness of breathing and deep concentration, as described in the Anapanasati Sutta, to gain insight into the Four Noble Truths. Buddhists meditate to follow his example and to realise the same truth for themselves.",
+   "evidence": [
+    "Dhammapada 282",
+    "Anapanasati Sutta (MN 118)"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "importance"
+  },
+  {
+   "question": "“Samatha meditation is more useful than vipassana meditation.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nSamatha meditation develops the calm, concentrated mind that all other practice depends on. Without the ability to focus, as in mindfulness of breathing, a person cannot observe their experience clearly enough for insight. It is often taught first for this reason, and the Buddha is said to have used anapanasati on the night of his Enlightenment.\n\nSamatha has immediate practical benefits. It reduces stress, anxiety and anger, and helps people concentrate in everyday life. Metta bhavana, often counted as samatha, directly develops loving kindness and weakens hatred, one of the Three Poisons. For many lay Buddhists with busy lives, these benefits are the most useful.\n\nIt is also simpler. Following the breath is something beginners can learn quickly, whereas vipassana and its subtle observation of anicca and anatta may require more guidance.\n\nARGUMENTS FOR A DIFFERENT VIEW\nVipassana leads to wisdom (panna), which is what actually removes ignorance and brings nibbana. Calm alone is temporary: deep concentration states (jhanas) were reached by the Buddha's early teachers, but they did not lead to Enlightenment. The Buddha's breakthrough came through insight into the Four Noble Truths and dependent arising.\n\nThe Satipatthana Sutta calls mindfulness 'the direct path… to the realisation of nibbana'. Seeing the Three Marks directly loosens craving at its root, which is a deeper benefit than temporary calm.\n\nMany teachers say the two cannot really be separated. Samatha prepares the mind for vipassana, and vipassana gives samatha its purpose, like a lamp that needs both a steady flame (calm) and brightness (insight). Zen's zazen combines calm and insight, and Tibetan visualisation also uses both.\n\nCONCLUSION\nI think vipassana is more useful for the ultimate goal of nibbana because only insight removes ignorance, as the Buddha's experience with his early teachers shows. However, samatha is more useful for beginners and for everyday wellbeing, and insight is hard to develop without it. So the best conclusion is that they are complementary: samatha is the foundation and vipassana the purpose, and neither is simply 'more useful'.",
+   "evidence": [
+    "Anapanasati Sutta",
+    "Satipatthana Sutta",
+    "Alara Kalama and Uddaka Ramaputta",
+    "Metta bhavana"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "samatha vs vipassana"
+  },
+  {
+   "question": "“Meditation is the most important Buddhist practice.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThe Buddha reached Enlightenment through meditation under the Bodhi tree, so meditation is directly linked to the goal of Buddhism. Three of the eight parts of the Eightfold Path (right effort, mindfulness and concentration) are about meditation, and wisdom grows from it: 'Wisdom springs from meditation' (Dhammapada 282).\n\nMeditation directly tackles the causes of suffering. Samatha calms the mind and weakens the hindrances; vipassana gives insight into anicca, anatta and dukkha, removing ignorance; metta bhavana weakens hatred. No other practice addresses the mind so directly.\n\nIn Zen, zazen is the heart of practice, and Dogen taught that sitting in zazen is itself the expression of Enlightenment. Many Western Buddhists, too, were first attracted by meditation and see it as the core of their practice.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMany Buddhists would argue that ethics (sila) is the foundation. Without keeping the Five Precepts, the mind is disturbed by guilt and conflict and meditation is difficult. For many lay Buddhists in Theravada countries, the most important practices are generosity (dana), keeping the precepts and supporting the Sangha, rather than intensive meditation.\n\nPure Land Buddhists see the nembutsu, recited in faith in Amida's vow, as the essential practice. They believe ordinary people in this age cannot reach Enlightenment by their own meditative effort.\n\nMahayana Buddhists emphasise compassion. The bodhisattva practises all six perfections, and generosity comes first. A Buddhist who meditates a lot but does not act with compassion would be missing something essential.\n\nCONCLUSION\nI think meditation is arguably the most important practice for reaching Enlightenment, because insight into reality depends on it and the Buddha's own Enlightenment came through it. However, Buddhist practice is a whole: ethics provides the foundation, and different traditions prioritise devotion or compassion. So the statement is true for Zen and many meditation-focused Buddhists, but it does not reflect all Buddhists; meditation is best seen as one of three equally necessary trainings.",
+   "evidence": [
+    "Dhammapada 282",
+    "Eightfold Path: samadhi",
+    "Dogen: zazen",
+    "Nembutsu",
+    "Six perfections"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "importance"
+  }
+ ]
+}

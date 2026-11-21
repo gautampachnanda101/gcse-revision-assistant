@@ -1,0 +1,136 @@
+{
+ "paper": "Beliefs",
+ "module": "1.4",
+ "moduleTitle": "Angels, their nature and role, including Jibril and Mika'il",
+ "note": {
+  "specFocus": "Know Muslim beliefs about angels (malaikah): their nature and role, including Jibril and Mika'il, and why angels are important.",
+  "summary": "NATURE OF ANGELS (MALAIKAH)\nBelief in angels is one of the six articles of faith (4:136). Angels are:\n- created from light (hadith in Sahih Muslim), before humans; jinn are made from smokeless fire and humans from clay;\n- without free will - they 'do not disobey Allah in what He commands them but do what they are commanded' (66:6);\n- immortal, sinless, genderless, and do not need food or sleep;\n- usually invisible, though they can take human form (e.g. Jibril in the Hadith of Jibril, or appearing to Maryam, 19:17);\n- constantly worshipping and praising God.\n\nJIBRIL (GABRIEL)\n- The angel of revelation, 'the trustworthy spirit' (26:193), also called Ruh al-Qudus (16:102).\n- Brought the first revelation to Muhammad in the Cave of Hira on Laylat al-Qadr in 610 CE: 'Read! In the name of your Lord who created' (96:1-5), then the rest of the Qur'an over about 23 years (2:97).\n- Announced the birth of 'Isa to Maryam; taught the Prophet how to pray; accompanied him on the Night Journey (al-Isra' wal-Mi'raj, 17:1).\n- Appeared as a man asking the Prophet about Islam, Iman, Ihsan and the Hour (Hadith of Jibril).\n\nMIKA'IL (MICHAEL)\n- Named with Jibril in 2:98. Traditionally the angel of mercy and provision: brings rain, nourishment and sustenance by God's command; shows God's beneficence.\n\nOTHER ANGELS\n- Israfil - will blow the trumpet to begin the Day of Judgement (hadith tradition).\n- Malak al-Mawt (often called Izra'il) - the Angel of Death, who takes souls (32:11).\n- Kiraman Katibin - 'noble recorders' on each shoulder, writing good and bad deeds (82:10-12; 50:17-18).\n- Munkar and Nakir - question the dead in the grave about their Lord, religion and prophet.\n- Ridwan guards Jannah; Malik guards Jahannam (43:77).\n- Angels bowed to Adam at God's command (2:34); Iblis, a jinn (18:50), refused.\n\nWHY ANGELS MATTER\n- They link God and humanity: without Jibril there is no Qur'an.\n- They remind Muslims every deed is recorded, encouraging good conduct even in private.\n- They show God's care and power in creation, death and judgement.\n- They prepare believers for death, the grave and judgement.\n- They give comfort: angels descend on Laylat al-Qadr (97:4) and support believers (41:30).\nSome Muslims turn their heads to the right and left at the end of salah saying 'as-salamu alaykum wa rahmatullah', which many explain as greeting fellow worshippers and the recording angels.\n\nSUNNI AND SHI'A\nBoth believe in angels. Sunnis list them as an article of faith; for Shi'as belief in angels is part of accepting Nubuwwah and the Qur'an, though not a separate root.\n\nKEY TERMS: malaikah, Jibril, Mika'il, Israfil, Kiraman Katibin, Munkar and Nakir, jinn, Iblis."
+ },
+ "questions": [
+  {
+   "question": "Which angel brought the revelation of the Qur'an to the Prophet Muhammad?\nA Mika'il\nB Israfil\nC Jibril\nD Izra'il",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C - Jibril (Gabriel) delivered God's revelation to Muhammad, beginning in the Cave of Hira in 610 CE.",
+   "evidence": [
+    "Qur'an 2:97",
+    "Qur'an 96:1-5"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Jibril"
+  },
+  {
+   "question": "According to Islamic tradition, what are angels created from?\nA Clay\nB Smokeless fire\nC Light\nD Water",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C - A hadith in Sahih Muslim says angels were created from light, jinn from smokeless fire and Adam from clay.",
+   "evidence": [
+    "Sahih Muslim (Book of Zuhd)"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "nature of angels"
+  },
+  {
+   "question": "Give two roles of angels in Islam.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: bringing God's messages to prophets (Jibril); providing nourishment and rain (Mika'il); recording people's good and bad deeds (Kiraman Katibin); taking souls at death (Malak al-Mawt / Izra'il); questioning souls in the grave (Munkar and Nakir); blowing the trumpet on the Day of Judgement (Israfil); guarding heaven and hell; praising and worshipping God.",
+   "evidence": [
+    "Qur'an 82:10-12",
+    "Qur'an 32:11"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "roles of angels"
+  },
+  {
+   "question": "Give two beliefs about the nature of angels in Islam.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: they are made of light; they have no free will and always obey God; they do not eat, drink or have gender in a human sense; they are usually invisible but can take human form; they are immortal servants of God; they constantly worship God.",
+   "evidence": [
+    "Qur'an 66:6"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "nature of angels"
+  },
+  {
+   "question": "Explain two ways belief in angels influences Muslims today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Knowing that angels (Kiraman Katibin) record every deed encourages Muslims to behave well even when no other person can see them, e.g. being honest in exams or at work, because their 'book' of deeds will be shown on the Day of Judgement.\n\n2. It strengthens trust in the Qur'an and the prophets. Because Jibril delivered God's words exactly, Muslims believe the Qur'an is God's direct revelation and so follow its teaching carefully, for example memorising it and reciting it in salah. Some Muslims end prayer by turning their head right and left to greet the recording angels, which reminds them that angels are always present.",
+   "evidence": [
+    "Kiraman Katibin (82:10-12)",
+    "Jibril and revelation"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two differences between angels and humans in Islam.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Angels have no free will, but humans do. Angels 'do not disobey Allah in what He commands them' (66:6), while humans can choose good or evil, which is why only humans (and jinn) will be judged and rewarded or punished.\n\n2. Angels are created from light, while humans were created from clay. Because angels are pure spiritual beings who do not eat, sleep or have physical desires, they can worship God continuously, whereas humans must struggle against temptation; this is why the Qur'an tells of angels bowing to Adam, showing the special status God gave humans as khalifah despite their weakness.",
+   "evidence": [
+    "Qur'an 66:6",
+    "Qur'an 2:30-34"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "angels and humans"
+  },
+  {
+   "question": "Explain two reasons why angels are important in Islam.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. They are the link between God and the prophets. Jibril brought the Qur'an to Muhammad: 'Whoever is an enemy to Jibril - it is he who has brought it [the Qur'an] down upon your heart by permission of Allah' (Qur'an 2:97). Without angels there would be no revelation, so belief in them is necessary to accept the Qur'an as God's word.\n\n2. They carry out God's will in the world and in the afterlife. Mika'il is believed to be responsible for nourishment and rain, the Angel of Death 'will take you' at the appointed time (Qur'an 32:11), and Israfil will blow the trumpet to begin the Day of Judgement. This reminds Muslims that God's care and judgement are active in every part of life and death.",
+   "evidence": [
+    "Qur'an 2:97",
+    "Qur'an 32:11",
+    "Qur'an 2:98 (Jibril and Mika'il)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "importance of angels"
+  },
+  {
+   "question": "Explain two Muslim beliefs about Jibril and Mika'il.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Jibril is the angel of revelation. He appeared to Muhammad in the Cave of Hira on the Night of Power in 610 CE and commanded 'Read! (Iqra) In the name of your Lord who created' (Qur'an 96:1). He continued to bring the Qur'an over about 23 years and is also believed to have accompanied the Prophet on the Night Journey (al-Isra' wal-Mi'raj).\n\n2. Mika'il is the angel of mercy and provision, believed to send rain and nourishment to the earth and plants by God's command. He is named alongside Jibril in Qur'an 2:98, which warns that being an enemy of God's angels, 'Jibril and Mika'il', is being an enemy of God. This shows that Muslims see both as great angels close to God whose work shows His care for creation.",
+   "evidence": [
+    "Qur'an 96:1",
+    "Qur'an 2:98",
+    "Night Journey (Qur'an 17:1)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Jibril and Mika'il"
+  },
+  {
+   "question": "‘Belief in angels is not important for Muslims today.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nSome might argue that angels belong to the past. Their best-known work - bringing the Qur'an to Muhammad - finished with the Prophet's death in 632 CE, and Muslims now have the Qur'an itself to guide them. Angels are invisible and their existence cannot be proved scientifically, so a non-religious person, or even some modern Muslims, may see them as less relevant than practical duties such as prayer, charity and family life. The Qur'an rarely gives detail about angels, and much of what is said about figures such as Israfil comes from later hadith tradition.\n\nARGUMENTS AGAINST THE STATEMENT\nBelief in angels is one of the six articles of faith; the Qur'an says that whoever disbelieves in 'His angels' has 'gone far astray' (4:136). So for Sunni Muslims it is a required belief, not an optional extra. Although Shi'a Muslims do not list it among the five roots of Usul ad-Din, they also accept it as part of belief in Nubuwwah and the Qur'an.\n\nAngels are important today in several ways. The Kiraman Katibin 'know whatever you do' (82:10-12), so Muslims are reminded that every action is being recorded, which encourages honesty and self-discipline. The Angel of Death and the questioning angels Munkar and Nakir remind Muslims to prepare for death and the afterlife. Many Muslims feel comforted by angels: the Qur'an speaks of angels descending on the Night of Power (97:4) and supporting believers (41:30). Belief in Jibril underlies the authority of the Qur'an, which Muslims recite every day, so the angel's role continues to matter whenever the Qur'an is read.\n\nCONCLUSION\nIt is true that angels do not appear in everyday life in the way prayer or fasting does, and that their existence cannot be proven. However, for Muslims they are part of God's revealed truth, they guarantee the reliability of the Qur'an, and the belief that deeds are recorded has a clear daily effect on behaviour. I therefore disagree with the statement: belief in angels remains important for Muslims today, even if its importance is often felt indirectly.",
+   "evidence": [
+    "Qur'an 4:136",
+    "Qur'an 82:10-12",
+    "Qur'an 97:4",
+    "Qur'an 41:30"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "angels today"
+  },
+  {
+   "question": "‘Jibril is the most important angel.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nJibril is the angel of revelation. He brought the Qur'an to Muhammad over 23 years, beginning in the Cave of Hira with the command 'Read!' (96:1), and Muslims believe the Qur'an is the final and complete word of God. Without Jibril, humanity would not have received this guidance. He is also believed to have brought revelation to earlier prophets, appeared in the Hadith of Jibril to teach the basics of Islam, Iman and Ihsan, and accompanied the Prophet on the Night Journey, during which the five daily prayers were given. The Qur'an calls him 'the trustworthy spirit' (26:193) and the 'Holy Spirit' (Ruh al-Qudus, 16:102). Many Muslims would therefore see him as the greatest of the angels.\n\nARGUMENTS AGAINST THE STATEMENT\nOthers argue that all angels simply do God's will and that ranking them is not helpful; all of them 'do not disobey Allah' (66:6), so their importance comes from God, not from themselves. Mika'il is named alongside Jibril (2:98) and is responsible for provision and mercy, which every living thing depends on. Israfil will blow the trumpet to begin the resurrection, and the Angel of Death takes every soul; for an ordinary Muslim's daily life and future, the recording angels (Kiraman Katibin) and the questioning angels in the grave may be more directly relevant, because they relate to each person's own judgement.\n\nA non-religious person may argue that none is important because there is no evidence that angels exist, although this does not tell us how Muslims rank them.\n\nCONCLUSION\nAll angels serve God and each role is necessary, so in one sense none is 'more important' in itself. However, Jibril's role in delivering revelation is unique - it is the source of the Qur'an and Sunnah on which all Muslim belief and practice depend. Weighing this, I agree that Jibril is the most important angel for Muslims, while recognising that his importance comes entirely from the message he carried from God.",
+   "evidence": [
+    "Qur'an 96:1",
+    "Qur'an 26:193",
+    "Qur'an 16:102",
+    "Qur'an 2:98",
+    "Qur'an 66:6"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Jibril"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "paper": "Beliefs",
+ "module": "1.3",
+ "moduleTitle": "Matter (prakriti), the three qualities (tri-guna), illusion (maya) and cosmology",
+ "note": {
+  "specFocus": "Matter (prakriti); the three qualities (tri-guna); illusion (maya); cosmology (Rig Veda 10.129.6-7); the cycle of four ages; many worlds and their diverse inhabitants.",
+  "summary": "PRAKRITI (MATTER)\nPrakriti is the material nature or energy from which the physical universe, our bodies and even our minds are made. In Samkhya philosophy it is contrasted with purusha (pure consciousness, spirit). The Bhagavad Gita lists eight elements of Krishna's \"lower\" material energy: earth, water, fire, air, space (ether), mind, intellect and ego (7.4), and describes the souls as his \"higher\" energy (7.5). Hindus therefore see matter as real and as coming from God, but as different from the eternal self (atman), which is conscious.\n\nTHE TRI-GUNA (THREE QUALITIES)\nPrakriti works through three gunas (\"qualities\" or \"strands\"), which mix in different amounts in everything – food, actions, people and even worship (Bhagavad Gita chapters 14 and 17):\n• Sattva – goodness, purity, light, calm and wisdom (e.g. fresh vegetarian food, study, peaceful worship).\n• Rajas – passion, activity, desire and restlessness (e.g. ambition, spicy food, chasing wealth).\n• Tamas – darkness, ignorance, laziness and inertia (e.g. stale food, intoxication, oversleeping, cruelty).\n\"Sattva, rajas and tamas – these gunas, born of prakriti, bind the eternal embodied self to the body\" (Gita 14.5). Hindus try to increase sattva through diet, meditation and good company, and ultimately to go beyond all three gunas.\n\nMAYA (ILLUSION)\nMaya means \"illusion\" or \"the power that deceives\". Hindus differ on what it means:\n• Advaita Vedanta (Shankara): the world of separate things is an appearance superimposed on Brahman, like a rope mistaken for a snake in dim light. When ignorance is removed, only Brahman remains.\n• Vaishnava and other theistic traditions: the world is real, but maya is God's energy that makes souls forget their true identity and think \"I am this body\" and \"this is mine\". The world is temporary, not unreal. Krishna says, \"This divine maya of mine, made of the gunas, is hard to overcome; but those who surrender to me cross beyond it\" (Gita 7.14).\n\nCOSMOLOGY – RIG VEDA 10.129 (THE NASADIYA SUKTA)\nThe \"Hymn of Creation\" begins in a state when \"there was neither non-existence nor existence\". Verses 6–7 ask: \"Who really knows? Who here will proclaim it? From where was it born, from where this creation? The gods came later than the creation of this world… He who oversees it in the highest heaven, he surely knows – or perhaps he does not know.\" This shows humility and wonder about origins, and many Hindus see it as compatible with modern science such as the Big Bang. Other Hindu accounts describe Vishnu lying on the cosmic ocean, with Brahma emerging from a lotus from his navel to create.\n\nTHE CYCLE OF FOUR AGES (YUGAS)\nTime is cyclical. Each great cycle (maha-yuga, about 4.32 million years) has four ages of declining virtue, in the ratio 4:3:2:1:\n1. Satya (Krita) Yuga – the age of truth; dharma stands on four legs like a bull.\n2. Treta Yuga – virtue declines by a quarter (Rama's age).\n3. Dvapara Yuga – half virtue (Krishna's age).\n4. Kali Yuga – the present age of quarrel and decline; traditionally begun in 3102 BCE.\nA thousand maha-yugas form one \"day of Brahma\" (a kalpa), after which the universe is dissolved and recreated.\n\nMANY WORLDS AND THEIR INHABITANTS\nThe Puranas describe fourteen worlds (lokas): higher heavenly realms such as Svarga (Indra's heaven) and Brahmaloka, the earthly realm (Bhu-loka), and lower realms (patala). They are inhabited by diverse beings – devas (gods), asuras (demons), gandharvas (heavenly musicians), nagas (serpent beings), humans, animals and plants. All are souls within samsara, and the Gita teaches that even the highest material worlds are temporary (8.16). Many Hindus also believe in countless universes."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the guna of goodness and purity?\nA) Tamas\nB) Rajas\nC) Sattva\nD) Maya",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) Sattva.\nSattva is goodness, light and purity; rajas is passion and activity; tamas is ignorance and inertia; maya is illusion, not a guna.",
+   "evidence": [
+    "Bhagavad Gita 14.5–9"
+   ],
+   "examTip": "Learn the three gunas in order: sattva (goodness), rajas (passion), tamas (ignorance).",
+   "answerTopic": "tri-guna"
+  },
+  {
+   "question": "Which one of the following is the present age in the Hindu cycle of four ages?\nA) Satya Yuga\nB) Treta Yuga\nC) Dvapara Yuga\nD) Kali Yuga",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "D) Kali Yuga.\nHindus traditionally believe we are living in Kali Yuga, the fourth and most degenerate age, which follows Satya, Treta and Dvapara.",
+   "evidence": [
+    "Four yugas: Satya, Treta, Dvapara, Kali"
+   ],
+   "examTip": "The ages go from most to least virtuous.",
+   "answerTopic": "four ages"
+  },
+  {
+   "question": "Give one meaning of the term prakriti.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: matter; material nature/energy; the material world from which bodies and minds are made; the 'lower' energy of God (Gita 7.4).",
+   "evidence": [
+    "Bhagavad Gita 7.4"
+   ],
+   "examTip": "'Matter' on its own is enough for one mark.",
+   "answerTopic": "prakriti"
+  },
+  {
+   "question": "Give one type of being that Hindus believe lives in other worlds.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of: devas (gods); asuras (demons); gandharvas (celestial musicians); nagas (serpent beings); apsaras; rakshasas; ancestors (pitris).",
+   "evidence": [
+    "Puranic cosmology – fourteen lokas"
+   ],
+   "examTip": "Any recognisable inhabitant of the 'many worlds' gains the mark.",
+   "answerTopic": "many worlds"
+  },
+  {
+   "question": "Explain two contrasting Hindu understandings of maya.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First understanding: In Advaita Vedanta, taught by Shankara, maya means that the world of separate, changing things is ultimately an illusion superimposed on Brahman, like a rope mistaken for a snake in poor light. Only Brahman is truly real, and liberation comes when knowledge removes this illusion and the self realises it is one with Brahman.\n\nSecond understanding: In Vaishnava traditions maya is the real energy of God which makes souls forget who they are. The world itself is real but temporary; the illusion is the false belief 'I am this body' and attachment to possessions. Krishna teaches that maya is hard to overcome, but those who surrender to him in devotion cross beyond it (Gita 7.14).",
+   "evidence": [
+    "Shankara – rope and snake",
+    "Bhagavad Gita 7.14",
+    "Advaita vs Vaishnava"
+   ],
+   "examTip": "Use the rope-and-snake example to make the Advaita view clear and contrast it with 'real but temporary'.",
+   "answerTopic": "maya"
+  },
+  {
+   "question": "Explain two ways in which belief in the three gunas influences Hindus today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Many Hindus choose their diet according to the gunas. Fresh vegetarian food such as fruit, grains, milk and vegetables is considered sattvic and helps a calm, pure mind, while meat, alcohol and stale food are seen as tamasic. So many Hindus are vegetarian and avoid intoxicants, especially before worship or on fast days.\n\nSecond way: The gunas influence how Hindus try to live and worship. A Hindu may get up early for meditation or puja (a sattvic time of day), keep good company and avoid anger and laziness, so that sattva grows in their character. The long-term aim is to rise beyond all three gunas, because the Gita says they bind the soul to the body (14.5).",
+   "evidence": [
+    "Bhagavad Gita 14.5, 17.8–10",
+    "Sattvic food"
+   ],
+   "examTip": "Practical examples – food, daily routine, company – make influence points detailed.",
+   "answerTopic": "gunas influence"
+  },
+  {
+   "question": "Explain two Hindu teachings about the origins of the universe.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: The Nasadiya Sukta, the 'Hymn of Creation' in the Rig Veda (10.129), describes a time before creation when 'there was neither non-existence nor existence'. Verses 6–7 ask, 'Who really knows?… The gods came later than the creation of this world… He who oversees it in the highest heaven, he surely knows – or perhaps he does not know.' This teaches humility: the origin of the universe is a great mystery, and many Hindus feel this openness fits well with scientific theories such as the Big Bang.\n\nSecond teaching: The Puranas teach that creation comes from God and happens in endless cycles. Vishnu lies on the cosmic ocean, a lotus grows from his navel, and from it Brahma is born to create the worlds. At the end of each 'day of Brahma' the universe is dissolved and later created again, so time is cyclical rather than having a single beginning and end. The Bhagavad Gita (9.7–8) similarly says that at the end of a cycle all beings enter God's nature, and at the beginning he sends them forth again.",
+   "evidence": [
+    "Rig Veda 10.129.6–7 (Nasadiya Sukta)",
+    "Bhagavad Gita 9.7–8",
+    "Vishnu Purana / Puranas – cyclical creation"
+   ],
+   "examTip": "Rig Veda 10.129.6–7 is named in the specification, so it is the best source to use for cosmology.",
+   "answerTopic": "cosmology"
+  },
+  {
+   "question": "Explain two Hindu beliefs about the cycle of four ages.\nRefer to sacred writings or another source of Hindu belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First belief: Hindus believe time moves in cycles of four ages – Satya, Treta, Dvapara and Kali Yuga – in which goodness gradually declines. The Puranas, such as the Vishnu Purana and Bhagavata Purana, picture dharma as a bull that stands on four legs in Satya Yuga but only on one leg in Kali Yuga. The lengths of the ages are in the ratio 4:3:2:1, and together they make one maha-yuga of about 4.32 million years.\n\nSecond belief: Hindus believe we now live in Kali Yuga, an age of conflict, greed and ignorance, which traditionally began in 3102 BCE. This explains why there is so much suffering and wrongdoing. However, many teachers say that in Kali Yuga liberation is easier through simple devotion; the Bhagavata Purana (12.3.51) teaches that by chanting God's names in this age a person can be freed. At the end of Kali Yuga, the avatar Kalki is expected to appear and restore Satya Yuga.",
+   "evidence": [
+    "Bhagavata Purana 12.3.51",
+    "Vishnu Purana – dharma as a bull",
+    "Kalki avatar",
+    "Satya, Treta, Dvapara, Kali"
+   ],
+   "examTip": "Dates and ratios are not required, but one specific detail makes the explanation 'detailed'.",
+   "answerTopic": "four ages"
+  },
+  {
+   "question": "'Hindu teachings about the universe cannot be reconciled with modern science.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nSome Hindu accounts of the universe are clearly different from science. The Puranas describe fourteen worlds inhabited by devas, asuras, gandharvas and nagas, and picture Brahma being born from a lotus that grows from Vishnu's navel. Science has found no evidence of such worlds or beings, and it explains the universe through natural laws rather than gods.\n\nThe cycle of four ages teaches that human virtue has declined from a golden Satya Yuga to the present Kali Yuga. Science, by contrast, suggests humans evolved gradually from earlier species, and archaeology shows no evidence of an earlier perfect age. A literal reading of these teachings would conflict with evolution and history.\n\nSome might also argue that science only explains material causes, whereas Hindu teaching claims that the universe exists for spiritual purposes, such as allowing souls to work out their karma. This kind of claim cannot be tested scientifically.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nMany Hindus argue that their teachings fit science better than those of many other religions. The Rig Veda's Hymn of Creation (10.129) describes a state when \"there was neither non-existence nor existence\" and openly asks \"Who really knows?\" (verses 6–7). This humble questioning is similar to scientific enquiry, and the idea of creation emerging from a single undifferentiated state is often compared with the Big Bang.\n\nHindu cosmology works on vast timescales – a day of Brahma is about 4.32 billion years – which is surprisingly close to the scientific age of the Earth (about 4.5 billion years). The idea of cycles of creation and dissolution resembles some scientific models of the universe, and the belief in countless universes is similar to the idea of a multiverse. The astronomer Carl Sagan remarked that Hinduism is the only great faith whose timescales roughly match modern cosmology.\n\nMany Hindus also read the Puranic stories symbolically: the lotus from Vishnu's navel shows that creation depends on God, not that a giant flower literally grew. Hinduism has no single creed requiring a literal reading, and teachers such as Swami Vivekananda welcomed science as compatible with Vedanta.\n\nCONCLUSION\n\nSome Hindu teachings, if read literally, are hard to reconcile with science, especially the many worlds and the decline of the ages. However, the key texts, such as Rig Veda 10.129, are open, questioning and compatible with scientific ideas, and Hindus are free to read stories symbolically. I therefore disagree with the statement: Hindu teachings and modern science can be reconciled by most Hindus, because they answer different questions – science explains how, while Hindu teaching explores why.",
+   "evidence": [
+    "Rig Veda 10.129.6–7",
+    "Day of Brahma ≈ 4.32 billion years",
+    "Fourteen lokas",
+    "Four yugas",
+    "Swami Vivekananda",
+    "Carl Sagan, Cosmos (1980)"
+   ],
+   "examTip": "Strong answers separate literal from symbolic readings of Hindu teachings.",
+   "answerTopic": "Hinduism and science"
+  },
+  {
+   "question": "'Belief that the world is maya means that Hindus should not care about the world.'\nEvaluate this statement.\nIn your answer you should:\n• refer to Hindu teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\n\nIn Advaita Vedanta, Shankara taught that the world of separate things is ultimately an illusion superimposed on Brahman, like a rope mistaken for a snake. If the world is not ultimately real, it could be argued that it is pointless to become attached to possessions, careers or even social problems, because they belong to the realm of illusion.\n\nThe Bhagavad Gita teaches that the material world is temporary and that \"even the highest worlds are places of repeated birth and death\" (8.16). Attachment to the world, created by maya and the gunas, binds the soul to samsara. Sannyasis (renunciates) give up home, family and possessions to seek liberation, suggesting that the religious ideal is to turn away from worldly concerns.\n\nARGUMENTS SUPPORTING A DIFFERENT VIEW\n\nHowever, most Hindu traditions do not teach that the world is unreal. For Vaishnavas, the world is the real energy of God (Gita 7.4); maya is the illusion that makes souls forget God and think \"I am this body\". The world is temporary, but it belongs to God and should be cared for. The Isha Upanishad begins, \"All this is pervaded by the Lord… enjoy it by renouncing; do not covet anyone's wealth,\" teaching responsible use rather than neglect.\n\nThe Gita does not tell Arjuna to withdraw from the world; it tells him to act. Krishna teaches karma yoga: \"You have a right to your actions, but never to their fruits\" (2.47). The aim is to give up selfish attachment, not to stop caring. Indeed, those who see the divine in all beings are said to rejoice \"in the welfare of all beings\" (Gita 5.25).\n\nIn practice many Hindus are deeply involved in the world: charities such as Sewa International carry out disaster relief, and Hindu environmental projects such as the Bhumi Project and cow protection at Bhaktivedanta Manor show care for nature. Gandhi, who regarded the Gita as his guide, worked tirelessly for justice. Even Advaitins teach that, until liberation, we must follow dharma in this world, and many Advaita monks of the Ramakrishna Mission run hospitals and schools – Swami Vivekananda taught that serving people is serving God.\n\nCONCLUSION\n\nThe statement misunderstands maya. Even in Advaita, maya is a reason not to be selfishly attached, rather than a reason not to care, and in the theistic traditions the world is real and sacred. The Gita's teaching of selfless action and the example of Hindu charities show that the dominant Hindu view is to care for the world while remaining unattached to it. I therefore disagree with the statement.",
+   "evidence": [
+    "Shankara – rope and snake",
+    "Bhagavad Gita 2.47, 5.25, 7.4, 8.16",
+    "Isha Upanishad 1",
+    "Ramakrishna Mission / Vivekananda",
+    "Sewa International",
+    "Bhumi Project"
+   ],
+   "examTip": "Distinguish 'unreal' from 'temporary' – this is the key to evaluating maya.",
+   "answerTopic": "maya and the world"
+  }
+ ]
+}

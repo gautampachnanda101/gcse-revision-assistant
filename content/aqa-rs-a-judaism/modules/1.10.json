@@ -1,0 +1,137 @@
+{
+ "paper": "Beliefs",
+ "module": "1.10",
+ "moduleTitle": "Mitzvot between man and God and mitzvot between man and man",
+ "note": {
+  "specFocus": "The Covenant and the mitzvot: mitzvot between man and God (bein adam la-Makom) and mitzvot between man and man (bein adam la-chavero), including the difference between them and their importance.",
+  "summary": "Two kinds of mitzvot\nThe rabbis divided the mitzvot into two broad groups:\n• Mitzvot bein adam la-Makom: between a person and God (\"Makom\", \"the Place\", is a rabbinic name for God). These concern worship and holiness: belief in one God, not making idols, not misusing God's name, prayer, keeping Shabbat and festivals, kashrut, wearing tefillin and tzitzit, fixing a mezuzah, and studying Torah.\n• Mitzvot bein adam la-chavero: between a person and their fellow human. These concern how people treat each other: honouring parents, not murdering, stealing, lying or gossiping (lashon ha-ra), giving tzedakah, visiting the sick, paying workers on time, honest weights and measures, and loving one's neighbour (Leviticus 19:18).\n\nThe Ten Commandments\nTraditionally the two tablets reflect this division. The first five (from \"I am the Lord your God\" to \"Honour your father and your mother\") concern God; honouring parents is placed here because parents are partners with God in creating a child. The second five (\"Do not murder\"… \"Do not covet\") concern other people.\n\nThe difference between them\n• Atonement: the Mishnah teaches, \"For sins between a person and God, Yom Kippur atones; for sins between a person and their fellow, Yom Kippur does not atone until they have made peace with their fellow\" (Mishnah Yoma 8:9). So before Yom Kippur Jews apologise to anyone they have wronged and try to put things right, for example by returning anything stolen.\n• Focus: one group is directed at God (holiness, worship), the other at society (justice, kindness).\n• Some mitzvot between people may be set aside less easily. For example, the rabbis taught that human dignity (kavod ha-briyot) can override some rabbinic rules.\n\nLinks between them\n• Both come from the same God, are part of the same Torah and are equally commanded.\n• Treating people well is itself a way of serving God, because every person is made in God's image (Genesis 1:27). The rabbis taught that whoever insults a person insults their Creator (Proverbs 17:5, \"whoever mocks the poor insults his Maker\").\n• Love of God and love of neighbour are linked: Deuteronomy 6:5 (\"love the Lord your God\") and Leviticus 19:18 (\"love your neighbour as yourself\"). Leviticus 19 itself mixes both kinds, holiness laws and ethical laws side by side, under the heading \"Be holy, for I the Lord your God am holy\" (19:2).\n• The prophets warned that ritual worship without justice is worthless (Isaiah 1:11–17; Amos 5:21–24).\n• Hillel summed up the Torah as \"What is hateful to you, do not do to your neighbour\" (Shabbat 31a), and Rabbi Akiva called love of neighbour \"a great principle of the Torah\".\n\nImportance and diversity\n• Orthodox Jews see both kinds as equally binding, and ritual and ethical laws are woven together in halakhah.\n• Reform Jews tend to place greater emphasis on the ethical mitzvot (between people) as the lasting core of the covenant, while seeing ritual mitzvot as valuable ways to strengthen the relationship with God, subject to informed choice.\n• Most Jews would say that a person who is ritually observant but dishonest or unkind has not truly kept the covenant.\n\nKey terms: bein adam la-Makom; bein adam la-chavero; lashon ha-ra; Mishnah Yoma 8:9; kavod ha-briyot (human dignity)."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is a mitzvah between a person and God?\nA Giving to charity\nB Visiting the sick\nC Keeping Shabbat\nD Paying workers on time",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – keeping Shabbat is a mitzvah bein adam la-Makom (between a person and God), linked to remembering God's creation. The other three concern how people treat each other.",
+   "evidence": [
+    "Exodus 20:8–11"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "mitzvot between man and God"
+  },
+  {
+   "question": "Which one of the following is a mitzvah between people?\nA Fixing a mezuzah\nB Wearing tefillin\nC Not gossiping (lashon ha-ra)\nD Saying the Shema",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C – not gossiping. Lashon ha-ra (harmful speech) damages other people, so the prohibition is a mitzvah bein adam la-chavero. The other three are ritual mitzvot directed towards God.",
+   "evidence": [
+    "Leviticus 19:16"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "mitzvot between people"
+  },
+  {
+   "question": "Give two examples of mitzvot between a person and God.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Keeping Shabbat.\n• Praying.\n• Saying the Shema.\n• Keeping kosher.\n• Wearing tefillin or tzitzit.\n• Fixing a mezuzah.\n• Not making idols.\n• Not misusing God's name.\n• Fasting on Yom Kippur.\n• Studying Torah.",
+   "evidence": [
+    "Exodus 20:2–11",
+    "Deuteronomy 6:4–9"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "mitzvot between man and God"
+  },
+  {
+   "question": "Give two examples of mitzvot between a person and other people.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Honour your parents.\n• Do not murder.\n• Do not steal.\n• Do not lie or bear false witness.\n• Give tzedakah.\n• Love your neighbour.\n• Visit the sick.\n• Do not gossip.\n• Pay workers on time.\n• Use honest weights.",
+   "evidence": [
+    "Exodus 20:12–17",
+    "Leviticus 19:13–18"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "mitzvot between people"
+  },
+  {
+   "question": "Explain two differences between mitzvot between man and God and mitzvot between man and man.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. They are directed at different relationships. Mitzvot between a person and God, such as prayer, keeping Shabbat and kashrut, express worship and holiness. Mitzvot between people, such as giving tzedakah, honesty and not gossiping, concern justice and kindness in society. The two tablets of the Ten Commandments are traditionally divided in this way.\n\n2. They are atoned for differently. The Mishnah (Yoma 8:9) teaches that Yom Kippur atones for sins against God, but sins against another person are not forgiven until the wronged person has been reconciled. So Jews must apologise, and repay any loss, to people they have hurt before Yom Kippur, whereas sins against God can be repented directly through prayer and fasting.",
+   "evidence": [
+    "Mishnah Yoma 8:9",
+    "Exodus 20:2–17"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "difference between the two"
+  },
+  {
+   "question": "Explain two ways in which mitzvot between people influence Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. They shape Jewish attitudes to speech. Jews are taught to avoid lashon ha-ra, harmful gossip, even if it is true, because it damages people's reputations. Some Jews study the laws of speech daily, following the teaching of the Chafetz Chaim, and try to speak positively about others.\n\n2. They shape preparation for the High Holy Days. Because Yom Kippur does not atone for wrongs against other people until they have been put right, many Jews contact family, friends and colleagues in the days before Yom Kippur to apologise and ask forgiveness. This makes repairing relationships part of religious life.",
+   "evidence": [
+    "Leviticus 19:16",
+    "Mishnah Yoma 8:9"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "mitzvot between people today"
+  },
+  {
+   "question": "Explain two Jewish teachings about the importance of mitzvot between people. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Loving one's neighbour is a central principle of the Torah. Leviticus 19:18 commands, \"Love your neighbour as yourself\", and Rabbi Akiva called this a great principle of the Torah. Hillel summed up the whole Torah as \"What is hateful to you, do not do to your neighbour\" (Shabbat 31a). So caring for others is not an optional extra but the heart of Jewish life.\n\n2. Wrongs against people need to be put right with people, not only with God. The Mishnah (Yoma 8:9) teaches that Yom Kippur atones for sins against God, but not for sins against others until the person wronged has been reconciled. This shows that God cares about human relationships and that Jews cannot use religious ritual to avoid responsibility for hurting others.",
+   "evidence": [
+    "Leviticus 19:18",
+    "Talmud Shabbat 31a",
+    "Mishnah Yoma 8:9"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "mitzvot between people"
+  },
+  {
+   "question": "Explain two ways in which mitzvot between man and God and mitzvot between man and man are linked. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Both come from the same God and appear side by side in the Torah. The Ten Commandments contain both kinds on two tablets, and Leviticus 19 mixes keeping Shabbat and avoiding idols with leaving food for the poor and loving one's neighbour, all under the command \"Be holy, for I the Lord your God am holy\" (Leviticus 19:2). This shows they are equally part of the covenant.\n\n2. Serving people is a way of serving God. Because every person is made in the image of God (Genesis 1:27), how we treat people reflects how we honour God: \"whoever mocks the poor insults his Maker\" (Proverbs 17:5). The prophets taught that worship without justice is unacceptable to God (Amos 5:21–24), so the two kinds of mitzvot cannot be separated.",
+   "evidence": [
+    "Leviticus 19:2",
+    "Genesis 1:27",
+    "Proverbs 17:5",
+    "Amos 5:21–24"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "links between the two"
+  },
+  {
+   "question": "\"Mitzvot between people are more important than mitzvot between people and God.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Mishnah teaches that Yom Kippur atones for sins against God, but not for sins against other people until those people have been reconciled (Yoma 8:9). This suggests that wronging a person is in some ways more serious, because God cannot simply forgive it on the victim's behalf.\n\nThe prophets repeatedly put ethics above ritual. Amos records God saying, \"I hate, I despise your festivals… but let justice roll down like waters\" (Amos 5:21–24), and Isaiah says God will not listen to prayers from people whose \"hands are full of blood\" (Isaiah 1:15). Hillel summed up the whole Torah as \"What is hateful to you, do not do to your neighbour\". Many Reform Jews would agree that the ethical mitzvot are the lasting core of Judaism, while ritual practices are ways to support them. Pikuach nefesh, saving a human life, overrides almost every ritual law, which again suggests people come first.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nOrthodox Jews would argue that all mitzvot come from God and that it is wrong to rank them; Pirkei Avot 2:1 warns that we do not know the reward of each commandment. The first of the Ten Commandments is about God (\"I am the Lord your God\"), and the Shema, \"Hear O Israel… the Lord is One\", is the foundation of everything else. The three laws that may not be broken even to save a life include idolatry, which is a mitzvah between a person and God.\n\nThe two kinds of mitzvot are also linked. People should be treated well because they are made in God's image, so ethics rests on a relationship with God. Mitzvot such as Shabbat, prayer and Torah study shape a person's character and keep the ethical commands alive in their life. Without the relationship with God, the moral commands lose their authority. The prophets attacked worship without justice, not worship itself.\n\nJUSTIFIED CONCLUSION\n\nThere is real Jewish support for the statement, especially in Mishnah Yoma 8:9 and the prophets, and in Reform emphasis on ethics. However, Judaism as a whole does not set the two against each other: the same Torah commands both, and loving one's neighbour flows from loving God. The most convincing view is that neither is more important, but that ritual devotion without ethical behaviour is empty, so Jews cannot claim to serve God while mistreating people.",
+   "evidence": [
+    "Mishnah Yoma 8:9",
+    "Amos 5:21–24",
+    "Isaiah 1:15–17",
+    "Pirkei Avot 2:1",
+    "Talmud Shabbat 31a",
+    "Exodus 20:2"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "mitzvot between people and God"
+  },
+  {
+   "question": "\"It is impossible to keep all the mitzvot in the modern world.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nMany of the 613 mitzvot literally cannot be kept today. Laws about Temple sacrifices, the priesthood and many agricultural laws depend on the Temple in Jerusalem or the land of Israel, and the Temple has not stood since 70 CE. Even the strictest Orthodox Jew cannot keep all 613; Jewish tradition itself recognises this.\n\nModern life also makes some mitzvot very demanding. Keeping Shabbat may clash with work or school timetables, which often include Saturdays, keeping strictly kosher can be expensive and hard when eating out, and praying three times a day fits awkwardly into a working day. Many Jews in Britain, including many Reform and secular Jews, keep only some mitzvot, which suggests that full observance feels unrealistic for many.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nOrthodox Jews would say that it is possible to keep all the mitzvot that apply today, and thousands of British Jews do so. Communities in places such as Golders Green, Stamford Hill, Gateshead and Manchester have kosher shops, eruvs, synagogues and schools that make full observance practical. UK equality law also protects religious practice, and many employers allow early finishes on Friday in winter for Shabbat.\n\nHalakhah has always adapted to new situations without abandoning the law: rabbis rule on electricity, timers, medical technology and online life. The Torah says the commandments are \"not too hard for you… it is very near you, in your mouth and in your heart, so that you can do it\" (Deuteronomy 30:11–14). God would not command what humans cannot do. The rabbis also taught that one who studies the laws of the sacrifices is considered as if they had offered them, so even Temple-related mitzvot are honoured through study.\n\nReform Jews might reply that the question is not whether it is possible but whether it is required, since they believe in informed choice about ritual mitzvot. On that view, modern life is a reason to reinterpret rather than abandon the mitzvot.\n\nJUSTIFIED CONCLUSION\n\nThe statement is true in a narrow, literal sense: no one can keep all 613 today because many depend on the Temple. But it is not true that the mitzvot which apply today are impossible, as thriving Orthodox communities show. Modern life makes observance harder, not impossible. The stronger conclusion is that the commandments that can be kept are still being kept, and Deuteronomy's teaching that they are \"not too hard\" remains convincing for observant Jews.",
+   "evidence": [
+    "Deuteronomy 30:11–14",
+    "Talmud Menachot 110a",
+    "Talmud Makkot 23b"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "613 mitzvot today"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_catholic_christianity",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Catholic Christianity",
+  "brandIcon": "⛪",
+  "brandTitle": "Catholic Christianity (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062)",
+  "pageTitle": "AQA GCSE Religious Studies A: Catholic Christianity Revision",
+  "breadcrumb": "Religious Studies / AQA A / Catholic Christianity",
+  "heroEyebrow": "Component 1 · Catholic Christianity · Beliefs & teachings · Practices",
+  "papers": [
+   {"id": "Beliefs", "label": "Beliefs & teachings", "title": "Catholic Christianity: beliefs and teachings", "subtitle": "Key beliefs and the seven sacraments (1.1–1.7)"},
+   {"id": "Practices", "label": "Practices", "title": "Catholic Christianity: practices", "subtitle": "Worship and the work of the Church (2.1–2.8)"}
+  ],
+  "footerNote": "Original practice questions written to the published AQA GCSE Religious Studies A (8062) specification, Component 1: Catholic Christianity, using the question format examined from June 2026 (1, 1, 4, 6 and 12 marks). Not past-paper material. Model answers are indicative exemplars, not official AQA mark schemes; other valid answers are credited in the exam."
+ },
+ "rubrics": {
+  "Beliefs": {
+   "1": "AO1. Two 1-mark items open each question. (a) Multiple choice: four options, one correct answer – give the letter and the answer. (b) Short answer ('Give one…' / 'Name one…'): only the first answer given is credited, so write one precise point.",
+   "4": "AO1. 'Explain two ways in which… influences Catholics today' (AO1.2) or 'Explain two different Christian beliefs/views about…' (AO1.3). For each of the two points: 1 mark for a simple, relevant and accurate explanation; 2 marks for a detailed explanation (developed with an example, evidence, reference to different views or detailed information). For influence questions the development must show clear influence on how Catholics live or act; for 'different' questions the two points must genuinely differ.",
+   "6": "AO1.1. 'Explain two Catholic beliefs/teachings about… Refer to sacred writings or another source of Christian belief and teaching in your answer.' For each of two beliefs: 1 mark simple explanation, 2 marks detailed explanation (4 max). Source of authority: 2 marks for naming AND applying a relevant source (e.g. a Bible passage, the Catechism, a Church document, the Creed) to the question; 1 mark for naming one without applying it, or for applying one without naming it.",
+   "12": "AO2. Evaluate a statement: arguments in support, arguments against (including different Christian or non-religious views where relevant) and a justified conclusion. Levels: L4 (10–12) well-argued, reasoned consideration of different points of view, logical chains of reasoning leading to judgement(s) supported by knowledge of relevant evidence, references to religion applied to the issue; L3 (7–9) reasoned consideration of different points of view with logical chains of reasoning and clear reference to religion; L2 (4–6) reasoned consideration of one point of view, or recognition of different views each supported by reasons (max L2 if no reference to religion); L1 (1–3) a point of view with reasons stated; 0 nothing worthy of credit. Up to 3 further marks for spelling, punctuation, grammar and specialist terms."
+  },
+  "Practices": {
+   "1": "AO1. Two 1-mark items open each question. (a) Multiple choice: four options, one correct answer – give the letter and the answer. (b) Short answer ('Give one…' / 'Name one…'): only the first answer given is credited, so write one precise point.",
+   "4": "AO1. 'Explain two ways in which… influences Catholics today' (AO1.2) or 'Explain two different Christian beliefs/views about…' (AO1.3). For each of the two points: 1 mark for a simple, relevant and accurate explanation; 2 marks for a detailed explanation (developed with an example, evidence, reference to different views or detailed information). For influence questions the development must show clear influence on how Catholics live or act; for 'different' questions the two points must genuinely differ.",
+   "6": "AO1.1. 'Explain two ways/reasons/teachings… Refer to sacred writings or another source of Christian belief and teaching in your answer.' For each of two points: 1 mark simple explanation, 2 marks detailed explanation (4 max). Source of authority: 2 marks for naming AND applying a relevant source (e.g. a Bible passage, the Catechism, a Church document) to the question; 1 mark for naming one without applying it, or for applying one without naming it.",
+   "12": "AO2. Evaluate a statement: arguments in support, arguments against (including different Christian or non-religious views where relevant) and a justified conclusion. Levels: L4 (10–12) well-argued, reasoned consideration of different points of view, logical chains of reasoning leading to judgement(s) supported by knowledge of relevant evidence, references to religion applied to the issue; L3 (7–9) reasoned consideration of different points of view with logical chains of reasoning and clear reference to religion; L2 (4–6) reasoned consideration of one point of view, or recognition of different views each supported by reasons (max L2 if no reference to religion); L1 (1–3) a point of view with reasons stated; 0 nothing worthy of credit. Up to 3 further marks for spelling, punctuation, grammar and specialist terms."
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A – Catholic Christianity",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 1 (Paper 1): The study of religions – Catholic Christianity (8062/12)",
+  "provenance": "Original practice questions and revision notes written to the published AQA GCSE Religious Studies A (8062) specification, section 3.1.3 Catholic Christianity (beliefs and teachings; practices), following the question structure AQA examines from June 2026 (1-mark multiple choice, 1-mark short answer, 4, 6 with source of authority, and 12-mark evaluation). Not past-paper material and not copied from AQA papers, mark schemes, textbooks or revision guides. Model answers are indicative exemplars, not official mark schemes. Short Bible quotations and references to the Catechism of the Catholic Church and Church documents are cited for study purposes."
+ }
+}

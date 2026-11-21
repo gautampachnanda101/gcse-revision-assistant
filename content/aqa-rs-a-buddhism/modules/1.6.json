@@ -1,0 +1,133 @@
+{
+ "paper": "Beliefs",
+ "module": "1.6",
+ "moduleTitle": "The Buddha's life and its significance",
+ "note": {
+  "specFocus": "The Buddha's life and its significance: the birth of the Buddha and his life of luxury; the Four Sights: illness, old age, death, holy man (Jataka 075); the Buddha's ascetic life; the Buddha's Enlightenment.",
+  "summary": "WHY THE BUDDHA'S LIFE MATTERS\nSiddhattha Gotama (Sanskrit: Siddhartha Gautama), probably living in the 5th century BCE in northern India/Nepal, is not worshipped as a god. Buddhists see his life as an example showing that a human being can overcome suffering, and each stage teaches part of the Dhamma. Accounts come from the Pali Canon, the Jataka commentaries and later works such as Ashvaghosha's Buddhacarita.\n\n1. BIRTH AND LIFE OF LUXURY\nQueen Maya dreamed that a white elephant entered her side, a sign that she would bear a great being. Siddhattha was born in the Lumbini grove; traditional accounts say he was born from her side, took seven steps, and lotus flowers sprang up beneath his feet. The sage Asita predicted he would become either a great ruler or a great spiritual teacher. His mother died seven days after the birth and he was raised by her sister Mahapajapati. His father, King Suddhodana of the Sakya clan, wanted him to become a king, so he surrounded him with luxury in three palaces and kept suffering from his sight. Siddhattha married Yasodhara, and they had a son, Rahula. Significance: even wealth, pleasure and family could not give lasting satisfaction (dukkha).\n\n2. THE FOUR SIGHTS\nLeaving the palace with his charioteer Channa, Siddhattha saw an old man, a sick man, a corpse and a holy man (a wandering ascetic). (The AQA specification cites Jataka 075 for this.) Channa explained that ageing, illness and death come to everyone. The holy man, calm despite having nothing, suggested a way of seeking an answer to suffering. Significance: the first three sights show the reality of dukkha and anicca; the fourth shows that a spiritual path is possible. Buddhists today reflect on these as reminders of impermanence.\n\n3. THE ASCETIC LIFE\nAt 29 Siddhattha left the palace at night on his horse Kanthaka (the Great Renunciation), cut off his hair and put on simple robes. He studied meditation with teachers such as Alara Kalama and Uddaka Ramaputta, reaching deep states but not liberation. He then joined five ascetics and practised extreme self-denial for about six years, eating so little that he became skeletal. He realised that extreme asceticism did not lead to Enlightenment, accepted a bowl of milk-rice from a young woman, Sujata, and the five ascetics left him in disgust. Significance: the Middle Way between luxury and extreme self-denial. It is often illustrated by the lute string: too tight it snaps, too loose it will not play.\n\n4. THE ENLIGHTENMENT\nAt about 35, at Bodh Gaya, he sat beneath a pipal tree (the Bodhi tree) and vowed not to rise until he had found the truth. Mara, the personification of temptation and death, attacked him with armies, storms and his beautiful daughters, and challenged his right to sit there. Siddhattha touched the earth to call it as witness (the bhumisparsha mudra, seen on many Buddha rupas), and Mara fled. During the three watches of the night he gained knowledge of his past lives, saw how beings are reborn according to their kamma, and understood the Four Noble Truths and the end of craving. He became the Buddha, 'the awakened one'. Significance: Enlightenment is possible for a human being through effort, meditation and wisdom. After being encouraged (in tradition by the god Brahma Sahampati) to teach, he gave his first sermon to the five ascetics at Sarnath.\n\nCONTEMPORARY RELEVANCE\nWesak celebrates the Buddha's birth, Enlightenment and (in Theravada) death. Pilgrims visit Lumbini, Bodh Gaya, Sarnath and Kushinagar. Rupas show his life through mudras: meditation, earth-touching and teaching gestures.\n\nKEY TERMS\nSiddhattha/Siddhartha – the Buddha's personal name. Jataka – stories of the Buddha's lives. Ascetic – someone practising severe self-discipline. Middle Way – avoiding extremes. Mara – personification of temptation. Bodhi – awakening."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following was NOT one of the Four Sights?\nA) An old man\nB) A sick man\nC) A newborn baby\nD) A holy man",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C) A newborn baby. The Four Sights were an old man, a sick man, a corpse (dead man) and a holy man (ascetic).",
+   "evidence": [
+    "The Four Sights"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "four sights"
+  },
+  {
+   "question": "Under which kind of tree did the Buddha gain Enlightenment?\nA) Oak tree\nB) Bodhi (pipal) tree\nC) Palm tree\nD) Cherry tree",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B) Bodhi (pipal) tree. Siddhattha sat beneath a pipal (fig) tree at Bodh Gaya, which became known as the Bodhi tree, the 'tree of awakening'.",
+   "evidence": [
+    "Bodh Gaya, Bodhi tree"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited, and ticking more than one box scores zero.",
+   "answerTopic": "enlightenment"
+  },
+  {
+   "question": "Give two of the Four Sights.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: an old man (old age); a sick man (illness); a corpse (death); a holy man (wandering ascetic).",
+   "evidence": [
+    "Jataka 075 (cited in the AQA specification)"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "four sights"
+  },
+  {
+   "question": "Give two events from the Buddha's ascetic life.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of:\n- He studied meditation with teachers such as Alara Kalama and Uddaka Ramaputta.\n- He practised extreme fasting with five ascetics for about six years.\n- He became extremely thin and weak.\n- He accepted milk-rice from Sujata.\n- He realised extreme asceticism did not work and discovered the Middle Way.\n- The five ascetics left him.",
+   "evidence": [
+    "Ascetic life",
+    "Middle Way"
+   ],
+   "examTip": "Give two separate, accurate points. One short sentence each is enough; no development is needed for 2 marks.",
+   "answerTopic": "ascetic life"
+  },
+  {
+   "question": "Explain two ways in which the Buddha's ascetic life influences Buddhists today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Buddhists follow the Middle Way. The Buddha learned that extreme self-denial weakened him as much as luxury distracted him, so Buddhists avoid extremes: monks and nuns live simply but eat enough to stay healthy, and lay Buddhists try to live without excess or harsh self-punishment.\n\n2. The Buddha's determination inspires Buddhists to persevere in meditation and practice. Even when his ascetic years failed, he kept searching for the truth. Buddhists today on retreat, or monks during the rains retreat (vassa), may follow his example of effort and discipline, while remembering that the aim is balance, not suffering.",
+   "evidence": [
+    "Middle Way",
+    "Lute string analogy"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "ascetic life"
+  },
+  {
+   "question": "Explain two ways in which the Four Sights are significant for Buddhists.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. The first three sights show the reality of dukkha and anicca. Siddhattha, who had been protected from suffering, discovered that ageing, illness and death come to everyone, even a prince. Buddhists see this as showing that no amount of wealth can escape suffering, which is the first Noble Truth.\n\n2. The fourth sight, the holy man, shows that there is a way to respond to suffering. The holy man was peaceful despite having nothing, which inspired Siddhattha to leave the palace and seek the truth. For Buddhists this shows that spiritual practice, rather than material comfort, can lead to peace, which encourages them to follow the path.",
+   "evidence": [
+    "Four Sights",
+    "Dukkha, anicca"
+   ],
+   "examTip": "Make two distinct points and develop each one (a detailed explanation, an example, or a link to practice). Two simple points alone cap you at 2 marks.",
+   "answerTopic": "four sights"
+  },
+  {
+   "question": "Explain two ways in which the Buddha's Enlightenment is significant for Buddhists.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. It shows that a human being can overcome suffering. The Buddha was not a god but became 'awakened' through his own effort. The Dhammapada (276) says, 'You yourselves must strive; the Buddhas only point the way.' This gives Buddhists hope that they too can reach Enlightenment by following his path.\n\n2. It is the source of the Dhamma. During the night of his Enlightenment the Buddha understood dependent arising and the Four Noble Truths, which he then taught in his first sermon at Sarnath (Dhammacakkappavattana Sutta). Without his Enlightenment, Buddhists would not have the teachings that guide their lives.",
+   "evidence": [
+    "Dhammapada 276",
+    "Dhammacakkappavattana Sutta",
+    "Bhumisparsha mudra"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "enlightenment"
+  },
+  {
+   "question": "Explain two ways in which the Buddha's birth and life of luxury are significant for Buddhists.\nRefer to sacred writings or another source of Buddhist belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. The signs at his birth show he was a special being destined for greatness. According to the traditional accounts (e.g. the Nidanakatha and Buddhacarita), Queen Maya dreamed of a white elephant, and the sage Asita predicted he would be either a great king or a great spiritual teacher. Buddhists celebrate his birth at Wesak, honouring him as a uniquely important teacher.\n\n2. His life of luxury shows that pleasure and possessions cannot remove suffering. Despite having palaces, a wife and a son, Siddhattha was not truly satisfied. This teaches Buddhists that craving for material things leads to dukkha, as the second Noble Truth teaches, and encourages them not to seek happiness in wealth.",
+   "evidence": [
+    "Nidanakatha / Buddhacarita (birth accounts)",
+    "Second Noble Truth (tanha)"
+   ],
+   "examTip": "Two developed points earn 4 marks; the fifth mark is for a relevant, accurate reference to sacred writing or another source of Buddhist belief and teaching. Name it, quote or paraphrase it, and show how it supports your point.",
+   "answerTopic": "birth and luxury"
+  },
+  {
+   "question": "“The Four Sights were the most important event in the Buddha's life.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nThe Four Sights could be seen as the most important event because they were the turning point that started everything else. Before them, Siddhattha lived in luxury and knew nothing of suffering. Seeing old age, sickness and death showed him dukkha and anicca, and seeing the holy man showed him that there might be a way out. Without the sights, he might never have left the palace, so there would have been no ascetic life, no Enlightenment and no Buddhism.\n\nThe sights also contain key Buddhist teachings in simple form. They show the first Noble Truth (suffering is universal) and impermanence, which everyone can relate to. Buddhists today often reflect on them to remind themselves that they too will age, fall ill and die.\n\nARGUMENTS FOR A DIFFERENT VIEW\nMost Buddhists would argue that the Enlightenment was the most important event. This was when Siddhattha actually became the Buddha, 'the awakened one'. On that night he understood the Four Noble Truths and dependent arising. The Four Sights raised the question; the Enlightenment provided the answer. Bodh Gaya is the most important pilgrimage site for Buddhists, and many Buddha rupas show the earth-touching gesture from that night.\n\nOthers might argue the first sermon at Sarnath was most important, because it 'set the wheel of Dhamma in motion' and began the Sangha. Without the Buddha's decision to teach, his Enlightenment would not have helped anyone else.\n\nThe ascetic life was also crucial because it taught the Middle Way, a principle at the heart of Buddhist practice. And Mahayana Buddhists might see the Buddha's previous lives as a bodhisattva, told in the Jataka stories, as essential preparation.\n\nIt could also be argued that no single event is 'most important' because his whole life forms one story that teaches the Dhamma.\n\nCONCLUSION\nI think the Enlightenment was the most important event, because that is when Siddhattha became the Buddha and discovered the truths that Buddhists follow. The Four Sights were extremely significant as the trigger for his search and they powerfully illustrate dukkha, but they only raised the problem. So the statement is not convincing: the Four Sights were the most important starting point, but the Enlightenment was the most important event.",
+   "evidence": [
+    "Four Sights (Jataka 075)",
+    "Bodh Gaya / bhumisparsha mudra",
+    "Dhammacakkappavattana Sutta",
+    "Middle Way"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "significance of events"
+  },
+  {
+   "question": "“The Buddha's life is a perfect example for Buddhists today.”\nEvaluate this statement. In your answer you should:\n- refer to Buddhist teaching\n- give reasoned arguments to support this statement\n- give reasoned arguments to support a different point of view\n- reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\nFor Buddhists, the Buddha's life shows the whole path from ignorance to Enlightenment. He experienced luxury and extreme self-denial and found the Middle Way between them. This gives a practical, balanced model that is still relevant: avoid materialism, but also avoid harmful extremes.\n\nHis life shows that Enlightenment is possible for a human being through effort. He was not a god, so his example is something people can actually follow. The Dhammapada says 'the Buddhas only point the way', and his life is the clearest example of the way.\n\nAfter his Enlightenment he spent 45 years teaching anyone, regardless of caste or gender, including founding an order of nuns at Mahapajapati's request. His compassion and wisdom, and the calm way he faced death at Kushinagar, are qualities Buddhists today aim to develop.\n\nARGUMENTS FOR A DIFFERENT VIEW\nSome people criticise the Buddha for leaving his wife Yasodhara and baby son Rahula to follow his spiritual quest. Today, abandoning a family without support would be seen as irresponsible, so in this respect his life may not be a perfect model for lay Buddhists. Buddhists respond that he later returned and that Yasodhara and Rahula joined the Sangha, but the problem remains for many people.\n\nHis extreme ascetic period was something he himself said was a mistake, so not every part of his life is meant to be copied. He also lived in a very different society; few people today can become wandering renunciants.\n\nMany Buddhists also see the Buddha's life as unique. A fully enlightened Buddha who rediscovers the Dhamma is rare, so his role is to show the way rather than for everyone to copy his life exactly. Mahayana Buddhists may look also to bodhisattvas such as Avalokiteshvara as examples of compassion.\n\nCONCLUSION\nI think the Buddha's life is an excellent example of the Buddhist path, especially in showing the Middle Way, perseverance and compassion. However, it is not a perfect template to copy in every detail, because some episodes, like leaving his family and extreme fasting, are not meant to be imitated today, and his situation was unique. It is more accurate to say that his life shows the principles Buddhists should follow, rather than being a perfect example in every respect.",
+   "evidence": [
+    "Dhammapada 276",
+    "Middle Way",
+    "Yasodhara and Rahula",
+    "Mahapajapati and the nuns' order"
+   ],
+   "examTip": "Argue both sides with developed reasoning, use accurate Buddhist teaching (and different traditions where relevant), then reach a justified conclusion that follows from your arguments. Spelling, punctuation, grammar and specialist terms earn up to 3 extra marks.",
+   "answerTopic": "the buddha as example"
+  }
+ ]
+}

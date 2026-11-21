@@ -1,0 +1,66 @@
+{
+ "config": {
+  "storageId": "aqa_rs_a_themes",
+  "examBoard": "AQA GCSE",
+  "subjectArea": "Religious Studies",
+  "subjectName": "Thematic studies",
+  "brandIcon": "⚖️",
+  "brandTitle": "Themes A–F (AQA RS A)",
+  "brandSubtitle": "AQA GCSE Religious Studies A (8062) · Component 2",
+  "pageTitle": "AQA GCSE Religious Studies A – Thematic Studies Revision",
+  "breadcrumb": "Religious Studies / AQA A / Themes",
+  "heroEyebrow": "Component 2 · Themes A–F · answer four themes",
+  "papers": [
+   {"id": "Theme A", "label": "Theme A: Relationships and families", "title": "Relationships and families", "subtitle": "sex, marriage and divorce · families and gender equality"},
+   {"id": "Theme B", "label": "Theme B: Religion and life", "title": "Religion and life", "subtitle": "origins and value of the universe · origins and value of human life"},
+   {"id": "Theme C", "label": "Theme C: The existence of God and revelation", "title": "The existence of God and revelation", "subtitle": "arguments for and against God · the divine and revelation"},
+   {"id": "Theme D", "label": "Theme D: Religion, peace and conflict", "title": "Religion, peace and conflict", "subtitle": "violence, terrorism and war · 21st-century conflict"},
+   {"id": "Theme E", "label": "Theme E: Religion, crime and punishment", "title": "Religion, crime and punishment", "subtitle": "crime and its causes · religion and punishment"},
+   {"id": "Theme F", "label": "Theme F: Religion, human rights and social justice", "title": "Religion, human rights and social justice", "subtitle": "human rights · wealth and poverty"}
+  ],
+  "footerNote": "Original practice questions written to the published AQA GCSE Religious Studies A (8062) specification, using the question pattern for exams from June 2026 (1, 1, 4, 6 and 12 marks per theme, plus 3 SPaG marks on the 12-mark question). Not past-paper material. Model answers are indicative exemplars, not official AQA mark schemes; other valid answers are credited."
+ },
+ "rubrics": {
+  "Theme A": {
+   "1": "1-mark questions (AO1): either a multiple-choice question with four options (one correct letter) or a short 'Give one…' question. Only the first answer given is credited.",
+   "4": "4 marks (AO1:3) – 'Explain two similar/different beliefs in contemporary British society about…' referring to the main religious tradition of Great Britain (Christianity) and one or more other religious traditions. For each belief: simple explanation of a relevant, accurate similarity/difference = 1 mark; detailed explanation = 2 marks. Required contrasting-belief issues for Theme A: contraception; sexual relationships before marriage; homosexual relationships.",
+   "6": "6 marks (AO1) – 'Explain two religious beliefs about… Refer to sacred writings or another source of religious belief and teaching.' Each belief: simple explanation = 1 mark, detailed = 2 marks (×2). Source of authority: 2 marks for naming and applying a relevant source; 1 mark for naming it only, or applying it without naming it.",
+   "12": "12 marks (AO2) – 'Evaluate this statement'. Levels of response: L4 (10–12) well-argued, reasoned consideration of different points of view, logical chains of reasoning leading to judgement(s), religion applied to the issue; L3 (7–9) reasoned consideration of different views with clear reference to religion; L2 (4–6) reasoned consideration of one view, or recognition of different views each supported by reasons (maximum Level 2 if no reference to religion); L1 (1–3) point of view with reason(s). Plus up to 3 SPaG marks (high 3 / intermediate 2 / threshold 1) for spelling, punctuation, grammar and range of specialist terms."
+  },
+  "Theme B": {
+   "1": "1-mark questions (AO1): multiple-choice (one correct letter from A–D) or 'Give one…'. Only the first answer is credited.",
+   "4": "4 marks (AO1:3) – two similar/different beliefs in contemporary British society, referring to Christianity and one or more other religious traditions; each belief 1 mark simple, 2 marks detailed. Required contrasting-belief issues for Theme B: abortion; euthanasia; animal experimentation.",
+   "6": "6 marks (AO1) – two religious beliefs (each 1 simple / 2 detailed) plus up to 2 marks for naming and applying sacred writings or another source of religious belief and teaching.",
+   "12": "12 marks (AO2) – evaluate the statement: arguments for, arguments for a different view, religious arguments (maximum Level 2 without them), non-religious arguments optional, justified conclusion. L4 10–12, L3 7–9, L2 4–6, L1 1–3. Plus up to 3 SPaG marks."
+  },
+  "Theme C": {
+   "1": "1-mark questions (AO1): multiple-choice (one correct letter from A–D) or 'Give one…'. Only the first answer is credited.",
+   "4": "4 marks (AO1:3) – two similar/different beliefs in contemporary British society. For Theme C the reference is to the main religious tradition of Great Britain (Christianity) and NON-RELIGIOUS beliefs such as atheism and humanism. Each belief 1 mark simple, 2 marks detailed. Required issues: visions; miracles; nature as general revelation.",
+   "6": "6 marks (AO1) – two religious beliefs (each 1 simple / 2 detailed) plus up to 2 marks for naming and applying sacred writings or another source of religious belief and teaching.",
+   "12": "12 marks (AO2) – evaluate the statement: arguments for, arguments for a different view, religious arguments (maximum Level 2 without them), non-religious arguments optional, justified conclusion. L4 10–12, L3 7–9, L2 4–6, L1 1–3. Plus up to 3 SPaG marks."
+  },
+  "Theme D": {
+   "1": "1-mark questions (AO1): multiple-choice (one correct letter from A–D) or 'Give one…'. Only the first answer is credited.",
+   "4": "4 marks (AO1:3) – two similar/different beliefs in contemporary British society, referring to Christianity and one or more other religious traditions; each belief 1 mark simple, 2 marks detailed. Required contrasting-belief issues for Theme D: violence; weapons of mass destruction; pacifism.",
+   "6": "6 marks (AO1) – two religious beliefs (each 1 simple / 2 detailed) plus up to 2 marks for naming and applying sacred writings or another source of religious belief and teaching.",
+   "12": "12 marks (AO2) – evaluate the statement: arguments for, arguments for a different view, religious arguments (maximum Level 2 without them), non-religious arguments optional, justified conclusion. L4 10–12, L3 7–9, L2 4–6, L1 1–3. Plus up to 3 SPaG marks."
+  },
+  "Theme E": {
+   "1": "1-mark questions (AO1): multiple-choice (one correct letter from A–D) or 'Give one…'. Only the first answer is credited.",
+   "4": "4 marks (AO1:3) – two similar/different beliefs in contemporary British society, referring to Christianity and one or more other religious traditions; each belief 1 mark simple, 2 marks detailed. Required contrasting-belief issues for Theme E: corporal punishment; the death penalty; forgiveness.",
+   "6": "6 marks (AO1) – two religious beliefs (each 1 simple / 2 detailed) plus up to 2 marks for naming and applying sacred writings or another source of religious belief and teaching.",
+   "12": "12 marks (AO2) – evaluate the statement: arguments for, arguments for a different view, religious arguments (maximum Level 2 without them), non-religious arguments optional, justified conclusion. L4 10–12, L3 7–9, L2 4–6, L1 1–3. Plus up to 3 SPaG marks."
+  },
+  "Theme F": {
+   "1": "1-mark questions (AO1): multiple-choice (one correct letter from A–D) or 'Give one…'. Only the first answer is credited.",
+   "4": "4 marks (AO1:3) – two similar/different beliefs in contemporary British society, referring to Christianity and one or more other religious traditions; each belief 1 mark simple, 2 marks detailed. Required contrasting-belief issues for Theme F: status of women in religion; the uses of wealth; freedom of religious expression.",
+   "6": "6 marks (AO1) – two religious beliefs (each 1 simple / 2 detailed) plus up to 2 marks for naming and applying sacred writings or another source of religious belief and teaching.",
+   "12": "12 marks (AO2) – evaluate the statement: arguments for, arguments for a different view, religious arguments (maximum Level 2 without them), non-religious arguments optional, justified conclusion. L4 10–12, L3 7–9, L2 4–6, L1 1–3. Plus up to 3 SPaG marks."
+  }
+ },
+ "meta": {
+  "title": "AQA GCSE Religious Studies A – Thematic Studies (Themes A–F)",
+  "qualification": "AQA GCSE Religious Studies A (8062), Component 2: Thematic studies (Paper 2A)",
+  "provenance": "Original practice questions and revision notes written to the published AQA GCSE Religious Studies A (8062) specification (Component 2, religious, philosophical and ethical themes A–F) and the question format and tariffs AQA publishes for exams from June 2026 (1, 1, 4, 6 and 12 marks per theme; 3 SPaG marks on the 12-mark question). Not past-paper material and not copied from AQA papers, mark schemes, textbooks or revision guides. Model answers are indicative exemplars, not official mark schemes. Short scripture quotations are cited in each question's evidence list."
+ }
+}

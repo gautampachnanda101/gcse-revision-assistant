@@ -1,0 +1,141 @@
+{
+ "paper": "Beliefs",
+ "module": "1.7",
+ "moduleTitle": "Key moral principles: justice, healing the world, charity and kindness to others",
+ "note": {
+  "specFocus": "The Covenant and the mitzvot: key moral principles including justice (tzedek), healing the world (tikkun olam), charity (tzedakah) and kindness to others (gemilut chasadim), and how Jews put them into practice today.",
+  "summary": "Ethics at the heart of the covenant\nJews believe that keeping the covenant means more than ritual: God requires moral behaviour. \"He has told you, O mortal, what is good, and what does the Lord require of you but to do justice, to love kindness and to walk humbly with your God\" (Micah 6:8).\n\nJustice (tzedek)\n• \"Justice, justice you shall pursue\" (Deuteronomy 16:20). The word is repeated for emphasis, and the rabbis said it means pursuing justice by just means.\n• Justice means fairness, honesty and protecting the vulnerable: the widow, the orphan and the stranger (\"you were strangers in the land of Egypt\", Exodus 22:21 and Deuteronomy 10:19). Courts must not favour rich or poor (Leviticus 19:15).\n• Justice is part of God's own nature (God as Judge), so Jews imitate God by acting justly.\n• Today: Jewish involvement in human rights, anti-racism and refugee campaigns (for example the Jewish Council for Racial Equality and René Cassin in the UK).\n\nHealing the world (tikkun olam)\n• Tikkun olam means \"repairing\" or \"healing\" the world. The phrase appears in the Mishnah, where it describes laws made \"for the betterment of the world\" (Gittin 4:2). The Aleinu prayer speaks of perfecting the world under the kingship of God (l'takken olam). In 16th-century Kabbalah (Isaac Luria) it describes humans gathering the \"sparks\" of holiness scattered at creation.\n• Today it means working with God as partners to make the world better: social action, care for the environment and peace-building. It is especially emphasised by Reform and Liberal Judaism, but it is shared widely.\n• Pirkei Avot 2:16: \"It is not your duty to finish the work, but neither are you free to desist from it.\"\n• Example: Mitzvah Day, a UK-founded day of community volunteering in which thousands of Jews and people of other faiths take part each November.\n\nCharity (tzedakah)\n• Tzedakah comes from the same root as tzedek (justice). Giving is not optional generosity but a duty of justice, because wealth ultimately belongs to God.\n• \"Do not harden your heart or shut your hand against your poor brother… open your hand\" (Deuteronomy 15:7–8). Farmers had to leave the corners of fields and the gleanings for the poor (Leviticus 19:9–10).\n• Many Jews give about a tenth (ma'aser) of their income. Homes often have a tzedakah box (pushke), and coins are added before Shabbat.\n• Maimonides' Eight Levels of Giving: the highest is helping someone become self-sufficient (a loan, partnership or job); next is giving where neither giver nor receiver knows the other; the lowest is giving unwillingly.\n• Examples: Jewish Care, World Jewish Relief, food banks run by synagogues.\n\nKindness to others (gemilut chasadim)\n• Gemilut chasadim means acts of loving-kindness, done personally and without expecting a reward: visiting the sick (bikur cholim), comforting mourners, hospitality (hachnasat orchim, modelled on Abraham in Genesis 18), helping at weddings and funerals.\n• \"Love your neighbour as yourself\" (Leviticus 19:18). Hillel: \"What is hateful to you, do not do to your neighbour; that is the whole Torah, the rest is commentary – go and learn\" (Shabbat 31a).\n• Pirkei Avot 1:2: the world stands on three things: Torah, worship (avodah) and acts of loving-kindness.\n• The rabbis said gemilut chasadim is greater than tzedakah, because it can be done for rich and poor, living and dead, and with one's body as well as one's money (Sukkah 49b).\n\nDiversity\nOrthodox and Reform Jews share these principles. Reform Judaism often presents ethical mitzvot as the heart of Judaism, while Orthodox Judaism sees ethics and ritual as equally commanded and bound together."
+ },
+ "questions": [
+  {
+   "question": "What is the meaning of tikkun olam?\nA Day of atonement\nB Healing or repairing the world\nC The written law\nD Saving a life",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – healing or repairing the world: working, as God's partners, to make the world better through justice, social action and care for creation. Saving a life is pikuach nefesh.",
+   "evidence": [
+    "Mishnah Gittin 4:2",
+    "Aleinu prayer"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "tikkun olam"
+  },
+  {
+   "question": "According to Maimonides, which one of the following is the highest level of charity?\nA Giving unwillingly\nB Giving after being asked\nC Helping someone become self-sufficient\nD Giving less than you should, but cheerfully",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C. Maimonides' highest level of tzedakah is helping a person become independent, for example with a loan, a partnership or a job, so they no longer need charity. Giving unwillingly is the lowest.",
+   "evidence": [
+    "Maimonides, Mishneh Torah, Laws of Gifts to the Poor 10:7–14"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "tzedakah"
+  },
+  {
+   "question": "Give two examples of gemilut chasadim (acts of loving-kindness).",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Visiting the sick (bikur cholim).\n• Comforting mourners.\n• Welcoming guests (hachnasat orchim).\n• Helping at a funeral or burial.\n• Helping a bride and groom.\n• Lending without interest.\n• Volunteering for others.",
+   "evidence": [
+    "Talmud Sukkah 49b",
+    "Genesis 18:1–8"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "kindness"
+  },
+  {
+   "question": "Give two ways in which Jews today put tzedakah into practice.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Giving about 10% of income (ma'aser).\n• Putting coins in a tzedakah box, e.g. before Shabbat.\n• Donating to charities such as World Jewish Relief or Jewish Care.\n• Supporting food banks.\n• Giving extra before Yom Kippur or at Purim (matanot la'evyonim).\n• Giving interest-free loans (gemach).",
+   "evidence": [
+    "Deuteronomy 15:7–8",
+    "Leviticus 19:9–10"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "tzedakah"
+  },
+  {
+   "question": "Explain two ways in which belief in justice influences Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Campaigning for fairness and human rights. The Torah commands \"Justice, justice you shall pursue\" (Deuteronomy 16:20), so many Jews campaign against racism, poverty and injustice. For example, some volunteer with refugee organisations, remembering that Jews themselves were once \"strangers in the land of Egypt\".\n\n2. Treating giving as a duty, not a choice. The word for charity, tzedakah, comes from tzedek, justice, so Jews see helping the poor as putting right an injustice rather than as an optional kindness. Many give a tenth of their income and support charities such as Jewish Care or food banks, believing that the poor have a right to support.",
+   "evidence": [
+    "Deuteronomy 16:20",
+    "Deuteronomy 10:19"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "justice"
+  },
+  {
+   "question": "Explain two ways in which Jews today try to practise tikkun olam.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Social action and volunteering. Many Jews, especially in Reform and Liberal communities, take part in Mitzvah Day each November, volunteering at hospitals, care homes, food banks and parks. They see themselves as God's partners in repairing the world, as Pirkei Avot says: \"It is not your duty to finish the work, but neither are you free to desist from it.\"\n\n2. Caring for the environment. Because the world is God's creation and humans must \"work it and keep it\" (Genesis 2:15), many Jews work for environmental protection, for example through EcoSynagogue in the UK, reducing waste and planting trees at Tu Bishvat. They see this as healing God's world for future generations.",
+   "evidence": [
+    "Pirkei Avot 2:16",
+    "Genesis 2:15"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "tikkun olam"
+  },
+  {
+   "question": "Explain two Jewish teachings about charity (tzedakah). Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Charity is a duty of justice. Tzedakah comes from tzedek, justice. The Torah commands, \"Do not harden your heart or shut your hand against your poor brother… open your hand to him\" (Deuteronomy 15:7–8), and farmers had to leave the corners of their fields for the poor (Leviticus 19:9–10). So Jews see giving as an obligation, often around a tenth of their income, rather than a voluntary act.\n\n2. The way you give matters. Maimonides taught eight levels of tzedakah. The highest is helping someone become self-sufficient, for example through a job or a loan; next is giving anonymously so the receiver keeps their dignity; the lowest is giving grudgingly. This encourages Jews to give in ways that respect the poor, for example through interest-free loan societies (gemachs).",
+   "evidence": [
+    "Deuteronomy 15:7–8",
+    "Leviticus 19:9–10",
+    "Maimonides, Laws of Gifts to the Poor 10"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "tzedakah"
+  },
+  {
+   "question": "Explain two Jewish teachings about kindness to others. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Jews must love their neighbour. The Torah commands, \"Love your neighbour as yourself\" (Leviticus 19:18). Hillel summed up the Torah as \"What is hateful to you, do not do to your neighbour\" (Talmud Shabbat 31a). So kindness is not an extra but the heart of keeping the Torah.\n\n2. Acts of loving-kindness (gemilut chasadim) are one of the pillars of the world. Pirkei Avot 1:2 says the world stands on Torah, worship and acts of loving-kindness. The Talmud says these acts are greater than charity because they can be done for rich and poor, for the living and the dead, and with one's own body (Sukkah 49b). Jews therefore visit the sick, comfort mourners and welcome guests, following Abraham's hospitality to strangers (Genesis 18).",
+   "evidence": [
+    "Leviticus 19:18",
+    "Talmud Shabbat 31a",
+    "Pirkei Avot 1:2",
+    "Talmud Sukkah 49b",
+    "Genesis 18"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "kindness"
+  },
+  {
+   "question": "\"Tikkun olam is the most important moral principle for Jews today.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nTikkun olam, healing the world, sums up the purpose of Jewish moral life: working as God's partners to perfect creation. The Aleinu prayer, recited at the end of every service, looks forward to the world being perfected under God's kingship. Pirkei Avot 2:16 says, \"It is not your duty to finish the work, but neither are you free to desist from it,\" which shows that Jews must keep working to improve the world.\n\nIt also includes the other principles. Pursuing justice, giving tzedakah and acts of kindness can all be seen as ways of repairing the world. In today's world of climate change, poverty and conflict, many Jews, especially in Reform and Liberal communities, see tikkun olam as the central Jewish contribution to society, shown in projects like Mitzvah Day and EcoSynagogue. It also connects Jews to people of other faiths working for the common good.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nSome would argue that justice (tzedek) is more important. The Torah repeats the word, \"Justice, justice you shall pursue\" (Deuteronomy 16:20), and the prophets constantly demand it (Amos 5:24, \"let justice roll down like waters\"). Justice is based on God's own nature as Judge. Tikkun olam as a broad social idea is relatively modern, whereas justice is a direct command of the Torah.\n\nOthers would say kindness, or love of neighbour, is most important. Hillel summed up the whole Torah as \"What is hateful to you, do not do to your neighbour\", and Rabbi Akiva called \"Love your neighbour as yourself\" a great principle of the Torah. Pirkei Avot lists acts of loving-kindness as one of the three pillars of the world.\n\nMany Orthodox Jews would also warn against picking one principle. They might argue that tikkun olam, if separated from keeping the mitzvot, can become vague, and that the world is repaired mainly by Jews keeping the whole Torah, ritual and ethical, faithfully.\n\nJUSTIFIED CONCLUSION\n\nTikkun olam is a powerful and popular way of expressing Jewish ethics today, and it links individual actions to a larger purpose. However, it depends on more basic, clearly commanded principles, especially justice and loving one's neighbour, which give it its content. The strongest conclusion is that tikkun olam is the goal while justice, charity and kindness are the means, so it is not more important than those principles but brings them together.",
+   "evidence": [
+    "Pirkei Avot 2:16",
+    "Aleinu prayer",
+    "Deuteronomy 16:20",
+    "Amos 5:24",
+    "Leviticus 19:18",
+    "Talmud Shabbat 31a"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "tikkun olam"
+  },
+  {
+   "question": "\"Acts of kindness are more important than giving money to charity.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Talmud explicitly says that gemilut chasadim is greater than tzedakah in three ways (Sukkah 49b): charity is given with money, but kindness can be given with one's whole self; charity is only for the poor, but kindness is for rich and poor; and charity is only for the living, but kindness is for the living and the dead, for example by attending a funeral. So according to rabbinic teaching, the statement is correct.\n\nKindness involves personal relationship. Visiting a lonely, sick person or comforting a mourner during shiva gives something money cannot buy: time, presence and dignity. Pirkei Avot 1:2 names acts of loving-kindness as one of the three things on which the world stands. Abraham, who ran to welcome three strangers (Genesis 18), is a model of personal kindness, not just generosity.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nTzedakah is a clear commandment of justice. The Torah orders Jews to \"open your hand\" to the poor (Deuteronomy 15:8), and the word tzedakah comes from tzedek, justice. Money can meet basic needs on a scale that individual kindness cannot: food, housing and medical care. Charities like World Jewish Relief and Jewish Care can help thousands of people, and a kind visit cannot replace a meal for someone who is starving.\n\nMaimonides' highest level of tzedakah, helping someone become self-sufficient, can change a person's whole life, and it combines money with personal involvement. The rabbis also said that tzedakah is equal to all the other commandments (Bava Batra 9a). For many Jews the two are therefore of equal weight.\n\nIt can also be argued that the question sets up a false choice: Judaism expects both. A Jew is required to give tzedakah and to perform gemilut chasadim, and the High Holy Day liturgy names tzedakah alongside repentance and prayer.\n\nJUSTIFIED CONCLUSION\n\nThe statement has strong support from the Talmud, which states that kindness is greater because it is broader and more personal. However, Judaism treats both as duties, and in situations of real need, money given as tzedakah may do more good. The best conclusion is that kindness is greater in its scope, as the rabbis taught, but Jews are not free to choose one over the other, since true kindness includes giving.",
+   "evidence": [
+    "Talmud Sukkah 49b",
+    "Pirkei Avot 1:2",
+    "Deuteronomy 15:8",
+    "Talmud Bava Batra 9a",
+    "Genesis 18"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "kindness and charity"
+  }
+ ]
+}

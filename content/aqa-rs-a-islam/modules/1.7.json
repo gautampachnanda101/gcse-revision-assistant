@@ -1,0 +1,138 @@
+{
+ "paper": "Beliefs",
+ "module": "1.7",
+ "moduleTitle": "Risalah (Prophethood) including the role and importance of Adam, Ibrahim and Muhammad",
+ "note": {
+  "specFocus": "Know Muslim beliefs about Risalah (prophethood), including the role and importance of Adam, Ibrahim and Muhammad.",
+  "summary": "RISALAH - PROPHETHOOD\nRisalah means 'message'. Prophets (anbiya', singular nabi) and messengers (rusul, singular rasul - prophets who brought a scripture or law) are humans chosen by God to communicate His guidance. Belief in them is a Sunni article of faith and the Shi'a root Nubuwwah.\n- God sent a messenger to every nation (16:36); tradition speaks of 124,000 prophets; 25 are named in the Qur'an.\n- All taught the same core message: Tawhid and accountability (21:25).\n- Prophets are human, not divine (18:110), but are protected by God from major sin (Shi'as stress full infallibility, 'ismah).\n- Muslims must believe in all and 'make no distinction' among them (2:285), though some are raised in rank (2:253).\n- Muslims say 'peace be upon him' (pbuh / alayhis-salam) after naming a prophet.\n\nADAM\n- First human and first prophet, made from clay and given a soul.\n- Appointed khalifah (steward/vicegerent) on earth (2:30); taught 'the names of all things' (2:31).\n- Angels bowed to him; Iblis refused out of pride (2:34; 7:12).\n- Adam and Hawwa ate from the forbidden tree, repented and were forgiven (2:37) - no original sin; humans are born in fitrah (natural purity).\n- Importance: human dignity, stewardship of the earth, equality of all humanity, God's mercy.\n\nIBRAHIM (ABRAHAM)\n- Rejected idolatry of his people and father Azar; saved from fire (21:51-70).\n- A hanif (pure monotheist), 'friend of God' (khalil, 4:125), model of submission (60:4).\n- With Isma'il, built the Ka'bah (2:125-127) and called people to pilgrimage (22:27).\n- Willing to sacrifice his son (37:102-107), remembered at Id-ul-Adha.\n- Received the Scrolls (Suhuf) of Ibrahim (87:19). 'Father' of the prophets through Isma'il and Ishaq.\n\nMUHAMMAD (c. 570-632 CE)\n- Born in Makkah; orphaned young; known as al-Amin (the trustworthy).\n- 610 CE: first revelation in the Cave of Hira on Laylat al-Qadr (96:1-5).\n- Faced persecution in Makkah; Night Journey (17:1) - five daily prayers given.\n- 622 CE: Hijrah to Madinah - start of the Islamic calendar and the first Muslim community.\n- 630 CE: returned to Makkah, cleansed the Ka'bah of idols, forgave opponents.\n- 632 CE: Farewell Sermon at Arafat ('an Arab has no superiority over a non-Arab…'), died in Madinah.\n- 'Seal of the Prophets' (33:40), 'mercy to the worlds' (21:107), 'an excellent example' (33:21). His Sunnah (recorded in the Hadith) is the second source of authority after the Qur'an.\n\nSUNNI AND SHI'A\nBoth accept all prophets and the finality of Muhammad. Shi'as believe the Prophet's family (Ahl al-Bayt) and the Imams continue his guidance (not as prophets) - see Imamate. Sunnis follow the Sunnah as transmitted by the Companions (sahabah); Shi'as prefer hadith transmitted through the Ahl al-Bayt.\n\nTODAY\nMuslims follow the Sunnah in prayer, dress, manners; respect for the Prophet explains strong reactions to insulting cartoons; Mawlid (the Prophet's birthday) is celebrated by many but not all Muslims.\n\nKEY TERMS: Risalah, nabi, rasul, Nubuwwah, khalifah, fitrah, hanif, Sunnah, Hijrah."
+ },
+ "questions": [
+  {
+   "question": "Which title does the Qur'an give to Muhammad in Surah 33:40?\nA Friend of God\nB Seal of the Prophets\nC Father of the prophets\nD Spirit of God",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Qur'an 33:40 calls Muhammad 'the Messenger of Allah and the Seal (khatam) of the Prophets', meaning he is the final prophet.",
+   "evidence": [
+    "Qur'an 33:40"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Muhammad"
+  },
+  {
+   "question": "Which prophet, together with his son Isma'il, is believed to have built (or rebuilt) the Ka'bah?\nA Adam\nB Musa\nC Ibrahim\nD Isa",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C - Qur'an 2:127 describes Ibrahim and Isma'il raising the foundations of the House (the Ka'bah).",
+   "evidence": [
+    "Qur'an 2:127"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Ibrahim"
+  },
+  {
+   "question": "Give two reasons why Adam is important in Islam.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: he was the first human created by God; he was the first prophet; God made him khalifah (steward) on earth (2:30); God taught him the names of all things (2:31); the angels bowed to him; he repented after disobeying God and was forgiven (2:37), showing God's mercy; he is the father of humanity, showing all humans are equal.",
+   "evidence": [
+    "Qur'an 2:30-37"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Adam"
+  },
+  {
+   "question": "Give two events in the life of the Prophet Muhammad.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: born in Makkah around 570 CE; first revelation from Jibril in the Cave of Hira in 610 CE; the Night Journey (al-Isra' wal-Mi'raj); the Hijrah (migration) to Madinah in 622 CE; the Battle of Badr (624 CE); the peaceful return to Makkah and cleansing of the Ka'bah (630 CE); the Farewell Pilgrimage and Sermon (632 CE); his death in Madinah in 632 CE.",
+   "evidence": [
+    "Qur'an 96:1-5",
+    "Qur'an 17:1"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Muhammad"
+  },
+  {
+   "question": "Explain two ways the Prophet Muhammad is an example for Muslims today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Muslims follow his Sunnah (actions and teachings) in worship. They pray in the way he prayed, perform wudu as he did, and fast and perform Hajj following his example, since the Qur'an calls him 'an excellent example' (33:21).\n\n2. He is a model for character and behaviour. He was known as al-Amin (the trustworthy) even before prophethood, lived simply, was kind to children, animals and the poor, and forgave his enemies when he returned to Makkah. Muslims try to copy this by being honest in business, generous and forgiving in their own relationships.",
+   "evidence": [
+    "Qur'an 33:21",
+    "Sunnah",
+    "Al-Amin"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "example of Muhammad"
+  },
+  {
+   "question": "Explain two reasons why Ibrahim is important to Muslims.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. He is a model of Tawhid. He rejected the idols of his people and his father's idol-making, even when threatened with being burned, showing total commitment to the One God. He is called a 'hanif' (pure monotheist) and God's 'friend' (khalil, 4:125).\n\n2. Many Muslim practices go back to him. He and Isma'il built the Ka'bah (2:127), the focus of prayer and Hajj; his willingness to sacrifice his son is remembered at Id-ul-Adha; and the actions of his wife Hajar are re-enacted in the sa'i during Hajj. So every Muslim who prays or performs Hajj follows in his footsteps.",
+   "evidence": [
+    "Qur'an 4:125",
+    "Qur'an 2:127",
+    "Qur'an 37:102-107"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "Ibrahim"
+  },
+  {
+   "question": "Explain two Muslim beliefs about Risalah (prophethood).\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. God has sent prophets to every community to teach the same message of Tawhid. 'We certainly sent into every nation a messenger, [saying], \"Worship Allah and avoid false gods\"' (Qur'an 16:36). Tradition says there were 124,000 prophets, of whom 25 are named in the Qur'an, including Adam, Nuh, Ibrahim, Musa and 'Isa.\n\n2. Muhammad is the final prophet, 'the Messenger of Allah and the Seal of the Prophets' (Qur'an 33:40). This means the message given to him is complete and no new prophet will come after him, so Muslims believe the Qur'an and his Sunnah are the final guidance for all people, and the second part of the Shahadah declares that 'Muhammad is the messenger of Allah'.",
+   "evidence": [
+    "Qur'an 16:36",
+    "Qur'an 33:40",
+    "Tradition of 124,000 prophets (Musnad Ahmad)"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Risalah"
+  },
+  {
+   "question": "Explain two reasons why Adam is important in Islam.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Adam was made God's khalifah (steward or representative) on earth. 'I will make upon the earth a successive authority' (Qur'an 2:30). God gave him knowledge, teaching him 'the names of all things' (2:31), and the angels were told to bow to him. This shows the special dignity and responsibility of all humans, who must care for the earth on God's behalf.\n\n2. Adam's story shows God's mercy and forgiveness. Adam and his wife (Hawwa) ate from the forbidden tree after being tempted by Iblis, but they repented and 'Adam received from his Lord words, and He accepted his repentance' (Qur'an 2:37). Muslims therefore do not believe in original sin; each person is born pure (fitrah) and can always return to God through repentance.",
+   "evidence": [
+    "Qur'an 2:30-31",
+    "Qur'an 2:37",
+    "Fitrah"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Adam"
+  },
+  {
+   "question": "‘Muhammad is the most important prophet.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nMuhammad is the 'Seal of the Prophets' (33:40), the final messenger who completed the message given to all earlier prophets. He received the Qur'an, which Muslims believe is God's final, uncorrupted revelation, whereas earlier scriptures have, in Muslim belief, been changed over time. His Sunnah (example), preserved in the Hadith, is the second source of Islamic law and shows Muslims how to pray, fast, give zakah and perform Hajj. He is named in the Shahadah, so every Muslim declares belief in him. The Qur'an calls him 'a mercy to the worlds' (21:107) and 'an excellent example' (33:21), and his message is for all humanity rather than one nation.\n\nARGUMENTS AGAINST THE STATEMENT\nThe Qur'an teaches Muslims to 'make no distinction between any of His messengers' (2:285), meaning all prophets brought the same message of Tawhid and must be equally believed. Each was important for their time. Adam was the first human and first prophet; without him there would be no humanity, and his forgiveness shows God's mercy. Ibrahim is the 'father of the prophets' for Jews, Christians and Muslims; he built the Ka'bah, and Hajj and Id-ul-Adha are based on his life, so he could be said to have founded many Muslim practices. Musa (Moses) is the prophet mentioned most often by name in the Qur'an.\n\nSome Muslims argue it is wrong to rank prophets because only God knows their true status, and focusing too much on any human being risks shirk. Muslims never worship Muhammad, and he described himself as 'a man like you' who receives revelation (18:110).\n\nCONCLUSION\nAll the prophets are respected, and Muslims believe their messages were the same in essence. However, Muhammad's role is unique: he brought the final and complete revelation for all people, and his example is followed in every part of Muslim life today, which is why he is mentioned in the Shahadah. Although 2:285 warns against discriminating in belief, many scholars note that 2:253 says God raised some messengers above others in degree. Weighing this, I agree with the statement: Muhammad is the most important prophet for Muslims, while all prophets deserve equal belief and respect.",
+   "evidence": [
+    "Qur'an 33:40",
+    "Qur'an 21:107",
+    "Qur'an 2:285",
+    "Qur'an 2:253",
+    "Qur'an 18:110"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Muhammad"
+  },
+  {
+   "question": "‘Ibrahim is a better role model than Adam for Muslims today.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nIbrahim is a powerful example of faithfulness under pressure. He challenged the idol worship of his people and his own father, and was willing to be thrown into fire for his belief in one God, which God made 'coolness and safety' (21:69). He was ready to sacrifice his son when commanded (37:102-107), showing total submission (islam) to God. This is inspiring for Muslims today who may face pressure to compromise their beliefs, for example from peers or a secular culture. He is called God's friend (khalil, 4:125) and a model for believers: 'There has already been for you an excellent example in Ibrahim' (60:4). Many practices - the Ka'bah, Hajj, Id-ul-Adha - keep his example alive.\n\nARGUMENTS AGAINST THE STATEMENT\nAdam is also an important role model, perhaps more relatable. Unlike Ibrahim's extraordinary tests, Adam's story is about an ordinary human weakness: he was tempted, made a mistake, and then sincerely repented and was forgiven (2:37). Most people today make mistakes, so Adam teaches the crucial lesson that it is never too late to turn back to God (tawbah). As the first khalifah (2:30), Adam is a role model of stewardship, which is relevant today given climate change and environmental damage. He also reminds Muslims that all people share one ancestor, which is a strong argument against racism - a point the Prophet made in his Farewell Sermon.\n\nSome would argue that neither is the best role model, because the Prophet Muhammad, 'an excellent example' (33:21), is the model Muslims are told most directly to follow, and his life is recorded in far more detail.\n\nCONCLUSION\nBoth prophets teach important lessons: Ibrahim shows unwavering commitment to Tawhid, while Adam shows repentance, stewardship and human equality. In a world with many challenges to faith, Ibrahim's example of courage is especially powerful, but Adam's message of forgiveness may help more people in daily life. I conclude that neither is simply 'better'; each is a role model for a different part of Muslim life, and both point towards the fullest example found in Muhammad.",
+   "evidence": [
+    "Qur'an 21:69",
+    "Qur'an 37:102-107",
+    "Qur'an 60:4",
+    "Qur'an 2:30-37",
+    "Qur'an 33:21"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "Adam and Ibrahim"
+  }
+ ]
+}

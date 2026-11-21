@@ -1,0 +1,146 @@
+{
+ "paper": "Beliefs",
+ "module": "1.6",
+ "moduleTitle": "Jesus Christ and salvation: the crucifixion, resurrection and ascension",
+ "note": {
+  "specFocus": "Spec: Jesus Christ and salvation — beliefs and teachings about the crucifixion, resurrection and ascension.",
+  "summary": "The crucifixion\n• After the Last Supper Jesus was arrested in Gethsemane, tried before the Jewish council and the Roman governor Pontius Pilate, and sentenced to death by crucifixion on Good Friday.\n• Key details: crucified between two criminals; sign 'The King of the Jews'; darkness at midday; the temple curtain torn in two (Mark 15:38); the centurion: 'Surely this man was the Son of God!' (Mark 15:39).\n• Words from the cross include: 'Father, forgive them, for they do not know what they are doing' (Luke 23:34); 'Today you will be with me in paradise' (Luke 23:43); 'My God, my God, why have you forsaken me?' (Mark 15:34, quoting Psalm 22); 'It is finished' (John 19:30).\n• Meaning: Jesus' death was a sacrifice for sin — 'a ransom for many' (Mark 10:45); 'Christ died for our sins' (1 Corinthians 15:3). It shows God's love (Romans 5:8), God sharing human suffering, and the power of forgiveness.\n\nThe resurrection\n• On the third day (Easter Sunday) women found the tomb empty: 'He has risen! He is not here' (Mark 16:6).\n• Appearances: Mary Magdalene (John 20), two disciples on the road to Emmaus (Luke 24), the disciples in the upper room, Thomas ('My Lord and my God!', John 20:28), over 500 people (1 Corinthians 15:6).\n• Jesus' risen body was real (he ate fish, Luke 24:42–43) but transformed (he appeared in locked rooms).\n• Meaning: proves Jesus is the Son of God; defeats sin and death; guarantees eternal life — 'the firstfruits' (1 Corinthians 15:20). 'If Christ has not been raised, your faith is futile' (1 Corinthians 15:17).\n• Diversity: most Christians believe in a bodily resurrection; some liberal Christians interpret it spiritually (the disciples experienced Jesus alive in a new way).\n\nThe ascension\n• Forty days after Easter, Jesus was 'taken up… and a cloud hid him from their sight' (Acts 1:9; also Luke 24:50–53).\n• Before leaving he promised the Holy Spirit and commissioned the disciples: 'you will be my witnesses… to the ends of the earth' (Acts 1:8).\n• Angels promised he would return in the same way (Acts 1:11) — the Second Coming (Parousia).\n• The creeds: 'he ascended into heaven and is seated at the right hand of the Father'.\n• Meaning: completes Jesus' earthly mission; Jesus reigns with the Father and intercedes for believers (Hebrews 7:25); makes way for Pentecost (John 16:7).\n\nImportance and influence today\n• Worship: Good Friday, Easter Sunday and Ascension Day; Sunday as the day of resurrection; the cross and crucifix as symbols; the Eucharist remembers Jesus' death.\n• Forgiveness: Christians are called to forgive as Jesus did.\n• Hope: the resurrection gives hope of eternal life and comfort at funerals.\n• Mission: the ascension commission inspires evangelism.\n\nKey terms: crucifixion, Good Friday, resurrection, empty tomb, ascension, Parousia/Second Coming, paschal mystery."
+ },
+ "questions": [
+  {
+   "question": "Which one of the following is the event when Jesus returned to his Father in heaven forty days after the resurrection?\nA  The Transfiguration\nB  Pentecost\nC  The Ascension\nD  The Annunciation",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C — The Ascension\n\nThe Ascension is when the risen Jesus was 'taken up before their very eyes, and a cloud hid him from their sight' (Acts 1:9), forty days after Easter (Acts 1:3). Pentecost comes ten days later; the Transfiguration happened during his ministry; the Annunciation was before his birth.",
+   "evidence": [
+    "Acts 1:3–11",
+    "Luke 24:50–53"
+   ],
+   "examTip": "Learn the order: crucifixion → resurrection (third day) → ascension (40 days) → Pentecost (50 days).",
+   "answerTopic": "ascension"
+  },
+  {
+   "question": "According to Luke's Gospel, what did Jesus say to the criminal crucified beside him who asked to be remembered?\nA  'Father, forgive them'\nB  'Today you will be with me in paradise'\nC  'It is finished'\nD  'I am thirsty'",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B — 'Today you will be with me in paradise'\n\nIn Luke 23:43 Jesus says to the repentant criminal, 'Truly I tell you, today you will be with me in paradise.' 'Father, forgive them' is also in Luke (23:34) but is spoken about those crucifying him; 'It is finished' and 'I am thirsty' are in John 19.",
+   "evidence": [
+    "Luke 23:34, 43",
+    "John 19:28, 30"
+   ],
+   "examTip": "Know which Gospel each 'word from the cross' comes from.",
+   "answerTopic": "words from the cross"
+  },
+  {
+   "question": "Give one event that happened at the crucifixion of Jesus according to the Gospels.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: Jesus was crucified between two criminals; a sign read 'King of the Jews'; darkness covered the land; Jesus forgave those who crucified him (Luke 23:34); he cried 'My God, my God, why have you forsaken me?' (Mark 15:34); the temple curtain was torn in two; a centurion said 'Surely this man was the Son of God!' (Mark 15:39); he was buried in a tomb belonging to Joseph of Arimathea.",
+   "evidence": [
+    "Mark 15:21–47",
+    "Luke 23:26–56"
+   ],
+   "examTip": "Any accurate Gospel detail earns the mark.",
+   "answerTopic": "crucifixion events"
+  },
+  {
+   "question": "Give one piece of evidence the Gospels give for the resurrection of Jesus.",
+   "marks": 1,
+   "command": "Give",
+   "modelAnswer": "Any one of, e.g.: the empty tomb discovered by women (Mark 16:1–8); appearances to Mary Magdalene (John 20:11–18); appearance to the disciples on the road to Emmaus (Luke 24); Thomas touching Jesus' wounds (John 20:24–29); Jesus eating fish with the disciples (Luke 24:42–43); Paul lists over 500 witnesses (1 Corinthians 15:6).",
+   "evidence": [
+    "Mark 16:1–8",
+    "John 20",
+    "Luke 24",
+    "1 Corinthians 15:3–8"
+   ],
+   "examTip": "One clear example with a reference is ideal.",
+   "answerTopic": "resurrection evidence"
+  },
+  {
+   "question": "Explain two ways in which belief in the crucifixion of Jesus influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Christians believe Jesus died to take away their sins, so they feel forgiven and grateful. This influences them to confess their sins and to forgive others in turn, following Jesus' words on the cross, 'Father, forgive them, for they do not know what they are doing' (Luke 23:34). Examples include people like the families of victims who publicly forgive.\n\nSecond way: The cross is the central symbol of Christianity. Christians may wear a cross, make the sign of the cross, keep Good Friday solemnly and remember the crucifixion at every Eucharist. It also reminds them that God understands suffering, so they can find strength when they suffer themselves.",
+   "evidence": [
+    "Luke 23:34",
+    "Mark 15:34",
+    "1 Corinthians 1:18"
+   ],
+   "examTip": "Develop the point with an example of practice or attitude.",
+   "answerTopic": "crucifixion influence"
+  },
+  {
+   "question": "Explain two ways in which belief in the ascension of Jesus influences Christians today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "First way: Before ascending, Jesus told the disciples to 'go and make disciples of all nations' (Matthew 28:19) and that they would be his witnesses 'to the ends of the earth' (Acts 1:8). Christians therefore feel called to share their faith through evangelism and mission work, continuing what Jesus began.\n\nSecond way: Christians believe that Jesus ascended to be with the Father and 'will come back in the same way' (Acts 1:11). This gives them hope in the Second Coming and influences them to live ready for his return; it also reassures them that Jesus is with God interceding for them, so they pray with confidence. Ascension Day is celebrated in many churches.",
+   "evidence": [
+    "Acts 1:8–11",
+    "Matthew 28:19–20",
+    "Hebrews 7:25"
+   ],
+   "examTip": "Link the ascension to mission and the Second Coming.",
+   "answerTopic": "ascension influence"
+  },
+  {
+   "question": "Explain two Christian teachings about the resurrection of Jesus.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Jesus physically rose from the dead on the third day. The women found the tomb empty and were told, 'He has risen! He is not here' (Mark 16:6). The risen Jesus appeared to many people — Mary Magdalene, the disciples, Thomas — and even ate with them (Luke 24:42–43), showing he was not a ghost.\n\nSecond teaching: The resurrection shows God's power over sin and death and promises eternal life to believers. Paul writes that 'Christ has indeed been raised from the dead, the firstfruits of those who have fallen asleep' (1 Corinthians 15:20) and that 'if Christ has not been raised, your faith is futile' (1 Corinthians 15:17). It confirms that Jesus is the Son of God.\n\nApplication: Christians celebrate the resurrection every Sunday and above all at Easter; for most, it is the foundation of their hope. (Some liberal Christians interpret it spiritually rather than physically, but the creeds affirm Jesus 'rose again'.)",
+   "evidence": [
+    "Mark 16:1–8",
+    "Luke 24:36–43",
+    "1 Corinthians 15:17, 20",
+    "Apostles' Creed"
+   ],
+   "examTip": "Quote Paul in 1 Corinthians 15 to show why the resurrection matters.",
+   "answerTopic": "resurrection teachings"
+  },
+  {
+   "question": "Explain two Christian teachings about the crucifixion of Jesus.\n\nRefer to sacred writings or another source of Christian belief and teaching in your answer.",
+   "marks": 6,
+   "command": "Explain",
+   "modelAnswer": "First teaching: Jesus' death was a sacrifice that dealt with human sin. Jesus said he came 'to give his life as a ransom for many' (Mark 10:45), and Paul writes that 'Christ died for our sins according to the Scriptures' (1 Corinthians 15:3). Christians believe his death restores the relationship between humanity and God (atonement).\n\nSecond teaching: Jesus suffered as a real human being, showing he fully shared human pain. Mark records him crying 'My God, my God, why have you forsaken me?' (Mark 15:34), quoting Psalm 22. Yet he also showed forgiveness: 'Father, forgive them, for they do not know what they are doing' (Luke 23:34). This teaches that God is present in suffering and that Christians should forgive even their enemies.\n\nApplication: At the moment of his death the temple curtain was torn (Mark 15:38), which Christians interpret as showing that the barrier between God and humanity had been removed.",
+   "evidence": [
+    "Mark 10:45",
+    "1 Corinthians 15:3",
+    "Mark 15:34, 38",
+    "Luke 23:34",
+    "Psalm 22"
+   ],
+   "examTip": "Use details from the Gospel accounts to support your teaching.",
+   "answerTopic": "crucifixion teachings"
+  },
+  {
+   "question": "‘The resurrection is more important than the crucifixion for Christians.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nPaul argues that without the resurrection Christianity collapses: 'if Christ has not been raised, your faith is futile; you are still in your sins' (1 Corinthians 15:17). Many people died by crucifixion in the Roman world; what made Jesus unique was that he rose again. The resurrection proves that he is the Son of God and that his death really did defeat sin and death.\n\nThe resurrection gives Christians hope of eternal life. Jesus is 'the firstfruits' (1 Corinthians 15:20), so believers too will be raised. Easter Sunday is the greatest festival of the Christian year, and Sunday itself is the 'Lord's Day' because it is the day of resurrection. Orthodox Christians in particular emphasise the victory of the risen Christ, greeting one another with 'Christ is risen!'\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nMany Christians argue the crucifixion is more important because it is the moment when salvation happened. Jesus' death was 'a ransom for many' (Mark 10:45); 'Christ died for our sins' (1 Corinthians 15:3). Paul said he resolved to know nothing 'except Jesus Christ and him crucified' (1 Corinthians 2:2). The cross, not the empty tomb, is the universal Christian symbol.\n\nThe crucifixion also shows the depth of God's love — 'God demonstrates his own love for us in this: while we were still sinners, Christ died for us' (Romans 5:8). It speaks powerfully to people who suffer, showing God shares their pain. Many evangelical Protestants focus especially on the cross and the substitutionary atonement.\n\nChristians remember the crucifixion at every Eucharist ('do this in remembrance of me'), so it is at the heart of worship.\n\nJUSTIFIED CONCLUSION\n\nBoth arguments are strong, and most Christians would say the two events cannot be separated: the crucifixion deals with sin and the resurrection shows that it worked. A crucifixion without resurrection would be a tragedy; a resurrection without crucifixion would have nothing to overcome. However, if a choice must be made, I find the resurrection slightly more decisive, because as Paul argues it is what confirms the meaning of the cross. Still, the best Christian answer is that they are two halves of one saving event — the 'paschal mystery'.",
+   "evidence": [
+    "1 Corinthians 15:3, 17, 20",
+    "Mark 10:45",
+    "1 Corinthians 2:2",
+    "Romans 5:8",
+    "Luke 22:19"
+   ],
+   "examTip": "When both sides are linked, say so — but still give a clear, justified decision.",
+   "answerTopic": "resurrection vs crucifixion"
+  },
+  {
+   "question": "‘The ascension is not an important belief for Christians today.’\n\nEvaluate this statement.\nIn your answer you should:\n• refer to Christian teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT OF THE STATEMENT\n\nThe ascension receives much less attention than Christmas or Easter. Ascension Day falls on a Thursday and is little noticed in Britain outside regular churchgoers; many Christians might struggle to explain its meaning. Only Luke's writings (Luke 24 and Acts 1) describe it in detail.\n\nSome modern Christians find the idea of Jesus physically rising up into the sky difficult, since heaven is not literally 'up' above the clouds. They may see the account as symbolic and treat the resurrection as the decisive event, regarding the ascension as simply the end of the resurrection appearances.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nThe ascension is in both the Apostles' and Nicene Creeds: 'he ascended into heaven, and is seated at the right hand of the Father'. Christians all over the world affirm it every Sunday, so it is part of the core of faith.\n\nIt explains how Jesus' earthly mission ends and the Church's mission begins. Before ascending, Jesus said 'you will receive power when the Holy Spirit comes on you; and you will be my witnesses… to the ends of the earth' (Acts 1:8). Jesus also said that it was good for him to go away so the Advocate could come (John 16:7). Without the ascension there is no Pentecost and no worldwide Church. Mission and evangelism today are a direct response to this command.\n\nIt gives hope: the angels said 'This same Jesus… will come back in the same way you have seen him go into heaven' (Acts 1:11), which is the basis of belief in the Second Coming. It also teaches that Jesus, now with the Father, intercedes for believers (Hebrews 7:25) and that a human nature has been taken into heaven, a sign of the destiny God offers humanity.\n\nJUSTIFIED CONCLUSION\n\nIt is true that the ascension is less celebrated and less understood than other events, so in terms of popular attention the statement has some force. But importance should be judged by what a belief means, not how often it is celebrated. The ascension links the resurrection to Pentecost, launches the Church's mission and grounds hope in Christ's return. I therefore disagree with the statement: the ascension remains a significant belief for Christians today, even if many do not consciously focus on it.",
+   "evidence": [
+    "Acts 1:8–11",
+    "Luke 24:50–53",
+    "John 16:7",
+    "Hebrews 7:25",
+    "Apostles' Creed / Nicene Creed"
+   ],
+   "examTip": "Separate 'important' from 'popular' — that helps you build a strong judgement.",
+   "answerTopic": "importance of ascension"
+  }
+ ]
+}

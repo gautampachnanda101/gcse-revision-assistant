@@ -1,0 +1,137 @@
+{
+ "paper": "Beliefs",
+ "module": "1.5",
+ "moduleTitle": "Predestination and human freedom and its relationship to the Day of Judgement",
+ "note": {
+  "specFocus": "Know Muslim beliefs about predestination (al-Qadr) and human freedom, including different Sunni and Shi'a emphases, and how these relate to the Day of Judgement.",
+  "summary": "AL-QADR - PREDESTINATION / DIVINE DECREE\nAl-Qadr is the sixth Sunni article of faith. It teaches that God knows everything past, present and future, has written it in al-Lawh al-Mahfuz (the Preserved Tablet, 85:21-22), and that nothing happens without His will: 'Indeed, all things We created with predestination' (54:49). Many Sunni scholars describe four levels: God's knowledge ('ilm), His writing (kitabah), His will (mashi'ah) and His creating (khalq).\n\nMuslims express this in everyday language: 'Insha'Allah' (if God wills) about the future (18:23-24), 'Alhamdulillah' (praise be to God) whatever happens, and 'Masha'Allah' (God has willed it) about blessings.\n\nHUMAN FREEDOM\nThe Qur'an also teaches human choice and responsibility:\n- 'Whoever wills - let him believe; whoever wills - let him disbelieve' (18:29).\n- 'Allah will not change the condition of a people until they change what is in themselves' (13:11).\n- Life is a test 'as to which of you is best in deed' (67:2).\n- God does not burden a soul beyond its capacity (2:286).\n\nDIFFERENT VIEWS\n- Sunni (Ash'ari tradition, the most widespread): God wills and creates all things, including human acts, but humans 'acquire' (kasb) responsibility for choices. The balance is ultimately a mystery beyond human understanding.\n- Mu'tazila (historical rationalist school): humans create their own acts; otherwise God's justice would be compromised.\n- Shi'a: because of Adalat (divine justice, a root of Usul ad-Din), God does not force anyone to sin. God's knowledge of what people will choose does not cause their choices. Imam Ja'far al-Sadiq taught 'neither compulsion nor total delegation, but a matter between the two'. Humans have genuine free will within the limits God sets.\n\nRELATIONSHIP TO THE DAY OF JUDGEMENT\n- People are judged on what they freely chose and intended (niyyah), so freedom makes judgement fair.\n- God's complete knowledge, the Preserved Tablet and the recording angels mean nothing is missed.\n- God is just (4:40) and merciful; repentance (tawbah) can change a person's record.\n- Problem: if all is decreed, is judgement fair? Muslim answers: knowing is not forcing; humans do not know their decree so must act responsibly; God's justice guarantees fairness.\n\nINFLUENCE ON LIFE\n- Patience (sabr) and trust (tawakkul) in hard times, e.g. illness or bereavement.\n- Humility in success.\n- Not fatalism: 'Tie your camel and trust in Allah' (Tirmidhi); seek medicine and work hard.\n- Du'a: Muslims believe sincere prayer matters, and a hadith says only du'a can change decree (Tirmidhi), showing that God's plan includes human prayer and effort.\n\nKEY TERMS: al-Qadr, al-Lawh al-Mahfuz, Insha'Allah, sabr, tawakkul, kasb, niyyah, Adalat."
+ },
+ "questions": [
+  {
+   "question": "What is the Arabic term for the belief that Allah has decreed all things?\nA Al-Qadr\nB Akhirah\nC Barzakh\nD Ihram",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "A - Al-Qadr (divine decree / predestination) is the sixth Sunni article of faith; Akhirah is life after death, barzakh the state between death and resurrection, ihram the state of purity on Hajj.",
+   "evidence": [
+    "Qur'an 54:49"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "al-Qadr"
+  },
+  {
+   "question": "What does the phrase 'Insha'Allah' mean?\nA God is greatest\nB If God wills\nC Praise be to God\nD In the name of God",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Muslims say 'Insha'Allah' about future plans to show that everything happens only by God's will (Qur'an 18:23-24).",
+   "evidence": [
+    "Qur'an 18:23-24"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Insha'Allah"
+  },
+  {
+   "question": "Give two Muslim beliefs about predestination.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: God knows everything that has happened and will happen; everything is written in the Preserved Tablet (al-Lawh al-Mahfuz); nothing happens without God's permission; God created everything with a measure / plan (54:49); humans are still responsible for their choices; Shi'as stress that God's foreknowledge does not force human actions.",
+   "evidence": [
+    "Qur'an 54:49",
+    "Al-Lawh al-Mahfuz (85:21-22)"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "predestination"
+  },
+  {
+   "question": "Give two ways belief in predestination affects how a Muslim lives.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: saying 'Insha'Allah' about future plans; accepting hardship patiently (sabr); trusting in God (tawakkul); not becoming arrogant about success because it comes from God; making du'a, believing God can respond; still working hard and making good choices because they will be judged.",
+   "evidence": [
+    "Sabr",
+    "Tawakkul"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two contrasting Muslim beliefs about predestination and human freedom.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Many Sunni Muslims emphasise God's complete control. Following the Ash'ari tradition, they believe God wills and creates all events, including human actions, which are recorded in al-Lawh al-Mahfuz, while humans 'acquire' responsibility for what they choose. God's knowledge and power cannot be limited.\n\n2. Shi'a Muslims (and earlier the Mu'tazila) emphasise human freedom because of Adalat. God knows what people will do, but He does not cause their sins; it would be unjust to predetermine someone's evil and then punish them. So humans freely choose their actions, and God's knowledge is like knowing the outcome rather than forcing it.",
+   "evidence": [
+    "Al-Lawh al-Mahfuz",
+    "Adalat",
+    "Ash'ari and Mu'tazila schools"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "Sunni and Shi'a views"
+  },
+  {
+   "question": "Explain two ways belief in al-Qadr influences Muslims today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It helps them cope with suffering. If a Muslim loses a job or a family member, belief that this is within God's plan helps them respond with patience (sabr) and trust that there may be a purpose they cannot see, rather than despair.\n\n2. It keeps them humble about success. Muslims say 'Alhamdulillah' (praise be to God) after achievements, such as good exam results, recognising that ability and opportunity come from God. They also say 'Insha'Allah' about future plans because they cannot control what will happen, but they still prepare fully, following the hadith 'Tie your camel, then trust in God'.",
+   "evidence": [
+    "Sabr",
+    "Hadith: 'Tie your camel and trust in Allah' (Tirmidhi)"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "influence"
+  },
+  {
+   "question": "Explain two Muslim teachings about the relationship between predestination and the Day of Judgement.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Humans are judged on their own choices, so they must be free in a meaningful way. The Qur'an says 'the truth is from your Lord, so whoever wills - let him believe; and whoever wills - let him disbelieve' (Qur'an 18:29). God's decree does not remove responsibility; people will be held accountable for what they chose to do.\n\n2. God's foreknowledge means judgement will be perfectly fair and complete. Everything is recorded in the Preserved Tablet (al-Lawh al-Mahfuz) and by the recording angels, and nothing is hidden from God. Shi'as stress, through Adalat, that God would never punish someone for what they were forced to do, so judgement depends on intentions and actions freely chosen.",
+   "evidence": [
+    "Qur'an 18:29",
+    "Qur'an 85:22 (Preserved Tablet)",
+    "Adalat"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "predestination and judgement"
+  },
+  {
+   "question": "Explain two Muslim beliefs about human freedom.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. God has given humans free will so that they can be tested. 'It is He who created death and life to test you as to which of you is best in deed' (Qur'an 67:2). A test would only be meaningful if people can genuinely choose, so Muslims believe they are free to obey or disobey.\n\n2. Humans can change their situation through their choices. 'Indeed, Allah will not change the condition of a people until they change what is in themselves' (Qur'an 13:11). This encourages Muslims to take responsibility, work hard, repent and improve, rather than passively accepting whatever happens as fate.",
+   "evidence": [
+    "Qur'an 67:2",
+    "Qur'an 13:11"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "free will"
+  },
+  {
+   "question": "‘If God has already decided everything, it is unfair to judge people.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nThe Qur'an says 'Indeed, all things We created with predestination' (54:49), and Sunni Muslims believe in al-Qadr as one of the six articles of faith: everything is recorded in the Preserved Tablet before it happens. If God already knows and has decreed that a person will commit a sin, it seems that person could not have done otherwise. Judging and punishing someone for an action they could not avoid would be unjust, like punishing a robot for following its programming. Atheists and some philosophers see this as a contradiction between an all-powerful God and a fair judge.\n\nARGUMENTS AGAINST THE STATEMENT\nMuslims answer that the Qur'an teaches both God's decree and human responsibility. 'Whoever wills - let him believe; and whoever wills - let him disbelieve' (18:29) shows that people really choose. Many Sunni scholars (the Ash'ari tradition) say God creates actions but humans 'acquire' them through their choice, so they are responsible. Knowing what someone will do is not the same as forcing them; a teacher may predict a student will not revise, but the student still chooses.\n\nShi'a Muslims stress Adalat (justice) as a root of faith: because God is perfectly just, He does not compel anyone to sin. 'Allah does not do injustice, even as much as an atom's weight' (4:40). God judges people on their niyyah (intentions) and circumstances, and is merciful to those who repent, so judgement is fair. Life is described as a test (67:2), and a test only makes sense if there is freedom. Moreover, the Qur'an says God will not burden a soul beyond what it can bear (2:286), showing that people are judged according to their real abilities.\n\nCONCLUSION\nThe statement would be correct if predestination meant that God forces every action. However, most Muslims understand al-Qadr as God's complete knowledge and permission, not compulsion, and the Qur'an clearly affirms human choice and God's justice. Although the relationship remains a mystery that humans cannot fully grasp, I conclude that judgement is not unfair, because people are held responsible only for what they freely chose and intended.",
+   "evidence": [
+    "Qur'an 54:49",
+    "Qur'an 18:29",
+    "Qur'an 4:40",
+    "Qur'an 67:2",
+    "Qur'an 2:286"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "predestination and judgement"
+  },
+  {
+   "question": "‘Belief in predestination makes it pointless for Muslims to try to improve their lives.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nIf everything has been decided by God in advance and written in al-Lawh al-Mahfuz, some might think there is no point in effort. Whether a person passes an exam, recovers from illness or becomes rich has already been decreed, so working hard or taking medicine seems pointless. This kind of fatalism has sometimes been seen in history, and critics of religion argue that belief in fate can lead people to accept injustice or poverty instead of changing things.\n\nARGUMENTS AGAINST THE STATEMENT\nMost Muslims strongly reject fatalism. The Qur'an teaches 'Allah will not change the condition of a people until they change what is in themselves' (13:11), which means human effort is part of how God's plan works. The Prophet told a man who left his camel untied 'Tie it and trust in Allah' (Tirmidhi), showing that Muslims should both act responsibly and trust God. The Prophet himself planned carefully, for example before the Hijrah to Madinah in 622 CE, and encouraged seeking medical treatment: 'Allah has not sent down any disease without also sending down a cure' (Bukhari).\n\nBecause humans do not know what has been decreed, they must act as if their choices matter - which they do, since they will be judged on them (18:29; 99:7-8). Shi'a Muslims' emphasis on Adalat and free will gives an even stronger reason to strive. Islam also teaches that du'a (personal prayer) can be answered, which would make no sense if effort and prayer changed nothing. Many Muslims say belief in al-Qadr actually helps them try, because it removes the fear of failure: they do their best and accept the result with sabr.\n\nCONCLUSION\nA distorted idea of predestination could lead to passivity, but this is not what Islam teaches. The Qur'an and Hadith combine trust in God's plan with a duty to act and improve, and judgement is based on effort and intention. I therefore disagree with the statement: belief in predestination gives Muslims a reason to try hard and accept outcomes calmly, rather than making effort pointless.",
+   "evidence": [
+    "Qur'an 13:11",
+    "Hadith: 'Tie your camel'",
+    "Hadith on cures (Bukhari)",
+    "Qur'an 18:29",
+    "Qur'an 99:7-8"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "fatalism"
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "paper": "Practices",
+ "module": "2.1",
+ "moduleTitle": "Five Pillars of Sunni Islam and the Ten Obligatory Acts of Shi'a Islam",
+ "note": {
+  "specFocus": "Know the Five Pillars of Sunni Islam and the Ten Obligatory Acts of Shi'a Islam (the Five Pillars and jihad in both traditions, plus the additional Shi'a duties), and why they are important.",
+  "summary": "THE FIVE PILLARS (ARKAN AL-ISLAM) - SUNNI ISLAM\n'Islam is built upon five: testifying that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing prayer, paying zakah, Hajj and fasting Ramadan' (Bukhari 8; Muslim 16).\n1. Shahadah - declaration of faith.\n2. Salah - five daily prayers.\n3. Zakah - almsgiving of 2.5% of savings above the nisab.\n4. Sawm - fasting during Ramadan.\n5. Hajj - pilgrimage to Makkah once in a lifetime if able.\nLike pillars holding up a building, they support the whole of Muslim life. They turn iman (belief) into 'ibadah (worship) and build taqwa (God-consciousness).\n\nTHE TEN OBLIGATORY ACTS (FURU' AD-DIN) - SHI'A ISLAM\nShi'as distinguish the roots (Usul ad-Din - belief) from the branches (Furu' ad-Din - practice). The Ten Obligatory Acts are:\n1. Salah - prayer.\n2. Sawm - fasting.\n3. Zakah - almsgiving.\n4. Khums - one-fifth of surplus annual income (8:41): half to the marja' (sahm al-Imam), half to needy sayyids.\n5. Hajj - pilgrimage.\n6. Jihad - struggle in God's way (greater and lesser).\n7. Amr bil-Ma'ruf - commanding what is good (3:104).\n8. Nahi anil-Munkar - forbidding what is evil (3:104). Shi'a teaching often describes stages: in the heart, with words, then action if appropriate.\n9. Tawalla - love and loyalty towards God, the Prophet, the Imams and the righteous.\n10. Tabarra - dissociation from those who oppose God and the Ahl al-Bayt (and from evil).\n\nSIMILARITIES AND DIFFERENCES\n- Shared: salah, sawm, zakah and Hajj appear in both lists; both traditions treat jihad as a duty (Sunnis do not list it as a pillar but regard it as obligatory in its proper forms).\n- Shahadah is a pillar for Sunnis; Shi'as treat belief within Usul ad-Din (and some add 'Ali is the wali of Allah' in the call to prayer as a recommended, not obligatory, phrase).\n- Khums, tawalla and tabarra are distinctively Shi'a. Sunnis also value commanding good and forbidding evil, but not as a numbered pillar.\n\nWHY THEY MATTER\n- Obedience to God and the Prophet's Sunnah.\n- Discipline and self-control (sawm), connection with God (salah), social justice (zakah, khums), unity and equality of the ummah (Hajj).\n- Intention matters: 'Actions are judged by intentions' (Bukhari). Pillars performed for show (riya') lose value.\n- Exemptions show God does not burden people beyond capacity (2:286), e.g. the sick from fasting, the poor from Hajj and zakah.\n\nCONTEMPORARY EXAMPLES\nUK Muslims juggle salah with school and work (prayer rooms, flexible breaks); zakah supports charities such as Islamic Relief and the National Zakat Foundation; khums funds Shi'a centres such as the Imam Ali Foundation and community projects.\n\nKEY TERMS: arkan al-Islam, furu' ad-Din, khums, amr bil-ma'ruf, nahi anil-munkar, tawalla, tabarra, taqwa, 'ibadah."
+ },
+ "questions": [
+  {
+   "question": "Which of the following is one of the Ten Obligatory Acts of Shi'a Islam but is NOT one of the Five Pillars of Sunni Islam?\nA Salah\nB Sawm\nC Khums\nD Hajj",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "C - Khums (a one-fifth tax on surplus income) is an obligatory act for Shi'as; salah, sawm and Hajj are shared with the Sunni Five Pillars.",
+   "evidence": [
+    "Qur'an 8:41"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Ten Obligatory Acts"
+  },
+  {
+   "question": "What do the Shi'a obligatory acts 'amr bil-ma'ruf' and 'nahi anil-munkar' mean?\nA Fasting and almsgiving\nB Commanding good and forbidding evil\nC Love for and dissociation from\nD Prayer and pilgrimage",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Amr bil-ma'ruf is encouraging what is good and nahi anil-munkar is discouraging what is wrong, based on Qur'an 3:104.",
+   "evidence": [
+    "Qur'an 3:104"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Ten Obligatory Acts"
+  },
+  {
+   "question": "Give two of the Five Pillars of Sunni Islam.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: Shahadah (declaration of faith); Salah (prayer); Zakah (almsgiving); Sawm (fasting in Ramadan); Hajj (pilgrimage to Makkah).",
+   "evidence": [
+    "Hadith: 'Islam is built on five' (Bukhari, Muslim)"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Five Pillars"
+  },
+  {
+   "question": "Give two of the Ten Obligatory Acts of Shi'a Islam that are not among the Five Pillars.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: Khums (one-fifth tax); Jihad (struggle); Amr bil-Ma'ruf (commanding what is good); Nahi anil-Munkar (forbidding what is evil); Tawalla (love for and loyalty to the Prophet's family and their followers); Tabarra (dissociation from the enemies of God and the Ahl al-Bayt).",
+   "evidence": [
+    "Furu' ad-Din (branches of religion)"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "Ten Obligatory Acts"
+  },
+  {
+   "question": "Explain two differences between the Five Pillars of Sunni Islam and the Ten Obligatory Acts of Shi'a Islam.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Shahadah is a separate pillar for Sunnis but is not listed as one of the Ten Obligatory Acts for Shi'as. Shi'as regard declaring faith as part of the roots of belief (Usul ad-Din), and the Ten Obligatory Acts (furu' ad-Din, 'branches of religion') are the practical duties that grow from those roots.\n\n2. The Ten Obligatory Acts include duties not on the Sunni list, such as khums, tawalla and tabarra. Khums means Shi'as give a fifth of their surplus annual income, half to their marja' for religious purposes; tawalla and tabarra express love for the Prophet's family and rejection of those who oppose them, which reflects the importance of the Imamate in Shi'a Islam.",
+   "evidence": [
+    "Usul ad-Din and Furu' ad-Din",
+    "Khums",
+    "Tawalla and tabarra"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "differences"
+  },
+  {
+   "question": "Explain two reasons why the Five Pillars are important to Sunni Muslims.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. They are the foundation of Muslim practice, taught by the Prophet himself: 'Islam is built on five', just as a building needs pillars to stand. Performing them shows submission (islam) to God and puts the beliefs of iman into action.\n\n2. They unite the worldwide ummah. All Muslims pray facing the Ka'bah, fast in the same month, give zakah and go on Hajj in the same way, which creates a sense of equality and belonging - for example, on Hajj millions of pilgrims from every country wear the same simple white clothing.",
+   "evidence": [
+    "Hadith: 'Islam is built on five'",
+    "Ummah"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "importance"
+  },
+  {
+   "question": "Explain two of the Ten Obligatory Acts of Shi'a Islam.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Amr bil-Ma'ruf and Nahi anil-Munkar - commanding good and forbidding evil. The Qur'an says 'Let there be from you a nation inviting to good, enjoining what is right and forbidding what is wrong' (Qur'an 3:104). Shi'as believe they have a duty to encourage good behaviour and challenge wrongdoing in society, beginning gently with words and the heart, for example speaking against injustice or encouraging a friend to pray.\n\n2. Khums - giving one-fifth of one's surplus annual income. 'Know that anything you obtain of war booty - then indeed, for Allah is one fifth of it and for the Messenger and for [his] near relatives, orphans, the needy and the traveller' (Qur'an 8:41). Shi'as interpret this as applying to all gains, not just war booty; half is given to the marja' for religious work and half to needy descendants of the Prophet (sayyids).",
+   "evidence": [
+    "Qur'an 3:104",
+    "Qur'an 8:41"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Ten Obligatory Acts"
+  },
+  {
+   "question": "Explain two reasons why the Five Pillars are important for Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. They were taught by the Prophet as the basis of Islam. Ibn Umar reported that the Prophet said: 'Islam is built upon five: testifying that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing prayer, paying zakah, performing Hajj and fasting in Ramadan' (Sahih al-Bukhari, Sahih Muslim). So performing them is the clearest way of obeying God and the Prophet.\n\n2. They shape every part of a Muslim's life and relationship with God and others. Salah connects a Muslim with God five times a day, sawm teaches self-control, and zakah helps the poor, so the pillars together build taqwa (God-consciousness) and a fairer community. The Qur'an says prayer 'prohibits immorality and wrongdoing' (Qur'an 29:45), showing their moral purpose.",
+   "evidence": [
+    "Hadith of Ibn Umar (Bukhari 8; Muslim 16)",
+    "Qur'an 29:45"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Five Pillars"
+  },
+  {
+   "question": "‘The Five Pillars are more important than the six articles of faith.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nSome Muslims argue that actions show what a person truly believes. The Five Pillars turn belief into practice: anyone can claim to believe in God, but praying five times a day, fasting for a month and giving away 2.5% of savings require real commitment. The Prophet called them the 'building' of Islam ('Islam is built on five'), so without them faith would have no structure. The pillars also unite the ummah visibly and benefit society - zakah, for example, supports the poor through charities such as the National Zakat Foundation in the UK. The Qur'an repeatedly links faith with action: 'those who believe and do righteous deeds' (e.g. 103:3).\n\nARGUMENTS AGAINST THE STATEMENT\nHowever, the pillars depend on beliefs. Salah only makes sense if there is one God (Tawhid) who hears prayer; Hajj only makes sense if Ibrahim was a prophet; the motive for all the pillars comes from belief in Akhirah and accountability. In the Hadith of Jibril, iman (faith) is described as the foundation, and the first pillar itself, the Shahadah, is a statement of belief. Actions without sincere belief are worthless: 'Actions are judged by intentions' (Bukhari), and someone who prays only to be seen by others is committing riya'. Belief is what makes the actions acceptable to God.\n\nShi'a Muslims frame this as roots and branches: Usul ad-Din (roots of belief) must come first, and the Ten Obligatory Acts are furu' ad-Din (branches). A tree cannot grow branches without roots, suggesting belief is more fundamental. Islam also recognises that some people cannot perform all the pillars - e.g. those too poor for Hajj or too ill to fast - but no Muslim is excused from belief.\n\nCONCLUSION\nThe Five Pillars are essential and express Muslim faith in daily life, so they cannot be separated from belief. However, they rely on the articles of faith for their meaning and purpose, and Islam teaches that sincere belief and intention are what give actions value. I therefore disagree with the statement: the articles of faith are more fundamental, though both belief and practice are needed for a complete Muslim life.",
+   "evidence": [
+    "Hadith: 'Islam is built on five'",
+    "Hadith of Jibril",
+    "Hadith: 'Actions are judged by intentions'",
+    "Qur'an 103:3",
+    "Usul ad-Din / Furu' ad-Din"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "belief and practice"
+  },
+  {
+   "question": "‘The Ten Obligatory Acts give Shi'a Muslims a better guide to life than the Five Pillars give Sunni Muslims.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nThe Ten Obligatory Acts are broader. As well as salah, sawm, zakah and Hajj, they include khums, jihad, commanding good (amr bil-ma'ruf), forbidding evil (nahi anil-munkar), tawalla and tabarra. This means they cover not only personal worship but also responsibility for society: Shi'as are directly obliged to encourage good and challenge wrongdoing, following Qur'an 3:104. Khums provides substantial funds for religious education, mosques and the poor. Tawalla and tabarra encourage Shi'as to align themselves with good people and against injustice, inspired by Imam Husayn. Some would argue that a list including social justice offers a more complete guide to how to live.\n\nARGUMENTS AGAINST THE STATEMENT\nSunni Muslims also believe in commanding good and forbidding evil (3:104 applies to all Muslims), in jihad, and in giving voluntary charity (sadaqah) beyond zakah; these duties are simply not listed as 'pillars'. The Five Pillars are not meant to be a complete guide to life but the foundations of worship. Sunnis gain guidance from the whole of the Qur'an, the Sunnah and Shari'ah, which cover ethics, family, business and justice. So the difference in lists does not mean Sunnis have less guidance. Also, the Shahadah is a pillar for Sunnis but not one of the Ten Obligatory Acts; Shi'as treat belief as part of Usul ad-Din instead, so the two lists are organised differently rather than one being fuller.\n\nThe four shared practices (salah, sawm, zakah, Hajj) form the core of both lists, showing much more agreement than difference. Comparing them as 'better' or 'worse' could encourage division in the ummah, which the Qur'an warns against (3:103).\n\nCONCLUSION\nThe Ten Obligatory Acts do make some social duties more explicit, which is a strength. However, Sunni Muslims hold many of the same duties through the wider teaching of the Qur'an and Sunnah, and both lists rest on the same core worship. I conclude that neither is a better guide; they are different ways of organising very similar obligations.",
+   "evidence": [
+    "Qur'an 3:104",
+    "Qur'an 3:103",
+    "Qur'an 8:41",
+    "Five Pillars and Ten Obligatory Acts"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "comparison"
+  }
+ ]
+}

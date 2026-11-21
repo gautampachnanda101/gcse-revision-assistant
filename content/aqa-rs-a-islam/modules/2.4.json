@@ -1,0 +1,135 @@
+{
+ "paper": "Practices",
+ "module": "2.4",
+ "moduleTitle": "Sawm: the role and significance of fasting during the month of Ramadan",
+ "note": {
+  "specFocus": "Know the role and significance of sawm (fasting) during Ramadan, including its origins, duties, benefits, the exceptions and their reasons, and the Night of Power (Qur'an 96:1-5).",
+  "summary": "WHAT IS SAWM?\nSawm (fasting) is the fourth Sunni pillar and one of the Shi'a Ten Obligatory Acts. During Ramadan, the ninth month of the lunar Islamic calendar, adult Muslims abstain from food, drink, smoking and sexual activity from dawn (Fajr) until sunset (Maghrib). Because the lunar year is about 11 days shorter than the solar year, Ramadan moves through the seasons; in a British summer fasts can last 18-19 hours.\n\nORIGINS\n- Ramadan is the month the Qur'an was first revealed (2:185). The Prophet was meditating in the Cave of Hira when Jibril brought 96:1-5: 'Read! In the name of your Lord who created…'.\n- Fasting was made obligatory in Madinah in the second year after the Hijrah (624 CE).\n- 'Fasting is prescribed for you as it was prescribed for those before you, that you may become righteous' (2:183) - linking Muslims to earlier prophets.\n\nDUTIES\n- Niyyah (intention) to fast each day (or for the month).\n- Suhur - pre-dawn meal; iftar - breaking the fast at sunset, traditionally with dates and water, following the Prophet's Sunnah.\n- Avoiding bad speech and behaviour: 'Whoever does not give up false speech… Allah has no need of his leaving food and drink' (Bukhari).\n- Extra worship: Qur'an reading (many complete it during the month), tarawih night prayers (Sunni), du'a, i'tikaf (retreat in the mosque) in the last ten days.\n- Zakat-ul-Fitr: charity given before Id prayer so the poor can celebrate.\n- Shi'as typically break the fast slightly later (when the redness in the eastern sky has passed) and observe the anniversary of Imam Ali's martyrdom (21 Ramadan).\n\nBENEFITS\nTaqwa and self-discipline; gratitude for food and blessings; empathy with the poor; forgiveness of sins ('whoever fasts Ramadan out of faith and seeking reward, his previous sins are forgiven', Bukhari); family and community unity - e.g. mosque iftars and the UK's Ramadan Tent Project 'open iftars'; some health benefits for healthy adults.\n\nEXCEPTIONS AND REASONS (2:184-185)\n- The ill, travellers - make up the days later.\n- Pregnant, breastfeeding and menstruating women - make up later.\n- The elderly or chronically ill - pay fidyah (feed a poor person per day).\n- Children before puberty, and those who lack understanding, are not obliged.\nReason: 'Allah intends for you ease and does not intend for you hardship' (2:185) - protecting health and life comes first. Deliberately breaking a fast without reason requires kaffarah (e.g. fasting 60 days or feeding 60 poor people).\n\nTHE NIGHT OF POWER (LAYLAT AL-QADR)\nThe night of the first revelation (96:1-5); 'better than a thousand months; the angels and the Spirit descend therein' (97:3-4). Its exact date is unknown; it is sought in the odd nights of the last ten days - Sunnis often mark the 27th, Shi'as especially the 19th, 21st and 23rd. Muslims stay up in prayer, recitation and du'a.\n\nKEY TERMS: sawm, Ramadan, suhur, iftar, niyyah, fidyah, kaffarah, i'tikaf, tarawih, Laylat al-Qadr, taqwa."
+ },
+ "questions": [
+  {
+   "question": "What is Laylat al-Qadr?\nA The festival at the end of Ramadan\nB The night the Qur'an was first revealed to Muhammad\nC The pre-dawn meal during Ramadan\nD The day of standing at Arafat",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Laylat al-Qadr, the Night of Power, is the night in Ramadan when the first verses (96:1-5) were revealed; it is 'better than a thousand months' (97:3).",
+   "evidence": [
+    "Qur'an 97:1-5",
+    "Qur'an 96:1-5"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "Night of Power"
+  },
+  {
+   "question": "What is the name of the meal eaten before dawn during Ramadan?\nA Iftar\nB Suhur\nC Zakat-ul-Fitr\nD Walimah",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B - Suhur is eaten before dawn; iftar breaks the fast at sunset.",
+   "evidence": [
+    "Hadith: 'Eat suhur, for in suhur there is blessing' (Bukhari)"
+   ],
+   "examTip": "Read all four options before choosing. Only one letter is credited; if you change your mind, make your final choice clear.",
+   "answerTopic": "suhur"
+  },
+  {
+   "question": "Give two groups of people who are exempt from fasting in Ramadan.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: people who are ill; travellers on a long journey; pregnant or breastfeeding women; women who are menstruating; the elderly or frail; children who have not reached puberty; people with mental illness or who cannot understand the obligation.",
+   "evidence": [
+    "Qur'an 2:184-185"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "exceptions"
+  },
+  {
+   "question": "Give two things Muslims avoid while fasting during daylight hours in Ramadan.",
+   "marks": 2,
+   "command": "Give",
+   "modelAnswer": "Any two of: eating; drinking (including water); smoking; sexual activity; and, as part of the spirit of the fast, lying, gossiping, arguing or bad behaviour.",
+   "evidence": [
+    "Qur'an 2:187",
+    "Hadith: 'Whoever does not give up false speech…' (Bukhari)"
+   ],
+   "examTip": "Two brief, accurate points earn the two marks - no development is needed, so don't waste time. Don't give two versions of the same point.",
+   "answerTopic": "duties"
+  },
+  {
+   "question": "Explain two benefits of fasting during Ramadan for Muslims.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. It develops self-discipline and taqwa (God-consciousness). By giving up food and drink - things normally permitted - Muslims practise controlling their desires and obeying God, which helps them resist wrongdoing throughout the year.\n\n2. It builds empathy and community. Experiencing hunger helps Muslims understand the suffering of the poor, which encourages charity such as zakah and sadaqah, often given during Ramadan. Families and mosques share iftar together, and some UK mosques and charities run 'open iftars' (e.g. the Ramadan Tent Project) inviting neighbours of all faiths.",
+   "evidence": [
+    "Qur'an 2:183 ('that you may become righteous')",
+    "Ramadan Tent Project"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "benefits"
+  },
+  {
+   "question": "Explain two reasons why some Muslims are exempt from fasting.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Islam does not want fasting to cause harm. 'Allah intends for you ease and does not intend for you hardship' (2:185). People who are ill, pregnant, breastfeeding or elderly could damage their health, so they are excused; protecting life is more important than the ritual.\n\n2. Some people cannot fully take on the responsibility, such as young children, or it would be impractical, such as travellers on long journeys. Most must make up missed days later when able; those who cannot ever fast (e.g. the chronically ill or very elderly) pay fidyah - feeding a poor person for each day missed (2:184).",
+   "evidence": [
+    "Qur'an 2:184-185",
+    "Fidyah"
+   ],
+   "examTip": "Give two separate ways/beliefs. For each, make the point (1 mark) and then develop it with an example, explanation or consequence (second mark).",
+   "answerTopic": "exceptions"
+  },
+  {
+   "question": "Explain two Muslim teachings about the origins of fasting in Ramadan.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Ramadan is the month in which the Qur'an was first revealed. 'The month of Ramadan [is that] in which was revealed the Qur'an, a guidance for the people' (Qur'an 2:185). Jibril brought the first words, 'Read! In the name of your Lord who created' (96:1-5), to Muhammad on Laylat al-Qadr in 610 CE in the Cave of Hira, where he went to fast and reflect. Fasting is a way of giving thanks for this revelation.\n\n2. Fasting was commanded by God to the early Muslim community in Madinah (in 624 CE, the second year after the Hijrah), and Muslims believe earlier communities were given fasting too: 'Fasting is prescribed for you as it was prescribed for those before you, that you may become righteous' (Qur'an 2:183). This shows fasting as an ancient form of worship connecting Muslims with earlier prophets.",
+   "evidence": [
+    "Qur'an 2:185",
+    "Qur'an 2:183",
+    "Qur'an 96:1-5"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "origins"
+  },
+  {
+   "question": "Explain two reasons why the Night of Power is important to Muslims.\nRefer to sacred writings or another source of Muslim belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. It marks the first revelation of the Qur'an. On this night Jibril brought the words 'Read! In the name of your Lord who created, created man from a clinging substance' (Qur'an 96:1-2). This was the beginning of Muhammad's prophethood and of the Qur'an, God's final message, so it is the most significant night in Islamic history.\n\n2. Worship on this night is especially rewarded. 'The Night of Power is better than a thousand months. The angels and the Spirit descend therein by permission of their Lord' (Qur'an 97:3-4). Muslims spend the last ten nights of Ramadan in extra prayer, Qur'an recitation and du'a, and some stay in the mosque in retreat (i'tikaf) hoping to catch it. Sunnis often mark it on the 27th night; Shi'as particularly on the 19th, 21st and 23rd, which also commemorate Imam Ali's martyrdom.",
+   "evidence": [
+    "Qur'an 96:1-5",
+    "Qur'an 97:1-5",
+    "I'tikaf"
+   ],
+   "examTip": "Two developed points (2 + 2 marks) plus 1 mark for a relevant, accurate reference to sacred writing or another source of Muslim belief and teaching (Qur'an, Hadith, a scholar, a recognised tradition). One accurate reference is enough; name or paraphrase it clearly.",
+   "answerTopic": "Night of Power"
+  },
+  {
+   "question": "‘Fasting during Ramadan does more harm than good.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nFasting from dawn to sunset can be physically demanding, particularly when Ramadan falls in summer in Britain, where fasts can last around 18-19 hours. Lack of food and water may cause tiredness, headaches, dehydration and poor concentration, which can affect schoolwork, exams, driving and safety at work. Some doctors warn that people with conditions such as diabetes can be at risk if they fast without medical advice. Critics also argue that heavy iftar meals and late nights can undo the health benefits, and that young people may feel pressure to fast even when unwell.\n\nARGUMENTS AGAINST THE STATEMENT\nMuslims believe fasting is commanded by God, who wants what is good for people: 'Fasting is prescribed for you… that you may become righteous' (2:183). Its main purpose is spiritual: it develops taqwa, self-control and gratitude, and draws people closer to God through extra prayer, Qur'an reading and the hope of Laylat al-Qadr, 'better than a thousand months' (97:3). It brings social benefits too: empathy with the hungry, increased charity, family meals and community iftars that bring together Muslims and non-Muslims, such as the Ramadan Tent Project in the UK.\n\nIslam also prevents harm through its exceptions: the sick, travellers, pregnant and breastfeeding women, children and the elderly are exempt, because 'Allah intends for you ease and does not intend for you hardship' (2:185). Many scholars say that someone whose health would be damaged must not fast. Some research suggests moderate fasting can have health benefits. The British Islamic Medical Association publishes guidance so Muslims can fast safely.\n\nCONCLUSION\nFasting can be hard, and in some cases it could be harmful - but Islam itself exempts those cases. For healthy adults who follow sensible advice, the spiritual, moral and social benefits are significant. I therefore disagree with the statement: fasting in Ramadan, practised as Islam teaches, does far more good than harm.",
+   "evidence": [
+    "Qur'an 2:183",
+    "Qur'an 2:185",
+    "Qur'an 97:3",
+    "British Islamic Medical Association guidance"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "benefits and harm"
+  },
+  {
+   "question": "‘The spiritual benefits of Ramadan are more important than the physical act of fasting.’\nEvaluate this statement. In your answer you should:\n• refer to Muslim teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS SUPPORTING THE STATEMENT\nThe Qur'an gives the purpose of fasting as 'that you may become righteous' (2:183) - a spiritual goal. The Prophet warned that 'whoever does not give up false speech and acting upon it, Allah has no need of his leaving his food and drink' (Bukhari), and that some fasting people gain nothing from their fast but hunger. This shows that simply not eating has no value without inner change. The real heart of Ramadan is drawing closer to God through prayer (including the extra night prayers, tarawih for Sunnis), reading the Qur'an, seeking Laylat al-Qadr and asking forgiveness: 'whoever fasts Ramadan out of faith and seeking reward, his previous sins will be forgiven' (Bukhari). Those exempt from the physical fast can still share fully in these spiritual benefits.\n\nARGUMENTS AGAINST THE STATEMENT\nOn the other hand, the physical act of fasting is the commanded duty and one of the Five Pillars; it cannot be replaced by good intentions. The spiritual benefits come through the physical discipline: going without food and drink is what teaches patience, self-control and empathy with the poor. Islam does not separate body and soul - worship involves both, just as salah requires physical movements. A hadith qudsi says 'Fasting is for Me and I will reward it' (Bukhari), showing that the act itself is specially valued by God. Many Muslims also highlight the social side - shared suhur and iftar, zakat-ul-fitr and community gatherings - which depend on actually fasting together.\n\nCONCLUSION\nThe physical fast and the spiritual benefits are not really in competition: the act of fasting is the means, and greater taqwa and closeness to God are the aim. However, if one must be judged more important, the Qur'an's stated purpose and the Prophet's warnings suggest that a fast without spiritual change misses the point. I therefore agree with the statement, while recognising that for healthy adults the physical fast remains an essential duty that cannot be skipped.",
+   "evidence": [
+    "Qur'an 2:183",
+    "Hadith on false speech (Bukhari)",
+    "Hadith on forgiveness (Bukhari)",
+    "Hadith qudsi: 'Fasting is for Me' (Bukhari)"
+   ],
+   "examTip": "Use the four bullet points as a plan: Muslim teaching, arguments for, arguments against, justified conclusion. Higher levels need logical chains of reasoning and a judgement that weighs the arguments - not just a list. Spelling, punctuation and grammar may also be credited on 12-mark answers.",
+   "answerTopic": "spiritual benefits"
+  }
+ ]
+}

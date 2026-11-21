@@ -1,0 +1,138 @@
+{
+ "paper": "Beliefs",
+ "module": "1.6",
+ "moduleTitle": "The Covenant at Sinai, the role of Moses and the Ten Commandments",
+ "note": {
+  "specFocus": "The Covenant and the mitzvot: the Covenant at Sinai and its importance, including the role of Moses and the Ten Commandments, Exodus 20:1–17 (prescribed text).",
+  "summary": "Background\nThe Israelites, descendants of Abraham, Isaac and Jacob, had become slaves in Egypt. God called Moses at the burning bush (Exodus 3) to lead them out. After the ten plagues and the crossing of the Sea of Reeds, they reached Mount Sinai about three months later (Exodus 19).\n\nThe Covenant at Sinai\n• God offered the covenant: \"If you will obey my voice and keep my covenant, you shall be my treasured possession among all peoples… a kingdom of priests and a holy nation\" (Exodus 19:5–6).\n• The people accepted: \"All that the Lord has spoken we will do, and we will understand\" (na'aseh v'nishma, Exodus 24:7). Jews see this as a commitment to obey even before understanding everything.\n• God gave the Ten Commandments (Aseret ha-Dibrot, \"the ten statements\") amid thunder, fire and the sound of the shofar (Exodus 19:16–19). Moses received the rest of the Torah on the mountain over forty days. The two stone tablets were placed in the Ark of the Covenant.\n• Unlike the covenant with Abraham, which was made with one family, the Sinai covenant was made with the whole nation, and it turned the Israelites into a people defined by God's law.\n• Jewish tradition teaches that the souls of all future Jews were present at Sinai (based on Deuteronomy 29:13–14), so every Jew is bound by the covenant.\n\nThe role of Moses\n• He was the leader who brought the people out of Egypt, the lawgiver, and the greatest prophet: \"There has not arisen a prophet since in Israel like Moses, whom the Lord knew face to face\" (Deuteronomy 34:10). Maimonides' 7th Principle affirms this.\n• He was the mediator between God and the people, and he pleaded for them after the golden calf (Exodus 32).\n• Jews call him Moshe Rabbenu, \"Moses our teacher\". He is honoured but never worshipped.\n• Orthodox Jews believe Moses received both the written Torah and the oral Torah (later written down in the Mishnah and Talmud). Reform Jews generally see the Torah as having developed over time, with Moses as its inspiring founder.\n\nThe Ten Commandments (Exodus 20:1–17), in the Jewish numbering\n1. \"I am the Lord your God, who brought you out of the land of Egypt, out of the house of slavery.\"\n2. You shall have no other gods before me, and you shall not make idols.\n3. Do not take the name of the Lord your God in vain.\n4. Remember the Sabbath day, to keep it holy.\n5. Honour your father and your mother.\n6. Do not murder.\n7. Do not commit adultery.\n8. Do not steal (the rabbis understood this as kidnapping).\n9. Do not bear false witness against your neighbour.\n10. Do not covet.\nThe first tablet is usually understood to hold the duties towards God (1–5, with honouring parents seen as linked to honouring God), and the second the duties towards other people (6–10).\n\nImportance today\n• The Ten Commandments are part of the 613 mitzvot and are seen as headings for the whole Torah.\n• They are read in synagogue on Shavuot, the festival that celebrates the giving of the Torah at Sinai, and when the passages come round in the annual Torah cycle; the congregation stands.\n• Their moral principles (no murder, theft or lying) underpin Jewish ethics and have influenced the laws of many countries.\n• Many synagogues display two tablets above the Aron Hakodesh."
+ },
+ "questions": [
+  {
+   "question": "Which festival celebrates the giving of the Torah at Mount Sinai?\nA Pesach\nB Shavuot\nC Rosh Hashanah\nD Yom Kippur",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B – Shavuot, held fifty days after the second day of Pesach, celebrates the giving of the Torah at Sinai. The Ten Commandments are read in synagogue that day.",
+   "evidence": [
+    "Exodus 19–20",
+    "Leviticus 23:15–21"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "Covenant at Sinai"
+  },
+  {
+   "question": "Which one of the following is one of the Ten Commandments in Exodus 20?\nA Do not eat pork\nB Remember the Sabbath day, to keep it holy\nC Pray three times a day\nD Give a tenth of your income to charity",
+   "marks": 1,
+   "command": "Multiple choice",
+   "modelAnswer": "B. \"Remember the Sabbath day, to keep it holy\" (Exodus 20:8) is the fourth commandment in the Jewish numbering. The others are Jewish practices, but they are not among the Ten Commandments.",
+   "evidence": [
+    "Exodus 20:8"
+   ],
+   "examTip": "Read all four options before choosing. Write only the letter of the answer you choose; one mark is for the correct term or fact.",
+   "answerTopic": "Ten Commandments"
+  },
+  {
+   "question": "Give two of the Ten Commandments about relationships between people.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• Honour your father and your mother.\n• Do not murder.\n• Do not commit adultery.\n• Do not steal.\n• Do not bear false witness.\n• Do not covet.",
+   "evidence": [
+    "Exodus 20:12–17"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "Ten Commandments"
+  },
+  {
+   "question": "Give two roles of Moses in the Covenant at Sinai.",
+   "marks": 2,
+   "command": "Give two",
+   "modelAnswer": "Any two from:\n• He led the Israelites out of Egypt to Sinai.\n• He received the Ten Commandments and the Torah from God.\n• He was the mediator between God and the people.\n• He was a prophet.\n• He taught the law to the people.\n• He pleaded for the people after the golden calf.",
+   "evidence": [
+    "Exodus 19:3",
+    "Exodus 32:11–14",
+    "Deuteronomy 34:10"
+   ],
+   "examTip": "Give two separate, accurate points; short phrases are enough. Do not spend time explaining, and do not repeat the same idea in different words.",
+   "answerTopic": "Moses"
+  },
+  {
+   "question": "Explain two ways in which the Ten Commandments influence Jews today.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. They guide Jewish worship of God. The opening commandments, to have no other gods, make no idols and not misuse God's name, mean that Jews worship only one God, have no images in synagogues and treat God's name with respect; many write \"G-d\". The command to remember the Sabbath leads Jews to keep Shabbat each week with candles, Kiddush, synagogue worship and rest.\n\n2. They shape how Jews treat other people. Commands such as \"Do not murder\", \"Do not steal\" and \"Do not bear false witness\" guide Jewish ethics in daily life, for example honesty at work, respect for life and faithfulness in marriage. \"Honour your father and your mother\" encourages Jews to care for elderly parents.",
+   "evidence": [
+    "Exodus 20:2–17"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "Ten Commandments"
+  },
+  {
+   "question": "Explain two contrasting Jewish beliefs about the Torah given at Sinai.",
+   "marks": 4,
+   "command": "Explain",
+   "modelAnswer": "1. Orthodox Jews believe God revealed the whole Torah, both written and oral, to Moses at Sinai. It is the unchanging word of God (Torah min ha-shamayim, \"Torah from heaven\"), so all 613 mitzvot are binding and must be kept as interpreted by halakhah.\n\n2. Reform Jews believe the Torah was inspired by God but written by human beings over many centuries, reflecting their times. Revelation is \"progressive\": it continues as each generation understands God's will more deeply. So Reform Jews keep the ethical laws as binding but make informed choices about ritual laws, and they have made changes such as equal roles for women.",
+   "evidence": [
+    "Exodus 24:12",
+    "Pirkei Avot 1:1 (\"Moses received the Torah from Sinai\")"
+   ],
+   "examTip": "Make two distinct points. Develop each one (a simple point earns 1 mark, a detailed one 2 marks) by saying how or why it shapes what Jews believe or do today. If the question asks for contrasting ways, make sure the two are genuinely different, for example Orthodox and Reform.",
+   "answerTopic": "Torah from Sinai"
+  },
+  {
+   "question": "Explain two reasons why the Covenant at Sinai is important for Jews. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. It made the Israelites God's people with a special role. God promised that if they kept the covenant they would be \"my treasured possession… a kingdom of priests and a holy nation\" (Exodus 19:5–6). Jews believe they were chosen not for privilege but for responsibility: to live by God's law and be an example to the world.\n\n2. It gave the Torah and the mitzvot. At Sinai God gave the Ten Commandments (Exodus 20:1–17), and tradition holds that the 613 commandments also come from Sinai. The people replied \"we will do and we will understand\" (Exodus 24:7). This means the whole of Jewish life, including Shabbat, kashrut, prayer and ethics, rests on the Sinai covenant, and it is celebrated every year at Shavuot.",
+   "evidence": [
+    "Exodus 19:5–6",
+    "Exodus 20:1–17",
+    "Exodus 24:7"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "Covenant at Sinai"
+  },
+  {
+   "question": "Explain two Jewish teachings about the role of Moses. Refer to sacred writings or another source of Jewish belief and teaching in your answer.",
+   "marks": 5,
+   "command": "Explain",
+   "modelAnswer": "1. Moses was the greatest prophet. The Torah says, \"There has not arisen a prophet since in Israel like Moses, whom the Lord knew face to face\" (Deuteronomy 34:10). Maimonides' 7th Principle teaches that Moses' prophecy was greater than any other, which gives the Torah he received unique authority.\n\n2. Moses was the lawgiver and teacher who passed on the Torah. Pirkei Avot 1:1 begins, \"Moses received the Torah from Sinai and handed it on to Joshua\", tracing a chain of tradition down to the rabbis. That is why Jews call him Moshe Rabbenu, \"Moses our teacher\". He also acted as mediator, pleading with God to forgive the people after the golden calf (Exodus 32), which shows his care for the people.",
+   "evidence": [
+    "Deuteronomy 34:10",
+    "Pirkei Avot 1:1",
+    "Exodus 32:11–14"
+   ],
+   "examTip": "Two developed beliefs or teachings (up to 2 marks each) plus 1 mark for a relevant reference to sacred writings or another source of Jewish teaching, such as the Torah, Tenakh, Talmud or Mishnah. Name the source clearly; it does not have to be word-for-word.",
+   "answerTopic": "Moses"
+  },
+  {
+   "question": "\"The Ten Commandments are the most important part of the Torah.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nThe Ten Commandments were given directly by God to the whole people at Sinai, amid thunder and fire (Exodus 19–20), and written on stone tablets \"by the finger of God\". No other part of the Torah was given in such a dramatic and public way. They were kept in the Ark of the Covenant, the holiest object in the Temple, which shows their status.\n\nThey also summarise the whole Torah. The tenth-century scholar Saadia Gaon argued that all 613 mitzvot can be grouped under the Ten Commandments. They cover both duties to God (one God, no idols, Shabbat) and duties to people (no murder, theft or lying), the two halves of Jewish ethics. Many synagogues display the two tablets above the ark, and congregations stand when they are read, which reflects how highly they are regarded.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nJudaism teaches that all 613 mitzvot come from God and are equally binding. Pirkei Avot 2:1 says one should be as careful with a \"minor\" commandment as with a \"major\" one, because we do not know their reward. In ancient times the rabbis actually stopped the daily public reading of the Ten Commandments, which had been part of Temple worship, so that no one could claim that only these ten were given at Sinai (Talmud Berakhot 12a).\n\nOther passages could be seen as more central. The Shema (Deuteronomy 6:4–9) is recited twice daily and declares God's oneness. Hillel summed up the Torah as \"What is hateful to you, do not do to your neighbour\" (Shabbat 31a), and Rabbi Akiva called \"Love your neighbour as yourself\" (Leviticus 19:18) a great principle of the Torah. Neither of these is one of the Ten Commandments.\n\nA Reform Jew might emphasise the ethical commandments as the lasting core of the Torah, while an Orthodox Jew would insist that the ritual laws are equally God's will.\n\nJUSTIFIED CONCLUSION\n\nThe Ten Commandments have a special place, given publicly at Sinai and summing up the main areas of Jewish duty. However, Jewish teaching deliberately avoids treating them as more important than the other commandments, because the whole Torah is from God. The more convincing view is that the Ten Commandments are a powerful summary of the Torah rather than its most important part.",
+   "evidence": [
+    "Exodus 20:1–17",
+    "Exodus 31:18",
+    "Pirkei Avot 2:1",
+    "Talmud Berakhot 12a",
+    "Leviticus 19:18",
+    "Talmud Shabbat 31a"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "Ten Commandments"
+  },
+  {
+   "question": "\"Moses is the most important figure in Judaism.\"\n\nEvaluate this statement. In your answer you should:\n• refer to Jewish teaching\n• give reasoned arguments to support this statement\n• give reasoned arguments to support a different point of view\n• reach a justified conclusion.",
+   "marks": 12,
+   "command": "Evaluate",
+   "modelAnswer": "ARGUMENTS IN SUPPORT\n\nMoses received the Torah, which is the foundation of Jewish life. Pirkei Avot opens, \"Moses received the Torah from Sinai\", and all later Jewish law and teaching traces its authority back through him. Without Moses there would be no Ten Commandments, no 613 mitzvot and no Sinai covenant as Jews know it.\n\nThe Torah itself gives Moses unique status: \"There has not arisen a prophet since in Israel like Moses, whom the Lord knew face to face\" (Deuteronomy 34:10). Maimonides made this one of his Thirteen Principles. Moses also led the people out of slavery in Egypt, which Jews remember every year at Pesach, and he interceded for them after the golden calf. Jews call him Moshe Rabbenu, \"our teacher\", a title given to no one else in the same way.\n\nARGUMENTS FOR A DIFFERENT VIEW\n\nAbraham could be considered more important, because he was the first to make a covenant with God and is the father of the Jewish people (Genesis 12:1–3). Without Abraham there would be no Israelites for Moses to lead. Jews call him Avraham Avinu, \"our father\", and the covenant of circumcision goes back to him.\n\nInterestingly, Moses is hardly mentioned in the Pesach Haggadah. Many explain this as a deliberate choice to stress that God, not a human being, freed the Israelites. Judaism avoids treating any human as an object of worship. The Torah also says that Moses' burial place is unknown (Deuteronomy 34:6), which many see as a way to stop people making it a shrine. The most important \"figure\" in Judaism is therefore God.\n\nSome would also argue that it is the Torah itself, or the whole people, that matters most, since the covenant was made with all Israel, past and future. Others would point to King David, from whom the Messiah is expected to descend.\n\nJUSTIFIED CONCLUSION\n\nMoses is arguably the most important human figure in Judaism, because the Torah, the centre of Jewish life, came through him and he is the model teacher and prophet. However, Judaism deliberately keeps the focus on God and the Torah rather than on any person, and Abraham has an equal claim as the founder of the covenant. So the statement is partly true: Moses is the greatest prophet, but not more important than God or the Torah he received.",
+   "evidence": [
+    "Pirkei Avot 1:1",
+    "Deuteronomy 34:6, 34:10",
+    "Genesis 12:1–3",
+    "Maimonides, 7th Principle",
+    "Pesach Haggadah"
+   ],
+   "examTip": "Argue both sides with Jewish teaching, explain why each argument matters (do not just list views), weigh them, and finish with a conclusion that follows from what you have written. Include Orthodox and Reform views where they differ. Spelling, punctuation and grammar are also assessed on 12-mark answers.",
+   "answerTopic": "Moses"
+  }
+ ]
+}
