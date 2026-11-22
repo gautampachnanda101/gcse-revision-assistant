@@ -19,7 +19,7 @@ import (
 
 // contentPubKey is the base64 ed25519 public key for subject content. Overridable at build time
 // (-ldflags "-X main.contentPubKey=…") so end-to-end tests can use a throwaway key.
-var contentPubKey = "EtUMja/iqP8zvL1mn6zWIgke8LSrsy0H2gm5dgNcGRE="
+var contentPubKey = "zZqVJ5z87ZqfVZdBspQU2C1BXSADoDpWHAnLMw+q72A="
 
 const sigFile = "subjects.js.sig"
 
