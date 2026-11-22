@@ -9,6 +9,7 @@ package main
 // Offline, it serves whatever it already has — built-in packs plus previously downloaded ones.
 
 import (
+	"archive/zip"
 	"bytes"
 	"context"
 	"crypto/sha256"
@@ -25,9 +26,17 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	"time"
 )
 
 const manifestPrefix = "window.REVISION_MANIFEST="
+
+const (
+	maxContentArchiveBytes = 128 << 20
+	maxContentFileBytes    = 64 << 20
+	maxContentTotalBytes   = 128 << 20
+	maxContentFiles        = 1024
+)
 
 type subjectEntry struct {
 	ID       string `json:"id"`
@@ -158,6 +167,106 @@ func rawURL(repo, branch, file string) string {
 	return strings.TrimRight(base, "/") + "/" + repo + "/" + branch + "/" + file
 }
 
+type githubContentRelease struct {
+	TagName     string    `json:"tag_name"`
+	Draft       bool      `json:"draft"`
+	PublishedAt time.Time `json:"published_at"`
+	Assets      []struct {
+		Name               string `json:"name"`
+		BrowserDownloadURL string `json:"browser_download_url"`
+	} `json:"assets"`
+}
+
+func latestContentArchiveURL(ctx context.Context, repo string) (string, error) {
+	api := envOr("GCSE_REVISION_API_BASE", "https://api.github.com")
+	b, err := httpGet(ctx, strings.TrimRight(api, "/")+"/repos/"+repo+"/releases?per_page=50", 2<<20)
+	if err != nil {
+		return "", err
+	}
+	var releases []githubContentRelease
+	if err := json.Unmarshal(b, &releases); err != nil {
+		return "", fmt.Errorf("content releases: %w", err)
+	}
+	var selected *githubContentRelease
+	var selectedURL string
+	for i := range releases {
+		release := &releases[i]
+		if release.Draft || !strings.HasPrefix(release.TagName, "content-") {
+			continue
+		}
+		for _, asset := range release.Assets {
+			if asset.Name == "gcse-revision-content.zip" {
+				if selected == nil || release.PublishedAt.After(selected.PublishedAt) {
+					if asset.BrowserDownloadURL == "" {
+						return "", fmt.Errorf("content release %s has no download URL", release.TagName)
+					}
+					selected = release
+					selectedURL = asset.BrowserDownloadURL
+				}
+				break
+			}
+		}
+	}
+	if selected != nil {
+		return selectedURL, nil
+	}
+	return "", errors.New("no signed content release is available")
+}
+
+func readContentArchive(b []byte) (map[string][]byte, error) {
+	zr, err := zip.NewReader(bytes.NewReader(b), int64(len(b)))
+	if err != nil {
+		return nil, err
+	}
+	files := make(map[string][]byte)
+	total := uint64(0)
+	if len(zr.File) > maxContentFiles {
+		return nil, fmt.Errorf("content archive contains more than %d entries", maxContentFiles)
+	}
+	for _, f := range zr.File {
+		if f.FileInfo().Mode()&os.ModeSymlink != 0 {
+			return nil, fmt.Errorf("unsafe content archive entry %q", f.Name)
+		}
+		if f.FileInfo().IsDir() {
+			continue
+		}
+		name := path.Clean(f.Name)
+		if name == "." || name != f.Name || strings.HasPrefix(name, "../") || path.IsAbs(name) {
+			return nil, fmt.Errorf("unsafe content archive path %q", f.Name)
+		}
+		if name != "subjects.js" && name != sigFile && !validPackFile.MatchString(name) {
+			return nil, fmt.Errorf("unexpected content archive path %q", f.Name)
+		}
+		if _, exists := files[name]; exists {
+			return nil, fmt.Errorf("duplicate content archive path %q", name)
+		}
+		if f.UncompressedSize64 > maxContentFileBytes {
+			return nil, fmt.Errorf("%s exceeds content archive limit", name)
+		}
+		total += f.UncompressedSize64
+		if total > maxContentTotalBytes {
+			return nil, errors.New("content archive exceeds total uncompressed size limit")
+		}
+		r, err := f.Open()
+		if err != nil {
+			return nil, err
+		}
+		data, err := io.ReadAll(io.LimitReader(r, maxContentFileBytes+1))
+		_ = r.Close()
+		if err != nil {
+			return nil, err
+		}
+		if len(data) > maxContentFileBytes {
+			return nil, fmt.Errorf("%s exceeds content archive limit", name)
+		}
+		files[name] = data
+	}
+	if len(files["subjects.js"]) == 0 || len(files[sigFile]) == 0 {
+		return nil, errors.New("content archive is missing manifest or signature")
+	}
+	return files, nil
+}
+
 func httpGet(ctx context.Context, url string, limit int64) ([]byte, error) {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
@@ -172,7 +281,14 @@ func httpGet(ctx context.Context, url string, limit int64) ([]byte, error) {
 	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("GET %s: %s", url, resp.Status)
 	}
-	return io.ReadAll(io.LimitReader(resp.Body, limit))
+	b, err := io.ReadAll(io.LimitReader(resp.Body, limit+1))
+	if err != nil {
+		return nil, err
+	}
+	if int64(len(b)) > limit {
+		return nil, fmt.Errorf("GET %s: response exceeds %d byte limit", url, limit)
+	}
+	return b, nil
 }
 
 func writeFileAtomic(dst string, b []byte) error {
@@ -191,13 +307,32 @@ func syncSubjects(ctx context.Context, repo, branch string, log func(string, ...
 	if repo == "" || strings.Contains(repo, "OWNER") {
 		return 0, errors.New("no source repo configured")
 	}
-	mb, err := httpGet(ctx, rawURL(repo, branch, "subjects.js"), 4<<20)
-	if err != nil {
-		return 0, err
-	}
-	sig, err := httpGet(ctx, rawURL(repo, branch, sigFile), 4<<10)
-	if err != nil {
-		return 0, fmt.Errorf("content signature: %w", err)
+	var mb, sig []byte
+	var archiveFiles map[string][]byte
+	var err error
+	if os.Getenv("GCSE_REVISION_RAW_BASE") != "" {
+		mb, err = httpGet(ctx, rawURL(repo, branch, "subjects.js"), 4<<20)
+		if err != nil {
+			return 0, err
+		}
+		sig, err = httpGet(ctx, rawURL(repo, branch, sigFile), 4<<10)
+		if err != nil {
+			return 0, fmt.Errorf("content signature: %w", err)
+		}
+	} else {
+		archiveURL, discoverErr := latestContentArchiveURL(ctx, repo)
+		if discoverErr != nil {
+			return 0, discoverErr
+		}
+		archive, downloadErr := httpGet(ctx, archiveURL, maxContentArchiveBytes)
+		if downloadErr != nil {
+			return 0, downloadErr
+		}
+		archiveFiles, err = readContentArchive(archive)
+		if err != nil {
+			return 0, err
+		}
+		mb, sig = archiveFiles["subjects.js"], archiveFiles[sigFile]
 	}
 	if err := verifyManifestSig(mb, sig); err != nil {
 		return 0, err
@@ -212,13 +347,21 @@ func syncSubjects(ctx context.Context, repo, branch string, log func(string, ...
 			log("Skipping invalid manifest entry %q", e.File)
 			continue
 		}
+		if archiveFiles != nil && len(archiveFiles[e.File]) == 0 {
+			return fetched, fmt.Errorf("%s is missing from content archive", e.File)
+		}
 		if _, ok := packBytes(e); ok {
 			continue
 		}
 		log("Downloading subject pack %s…", e.File)
-		b, err := httpGet(ctx, rawURL(repo, branch, e.File), 64<<20)
-		if err != nil {
-			return fetched, err
+		var b []byte
+		if archiveFiles != nil {
+			b = archiveFiles[e.File]
+		} else {
+			b, err = httpGet(ctx, rawURL(repo, branch, e.File), 64<<20)
+			if err != nil {
+				return fetched, err
+			}
 		}
 		if sha256Hex(b) != e.SHA256 {
 			return fetched, fmt.Errorf("%s: checksum mismatch (repo mid-update? try again shortly)", e.File)

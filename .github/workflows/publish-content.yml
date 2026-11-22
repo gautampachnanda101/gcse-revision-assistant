@@ -1,5 +1,5 @@
 name: Publish content
-# Signs the subject packs on main and publishes them to the `content` branch, which installed apps poll.
+# Signs subject packs and publishes an immutable content release asset.
 # New subjects reach users without a new app release.
 on:
   push:
@@ -28,20 +28,21 @@ jobs:
           if [ -z "$CONTENT_SIGNING_KEY" ]; then echo "::error::CONTENT_SIGNING_KEY secret missing — run scripts/setup-signing.sh"; exit 1; fi
           go run . sign .
           go run . verify .   # checks against the public key compiled into this commit
-      - name: Push to the content branch
+      - name: Package and publish signed content release
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir out && cp -r subjects.js subjects.js.sig data out/
-          cd out
-          git init -q -b content
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A && git commit -q -m "Publish content from ${GITHUB_SHA}"
-          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" content
-      - name: End-to-end check — a fresh app install receives exactly this content from GitHub
+          tag="content-$(date -u +%Y%m%d%H%M%S)-${GITHUB_SHA:0:12}"
+          zip -q -r gcse-revision-content.zip subjects.js subjects.js.sig data
+          gh release create "$tag" gcse-revision-content.zip \
+            --prerelease \
+            --title "Signed content $tag" \
+            --notes "Immutable signed content published from ${GITHUB_SHA}."
+      - name: End-to-end check — a fresh app receives the release content
         run: |
           go build -o gcse-revision .
           want=$(sha256sum subjects.js | cut -d' ' -f1)
-          for i in $(seq 1 30); do   # raw.githubusercontent.com caches for up to ~5 minutes
+          for i in $(seq 1 30); do
             home=$(mktemp -d)
             if HOME=$home XDG_CACHE_HOME=$home/.cache ./gcse-revision update --repo "$GITHUB_REPOSITORY"; then
               got=$(sha256sum "$home/.cache/gcse-revision/subjects.js" | cut -d' ' -f1)

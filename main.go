@@ -62,7 +62,7 @@ func main() {
 	flag.BoolVar(&opts.noAutoUp, "no-auto-update", false, "disable automatic application upgrades")
 	flag.StringVar(&opts.model, "model", "", "Ollama model to use (default: chosen from this machine's RAM)")
 	flag.StringVar(&opts.repo, "repo", envOr("GCSE_REVISION_REPO", repo), "GitHub owner/name to fetch subject packs from")
-	flag.StringVar(&opts.branch, "branch", envOr("GCSE_REVISION_BRANCH", "content"), "branch to fetch signed subject packs from")
+	flag.StringVar(&opts.branch, "branch", envOr("GCSE_REVISION_BRANCH", "content"), "legacy content branch used only by test/mirror endpoints")
 	flag.Usage = usage
 	// Accept flags before or after the subcommand: `gcse-revision update --offline` and `gcse-revision --offline update`.
 	cmd := ""

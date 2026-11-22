@@ -45,7 +45,7 @@ To start it again later, run `gcse-revision`.
 ## What the program does
 
 - **Serves the app** at `http://127.0.0.1:8765`. It's only reachable from your own computer.
-- **Keeps subjects up to date without app updates.** At start-up it checks this repo's `content` branch for new or updated subject packs and downloads them. That branch is signed: CI signs the subject list (which records every pack's SHA-256) with a key only the maintainer holds, and the app rejects anything that doesn't verify against the public key built into it. Offline, it uses the subjects it already has, so everything works without internet once installed.
+- **Keeps subjects up to date without app updates.** At start-up it discovers the newest immutable signed `content-*` GitHub release and downloads its archive. CI signs the subject list (which records every pack's SHA-256) with a key only the maintainer holds, and the app rejects anything that doesn't verify against the public key built into it. Offline, it uses the subjects it already has, so everything works without internet once installed.
 - **Sets up the AI helper automatically.** It uses [Ollama](https://ollama.com) if it's already installed. If not, it downloads the official Ollama release into its own folder, with checksums verified and no admin rights needed. It then starts Ollama and downloads a model sized to your computer's memory:
 
   | RAM | Model |
@@ -108,7 +108,7 @@ Merge a subject pack into `main`. The **Publish content** workflow then:
 
 1. validates it;
 2. signs `subjects.js`;
-3. force-pushes the signed set to the `content` branch;
+3. publishes an immutable signed `content-*` release asset;
 4. checks that a fresh install downloads and verifies exactly that content from GitHub.
 
 Installed apps pick it up the next time they start. One-time set-up of the signing key: `sh scripts/setup-signing.sh`.

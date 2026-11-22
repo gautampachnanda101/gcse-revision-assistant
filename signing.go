@@ -1,10 +1,10 @@
 package main
 
-// Content signing. Published subject content lives on the repo's `content` branch: subjects.js (which lists
+// Content signing. Published subject content lives in immutable `content-*` GitHub releases: subjects.js (which lists
 // every pack's SHA-256) plus subjects.js.sig, an ed25519 signature over subjects.js made in CI with a key held
 // only as a GitHub Actions secret. The app accepts downloaded content only if that signature verifies against
 // the public key compiled in below — so content can be published at any time without a new app release, but
-// nobody without the key (not even someone who tampers with the branch) can push content to users.
+// nobody without the key can publish content users accept.
 
 import (
 	"crypto/ed25519"
