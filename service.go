@@ -124,6 +124,9 @@ func serviceCommand(args []string, opts options) error {
 }
 
 func installService(opts options) error {
+	if runtime.GOOS == "darwin" && homebrewServiceConfigured() {
+		return restartServiceAt(opts.port)
+	}
 	exe, err := os.Executable()
 	if err != nil {
 		return err
@@ -248,6 +251,17 @@ func startService() error {
 	var cmd *exec.Cmd
 	switch runtime.GOOS {
 	case "darwin":
+		if homebrewServiceConfigured() {
+			brew, err := findHomebrew()
+			if err != nil {
+				return err
+			}
+			out, err := exec.Command(brew, "services", "start", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
+			if err != nil {
+				return fmt.Errorf("start Homebrew service: %s: %w", out, err)
+			}
+			return nil
+		}
 		home, _ := realUserHomeDir()
 		plist := filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist")
 		out, err := exec.Command("launchctl", "bootstrap", "gui/"+currentUserID(), plist).CombinedOutput()
@@ -276,6 +290,17 @@ func stopService() error {
 	var cmd *exec.Cmd
 	switch runtime.GOOS {
 	case "darwin":
+		if homebrewServiceConfigured() {
+			brew, err := findHomebrew()
+			if err != nil {
+				return err
+			}
+			out, err := exec.Command(brew, "services", "stop", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
+			if err != nil && !serviceNotFound(string(out)) {
+				return fmt.Errorf("stop Homebrew service: %s: %w", out, err)
+			}
+			return nil
+		}
 		cmd = exec.Command("launchctl", "bootout", "gui/"+currentUserID()+"/"+serviceLabel())
 	case "linux":
 		cmd = exec.Command("systemctl", "--user", "stop", serviceUnit())
@@ -355,6 +380,15 @@ func uninstallService() error {
 		return fmt.Errorf("background service is not supported on %s", runtime.GOOS)
 	}
 	return nil
+}
+
+func homebrewServiceConfigured() bool {
+	home, err := realUserHomeDir()
+	if err != nil {
+		return false
+	}
+	_, err = os.Stat(filepath.Join(home, "Library", "LaunchAgents", "sh.brew.gcse-revision.plist"))
+	return err == nil
 }
 
 func showServiceLogs() error {
