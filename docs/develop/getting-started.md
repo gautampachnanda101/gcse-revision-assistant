@@ -16,6 +16,9 @@ You need Git and Go 1.22 or newer. Nothing else is required.
 
 Open <http://gcse-revision.localhost:18765/>.
 
+You can also open `app.html` straight from the checkout, without the program. The AI helper then needs a
+server set up by hand in the app's **Grown-ups** settings.
+
 The flags keep your copy separate from any installed version:
 
 - `--port 18765` avoids the installed app on port 8765.

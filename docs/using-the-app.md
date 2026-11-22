@@ -7,22 +7,22 @@ This page is for parents, carers and students. You don't need any technical know
 Open **Terminal** (Mac or Linux) or **PowerShell** (Windows). Paste the commands for your computer and press
 Enter.
 
-**Mac or Linux**
+### Mac or Linux
 
     curl -fsSL https://raw.githubusercontent.com/\
     gautampachnanda101/gcse-revision-assistant/main/install.sh | sh
 
-**Windows**
+### Windows
 
     $u = "https://raw.githubusercontent.com/gautampachnanda101/" +
          "gcse-revision-assistant/main/install.ps1"
     irm $u | iex
 
-**Mac or Linux, with Homebrew**
+### Mac or Linux, with Homebrew
 
     brew install gautampachnanda101/tap/gcse-revision
 
-**Windows, with Scoop**
+### Windows, with Scoop
 
     scoop bucket add gautampachnanda101 `
       https://github.com/gautampachnanda101/scoop-bucket
@@ -55,6 +55,23 @@ The AI helper reads an answer and suggests how to improve it. You don't need it:
 - An adult can connect a cloud AI service instead, in the **Grown-ups** settings. Answers are then sent to
   that service.
 - AI feedback can be wrong. Treat any mark it gives as a rough guide, not an official mark.
+
+The app tries these in order:
+
+1. Built-in AI on the computer. On Apple Silicon Macs with Apple Intelligence switched on, this needs no
+   set-up. Run `gcse-revision doctor` to see whether it's available.
+2. A local AI program (Ollama). If it isn't installed, the app can download it, with no administrator
+   password. It then downloads a model sized to the computer's memory: `qwen3:1.7b` under 7 GB,
+   `llama3.2` from 7 to 13 GB, and `gemma3:4b` from 14 GB. A suitable model you already have is reused.
+3. A cloud service, but only if an adult has set one up.
+
+On Windows, a built-in option appears only if a supported local AI bridge is installed.
+
+## Listening practice
+
+Language subjects have a **Read prompt aloud (computer voice)** button. It uses the voices built into your
+computer, so it works offline. Some languages, such as Chinese, Russian or Hindi, may need an extra voice
+pack from your computer's settings.
 
 ## Privacy
 

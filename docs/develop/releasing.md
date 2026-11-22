@@ -33,7 +33,9 @@ A release happens only if a shipped file changed: Go code, `app.html`, `subjects
 scripts. Because `subjects.js` is shipped, a `fix:` to a subject also produces a patch release.
 
 The **Release** workflow builds all six platforms, publishes the release, updates Homebrew and Scoop, then
-installs the real release on macOS, Linux and Windows to test it.
+installs the real release on macOS, Linux and Windows to test it. Updating Homebrew and
+Scoop needs the `HOMEBREW_TAP_GITHUB_TOKEN` secret: a token that can write to the `homebrew-tap` and
+`scoop-bucket` repositories.
 
 ### Check a release
 
