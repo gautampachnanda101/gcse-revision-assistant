@@ -68,7 +68,11 @@ func automaticUpgradeLoop(ctx context.Context, opts options) {
 }
 
 func reconcileManagedService() (bool, error) {
-	if !packageManaged() {
+	exePath, err := executable()
+	if err != nil {
+		return false, err
+	}
+	if !packageManagedPath(exePath) {
 		return false, nil
 	}
 	current, err := installedPackageExecutable()
@@ -87,12 +91,11 @@ func reconcileManagedService() (bool, error) {
 	if installedVersion == "" || installedVersion == version {
 		return false, nil
 	}
-	exePath, err := executable()
-	if err != nil {
-		return false, err
-	}
 	lower := strings.ToLower(strings.ReplaceAll(filepath.ToSlash(exePath), `\`, "/"))
 	if strings.Contains(lower, "/cellar/") || strings.Contains(lower, "/homebrew/") {
+		if err := startHomebrewPackageService(); err != nil {
+			return false, err
+		}
 		return true, nil
 	}
 	cmd := execCommand(current, "service", "install")
@@ -432,6 +435,9 @@ func managedUpgrade(restart bool) (bool, error) {
 	}
 	if restart {
 		if strings.Contains(lower, "/cellar/") || strings.Contains(lower, "/homebrew/") {
+			if err := startHomebrewPackageService(); err != nil {
+				return false, err
+			}
 			return true, errProcessExitForUpgrade
 		}
 		current, locateErr := installedPackageExecutable()
@@ -445,6 +451,18 @@ func managedUpgrade(restart bool) (bool, error) {
 		return true, errProcessExitForUpgrade
 	}
 	return true, nil
+}
+
+func startHomebrewPackageService() error {
+	brew, err := findHomebrew()
+	if err != nil {
+		return err
+	}
+	out, err := execCommand(brew, "services", "start", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
+	if err != nil {
+		return fmt.Errorf("start Homebrew service after upgrade: %s: %w", strings.TrimSpace(string(out)), err)
+	}
+	return nil
 }
 
 func findHomebrew() (string, error) {
