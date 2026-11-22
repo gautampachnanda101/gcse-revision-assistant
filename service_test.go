@@ -213,6 +213,7 @@ func TestStopServiceHomebrewMigrationFailures(t *testing.T) {
 		setup(t)
 		setVar(t, &currentUser, func() (*user.User, error) { return nil, errors.New("no user db") })
 		t.Setenv("HOME", "")
+		t.Setenv("USERPROFILE", "")
 		installFakeExec(t, func(c string) fakeResult {
 			if strings.HasPrefix(c, "launchctl bootout") {
 				return fail("Could not find service")
