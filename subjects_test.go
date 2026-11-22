@@ -9,12 +9,17 @@ import (
 	"encoding/base64"
 	"encoding/binary"
 	"encoding/json"
+	"io"
 	"net/http"
 	"net/http/httptest"
 	"path/filepath"
 	"strings"
 	"testing"
 )
+
+type roundTripFunc func(*http.Request) (*http.Response, error)
+
+func (f roundTripFunc) RoundTrip(r *http.Request) (*http.Response, error) { return f(r) }
 
 func contentZip(t *testing.T, files map[string][]byte) []byte {
 	t.Helper()
@@ -170,5 +175,68 @@ func TestHTTPGetRejectsOversizedResponse(t *testing.T) {
 	defer srv.Close()
 	if _, err := httpGet(context.Background(), srv.URL, 4); err == nil {
 		t.Fatal("expected response size rejection")
+	}
+}
+
+func TestGitHubTokenForURL(t *testing.T) {
+	t.Setenv("GH_TOKEN", "")
+	t.Setenv("GITHUB_TOKEN", "")
+	t.Setenv("GCSE_REVISION_GITHUB_TOKEN", "")
+	if got := githubTokenForURL("https://api.github.com/repos/me/repo"); got != "" {
+		t.Fatalf("empty token fallback = %q", got)
+	}
+	t.Setenv("GH_TOKEN", "workflow-token")
+	for _, raw := range []string{
+		"https://api.github.com/repos/me/repo/releases",
+		"https://github.com/me/repo/releases/download/v1/file.zip",
+		"https://uploads.github.com/repos/me/repo/releases/assets/1",
+	} {
+		if got := githubTokenForURL(raw); got != "workflow-token" {
+			t.Fatalf("githubTokenForURL(%q) = %q", raw, got)
+		}
+	}
+
+	for _, raw := range []string{
+		"http://api.github.com/repos/me/repo/releases",
+		"https://example.com/releases",
+		"https://github.com.example.com/releases",
+		"://invalid",
+	} {
+		if got := githubTokenForURL(raw); got != "" {
+			t.Fatalf("githubTokenForURL(%q) leaked %q", raw, got)
+		}
+	}
+
+	t.Setenv("GH_TOKEN", "")
+	t.Setenv("GITHUB_TOKEN", "actions-token")
+	if got := githubTokenForURL("https://api.github.com/repos/me/repo"); got != "actions-token" {
+		t.Fatalf("GITHUB_TOKEN fallback = %q", got)
+	}
+	t.Setenv("GITHUB_TOKEN", "")
+	t.Setenv("GCSE_REVISION_GITHUB_TOKEN", "app-token")
+	if got := githubTokenForURL("https://api.github.com/repos/me/repo"); got != "app-token" {
+		t.Fatalf("application token fallback = %q", got)
+	}
+}
+
+func TestHTTPGetSendsGitHubToken(t *testing.T) {
+	t.Setenv("GH_TOKEN", "workflow-token")
+	oldClient := http.DefaultClient
+	http.DefaultClient = &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
+		if got := r.Header.Get("Authorization"); got != "Bearer workflow-token" {
+			t.Fatalf("Authorization = %q", got)
+		}
+		return &http.Response{
+			StatusCode: http.StatusOK,
+			Status:     "200 OK",
+			Body:       io.NopCloser(strings.NewReader("ok")),
+			Header:     make(http.Header),
+		}, nil
+	})}
+	t.Cleanup(func() { http.DefaultClient = oldClient })
+
+	b, err := httpGet(context.Background(), "https://api.github.com/repos/me/repo/releases", 10)
+	if err != nil || string(b) != "ok" {
+		t.Fatalf("authenticated HTTP GET = %q, %v", b, err)
 	}
 }

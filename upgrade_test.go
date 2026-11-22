@@ -319,19 +319,9 @@ func TestManagedUpgradeHomebrew(t *testing.T) {
 		}
 		return ok("")
 	})
-	if updated, err := managedUpgrade(true); !updated || !errors.Is(err, errProcessExitForUpgrade) || !fx.called("gcse-revision service install") {
+	if updated, err := managedUpgrade(true); !updated || !errors.Is(err, errProcessExitForUpgrade) || fx.called("service install") {
 		t.Fatalf("restart: %v %v %v", updated, err, fx.Calls())
 	}
-	installFakeExec(t, func(c string) fakeResult {
-		switch {
-		case strings.HasPrefix(c, "brew outdated"):
-			return ok("gcse-revision")
-		case strings.HasPrefix(c, "gcse-revision service install"):
-			return fail("launchctl error")
-		}
-		return ok("")
-	})
-	errContains(t, func() error { _, err := managedUpgrade(true); return err }(), "install upgraded background service")
 	installFakeExec(t, func(c string) fakeResult {
 		if strings.HasPrefix(c, "brew upgrade") || strings.HasPrefix(c, "brew outdated") {
 			return fail("Error: no bottle")
@@ -339,15 +329,6 @@ func TestManagedUpgradeHomebrew(t *testing.T) {
 		return ok("")
 	})
 	errContains(t, func() error { _, err := managedUpgrade(false); return err }(), "package manager upgrade")
-
-	installFakeExec(t, func(c string) fakeResult {
-		if strings.HasPrefix(c, "brew outdated") {
-			return ok("gcse-revision")
-		}
-		return ok("")
-	})
-	setVar(t, &homebrewAppExecutables, []string{filepath.Join(t.TempDir(), "missing")})
-	errContains(t, func() error { _, err := managedUpgrade(true); return err }(), "Homebrew executable is unavailable")
 
 	setVar(t, &homebrewBinaries, []string{filepath.Join(t.TempDir(), "missing")})
 	setVar(t, &lookPath, func(string) (string, error) { return "", errors.New("not found") })
@@ -377,6 +358,18 @@ func TestManagedUpgradeScoop(t *testing.T) {
 	if _, err := managedUpgrade(true); !errors.Is(err, errProcessExitForUpgrade) {
 		t.Fatalf("scoop restart: %v", err)
 	}
+	installFakeExec(t, func(c string) fakeResult {
+		switch {
+		case strings.HasPrefix(c, "scoop which"):
+			return ok("C:/scoop/shims/gcse-revision.exe\n")
+		case strings.Contains(c, "service install"):
+			return fail("denied")
+		case strings.HasPrefix(c, "scoop status"):
+			return ok("Updates are available for: gcse-revision")
+		}
+		return ok("")
+	})
+	errContains(t, func() error { _, err := managedUpgrade(true); return err }(), "install upgraded background service")
 	installFakeExec(t, func(c string) fakeResult {
 		if strings.HasPrefix(c, "scoop which") {
 			return fail("not found")
@@ -469,12 +462,6 @@ func TestReconcileManagedService(t *testing.T) {
 		{"no version", func(string) fakeResult { return ok("") }, false, ""},
 		{"version fails", func(string) fakeResult { return fail("crash") }, false, "read installed package version"},
 		{"new version", func(string) fakeResult { return ok("gcse-revision v1.1.0") }, true, ""},
-		{"install fails", func(c string) fakeResult {
-			if strings.Contains(c, "service install") {
-				return fail("denied")
-			}
-			return ok("gcse-revision v1.1.0")
-		}, false, "replace background service"},
 	} {
 		t.Run(tc.name, func(t *testing.T) {
 			installFakeExec(t, tc.handler)
@@ -488,6 +475,32 @@ func TestReconcileManagedService(t *testing.T) {
 	if _, err := reconcileManagedService(); err == nil {
 		t.Fatal("missing package executable should fail")
 	}
+
+	scoopInstall(t)
+	installFakeExec(t, func(c string) fakeResult {
+		switch {
+		case strings.HasPrefix(c, "scoop which"):
+			return ok("C:/scoop/shims/gcse-revision.exe\n")
+		case strings.Contains(c, "service install"):
+			return ok("")
+		default:
+			return ok("gcse-revision v1.1.0")
+		}
+	})
+	if repaired, err := reconcileManagedService(); !repaired || err != nil {
+		t.Fatalf("Scoop reconciliation = %v, %v", repaired, err)
+	}
+	installFakeExec(t, func(c string) fakeResult {
+		switch {
+		case strings.HasPrefix(c, "scoop which"):
+			return ok("C:/scoop/shims/gcse-revision.exe\n")
+		case strings.Contains(c, "service install"):
+			return fail("denied")
+		default:
+			return ok("gcse-revision v1.1.0")
+		}
+	})
+	errContains(t, func() error { _, err := reconcileManagedService(); return err }(), "replace background service")
 }
 
 func TestUpgradeCommand(t *testing.T) {
@@ -583,15 +596,12 @@ func TestAutomaticUpgradeLoop(t *testing.T) {
 	automaticUpgradeLoop(context.Background(), options{})
 	waitFor(execed.Load)
 
-	// Package-managed: reconciliation repairs the service and ends the loop.
+	// Package-managed Homebrew: a mismatched installed binary causes the old
+	// process to exit so the package-manager service restarts the new one.
 	brewInstall(t)
 	var reconciled atomic.Bool
-	installFakeExec(t, func(c string) fakeResult {
-		if strings.Contains(c, "service install") {
-			reconciled.Store(true)
-		}
-		return ok("gcse-revision v9.0.0")
-	})
+	setVar(t, &exitProcess, func(int) { reconciled.Store(true) })
+	installFakeExec(t, func(string) fakeResult { return ok("gcse-revision v9.0.0") })
 	automaticUpgradeLoop(context.Background(), options{})
 	waitFor(reconciled.Load)
 
