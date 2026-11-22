@@ -122,7 +122,7 @@ func serviceCommand(args []string, opts options) error {
 }
 
 func installService(opts options) error {
-	if hostOS == "darwin" && homebrewServiceConfigured() {
+	if hostOS == "darwin" && usesHomebrewService() {
 		return restartServiceAt(opts.port)
 	}
 	exe, err := executable()
@@ -213,6 +213,9 @@ WantedBy=default.target
 func serviceConfigured() (bool, error) {
 	switch hostOS {
 	case "darwin":
+		if usesHomebrewService() {
+			return true, nil
+		}
 		home, err := realUserHomeDir()
 		if err != nil {
 			return false, err
@@ -245,7 +248,7 @@ func startService() error {
 	var cmd *exec.Cmd
 	switch hostOS {
 	case "darwin":
-		if homebrewServiceConfigured() {
+		if usesHomebrewService() {
 			brew, err := findHomebrew()
 			if err != nil {
 				return err
@@ -284,7 +287,7 @@ func stopService() error {
 	var cmd *exec.Cmd
 	switch hostOS {
 	case "darwin":
-		if homebrewServiceConfigured() {
+		if usesHomebrewService() {
 			brew, err := findHomebrew()
 			if err != nil {
 				return err
@@ -292,6 +295,17 @@ func stopService() error {
 			out, err := execCommand(brew, "services", "stop", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
 			if err != nil && !serviceNotFound(string(out)) {
 				return fmt.Errorf("stop Homebrew service: %s: %w", out, err)
+			}
+			legacy, legacyErr := execCommand("launchctl", "bootout", "gui/"+currentUserID()+"/"+serviceLabel()).CombinedOutput()
+			if legacyErr != nil && !serviceNotFound(string(legacy)) {
+				return fmt.Errorf("stop legacy launch agent: %s: %w", legacy, legacyErr)
+			}
+			home, err := realUserHomeDir()
+			if err != nil {
+				return err
+			}
+			if err := os.Remove(filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist")); err != nil && !errors.Is(err, os.ErrNotExist) {
+				return fmt.Errorf("remove legacy launch agent: %w", err)
 			}
 			return nil
 		}
@@ -383,6 +397,18 @@ func homebrewServiceConfigured() bool {
 	}
 	_, err = os.Stat(filepath.Join(home, "Library", "LaunchAgents", "sh.brew.gcse-revision.plist"))
 	return err == nil
+}
+
+func usesHomebrewService() bool {
+	if homebrewServiceConfigured() {
+		return true
+	}
+	exe, err := executable()
+	if err != nil || hostOS != "darwin" || !packageManagedPath(exe) {
+		return false
+	}
+	path := strings.ToLower(strings.ReplaceAll(filepath.ToSlash(exe), `\`, "/"))
+	return strings.Contains(path, "/cellar/") || strings.Contains(path, "/homebrew/")
 }
 
 func showServiceLogs() error {

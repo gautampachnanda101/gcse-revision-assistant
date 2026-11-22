@@ -156,6 +156,90 @@ func TestInstallServiceDarwinDelegatesToHomebrew(t *testing.T) {
 	}
 }
 
+func TestInstallServiceDarwinPackageDelegatesWithoutHomebrewPlist(t *testing.T) {
+	home, _ := serviceEnv(t, "darwin")
+	brew := fakeBinary(t, t.TempDir(), "brew")
+	exe := fakeBinary(t, filepath.Join(home, "Cellar", "gcse-revision", "0.7.16", "bin"), "gcse-revision")
+	withExecutable(t, exe, nil)
+	setVar(t, &homebrewBinaries, []string{brew})
+	port := unusedPort(t)
+	legacy := plistPath(home)
+	writeFile(t, legacy, "<plist/>")
+	fx := installFakeExec(t, func(c string) fakeResult {
+		switch {
+		case strings.HasPrefix(c, "brew services start"):
+			appOnPort(t, port)
+		case strings.HasPrefix(c, "launchctl list"):
+			return fail("Could not find service")
+		}
+		return ok("")
+	})
+
+	if err := installService(options{port: port}); err != nil {
+		t.Fatal(err)
+	}
+	if !fx.called("brew services stop gautampachnanda101/tap/gcse-revision") ||
+		!fx.called("launchctl bootout gui/501/"+serviceLabel()) ||
+		!fx.called("brew services start gautampachnanda101/tap/gcse-revision") {
+		t.Fatalf("package-managed install did not migrate to Homebrew service: %v", fx.Calls())
+	}
+	if _, err := os.Stat(legacy); !os.IsNotExist(err) {
+		t.Fatalf("legacy plist should be removed during Homebrew migration: %v", err)
+	}
+}
+
+func TestStopServiceHomebrewMigrationFailures(t *testing.T) {
+	setup := func(t *testing.T) string {
+		home, _ := serviceEnv(t, "darwin")
+		exe := fakeBinary(t, filepath.Join(home, "Cellar", "gcse-revision", "0.7.16", "bin"), "gcse-revision")
+		withExecutable(t, exe, nil)
+		brew := fakeBinary(t, t.TempDir(), "brew")
+		setVar(t, &homebrewBinaries, []string{brew})
+		return home
+	}
+
+	t.Run("legacy stop", func(t *testing.T) {
+		setup(t)
+		installFakeExec(t, func(c string) fakeResult {
+			if strings.HasPrefix(c, "launchctl bootout") {
+				return fail("permission denied")
+			}
+			return ok("")
+		})
+		errContains(t, stopService(), "stop legacy launch agent")
+	})
+
+	t.Run("home lookup", func(t *testing.T) {
+		setup(t)
+		setVar(t, &currentUser, func() (*user.User, error) { return nil, errors.New("no user db") })
+		t.Setenv("HOME", "")
+		installFakeExec(t, func(c string) fakeResult {
+			if strings.HasPrefix(c, "launchctl bootout") {
+				return fail("Could not find service")
+			}
+			return ok("")
+		})
+		if err := stopService(); err == nil {
+			t.Fatal("missing user home should fail")
+		}
+	})
+
+	t.Run("remove plist", func(t *testing.T) {
+		home := setup(t)
+		legacy := plistPath(home)
+		if err := os.MkdirAll(filepath.Join(legacy, "child"), 0o755); err != nil {
+			t.Fatal(err)
+		}
+		installFakeExec(t, func(c string) fakeResult {
+			if strings.HasPrefix(c, "launchctl bootout") {
+				return fail("Could not find service")
+			}
+			return ok("")
+		})
+		errContains(t, stopService(), "remove legacy launch agent")
+	})
+}
+
 func TestInstallServiceDarwinFailures(t *testing.T) {
 	home, _ := serviceEnv(t, "darwin")
 	installFakeExec(t, func(c string) fakeResult {
@@ -264,6 +348,12 @@ func TestServiceConfigured(t *testing.T) {
 	writeFile(t, plistPath(home), "<plist/>")
 	if got, _ := serviceConfigured(); !got {
 		t.Fatal("darwin plist not detected")
+	}
+	_ = os.Remove(plistPath(home))
+	exe := fakeBinary(t, filepath.Join(home, "Cellar", "gcse-revision", "0.7.16", "bin"), "gcse-revision")
+	withExecutable(t, exe, nil)
+	if got, err := serviceConfigured(); !got || err != nil {
+		t.Fatalf("darwin package-managed service = %v, %v", got, err)
 	}
 
 	withOS(t, "linux", "amd64")
