@@ -20,6 +20,7 @@ import (
 	"io"
 	"io/fs"
 	"net/http"
+	"net/url"
 	"os"
 	"path"
 	"path/filepath"
@@ -273,6 +274,9 @@ func httpGet(ctx context.Context, url string, limit int64) ([]byte, error) {
 		return nil, err
 	}
 	req.Header.Set("User-Agent", appName+"/"+version)
+	if token := githubTokenForURL(url); token != "" {
+		req.Header.Set("Authorization", "Bearer "+token)
+	}
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return nil, err
@@ -289,6 +293,23 @@ func httpGet(ctx context.Context, url string, limit int64) ([]byte, error) {
 		return nil, fmt.Errorf("GET %s: response exceeds %d byte limit", url, limit)
 	}
 	return b, nil
+}
+
+func githubTokenForURL(raw string) string {
+	u, err := url.Parse(raw)
+	if err != nil || u.Scheme != "https" {
+		return ""
+	}
+	host := strings.ToLower(u.Hostname())
+	if host != "github.com" && host != "api.github.com" && !strings.HasSuffix(host, ".github.com") {
+		return ""
+	}
+	for _, key := range []string{"GH_TOKEN", "GITHUB_TOKEN", "GCSE_REVISION_GITHUB_TOKEN"} {
+		if token := strings.TrimSpace(os.Getenv(key)); token != "" {
+			return token
+		}
+	}
+	return ""
 }
 
 func writeFileAtomic(dst string, b []byte) error {

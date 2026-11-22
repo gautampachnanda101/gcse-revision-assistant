@@ -48,6 +48,7 @@ func automaticUpgradeLoop(ctx context.Context, opts options) {
 				if repaired, repairErr := reconcileManagedService(); repairErr != nil {
 					logf("Packaged service reconciliation skipped (%v).", repairErr)
 				} else if repaired {
+					exitProcess(0)
 					return
 				}
 				updated, err := selfUpgrade(ctx, true)
@@ -85,6 +86,14 @@ func reconcileManagedService() (bool, error) {
 	}
 	if installedVersion == "" || installedVersion == version {
 		return false, nil
+	}
+	exePath, err := executable()
+	if err != nil {
+		return false, err
+	}
+	lower := strings.ToLower(strings.ReplaceAll(filepath.ToSlash(exePath), `\`, "/"))
+	if strings.Contains(lower, "/cellar/") || strings.Contains(lower, "/homebrew/") {
+		return true, nil
 	}
 	cmd := execCommand(current, "service", "install")
 	if out, err = cmd.CombinedOutput(); err != nil {
@@ -422,6 +431,9 @@ func managedUpgrade(restart bool) (bool, error) {
 		return false, fmt.Errorf("package manager upgrade: %s: %w", strings.TrimSpace(string(out)), err)
 	}
 	if restart {
+		if strings.Contains(lower, "/cellar/") || strings.Contains(lower, "/homebrew/") {
+			return true, errProcessExitForUpgrade
+		}
 		current, locateErr := installedPackageExecutable()
 		if locateErr != nil {
 			return false, locateErr
