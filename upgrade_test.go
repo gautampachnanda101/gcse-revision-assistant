@@ -322,6 +322,19 @@ func TestManagedUpgradeHomebrew(t *testing.T) {
 	if updated, err := managedUpgrade(true); !updated || !errors.Is(err, errProcessExitForUpgrade) || fx.called("service install") {
 		t.Fatalf("restart: %v %v %v", updated, err, fx.Calls())
 	}
+	if !fx.called("brew services start gautampachnanda101/tap/gcse-revision") {
+		t.Fatalf("Homebrew service was not reloaded: %v", fx.Calls())
+	}
+	installFakeExec(t, func(c string) fakeResult {
+		switch {
+		case strings.HasPrefix(c, "brew outdated"):
+			return ok("gcse-revision")
+		case strings.HasPrefix(c, "brew services start"):
+			return fail("launchctl unavailable")
+		}
+		return ok("")
+	})
+	errContains(t, func() error { _, err := managedUpgrade(true); return err }(), "start Homebrew service after upgrade")
 	installFakeExec(t, func(c string) fakeResult {
 		if strings.HasPrefix(c, "brew upgrade") || strings.HasPrefix(c, "brew outdated") {
 			return fail("Error: no bottle")
@@ -447,6 +460,10 @@ func TestInstalledPackageExecutable(t *testing.T) {
 
 func TestReconcileManagedService(t *testing.T) {
 	setVar(t, &version, "v1.0.0")
+	withExecutable(t, "", errors.New("no executable"))
+	if _, err := reconcileManagedService(); err == nil {
+		t.Fatal("missing executable should fail")
+	}
 	standaloneExe(t)
 	if repaired, err := reconcileManagedService(); repaired || err != nil {
 		t.Fatalf("standalone: %v %v", repaired, err)
@@ -471,6 +488,12 @@ func TestReconcileManagedService(t *testing.T) {
 			}
 		})
 	}
+	setVar(t, &homebrewBinaries, []string{})
+	setVar(t, &lookPath, func(string) (string, error) { return "", errors.New("not found") })
+	installFakeExec(t, func(string) fakeResult { return ok("gcse-revision v1.1.0") })
+	errContains(t, func() error { _, err := reconcileManagedService(); return err }(), "brew command is unavailable")
+
+	brewInstall(t)
 	setVar(t, &homebrewAppExecutables, nil)
 	if _, err := reconcileManagedService(); err == nil {
 		t.Fatal("missing package executable should fail")
@@ -601,9 +624,12 @@ func TestAutomaticUpgradeLoop(t *testing.T) {
 	brewInstall(t)
 	var reconciled atomic.Bool
 	setVar(t, &exitProcess, func(int) { reconciled.Store(true) })
-	installFakeExec(t, func(string) fakeResult { return ok("gcse-revision v9.0.0") })
+	fx := installFakeExec(t, func(string) fakeResult { return ok("gcse-revision v9.0.0") })
 	automaticUpgradeLoop(context.Background(), options{})
 	waitFor(reconciled.Load)
+	if !fx.called("brew services start gautampachnanda101/tap/gcse-revision") {
+		t.Fatalf("reconciliation did not reload Homebrew service: %v", fx.Calls())
+	}
 
 	// Package-managed: reconciliation fails, then the package-manager upgrade asks the process to exit.
 	var exited atomic.Bool
