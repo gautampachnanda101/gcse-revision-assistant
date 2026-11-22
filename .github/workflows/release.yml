@@ -222,15 +222,54 @@ jobs:
       - name: Smoke test background service (macOS)
         if: runner.os == 'macOS'
         run: |
+          set -euo pipefail
           "$RUNNER_TEMP/bin/gcse-revision" service install
+          healthy=0
           for _ in $(seq 1 30); do
-            curl -fsS http://gcse-revision.localhost:8765/api/info >/dev/null && break
+            if info=$(curl -fsS http://127.0.0.1:8765/api/info 2>/dev/null); then
+              python3 -c 'import json,sys,os; d=json.load(sys.stdin); assert d["app"]=="gcse-revision"; assert d["version"]==os.environ["VERSION"]' <<<"$info"
+              healthy=1
+              break
+            fi
             sleep 1
           done
+          [ "$healthy" -eq 1 ]
           "$RUNNER_TEMP/bin/gcse-revision" service status | grep -F running
           "$RUNNER_TEMP/bin/gcse-revision" service logs
-          curl -fsS http://gcse-revision.localhost:8765/ | grep -F 'GCSE'
+          curl -fsS http://127.0.0.1:8765/ | grep -F 'Question bank'
+          curl -fsS http://127.0.0.1:8765/ | grep -F "id=\"app-version\""
+          "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --no-sandbox --disable-gpu --dump-dom http://127.0.0.1:8765/ >"$RUNNER_TEMP/ui-dom.html"
+          grep -F 'Question bank' "$RUNNER_TEMP/ui-dom.html"
+          grep -F "id=\"app-version\"" "$RUNNER_TEMP/ui-dom.html"
           "$RUNNER_TEMP/bin/gcse-revision" service uninstall
+      - name: Smoke test server UI (Linux)
+        if: runner.os == 'Linux'
+        env:
+          GCSE_REVISION_BIN_DIR: ${{ runner.temp }}/bin
+        run: |
+          set -euo pipefail
+          "$GCSE_REVISION_BIN_DIR/gcse-revision" serve --offline --no-ai --no-browser --port 8765 >"$RUNNER_TEMP/gcse.log" 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          healthy=0
+          for _ in $(seq 1 30); do
+            if info=$(curl -fsS http://127.0.0.1:8765/api/info 2>/dev/null); then
+              python3 -c 'import json,sys,os; d=json.load(sys.stdin); assert d["app"]=="gcse-revision"; assert d["version"]==os.environ["VERSION"]' <<<"$info"
+              healthy=1
+              break
+            fi
+            sleep 1
+          done
+          [ "$healthy" -eq 1 ]
+          curl -fsS http://127.0.0.1:8765/ | grep -F 'Question bank'
+          curl -fsS http://127.0.0.1:8765/ | grep -F "id=\"app-version\""
+          browser=$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser)
+          "$browser" --headless --no-sandbox --disable-gpu --dump-dom http://127.0.0.1:8765/ >"$RUNNER_TEMP/ui-dom.html"
+          grep -F 'Question bank' "$RUNNER_TEMP/ui-dom.html"
+          grep -F "id=\"app-version\"" "$RUNNER_TEMP/ui-dom.html"
+          kill "$pid"
+          wait "$pid" || true
+          trap - EXIT
       - name: Install (Windows)
         if: runner.os == 'Windows'
         shell: pwsh
@@ -252,13 +291,24 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw 'service install failed' }
           $healthy = $false
           for ($i = 0; $i -lt 30; $i++) {
-            try { (Invoke-WebRequest -UseBasicParsing 'http://127.0.0.1:8765/api/info').Content | Out-Null; $healthy = $true; break }
+            try {
+              $info = (Invoke-RestMethod 'http://127.0.0.1:8765/api/info')
+              if ($info.app -ne 'gcse-revision' -or $info.version -ne $env:VERSION) { throw "wrong API identity: $($info | ConvertTo-Json -Compress)" }
+              $healthy = $true
+              break
+            }
             catch { Start-Sleep -Seconds 1 }
           }
           if (-not $healthy) { throw 'service health check failed' }
           $status = & $exe service status
           if ($status -notmatch 'running') { throw "service did not start: $status" }
           & $exe service logs
+          $html = (Invoke-WebRequest -UseBasicParsing 'http://127.0.0.1:8765/').Content
+          if ($html -notmatch 'Question bank' -or $html -notmatch 'id="app-version"') { throw 'UI content check failed' }
+          $browser = if (Test-Path "$env:PROGRAMFILES\Microsoft\Edge\Application\msedge.exe") { "$env:PROGRAMFILES\Microsoft\Edge\Application\msedge.exe" } else { "${env:ProgramFiles(x86)}\Microsoft\Edge\Application\msedge.exe" }
+          if (-not (Test-Path $browser)) { throw "headless browser not found" }
+          $dom = & $browser --headless --no-sandbox --disable-gpu --dump-dom http://127.0.0.1:8765/
+          if ($dom -notmatch 'Question bank' -or $dom -notmatch 'id="app-version"') { throw 'browser UI content check failed' }
           & $exe service uninstall
           Set-ExecutionPolicy Bypass -Scope Process -Force
           Invoke-RestMethod 'https://get.scoop.sh' | Invoke-Expression
@@ -267,10 +317,39 @@ jobs:
           $scoopExe = Join-Path (scoop prefix gcse-revision) 'gcse-revision.exe'
           $version = & $scoopExe version
           if ($version -notmatch [regex]::Escape($env:VERSION)) { throw "wrong Scoop version: $version" }
+          $proc = Start-Process -PassThru -FilePath $scoopExe -ArgumentList @('serve','--offline','--no-ai','--no-browser','--port','8766')
+          $healthy = $false
+          for ($i = 0; $i -lt 30; $i++) {
+            try {
+              $info = (Invoke-RestMethod 'http://127.0.0.1:8766/api/info')
+              if ($info.version -eq $env:VERSION) { $healthy = $true; break }
+            } catch { Start-Sleep -Seconds 1 }
+          }
+          Stop-Process -Id $proc.Id -Force -ErrorAction SilentlyContinue
+          if (-not $healthy) { throw 'Scoop-installed UI health check failed' }
       - name: Smoke test Homebrew formula
         if: runner.os == 'macOS'
         run: |
+          set -euo pipefail
           brew update
           formula="${TAP_REPO/homebrew-tap/tap}/gcse-revision"
           brew install --formula "$formula"
           brew test "$formula"
+          brew services start "$formula"
+          healthy=0
+          for _ in $(seq 1 30); do
+            if info=$(curl -fsS http://127.0.0.1:8765/api/info 2>/dev/null); then
+              python3 -c 'import json,sys,os; d=json.load(sys.stdin); assert d["app"]=="gcse-revision"; assert d["version"]==os.environ["VERSION"]' <<<"$info"
+              healthy=1
+              break
+            fi
+            sleep 1
+          done
+          [ "$healthy" -eq 1 ]
+          curl -fsS http://127.0.0.1:8765/ | grep -F 'Question bank'
+          curl -fsS http://127.0.0.1:8765/ | grep -F "id=\"app-version\""
+          "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --no-sandbox --disable-gpu --dump-dom http://127.0.0.1:8765/ >"$RUNNER_TEMP/brew-ui-dom.html"
+          grep -F 'Question bank' "$RUNNER_TEMP/brew-ui-dom.html"
+          grep -F "id=\"app-version\"" "$RUNNER_TEMP/brew-ui-dom.html"
+          "$(brew --prefix gcse-revision)/bin/gcse-revision" doctor
+          brew services stop "$formula"
