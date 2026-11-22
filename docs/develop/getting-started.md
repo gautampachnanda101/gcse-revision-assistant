@@ -19,41 +19,17 @@ Open <http://gcse-revision.localhost:18765/>.
 You can also open `app.html` straight from the checkout, without the program. The AI helper then needs a
 server set up by hand in the app's **Grown-ups** settings.
 
-The flags keep your copy separate from any installed version:
-
-- `--port 18765` avoids the installed app on port 8765.
-- `--offline` shows only the subjects in your checkout.
-- `--no-ai` skips the AI set-up.
-- `--no-auto-update` stops the program replacing itself.
+These options keep your copy apart from an installed one: another port, only the subjects in your checkout,
+no AI set-up and no self-upgrade. See [Commands](../reference/cli.md#options).
 
 ## Make a change
 
-Subjects live in `content/<subject>/`. Never edit `data/` or `subjects.js`; they're generated.
-
-For example, to improve a question in the AQA Sikhism pack, edit
-`content/aqa-rs-a-sikhism/modules/1.1.json`, then rebuild the pack:
-
-    GOWORK=off go run . build content/aqa-rs-a-sikhism
-
-It prints:
-
-    Built data/aqa-rs-a-sikhism.js: 110 questions across 11 modules.
-    Wrote subjects.js with 16 subject pack(s).
-
-Reload the page to check your change.
-
-See [Subjects](subjects.md) for the full rules.
+To change questions, follow [Subjects](subjects.md). To change code, follow [Testing](testing.md). Reload
+the page to see your change.
 
 ## Run the checks
 
-Run these before every pull request. CI runs the same checks.
-
-    gofmt -l .                  # should print nothing
-    GOWORK=off go vet ./...
-    GOWORK=off go test ./...    # coverage must stay at 100%
-    GOWORK=off go run . validate
-
-If you changed Go code, read [Testing](testing.md).
+Run the [checks in Testing](testing.md#before-you-push) before every pull request. CI runs the same ones.
 
 ## Open a pull request
 
@@ -62,6 +38,5 @@ If you changed Go code, read [Testing](testing.md).
     git commit -m "fix: clarify the exam tip for the Mool Mantra question"
     gh pr create --fill
 
-Commit messages follow [Conventional Commits](https://www.conventionalcommits.org). The prefix decides the
-next version number (see [Releasing](releasing.md)). Never use `git add -A`, because it can pick up files
+The commit prefix (`fix:`, `feat:` …) decides the next version number. See [Releasing](releasing.md#the-program). Never use `git add -A`, because it can pick up files
 from `private/`.

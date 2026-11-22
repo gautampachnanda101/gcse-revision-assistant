@@ -199,6 +199,8 @@ func (a *aiManager) ensureServer(ctx context.Context) error {
 	logPath := filepath.Join(dataDir(), "ollama.log")
 	if f, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o644); err == nil {
 		cmd.Stdout, cmd.Stderr = f, f
+		// The child gets its own copy of the handle; ours must not stay open (Windows locks open files).
+		defer f.Close()
 	}
 	if err := cmd.Start(); err != nil {
 		return fmt.Errorf("couldn't start %s: %w", bin, err)
@@ -475,13 +477,22 @@ func untar(r io.Reader, dest string) error {
 				return err
 			}
 		case tar.TypeSymlink:
-			if filepath.IsAbs(h.Linkname) || strings.Contains(h.Linkname, "..") {
+			if unsafeLinkTarget(h.Linkname) {
 				continue
 			}
 			_ = os.MkdirAll(filepath.Dir(p), 0o755)
 			_ = os.Symlink(h.Linkname, p)
 		}
 	}
+}
+
+// unsafeLinkTarget reports whether a symlink target could point outside the extraction folder. Rooted paths
+// such as "/etc/passwd" or "\evil" aren't "absolute" to filepath.IsAbs on Windows, and drive letters ("C:")
+// aren't on Unix, so both are rejected explicitly on every OS. Real archives never need either.
+func unsafeLinkTarget(l string) bool {
+	hasDrive := len(l) >= 2 && l[1] == ':'
+	return filepath.IsAbs(l) || strings.HasPrefix(l, "/") || strings.HasPrefix(l, `\`) || hasDrive ||
+		strings.Contains(l, "..")
 }
 
 func unzip(r io.ReaderAt, size int64, dest string) error {

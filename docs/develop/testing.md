@@ -69,10 +69,15 @@ It returns `ok(output)`, `fail(output)` or `fakeResult{stdout, stderr, code}`.
 
 ## Before you push
 
+Run these before every pull request. CI runs the same checks.
+
     gofmt -l .
     GOWORK=off go vet ./... && GOWORK=off go vet -tags e2e ./...
     GOOS=windows GOWORK=off go vet ./...
     GOWORK=off go test -count=1 ./...
+    GOWORK=off go run . validate
+
+`gofmt -l .` must print nothing.
 
 Don't use Go features newer than the version in `go.mod`. For example, use the `chdir` test helper instead of
 `t.Chdir`.

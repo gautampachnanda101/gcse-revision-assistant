@@ -189,6 +189,7 @@ func TestLatestReleaseAndDownload(t *testing.T) {
 
 func TestSelfUpgradeStandalone(t *testing.T) {
 	isolateHome(t)
+	withOS(t, "linux", "amd64")
 	setVar(t, &version, "v1.0.0")
 	exe := standaloneExe(t)
 	rs := newReleaseServer(t, "v1.1.0", []byte("new binary"))
@@ -530,6 +531,7 @@ func TestUpgradeCommand(t *testing.T) {
 
 func TestAutomaticUpgradeLoop(t *testing.T) {
 	isolateHome(t)
+	withOS(t, "linux", "amd64")
 	setVar(t, &upgradeFirstCheck, time.Millisecond)
 	setVar(t, &upgradeInterval, time.Hour)
 	setVar(t, &managedUpgradePoll, time.Hour)

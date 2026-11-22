@@ -54,8 +54,8 @@ How marks are awarded, by paper and then by mark value or command word.
 
 ### `meta`
 
-`provenance` should say where the content came from. `idPrefix` exists only in older packs: never add or
-change it.
+`provenance` says where the content came from. `idPrefix` exists only in older packs, to keep their question
+ids unchanged.
 
 ### `markingSchema`
 
@@ -100,8 +100,8 @@ mark scheme.
 ## Question ids
 
 The build gives every question an id from its position, for example `aqa-rs-a-sikhism-paper1-1-1-0`: the
-subject, then paper 1, module 1.1 and question 0. Students' progress is stored against these ids. That's why
-questions must not be reordered.
+subject, then paper 1, module 1.1 and question 0. Which edits are safe is explained in
+[Protect students' progress](../develop/subjects.md#protect-students-progress).
 
 ## Limits for imported packs
 

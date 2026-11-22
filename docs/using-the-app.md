@@ -51,10 +51,7 @@ Progress is saved in the browser on that computer. To move it to another compute
 
 The AI helper reads an answer and suggests how to improve it. You don't need it: model answers always work.
 
-- It runs on your own computer, so answers stay private.
-- An adult can connect a cloud AI service instead, in the **Grown-ups** settings. Answers are then sent to
-  that service.
-- AI feedback can be wrong. Treat any mark it gives as a rough guide, not an official mark.
+AI feedback can be wrong. Treat any mark it gives as a rough guide, not an official mark.
 
 The app tries these in order:
 
@@ -63,7 +60,8 @@ The app tries these in order:
 2. A local AI program (Ollama). If it isn't installed, the app can download it, with no administrator
    password. It then downloads a model sized to the computer's memory: `qwen3:1.7b` under 7 GB,
    `llama3.2` from 7 to 13 GB, and `gemma3:4b` from 14 GB. A suitable model you already have is reused.
-3. A cloud service, but only if an adult has set one up.
+3. A cloud service, but only if an adult has set one up in the **Grown-ups** settings. Answers are then
+   sent to that service.
 
 On Windows, a built-in option appears only if a supported local AI bridge is installed.
 
@@ -75,17 +73,11 @@ pack from your computer's settings.
 
 ## Privacy
 
-- Only your own computer can open the app.
-- It goes online only to download new subjects and app updates.
-- There's no account, no advertising and no tracking.
-- The app isn't connected with AQA, Edexcel, OCR or any other exam board.
+The app keeps students' work on the computer. See [Security and privacy](how-it-works/security-and-privacy.md).
 
 ## If something goes wrong
 
-- **The page won't open**: Run `gcse-revision service restart`, wait 10 seconds and reload.
-- **A new subject is missing**: Run `gcse-revision service restart`. Subjects update when the app starts.
-- **The AI helper isn't ready**: Run `gcse-revision setup-ai`.
-- **Still stuck**: Run `gcse-revision doctor` and include the output when you [ask for help](https://github.com/gautampachnanda101/gcse-revision-assistant/issues).
+See [Troubleshooting](troubleshooting.md).
 
 ## Uninstall
 

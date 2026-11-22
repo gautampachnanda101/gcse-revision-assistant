@@ -291,6 +291,7 @@ func TestNetworkTruncationFailures(t *testing.T) {
 
 func TestUpgradeInstallFailures(t *testing.T) {
 	isolateHome(t)
+	withOS(t, "linux", "amd64")
 	setVar(t, &version, "v1.0.0")
 	exe := standaloneExe(t)
 	newReleaseServer(t, "v1.1.0", []byte("new"))

@@ -36,9 +36,9 @@ A brand-new offline install therefore still has every built-in subject.
 
 ## How subjects are published
 
-`subjects.js` lists every pack with its SHA-256 checksum. CI signs it with a private key that only GitHub
-Actions has. The app has the matching public key built in. It accepts downloaded subjects only if the
-signature is valid and every pack matches its checksum. The steps are in [Releasing](../develop/releasing.md#subjects).
+CI signs the subject list, and the app checks the signature before using anything it downloads. See
+[Downloaded subjects can't be tampered with](security-and-privacy.md#downloaded-subjects-cant-be-tampered-with)
+and the publishing steps in [Releasing](../develop/releasing.md#subjects).
 
 ## Running in the background
 
@@ -54,8 +54,7 @@ If Homebrew installed the app, the program leaves the service to Homebrew and do
 - **Standard install:** the program downloads the new version from GitHub, checks its checksum, replaces
   itself and restarts.
 - **Homebrew or Scoop:** the program asks the package manager to upgrade it.
-- **Never:** for development builds, with `--offline` or `--no-auto-update`, or when
-  `GCSE_REVISION_AUTO_UPDATE=0` is set.
+- **Development builds** never upgrade. To turn upgrades off, see [Configuration](../reference/configuration.md).
 
 ## Source files
 

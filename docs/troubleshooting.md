@@ -37,8 +37,7 @@ To stop the service by hand:
 - **Linux:** `systemctl --user stop gcse-revision.service`
 - **Windows:** `schtasks /End /TN GCSERevision`
 
-Put flags such as `--port` before `service`. In `gcse-revision service install --port 8777` the port is
-ignored.
+Options such as `--port` must come before `service`. See [Commands](reference/cli.md#options).
 
 ## The version doesn't match after an upgrade
 

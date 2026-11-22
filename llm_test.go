@@ -631,6 +631,19 @@ func TestDownload(t *testing.T) {
 	}
 }
 
+func TestUnsafeLinkTarget(t *testing.T) {
+	for _, l := range []string{"/etc/passwd", `\Windows\System32`, `C:\x`, "C:x", "../up", `a\..\..\b`} {
+		if !unsafeLinkTarget(l) {
+			t.Errorf("%q must be treated as unsafe", l)
+		}
+	}
+	for _, l := range []string{"libfoo.so", "bin/ollama", "lib/libggml.dylib"} {
+		if unsafeLinkTarget(l) {
+			t.Errorf("%q is a safe relative target", l)
+		}
+	}
+}
+
 func TestArchiveExtractionSafety(t *testing.T) {
 	dest := t.TempDir()
 	if _, err := safeJoin(dest, "../../etc/passwd"); err == nil {

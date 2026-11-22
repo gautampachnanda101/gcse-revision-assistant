@@ -7,7 +7,8 @@ The app is used by school students, so it's private by default. Families don't h
 - The app only accepts connections from the same computer.
 - Progress is stored in the browser, not on a server.
 - There are no accounts, no analytics and no adverts.
-- The AI helper runs locally unless an adult connects a cloud service.
+- The AI helper runs locally unless an adult connects a cloud service (see
+  [The AI helper](../using-the-app.md#the-ai-helper)).
 - Speaking practice is recorded in the browser tab only. The browser's speech-to-text may use an online
   service, so students are asked to check the transcript before AI feedback.
 
@@ -47,8 +48,8 @@ You can check this on a running copy. Both commands print `403`:
 
 ## Private material stays private
 
-- Imported packs are stored only on that computer, and are never uploaded or published.
-- The `private/` folder is excluded from Git, CI and every release.
+Private packs stay on one computer, and `private/` is excluded from Git, CI and every release. See
+[Private material](../develop/subjects.md#private-material).
 
 ## Known weaknesses
 
