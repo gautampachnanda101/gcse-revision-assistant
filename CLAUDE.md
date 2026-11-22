@@ -1,8 +1,9 @@
-# CLAUDE.md — entry point
+# Agent entry point
 
-Read [AGENTS.md](AGENTS.md) before editing. It is the authoritative,
-tool-agnostic repository guide and includes Definition of Done, Hard Stops,
-release/service invariants, privacy rules and evidence requirements.
+Read [AGENTS.md](AGENTS.md) before editing. It is the authoritative repository
+guide for agent rules, Definition of Done, Hard Stops, release/service
+invariants, privacy rules and evidence requirements. Runtime behavior is
+defined by the checked-in implementation and tests, not by this file.
 
 Order of precedence:
 

@@ -1,7 +1,10 @@
 # AGENTS.md — Working in gcse-revision-assistant
 
 These instructions apply to every coding agent and every tool. They are not
-end-user documentation.
+end-user documentation. `AGENTS.md` is the source of truth for agent rules
+and workflow. The implementation in the checked-in code, schema, generated
+packs and tests is the source of truth for runtime behavior; if documentation
+and code disagree, do not guess—verify the code and update stale documentation.
 
 ## 1. Ground every report in evidence
 
@@ -66,7 +69,7 @@ Pause and get explicit approval before:
   copyright checks;
 - treating a third-party archive or remembered exam-board rule as authoritative
   without an official source and provenance note;
-- calling Windows Copilot, Apple Intelligence, or another vendor API supported
+- calling the consumer Windows assistant, Apple Intelligence, or another vendor API as supported
   without a verified documented integration.
 
 ## 4. Repository map
@@ -130,8 +133,6 @@ Pause and get explicit approval before:
 
 - Never stage `private/`, temporary scripts, caches or logs.
 - Use focused, conventional commits whose subject states why.
-- Do not add Copilot/GitHub Copilot as an author or co-author. This is an
-  explicit repository and user preference.
 - Before force-pushing or recreating tags, report exactly which refs/releases
   will change and wait for approval.
 - After a push, verify CI on the exact pushed SHA; after release, verify package
