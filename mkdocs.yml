@@ -1,0 +1,42 @@
+# Backstage TechDocs configuration.
+# Preview locally with the Backstage reader:  npx @techdocs/cli serve
+#
+# Pages use only core Markdown (indented code, lists, images), so they read the same on GitHub, in Backstage,
+# in MkDocs and in any browser Markdown viewer. Diagrams are SVG images in docs/diagrams, generated from the
+# Mermaid sources in docs/diagrams/src by scripts/render-diagrams.sh. docs_test.go enforces these rules.
+site_name: GCSE Revision
+site_description: How the GCSE Revision app works, how to run it, and how to work on it.
+repo_url: https://github.com/gautampachnanda101/gcse-revision-assistant
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Using the app: using-the-app.md
+  - Developing:
+      - Getting started: develop/getting-started.md
+      - Subjects: develop/subjects.md
+      - Testing: develop/testing.md
+      - Releasing: develop/releasing.md
+  - Troubleshooting: troubleshooting.md
+  - How it works:
+      - Architecture: how-it-works/architecture.md
+      - Security and privacy: how-it-works/security-and-privacy.md
+      - Decisions: how-it-works/decisions.md
+  - Reference:
+      - Commands: reference/cli.md
+      - Web API: reference/http-api.md
+      - Configuration: reference/configuration.md
+      - Pack format: reference/pack-format.md
+
+not_in_nav: |
+  /adrs/*.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      linenums: false

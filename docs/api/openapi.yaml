@@ -1,0 +1,190 @@
+openapi: 3.0.3
+info:
+  title: gcse-revision local HTTP API
+  version: "1"
+  description: >-
+    Same-origin API served by the gcse-revision binary on 127.0.0.1 for its embedded UI. Requests must use Host
+    127.0.0.1:<port>, localhost:<port> or gcse-revision.localhost:<port>; state-changing requests with an Origin
+    header must come from that host; Sec-Fetch-Site cross-site is rejected. See docs/reference/http-api.md.
+servers:
+  - url: http://gcse-revision.localhost:8765
+paths:
+  /api/info:
+    get:
+      summary: Identify the running app
+      responses:
+        "200":
+          description: App name and version
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Info"}
+  /api/llm/status:
+    get:
+      summary: AI helper status
+      responses:
+        "200":
+          description: Current status
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/AIStatus"}
+  /api/llm/setup:
+    post:
+      summary: Start (or restart) AI helper set-up in the background
+      responses:
+        "200":
+          description: Status at the moment set-up was requested
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/AIStatus"}
+        "405": {description: Method not allowed}
+  /api/llm/builtin:
+    get:
+      summary: Built-in Apple Intelligence availability
+      responses:
+        "200":
+          description: Availability
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  available: {type: boolean}
+                  provider: {type: string, description: "\"Apple Intelligence\" or the reason it is unavailable"}
+                  kind: {type: string, enum: [apple-foundation-models]}
+  /llm/builtin/chat/completions:
+    post:
+      summary: Chat through the Apple Foundation Models bridge
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                messages:
+                  type: array
+                  items: {$ref: "#/components/schemas/ChatMessage"}
+      responses:
+        "200":
+          description: Assistant reply
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  choices:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        message: {$ref: "#/components/schemas/ChatMessage"}
+        "400": {description: Invalid JSON}
+        "405": {description: Method not allowed}
+        "503":
+          description: Built-in AI unavailable or failed
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+  /llm/{path}:
+    get:
+      summary: Reverse proxy to the local Ollama server (prefix /llm stripped)
+      parameters:
+        - {name: path, in: path, required: true, schema: {type: string}}
+      responses:
+        "200": {description: Ollama response (streamed)}
+        "502": {description: AI helper not running yet}
+    post:
+      summary: Reverse proxy to the local Ollama server (prefix /llm stripped)
+      parameters:
+        - {name: path, in: path, required: true, schema: {type: string}}
+      responses:
+        "200": {description: Ollama response (streamed)}
+        "502": {description: AI helper not running yet}
+  /api/import:
+    post:
+      summary: Import a private pack (bundle JSON, built data pack or zip; max 32 MiB)
+      requestBody:
+        required: true
+        content:
+          application/octet-stream:
+            schema: {type: string, format: binary}
+      responses:
+        "200":
+          description: Installed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id: {type: string}
+                  title: {type: string}
+                  questions: {type: integer}
+                  modules: {type: integer}
+        "400":
+          description: Invalid pack
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "405": {description: Method not allowed}
+  /subjects.js:
+    get:
+      summary: Effective subject manifest (window.REVISION_MANIFEST={…};)
+      responses:
+        "200":
+          description: JavaScript manifest
+          content:
+            text/javascript: {schema: {type: string}}
+  /data/{file}:
+    get:
+      summary: A subject pack (data/<name>.js or data/private/<name>.js)
+      parameters:
+        - {name: file, in: path, required: true, schema: {type: string, pattern: "^[A-Za-z0-9_-]+\\.js$"}}
+      responses:
+        "200":
+          description: Pack JavaScript
+          content:
+            text/javascript: {schema: {type: string}}
+        "404": {description: Unknown pack}
+  /audio/{packId}/{file}:
+    get:
+      summary: A recording from an imported pack
+      parameters:
+        - {name: packId, in: path, required: true, schema: {type: string, pattern: "^[A-Za-z0-9_-]+$"}}
+        - {name: file, in: path, required: true, schema: {type: string, pattern: "^[A-Za-z0-9][A-Za-z0-9._-]*\\.(mp3|ogg|oga|wav|m4a|webm)$"}}
+      responses:
+        "200": {description: Audio bytes}
+        "404": {description: Not found}
+  /:
+    get:
+      summary: The web UI (also /app.html and /index.html)
+      responses:
+        "200":
+          description: HTML
+          content:
+            text/html: {schema: {type: string}}
+components:
+  schemas:
+    Info:
+      type: object
+      properties:
+        app: {type: string, enum: [gcse-revision]}
+        version: {type: string}
+    AIStatus:
+      type: object
+      properties:
+        phase: {type: string, enum: [idle, disabled, checking, installing, starting, pulling, ready, error]}
+        message: {type: string}
+        progress: {type: number, description: "0..1 for downloads, -1 when unknown"}
+        model: {type: string}
+        backend: {type: string}
+        proxy: {type: string, description: Path the page uses as its Ollama base}
+        ramGB: {type: integer}
+    ChatMessage:
+      type: object
+      properties:
+        role: {type: string}
+        content: {type: string}
+    Error:
+      type: object
+      properties:
+        error: {type: string}

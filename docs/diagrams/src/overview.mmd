@@ -1,0 +1,11 @@
+%% Source for docs/diagrams/overview.svg. Regenerate with: sh scripts/render-diagrams.sh
+flowchart LR
+    student(["Student's browser"])
+    subgraph pc ["Student's computer"]
+        app["gcse-revision"]
+        ai["AI helper (optional)"]
+    end
+    gh[("GitHub")]
+    student -->|"opens"| app
+    app -.->|"feedback"| ai
+    app -->|"signed subjects, app updates"| gh

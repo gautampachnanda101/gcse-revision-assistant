@@ -71,11 +71,11 @@ You can also open `app.html` straight from a checkout of this repo without the p
 
 ## Adding a subject
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). In short:
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the [documentation](docs/index.md). In short:
 
-1. Add `data/<subject>.js`.
-2. Run `go run . manifest`.
-3. Open a pull request.
+1. Add or edit the source in `content/<subject>/` (`pack.json` + `modules/*.json`).
+2. Run `go run . build content/<subject>` and `go run . validate`.
+3. Open a pull request with the source, `data/<subject>.js` and `subjects.js`.
 
 Once it's merged, everyone gets the new subject the next time they start the app. They don't need to reinstall.
 
@@ -127,7 +127,7 @@ The **Release** workflow then builds all platforms, publishes the GitHub release
 
 ## Tests
 
-- `go test ./...` runs the unit tests.
+- `go test ./...` runs the unit tests. CI requires 100% statement coverage; see [Testing](docs/develop/testing.md).
 - `go test -tags e2e -v ./...` runs the end-to-end tests. They build the real binary and test:
   - signed sync, including rejection of a tampered list or pack;
   - offline serving of downloaded and private subjects;

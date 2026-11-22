@@ -1,0 +1,5 @@
+%% Source for docs/diagrams/publish-subjects.svg. Regenerate with: sh scripts/render-diagrams.sh
+flowchart LR
+    merge["Merge to main"] --> sign["Publish content workflow<br/>validates and signs"]
+    sign --> release[("content-* release")]
+    release --> apps["Apps download and<br/>verify on next start"]
