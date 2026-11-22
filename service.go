@@ -54,8 +54,15 @@ func serviceLogPath() string { return filepath.Join(serviceDir(), appName+".log"
 func serviceStatus() (bool, string, error) {
 	switch runtime.GOOS {
 	case "darwin":
-		out, err := exec.Command("launchctl", "list", serviceLabel()).CombinedOutput()
-		return err == nil, strings.TrimSpace(string(out)), err
+		var lastErr error
+		for _, label := range serviceLabels() {
+			out, err := exec.Command("launchctl", "list", label).CombinedOutput()
+			if err == nil {
+				return true, strings.TrimSpace(string(out)), nil
+			}
+			lastErr = err
+		}
+		return false, "", lastErr
 	case "linux":
 		out, err := exec.Command("systemctl", "--user", "is-active", serviceUnit()).CombinedOutput()
 		return err == nil && strings.TrimSpace(string(out)) == "active", strings.TrimSpace(string(out)), err
@@ -70,6 +77,10 @@ func serviceStatus() (bool, string, error) {
 
 func serviceUnit() string  { return appName + ".service" }
 func serviceLabel() string { return "com.gautampachnanda101.gcse-revision" }
+
+func serviceLabels() []string {
+	return []string{serviceLabel(), "sh.brew.gcse-revision", "homebrew.mxcl.gcse-revision"}
+}
 
 func serviceCommand(args []string, opts options) error {
 	if len(args) == 0 {
