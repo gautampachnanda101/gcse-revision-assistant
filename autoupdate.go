@@ -10,9 +10,7 @@ import (
 	"io"
 	"net/http"
 	"os"
-	"os/exec"
 	"path/filepath"
-	"runtime"
 	"strconv"
 	"strings"
 	"time"
@@ -36,11 +34,11 @@ func automaticUpgradeLoop(ctx context.Context, opts options) {
 		return
 	}
 	go func() {
-		interval := 24 * time.Hour
+		interval := upgradeInterval
 		if packageManaged() {
-			interval = 15 * time.Second
+			interval = managedUpgradePoll
 		}
-		timer := time.NewTimer(15 * time.Second)
+		timer := time.NewTimer(upgradeFirstCheck)
 		defer timer.Stop()
 		for {
 			select {
@@ -54,7 +52,7 @@ func automaticUpgradeLoop(ctx context.Context, opts options) {
 				}
 				updated, err := selfUpgrade(ctx, true)
 				if errors.Is(err, errProcessExitForUpgrade) {
-					os.Exit(0)
+					exitProcess(0)
 				}
 				if err != nil {
 					logf("Automatic upgrade skipped (%v).", err)
@@ -76,7 +74,7 @@ func reconcileManagedService() (bool, error) {
 	if err != nil {
 		return false, err
 	}
-	out, err := exec.Command(current, "version").CombinedOutput()
+	out, err := execCommand(current, "version").CombinedOutput()
 	if err != nil {
 		return false, fmt.Errorf("read installed package version: %s: %w", strings.TrimSpace(string(out)), err)
 	}
@@ -88,7 +86,7 @@ func reconcileManagedService() (bool, error) {
 	if installedVersion == "" || installedVersion == version {
 		return false, nil
 	}
-	cmd := exec.Command(current, "service", "install")
+	cmd := execCommand(current, "service", "install")
 	if out, err = cmd.CombinedOutput(); err != nil {
 		return false, fmt.Errorf("replace background service: %s: %w", strings.TrimSpace(string(out)), err)
 	}
@@ -96,21 +94,21 @@ func reconcileManagedService() (bool, error) {
 }
 
 func installedPackageExecutable() (string, error) {
-	exe, err := os.Executable()
+	exe, err := executable()
 	if err != nil {
 		return "", err
 	}
 	lower := strings.ToLower(strings.ReplaceAll(filepath.ToSlash(exe), `\`, "/"))
 	switch {
 	case strings.Contains(lower, "/cellar/") || strings.Contains(lower, "/homebrew/"):
-		for _, path := range []string{"/opt/homebrew/bin/gcse-revision", "/usr/local/bin/gcse-revision", "/home/linuxbrew/.linuxbrew/bin/gcse-revision"} {
+		for _, path := range homebrewAppExecutables {
 			if _, err := os.Stat(path); err == nil {
 				return path, nil
 			}
 		}
 		return "", errors.New("the active Homebrew executable is unavailable")
 	case strings.Contains(lower, "/scoop/apps/"):
-		out, err := exec.Command("scoop", "which", appName).CombinedOutput()
+		out, err := execCommand("scoop", "which", appName).CombinedOutput()
 		if err != nil {
 			return "", fmt.Errorf("locate Scoop executable: %s: %w", strings.TrimSpace(string(out)), err)
 		}
@@ -142,7 +140,7 @@ func upgradeCommand(ctx context.Context) error {
 }
 
 func selfUpgrade(ctx context.Context, restart bool) (bool, error) {
-	exe, err := os.Executable()
+	exe, err := executable()
 	if err != nil {
 		return false, err
 	}
@@ -202,7 +200,7 @@ func selfUpgrade(ctx context.Context, restart bool) (bool, error) {
 }
 
 func latestRelease(ctx context.Context) (githubRelease, error) {
-	url := "https://api.github.com/repos/" + repo + "/releases/latest"
+	url := strings.TrimRight(githubAPIBase, "/") + "/repos/" + repo + "/releases/latest"
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
 		return githubRelease{}, err
@@ -309,8 +307,8 @@ func versionParts(s string) ([3]int, error) {
 
 func upgradeAssetName() string {
 	ext := ""
-	osName := runtime.GOOS
-	arch := runtime.GOARCH
+	osName := hostOS
+	arch := hostArch
 	if osName == "windows" {
 		ext = ".exe"
 	}
@@ -318,7 +316,7 @@ func upgradeAssetName() string {
 }
 
 func packageManaged() bool {
-	exe, err := os.Executable()
+	exe, err := executable()
 	return err == nil && packageManagedPath(exe)
 }
 
@@ -334,10 +332,10 @@ func installUpgrade(exe string, b []byte, restart bool) error {
 	if err := os.WriteFile(next, b, 0o755); err != nil {
 		return err
 	}
-	if runtime.GOOS == "windows" {
+	if hostOS == "windows" {
 		return installWindowsUpgrade(exe, next, restart)
 	}
-	if err := os.Chmod(next, 0o755); err != nil {
+	if err := chmod(next, 0o755); err != nil {
 		_ = os.Remove(next)
 		return err
 	}
@@ -368,7 +366,7 @@ func installWindowsUpgrade(exe, next string, restart bool) error {
 	if err := os.WriteFile(script, []byte(body), 0o600); err != nil {
 		return err
 	}
-	cmd := exec.Command("powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-WindowStyle", "Hidden", "-File", script)
+	cmd := execCommand("powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-WindowStyle", "Hidden", "-File", script)
 	if err := cmd.Start(); err != nil {
 		return err
 	}
@@ -384,14 +382,14 @@ var errProcessExitForUpgrade = errors.New("upgrade staged; process is restarting
 func psQuote(s string) string { return "'" + strings.ReplaceAll(s, "'", "''") + "'" }
 
 func restartCurrentProcess(exe string) error {
-	if runtime.GOOS == "windows" {
+	if hostOS == "windows" {
 		return nil
 	}
-	return execSelf(exe, os.Args, os.Environ())
+	return execSelfFn(exe, os.Args, os.Environ())
 }
 
 func managedUpgrade(restart bool) (bool, error) {
-	exe, _ := os.Executable()
+	exe, _ := executable()
 	lower := strings.ToLower(strings.ReplaceAll(filepath.ToSlash(exe), `\`, "/"))
 	var out []byte
 	var err error
@@ -402,21 +400,21 @@ func managedUpgrade(restart bool) (bool, error) {
 		if brewErr != nil {
 			return false, brewErr
 		}
-		_, _ = exec.Command(brew, "update", "--quiet").CombinedOutput()
-		out, err = exec.Command(brew, "outdated", "--quiet", formula).CombinedOutput()
+		_, _ = execCommand(brew, "update", "--quiet").CombinedOutput()
+		out, err = execCommand(brew, "outdated", "--quiet", formula).CombinedOutput()
 		if err == nil && strings.TrimSpace(string(out)) == "" {
 			return false, nil
 		}
-		out, err = exec.Command(brew, "upgrade", formula).CombinedOutput()
+		out, err = execCommand(brew, "upgrade", formula).CombinedOutput()
 	case strings.Contains(lower, "/scoop/apps/"):
-		out, err = exec.Command("scoop", "status", appName).CombinedOutput()
+		out, err = execCommand("scoop", "status", appName).CombinedOutput()
 		if err == nil && !strings.Contains(strings.ToLower(string(out)), "update") {
 			return false, nil
 		}
-		if runtime.GOOS == "windows" {
+		if hostOS == "windows" {
 			return stageScoopUpgrade(exe, restart)
 		}
-		out, err = exec.Command("scoop", "update", appName).CombinedOutput()
+		out, err = execCommand("scoop", "update", appName).CombinedOutput()
 	default:
 		return false, errors.New("managed installation type is not supported")
 	}
@@ -428,7 +426,7 @@ func managedUpgrade(restart bool) (bool, error) {
 		if locateErr != nil {
 			return false, locateErr
 		}
-		installOut, installErr := exec.Command(current, "service", "install").CombinedOutput()
+		installOut, installErr := execCommand(current, "service", "install").CombinedOutput()
 		if installErr != nil {
 			return false, fmt.Errorf("install upgraded background service: %s: %w", strings.TrimSpace(string(installOut)), installErr)
 		}
@@ -438,16 +436,12 @@ func managedUpgrade(restart bool) (bool, error) {
 }
 
 func findHomebrew() (string, error) {
-	for _, candidate := range []string{
-		"/opt/homebrew/bin/brew",
-		"/usr/local/bin/brew",
-		"/home/linuxbrew/.linuxbrew/bin/brew",
-	} {
+	for _, candidate := range homebrewBinaries {
 		if _, err := os.Stat(candidate); err == nil {
 			return candidate, nil
 		}
 	}
-	path, err := exec.LookPath("brew")
+	path, err := lookPath("brew")
 	if err != nil {
 		return "", errors.New("Homebrew is installed but the brew command is unavailable to the background service")
 	}
@@ -468,18 +462,11 @@ func stageScoopUpgrade(exe string, restart bool) (bool, error) {
 		`} catch {` + "\n" +
 		`  "Scoop upgrade failed: $($_.Exception.Message)" | Out-File -Append -FilePath $Log` + "\n" +
 		"}\n"
-	if restart {
-		args := make([]string, 0, len(os.Args)-1)
-		for _, arg := range os.Args[1:] {
-			args = append(args, psQuote(arg))
-		}
-		_ = args
-	}
 	body += "Remove-Item -LiteralPath $MyInvocation.MyCommand.Path -Force\n"
 	if err := os.WriteFile(script, []byte(body), 0o600); err != nil {
 		return false, err
 	}
-	cmd := exec.Command("powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-WindowStyle", "Hidden", "-File", script)
+	cmd := execCommand("powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-WindowStyle", "Hidden", "-File", script)
 	if err := cmd.Start(); err != nil {
 		return false, err
 	}

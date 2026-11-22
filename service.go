@@ -6,9 +6,7 @@ import (
 	"net"
 	"os"
 	"os/exec"
-	"os/user"
 	"path/filepath"
-	"runtime"
 	"strconv"
 	"strings"
 	"time"
@@ -42,7 +40,7 @@ func serviceDir() string {
 }
 
 func realUserHomeDir() (string, error) {
-	u, err := user.Current()
+	u, err := currentUser()
 	if err == nil && strings.TrimSpace(u.HomeDir) != "" {
 		return u.HomeDir, nil
 	}
@@ -52,11 +50,11 @@ func realUserHomeDir() (string, error) {
 func serviceLogPath() string { return filepath.Join(serviceDir(), appName+".log") }
 
 func serviceStatus() (bool, string, error) {
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
 		var lastErr error
 		for _, label := range serviceLabels() {
-			out, err := exec.Command("launchctl", "list", label).CombinedOutput()
+			out, err := execCommand("launchctl", "list", label).CombinedOutput()
 			if err == nil {
 				return true, strings.TrimSpace(string(out)), nil
 			}
@@ -64,14 +62,14 @@ func serviceStatus() (bool, string, error) {
 		}
 		return false, "", lastErr
 	case "linux":
-		out, err := exec.Command("systemctl", "--user", "is-active", serviceUnit()).CombinedOutput()
+		out, err := execCommand("systemctl", "--user", "is-active", serviceUnit()).CombinedOutput()
 		return err == nil && strings.TrimSpace(string(out)) == "active", strings.TrimSpace(string(out)), err
 	case "windows":
-		out, err := exec.Command("schtasks", "/Query", "/TN", serviceName, "/FO", "LIST").CombinedOutput()
+		out, err := execCommand("schtasks", "/Query", "/TN", serviceName, "/FO", "LIST").CombinedOutput()
 		detail := strings.TrimSpace(string(out))
 		return err == nil && strings.Contains(strings.ToLower(detail), "running"), detail, err
 	default:
-		return false, "", fmt.Errorf("background service is not supported on %s", runtime.GOOS)
+		return false, "", fmt.Errorf("background service is not supported on %s", hostOS)
 	}
 }
 
@@ -124,18 +122,14 @@ func serviceCommand(args []string, opts options) error {
 }
 
 func installService(opts options) error {
-	if runtime.GOOS == "darwin" && homebrewServiceConfigured() {
+	if hostOS == "darwin" && homebrewServiceConfigured() {
 		return restartServiceAt(opts.port)
 	}
-	exe, err := os.Executable()
+	exe, err := executable()
 	if err != nil {
 		return err
 	}
 
-	exe, err = filepath.Abs(exe)
-	if err != nil {
-		return err
-	}
 	exe, err = filepath.EvalSymlinks(exe)
 	if err != nil {
 		return err
@@ -143,9 +137,9 @@ func installService(opts options) error {
 	if err := os.MkdirAll(serviceDir(), 0o755); err != nil {
 		return err
 	}
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
-		u, err := user.Current()
+		u, err := currentUser()
 		if err != nil {
 			return err
 		}
@@ -193,31 +187,31 @@ WantedBy=default.target
 		if err := writeFileAtomic(unitPath, []byte(unit)); err != nil {
 			return err
 		}
-		if out, err := exec.Command("systemctl", "--user", "daemon-reload").CombinedOutput(); err != nil {
+		if out, err := execCommand("systemctl", "--user", "daemon-reload").CombinedOutput(); err != nil {
 			return fmt.Errorf("systemctl daemon-reload: %s: %w", out, err)
 		}
-		if out, err := exec.Command("systemctl", "--user", "enable", "--now", serviceUnit()).CombinedOutput(); err != nil {
+		if out, err := execCommand("systemctl", "--user", "enable", "--now", serviceUnit()).CombinedOutput(); err != nil {
 			return fmt.Errorf("systemctl enable: %s: %w", out, err)
 		}
 	case "windows":
-		_ = exec.Command("schtasks", "/End", "/TN", serviceName).Run()
-		time.Sleep(500 * time.Millisecond)
+		_ = execCommand("schtasks", "/End", "/TN", serviceName).Run()
+		sleep(500 * time.Millisecond)
 		tr := fmt.Sprintf(`"%s" serve --service --no-browser --no-ai --port %d`, exe, opts.port)
-		if out, err := exec.Command("schtasks", "/Create", "/TN", serviceName, "/SC", "ONLOGON", "/RL", "LIMITED", "/F", "/TR", tr).CombinedOutput(); err != nil {
+		if out, err := execCommand("schtasks", "/Create", "/TN", serviceName, "/SC", "ONLOGON", "/RL", "LIMITED", "/F", "/TR", tr).CombinedOutput(); err != nil {
 			return fmt.Errorf("schtasks create: %s: %w", out, err)
 		}
-		if out, err := exec.Command("schtasks", "/Run", "/TN", serviceName).CombinedOutput(); err != nil {
+		if out, err := execCommand("schtasks", "/Run", "/TN", serviceName).CombinedOutput(); err != nil {
 			return fmt.Errorf("schtasks run: %s: %w", out, err)
 		}
 	default:
-		return fmt.Errorf("background service is not supported on %s", runtime.GOOS)
+		return fmt.Errorf("background service is not supported on %s", hostOS)
 	}
 	fmt.Printf("installed  %s\n", browserURL(opts.port))
 	return nil
 }
 
 func serviceConfigured() (bool, error) {
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
 		home, err := realUserHomeDir()
 		if err != nil {
@@ -233,10 +227,10 @@ func serviceConfigured() (bool, error) {
 		_, err = os.Stat(filepath.Join(home, ".config", "systemd", "user", serviceUnit()))
 		return err == nil, ignoreMissing(err)
 	case "windows":
-		err := exec.Command("schtasks", "/Query", "/TN", serviceName).Run()
+		err := execCommand("schtasks", "/Query", "/TN", serviceName).Run()
 		return err == nil, nil
 	default:
-		return false, fmt.Errorf("background service is not supported on %s", runtime.GOOS)
+		return false, fmt.Errorf("background service is not supported on %s", hostOS)
 	}
 }
 
@@ -249,14 +243,14 @@ func ignoreMissing(err error) error {
 
 func startService() error {
 	var cmd *exec.Cmd
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
 		if homebrewServiceConfigured() {
 			brew, err := findHomebrew()
 			if err != nil {
 				return err
 			}
-			out, err := exec.Command(brew, "services", "start", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
+			out, err := execCommand(brew, "services", "start", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
 			if err != nil {
 				return fmt.Errorf("start Homebrew service: %s: %w", out, err)
 			}
@@ -264,21 +258,21 @@ func startService() error {
 		}
 		home, _ := realUserHomeDir()
 		plist := filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist")
-		out, err := exec.Command("launchctl", "bootstrap", "gui/"+currentUserID(), plist).CombinedOutput()
+		out, err := execCommand("launchctl", "bootstrap", "gui/"+currentUserID(), plist).CombinedOutput()
 		if err == nil {
 			return nil
 		}
-		out2, err2 := exec.Command("launchctl", "load", "-w", plist).CombinedOutput()
+		out2, err2 := execCommand("launchctl", "load", "-w", plist).CombinedOutput()
 		if err2 != nil {
 			return fmt.Errorf("start service: bootstrap: %s: %v; load: %s: %w", out, err, out2, err2)
 		}
 		return nil
 	case "linux":
-		cmd = exec.Command("systemctl", "--user", "start", serviceUnit())
+		cmd = execCommand("systemctl", "--user", "start", serviceUnit())
 	case "windows":
-		cmd = exec.Command("schtasks", "/Run", "/TN", serviceName)
+		cmd = execCommand("schtasks", "/Run", "/TN", serviceName)
 	default:
-		return fmt.Errorf("background service is not supported on %s", runtime.GOOS)
+		return fmt.Errorf("background service is not supported on %s", hostOS)
 	}
 	if out, err := cmd.CombinedOutput(); err != nil {
 		return fmt.Errorf("start service: %s: %w", out, err)
@@ -288,26 +282,26 @@ func startService() error {
 
 func stopService() error {
 	var cmd *exec.Cmd
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
 		if homebrewServiceConfigured() {
 			brew, err := findHomebrew()
 			if err != nil {
 				return err
 			}
-			out, err := exec.Command(brew, "services", "stop", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
+			out, err := execCommand(brew, "services", "stop", "gautampachnanda101/tap/gcse-revision").CombinedOutput()
 			if err != nil && !serviceNotFound(string(out)) {
 				return fmt.Errorf("stop Homebrew service: %s: %w", out, err)
 			}
 			return nil
 		}
-		cmd = exec.Command("launchctl", "bootout", "gui/"+currentUserID()+"/"+serviceLabel())
+		cmd = execCommand("launchctl", "bootout", "gui/"+currentUserID()+"/"+serviceLabel())
 	case "linux":
-		cmd = exec.Command("systemctl", "--user", "stop", serviceUnit())
+		cmd = execCommand("systemctl", "--user", "stop", serviceUnit())
 	case "windows":
-		cmd = exec.Command("schtasks", "/End", "/TN", serviceName)
+		cmd = execCommand("schtasks", "/End", "/TN", serviceName)
 	default:
-		return fmt.Errorf("background service is not supported on %s", runtime.GOOS)
+		return fmt.Errorf("background service is not supported on %s", hostOS)
 	}
 
 	out, err := cmd.CombinedOutput()
@@ -325,7 +319,7 @@ func restartServiceAt(port int) error {
 	if err := stopService(); err != nil {
 		return err
 	}
-	deadline := time.Now().Add(8 * time.Second)
+	deadline := time.Now().Add(serviceStopTimeout)
 	for {
 		running, _, _ := serviceStatus()
 		listening := alreadyRunning(net.JoinHostPort("127.0.0.1", strconv.Itoa(port)))
@@ -335,29 +329,29 @@ func restartServiceAt(port int) error {
 		if time.Now().After(deadline) {
 			return errors.New("background service did not stop in time")
 		}
-		time.Sleep(150 * time.Millisecond)
+		sleep(150 * time.Millisecond)
 	}
 	var last error
 	for i := 0; i < 5; i++ {
 		if err := startService(); err == nil {
-			healthDeadline := time.Now().Add(12 * time.Second)
+			healthDeadline := time.Now().Add(serviceHealthTimeout)
 			for time.Now().Before(healthDeadline) {
 				if alreadyRunning(net.JoinHostPort("127.0.0.1", strconv.Itoa(port))) {
 					return nil
 				}
-				time.Sleep(250 * time.Millisecond)
+				sleep(250 * time.Millisecond)
 			}
 			last = fmt.Errorf("service started but %s is not responding", browserURL(port))
 		} else {
 			last = err
 		}
-		time.Sleep(300 * time.Millisecond)
+		sleep(300 * time.Millisecond)
 	}
 	return fmt.Errorf("background service did not start after upgrade: %w", last)
 }
 
 func uninstallService() error {
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
 		home, err := realUserHomeDir()
 		if err != nil {
@@ -366,18 +360,18 @@ func uninstallService() error {
 		path := filepath.Join(home, "Library", "LaunchAgents", serviceLabel()+".plist")
 		_ = os.Remove(path)
 	case "linux":
-		if out, err := exec.Command("systemctl", "--user", "disable", serviceUnit()).CombinedOutput(); err != nil {
+		if out, err := execCommand("systemctl", "--user", "disable", serviceUnit()).CombinedOutput(); err != nil {
 			return fmt.Errorf("systemctl disable: %s: %w", out, err)
 		}
 		home, _ := realUserHomeDir()
 		_ = os.Remove(filepath.Join(home, ".config", "systemd", "user", serviceUnit()))
-		_, _ = exec.Command("systemctl", "--user", "daemon-reload").CombinedOutput()
+		_, _ = execCommand("systemctl", "--user", "daemon-reload").CombinedOutput()
 	case "windows":
-		if out, err := exec.Command("schtasks", "/Delete", "/TN", serviceName, "/F").CombinedOutput(); err != nil && !serviceNotFound(string(out)) {
+		if out, err := execCommand("schtasks", "/Delete", "/TN", serviceName, "/F").CombinedOutput(); err != nil && !serviceNotFound(string(out)) {
 			return fmt.Errorf("schtasks delete: %s: %w", out, err)
 		}
 	default:
-		return fmt.Errorf("background service is not supported on %s", runtime.GOOS)
+		return fmt.Errorf("background service is not supported on %s", hostOS)
 	}
 	return nil
 }
@@ -423,7 +417,7 @@ func shellQuote(s string) string {
 }
 
 func currentUserID() string {
-	u, err := user.Current()
+	u, err := currentUser()
 	if err == nil && u.Uid != "" {
 		return u.Uid
 	}

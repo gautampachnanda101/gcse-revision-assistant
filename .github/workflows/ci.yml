@@ -21,7 +21,16 @@ jobs:
         run: |
           go run . manifest
           git diff --exit-code subjects.js || { echo "::error::subjects.js is stale — run 'go run . manifest' and commit it"; exit 1; }
-      - run: go test ./...
+      - name: Unit tests (100% statement coverage required)
+        run: |
+          go test -coverprofile=coverage.out ./...
+          total=$(go tool cover -func=coverage.out | awk '/^total:/ {print $3}')
+          echo "Unit test statement coverage: $total"
+          if [ "$total" != "100.0%" ]; then
+            go tool cover -func=coverage.out | awk '$3 != "100.0%"'
+            echo "::error::Unit test coverage is $total; 100.0% is required (see docs/develop/testing.md)"
+            exit 1
+          fi
       - name: Cross-compile every release target
         run: |
           for t in darwin/amd64 darwin/arm64 linux/amd64 linux/arm64 windows/amd64 windows/arm64; do

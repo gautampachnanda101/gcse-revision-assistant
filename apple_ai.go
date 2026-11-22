@@ -7,9 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"os"
-	"os/exec"
 	"path/filepath"
-	"runtime"
 )
 
 //go:embed native/apple-fm-bridge
@@ -35,7 +33,7 @@ type chatMessage struct {
 }
 
 func appleBridgePath() string {
-	if runtime.GOOS != "darwin" || runtime.GOARCH != "arm64" || len(appleFMBridge) == 0 {
+	if hostOS != "darwin" || hostArch != "arm64" || len(appleFMBridge) == 0 {
 		return ""
 	}
 	path := filepath.Join(dataDir(), "native", appName+"-apple-ai")
@@ -53,10 +51,7 @@ func ensureAppleBridge() (string, error) {
 	if err := writeFileAtomic(path, appleFMBridge); err != nil {
 		return "", err
 	}
-	if err := os.Chmod(path, 0o700); err != nil {
-		return "", err
-	}
-	return path, nil
+	return path, chmod(path, 0o700)
 }
 
 func appleAIAvailable() (bool, string) {
@@ -64,7 +59,7 @@ func appleAIAvailable() (bool, string) {
 	if err != nil {
 		return false, err.Error()
 	}
-	out, err := exec.Command(path, "--availability").CombinedOutput()
+	out, err := execCommand(path, "--availability").CombinedOutput()
 	if err == nil {
 		return true, "Apple Intelligence"
 	}
@@ -80,11 +75,8 @@ func chatWithAppleAI(messages []chatMessage) (string, error) {
 	for i, m := range messages {
 		req.Messages[i] = appleChatMessage{Role: m.Role, Content: m.Content}
 	}
-	body, err := json.Marshal(req)
-	if err != nil {
-		return "", err
-	}
-	cmd := exec.Command(path)
+	body, _ := json.Marshal(req) // a struct of strings always marshals
+	cmd := execCommand(path)
 	cmd.Stdin = bytes.NewReader(body)
 	var stdout, stderr bytes.Buffer
 	cmd.Stdout, cmd.Stderr = &stdout, &stderr

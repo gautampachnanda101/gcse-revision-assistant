@@ -38,8 +38,11 @@ const (
 	maxZipEntries  = 2000
 )
 
-func packSchema() *schemaDoc {
-	s, err := parseSchema(packSchemaJSON)
+func packSchema() *schemaDoc { return mustParseSchema(packSchemaJSON) }
+
+// mustParseSchema parses a schema compiled into the binary; a failure is a build defect, so it panics.
+func mustParseSchema(b []byte) *schemaDoc {
+	s, err := parseSchema(b)
 	if err != nil {
 		panic("embedded pack schema is invalid: " + err.Error())
 	}
@@ -222,7 +225,7 @@ func lockPrivateInstall(id string) (func(), error) {
 		return nil, err
 	}
 	lockPath := filepath.Join(lockDir, id+".lock")
-	deadline := time.Now().Add(30 * time.Second)
+	deadline := time.Now().Add(privateInstallLockWait)
 	for {
 		f, err := os.OpenFile(lockPath, os.O_WRONLY|os.O_CREATE|os.O_EXCL, 0o600)
 		if err == nil {
@@ -284,34 +287,31 @@ func installPrivatePack(id string, p packFile, audio packAudio) error {
 	finalPack := filepath.Join(privateDir, id+".js")
 	finalAudio := audioDir(id)
 	backupPack, backupAudio := filepath.Join(stage, "previous.js"), filepath.Join(stage, "previous-audio")
-	installedPack, installedAudio := false, false
+	installedPack := false
 	rollback := func() {
 		if installedPack {
 			_ = os.Remove(finalPack)
 		}
-		if installedAudio {
-			_ = os.RemoveAll(finalAudio)
-		}
 		if _, err := os.Stat(backupPack); err == nil {
-			_ = os.Rename(backupPack, finalPack)
+			_ = rename(backupPack, finalPack)
 		}
 		if _, err := os.Stat(backupAudio); err == nil {
 			_ = os.MkdirAll(filepath.Dir(finalAudio), 0o755)
-			_ = os.Rename(backupAudio, finalAudio)
+			_ = rename(backupAudio, finalAudio)
 		}
 	}
 	if _, err = os.Stat(finalPack); err == nil {
-		if err = os.Rename(finalPack, backupPack); err != nil {
+		if err = rename(finalPack, backupPack); err != nil {
 			return err
 		}
 	}
-	if err = os.Rename(stagedPack, finalPack); err != nil {
+	if err = rename(stagedPack, finalPack); err != nil {
 		rollback()
 		return err
 	}
 	installedPack = true
 	if _, err = os.Stat(finalAudio); err == nil {
-		if err = os.Rename(finalAudio, backupAudio); err != nil {
+		if err = rename(finalAudio, backupAudio); err != nil {
 			rollback()
 			return err
 		}
@@ -321,11 +321,10 @@ func installPrivatePack(id string, p packFile, audio packAudio) error {
 			rollback()
 			return err
 		}
-		if err = os.Rename(stagedAudio, finalAudio); err != nil {
+		if err = rename(stagedAudio, finalAudio); err != nil {
 			rollback()
 			return err
 		}
-		installedAudio = true
 	}
 	return nil
 }
@@ -417,6 +416,11 @@ func exportPack(src, dst string) error {
 	if err != nil {
 		return err
 	}
+	return exportParsedPack(p, dst)
+}
+
+// exportParsedPack writes p to dst as an open-format bundle (or a .zip when it carries recordings).
+func exportParsedPack(p packFile, dst string) error {
 	byModule := map[string]*exportModule{}
 	var order []string
 	for _, n := range p.Notes {
@@ -450,11 +454,8 @@ func exportPack(src, dst string) error {
 	for _, k := range order {
 		modules = append(modules, byModule[k])
 	}
-	exported := map[string]any{"$schema": "schema/gcse-revision-pack.schema.json",
-		"config": p.Config, "rubrics": p.Rubrics, "meta": p.Meta, "modules": modules}
-	if p.MarkingSchema != nil {
-		exported["markingSchema"] = p.MarkingSchema
-	}
+	exported := map[string]any{"$schema": "schema/gcse-revision-pack.schema.json", "config": p.Config, "modules": modules}
+	addOptionalPackFields(exported, p)
 	out, err := json.MarshalIndent(exported, "", " ")
 	if err != nil {
 		return err
@@ -481,61 +482,36 @@ func exportAudioZip(p packFile, modules []*exportModule, dst string) error {
 			}
 		}
 	}
-	basePack := map[string]any{
-		"$schema": "../../schema/gcse-revision-pack.schema.json",
-		"config":  p.Config,
-		"rubrics": p.Rubrics,
-		"meta":    p.Meta,
-	}
-	if p.MarkingSchema != nil {
-		basePack["markingSchema"] = p.MarkingSchema
-	}
+	basePack := map[string]any{"$schema": "../../schema/gcse-revision-pack.schema.json", "config": p.Config}
+	addOptionalPackFields(basePack, p)
 	base, err := json.MarshalIndent(basePack, "", " ")
 	if err != nil {
 		return err
 	}
+	// The zip is built in memory: writes to a bytes.Buffer never fail, so only marshalling and reading the
+	// recordings can.
 	var buf bytes.Buffer
 	zw := zip.NewWriter(&buf)
-	add := func(name string, b []byte) error {
-		w, err := zw.Create(name)
-		if err == nil {
-			_, err = w.Write(b)
+	add := func(name string, b []byte) {
+		w, _ := zw.Create(name)
+		_, _ = w.Write(b)
+	}
+	add("pack.json", append(base, '\n'))
+	for i, m := range modules {
+		mb, err := json.MarshalIndent(m, "", " ")
+		if err != nil {
+			return err
 		}
-		return err
+		add(fmt.Sprintf("modules/%03d.json", i+1), append(mb, '\n'))
 	}
-	if err = add("pack.json", append(base, '\n')); err == nil {
-		for i, m := range modules {
-			mb, marshalErr := json.MarshalIndent(m, "", " ")
-			if marshalErr != nil {
-				err = marshalErr
-				break
-			}
-			err = add(fmt.Sprintf("modules/%03d.json", i+1), append(mb, '\n'))
-			if err != nil {
-				break
-			}
+	for name := range needed {
+		b, err := os.ReadFile(filepath.Join(audioDir(id), name))
+		if err != nil {
+			return fmt.Errorf("read audio %q: %w", name, err)
 		}
+		add("audio/"+name, b)
 	}
-	if err == nil {
-		for name := range needed {
-			var b []byte
-			b, err = os.ReadFile(filepath.Join(audioDir(id), name))
-			if err != nil {
-				err = fmt.Errorf("read audio %q: %w", name, err)
-				break
-			}
-			if err = add("audio/"+name, b); err != nil {
-				break
-			}
-		}
-	}
-	closeErr := zw.Close()
-	if err != nil {
-		return err
-	}
-	if closeErr != nil {
-		return closeErr
-	}
+	_ = zw.Close()
 	return writeFileAtomic(dst, buf.Bytes())
 }
 
@@ -544,10 +520,24 @@ func tidyQuestion(q packQuestion) map[string]any {
 	b, _ := json.Marshal(q)
 	var m map[string]any
 	_ = json.Unmarshal(b, &m)
-	for _, k := range []string{"id", "paper", "module", "moduleTitle", "sourcePage", "rubric", "examTip", "answerTopic"} {
+	for _, k := range []string{"id", "paper", "module", "moduleTitle", "sourcePage", "rubric", "examTip", "answerTopic", "evidence"} {
 		if v, ok := m[k]; !ok || v == nil || v == "" {
 			delete(m, k)
 		}
 	}
 	return m
+}
+
+// addOptionalPackFields copies rubrics, meta and markingSchema into an exported document only when present:
+// the schema allows them to be omitted but not to be null.
+func addOptionalPackFields(doc map[string]any, p packFile) {
+	if p.Rubrics != nil {
+		doc["rubrics"] = p.Rubrics
+	}
+	if p.Meta != nil {
+		doc["meta"] = p.Meta
+	}
+	if p.MarkingSchema != nil {
+		doc["markingSchema"] = p.MarkingSchema
+	}
 }

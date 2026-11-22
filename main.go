@@ -18,7 +18,6 @@ import (
 	"os/exec"
 	"os/signal"
 	"path/filepath"
-	"runtime"
 	"strconv"
 	"strings"
 	"syscall"
@@ -53,30 +52,49 @@ type options struct {
 }
 
 func main() {
+	exitProcess(runCommandLine(os.Args[1:]))
+}
+
+// newFlagSet declares the global flags, bound to opts.
+func newFlagSet(opts *options) *flag.FlagSet {
+	fl := flag.NewFlagSet(appName, flag.ContinueOnError)
+	fl.IntVar(&opts.port, "port", 8765, "port to serve on (127.0.0.1 only)")
+	fl.BoolVar(&opts.noBrowser, "no-browser", false, "don't open a browser window")
+	fl.BoolVar(&opts.service, "service", false, "run as a managed background service")
+	fl.BoolVar(&opts.offline, "offline", false, "never contact the internet (no subject updates, no AI downloads)")
+	fl.BoolVar(&opts.noAI, "no-ai", false, "don't install/start the local AI helper")
+	fl.BoolVar(&opts.noAutoUp, "no-auto-update", false, "disable automatic application upgrades")
+	fl.StringVar(&opts.model, "model", "", "Ollama model to use (default: chosen from this machine's RAM)")
+	fl.StringVar(&opts.repo, "repo", envOr("GCSE_REVISION_REPO", repo), "GitHub owner/name to fetch subject packs from")
+	fl.StringVar(&opts.branch, "branch", envOr("GCSE_REVISION_BRANCH", "content"), "legacy content branch used only by test/mirror endpoints")
+	fl.Usage = usage
+	return fl
+}
+
+// runCommandLine executes one command line (without the program name) and returns the process exit code:
+// 0 on success, 1 when the command fails, 2 for usage errors.
+func runCommandLine(argv []string) int {
 	opts := options{}
-	flag.IntVar(&opts.port, "port", 8765, "port to serve on (127.0.0.1 only)")
-	flag.BoolVar(&opts.noBrowser, "no-browser", false, "don't open a browser window")
-	flag.BoolVar(&opts.service, "service", false, "run as a managed background service")
-	flag.BoolVar(&opts.offline, "offline", false, "never contact the internet (no subject updates, no AI downloads)")
-	flag.BoolVar(&opts.noAI, "no-ai", false, "don't install/start the local AI helper")
-	flag.BoolVar(&opts.noAutoUp, "no-auto-update", false, "disable automatic application upgrades")
-	flag.StringVar(&opts.model, "model", "", "Ollama model to use (default: chosen from this machine's RAM)")
-	flag.StringVar(&opts.repo, "repo", envOr("GCSE_REVISION_REPO", repo), "GitHub owner/name to fetch subject packs from")
-	flag.StringVar(&opts.branch, "branch", envOr("GCSE_REVISION_BRANCH", "content"), "legacy content branch used only by test/mirror endpoints")
-	flag.Usage = usage
+	fl := newFlagSet(&opts)
 	// Accept flags before or after the subcommand: `gcse-revision update --offline` and `gcse-revision --offline update`.
 	cmd := ""
-	args := os.Args[1:]
+	args := argv
 	if len(args) > 0 && !strings.HasPrefix(args[0], "-") {
 		cmd, args = args[0], args[1:]
 	}
-	if err := flag.CommandLine.Parse(args); errors.Is(err, flag.ErrHelp) {
-		return
+	if err := fl.Parse(args); err != nil {
+		if errors.Is(err, flag.ErrHelp) {
+			return 0
+		}
+		return 2
 	}
-	if cmd == "" && flag.NArg() > 0 {
-		cmd = flag.Arg(0)
-		if err := flag.CommandLine.Parse(flag.Args()[1:]); errors.Is(err, flag.ErrHelp) {
-			return
+	if cmd == "" && fl.NArg() > 0 {
+		cmd = fl.Arg(0)
+		if err := fl.Parse(fl.Args()[1:]); err != nil {
+			if errors.Is(err, flag.ErrHelp) {
+				return 0
+			}
+			return 2
 		}
 	}
 	var err error
@@ -84,13 +102,13 @@ func main() {
 	case "", "serve", "run":
 		err = serve(opts)
 	case "service":
-		err = serviceCommand(flag.Args(), opts)
+		err = serviceCommand(fl.Args(), opts)
 	case "upgrade":
 		err = upgradeCommand(context.Background())
 	case "doctor":
 		err = runDoctor(opts)
 	case "completion":
-		err = writeCompletion(os.Stdout, flag.Arg(0))
+		err = writeCompletion(os.Stdout, fl.Arg(0))
 	case "update":
 		var n int
 		n, err = syncSubjects(context.Background(), opts.repo, opts.branch, logf)
@@ -106,10 +124,10 @@ func main() {
 			err = errors.New(st.Message)
 		}
 	case "build":
-		if flag.NArg() == 0 {
+		if fl.NArg() == 0 {
 			err = errors.New("usage: gcse-revision build content/<pack-id> [content/<pack-id> …]")
 		}
-		for _, d := range flag.Args() {
+		for _, d := range fl.Args() {
 			if err = buildPack(d, "."); err != nil {
 				break
 			}
@@ -118,21 +136,21 @@ func main() {
 			err = writeManifest(".")
 		}
 	case "sign":
-		err = signManifest(orDefault(flag.Arg(0), "."))
+		err = signManifest(orDefault(fl.Arg(0), "."))
 	case "verify":
-		err = verifyDir(orDefault(flag.Arg(0), "."))
+		err = verifyDir(orDefault(fl.Arg(0), "."))
 	case "import":
-		err = importPaths(flag.Args())
+		err = importPaths(fl.Args())
 	case "export":
-		if flag.NArg() < 1 {
+		if fl.NArg() < 1 {
 			err = errors.New("usage: gcse-revision export <data-pack.js> [out.json]")
 			break
 		}
-		dst := flag.Arg(1)
+		dst := fl.Arg(1)
 		if dst == "" {
-			dst = strings.TrimSuffix(flag.Arg(0), ".js") + ".pack.json"
+			dst = strings.TrimSuffix(fl.Arg(0), ".js") + ".pack.json"
 		}
-		if err = exportPack(flag.Arg(0), dst); err == nil {
+		if err = exportPack(fl.Arg(0), dst); err == nil {
 			fmt.Println("Wrote", dst)
 		}
 	case "encrypt-private":
@@ -140,9 +158,9 @@ func main() {
 	case "keygen":
 		err = keygen()
 	case "validate":
-		err = validateFiles(flag.Args())
+		err = validateFiles(fl.Args())
 	case "manifest":
-		dir := flag.Arg(0)
+		dir := fl.Arg(0)
 		if dir == "" {
 			dir = "."
 		}
@@ -150,19 +168,20 @@ func main() {
 	case "version", "--version":
 		fmt.Println(appName, version)
 	case "help", "--help", "-h":
-		if flag.Arg(0) == "" {
+		if fl.Arg(0) == "" {
 			usage()
 		} else {
-			err = helpTopic(os.Stdout, flag.Arg(0))
+			err = helpTopic(os.Stdout, fl.Arg(0))
 		}
 	default:
 		usage()
-		os.Exit(2)
+		return 2
 	}
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
-		os.Exit(1)
+		return 1
 	}
+	return 0
 }
 
 func envOr(key, def string) string {
@@ -192,6 +211,13 @@ func dataDir() string {
 }
 
 func serve(opts options) error {
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
+	defer stop()
+	return serveContext(ctx, opts)
+}
+
+// serveContext runs the app until ctx is cancelled.
+func serveContext(ctx context.Context, opts options) error {
 	if opts.service {
 		if err := enableServiceLogging(); err != nil {
 			return err
@@ -199,7 +225,7 @@ func serve(opts options) error {
 		defer closeServiceLogging()
 	}
 	addr := net.JoinHostPort("127.0.0.1", strconv.Itoa(opts.port))
-	ln, err := net.Listen("tcp", addr)
+	ln, err := listen("tcp", addr)
 	if err != nil {
 		// Already running? Just open the existing instance.
 		if alreadyRunning(addr) {
@@ -214,16 +240,15 @@ func serve(opts options) error {
 			return fmt.Errorf("configured service port %d is already in use", opts.port)
 		}
 		logf("Port %d is busy; picking a free one.", opts.port)
-		if ln, err = net.Listen("tcp", "127.0.0.1:0"); err != nil {
+		if ln, err = listen("tcp", "127.0.0.1:0"); err != nil {
 			return err
 		}
 	}
-	_, activePort, err := net.SplitHostPort(ln.Addr().String())
-	if err != nil {
-		ln.Close()
-		return err
+	activePort := opts.port
+	if tcp, ok := ln.Addr().(*net.TCPAddr); ok {
+		activePort = tcp.Port
 	}
-	url := browserURL(parsePort(activePort, opts.port))
+	url := browserURL(activePort)
 
 	if !opts.offline && opts.repo != "" {
 		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
@@ -241,8 +266,6 @@ func serve(opts options) error {
 	}
 	srv := &http.Server{Handler: newHandler(ln.Addr().String(), ai), ReadHeaderTimeout: 10 * time.Second}
 
-	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
-	defer stop()
 	go func() {
 		<-ctx.Done()
 		shutdownCtx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
@@ -289,23 +312,15 @@ func browserURL(port int) string {
 	return "http://gcse-revision.localhost:" + strconv.Itoa(port) + "/"
 }
 
-func parsePort(s string, fallback int) int {
-	port, err := strconv.Atoi(s)
-	if err != nil {
-		return fallback
-	}
-	return port
-}
-
 func openBrowser(url string) {
 	var cmd *exec.Cmd
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
-		cmd = exec.Command("open", url)
+		cmd = execCommand("open", url)
 	case "windows":
-		cmd = exec.Command("rundll32", "url.dll,FileProtocolHandler", url)
+		cmd = execCommand("rundll32", "url.dll,FileProtocolHandler", url)
 	default:
-		cmd = exec.Command("xdg-open", url)
+		cmd = execCommand("xdg-open", url)
 	}
 	if err := cmd.Start(); err != nil {
 		logf("Open %s in your browser.", url)

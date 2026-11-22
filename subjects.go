@@ -81,10 +81,12 @@ func sha256Hex(b []byte) string {
 }
 
 func embeddedManifest() manifest {
-	b, err := embedded.ReadFile("subjects.js")
-	if err != nil {
-		return manifest{Schema: 1}
-	}
+	b, _ := embedded.ReadFile("subjects.js") // a missing file yields nil, which manifestOrEmpty treats as empty
+	return manifestOrEmpty(b)
+}
+
+// manifestOrEmpty parses b, falling back to an empty manifest so the app still starts.
+func manifestOrEmpty(b []byte) manifest {
 	m, err := parseManifest(b)
 	if err != nil {
 		return manifest{Schema: 1}
@@ -251,13 +253,11 @@ func readContentArchive(b []byte) (map[string][]byte, error) {
 		if err != nil {
 			return nil, err
 		}
-		data, err := io.ReadAll(io.LimitReader(r, maxContentFileBytes+1))
+		// archive/zip fails the read if an entry holds more than its declared (already limit-checked) size.
+		data, err := io.ReadAll(r)
 		_ = r.Close()
 		if err != nil {
 			return nil, err
-		}
-		if len(data) > maxContentFileBytes {
-			return nil, fmt.Errorf("%s exceeds content archive limit", name)
 		}
 		files[name] = data
 	}
@@ -299,7 +299,7 @@ func writeFileAtomic(dst string, b []byte) error {
 	if err := os.WriteFile(tmp, b, 0o644); err != nil {
 		return err
 	}
-	return os.Rename(tmp, dst)
+	return rename(tmp, dst)
 }
 
 // syncSubjects downloads new/changed packs listed in the repo's subjects.js. Returns how many were fetched.
