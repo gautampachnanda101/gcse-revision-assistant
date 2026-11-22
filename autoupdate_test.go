@@ -67,6 +67,26 @@ func TestAuthorStarterIsImportable(t *testing.T) {
 	}
 }
 
+func TestMarkingCatalogueListsBuiltInAndBundledPlans(t *testing.T) {
+	b, err := readEmbeddedText("app.html")
+	if err != nil {
+		t.Fatal(err)
+	}
+	s := string(b)
+	for _, want := range []string{
+		`id="marking-available-list"`,
+		`function bundledMarkingSchemas()`,
+		`...BUILTIN_MARKING_SCHEMAS,...bundledMarkingSchemas()`,
+		`function renderAvailableMarkingSchemas()`,
+		`data-use-marking`,
+		`renderAvailableMarkingSchemas();applyAuthorPreset`,
+	} {
+		if !contains(s, want) {
+			t.Fatalf("app.html is missing marking catalogue behavior %q", want)
+		}
+	}
+}
+
 func readEmbeddedText(name string) ([]byte, error) {
 	return embedded.ReadFile(name)
 }
