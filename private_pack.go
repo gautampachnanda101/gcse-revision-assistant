@@ -3,11 +3,11 @@ package main
 import (
 	"crypto/aes"
 	"crypto/cipher"
-	"crypto/rand"
 	"embed"
 	"encoding/base64"
 	"errors"
 	"fmt"
+	"io"
 	"io/fs"
 	"os"
 	"path"
@@ -55,7 +55,7 @@ func encryptPack(key, plain []byte) ([]byte, error) {
 		return nil, err
 	}
 	nonce := make([]byte, g.NonceSize())
-	if _, err := rand.Read(nonce); err != nil {
+	if _, err := io.ReadFull(randReader, nonce); err != nil {
 		return nil, err
 	}
 	return g.Seal(nonce, nonce, plain, nil), nil
@@ -73,12 +73,15 @@ func decryptPack(key, blob []byte) ([]byte, error) {
 }
 
 // embeddedPrivatePacks returns baked-in packs by file name (e.g. "hinduism.js"), decrypting *.js.enc.
-func embeddedPrivatePacks() map[string][]byte {
+func embeddedPrivatePacks() map[string][]byte { return privatePacksFrom(privateEmbedded) }
+
+// privatePacksFrom reads private/*.js and decrypts private/*.js.enc from fsys.
+func privatePacksFrom(fsys fs.FS) map[string][]byte {
 	out := map[string][]byte{}
-	names, _ := fs.Glob(privateEmbedded, "private/*")
+	names, _ := fs.Glob(fsys, "private/*")
 	var key []byte
 	for _, n := range names {
-		b, err := privateEmbedded.ReadFile(n)
+		b, err := fs.ReadFile(fsys, n)
 		if err != nil {
 			continue
 		}

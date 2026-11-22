@@ -1,0 +1,116 @@
+# Backstage software catalog descriptor.
+# https://backstage.io/docs/features/software-catalog/descriptor-format
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: gcse-revision
+  title: GCSE Revision
+  description: Free, offline-first GCSE revision app with signed subject content and an optional local AI helper.
+  annotations:
+    github.com/project-slug: gautampachnanda101/gcse-revision-assistant
+spec:
+  owner: user:gautampachnanda101
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gcse-revision-app
+  title: gcse-revision (CLI, local server and web UI)
+  description: >-
+    Single dependency-free Go binary that serves the embedded revision UI on 127.0.0.1, syncs signed subject
+    packs, manages a per-user background service, upgrades itself and sets up a local AI helper.
+  annotations:
+    github.com/project-slug: gautampachnanda101/gcse-revision-assistant
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: docs/adrs
+    backstage.io/source-location: url:https://github.com/gautampachnanda101/gcse-revision-assistant
+  tags:
+    - go
+    - cli
+    - offline-first
+    - education
+  links:
+    - url: https://github.com/gautampachnanda101/gcse-revision-assistant/releases
+      title: Releases
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: user:gautampachnanda101
+  system: gcse-revision
+  providesApis:
+    - gcse-revision-local-http-api
+    - gcse-revision-pack-format
+  consumesApis:
+    - ollama-http-api
+  dependsOn:
+    - resource:gcse-revision-content-releases
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gcse-revision-local-http-api
+  title: Local HTTP API
+  description: Same-origin HTTP API served on 127.0.0.1 for the embedded web UI. Not reachable from other machines.
+spec:
+  type: openapi
+  lifecycle: production
+  owner: user:gautampachnanda101
+  system: gcse-revision
+  definition:
+    $text: ./docs/api/openapi.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gcse-revision-pack-format
+  title: Subject pack format (JSON Schema 2020-12)
+  description: Open format for subject packs and marking schemas, enforced by `gcse-revision validate` and import.
+spec:
+  type: json-schema
+  lifecycle: production
+  owner: user:gautampachnanda101
+  system: gcse-revision
+  definition:
+    $text: ./schema/gcse-revision-pack.schema.json
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ollama-http-api
+  title: Ollama HTTP API (third party)
+  description: Local Ollama server used by the AI helper (/api/version, /api/tags, /api/pull and chat endpoints).
+  links:
+    - url: https://github.com/ollama/ollama/blob/main/docs/api.md
+      title: Ollama API reference
+spec:
+  type: openapi
+  lifecycle: production
+  owner: user:gautampachnanda101
+  system: gcse-revision
+  definition: |
+    openapi: 3.0.3
+    info:
+      title: Ollama (subset used by gcse-revision)
+      version: external
+      description: Third-party API; see the linked upstream reference. Only the paths the app calls are listed.
+    paths:
+      /api/version:
+        get: {summary: Liveness check, responses: {"200": {description: Server is up}}}
+      /api/tags:
+        get: {summary: List downloaded models, responses: {"200": {description: Model list}}}
+      /api/pull:
+        post: {summary: Download a model (streamed JSON lines), responses: {"200": {description: Progress stream}}}
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: gcse-revision-content-releases
+  title: Signed content releases
+  description: >-
+    Immutable `content-*` GitHub releases holding gcse-revision-content.zip (subjects.js, its ed25519 signature
+    and data/*.js), published by the "Publish content" workflow and downloaded by installed apps at start-up.
+spec:
+  type: github-release-channel
+  owner: user:gautampachnanda101
+  system: gcse-revision

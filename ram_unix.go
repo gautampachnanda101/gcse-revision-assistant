@@ -5,23 +5,21 @@ package main
 import (
 	"bufio"
 	"os"
-	"os/exec"
-	"runtime"
 	"strconv"
 	"strings"
 )
 
 // totalRAMGB returns installed memory in whole GB, or 0 if unknown.
 func totalRAMGB() int {
-	if runtime.GOOS == "darwin" {
-		out, err := exec.Command("sysctl", "-n", "hw.memsize").Output()
+	if hostOS == "darwin" {
+		out, err := execCommand("sysctl", "-n", "hw.memsize").Output()
 		if err != nil {
 			return 0
 		}
 		n, _ := strconv.ParseInt(strings.TrimSpace(string(out)), 10, 64)
 		return int(n >> 30)
 	}
-	f, err := os.Open("/proc/meminfo")
+	f, err := os.Open(procMeminfo)
 	if err != nil {
 		return 0
 	}

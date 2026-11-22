@@ -2,14 +2,11 @@ package main
 
 import (
 	"encoding/json"
-	"flag"
 	"fmt"
 	"io"
 	"net"
 	"net/http"
 	"os"
-	"path/filepath"
-	"runtime"
 	"strconv"
 	"strings"
 )
@@ -67,10 +64,9 @@ func writeUsage(w io.Writer) {
 	fmt.Fprintf(w, "  %s\n", s.dim("build  validate  manifest  sign  verify  keygen  encrypt-private"))
 
 	fmt.Fprintf(w, "\n%s\n", s.bold("Flags"))
-	old := flag.CommandLine.Output()
-	flag.CommandLine.SetOutput(w)
-	flag.PrintDefaults()
-	flag.CommandLine.SetOutput(old)
+	defaults := newFlagSet(&options{})
+	defaults.SetOutput(w)
+	defaults.PrintDefaults()
 	fmt.Fprintf(w, "\n%s %s\n", s.yellow("Private packs:"), privatePacksDir())
 	fmt.Fprintln(w, "Tip: set NO_COLOR=1 for plain help output.")
 }
@@ -158,14 +154,13 @@ complete -c gcse-revision -l no-auto-update -d 'Disable application auto-update'
 }
 
 func runDoctor(opts options) error {
-	exe, err := os.Executable()
+	exe, err := executable()
 	if err != nil {
 		return err
 	}
-	exe, _ = filepath.Abs(exe)
 	s := newANSIStyle(os.Stdout)
 	fmt.Printf("%-20s %s\n", s.dim("Version"), appName+" "+version)
-	fmt.Printf("%-20s %s/%s\n", s.dim("Platform"), runtime.GOOS, runtime.GOARCH)
+	fmt.Printf("%-20s %s/%s\n", s.dim("Platform"), hostOS, hostArch)
 	fmt.Printf("%-20s %s\n", s.dim("Executable"), exe)
 	if packageManagedPath(exe) {
 		fmt.Printf("%-20s %s\n", s.dim("Installation"), s.green("package-managed"))
@@ -173,11 +168,10 @@ func runDoctor(opts options) error {
 		fmt.Printf("%-20s %s\n", s.dim("Installation"), "standalone")
 	}
 	running, _, _ := serviceStatus()
-	state, colour := "stopped", s.yellow("stopped")
+	colour := s.yellow("stopped")
 	if running {
-		state, colour = "running", s.green("running")
+		colour = s.green("running")
 	}
-	_ = state
 	fmt.Printf("%-20s %s\n", s.dim("Background service"), colour)
 	addr := net.JoinHostPort("127.0.0.1", strconv.Itoa(opts.port))
 	healthy := alreadyRunning(addr)

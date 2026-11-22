@@ -39,6 +39,9 @@ var (
 )
 
 func TestMain(m *testing.M) {
+	if isHelperProcess() { // a faked command from the unit-test harness: don't build the e2e binary
+		os.Exit(m.Run())
+	}
 	pub, priv, err := ed25519.GenerateKey(rand.Reader)
 	if err != nil {
 		panic(err)

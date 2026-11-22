@@ -27,22 +27,20 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
-	"runtime"
 	"strings"
 	"sync"
 	"time"
 )
 
 const (
-	phaseIdle        = "idle"
-	phaseDisabled    = "disabled"
-	phaseChecking    = "checking"
-	phaseInstalling  = "installing"
-	phaseStarting    = "starting"
-	phasePulling     = "pulling"
-	phaseReady       = "ready"
-	phaseError       = "error"
-	ollamaReleaseURL = "https://github.com/ollama/ollama/releases/latest/download/"
+	phaseIdle       = "idle"
+	phaseDisabled   = "disabled"
+	phaseChecking   = "checking"
+	phaseInstalling = "installing"
+	phaseStarting   = "starting"
+	phasePulling    = "pulling"
+	phaseReady      = "ready"
+	phaseError      = "error"
 )
 
 type aiStatus struct {
@@ -196,11 +194,13 @@ func (a *aiManager) ensureServer(ctx context.Context) error {
 		}
 	}
 	a.set(phaseStarting, "Starting the AI helper…", -1)
-	cmd := exec.Command(bin, "serve")
+	cmd := execCommand(bin, "serve")
 	cmd.Env = append(os.Environ(), "OLLAMA_HOST="+a.base.Host)
 	logPath := filepath.Join(dataDir(), "ollama.log")
 	if f, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o644); err == nil {
 		cmd.Stdout, cmd.Stderr = f, f
+		// The child gets its own copy of the handle; ours must not stay open (Windows locks open files).
+		defer f.Close()
 	}
 	if err := cmd.Start(); err != nil {
 		return fmt.Errorf("couldn't start %s: %w", bin, err)
@@ -209,21 +209,21 @@ func (a *aiManager) ensureServer(ctx context.Context) error {
 	a.child = cmd
 	a.mu.Unlock()
 	go cmd.Wait()
-	for i := 0; i < 60; i++ {
+	for i := 0; i < ollamaStartPolls; i++ {
 		if a.serverUp(ctx) {
 			return nil
 		}
 		select {
 		case <-ctx.Done():
 			return ctx.Err()
-		case <-time.After(500 * time.Millisecond):
+		case <-time.After(ollamaPollInterval):
 		}
 	}
 	return fmt.Errorf("the AI helper didn't start within 30 seconds — see %s", logPath)
 }
 
 func exeName(n string) string {
-	if runtime.GOOS == "windows" {
+	if hostOS == "windows" {
 		return n + ".exe"
 	}
 	return n
@@ -235,23 +235,10 @@ func findOllama() string {
 	if os.Getenv("GCSE_REVISION_PRIVATE_OLLAMA") == "1" { // testing: ignore any system install
 		return findFile(privateOllamaDir(), exeName("ollama"))
 	}
-	if p, err := exec.LookPath("ollama"); err == nil {
+	if p, err := lookPath("ollama"); err == nil {
 		return p
 	}
-	var cands []string
-	home, _ := os.UserHomeDir()
-	switch runtime.GOOS {
-	case "darwin":
-		cands = append(cands, "/Applications/Ollama.app/Contents/Resources/ollama",
-			filepath.Join(home, "Applications/Ollama.app/Contents/Resources/ollama"),
-			"/opt/homebrew/bin/ollama", "/usr/local/bin/ollama")
-	case "windows":
-		if la := os.Getenv("LOCALAPPDATA"); la != "" {
-			cands = append(cands, filepath.Join(la, `Programs\Ollama\ollama.exe`))
-		}
-	default:
-		cands = append(cands, "/usr/local/bin/ollama", "/usr/bin/ollama")
-	}
+	cands := systemOllamaPaths()
 	if p := findFile(privateOllamaDir(), exeName("ollama")); p != "" {
 		cands = append(cands, p)
 	}
@@ -261,6 +248,26 @@ func findOllama() string {
 		}
 	}
 	return ""
+}
+
+// systemOllamaPaths lists where the Ollama desktop app and package managers put the program (a seam for tests).
+var systemOllamaPaths = systemOllamaPathsDefault
+
+func systemOllamaPathsDefault() []string {
+	home, _ := os.UserHomeDir()
+	switch hostOS {
+	case "darwin":
+		return []string{"/Applications/Ollama.app/Contents/Resources/ollama",
+			filepath.Join(home, "Applications/Ollama.app/Contents/Resources/ollama"),
+			"/opt/homebrew/bin/ollama", "/usr/local/bin/ollama"}
+	case "windows":
+		if la := os.Getenv("LOCALAPPDATA"); la != "" {
+			return []string{filepath.Join(la, `Programs\Ollama\ollama.exe`)}
+		}
+		return nil
+	default:
+		return []string{"/usr/local/bin/ollama", "/usr/bin/ollama"}
+	}
 }
 
 func findFile(root, name string) string {
@@ -276,20 +283,20 @@ func findFile(root, name string) string {
 }
 
 func (a *aiManager) installOllama(ctx context.Context) (string, error) {
-	arch := runtime.GOARCH
+	arch := hostArch
 	var asset string
-	switch runtime.GOOS {
+	switch hostOS {
 	case "darwin":
 		asset = "ollama-darwin.tgz"
 	case "windows":
 		asset = "ollama-windows-" + arch + ".zip"
 	case "linux":
-		if _, err := exec.LookPath("zstd"); err != nil {
+		if _, err := lookPath("zstd"); err != nil {
 			return a.installOllamaScript(ctx)
 		}
 		asset = "ollama-linux-" + arch + ".tar.zst"
 	default:
-		return "", fmt.Errorf("no Ollama build for %s — install it from https://ollama.com", runtime.GOOS)
+		return "", fmt.Errorf("no Ollama build for %s — install it from https://ollama.com", hostOS)
 	}
 	sums, err := httpGet(ctx, ollamaReleaseURL+"sha256sum.txt", 1<<20)
 	if err != nil {
@@ -312,9 +319,11 @@ func (a *aiManager) installOllama(ctx context.Context) (string, error) {
 	}
 	defer os.Remove(tmp.Name())
 	defer tmp.Close()
-	if err := a.download(ctx, ollamaReleaseURL+asset, tmp, want, "Downloading the AI helper (Ollama)"); err != nil {
+	size, err := a.download(ctx, ollamaReleaseURL+asset, tmp, want, "Downloading the AI helper (Ollama)")
+	if err != nil {
 		return "", err
 	}
+	archive := io.NewSectionReader(tmp, 0, size)
 
 	a.set(phaseInstalling, "Unpacking the AI helper…", -1)
 	dest := privateOllamaDir()
@@ -322,12 +331,9 @@ func (a *aiManager) installOllama(ctx context.Context) (string, error) {
 	if err := os.MkdirAll(dest, 0o755); err != nil {
 		return "", err
 	}
-	if _, err := tmp.Seek(0, io.SeekStart); err != nil {
-		return "", err
-	}
 	switch {
 	case strings.HasSuffix(asset, ".tgz"):
-		gz, err := gzip.NewReader(tmp)
+		gz, err := gzip.NewReader(archive)
 		if err != nil {
 			return "", err
 		}
@@ -336,12 +342,11 @@ func (a *aiManager) installOllama(ctx context.Context) (string, error) {
 			return "", err
 		}
 	case strings.HasSuffix(asset, ".zip"):
-		st, _ := tmp.Stat()
-		if err := unzip(tmp, st.Size(), dest); err != nil {
+		if err := unzip(archive, size, dest); err != nil {
 			return "", err
 		}
 	case strings.HasSuffix(asset, ".tar.zst"):
-		zcmd := exec.CommandContext(ctx, "zstd", "-dc", tmp.Name())
+		zcmd := execCommandContext(ctx, "zstd", "-dc", tmp.Name())
 		out, err := zcmd.StdoutPipe()
 		if err != nil {
 			return "", err
@@ -367,11 +372,11 @@ func (a *aiManager) installOllama(ctx context.Context) (string, error) {
 
 // installOllamaScript: Linux without zstd — use Ollama's official installer (asks for sudo in the terminal).
 func (a *aiManager) installOllamaScript(ctx context.Context) (string, error) {
-	if _, err := exec.LookPath("curl"); err != nil {
+	if _, err := lookPath("curl"); err != nil {
 		return "", errors.New("install `zstd` or `curl`, or install Ollama from https://ollama.com")
 	}
 	a.set(phaseInstalling, "Installing the AI helper with Ollama's official installer — check the terminal window, it may ask for your password…", -1)
-	cmd := exec.CommandContext(ctx, "sh", "-c", "curl -fsSL https://ollama.com/install.sh | sh")
+	cmd := execCommandContext(ctx, "sh", "-c", "curl -fsSL https://ollama.com/install.sh | sh")
 	cmd.Stdin, cmd.Stdout, cmd.Stderr = os.Stdin, os.Stdout, os.Stderr
 	if err := cmd.Run(); err != nil {
 		return "", err
@@ -411,31 +416,33 @@ func (p *progressWriter) report() {
 
 func mb(n int64) string { return fmt.Sprintf("%.0f MB", float64(n)/1e6) }
 
-func (a *aiManager) download(ctx context.Context, src string, dst *os.File, wantSHA, label string) error {
+// download streams src into dst, verifying its SHA-256, and returns the number of bytes written.
+func (a *aiManager) download(ctx context.Context, src string, dst io.Writer, wantSHA, label string) (int64, error) {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, src, nil)
 	if err != nil {
-		return err
+		return 0, err
 	}
 	req.Header.Set("User-Agent", appName+"/"+version)
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
-		return err
+		return 0, err
 	}
 	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("download %s: %s", src, resp.Status)
+		return 0, fmt.Errorf("download %s: %s", src, resp.Status)
 	}
 	h := newSHA()
 	pw := &progressWriter{a: a, label: label, total: resp.ContentLength}
-	if _, err := io.Copy(io.MultiWriter(dst, h, pw), resp.Body); err != nil {
-		return err
+	n, err := io.Copy(io.MultiWriter(dst, h, pw), resp.Body)
+	if err != nil {
+		return n, err
 	}
 	pw.report()
 	fmt.Println()
 	if got := fmt.Sprintf("%x", h.Sum(nil)); got != wantSHA {
-		return fmt.Errorf("checksum mismatch for %s", src)
+		return n, fmt.Errorf("checksum mismatch for %s", src)
 	}
-	return nil
+	return n, nil
 }
 
 func safeJoin(dest, name string) (string, error) {
@@ -470,13 +477,22 @@ func untar(r io.Reader, dest string) error {
 				return err
 			}
 		case tar.TypeSymlink:
-			if filepath.IsAbs(h.Linkname) || strings.Contains(h.Linkname, "..") {
+			if unsafeLinkTarget(h.Linkname) {
 				continue
 			}
 			_ = os.MkdirAll(filepath.Dir(p), 0o755)
 			_ = os.Symlink(h.Linkname, p)
 		}
 	}
+}
+
+// unsafeLinkTarget reports whether a symlink target could point outside the extraction folder. Rooted paths
+// such as "/etc/passwd" or "\evil" aren't "absolute" to filepath.IsAbs on Windows, and drive letters ("C:")
+// aren't on Unix, so both are rejected explicitly on every OS. Real archives never need either.
+func unsafeLinkTarget(l string) bool {
+	hasDrive := len(l) >= 2 && l[1] == ':'
+	return filepath.IsAbs(l) || strings.HasPrefix(l, "/") || strings.HasPrefix(l, `\`) || hasDrive ||
+		strings.Contains(l, "..")
 }
 
 func unzip(r io.ReaderAt, size int64, dest string) error {

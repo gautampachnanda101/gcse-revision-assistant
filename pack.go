@@ -478,7 +478,7 @@ const privatePrefix = "private/"
 // privatePackSources lists private packs: those baked into the binary, overridden by the on-disk folder.
 func privatePackSources() map[string][]byte {
 	out := map[string][]byte{}
-	for n, b := range embeddedPrivatePacks() {
+	for n, b := range bakedPrivatePacks() {
 		out[n] = b
 	}
 	files, _ := filepath.Glob(filepath.Join(privatePacksDir(), "*.js"))

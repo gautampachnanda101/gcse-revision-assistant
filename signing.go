@@ -8,7 +8,6 @@ package main
 
 import (
 	"crypto/ed25519"
-	"crypto/rand"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -53,11 +52,11 @@ func signManifest(dir string) error {
 	if err != nil {
 		return err
 	}
-	if err := checkManifestMatchesFiles(dir); err != nil {
-		return err
-	}
 	b, err := os.ReadFile(filepath.Join(dir, "subjects.js"))
 	if err != nil {
+		return err
+	}
+	if err := checkManifestBytes(dir, b); err != nil {
 		return err
 	}
 	sig := base64.StdEncoding.EncodeToString(ed25519.Sign(key, b))
@@ -82,18 +81,15 @@ func verifyDir(dir string) error {
 	if err := verifyManifestSig(b, sig); err != nil {
 		return err
 	}
-	if err := checkManifestMatchesFiles(dir); err != nil {
+	if err := checkManifestBytes(dir, b); err != nil {
 		return err
 	}
 	fmt.Println("Signature and all pack checksums OK.")
 	return nil
 }
 
-func checkManifestMatchesFiles(dir string) error {
-	b, err := os.ReadFile(filepath.Join(dir, "subjects.js"))
-	if err != nil {
-		return err
-	}
+// checkManifestBytes verifies that every pack listed in manifest bytes b exists under dir with the listed hash.
+func checkManifestBytes(dir string, b []byte) error {
 	m, err := parseManifest(b)
 	if err != nil {
 		return err
@@ -114,7 +110,7 @@ func checkManifestMatchesFiles(dir string) error {
 }
 
 func keygen() error {
-	pub, priv, err := ed25519.GenerateKey(rand.Reader)
+	pub, priv, err := ed25519.GenerateKey(randReader)
 	if err != nil {
 		return err
 	}

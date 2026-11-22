@@ -1,0 +1,18 @@
+%% Source for docs/diagrams/components.svg. Regenerate with: sh scripts/render-diagrams.sh
+flowchart TB
+    browser(["Browser"]) --> server
+    term(["Terminal or service manager"]) --> cli
+    subgraph program ["gcse-revision"]
+        server["Web server"]
+        cli["Commands"]
+        subjects["Subjects"]
+        ai["AI helper"]
+        ops["Service and upgrades"]
+        server --> subjects
+        server --> ai
+        cli --> subjects
+        cli --> ops
+    end
+    subjects --> gh[("GitHub")]
+    ai --> ollama[("Ollama or Apple Intelligence")]
+    ops --> osm[("Service manager, Homebrew, Scoop")]
