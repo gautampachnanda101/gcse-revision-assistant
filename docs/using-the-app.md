@@ -33,15 +33,22 @@ starts by itself every time you log in.
 
 ## Revise
 
-1. Choose a subject with **Switch subject**.
+1. Choose a subject with **Switch subject** in the sidebar, or **Subjects** in the mobile navigation.
 2. Open a question and write your answer.
 3. Reveal the **model answer** and the exam tip to compare.
 4. Tick the question as revised, or bookmark it to come back to.
 
 Model answers show one good way to answer. Examiners also accept other correct answers.
 
+Each workspace screen has a **Help with...** section near its heading. The steps are shown by default;
+select the heading to collapse or reopen them. No account or app sign-in is needed.
+
+Open **Settings** from the sidebar or the top bar on a phone to change the theme, choose or import a
+subject, or open AI settings.
+
 ## Keep your progress
 
+**My progress** includes a bar for each paper, showing how many questions you have marked as revised.
 Progress is saved in the browser on that computer. To move it to another computer or browser:
 
 1. Click **Export progress** and save the file.
@@ -60,8 +67,10 @@ The app tries these in order:
 2. A local AI program (Ollama). If it isn't installed, the app can download it, with no administrator
    password. It then downloads a model sized to the computer's memory: `qwen3:1.7b` under 7 GB,
    `llama3.2` from 7 to 13 GB, and `gemma3:4b` from 14 GB. A suitable model you already have is reused.
-3. A cloud service, but only if an adult has set one up in the **Grown-ups** settings. Answers are then
-   sent to that service.
+3. A cloud service, but only after an adult unlocks **Optional cloud AI settings for grown-ups** in
+   **Settings**. This password protects cloud settings, not access to the app. Answers are
+   then sent to that service. The first time, an adult sets a grown-up password. The provider API key is kept in
+   the computer's credential store and is not saved in browser storage or progress backups.
 
 On Windows, a built-in option appears only if a supported local AI bridge is installed.
 

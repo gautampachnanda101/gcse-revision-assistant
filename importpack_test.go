@@ -110,7 +110,7 @@ func TestPrivateFolderIsNotTracked(t *testing.T) {
 }
 
 func TestPrivateResourcesRejectCrossOriginGets(t *testing.T) {
-	h := newHandler("127.0.0.1:8765", newAIManager("", false))
+	h := testHandler(t, "127.0.0.1:8765", newAIManager("", false))
 	req := httptest.NewRequest(http.MethodGet, "http://127.0.0.1:8765/subjects.js", nil)
 	req.Header.Set("Sec-Fetch-Site", "cross-site")
 	res := httptest.NewRecorder()
@@ -128,7 +128,7 @@ func TestPrivateResourcesRejectCrossOriginGets(t *testing.T) {
 }
 
 func TestBuiltInAppleAIEndpointShape(t *testing.T) {
-	h := newHandler("127.0.0.1:8765", newAIManager("", false))
+	h := testHandler(t, "127.0.0.1:8765", newAIManager("", false))
 	req := httptest.NewRequest(http.MethodGet, "http://127.0.0.1:8765/api/llm/builtin", nil)
 	res := httptest.NewRecorder()
 	h.ServeHTTP(res, req)

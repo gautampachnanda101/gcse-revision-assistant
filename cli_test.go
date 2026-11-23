@@ -18,7 +18,7 @@ func TestBrowserURLUsesLocalhostReservation(t *testing.T) {
 }
 
 func TestHandlerAcceptsLocalhostSubdomain(t *testing.T) {
-	h := newHandler("127.0.0.1:8765", newAIManager("", false))
+	h := testHandler(t, "127.0.0.1:8765", newAIManager("", false))
 	req := httptest.NewRequest(http.MethodGet, "http://gcse-revision.localhost:8765/api/info", nil)
 	req.Host = "gcse-revision.localhost:8765"
 	res := httptest.NewRecorder()
@@ -104,6 +104,7 @@ func TestServeExistingInstanceDoesNotDereferenceNilListener(t *testing.T) {
 }
 
 func TestManagedServiceRejectsBusyPort(t *testing.T) {
+	isolateHome(t)
 	ln, err := net.Listen("tcp", "127.0.0.1:0")
 	if err != nil {
 		t.Fatal(err)

@@ -16,6 +16,12 @@ import (
 )
 
 const testHost = "127.0.0.1:8765"
+const testLocalToken = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+
+func testHandler(t *testing.T, host string, ai *aiManager) http.Handler {
+	t.Helper()
+	return newHandler(host, ai, newCloudAIManagerAt(filepath.Join(t.TempDir(), "cloud-ai.json"), newMemoryCredentialStore()), testLocalToken)
+}
 
 func do(t *testing.T, h http.Handler, method, target string, body io.Reader, hdr map[string]string) *httptest.ResponseRecorder {
 	t.Helper()
@@ -45,7 +51,7 @@ func exportedBundle(t *testing.T) []byte {
 
 func TestHandlerHostAndOriginGuards(t *testing.T) {
 	isolateHome(t)
-	h := newHandler(testHost, newAIManager("", false))
+	h := testHandler(t, testHost, newAIManager("", false))
 	for _, host := range []string{testHost, "localhost:8765", "gcse-revision.localhost:8765"} {
 		req := httptest.NewRequest(http.MethodGet, "/api/info", nil)
 		req.Host = host
@@ -81,7 +87,7 @@ func TestHandlerRoutes(t *testing.T) {
 	withOS(t, "linux", "amd64") // no Apple bridge
 	f := newFakeOllama(t, "llama3.2")
 	ai := newAIManager("", false)
-	h := newHandler(testHost, ai)
+	h := testHandler(t, testHost, ai)
 
 	var info map[string]any
 	r := do(t, h, http.MethodGet, "/api/info", nil, nil)
@@ -162,6 +168,8 @@ func TestHandlerRoutes(t *testing.T) {
 	for _, p := range []string{"/", "/app.html", "/index.html"} {
 		if r := do(t, h, http.MethodGet, p, nil, nil); r.Code != http.StatusOK || !strings.Contains(r.Header().Get("Content-Type"), "text/html") {
 			t.Fatalf("%s = %d", p, r.Code)
+		} else if strings.Contains(r.Body.String(), "__GCSE_REVISION_LOCAL_TOKEN__") || !strings.Contains(r.Body.String(), testLocalToken) {
+			t.Fatalf("%s did not receive a live local session token", p)
 		}
 	}
 	if r := do(t, h, http.MethodGet, "/secret.go", nil, nil); r.Code != http.StatusNotFound {

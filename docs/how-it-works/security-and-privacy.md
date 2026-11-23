@@ -9,8 +9,20 @@ The app is used by school students, so it's private by default. Families don't h
 - There are no accounts, no analytics and no adverts.
 - The AI helper runs locally unless an adult connects a cloud service (see
   [The AI helper](../using-the-app.md#the-ai-helper)).
+- Cloud AI requires a grown-up password. Its password verifier and provider API key are stored in the
+  operating system's credential store (macOS Keychain, Windows Credential Manager, or Linux Secret Service);
+  the app keeps only the provider URL and model name in its settings file. If the OS credential store is
+  unavailable, saving fails rather than falling back to plain-text storage.
+- Cloud requests go through the local Go app. The provider key is not returned to the browser, and redirects
+  are not followed. Cloud prompts and answers are still sent to the provider you select.
 - Speaking practice is recorded in the browser tab only. The browser's speech-to-text may use an online
   service, so students are asked to check the transcript before AI feedback.
+
+The local grown-up password is a human access gate for cloud AI settings, not a separate user account. Its
+verifier uses Argon2id, and successful sign-in expires after 15 minutes without activity. Anyone with access
+to the same operating-system account can still use that account's credential store. If the password is
+forgotten, remove the `cloud-ai-grown-up-password` credential for `gcse-revision` in the OS credential
+manager and restart the app; the next adult to open cloud settings can set a new one.
 
 ## Other websites can't use the app
 

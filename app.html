@@ -20,6 +20,10 @@ button,input,select{font:inherit}button{cursor:pointer}.app{min-height:100vh}.si
 @media(max-width:1000px){.sidebar{width:215px}.main{margin-left:215px}.toolbar-top{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.sidebar{display:none}.main{margin-left:0}.topbar{height:66px;padding:0 16px}.top-title{font-size:15px}.top-right .pill:not(.offline):not(.theme-toggle-mobile){display:none}.top-right .theme-toggle-mobile{display:inline-flex}.content{padding:22px 14px 85px}.hero{display:block}.hero h2{font-size:25px}.hero p{font-size:12px;margin-top:6px}.toolbar{padding:12px}.toolbar-top{grid-template-columns:1fr 1fr}.toolbar-top .field:first-child{grid-column:1/-1}.stats{gap:8px}.stat{padding:12px}.stat .value{font-size:22px}.q-trigger{padding:13px 11px;grid-template-columns:30px minmax(0,1fr) auto;gap:9px}.q-number{height:29px;width:29px}.q-text{font-size:12px}.q-body{padding:0 12px 14px}.question-context{align-items:flex-start;flex-direction:column}.answer-panel{padding:12px}.answer-text{font-size:12px}.notes-layout{grid-template-columns:1fr}.module-list{display:flex;overflow-x:auto;max-height:none;padding-bottom:5px}.module-item{min-width:125px}.progress-grid{grid-template-columns:1fr}.mobile-bar{display:flex;position:fixed;bottom:0;left:0;right:0;height:60px;background:var(--glass);border-top:1px solid var(--line);z-index:10;justify-content:space-around;backdrop-filter:blur(12px)}.mobile-bar button{border:0;background:transparent;color:var(--muted);font-size:9px;font-weight:800;display:grid;place-items:center;gap:0}.mobile-bar button span{font-size:18px}.mobile-bar button.active{color:var(--blue-text)}}
 @media(max-width:700px){.author-grid{grid-template-columns:1fr}.author-wide{grid-column:auto}.code-sample{font-size:11px}}
+.screen-help{margin:0 0 18px;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--white);color:var(--ink2)}.screen-help summary{cursor:pointer;color:var(--blue-text);font-weight:750;font-size:13px}.screen-help ol{margin:10px 0 0;padding-left:22px;font-size:13px}.screen-help li+li{margin-top:5px}
+@media(max-width:700px){.mobile-bar button{flex:1;min-width:0;padding:0 2px;font-size:11px}}
+.progress-chart{margin-bottom:13px}.progress-chart h3{margin-bottom:4px}.progress-chart p{margin-bottom:14px}.progress-chart-row{margin-top:12px}.progress-chart-label{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;font-weight:700}.progress-chart progress{display:block;width:100%;height:14px;margin-top:5px;accent-color:var(--blue-text)}@media(max-width:700px){.progress-grid{grid-template-columns:minmax(0,1fr)}.progress-card{min-width:0}}
+.settings-mobile{display:none}.settings-actions{display:grid;gap:8px;margin-top:16px}.settings-actions button{width:100%;margin:0;text-align:left;padding:11px 12px;font-size:13px}.settings-actions .theme-toggle{border:1px solid var(--line);background:var(--white);color:var(--ink)}.settings-actions .theme-toggle:hover{background:var(--tint)}@media(max-width:700px){.settings-mobile{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:20px;background:var(--tint);color:var(--ink);padding:8px 10px;font-size:12px;font-weight:700}}
 
 .answer-banner strong{font-size:13px}.indicative{font-size:9px;border-radius:30px;background:var(--goldbg);color:var(--gold);padding:5px 9px;font-weight:800}
 .author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.author-card{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:18px;box-shadow:var(--shadow)}.author-card h3{margin:0 0 8px;font-size:15px}.author-card ol,.author-card ul{margin:8px 0 0;padding-left:20px;color:var(--ink2);font-size:12px;line-height:1.7}.author-card code{background:var(--tint);padding:2px 5px;border-radius:4px}.code-sample{background:var(--code-bg);color:var(--code-fg);border:1px solid var(--line);padding:14px;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;max-height:420px;overflow:auto}.author-wide{grid-column:1/-1}.author-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}
@@ -45,23 +49,45 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <div class="brand"><div class="brand-icon" aria-hidden="true">ॐ</div><div><h1 id="brand-title">Hinduism Revision</h1><p id="brand-subtitle">Edexcel International GCSE</p></div></div>
 <div class="nav-label">Workspace</div>
 <nav aria-label="Workspace">
-<button class="nav-btn active" data-page="questions"><span class="nav-icon" aria-hidden="true">▤</span>Question bank</button>
+<button class="nav-btn active" data-page="questions" aria-current="page"><span class="nav-icon" aria-hidden="true">▤</span>Question bank</button>
 <button class="nav-btn" data-page="notes"><span class="nav-icon" aria-hidden="true">▧</span>Module notes</button>
 <button class="nav-btn" data-page="progress"><span class="nav-icon" aria-hidden="true">▥</span>My progress</button>
 <button class="nav-btn" data-page="author"><span class="nav-icon" aria-hidden="true">✎</span>Make a subject</button>
 <button class="nav-btn" data-page="marking"><span class="nav-icon" aria-hidden="true">⚖</span>Marking rules</button>
 </nav>
 <button class="nav-btn" id="switch-subject-btn" style="display:none"><span class="nav-icon" aria-hidden="true">🔀</span>Switch subject</button>
+<button class="nav-btn" type="button" data-page="settings"><span class="nav-icon" aria-hidden="true">⚙</span>Settings</button>
 <button class="theme-toggle" data-theme-toggle type="button" aria-label="Switch between light and dark mode">◐ Light / dark</button>
 <div class="sidebar-bottom"><div>All questions and model answers are stored in this file. Your bookmarks and revision ticks are saved in this browser on this device.</div></div>
 </aside>
 <main class="main" id="main-content">
-<header class="topbar"><div><div class="breadcrumb" id="breadcrumb">Religious Studies / Hinduism</div><div class="top-title" id="top-title">Question bank</div></div><div class="top-right"><button class="pill theme-toggle-mobile" data-theme-toggle type="button" aria-label="Switch between light and dark mode">◐ Theme</button><span class="pill" id="app-version">Version</span><span class="pill" id="total-pill">331 prewritten answers</span><span class="pill offline" id="app-mode-status">Checking connection…</span></div></header>
+<header class="topbar"><div><div class="breadcrumb" id="breadcrumb">Religious Studies / Hinduism</div><div class="top-title" id="top-title">Question bank</div></div><div class="top-right"><button class="settings-mobile" type="button" data-page="settings">⚙ Settings</button><span class="pill" id="app-version">Version</span><span class="pill" id="total-pill">331 prewritten answers</span><span class="pill offline" id="app-mode-status">Checking connection…</span></div></header>
 <div class="content">
 <section class="page active" id="page-questions">
-<div class="hero"><div><div class="eyebrow" id="hero-eyebrow">Paper 1 &middot; Paper 2 Hinduism</div><h2>Question bank</h2><p>Choose any question. The &ldquo;View model answer&rdquo; button opens a prewritten exemplar with supporting examples and exam guidance.</p><div class="pill" id="marking-scheme-pill" style="display:inline-flex;margin-top:10px">⚖ No marking plan linked</div></div></div>
+<div class="hero"><div><div class="eyebrow" id="hero-eyebrow">Paper 1 &middot; Paper 2 Hinduism</div><h2>Question bank</h2><p>Choose any question. The &ldquo;View model answer&rdquo; button opens a prewritten exemplar with supporting examples and exam guidance. No account or app sign-in is needed.</p><div class="pill" id="marking-scheme-pill" style="display:inline-flex;margin-top:10px">⚖ No marking plan linked</div></div></div>
+<details class="screen-help" open><summary>Help with the question bank</summary><ol><li>Search or use the paper, module, marks and revision-status filters to find questions.</li><li>Open a question, write an answer and submit it to see the model answer, or reveal the model answer directly.</li><li>Mark questions as revised or bookmark them. AI feedback is optional, unofficial and may be wrong.</li></ol></details>
+<div class="stats" id="stats"></div>
+<div class="toolbar">
+<div class="toolbar-top">
+<div class="field"><label for="search">Search questions</label><input id="search" placeholder="Search a topic, teaching, command word&hellip;" type="search"/></div>
+<div class="field"><label for="module-filter">Module</label><select id="module-filter"><option value="all">All modules</option></select></div>
+<div class="field"><label for="mark-filter">Marks</label><select id="mark-filter"><option value="all">All marks</option><option value="3">3 marks</option><option value="4">4 marks</option><option value="6">6 marks</option><option value="10">10 marks</option><option value="12">12 marks</option></select></div>
+<div class="field"><label for="status-filter">Revision status</label><select id="status-filter"><option value="all">All questions</option><option value="unrevised">Not yet revised</option><option value="revised">Marked as revised</option><option value="bookmarked">Bookmarked</option></select></div>
+</div>
+<div class="toolbar-bottom"><div class="paper-tabs" id="paper-tabs"></div><div class="result-count" id="result-count" aria-live="polite"></div></div>
+</div>
+<div class="question-list" id="question-list"></div>
+<div class="footer-note" id="footer-note">Questions are from the supplied 2027 course question booklets. Model answers are indicative prewritten exemplars based on the supplied course materials and assessment guidance; they are not official Edexcel mark schemes. Accepted answers may vary.</div>
+</section>
+<section class="page" id="page-settings">
+<div class="hero"><div><div class="eyebrow">Your preferences</div><h2>Settings</h2><p>Change your theme, choose a subject or configure the optional AI helper. No account or profile is needed.</p></div></div>
+<details class="screen-help" open><summary>Help with settings</summary><ol><li>Choose a light or dark theme, or switch or import a subject.</li><li>Open local AI settings to connect a helper on this computer, or cloud AI settings for a grown-up to configure a provider.</li></ol></details>
+<div class="settings-actions">
+<button class="theme-toggle" data-theme-toggle type="button" aria-label="Switch between light and dark mode">Light / dark</button>
+<button class="mini-btn" id="settings-subject" type="button">Switch or import a subject</button>
+</div>
 <details class="local-ai-panel" id="local-ai-panel">
-<summary><span class="ai-summary-copy"><h3>🤖 Ask your AI helper</h3><small>Optional · machine-generated answers may be wrong</small></span></summary>
+<summary><span class="ai-summary-copy"><h3>🤖 Local AI settings</h3><small>Optional · machine-generated answers may be wrong</small></span></summary>
 <p>Your AI helper can read what you write and give you friendly tips. By default it runs on this computer, so nothing is sent to the internet — but a grown-up can connect a cloud AI service instead, below. You don't need either — the ready-made model answers always work without it.</p>
 <p class="ai-caveat" role="note">⚠️ Answers from the AI helper are machine-generated, may be wrong, and are not vetted or endorsed by the authors.</p>
 <p class="local-ai-note"><strong>Automatic choice:</strong> use built-in device AI first, then a local AI server, then a cloud provider if you chose one. On supported Macs, Apple Intelligence is detected automatically.</p>
@@ -108,47 +134,51 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <div class="field advanced-field" id="local-ai-custom-field" style="display:none"><label for="local-ai-url">Custom address</label><input id="local-ai-url" value="http://127.0.0.1:8080" spellcheck="false" autocomplete="off"></div>
 <button class="action-btn" id="local-ai-test" style="margin-top:8px">Test this address</button>
 <div class="local-ai-status ai-status-target" id="local-ai-test-status" aria-live="polite" style="margin-top:8px"></div>
-<div class="cloud-ai-toggle">
-<h4>☁️ Or use a cloud AI service instead</h4>
-<p>Needs an internet connection and your own API key from the provider. The key stays on this device only — it is never written to progress backups or synced folders.</p>
+</details>
+</details>
+</details>
+<details class="local-ai-panel cloud-ai-toggle" id="cloud-ai-panel">
+<summary><span class="ai-summary-copy"><h3>☁️ Optional cloud AI settings for grown-ups</h3><small>Separate from app access · password required for cloud settings</small></span></summary>
+<p>Needs an internet connection and your own API key. A grown-up password protects these settings. The key stays in this computer’s system credential store and is never written to browser storage, progress backups or synced folders. Prompts and answers are sent to the selected provider.</p>
 <label class="checkbox-row"><input type="checkbox" id="cloud-ai-enable"> Use a cloud AI service instead of a local one</label>
 <p class="local-ai-note" id="cloud-ai-offline-note" style="display:none">You're offline right now, so cloud AI can't connect until you're back online.</p>
 <div id="cloud-ai-fields" style="display:none">
+<div id="cloud-ai-auth-panel" class="local-ai-note" style="display:none">
+<h4 id="cloud-ai-auth-title">Unlock cloud AI settings</h4>
+<p>Set a grown-up password the first time. It is stored as a password hash in this computer’s credential store. Cloud AI settings stay locked until a grown-up signs in.</p>
+<div class="field advanced-field"><label for="cloud-ai-password">Grown-up password</label><input id="cloud-ai-password" type="password" autocomplete="current-password"></div>
+<div class="field advanced-field" id="cloud-ai-password-confirm-field"><label for="cloud-ai-password-confirm">Confirm password</label><input id="cloud-ai-password-confirm" type="password" autocomplete="new-password"></div>
+<button class="mini-btn" id="cloud-ai-auth-submit" type="button">Set password and unlock</button>
+<div class="local-ai-status" id="cloud-ai-auth-status" role="status" style="margin-top:8px"></div>
+</div>
+<div id="cloud-ai-provider-settings" style="display:none">
 <div class="field advanced-field"><label for="cloud-ai-provider">Provider</label><select id="cloud-ai-provider"></select></div>
 <div class="field advanced-field" id="cloud-ai-endpoint-field" style="display:none"><label for="cloud-ai-endpoint">Endpoint URL</label><input id="cloud-ai-endpoint" placeholder="https://your-provider.example.com/v1" spellcheck="false" autocomplete="off"></div>
 <div class="field advanced-field"><label for="cloud-ai-model">Model name</label><input id="cloud-ai-model" placeholder="e.g. gpt-4o-mini" spellcheck="false" autocomplete="off"></div>
-<div class="field advanced-field"><label for="cloud-ai-key">API key</label><input id="cloud-ai-key" type="password" spellcheck="false" autocomplete="off"></div>
+<div class="field advanced-field"><label for="cloud-ai-key">API key</label><input id="cloud-ai-key" type="password" spellcheck="false" autocomplete="new-password"></div>
 <button class="mini-btn" id="cloud-ai-save">Save &amp; test cloud connection</button>
+<button class="mini-btn" id="cloud-ai-clear" type="button">Remove saved API key</button>
+<button class="mini-btn" id="cloud-ai-lock" type="button">Lock grown-up settings</button>
 <div class="local-ai-status ai-status-target" id="cloud-ai-save-status" aria-live="polite" style="margin-top:8px"></div>
 </div>
 </div>
 </details>
-</details>
-</details>
-<div class="stats" id="stats"></div>
-<div class="toolbar">
-<div class="toolbar-top">
-<div class="field"><label for="search">Search questions</label><input id="search" placeholder="Search a topic, teaching, command word&hellip;" type="search"/></div>
-<div class="field"><label for="module-filter">Module</label><select id="module-filter"><option value="all">All modules</option></select></div>
-<div class="field"><label for="mark-filter">Marks</label><select id="mark-filter"><option value="all">All marks</option><option value="3">3 marks</option><option value="4">4 marks</option><option value="6">6 marks</option><option value="10">10 marks</option><option value="12">12 marks</option></select></div>
-<div class="field"><label for="status-filter">Revision status</label><select id="status-filter"><option value="all">All questions</option><option value="unrevised">Not yet revised</option><option value="revised">Marked as revised</option><option value="bookmarked">Bookmarked</option></select></div>
-</div>
-<div class="toolbar-bottom"><div class="paper-tabs" id="paper-tabs"></div><div class="result-count" id="result-count" aria-live="polite"></div></div>
-</div>
-<div class="question-list" id="question-list"></div>
-<div class="footer-note" id="footer-note">Questions are from the supplied 2027 course question booklets. Model answers are indicative prewritten exemplars based on the supplied course materials and assessment guidance; they are not official Edexcel mark schemes. Accepted answers may vary.</div>
 </section>
 <section class="page" id="page-notes">
 <div class="hero"><div><div class="eyebrow" id="notes-hero-eyebrow">20 modules &middot; full course coverage</div><h2>Module notes</h2><p>Concise, topic-based revision notes drawn from your supplied Paper 1 and Paper 2 course booklets.</p></div></div>
+<details class="screen-help" open><summary>Help with module notes</summary><ol><li>Select a paper, then choose a module to read its revision notes.</li><li>On a narrow screen, scroll the module list sideways to find more modules.</li></ol></details>
 <div class="notes-layout"><aside class="note-menu"><h3>Choose a module</h3><select id="notes-paper"></select><div class="module-list" id="module-list"></div></aside><article class="note-content-card" id="note-display"></article></div>
 </section>
 <section class="page" id="page-progress">
 <div class="hero"><div><div class="eyebrow">Your revision record</div><h2>My progress</h2><p>Keep track of questions you have revised and saved. Progress remains on this device and browser.</p></div></div>
+<details class="screen-help" open><summary>Help with your progress</summary><ol><li>Revision ticks and bookmarks are shown here after you add them in the question bank.</li><li>Use Export progress to back up your answers and progress; use Import a progress backup to restore them on another browser or device.</li><li>Chrome and Edge can also connect a synced folder to save progress automatically.</li></ol></details>
+<section class="progress-card progress-chart" aria-labelledby="progress-chart-title"><h3 id="progress-chart-title">Revision by paper</h3><p>Questions marked as revised out of the total in each paper.</p><div id="progress-chart"></div></section>
 <div class="progress-grid" id="progress-grid"></div>
 <div class="footer-note">No account or cloud connection is used. Use &ldquo;Export progress&rdquo; to make a backup before moving to another device or browser.</div>
 </section>
 <section class="page" id="page-author">
 <div class="hero"><div><div class="eyebrow">For teachers, parents and learners</div><h2>Make your own revision subject</h2><p>Turn your own questions and model answers into a private subject on this computer. Nothing is published or shared.</p></div></div>
+<details class="screen-help" open><summary>Help with making a subject</summary><ol><li>Name your subject and choose its marking rules.</li><li>Add at least one question and model answer, then choose Add it to this computer or save a backup.</li><li>Review AI drafts before use. To import an existing subject, choose Choose a saved subject and then Import pack.</li></ol></details>
 <div class="author-grid">
 <article class="author-card author-wide"><h3>1. Name the subject</h3><div class="field"><label for="author-preset">Start with a subject setup</label><select id="author-preset"></select></div><div class="toolbar-top" style="grid-template-columns:1fr 1fr">
 <div class="field"><label for="author-subject-name">Subject name</label><input id="author-subject-name" value="My Subject" maxlength="60"></div>
@@ -225,6 +255,7 @@ Requirements:
 </section>
 <section class="page" id="page-marking">
 <div class="hero"><div><div class="eyebrow">Admin · reusable AI marking</div><h2>Marking rules</h2><p>Create and check a reusable marking plan. Any linked revision subject can give the same clear instructions to its AI helper.</p></div></div>
+<details class="screen-help" open><summary>Help with marking rules</summary><ol><li>Choose an available starting point and edit its name and rules, or inspect the available plans below.</li><li>Check the rules before saving them on this computer, then select the saved plan when making a subject.</li><li>Board-based guidance may be adaptable rather than official. AI feedback is an unofficial estimate and may be wrong.</li></ol></details>
 <div class="author-grid">
 <article class="author-card"><h3>Choose a starting point</h3><div class="field"><label for="marking-preset">Available rules</label><select id="marking-preset"></select></div><div class="field"><label for="marking-name">Name shown to people</label><input id="marking-name" maxlength="100"></div><div class="field"><label for="marking-dsl">AI-readable marking language</label><textarea class="response-area" id="marking-dsl" style="min-height:260px" spellcheck="false"></textarea></div><div class="author-actions"><button class="answer-button" id="marking-check">Check the rules</button><button class="mini-btn" id="marking-save">Save these rules on this computer</button></div><div class="local-ai-status" id="marking-status" role="status"></div></article>
 <article class="author-card"><h3>How to write rules</h3><p class="local-ai-note">Each line has one instruction. The AI receives both this readable text and a checked structured version.</p><pre class="code-sample">SCHEME My subject
@@ -273,7 +304,7 @@ FEEDBACK give one precise next step</pre><div class="author-actions"><button cla
 </div>
 </main>
 </div>
-<nav class="mobile-bar" aria-label="Workspace"><button class="active" data-page="questions"><span aria-hidden="true">▤</span>Questions</button><button data-page="notes"><span aria-hidden="true">▧</span>Notes</button><button data-page="progress"><span aria-hidden="true">▥</span>Progress</button><button data-page="author"><span aria-hidden="true">✎</span>Make</button><button data-page="marking"><span aria-hidden="true">⚖</span>Rules</button></nav>
+<nav class="mobile-bar" aria-label="Workspace"><button class="active" data-page="questions" aria-current="page"><span aria-hidden="true">▤</span>Questions</button><button data-page="notes"><span aria-hidden="true">▧</span>Notes</button><button data-page="progress"><span aria-hidden="true">▥</span>Progress</button><button data-page="author"><span aria-hidden="true">✎</span>Make</button><button data-page="marking"><span aria-hidden="true">⚖</span>Rules</button><button type="button" id="mobile-switch-subject-btn" aria-label="Switch subject"><span aria-hidden="true">🔀</span>Subjects</button></nav>
 <div class="subject-picker-overlay" id="subject-picker-overlay" style="display:none" role="dialog" aria-modal="true" aria-labelledby="subject-picker-title">
 <div class="subject-picker-card">
 <h3 id="subject-picker-title">Choose a subject</h3>
@@ -321,7 +352,7 @@ const APP_ID=CONFIG.storageId||'gcse_revision_app';
 const DEVICE_ID='revision_app_device_v1';
 const BACKUP_FILENAME=APP_ID.replace(/_/g,'-')+'-revision-progress.json';
 const STORE_KEY=APP_ID+'_preanswer_revision_v1';
-const TITLES={questions:'Question bank',notes:'Module notes',progress:'My progress',author:'Make a subject',marking:'Marking rules'};
+const TITLES={questions:'Question bank',notes:'Module notes',progress:'My progress',author:'Make a subject',marking:'Marking rules',settings:'Settings'};
 const AUTHORING_PRESETS={
  edexcel:{label:'Edexcel Pearson · Religious Studies',name:'Religious Studies',area:'Religious Studies',board:'Edexcel GCSE-style',icon:'✝️',markingId:'edexcel-rs-generic'},
  cambridge0490:{label:'Cambridge IGCSE Religious Studies · 0490',name:'Religious Studies',area:'Religious Studies',board:'Cambridge IGCSE 0490',icon:'🌐',markingId:'cambridge-rs-0490'},
@@ -398,7 +429,7 @@ const firstNote=DATA.notes.find(n=>n.paper===firstNotePaper)||DATA.notes[0];
 let selectedNote=firstNote?firstNote.paper+'|'+firstNote.module:'';
 let expandedId=null;let answerVisible=new Set();let answerSaveTimer=null;
 function loadSaved(){try{return Object.assign({revised:{},bookmarks:{},answers:{},feedback:{}},JSON.parse(localStorage.getItem(STORE_KEY)||'{}'));}catch(e){return {revised:{},bookmarks:{},answers:{},feedback:{}};}}
-function saveSaved(){try{localStorage.setItem(STORE_KEY,JSON.stringify(saved));}catch(e){}scheduleFolderSync();}
+function saveSaved(){try{localStorage.setItem(STORE_KEY,JSON.stringify(saved));}catch(e){}scheduleFolderSync();if(activePage==='progress')renderProgressChart();}
 
 // --- Optional folder sync: connect any folder on this device (including one synced by OneDrive, Google Drive, or iCloud Drive) and save there automatically ---
 const SYNC_DB_NAME=APP_ID+'_sync_db',SYNC_STORE='handles',SYNC_KEY='progress-file';let syncHandle=null,syncDebounceTimer=null;
@@ -423,7 +454,7 @@ function looksLikeGibberish(answer){
  if(letters.length>=4&&new Set(letters.toLowerCase()).size<=2)return true;
  return false;
 }
-function page(name){activePage=name;document.querySelectorAll('.page').forEach(x=>{x.classList.toggle('active',x.id==='page-'+name);x.hidden=x.id!=='page-'+name;});document.querySelectorAll('[data-page]').forEach(x=>{x.classList.toggle('active',x.dataset.page===name);x.setAttribute('aria-current',x.dataset.page===name?'page':'false');});document.getElementById('top-title').textContent=TITLES[name];if(name==='questions')renderQuestions();if(name==='notes')renderNotes();if(name==='progress')renderProgress();window.scrollTo({top:0,behavior:'smooth'});}
+function page(name){activePage=name;document.querySelectorAll('.page').forEach(x=>{x.classList.toggle('active',x.id==='page-'+name);x.hidden=x.id!=='page-'+name;});document.querySelectorAll('[data-page]').forEach(x=>{x.classList.toggle('active',x.dataset.page===name);x.setAttribute('aria-current',x.dataset.page===name?'page':'false');});document.getElementById('top-title').textContent=TITLES[name];if(name==='questions')renderQuestions();if(name==='notes')renderNotes();if(name==='progress'){renderProgress();renderProgressChart();}window.scrollTo({top:0,behavior:'smooth'});}
 document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();page(b.dataset.page);}));
 if('speechSynthesis' in window)speechSynthesis.addEventListener('voiceschanged',()=>{if(activePage==='questions')renderQuestions();},{once:false});
 const authorQuestions=[];
@@ -485,7 +516,7 @@ refreshAuthorSubject();
 document.getElementById('author-preset').addEventListener('change',e=>applyAuthorPreset(e.target.value));
 document.getElementById('author-rule-select').addEventListener('change',updateAuthorRuleSummary);
 document.getElementById('author-manage-rules').addEventListener('click',()=>page('marking'));
-document.getElementById('author-open-ai').addEventListener('click',()=>{document.getElementById('local-ai-panel').open=true;document.getElementById('local-ai-panel').scrollIntoView({behavior:'smooth',block:'center'});});
+document.getElementById('author-open-ai').addEventListener('click',()=>{page('settings');const panel=document.getElementById('local-ai-panel');panel.open=true;panel.querySelector('summary').focus();panel.scrollIntoView({behavior:'smooth',block:'start'});});
 document.getElementById('author-draft-answer').addEventListener('click',async e=>{const q=authorValue('author-question'),status=document.getElementById('author-ai-status'),button=e.currentTarget;if(!q){status.textContent='Write the question first.';status.className='local-ai-status bad';return;}const pack=buildAuthorSubject(),marking=pack.markingSchema,command=document.getElementById('author-command').value,marks=document.getElementById('author-marks').value;button.disabled=true;button.textContent='Thinking…';status.textContent='Drafting from your question and marking rules…';try{const prompt=`Draft an original GCSE-style model answer for a human author to review. Subject: ${pack.config.subjectName}. Board/course: ${pack.config.examBoard}. Command: ${command}. Marks: ${marks}. Question: ${q}.\\n\\nUse only this configured marking plan:\\n${marking.dsl}\\n\\nAlso obey: ${pack.config.aiAuthoringInstructions}\\nReturn only the learner-facing model answer, with no meta-commentary. Do not claim the draft is official or copy a past-paper mark scheme.`;const text=await sendAiChat([{role:'system',content:'You help teachers draft original revision material. You follow only the configured marking DSL and never claim a generated answer is an official mark scheme.'},{role:'user',content:prompt}]);document.getElementById('author-answer').value=text;status.textContent='Draft added. Please review and correct it before saving.';status.className='local-ai-status ok';}catch(err){status.textContent='Your AI helper is not ready. '+err.message;status.className='local-ai-status bad';}finally{button.disabled=false;button.textContent='🤖 Ask AI for a draft answer';}});
 document.getElementById('marking-check').addEventListener('click',checkMarkingEditor);
 document.getElementById('marking-preset').addEventListener('change',e=>loadMarkingEditor(e.target.value));
@@ -538,13 +569,13 @@ document.getElementById('paper-tabs').addEventListener('click',e=>{const b=e.tar
 document.getElementById('question-list').addEventListener('input',e=>{const area=e.target.closest('[data-response]');if(area){typedAnswers[area.dataset.response]=area.value;clearTimeout(answerSaveTimer);answerSaveTimer=setTimeout(saveSaved,500);}});
 document.getElementById('question-list').addEventListener('click',e=>{const record=e.target.closest('[data-record]');if(record){toggleSpeakingRecording(record.dataset.record,record);return;}const play=e.target.closest('[data-play-recording]');if(play){const item=speakingRecordings.get(play.dataset.playRecording);if(item?.url)new Audio(item.url).play();return;}const del=e.target.closest('[data-delete-recording]');if(del){const item=speakingRecordings.get(del.dataset.deleteRecording);if(item?.url)URL.revokeObjectURL(item.url);speakingRecordings.delete(del.dataset.deleteRecording);renderQuestions();return;}const ls=e.target.closest('[data-listen]');if(ls){playQuestionAudio(ls.dataset.listen,ls.dataset.what);return;}const ai=e.target.closest('[data-ai-feedback]');if(ai){requestLocalFeedback(ai.dataset.aiFeedback,ai);return;}const submit=e.target.closest('[data-submit]');if(submit){const id=submit.dataset.submit;const area=document.querySelector(`[data-response=\"${CSS.escape(id)}\"]`);if(area)typedAnswers[id]=area.value;saveSaved();answerVisible.add(id);renderQuestions();return;}const open=e.target.closest('[data-open]');if(open){const id=open.dataset.open;expandedId=expandedId===id?null:id;renderQuestions();return;}const ans=e.target.closest('[data-answer]');if(ans){const id=ans.dataset.answer;if(answerVisible.has(id))answerVisible.delete(id);else answerVisible.add(id);renderQuestions();return;}const rev=e.target.closest('[data-revised]');if(rev){const id=rev.dataset.revised;saved.revised[id]=!saved.revised[id];saveSaved();renderQuestions();return;}const bm=e.target.closest('[data-bookmark]');if(bm){const id=bm.dataset.bookmark;saved.bookmarks[id]=!saved.bookmarks[id];saveSaved();renderQuestions();return;}});
 
-const LOCAL_AI_URL_KEY=DEVICE_ID+'_local_llama_url_v1';const LOCAL_AI_KIND_KEY=DEVICE_ID+'_local_llama_kind_v1';const AI_MODE_KEY=DEVICE_ID+'_ai_mode_v1';const CLOUD_AI_ENDPOINT_KEY=DEVICE_ID+'_cloud_endpoint_v1';const CLOUD_AI_MODEL_KEY=DEVICE_ID+'_cloud_model_v1';const CLOUD_AI_KEY_KEY=DEVICE_ID+'_cloud_apikey_v1';
+const LOCAL_API_TOKEN="__GCSE_REVISION_LOCAL_TOKEN__";const LOCAL_AI_URL_KEY=DEVICE_ID+'_local_llama_url_v1';const LOCAL_AI_KIND_KEY=DEVICE_ID+'_local_llama_kind_v1';const AI_MODE_KEY=DEVICE_ID+'_ai_mode_v1';const CLOUD_AI_ENDPOINT_KEY=DEVICE_ID+'_cloud_endpoint_v1';const CLOUD_AI_MODEL_KEY=DEVICE_ID+'_cloud_model_v1';
 // One-time migration: these settings used to live under the active subject's storage prefix (e.g. "edexcel_hinduism_local_llama_url_v1"),
 // so anyone who connected an AI helper before subjects were split would otherwise lose it the first time this runs. Rescue any such
 // value — from any subject's old prefix, found anywhere in localStorage — into the new device-wide key, once, without overwriting
 // anything a user has already set under the new scheme.
 (function migrateDeviceAiSettingsFromOldSubjectKeys(){
- const suffixes=['_local_llama_url_v1','_local_llama_kind_v1','_ai_mode_v1','_cloud_endpoint_v1','_cloud_model_v1','_cloud_apikey_v1','_wizard_os_v1','_wizard_ram_v1','_wizard_server_v1'];
+ const suffixes=['_local_llama_url_v1','_local_llama_kind_v1','_ai_mode_v1','_cloud_endpoint_v1','_cloud_model_v1','_wizard_os_v1','_wizard_ram_v1','_wizard_server_v1'];
  for(const suffix of suffixes){
   const deviceKey=DEVICE_ID+suffix;
   if(localStorage.getItem(deviceKey)!==null)continue;
@@ -553,6 +584,12 @@ const LOCAL_AI_URL_KEY=DEVICE_ID+'_local_llama_url_v1';const LOCAL_AI_KIND_KEY=D
    if(key&&key!==deviceKey&&key.endsWith(suffix)){localStorage.setItem(deviceKey,localStorage.getItem(key));break;}
   }
  }
+})();
+// Remove API keys saved by older versions; cloud credentials now stay in the OS credential store.
+(function clearOldCloudApiKeys(){
+ const suffix='_cloud_apikey_v1',noticeKey=DEVICE_ID+'_cloud_key_removed_notice_v1';let removed=false;
+ for(let i=localStorage.length-1;i>=0;i--){const key=localStorage.key(i);if(key&&key.endsWith(suffix)){localStorage.removeItem(key);removed=true;}}
+ if(removed)localStorage.setItem(noticeKey,'1');
 })();
 let localAiModel='local-model';let localAiKind=localStorage.getItem(LOCAL_AI_KIND_KEY)||'openai';let aiMode=localStorage.getItem(AI_MODE_KEY)||'local';
 const AI_SERVER_CATALOG=[
@@ -615,12 +652,12 @@ async function sendLocalChat(base,kind,messages){
  const r=await fetch(base+'/v1/chat/completions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:localAiModel,messages,temperature:0.2,max_tokens:650})});if(!r.ok)throw new Error('Server returned HTTP '+r.status);const data=await r.json();const text=data.choices?.[0]?.message?.content?.trim();if(!text)throw new Error('empty response');return text;
 }
 async function sendCloudChat(messages){
- const endpoint=(localStorage.getItem(CLOUD_AI_ENDPOINT_KEY)||'').trim().replace(/\/$/,'');const model=(localStorage.getItem(CLOUD_AI_MODEL_KEY)||'').trim();const apiKey=localStorage.getItem(CLOUD_AI_KEY_KEY)||'';
- if(!endpoint||!model||!apiKey)throw new Error('Add a provider, model name, and API key first.');
  if(!navigator.onLine)throw new Error("you're offline right now");
- const r=await fetch(endpoint+'/chat/completions',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+apiKey},body:JSON.stringify({model,messages,temperature:0.2,max_tokens:650})});
- if(!r.ok)throw new Error('Server returned HTTP '+r.status);const data=await r.json();const text=data.choices?.[0]?.message?.content?.trim();if(!text)throw new Error('empty response');return text;
+ const r=await fetch('/api/cloud-ai/chat/completions',{method:'POST',headers:cloudAuthHeaders({'Content-Type':'application/json'}),body:JSON.stringify({messages})});
+ const data=await r.json().catch(()=>({}));if(r.status===401){cloudSessionToken='';window.dispatchEvent(new Event('gcse-cloud-session-expired'));}if(!r.ok)throw new Error(data.error||('Server returned HTTP '+r.status));const text=data.choices?.[0]?.message?.content?.trim();if(!text)throw new Error('empty response');return text;
 }
+let cloudSessionToken='';
+function cloudAuthHeaders(extra={}){return Object.assign({'Authorization':'Bearer '+LOCAL_API_TOKEN,'X-Cloud-AI-Session':cloudSessionToken},extra);}
 const DEVICE_AI={available:false,ready:false,provider:'Built-in device AI',base:location.origin+'/llm/builtin'};
 async function sendAiChat(messages){if(aiMode==='cloud')return sendCloudChat(messages);if(DEVICE_AI.ready)return sendLocalChat(DEVICE_AI.base,'device',messages);if(BUNDLED_AI.ready)return sendLocalChat(BUNDLED_AI.base,'ollama',messages);return sendLocalChat(localAiBase(),localAiKind||'openai',messages);}
 function setAiMode(mode){aiMode=mode;localStorage.setItem(AI_MODE_KEY,mode);const box=document.getElementById('cloud-ai-enable');const fields=document.getElementById('cloud-ai-fields');if(box)box.checked=mode==='cloud';if(fields)fields.style.display=mode==='cloud'?'block':'none';}
@@ -666,7 +703,7 @@ async function bundledAiSetup(){setAiMode('local');setFindButtonsBusy(true);try{
  try{const r=await fetch('/api/info',{cache:'no-store'});const info=await r.json();if(info.app!=='gcse-revision')return;const v=document.getElementById('app-version');if(v&&info.version)v.textContent='v'+String(info.version).replace(/^v/,'');}catch(e){return;}
  BUNDLED_AI.available=true;
  try{const r=await fetch('/api/llm/builtin',{cache:'no-store'});const d=await r.json();DEVICE_AI.available=!!d.available;DEVICE_AI.ready=DEVICE_AI.available;DEVICE_AI.provider=d.provider||'Built-in device AI';if(DEVICE_AI.ready){aiReadyForDevice=true;updateDeviceStatus();setLocalAiStatus('🎉 '+DEVICE_AI.provider+' is ready on this computer. Nothing you write leaves it.','ok');return;}}catch(e){}
- const gs=document.querySelector('.setup-details summary');if(gs)gs.textContent='🧑‍🔧 Grown-ups: use a different AI server or a cloud service (optional)';
+ const gs=document.querySelector('.setup-details summary');if(gs)gs.textContent='🧑‍🔧 Grown-ups: use a different local AI server (optional)';
  pollBundledAi();
 })();
 document.getElementById('local-ai-detect')?.addEventListener('click',findLocalAi);
@@ -734,27 +771,54 @@ function renderWizard(){
 })();
 // Optional cloud AI: gated to online only, key kept out of progress backups and folder sync.
 (function initCloudAi(){
- const enableBox=document.getElementById('cloud-ai-enable'),fields=document.getElementById('cloud-ai-fields'),offlineNote=document.getElementById('cloud-ai-offline-note'),providerSel=document.getElementById('cloud-ai-provider'),endpointField=document.getElementById('cloud-ai-endpoint-field'),endpointInput=document.getElementById('cloud-ai-endpoint'),modelInput=document.getElementById('cloud-ai-model'),keyInput=document.getElementById('cloud-ai-key'),saveBtn=document.getElementById('cloud-ai-save');
+ const enableBox=document.getElementById('cloud-ai-enable'),fields=document.getElementById('cloud-ai-fields'),offlineNote=document.getElementById('cloud-ai-offline-note'),authPanel=document.getElementById('cloud-ai-auth-panel'),authTitle=document.getElementById('cloud-ai-auth-title'),passwordInput=document.getElementById('cloud-ai-password'),confirmField=document.getElementById('cloud-ai-password-confirm-field'),confirmInput=document.getElementById('cloud-ai-password-confirm'),authButton=document.getElementById('cloud-ai-auth-submit'),authStatus=document.getElementById('cloud-ai-auth-status'),providerSettings=document.getElementById('cloud-ai-provider-settings'),providerSel=document.getElementById('cloud-ai-provider'),endpointField=document.getElementById('cloud-ai-endpoint-field'),endpointInput=document.getElementById('cloud-ai-endpoint'),modelInput=document.getElementById('cloud-ai-model'),keyInput=document.getElementById('cloud-ai-key'),saveBtn=document.getElementById('cloud-ai-save');
  if(!enableBox)return;
  providerSel.innerHTML=CLOUD_AI_PROVIDERS.map(p=>`<option value="${p.endpoint}">${esc(p.label)}</option>`).join('')+'<option value="custom">Custom endpoint…</option>';
- const savedEndpoint=localStorage.getItem(CLOUD_AI_ENDPOINT_KEY),savedModel=localStorage.getItem(CLOUD_AI_MODEL_KEY),savedKey=localStorage.getItem(CLOUD_AI_KEY_KEY);
- if(savedModel)modelInput.value=savedModel;if(savedKey)keyInput.value=savedKey;
- if(savedEndpoint){const known=CLOUD_AI_PROVIDERS.find(p=>p.endpoint===savedEndpoint);if(known){providerSel.value=known.endpoint;}else{providerSel.value='custom';endpointField.style.display='block';endpointInput.value=savedEndpoint;}}
+ const removedKeyNotice=DEVICE_ID+'_cloud_key_removed_notice_v1';
+ if(localStorage.getItem(removedKeyNotice)){setLocalAiStatus('An API key saved by an older version was removed from browser storage. Sign in and enter it again to keep using cloud AI.','bad');localStorage.removeItem(removedKeyNotice);}
+ let passwordConfigured=false,cloudConfigured=false;
+ const selectEndpoint=endpoint=>{const known=CLOUD_AI_PROVIDERS.find(p=>p.endpoint===endpoint);if(known){providerSel.value=known.endpoint;endpointField.style.display='none';}else if(endpoint){providerSel.value='custom';endpointField.style.display='block';endpointInput.value=endpoint;}};
+ const savedEndpoint=localStorage.getItem(CLOUD_AI_ENDPOINT_KEY),savedModel=localStorage.getItem(CLOUD_AI_MODEL_KEY);
+ if(savedModel)modelInput.value=savedModel;if(savedEndpoint)selectEndpoint(savedEndpoint);
+ keyInput.placeholder='Enter an API key to save it in the system credential store.';
+ function updatePanels(){const enabled=enableBox.checked;fields.style.display=enabled?'block':'none';authPanel.style.display=enabled&&!cloudSessionToken?'block':'none';providerSettings.style.display=enabled&&cloudSessionToken?'block':'none';}
+ async function loadCloudConfig(){const r=await fetch('/api/cloud-ai/config',{headers:cloudAuthHeaders()});const j=await r.json();if(!r.ok)throw new Error(j.error||r.statusText);cloudConfigured=Boolean(j.configured);keyInput.placeholder=cloudConfigured?'Saved in the system credential store; leave blank to keep it.':'Enter an API key to save it in the system credential store.';if(j.endpoint)selectEndpoint(j.endpoint);if(j.model)modelInput.value=j.model;}
+ async function loadAuthState(){authButton.disabled=true;try{const r=await fetch('/api/cloud-ai/auth',{headers:{'Authorization':'Bearer '+LOCAL_API_TOKEN}}),j=await r.json();if(!r.ok)throw new Error(j.error||r.statusText);passwordConfigured=Boolean(j.configured);authTitle.textContent=passwordConfigured?'Unlock cloud AI settings':'Set up cloud AI access';confirmField.style.display=passwordConfigured?'none':'block';passwordInput.autocomplete=passwordConfigured?'current-password':'new-password';authButton.textContent=passwordConfigured?'Unlock cloud settings':'Set password and unlock';}catch(e){authStatus.textContent='Cloud settings are unavailable: '+e.message;authStatus.className='local-ai-status bad';}finally{authButton.disabled=false;updatePanels();}}
+ function showExpired(){authStatus.textContent='Your grown-up session expired. Sign in again to continue.';authStatus.className='local-ai-status bad';updatePanels();}
  function updateGating(){const online=navigator.onLine;enableBox.disabled=!online;offlineNote.style.display=online?'none':'block';}
  updateGating();window.addEventListener('online',updateGating);window.addEventListener('offline',updateGating);
- enableBox.checked=aiMode==='cloud';fields.style.display=aiMode==='cloud'?'block':'none';
- enableBox.addEventListener('change',e=>{setAiMode(e.target.checked?'cloud':'local');});
+ enableBox.checked=aiMode==='cloud';updatePanels();loadAuthState();
+ enableBox.addEventListener('change',e=>{setAiMode(e.target.checked?'cloud':'local');updatePanels();});
  providerSel.addEventListener('change',()=>{const val=providerSel.value;endpointField.style.display=val==='custom'?'block':'none';const found=CLOUD_AI_PROVIDERS.find(p=>p.endpoint===val);if(found&&!modelInput.value)modelInput.value=found.modelHint;});
+ authButton.addEventListener('click',async()=>{
+  authButton.disabled=true;authStatus.textContent=passwordConfigured?'Checking password…':'Saving grown-up password…';authStatus.className='local-ai-status';
+  try{
+   const r=await fetch('/api/cloud-ai/auth',{method:'POST',headers:{'Authorization':'Bearer '+LOCAL_API_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({password:passwordInput.value,confirmation:confirmInput.value})}),j=await r.json();
+   if(!r.ok)throw new Error(j.error||r.statusText);
+   cloudSessionToken=j.sessionToken;passwordInput.value='';confirmInput.value='';updatePanels();await loadCloudConfig();authStatus.textContent='Grown-up access unlocked for 15 minutes of inactivity.';authStatus.className='local-ai-status ok';
+  }catch(e){authStatus.textContent=e.message;authStatus.className='local-ai-status bad';}
+  finally{authButton.disabled=false;}
+ });
  saveBtn.addEventListener('click',async()=>{
   const endpoint=providerSel.value==='custom'?endpointInput.value.trim().replace(/\/$/,''):providerSel.value;
   const model=modelInput.value.trim(),apiKey=keyInput.value.trim();
-  localStorage.setItem(CLOUD_AI_ENDPOINT_KEY,endpoint);localStorage.setItem(CLOUD_AI_MODEL_KEY,model);localStorage.setItem(CLOUD_AI_KEY_KEY,apiKey);
-  setAiMode('cloud');
   if(!navigator.onLine){setLocalAiStatus("You're offline right now — reconnect to the internet, then try again.",'bad');return;}
-  setLocalAiStatus('Checking the cloud AI service…');
-  try{await sendCloudChat([{role:'user',content:'Reply with one word: ready.'}]);setLocalAiStatus('🎉 Connected to '+(CLOUD_AI_PROVIDERS.find(p=>p.endpoint===endpoint)?.label||'your cloud AI service')+'.','ok');}
-  catch(e){setLocalAiStatus('Could not connect. ('+e.message+')','bad');}
+  saveBtn.disabled=true;setLocalAiStatus('Saving provider settings…');
+  try{
+   const r=await fetch('/api/cloud-ai/config',{method:'POST',headers:cloudAuthHeaders({'Content-Type':'application/json'}),body:JSON.stringify({endpoint,model,apiKey})}),j=await r.json();
+   if(!r.ok)throw new Error(j.error||r.statusText);
+   cloudConfigured=Boolean(j.configured);localStorage.setItem(CLOUD_AI_ENDPOINT_KEY,endpoint);localStorage.setItem(CLOUD_AI_MODEL_KEY,model);keyInput.value='';setAiMode('cloud');setLocalAiStatus('Settings saved. Checking the cloud AI service…');
+   try{await sendCloudChat([{role:'user',content:'Reply with one word: ready.'}]);setLocalAiStatus('🎉 Connected to '+(CLOUD_AI_PROVIDERS.find(p=>p.endpoint===endpoint)?.label||'your cloud AI service')+'.','ok');}
+   catch(e){setLocalAiStatus('Settings saved, but the provider test failed. ('+e.message+')','bad');}
+  }catch(e){setLocalAiStatus('Could not save provider settings. ('+e.message+')','bad');}
+  finally{saveBtn.disabled=false;}
  });
+ document.getElementById('cloud-ai-clear')?.addEventListener('click',async()=>{
+  try{const r=await fetch('/api/cloud-ai/config',{method:'DELETE',headers:cloudAuthHeaders()}),j=await r.json();if(!r.ok)throw new Error(j.error||r.statusText);cloudConfigured=false;keyInput.placeholder='Enter an API key to save it in the system credential store.';keyInput.value='';setAiMode('local');setLocalAiStatus('Saved cloud API key removed from this computer.','ok');}
+  catch(e){setLocalAiStatus('Could not remove the saved cloud key. ('+e.message+')','bad');}
+ });
+ document.getElementById('cloud-ai-lock')?.addEventListener('click',async()=>{let revokeFailed=false;try{const r=await fetch('/api/cloud-ai/auth',{method:'DELETE',headers:cloudAuthHeaders()});revokeFailed=!r.ok;}catch(e){revokeFailed=true;}finally{cloudSessionToken='';setAiMode('local');updatePanels();authStatus.textContent=revokeFailed?'Settings are locked in this browser, but the server could not revoke the session. Restart the app to end it immediately.':'Grown-up settings locked.';authStatus.className=revokeFailed?'local-ai-status bad':'local-ai-status';}});
+ window.addEventListener('gcse-cloud-session-expired',showExpired);
 })();
 async function requestLocalFeedback(id,button){const q=QUESTIONS.find(x=>x.id===id);if(!q)return;const area=document.querySelector(`[data-response="${CSS.escape(id)}"]`);const answer=area?area.value:(typedAnswers[id]||'');if(area)typedAnswers[id]=answer;saveSaved();if(!answer.trim()){aiFeedback[id]='Write your answer in the box first, then ask your AI helper for tips.';saveSaved();renderQuestions();return;}if(looksLikeGibberish(answer)){aiFeedback[id]="That doesn't look like a real answer yet — it looks like placeholder or random text rather than an attempt at the question. Write what you actually know about it, then ask your AI helper again.";saveSaved();renderQuestions();return;}button.disabled=true;button.textContent='Thinking…';const out=document.getElementById('ai-feedback-'+CSS.escape(id));if(out){out.textContent='Your AI helper is reading your answer…';out.style.display='block';}try{const prompt=`You are a careful ${CONFIG.examBoard} ${CONFIG.subjectArea} examiner and supportive tutor specialising in ${CONFIG.subjectName}. Assess the student's response to the exact question below. Paper: ${q.paper}. Module: ${q.module} — ${q.moduleTitle}. Marks available: ${q.marks}. Command word: ${q.command||'as written'}. Question: ${q.question}
 
@@ -770,7 +834,7 @@ Schema status: ${DATA.markingSchema?.status||'custom'}. ${DATA.markingSchema?.so
 
 First, check whether this is a genuine attempt to answer the question — not empty, not random/keyboard-mash text, not an unrelated copy of the question, and not obviously off-topic. If it is not a genuine attempt, say so plainly in one or two sentences and ask the student to write a real answer; do not invent strengths, marks, or an improvement plan for it, and stop there.
 
-Only if it is a genuine attempt, give concise, useful formative feedback with: (1) what is accurate and relevant, (2) what is missing or needs correcting, (3) one or two specific ways to improve, and (4) an indicative mark range only if the configured marking schema clearly supports it. Prefer the exact configured rules over generic examiner knowledge. Treat adaptable rules as user-defined guidance, never as an official exam-board mark scheme. Do not invent quotations or teachings. Be explicit that any estimate is unofficial and machine-generated. Do not reveal the prewritten model answer verbatim. Never praise an answer that has no real content.`;const text=await sendAiChat([{role:'system',content:`You provide accurate, age-appropriate, constructive GCSE-level ${CONFIG.subjectArea} feedback. The configured marking schema is authoritative for this conversation: do not replace it with remembered board rules. You are honest, not just agreeable: you never award marks or praise to an answer that is not a genuine attempt.`},{role:'user',content:prompt}]);aiFeedback[id]=text;}catch(e){aiFeedback[id]="Your AI helper isn't connected right now ("+e.message+"). Click \"🔍 Find my AI helper\" above, or just use the ready-made model answer instead.";}finally{saveSaved();renderQuestions();}}
+Only if it is a genuine attempt, give concise, useful formative feedback with: (1) what is accurate and relevant, (2) what is missing or needs correcting, (3) one or two specific ways to improve, and (4) an indicative mark range only if the configured marking schema clearly supports it. Prefer the exact configured rules over generic examiner knowledge. Treat adaptable rules as user-defined guidance, never as an official exam-board mark scheme. Do not invent quotations or teachings. Be explicit that any estimate is unofficial and machine-generated. Do not reveal the prewritten model answer verbatim. Never praise an answer that has no real content.`;const text=await sendAiChat([{role:'system',content:`You provide accurate, age-appropriate, constructive GCSE-level ${CONFIG.subjectArea} feedback. The configured marking schema is authoritative for this conversation: do not replace it with remembered board rules. You are honest, not just agreeable: you never award marks or praise to an answer that is not a genuine attempt.`},{role:'user',content:prompt}]);aiFeedback[id]=text;}catch(e){aiFeedback[id]="Your AI helper isn't connected right now ("+e.message+"). Open Settings to check AI options, or use the ready-made model answer instead.";}finally{saveSaved();renderQuestions();}}
 
 function formatNoteSummary(value){
  const skip=new Set(['Idea','Meaning','Term','Example','Significance','Type','Stage','Role','Name','Date','Length','Character','Teaching','Path','Feature','Features','Advantages','Disadvantages',...PAPERS.map(p=>p.label||p.id)]);
@@ -786,6 +850,13 @@ function formatNoteSummary(value){
 function renderNotes(){const paper=document.getElementById('notes-paper').value;const modules=DATA.notes.filter(n=>n.paper===paper).sort((a,b)=>a.module.localeCompare(b.module,undefined,{numeric:true}));const menu=document.getElementById('module-list');menu.innerHTML=modules.map(n=>`<button class="module-item ${selectedNote===n.paper+'|'+n.module?'active':''}" data-note="${esc(n.paper+'|'+n.module)}"><small>MODULE ${esc(n.module)}</small><span>${esc(n.title)}</span></button>`).join('');let n=modules.find(x=>selectedNote===x.paper+'|'+x.module)||modules[0];if(n){selectedNote=n.paper+'|'+n.module;document.getElementById('note-display').innerHTML=`<div class="eyebrow">${esc(n.paper)} · Module ${esc(n.module)}</div><h2>${esc(n.title)}</h2><div class="focus">${esc(n.specFocus||'')}</div><div class="notes-text">${formatNoteSummary(n.summary||'')}</div><div class="source-ref">Source: ${esc(n.sourcePages||'Supplied course booklet')}. Based on the uploaded concise revision booklet for this paper.</div>`;}}
 document.getElementById('notes-paper').addEventListener('change',()=>{const p=document.getElementById('notes-paper').value;const first=DATA.notes.find(n=>n.paper===p);selectedNote=first?first.paper+'|'+first.module:'';renderNotes();});
 document.getElementById('module-list').addEventListener('click',e=>{const b=e.target.closest('[data-note]');if(!b)return;selectedNote=b.dataset.note;renderNotes();});
+function renderProgressChart(){
+ const chart=document.getElementById('progress-chart');
+ chart.innerHTML=PAPERS.map(p=>{
+  const questions=QUESTIONS.filter(q=>q.paper===p.id),revised=questions.filter(q=>saved.revised[q.id]).length,total=questions.length,label=esc(p.label||p.id);
+  return `<div class="progress-chart-row"><div class="progress-chart-label"><span>${label}</span><span>${revised} / ${total} revised</span></div><progress max="${Math.max(total,1)}" value="${revised}" aria-label="${label}" aria-valuetext="${revised} out of ${total} questions revised">${revised} / ${total}</progress></div>`;
+ }).join('')||'<p>No papers available for this subject.</p>';
+}
 function renderProgress(){const total=QUESTIONS.length;const revised=Object.values(saved.revised).filter(Boolean).length;const bookmarks=Object.values(saved.bookmarks).filter(Boolean).length;const byPaper=PAPERS.map(p=>{const qs=QUESTIONS.filter(q=>q.paper===p.id);const n=qs.filter(q=>saved.revised[q.id]).length;return {p:p.label||p.id,n,total:qs.length};});document.getElementById('progress-grid').innerHTML=`<div class="progress-card"><h3>Questions revised</h3><div class="big">${revised} / ${total}</div><p>${Math.round(revised/total*100)}% of the bank marked as revised.</p></div><div class="progress-card"><h3>Bookmarked questions</h3><div class="big">${bookmarks}</div><p>Use bookmarks to build a personal list of questions to revisit.</p></div>${byPaper.map(x=>`<div class="progress-card"><h3>${x.p}</h3><div class="big">${x.n} / ${x.total}</div><p>${Math.round(x.n/x.total*100)}% revised in this paper.</p></div>`).join('')}<div class="progress-card"><h3>🔄 Sync across devices</h3><p>Connect a folder on this computer — including one synced by OneDrive, Google Drive, or iCloud Drive — and your answers and progress save there automatically whenever something changes.</p><div class="submit-row"><button class="answer-button" id="sync-connect">🔗 Connect a synced folder</button><button class="mini-btn" id="sync-save-now">Save now</button><button class="mini-btn" id="sync-load">Load from folder</button></div><div class="local-ai-status" id="sync-status">Not connected yet.</div><p class="local-ai-note">Works in Chrome and Edge. In other browsers, use Export and Import below and save the file into your cloud-synced folder.</p></div><div class="progress-card"><h3>Export your progress</h3><p>Make a JSON backup of your answers, bookmarks and revision ticks. Save it into any OneDrive, Google Drive, or iCloud Drive folder to back it up or move it to another device.</p><button class="answer-button" id="export-progress">Export progress</button></div><div class="progress-card"><h3>Import a progress backup</h3><p>Restore a saved backup — including one opened from your OneDrive, Google Drive, or iCloud Drive folder.</p><input id="import-progress" type="file" accept="application/json" style="margin-top:12px;max-width:100%"></div>`;document.getElementById('export-progress').onclick=()=>{const blob=new Blob([JSON.stringify(saved,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=BACKUP_FILENAME;a.click();URL.revokeObjectURL(a.href);};document.getElementById('import-progress').onchange=async e=>{const file=e.target.files?.[0];if(!file)return;try{const parsed=JSON.parse(await file.text());saved=Object.assign({revised:{},bookmarks:{},answers:{},feedback:{}},parsed);typedAnswers=saved.answers;aiFeedback=saved.feedback;saveSaved();renderQuestions();renderProgress();}catch(err){alert('That file could not be read as a progress backup.');}};document.getElementById('sync-connect').addEventListener('click',connectSyncFolder);document.getElementById('sync-save-now').addEventListener('click',syncNowManual);document.getElementById('sync-load').addEventListener('click',loadFromSyncFolder);restoreSyncHandle();}
 // Make the whole app shell reflect CONFIG, so swapping the subject only means editing the data file — no code changes.
 // Pick a sensible icon from the subject if the data file doesn't specify one explicitly — so new subjects "just work" without hand-picking an icon each time.
@@ -825,7 +896,6 @@ function applyConfig(){
 applyConfig();renderPaperTabs();renderNotesPaperOptions();populateFilters();document.getElementById('total-pill').textContent=`${QUESTIONS.length} questions · ${DATA.notes.length} modules`;
 (function initSubjectSwitcher(){
  const btn=document.getElementById('switch-subject-btn');
- if(SUBJECTS.length<=1)return;
  if(btn)btn.style.display='';
  const overlay=document.getElementById('subject-picker-overlay');
  function renderSubjectPicker(){
@@ -844,8 +914,9 @@ applyConfig();renderPaperTabs();renderNotesPaperOptions();populateFilters();docu
  const background=[document.querySelector('.app'),document.querySelector('.mobile-bar')].filter(Boolean);
  const focusable=()=>[...overlay.querySelectorAll('button:not([disabled]),input:not([disabled]),[href],[tabindex]:not([tabindex="-1"])')].filter(el=>el.offsetParent!==null);
  const close=()=>{if(!overlay||overlay.style.display==='none')return;overlay.style.display='none';background.forEach(el=>el.removeAttribute('inert'));if(previousFocus&&previousFocus.isConnected)previousFocus.focus();};
- const open=()=>{renderSubjectPicker();previousFocus=document.activeElement;overlay.style.display='flex';background.forEach(el=>el.setAttribute('inert',''));requestAnimationFrame(()=>{const first=(search?.offsetParent!==null&&search)||focusable()[0];first?.focus();});};
+ const open=()=>{renderSubjectPicker();previousFocus=document.activeElement;overlay.style.display='flex';background.forEach(el=>el.setAttribute('inert',''));const first=(search?.offsetParent!==null&&search)||focusable()[0];first?.focus();};
  btn?.addEventListener('click',open);
+ document.getElementById('mobile-switch-subject-btn')?.addEventListener('click',open);
  overlay?.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();return;}if(e.key!=='Tab')return;const items=focusable();if(!items.length)return;const first=items[0],last=items[items.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});
  const impBtn=document.getElementById('subject-import-btn'),impFile=document.getElementById('subject-import-file'),impMsg=document.getElementById('subject-import-msg');
  impBtn?.addEventListener('click',()=>impFile.click());
@@ -857,6 +928,7 @@ applyConfig();renderPaperTabs();renderNotesPaperOptions();populateFilters();docu
  document.getElementById('subject-picker-close')?.addEventListener('click',close);
  document.getElementById('subject-picker-choices')?.addEventListener('click',e=>{const b=e.target.closest('[data-index]');if(!b)return;switchSubject(Number(b.dataset.index));});
 })();
+document.getElementById('settings-subject').addEventListener('click',()=>document.getElementById('switch-subject-btn').click());
 renderQuestions();
 </script>
 </body>
