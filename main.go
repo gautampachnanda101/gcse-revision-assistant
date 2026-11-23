@@ -1,9 +1,10 @@
-// gcse-revision: a single, dependency-free binary that serves the GCSE revision app on localhost,
+// gcse-revision: a single binary that serves the GCSE revision app on localhost,
 // keeps subject packs up to date from the public repo (when online), and sets up a local AI helper
 // (Ollama + a model sized to this machine). Everything keeps working offline once installed.
 package main
 
 import (
+	"bytes"
 	"context"
 	"embed"
 	"encoding/json"
@@ -244,6 +245,7 @@ func serveContext(ctx context.Context, opts options) error {
 			return err
 		}
 	}
+	defer ln.Close()
 	activePort := opts.port
 	if tcp, ok := ln.Addr().(*net.TCPAddr); ok {
 		activePort = tcp.Port
@@ -264,7 +266,15 @@ func serveContext(ctx context.Context, opts options) error {
 	if opts.noAI {
 		ai.disable()
 	}
-	srv := &http.Server{Handler: newHandler(ln.Addr().String(), ai), ReadHeaderTimeout: 10 * time.Second}
+	cloudAI, err := newCloudAIManager()
+	if err != nil {
+		return err
+	}
+	localToken, err := newLocalAuthToken()
+	if err != nil {
+		return err
+	}
+	srv := &http.Server{Handler: newHandler(ln.Addr().String(), ai, cloudAI, localToken), ReadHeaderTimeout: 10 * time.Second}
 
 	go func() {
 		<-ctx.Done()
@@ -331,7 +341,7 @@ func openBrowser(url string) {
 
 // newHandler serves the embedded app + subject packs and the local AI endpoints.
 // It only answers requests addressed to this exact host (blocks DNS-rebinding from other sites).
-func newHandler(host string, ai *aiManager) http.Handler {
+func newHandler(host string, ai *aiManager, cloudAI *cloudAIManager, localToken string) http.Handler {
 	mux := http.NewServeMux()
 	staticFS, _ := fs.Sub(embedded, ".")
 
@@ -376,6 +386,96 @@ func newHandler(host string, ai *aiManager) http.Handler {
 		go ai.ensure(context.Background())
 		writeJSON(w, ai.status())
 	})
+	mux.HandleFunc("/api/cloud-ai/auth", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Cache-Control", "no-store")
+		if !hasLocalAuth(r, localToken) {
+			writeCloudAIError(w, http.StatusUnauthorized, errors.New("local session authentication required"))
+			return
+		}
+		switch r.Method {
+		case http.MethodGet:
+			configured, err := cloudAI.auth.configured()
+			if err != nil {
+				writeCloudAIError(w, http.StatusServiceUnavailable, err)
+				return
+			}
+			writeJSON(w, map[string]bool{"configured": configured})
+		case http.MethodPost:
+			var request struct {
+				Password     string `json:"password"`
+				Confirmation string `json:"confirmation"`
+			}
+			if err := decodeCloudJSON(w, r, 16<<10, &request); err != nil {
+				writeCloudAIError(w, http.StatusBadRequest, errors.New("invalid authentication request"))
+				return
+			}
+			token, err := cloudAI.auth.login(request.Password, request.Confirmation)
+			if err != nil {
+				writeCloudAIError(w, http.StatusUnauthorized, err)
+				return
+			}
+			writeJSON(w, map[string]any{"authenticated": true, "sessionToken": token})
+		case http.MethodDelete:
+			cloudAI.auth.revoke(r.Header.Get("X-Cloud-AI-Session"))
+			writeJSON(w, map[string]bool{"authenticated": false})
+		default:
+			w.Header().Set("Allow", "GET, POST, DELETE")
+			writeCloudAIError(w, http.StatusMethodNotAllowed, errors.New("method not allowed"))
+		}
+	})
+	mux.HandleFunc("/api/cloud-ai/config", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Cache-Control", "no-store")
+		if !hasLocalAuth(r, localToken) || !cloudAI.auth.authorize(r.Header.Get("X-Cloud-AI-Session")) {
+			writeCloudAIError(w, http.StatusUnauthorized, errors.New("grown-up sign-in required"))
+			return
+		}
+		switch r.Method {
+		case http.MethodGet:
+			status, err := cloudAI.status()
+			if err != nil {
+				writeCloudAIError(w, http.StatusServiceUnavailable, err)
+				return
+			}
+			writeJSON(w, status)
+		case http.MethodPost:
+			var request struct {
+				Endpoint string `json:"endpoint"`
+				Model    string `json:"model"`
+				APIKey   string `json:"apiKey"`
+			}
+			if err := decodeCloudJSON(w, r, 16<<10, &request); err != nil {
+				writeCloudAIError(w, http.StatusBadRequest, errors.New("invalid cloud AI settings"))
+				return
+			}
+			if err := cloudAI.save(cloudAIConfig{Endpoint: request.Endpoint, Model: request.Model}, request.APIKey); err != nil {
+				writeCloudAIError(w, http.StatusBadRequest, err)
+				return
+			}
+			status, err := cloudAI.status()
+			if err != nil {
+				writeCloudAIError(w, http.StatusServiceUnavailable, err)
+				return
+			}
+			writeJSON(w, status)
+		case http.MethodDelete:
+			if err := cloudAI.clear(); err != nil {
+				writeCloudAIError(w, http.StatusInternalServerError, err)
+				return
+			}
+			writeJSON(w, map[string]bool{"configured": false})
+		default:
+			w.Header().Set("Allow", "GET, POST, DELETE")
+			writeCloudAIError(w, http.StatusMethodNotAllowed, errors.New("method not allowed"))
+		}
+	})
+	mux.HandleFunc("/api/cloud-ai/chat/completions", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Cache-Control", "no-store")
+		if !hasLocalAuth(r, localToken) || !cloudAI.auth.authorize(r.Header.Get("X-Cloud-AI-Session")) {
+			writeCloudAIError(w, http.StatusUnauthorized, errors.New("grown-up sign-in required"))
+			return
+		}
+		cloudAI.chat(w, r)
+	})
 	mux.Handle("/llm/", ai.proxy())
 	mux.HandleFunc("/api/import", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != http.MethodPost {
@@ -417,8 +517,9 @@ func newHandler(host string, ai *aiManager) http.Handler {
 			return
 		}
 		b, _ := fs.ReadFile(staticFS, "app.html")
+		b = bytes.ReplaceAll(b, []byte("__GCSE_REVISION_LOCAL_TOKEN__"), []byte(localToken))
 		w.Header().Set("Content-Type", "text/html; charset=utf-8")
-		w.Header().Set("Cache-Control", "no-cache")
+		w.Header().Set("Cache-Control", "no-store")
 		_, _ = w.Write(b)
 	})
 

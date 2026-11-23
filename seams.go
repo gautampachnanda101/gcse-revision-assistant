@@ -2,12 +2,16 @@ package main
 
 import (
 	"crypto/rand"
+	"encoding/json"
 	"net"
+	"net/http"
 	"os"
 	"os/exec"
 	"os/user"
 	"runtime"
 	"time"
+
+	"github.com/zalando/go-keyring"
 )
 
 // Test seams. Production code reaches the operating system through these variables instead of calling runtime,
@@ -28,6 +32,12 @@ var (
 	bakedPrivatePacks  = embeddedPrivatePacks // packs compiled in from ./private (empty in public builds)
 	listen             = net.Listen
 	randReader         = rand.Reader
+	userConfigDir      = os.UserConfigDir
+	keyringGet         = keyring.Get
+	keyringSet         = keyring.Set
+	keyringDelete      = keyring.Delete
+	marshalCloudJSON   = json.Marshal
+	newCloudRequest    = http.NewRequestWithContext
 	rename             = os.Rename
 	chmod              = os.Chmod
 

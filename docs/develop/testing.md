@@ -21,10 +21,20 @@ The last line must say `100.0%`. To see which functions are missing tests:
 
     go tool cover -func=coverage.out | awk '$3 != "100.0%"'
 
+To check the real OS credential store separately on a machine with an unlocked credential store:
+
+    GCSE_TEST_SYSTEM_KEYRING=1 GOWORK=off \
+      go test -run '^TestSystem(CredentialStoreRoundTrip|CloudAIFlow)$' -v .
+
+These opt-in tests create and remove uniquely named disposable credentials. They exercise cloud sign-in,
+settings and chat with a local mock provider, but do not test an actual cloud-provider connection. They
+may require permission from the operating system.
+
 ## How the tests avoid touching your computer
 
 The program controls services, installs software and replaces itself. Tests must not do any of that for
-real. So every operating-system call goes through a variable in `seams.go`, and tests replace those
+real. Except for the explicitly opt-in credential-store tests above, operating-system calls use test
+substitutes. Many calls go through a variable in `seams.go`, and tests replace those
 variables.
 
 - To pretend to be another operating system, use `withOS(t, "windows", "amd64")`.
